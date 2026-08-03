@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://daily-jobs.local/schemas/profile.schema.json",
+  "title": "Daily Jobs Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "profile_name",
+    "status",
+    "timezone",
+    "created_at",
+    "updated_at",
+    "search_scope",
+    "target_roles",
+    "work_preferences",
+    "company_preferences",
+    "other_constraints",
+    "ranking_rules",
+    "search_behavior"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "profile_name": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["draft", "approved", "needs_review"] },
+    "timezone": { "type": "string", "minLength": 1 },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "search_scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["locations", "workplace_arrangements", "compensation", "employment_types", "seniority"],
+      "properties": {
+        "locations": { "$ref": "#/$defs/stringList" },
+        "workplace_arrangements": { "type": "array", "items": { "enum": ["remote", "hybrid", "on-site"] }, "uniqueItems": true },
+        "compensation": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "required": ["minimum", "maximum", "currency", "basis", "period", "published_required"],
+          "properties": {
+            "minimum": { "type": ["number", "null"], "minimum": 0 },
+            "maximum": { "type": ["number", "null"], "minimum": 0 },
+            "currency": { "type": ["string", "null"] },
+            "basis": { "enum": ["base", "total", "either", "unknown"] },
+            "period": { "enum": ["hour", "month", "year", "unknown"] },
+            "published_required": { "type": "boolean" }
+          }
+        },
+        "employment_types": { "$ref": "#/$defs/stringList" },
+        "seniority": { "$ref": "#/$defs/stringList" }
+      }
+    },
+    "target_roles": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primary_titles", "adjacent_titles", "title_keywords", "excluded_titles"],
+      "properties": {
+        "primary_titles": { "$ref": "#/$defs/stringList" },
+        "adjacent_titles": { "$ref": "#/$defs/stringList" },
+        "title_keywords": { "$ref": "#/$defs/stringList" },
+        "excluded_titles": { "$ref": "#/$defs/stringList" }
+      }
+    },
+    "work_preferences": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["must_have", "nice_to_have", "avoid", "technologies_to_use", "technologies_to_learn", "technologies_to_avoid"],
+      "properties": {
+        "must_have": { "$ref": "#/$defs/stringList" },
+        "nice_to_have": { "$ref": "#/$defs/stringList" },
+        "avoid": { "$ref": "#/$defs/stringList" },
+        "technologies_to_use": { "$ref": "#/$defs/stringList" },
+        "technologies_to_learn": { "$ref": "#/$defs/stringList" },
+        "technologies_to_avoid": { "$ref": "#/$defs/stringList" }
+      }
+    },
+    "company_preferences": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["preferred", "excluded", "stages", "sizes"],
+      "properties": {
+        "preferred": { "$ref": "#/$defs/stringList" },
+        "excluded": { "$ref": "#/$defs/stringList" },
+        "stages": { "$ref": "#/$defs/stringList" },
+        "sizes": { "$ref": "#/$defs/stringList" }
+      }
+    },
+    "other_constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["work_authorization", "travel_schedule", "required_benefits", "stretch_role_tolerance"],
+      "properties": {
+        "work_authorization": { "type": ["string", "null"] },
+        "travel_schedule": { "type": ["string", "null"] },
+        "required_benefits": { "$ref": "#/$defs/stringList" },
+        "stretch_role_tolerance": { "type": ["string", "null"] }
+      }
+    },
+    "ranking_rules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["priority", "criterion"],
+        "properties": {
+          "priority": { "type": "integer", "minimum": 1 },
+          "criterion": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "search_behavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date_window", "preferred_sources", "include_unknown_salary", "canonical_links_only"],
+      "properties": {
+        "date_window": { "const": "current_calendar_week" },
+        "preferred_sources": { "$ref": "#/$defs/stringList" },
+        "include_unknown_salary": { "type": "boolean" },
+        "canonical_links_only": { "type": "boolean" }
+      }
+    }
+  },
+  "$defs": {
+    "stringList": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://daily-jobs.local/schemas/search-run.schema.json",
+  "title": "Daily Jobs Search Run",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "run_id", "profile_name", "started_at", "completed_at", "date_range", "queries", "jobs", "excluded_candidates", "unproductive_sources"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "run_id": { "type": "string", "minLength": 1 },
+    "profile_name": { "type": "string", "minLength": 1 },
+    "started_at": { "type": "string", "format": "date-time" },
+    "completed_at": { "type": "string", "format": "date-time" },
+    "date_range": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end", "timezone"],
+      "properties": {
+        "start": { "type": "string", "format": "date" },
+        "end": { "type": "string", "format": "date" },
+        "timezone": { "type": "string", "minLength": 1 }
+      }
+    },
+    "queries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["query", "source", "candidate_count"],
+        "properties": {
+          "query": { "type": "string", "minLength": 1 },
+          "source": { "type": "string", "minLength": 1 },
+          "candidate_count": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "jobs": { "type": "array", "items": { "$ref": "#/$defs/job" } },
+    "excluded_candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "company", "url", "reason"],
+        "properties": {
+          "title": { "type": "string" },
+          "company": { "type": "string" },
+          "url": { "type": ["string", "null"], "format": "uri" },
+          "reason": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "unproductive_sources": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true }
+  },
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["claim", "value", "source_url", "source_text", "verified_at"],
+      "properties": {
+        "claim": { "type": "string", "minLength": 1 },
+        "value": {},
+        "source_url": { "type": "string", "format": "uri" },
+        "source_text": { "type": ["string", "null"] },
+        "verified_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "job": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["job_key", "title", "company", "canonical_url", "location", "workplace_arrangement", "compensation", "posted_date", "employment_type", "seniority", "match_score", "why_it_fits", "concerns", "evidence"],
+      "properties": {
+        "job_key": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "company": { "type": "string", "minLength": 1 },
+        "canonical_url": { "type": "string", "format": "uri" },
+        "discovery_urls": { "type": "array", "items": { "type": "string", "format": "uri" }, "uniqueItems": true },
+        "location": { "type": ["string", "null"] },
+        "workplace_arrangement": { "enum": ["remote", "hybrid", "on-site", "unknown"] },
+        "compensation": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "required": ["minimum", "maximum", "currency", "basis", "period", "source_text"],
+          "properties": {
+            "minimum": { "type": ["number", "null"], "minimum": 0 },
+            "maximum": { "type": ["number", "null"], "minimum": 0 },
+            "currency": { "type": ["string", "null"] },
+            "basis": { "enum": ["base", "total", "either", "unknown"] },
+            "period": { "enum": ["hour", "month", "year", "unknown"] },
+            "source_text": { "type": ["string", "null"] }
+          }
+        },
+        "posted_date": { "type": ["string", "null"], "format": "date" },
+        "employment_type": { "type": ["string", "null"] },
+        "seniority": { "type": ["string", "null"] },
+        "match_score": { "type": "number", "minimum": 0, "maximum": 100 },
+        "why_it_fits": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "concerns": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" } }
+      }
+    }
+  }
+}
