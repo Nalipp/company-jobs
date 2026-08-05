@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-08-03-profile-change-backfill-review-retry-1",
+  "profile_name": "default",
+  "started_at": "2026-08-03T11:51:00-07:00",
+  "completed_at": "2026-08-03T11:58:00-07:00",
+  "updated_at": "2026-08-03T12:54:00-07:00",
+  "date_range": {
+    "start": "2026-06-05",
+    "end": "2026-08-03",
+    "timezone": "America/Los_Angeles"
+  },
+  "queries": [
+    {
+      "query": "OpenAI Applied AI Engineer GTM Growth Engineering official workplace policy",
+      "source": "OpenAI careers, OpenAI Ashby feed, and targeted official-site search",
+      "candidate_count": 1
+    },
+    {
+      "query": "Fuel Talent Product Engineer work intelligence layer employer identity and canonical posting",
+      "source": "LinkedIn, targeted phrase search, Fluency employer site, and Fluency Ashby feed",
+      "candidate_count": 1
+    },
+    {
+      "query": "Epic Placements Frontend Engineer healthcare AI Hebbia employer identity and canonical posting",
+      "source": "Epic Placements, targeted phrase search, Latent employer site, and Latent Ashby feed",
+      "candidate_count": 1
+    }
+  ],
+  "jobs": [
+    {
+      "job_key": "openai-applied-ai-software-engineer-gtm-growth",
+      "title": "Applied AI Engineer, GTM Growth Engineering",
+      "company": "OpenAI",
+      "canonical_url": "https://openai.com/careers/applied-ai-engineer-gtm-growth-engineering-san-francisco/",
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/openai/38e3c4bf-a632-405e-9619-b87382ca2472",
+        "https://openai.com/careers/applied-ai-engineer-gtm-growth-engineering-san-francisco/"
+      ],
+      "location": "San Francisco",
+      "workplace_arrangement": "hybrid",
+      "job_site": {
+        "raw_address": "1455 3rd Street, San Francisco, CA 94158",
+        "formatted_address": "1455 3rd Street, San Francisco, CA 94158, USA",
+        "latitude": 37.7700459,
+        "longitude": -122.3887896,
+        "source_url": "https://openai.com/policies/terms-of-use/",
+        "source_type": "employer_location_page",
+        "source_text": "OpenAI's current official Terms of Use publish OpenAI OpCo, LLC at 1455 3rd Street, San Francisco, CA 94158.",
+        "validation_status": "verified",
+        "map_eligibility": "eligible",
+        "validation_method": "company_office_proxy",
+        "confidence": "medium",
+        "validated_at": "2026-08-03T12:54:00-07:00",
+        "notes": "The official role page independently confirms this is a hybrid San Francisco role. This pin is a documented OpenAI company-address proxy; the exact job site is not confirmed."
+      },
+      "compensation": {
+        "minimum": 230000,
+        "maximum": 385000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$230K-$385K plus equity."
+      },
+      "posted_date": "2026-07-25",
+      "employment_type": "Full-time",
+      "seniority": "Mid-level to senior (4+ years)",
+      "culture_fit": {
+        "summary": "unknown",
+        "credential_alignment": "positive",
+        "background_openness": "unknown",
+        "career_stage_alignment": "positive",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "credential_alignment",
+            "value": "experience-based qualifications",
+            "source_url": "https://openai.com/careers/applied-ai-engineer-gtm-growth-engineering-san-francisco/",
+            "source_text": "The posting asks for 4+ years of relevant engineering experience and does not list a degree requirement.",
+            "verified_at": "2026-08-03T11:58:00-07:00"
+          },
+          {
+            "claim": "career_stage_alignment",
+            "value": "4+ years",
+            "source_url": "https://openai.com/careers/applied-ai-engineer-gtm-growth-engineering-san-francisco/",
+            "source_text": "The posting targets engineers with 4+ years of software, backend, applied-AI, or product-engineering experience.",
+            "verified_at": "2026-08-03T11:58:00-07:00"
+          }
+        ],
+        "concerns": [
+          "The posting provides no attributable evidence about predictable hours, nights, weekends, or on-call expectations, so work-life fit remains unknown."
+        ]
+      },
+      "match_score": 89,
+      "why_it_fits": [
+        "Exact AI-and-growth role with a current San Francisco canonical employer page and compensation above the target.",
+        "Builds agent workflows, feedback loops, evaluation, experiments, and measurable growth improvements with Product, Data, Sales, and Marketing partners.",
+        "The production-monitoring responsibility is focused on agent quality and business outcomes rather than site reliability or continuous deployment operations."
+      ],
+      "concerns": [
+        "The role is backend-heavy and less frontend-led than the user's strongest preference.",
+        "It includes production instrumentation and monitoring, though the description frames this as agent-quality improvement rather than DevOps or uptime ownership.",
+        "OpenAI is much larger than the preferred mid-size employer, and predictable-hours evidence is unavailable."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://openai.com/careers/applied-ai-engineer-gtm-growth-engineering-san-francisco/",
+          "source_text": "The employer careers page currently exposes the role and an active Apply action.",
+          "verified_at": "2026-08-03T11:58:00-07:00"
+        },
+        {
+          "claim": "posted_date",
+          "value": "2026-07-25",
+          "source_url": "https://jobs.ashbyhq.com/openai/38e3c4bf-a632-405e-9619-b87382ca2472",
+          "source_text": "OpenAI's official ATS feed reports publishedAt 2026-07-25.",
+          "verified_at": "2026-08-03T11:58:00-07:00"
+        },
+        {
+          "claim": "workplace",
+          "value": "hybrid, three days per week in San Francisco",
+          "source_url": "https://openai.com/careers/software-engineer-research-developer-productivity-san-francisco/",
+          "source_text": "OpenAI's official policy text says that a San Francisco role uses a hybrid model of three days in the office per week.",
+          "verified_at": "2026-08-03T11:58:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai",
+          "value": "AI-native GTM agent workflows and improvement loops",
+          "source_url": "https://openai.com/careers/applied-ai-engineer-gtm-growth-engineering-san-francisco/",
+          "source_text": "The engineer owns production improvement loops across agent behavior, feedback, evaluation, experimentation, and verified business outcomes.",
+          "verified_at": "2026-08-03T11:58:00-07:00"
+        },
+        {
+          "claim": "growth_product_scope",
+          "value": "customer engagement, pipeline, and conversion",
+          "source_url": "https://openai.com/careers/applied-ai-engineer-gtm-growth-engineering-san-francisco/",
+          "source_text": "The team measures success through customer engagement, pipeline, conversion, and sales and marketing effectiveness.",
+          "verified_at": "2026-08-03T11:58:00-07:00"
+        },
+        {
+          "claim": "compensation",
+          "value": "$230K-$385K plus equity",
+          "source_url": "https://openai.com/careers/applied-ai-engineer-gtm-growth-engineering-san-francisco/",
+          "source_text": "The canonical employer page publishes $230K-$385K plus equity.",
+          "verified_at": "2026-08-03T11:58:00-07:00"
+        }
+      ]
+    }
+  ],
+  "review_leads": [],
+  "excluded_candidates": [
+    {
+      "title": "Software Engineer, Product",
+      "company": "Fluency",
+      "url": "https://jobs.ashbyhq.com/fluency/8cdfa269-ddd4-44e8-b440-b36c9455769c",
+      "reason": "Targeted phrase matching identified the confidential Fuel Talent employer as Fluency, but the exact product-engineer posting is absent from Fluency's current official Ashby feed; active status therefore cannot be confirmed."
+    },
+    {
+      "title": "Software Engineer (Frontend)",
+      "company": "Latent",
+      "url": "https://jobs.ashbyhq.com/latent/c54c96d7-2776-41be-b74c-b2beaad99634",
+      "reason": "Targeted founder, investor, workflow, and stack evidence identified the confidential Epic Placements employer as Latent and the exact official role is active, but its authoritative employer posting date is January 16, 2026, outside the configured June 5-August 3 backfill window."
+    }
+  ],
+  "unproductive_sources": [
+    "The exact OpenAI role omits workplace mode; the retry used OpenAI's official employer-wide San Francisco hybrid policy.",
+    "Recruiter and aggregator recency for Fluency and Latent was not treated as an employer posting date."
+  ],
+  "address_validation": {
+    "status": "completed",
+    "started_at": "2026-08-03T12:53:00-07:00",
+    "completed_at": "2026-08-03T12:54:00-07:00",
+    "verified_count": 1,
+    "unresolved_count": 0,
+    "rejected_count": 0
+  }
+}

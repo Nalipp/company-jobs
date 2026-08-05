@@ -4,13 +4,14 @@
   "title": "Daily Jobs Search Run",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema_version", "run_id", "profile_name", "started_at", "completed_at", "date_range", "queries", "jobs", "excluded_candidates", "unproductive_sources"],
+  "required": ["schema_version", "run_id", "profile_name", "started_at", "completed_at", "updated_at", "date_range", "queries", "jobs", "review_leads", "excluded_candidates", "unproductive_sources", "address_validation"],
   "properties": {
     "schema_version": { "const": 1 },
     "run_id": { "type": "string", "minLength": 1 },
     "profile_name": { "type": "string", "minLength": 1 },
     "started_at": { "type": "string", "format": "date-time" },
     "completed_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" },
     "date_range": {
       "type": "object",
       "additionalProperties": false,
@@ -35,6 +36,21 @@
       }
     },
     "jobs": { "type": "array", "items": { "$ref": "#/$defs/job" } },
+    "review_leads": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["candidate_key", "title", "company", "url", "reason"],
+        "properties": {
+          "candidate_key": { "type": "string", "minLength": 1 },
+          "title": { "type": "string", "minLength": 1 },
+          "company": { "type": "string", "minLength": 1 },
+          "url": { "type": ["string", "null"], "format": "uri" },
+          "reason": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
     "excluded_candidates": {
       "type": "array",
       "items": {
@@ -49,7 +65,20 @@
         }
       }
     },
-    "unproductive_sources": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true }
+    "unproductive_sources": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+    "address_validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "started_at", "completed_at", "verified_count", "unresolved_count", "rejected_count"],
+      "properties": {
+        "status": { "enum": ["not_run", "in_progress", "partial", "completed"] },
+        "started_at": { "type": ["string", "null"], "format": "date-time" },
+        "completed_at": { "type": ["string", "null"], "format": "date-time" },
+        "verified_count": { "type": "integer", "minimum": 0 },
+        "unresolved_count": { "type": "integer", "minimum": 0 },
+        "rejected_count": { "type": "integer", "minimum": 0 }
+      }
+    }
   },
   "$defs": {
     "evidence": {
@@ -67,7 +96,7 @@
     "job": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["job_key", "title", "company", "canonical_url", "location", "workplace_arrangement", "compensation", "posted_date", "employment_type", "seniority", "match_score", "why_it_fits", "concerns", "evidence"],
+      "required": ["job_key", "title", "company", "canonical_url", "location", "workplace_arrangement", "job_site", "compensation", "posted_date", "employment_type", "seniority", "culture_fit", "match_score", "why_it_fits", "concerns", "evidence"],
       "properties": {
         "job_key": { "type": "string", "minLength": 1 },
         "title": { "type": "string", "minLength": 1 },
@@ -76,6 +105,50 @@
         "discovery_urls": { "type": "array", "items": { "type": "string", "format": "uri" }, "uniqueItems": true },
         "location": { "type": ["string", "null"] },
         "workplace_arrangement": { "enum": ["remote", "hybrid", "on-site", "unknown"] },
+        "job_site": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["raw_address", "formatted_address", "latitude", "longitude", "source_url", "source_type", "source_text", "validation_status", "map_eligibility", "validation_method", "confidence", "validated_at", "notes"],
+          "properties": {
+            "raw_address": { "type": ["string", "null"] },
+            "formatted_address": { "type": ["string", "null"] },
+            "latitude": { "type": ["number", "null"], "minimum": -90, "maximum": 90 },
+            "longitude": { "type": ["number", "null"], "minimum": -180, "maximum": 180 },
+            "source_url": { "type": ["string", "null"], "format": "uri" },
+            "source_type": { "enum": ["job_posting", "employer_location_page", "ats", "other_authoritative", null] },
+            "source_text": { "type": ["string", "null"] },
+            "validation_status": { "enum": ["not_attempted", "unvalidated", "verified", "unresolved", "rejected"] },
+            "map_eligibility": { "enum": ["pending", "eligible", "ineligible"] },
+            "validation_method": { "type": ["string", "null"] },
+            "confidence": { "enum": ["high", "medium", "low", null] },
+            "validated_at": { "type": ["string", "null"], "format": "date-time" },
+            "notes": { "type": ["string", "null"] }
+          },
+          "allOf": [
+            {
+              "if": { "properties": { "validation_status": { "const": "verified" } } },
+              "then": {
+                "properties": {
+                  "formatted_address": { "type": "string", "minLength": 1 },
+                  "latitude": { "type": "number", "minimum": -90, "maximum": 90 },
+                  "longitude": { "type": "number", "minimum": -180, "maximum": 180 },
+                  "map_eligibility": { "const": "eligible" },
+                  "validation_method": { "type": "string", "minLength": 1 },
+                  "confidence": { "enum": ["high", "medium"] },
+                  "validated_at": { "type": "string", "format": "date-time" }
+                }
+              }
+            },
+            {
+              "if": { "properties": { "validation_status": { "const": "rejected" } } },
+              "then": { "properties": { "map_eligibility": { "const": "ineligible" } } }
+            },
+            {
+              "if": { "properties": { "validation_status": { "enum": ["not_attempted", "unvalidated", "unresolved"] } } },
+              "then": { "properties": { "map_eligibility": { "const": "pending" } } }
+            }
+          ]
+        },
         "compensation": {
           "type": ["object", "null"],
           "additionalProperties": false,
@@ -92,6 +165,21 @@
         "posted_date": { "type": ["string", "null"], "format": "date" },
         "employment_type": { "type": ["string", "null"] },
         "seniority": { "type": ["string", "null"] },
+        "culture_fit": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["summary", "credential_alignment", "background_openness", "career_stage_alignment", "work_life_balance", "caregiver_compatibility", "evidence", "concerns"],
+          "properties": {
+            "summary": { "enum": ["strong", "moderate", "weak", "unknown"] },
+            "credential_alignment": { "enum": ["positive", "neutral", "concern", "unknown"] },
+            "background_openness": { "enum": ["positive", "neutral", "concern", "unknown"] },
+            "career_stage_alignment": { "enum": ["positive", "neutral", "concern", "unknown"] },
+            "work_life_balance": { "enum": ["positive", "neutral", "concern", "unknown"] },
+            "caregiver_compatibility": { "enum": ["positive", "neutral", "concern", "unknown"] },
+            "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" } },
+            "concerns": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+          }
+        },
         "match_score": { "type": "number", "minimum": 0, "maximum": 100 },
         "why_it_fits": { "type": "array", "items": { "type": "string", "minLength": 1 } },
         "concerns": { "type": "array", "items": { "type": "string", "minLength": 1 } },

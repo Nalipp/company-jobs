@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://daily-jobs.local/schemas/employer-source.schema.json",
+  "title": "Daily Jobs Employer Source Registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "updated_at", "employers"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "updated_at": { "type": ["string", "null"], "format": "date-time" },
+    "employers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["company", "careers_url", "ats_provider", "board_id", "locations", "discovered_from", "status", "last_checked_at"],
+        "properties": {
+          "company": { "type": "string", "minLength": 1 },
+          "careers_url": { "type": "string", "format": "uri" },
+          "ats_provider": { "enum": ["ashby", "greenhouse", "lever", "workday", "custom", "unknown"] },
+          "board_id": { "type": ["string", "null"] },
+          "locations": { "$ref": "#/$defs/stringList" },
+          "discovered_from": { "$ref": "#/$defs/stringList" },
+          "status": { "enum": ["active", "unavailable", "unknown"] },
+          "last_checked_at": { "type": ["string", "null"], "format": "date-time" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "stringList": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    }
+  }
+}

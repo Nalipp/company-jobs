@@ -14,6 +14,7 @@
     "search_scope",
     "target_roles",
     "work_preferences",
+    "culture_preferences",
     "company_preferences",
     "other_constraints",
     "ranking_rules",
@@ -53,12 +54,24 @@
     "target_roles": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["primary_titles", "adjacent_titles", "title_keywords", "excluded_titles"],
+      "required": ["primary_titles", "adjacent_titles", "role_families", "title_keywords", "excluded_titles", "ai_relevance"],
       "properties": {
         "primary_titles": { "$ref": "#/$defs/stringList" },
         "adjacent_titles": { "$ref": "#/$defs/stringList" },
+        "role_families": { "$ref": "#/$defs/stringList" },
         "title_keywords": { "$ref": "#/$defs/stringList" },
-        "excluded_titles": { "$ref": "#/$defs/stringList" }
+        "excluded_titles": { "$ref": "#/$defs/stringList" },
+        "ai_relevance": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["title_policy", "description_evidence_accepted", "employer_focus_alone_sufficient", "responsibility_signals"],
+          "properties": {
+            "title_policy": { "enum": ["required", "preferred", "not_required"] },
+            "description_evidence_accepted": { "type": "boolean" },
+            "employer_focus_alone_sufficient": { "type": "boolean" },
+            "responsibility_signals": { "$ref": "#/$defs/stringList" }
+          }
+        }
       }
     },
     "work_preferences": {
@@ -72,6 +85,20 @@
         "technologies_to_use": { "$ref": "#/$defs/stringList" },
         "technologies_to_learn": { "$ref": "#/$defs/stringList" },
         "technologies_to_avoid": { "$ref": "#/$defs/stringList" }
+      }
+    },
+    "culture_preferences": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["credential_flexibility", "nontraditional_background_openness", "career_stage_preferences", "work_life_balance", "caregiver_schedule_needs", "preferred_signals", "avoid_signals"],
+      "properties": {
+        "credential_flexibility": { "type": ["string", "null"] },
+        "nontraditional_background_openness": { "type": ["string", "null"] },
+        "career_stage_preferences": { "$ref": "#/$defs/stringList" },
+        "work_life_balance": { "type": ["string", "null"] },
+        "caregiver_schedule_needs": { "type": ["string", "null"] },
+        "preferred_signals": { "$ref": "#/$defs/stringList" },
+        "avoid_signals": { "$ref": "#/$defs/stringList" }
       }
     },
     "company_preferences": {
@@ -112,12 +139,27 @@
     "search_behavior": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["date_window", "preferred_sources", "include_unknown_salary", "canonical_links_only"],
+      "required": ["date_strategy", "preferred_sources", "include_unknown_salary", "canonical_links_only", "physical_address_required_for_map", "address_validation_mode", "discovery_candidate_limit", "verification_batch_limit"],
       "properties": {
-        "date_window": { "const": "current_calendar_week" },
+        "date_strategy": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["mode", "initial_backfill_days", "incremental_from", "include_unknown_dates", "active_status_required"],
+          "properties": {
+            "mode": { "const": "initial_backfill_then_incremental" },
+            "initial_backfill_days": { "type": "integer", "minimum": 1 },
+            "incremental_from": { "const": "previous_completed_discovery" },
+            "include_unknown_dates": { "type": "boolean" },
+            "active_status_required": { "type": "boolean" }
+          }
+        },
         "preferred_sources": { "$ref": "#/$defs/stringList" },
         "include_unknown_salary": { "type": "boolean" },
-        "canonical_links_only": { "type": "boolean" }
+        "canonical_links_only": { "type": "boolean" },
+        "physical_address_required_for_map": { "type": "boolean" },
+        "address_validation_mode": { "enum": ["optional", "required", "disabled"] },
+        "discovery_candidate_limit": { "type": "integer", "minimum": 1 },
+        "verification_batch_limit": { "type": "integer", "minimum": 1 }
       }
     }
   },

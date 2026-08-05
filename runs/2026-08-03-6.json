@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-08-03-backfill-reconcile-queued-1",
+  "profile_name": "default",
+  "started_at": "2026-08-03T11:58:00-07:00",
+  "completed_at": "2026-08-03T12:02:00-07:00",
+  "updated_at": "2026-08-03T12:02:00-07:00",
+  "date_range": {
+    "start": "2026-06-05",
+    "end": "2026-08-03",
+    "timezone": "America/Los_Angeles"
+  },
+  "queries": [
+    {
+      "query": "TruckSmarter Senior Product Engineer exact current posting",
+      "source": "TruckSmarter Ashby API",
+      "candidate_count": 1
+    },
+    {
+      "query": "Arcade Applied AI Engineer exact current posting",
+      "source": "Arcade Ashby API",
+      "candidate_count": 1
+    },
+    {
+      "query": "Klarity AI Frontend Engineer and Senior AI Product Engineer exact current postings",
+      "source": "Klarity Ashby API",
+      "candidate_count": 2
+    }
+  ],
+  "jobs": [],
+  "review_leads": [],
+  "excluded_candidates": [
+    {
+      "title": "Senior Product Engineer",
+      "company": "TruckSmarter",
+      "url": "https://jobs.ashbyhq.com/trucksmarter/46cfee36-edfe-4ed3-9d52-2bca636c9718",
+      "reason": "The current official role has strong AI-agent product work, but its authoritative May 11, 2026 posting date is outside the configured June 5-August 3 backfill window."
+    },
+    {
+      "title": "Applied AI Engineer",
+      "company": "Arcade",
+      "url": "https://jobs.ashbyhq.com/arcadeai/df306583-0159-4d9b-a436-02ba37306f06",
+      "reason": "The current official role builds and experiments on agentic tools and workflows, but its authoritative May 22, 2026 posting date is outside the configured June 5-August 3 backfill window."
+    },
+    {
+      "title": "AI Frontend Engineer",
+      "company": "Klarity",
+      "url": "https://jobs.ashbyhq.com/klarity-ai/fc094114-4d6e-4bf5-977f-c5b37d7e33e1",
+      "reason": "The current official role is outside the backfill window with an April 6, 2026 date and explicitly targets early-career engineers with one to two years of experience or exceptional new graduates, not the approved mid-level-to-senior range."
+    },
+    {
+      "title": "Senior AI Product Engineer",
+      "company": "Klarity",
+      "url": "https://jobs.ashbyhq.com/klarity-ai/38b55519-71da-412d-b2f0-e191c71490df/",
+      "reason": "The exact role is absent from Klarity's current official Ashby feed, so active status cannot be confirmed."
+    }
+  ],
+  "unproductive_sources": [
+    "No queued candidate in this batch survived the configured posting-date, seniority, and active-status constraints."
+  ],
+  "address_validation": {
+    "status": "not_run",
+    "started_at": null,
+    "completed_at": null,
+    "verified_count": 0,
+    "unresolved_count": 0,
+    "rejected_count": 0
+  }
+}

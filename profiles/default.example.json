@@ -15,8 +15,15 @@
   "target_roles": {
     "primary_titles": [],
     "adjacent_titles": [],
+    "role_families": [],
     "title_keywords": [],
-    "excluded_titles": []
+    "excluded_titles": [],
+    "ai_relevance": {
+      "title_policy": "preferred",
+      "description_evidence_accepted": true,
+      "employer_focus_alone_sufficient": false,
+      "responsibility_signals": []
+    }
   },
   "work_preferences": {
     "must_have": [],
@@ -25,6 +32,15 @@
     "technologies_to_use": [],
     "technologies_to_learn": [],
     "technologies_to_avoid": []
+  },
+  "culture_preferences": {
+    "credential_flexibility": null,
+    "nontraditional_background_openness": null,
+    "career_stage_preferences": [],
+    "work_life_balance": null,
+    "caregiver_schedule_needs": null,
+    "preferred_signals": [],
+    "avoid_signals": []
   },
   "company_preferences": {
     "preferred": [],
@@ -45,14 +61,30 @@
     }
   ],
   "search_behavior": {
-    "date_window": "current_calendar_week",
+    "date_strategy": {
+      "mode": "initial_backfill_then_incremental",
+      "initial_backfill_days": 60,
+      "incremental_from": "previous_completed_discovery",
+      "include_unknown_dates": true,
+      "active_status_required": true
+    },
     "preferred_sources": [
+      "Google and Google Jobs",
+      "Wellfound",
+      "Built In",
+      "LinkedIn",
+      "Indeed",
+      "web search",
       "employer career pages",
       "Ashby",
       "Greenhouse",
       "Lever"
     ],
     "include_unknown_salary": true,
-    "canonical_links_only": true
+    "canonical_links_only": true,
+    "physical_address_required_for_map": true,
+    "address_validation_mode": "optional",
+    "discovery_candidate_limit": 100,
+    "verification_batch_limit": 25
   }
 }

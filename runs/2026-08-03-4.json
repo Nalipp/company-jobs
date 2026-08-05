@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-08-03-profile-change-backfill-verify-2",
+  "profile_name": "default",
+  "started_at": "2026-08-03T11:42:00-07:00",
+  "completed_at": "2026-08-03T11:50:00-07:00",
+  "updated_at": "2026-08-03T12:52:00-07:00",
+  "date_range": {
+    "start": "2026-06-05",
+    "end": "2026-08-03",
+    "timezone": "America/Los_Angeles"
+  },
+  "queries": [
+    {
+      "query": "HomeBoost Full-Stack Product Engineer canonical employer posting and AI responsibilities",
+      "source": "Targeted web and employer search",
+      "candidate_count": 1
+    },
+    {
+      "query": "Dex Founding Engineer up to $220k confidential AI audit company",
+      "source": "LinkedIn and Dex recruiter portal",
+      "candidate_count": 1
+    },
+    {
+      "query": "Harnham Senior AI Product Engineer Series C GRC canonical employer",
+      "source": "LinkedIn and targeted web search",
+      "candidate_count": 1
+    },
+    {
+      "query": "TypeSafe AI Product Engineer exact official posting",
+      "source": "TypeSafe careers and Ashby API",
+      "candidate_count": 1
+    },
+    {
+      "query": "Mercor Product Engineer Talent Experience exact official posting",
+      "source": "Mercor Ashby API",
+      "candidate_count": 1
+    }
+  ],
+  "jobs": [
+    {
+      "job_key": "mercor-product-engineer-talent-experience",
+      "title": "Product Engineer, Talent Experience",
+      "company": "Mercor",
+      "canonical_url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7"
+      ],
+      "location": "San Francisco",
+      "workplace_arrangement": "on-site",
+      "job_site": {
+        "raw_address": "Mercor HQ, 181 Fremont Street",
+        "formatted_address": "181 Fremont Street, San Francisco, CA 94105, USA",
+        "latitude": 37.7898002,
+        "longitude": -122.3953496,
+        "source_url": "https://www.mercor.com/careers/",
+        "source_type": "employer_location_page",
+        "source_text": "The official role posting lists this role as San Francisco and on-site, says employees work in person from Mercor's San Francisco office, and Mercor's official careers page identifies that office as 'Mercor HQ, 181 Fremont Street.'",
+        "validation_status": "verified",
+        "map_eligibility": "eligible",
+        "validation_method": "company_office_proxy",
+        "confidence": "medium",
+        "validated_at": "2026-08-03T12:52:00-07:00",
+        "notes": "The posting confirms an on-site San Francisco role and Mercor's careers page identifies its San Francisco HQ at 181 Fremont Street. This is a company-office proxy; the exact job site is not confirmed."
+      },
+      "compensation": {
+        "minimum": 130000,
+        "maximum": 500000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$130K-$500K base plus equity."
+      },
+      "posted_date": "2026-07-16",
+      "employment_type": "Full-time",
+      "seniority": "Mid-level to senior (3+ years)",
+      "culture_fit": {
+        "summary": "weak",
+        "credential_alignment": "neutral",
+        "background_openness": "unknown",
+        "career_stage_alignment": "positive",
+        "work_life_balance": "concern",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "career_stage_alignment",
+            "value": "3+ years",
+            "source_url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+            "source_text": "Requires 3+ years of professional software engineering experience.",
+            "verified_at": "2026-08-03T11:50:00-07:00"
+          },
+          {
+            "claim": "work_life_balance",
+            "value": "concern",
+            "source_url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+            "source_text": "The employer describes an ambitious, fast-paced and deeply committed team working in person five days per week.",
+            "verified_at": "2026-08-03T11:50:00-07:00"
+          },
+          {
+            "claim": "culture_pace",
+            "value": "high velocity",
+            "source_url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+            "source_text": "The role joins a small, high-velocity team; benefits include a $1.5K monthly meal stipend and laundry reimbursement.",
+            "verified_at": "2026-08-03T11:50:00-07:00"
+          }
+        ],
+        "concerns": [
+          "The five-day, high-velocity, deeply committed culture may not provide the preferred predictable pace; confirm hours before applying."
+        ]
+      },
+      "match_score": 70,
+      "why_it_fits": [
+        "Current San Francisco full-time product/full-stack opening at a profitable Series C company.",
+        "Role-specific AI work includes AI-assisted interviews, skill verification, and AI-powered scoring.",
+        "Includes React/TypeScript product surfaces, direct Product collaboration, and a published maximum above $200K."
+      ],
+      "concerns": [
+        "The role is explicitly backend-heavy rather than frontend-led.",
+        "The employer's five-day, high-velocity culture is a significant work-life concern.",
+        "The unusually broad $130K-$500K band does not guarantee a $200K offer."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+          "source_text": "Official Ashby feed reports isListed true.",
+          "verified_at": "2026-08-03T11:50:00-07:00"
+        },
+        {
+          "claim": "posted_date",
+          "value": "2026-07-16",
+          "source_url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+          "source_text": "Official publishedAt is 2026-07-16T21:53:06.118Z.",
+          "verified_at": "2026-08-03T11:50:00-07:00"
+        },
+        {
+          "claim": "workplace",
+          "value": "on-site in San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+          "source_text": "Official feed lists location San Francisco and workplaceType OnSite.",
+          "verified_at": "2026-08-03T11:50:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai",
+          "value": "AI-powered assessment workflows",
+          "source_url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+          "source_text": "Build evaluation pipelines combining human judgment with AI-powered scoring and services for AI-assisted interviews.",
+          "verified_at": "2026-08-03T11:50:00-07:00"
+        },
+        {
+          "claim": "compensation",
+          "value": "$130K-$500K base",
+          "source_url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+          "source_text": "Official compensation tier is $130K-$500K plus equity.",
+          "verified_at": "2026-08-03T11:50:00-07:00"
+        }
+      ]
+    }
+  ],
+  "review_leads": [
+    {
+      "candidate_key": "homeboost-full-stack-product-engineer",
+      "title": "Full-Stack Product Engineer",
+      "company": "HomeBoost",
+      "url": "https://careers.moxxie.vc/jobs",
+      "reason": "Current investor job-board and employer social evidence confirm a mid-senior SF opening at $170K-$200K and an AI-powered HomeBoost Pro product, but no employer-controlled job description was found tying this role to explicit AI product responsibilities or confirming workplace mode."
+    },
+    {
+      "candidate_key": "dex-founding-full-stack-engineer",
+      "title": "Founding Engineer (up to $220k)",
+      "company": "Confidential AI audit startup via Dex",
+      "url": "https://www.linkedin.com/jobs/view/founding-engineer-up-to-%24220k-at-dex-4438245964",
+      "reason": "The current recruiter listing confirms full-time, in-person SF and explicit agentic SOX product ownership, but the actual employer remains confidential and no employer-controlled canonical application exists."
+    },
+    {
+      "candidate_key": "harnham-senior-ai-product-engineer-confidential-series-c",
+      "title": "Senior AI Product Engineer",
+      "company": "Confidential Series C GRC startup via Harnham",
+      "url": "https://www.linkedin.com/jobs/view/senior-ai-product-engineer-at-harnham-4431755299",
+      "reason": "The current recruiter listing confirms hybrid three days, $200K-$250K, and excellent full-stack AI-product duties, but the employer remains confidential and no employer-controlled canonical application can be verified."
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "title": "Product Engineer",
+      "company": "TypeSafe AI",
+      "url": "https://jobs.ashbyhq.com/typesafe-ai/f21f0f84-b0c9-4b63-9f61-3aad6ab0eca4",
+      "reason": "The role is otherwise an excellent current product/AI/stack match, but the employer explicitly says it works fully in person five days, provides daily lunch and dinner, and 'won't stop until we get there'; those signals conflict with the approved predictable-hours and non-always-on culture constraint."
+    }
+  ],
+  "unproductive_sources": [
+    "HomeBoost's employer site did not expose an employer-controlled role description.",
+    "Dex and Harnham keep the hiring companies confidential, preventing canonical employer verification."
+  ],
+  "address_validation": {
+    "status": "completed",
+    "started_at": "2026-08-03T12:51:00-07:00",
+    "completed_at": "2026-08-03T12:52:00-07:00",
+    "verified_count": 1,
+    "unresolved_count": 0,
+    "rejected_count": 0
+  }
+}

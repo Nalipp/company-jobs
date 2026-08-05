@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://daily-jobs.local/schemas/discovery-run.schema.json",
+  "title": "Daily Jobs Discovery Run",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "discovery_id", "profile_name", "status", "strategy", "previous_discovery_id", "started_at", "completed_at", "date_range", "query_matrix", "coverage", "sources", "candidates"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "discovery_id": { "type": "string", "minLength": 1 },
+    "profile_name": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["in_progress", "partial", "completed"] },
+    "strategy": { "enum": ["backfill", "incremental"] },
+    "previous_discovery_id": { "type": ["string", "null"] },
+    "started_at": { "type": "string", "format": "date-time" },
+    "completed_at": { "type": ["string", "null"], "format": "date-time" },
+    "date_range": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end", "timezone"],
+      "properties": {
+        "start": { "type": "string", "format": "date" },
+        "end": { "type": "string", "format": "date" },
+        "timezone": { "type": "string", "minLength": 1 }
+      }
+    },
+    "query_matrix": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["candidate_limit", "limit_reached"],
+      "properties": {
+        "candidate_limit": { "type": "integer", "minimum": 1 },
+        "limit_reached": { "type": "boolean" }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "kind", "query", "url", "status", "candidate_count", "notes"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "kind": { "enum": ["job_board", "web_search", "employer_careers", "ats", "other"] },
+          "query": { "type": "string", "minLength": 1 },
+          "url": { "type": ["string", "null"], "format": "uri" },
+          "status": { "enum": ["searched", "blocked", "unavailable", "error"] },
+          "candidate_count": { "type": "integer", "minimum": 0 },
+          "notes": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/candidate" }
+    }
+  },
+  "$defs": {
+    "compensation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["minimum", "maximum", "currency", "basis", "period", "source_text"],
+      "properties": {
+        "minimum": { "type": ["number", "null"], "minimum": 0 },
+        "maximum": { "type": ["number", "null"], "minimum": 0 },
+        "currency": { "type": ["string", "null"] },
+        "basis": { "enum": ["base", "total", "either", "unknown"] },
+        "period": { "enum": ["hour", "month", "year", "unknown"] },
+        "source_text": { "type": ["string", "null"] }
+      }
+    },
+    "candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["candidate_key", "title", "company", "discovery_url", "canonical_url", "source_names", "location_text", "workplace_arrangement", "compensation", "posted_date", "discovered_at", "preliminary_fit", "preliminary_concerns", "verification"],
+      "properties": {
+        "candidate_key": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "company": { "type": "string", "minLength": 1 },
+        "discovery_url": { "type": "string", "format": "uri" },
+        "canonical_url": { "type": ["string", "null"], "format": "uri" },
+        "source_names": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "location_text": { "type": ["string", "null"] },
+        "workplace_arrangement": { "enum": ["remote", "hybrid", "on-site", "unknown"] },
+        "compensation": { "oneOf": [{ "$ref": "#/$defs/compensation" }, { "type": "null" }] },
+        "posted_date": { "type": ["string", "null"], "format": "date" },
+        "discovered_at": { "type": "string", "format": "date-time" },
+        "preliminary_fit": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "preliminary_concerns": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "verification": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "run_id", "reason", "verified_at"],
+          "properties": {
+            "status": { "enum": ["queued", "verified", "excluded", "needs_review", "error"] },
+            "run_id": { "type": ["string", "null"] },
+            "reason": { "type": ["string", "null"] },
+            "verified_at": { "type": ["string", "null"], "format": "date-time" }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,526 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-03T12:09:00-07:00",
+  "employers": [
+    {
+      "company": "Speak",
+      "careers_url": "https://jobs.ashbyhq.com/speak",
+      "ats_provider": "ashby",
+      "board_id": "speak",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "Built In San Francisco",
+        "Ashby",
+        "Y Combinator"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "Retool",
+      "careers_url": "https://retool.com/careers",
+      "ats_provider": "custom",
+      "board_id": null,
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "Retool careers"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "ReadMe",
+      "careers_url": "https://jobs.ashbyhq.com/readme",
+      "ats_provider": "ashby",
+      "board_id": "readme",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "Startup Jobs",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "Retell AI",
+      "careers_url": "https://jobs.ashbyhq.com/retell-ai",
+      "ats_provider": "ashby",
+      "board_id": "retell-ai",
+      "locations": [
+        "Redwood City, CA",
+        "San Francisco Bay Area"
+      ],
+      "discovered_from": [
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "Klarity",
+      "careers_url": "https://jobs.ashbyhq.com/klarity-ai",
+      "ats_provider": "ashby",
+      "board_id": "klarity-ai",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "Built In San Francisco",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "Samba TV",
+      "careers_url": "https://jobs.lever.co/sambatv",
+      "ats_provider": "lever",
+      "board_id": "sambatv",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "Wellfound",
+        "Lever"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "Town.com, Inc.",
+      "careers_url": "https://careers.town.com/",
+      "ats_provider": "ashby",
+      "board_id": "town",
+      "locations": [
+        "San Francisco, CA",
+        "New York, NY"
+      ],
+      "discovered_from": [
+        "Google Jobs",
+        "Built In San Francisco",
+        "Ashby",
+        "Town careers"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "Thorin",
+      "careers_url": "https://jobs.ashbyhq.com/thorin",
+      "ats_provider": "ashby",
+      "board_id": "thorin",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "Google web search",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "Stealth HC",
+      "careers_url": "https://jobs.ashbyhq.com/stealthhc",
+      "ats_provider": "ashby",
+      "board_id": "stealthhc",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "Google web search",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "Gem",
+      "careers_url": "https://www.ycombinator.com/companies/gem/jobs",
+      "ats_provider": "custom",
+      "board_id": null,
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "Google Jobs",
+        "Wellfound",
+        "Y Combinator Jobs"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "Rippling",
+      "careers_url": "https://ats.rippling.com/rippling/jobs",
+      "ats_provider": "custom",
+      "board_id": null,
+      "locations": [
+        "San Francisco, CA",
+        "New York, NY"
+      ],
+      "discovered_from": [
+        "Google web search",
+        "Indeed",
+        "Rippling ATS"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "OpenAI",
+      "careers_url": "https://openai.com/careers/search/",
+      "ats_provider": "custom",
+      "board_id": null,
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "Google web search",
+        "OpenAI careers"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "Drata",
+      "careers_url": "https://jobs.ashbyhq.com/drata",
+      "ats_provider": "ashby",
+      "board_id": "drata",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "Google web search",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "Skiffra",
+      "careers_url": "https://jobs.ashbyhq.com/skiffra",
+      "ats_provider": "ashby",
+      "board_id": "skiffra",
+      "locations": [
+        "Los Angeles, CA",
+        "San Francisco Bay Area"
+      ],
+      "discovered_from": [
+        "Google Jobs",
+        "LinkedIn",
+        "Built In San Francisco",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "UniversalAGI",
+      "careers_url": "https://jobs.ashbyhq.com/universalagi",
+      "ats_provider": "ashby",
+      "board_id": "universalagi",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "Google web search",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "Rhythms",
+      "careers_url": "https://jobs.ashbyhq.com/Rhythms",
+      "ats_provider": "ashby",
+      "board_id": "Rhythms",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "Google web search",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "Komodo Health",
+      "careers_url": "https://job-boards.greenhouse.io/komodohealth",
+      "ats_provider": "greenhouse",
+      "board_id": "komodohealth",
+      "locations": [
+        "San Francisco, CA",
+        "United States"
+      ],
+      "discovered_from": [
+        "Google web search",
+        "Greenhouse"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T10:58:30-07:00"
+    },
+    {
+      "company": "Ampersand",
+      "careers_url": "https://jobs.ashbyhq.com/Ampersand",
+      "ats_provider": "ashby",
+      "board_id": "Ampersand",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "General web search",
+        "Built In San Francisco",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T11:35:00-07:00"
+    },
+    {
+      "company": "Tasklet",
+      "careers_url": "https://tasklet.ai/careers",
+      "ats_provider": "custom",
+      "board_id": null,
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "Google Jobs",
+        "Y Combinator Jobs",
+        "Tasklet careers"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T11:35:00-07:00"
+    },
+    {
+      "company": "Confident AI",
+      "careers_url": "https://www.confident-ai.com/careers",
+      "ats_provider": "custom",
+      "board_id": null,
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "General web search",
+        "Confident AI careers"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T11:35:00-07:00"
+    },
+    {
+      "company": "Console",
+      "careers_url": "https://jobs.ashbyhq.com/console",
+      "ats_provider": "ashby",
+      "board_id": "console",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "Built In San Francisco",
+        "General web search",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T11:35:00-07:00"
+    },
+    {
+      "company": "Harper",
+      "careers_url": "https://jobs.ashbyhq.com/harperinsure",
+      "ats_provider": "ashby",
+      "board_id": "harperinsure",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "General web search",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T11:35:00-07:00"
+    },
+    {
+      "company": "Flux",
+      "careers_url": "https://jobs.ashbyhq.com/flux",
+      "ats_provider": "ashby",
+      "board_id": "flux",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "General web search",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T11:35:00-07:00"
+    },
+    {
+      "company": "Relace",
+      "careers_url": "https://jobs.ashbyhq.com/Relace",
+      "ats_provider": "ashby",
+      "board_id": "Relace",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "General web search",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T11:35:00-07:00"
+    },
+    {
+      "company": "Hercules",
+      "careers_url": "https://hercules.app/careers",
+      "ats_provider": "custom",
+      "board_id": null,
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "General web search",
+        "Hercules careers"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T11:35:00-07:00"
+    },
+    {
+      "company": "Applied Compute",
+      "careers_url": "https://jobs.ashbyhq.com/Applied%20Compute",
+      "ats_provider": "ashby",
+      "board_id": "Applied Compute",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "General web search",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T11:35:00-07:00"
+    },
+    {
+      "company": "Mercor",
+      "careers_url": "https://jobs.ashbyhq.com/mercor",
+      "ats_provider": "ashby",
+      "board_id": "mercor",
+      "locations": [
+        "San Francisco, CA",
+        "New York, NY",
+        "London, UK"
+      ],
+      "discovered_from": [
+        "Indeed",
+        "General web search",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T11:35:00-07:00"
+    },
+    {
+      "company": "Fluency",
+      "careers_url": "https://jobs.ashbyhq.com/fluency",
+      "ats_provider": "ashby",
+      "board_id": "fluency",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "Fuel Talent",
+        "General web search",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T11:58:00-07:00"
+    },
+    {
+      "company": "Latent",
+      "careers_url": "https://jobs.ashbyhq.com/latent",
+      "ats_provider": "ashby",
+      "board_id": "latent",
+      "locations": [
+        "San Francisco, CA",
+        "New York, NY"
+      ],
+      "discovered_from": [
+        "Epic Placements",
+        "General web search",
+        "Latent careers",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T11:58:00-07:00"
+    },
+    {
+      "company": "Calvis",
+      "careers_url": "https://calvis.com/careers",
+      "ats_provider": "custom",
+      "board_id": null,
+      "locations": [
+        "San Francisco, CA",
+        "New York, NY",
+        "Austin, TX"
+      ],
+      "discovered_from": [
+        "Wellfound",
+        "General web search",
+        "Calvis careers"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T12:09:00-07:00"
+    },
+    {
+      "company": "Strella",
+      "careers_url": "https://jobs.ashbyhq.com/strella",
+      "ats_provider": "ashby",
+      "board_id": "strella",
+      "locations": [
+        "San Francisco, CA",
+        "New York, NY"
+      ],
+      "discovered_from": [
+        "General web search",
+        "Strella careers",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T12:09:00-07:00"
+    },
+    {
+      "company": "TruckSmarter",
+      "careers_url": "https://jobs.ashbyhq.com/trucksmarter",
+      "ats_provider": "ashby",
+      "board_id": "trucksmarter",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "General web search",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T12:02:00-07:00"
+    },
+    {
+      "company": "Arcade",
+      "careers_url": "https://jobs.ashbyhq.com/arcadeai",
+      "ats_provider": "ashby",
+      "board_id": "arcadeai",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "discovered_from": [
+        "General web search",
+        "Ashby"
+      ],
+      "status": "active",
+      "last_checked_at": "2026-08-03T12:02:00-07:00"
+    }
+  ]
+}

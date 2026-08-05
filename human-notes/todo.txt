@@ -1,0 +1,120 @@
+----------------------------------------------------------------------------------------------------
+
+lets work on filtering a bit
+I read through all of those job postings here is my verdict for each
+i copy pasted the parts i like and don't like for each and then a final verdict
+
+----------
+I should start by saying i have two side projects i am working on
+one is this project, collecting info about companies, putting it on a map, writing prompts that get to the best jobs for a jobseaker faster. atempting to plot all companies/jobs on a map using ai web scraping technologies.
+the other is a fast protyping tool that allows product or front end engineers to prompt new features quickly using pure html, css, json data snapshots. prototypes are quick and the first step in the ai engeneering process. shows 0-1 type thinking
+I lived in Seoul for 7 years and worked in the online education industry
+----------
+
+
+https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273
+good parts:
+Engineer first, designer by instinct
+AI-native developer with creative problem-solving chops
+copmany / prodcut fit aligns with my experience as a consultant
+bad parts:
+no info on company culture, who works here etc
+final verdict: pass
+
+https://jobs.ashbyhq.com/openai/1bb1f351-41a2-43a5-bac1-259859886cb3
+good parts:
+!!!Experience building in 0-to-1 or fast-moving environments where user needs, product shape, and success metrics are still evolving.
+Excitement about applying AI thoughtfully to real workflows and building products that help people do better work.
+A high bar for UX quality, interaction details, accessibility, reliability, and user empathy.
+bad parts:
+final verdict: pass
+
+https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c
+good parts:
+UI Prototyping — You have the freedom to come up with idea and rapidly prototype them using AI tools. You don’t need to wait for mocks or get buy in from a designer. You need to have great taste and intuition.
+You are AI-forward and love trying new AI tools. You think of yourself not as a coder, but as a builder who harnesses AI to multiply their productivity.
+Great taste in what makes developer tools intuitive; ideally you've shipped customer-facing developer products before
+Strong product intuition — you can work directly with customers to design features, not just implement specs
+bad parts:
+found evidence of the team dynamics
+https://www.withampersand.com/about
+almost everyone is from a large company tech background like meta, rivian, google etc
+final verdict: fail
+
+https://www.confident-ai.com/careers
+good parts:
+You understand frontend at scale — rendering performance, state management, data fetching, and architecture that doesn't collapse as the product grows.
+A genuine eye for design. You notice when spacing is off by 2px, you have opinions on motion and hierarchy, and you can take a feature from idea to polished UI without a designer.
+bad parts:
+Fluent with AI coding tools like Claude Code and Cursor as part of your daily workflow. At our size, every engineer operates at a multiplied level. (indicates they prise 10x engineer type thinking, not human enough to me even though i consider myself to be an x engineer)
+No excuses, no BS
+If something is wrong, say it so someone can help. We don't sugarcoat, we don't dance around problems, and we don't let ego get in the way of fixing what's broken. Directness isn't rude here — it's respected.
+final verdict: fail
+
+https://www.ycombinator.com/companies/gem/jobs/4Uathaz-ai-product-engineer-san-francisco
+good parts:
+Build products powered by LLMs: Design and implement features that integrate AI capabilities into our product, working across the entire stack from backend to frontend
+Develop and optimize intelligent search: Create advanced algorithms for
+good parts:
+bad parts:
+final verdict: (fail)
+
+https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f
+good parts:
+overall generally good
+i have experience in korea and language apps
+Experience with LLM Ops and tools (e.g., vector databases, RAG, prompt ops)
+bad parts:
+lots of times they don't want 
+experience in korea and language apps
+they want they they think of as a serious developer
+final verdict: (pass)
+
+https://jobs.ashbyhq.com/stealthhc/8b203786-b445-4bda-bdbd-8fe3767808df
+good parts:
+generally fine
+bad parts:
+not a lot of specifics in the role posting
+final verdict: (pass)
+
+https://www.ycombinator.com/companies/tasklet-2/jobs/8WgDV4q-software-engineer-product
+good parts:
+generally fine
+bad parts:
+not a lot of specifics in the role posting
+final verdict: (pass)
+
+good parts:
+You have built AI-native products or workflows and are excited about where agents are taking software.
+You use AI aggressively to create leverage for yourself and your team.
+You think in terms of systems, agents, and workflows rather than isolated features.
+You are product-minded and care deeply about customer outcomes.
+You thrive in ambiguity and enjoy building from first principles.
+bad parts:
+not a lot of specifics that match me exactly in the role posting
+Founding Senior AI Product Engineer (indicating that they are very small and easy to fail)
+final verdict: (pass)
+
+https://jobs.ashbyhq.com/town/0b261662-60c4-49e2-b351-118e57e5714b/
+good parts:
+bad parts:
+not in sf!
+final verdict: (fail)
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+
+
+the job should be onsite / hybrid in san francisco city only.it shold not be the bay area only in the city compensation base should be $200k
+
+
+front end or full stack, but it should have some reference to ai it the name. i don't want anything to do with dev ops, but am ok with ai opps as long as it doent mean making sure the site stays continuously deployed / running. i am more of a product front end type person and don't want to be constantly on call for the senority, mid-level and senior should be fine, if it is a smaller company lead might be ok too. I thikn all of those are fine for the types of work, i might add growth strategy
+
+
+only full time, i am fully work authorized, any industries are fine, i do have some experience in tech consulting and teaching. the main focus though should be roles that are related to ai. for company size, mid size is the sweet spot for me but wil lconsider smaller and larger. so series b and above perferabley
+
+
