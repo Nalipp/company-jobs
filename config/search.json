@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "hard_constraints": {
+    "location": {
+      "mode": "city",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "US",
+      "broader_region_only_is_eligible": false
+    },
+    "workplace_arrangements": [
+      "hybrid",
+      "on-site"
+    ],
+    "compensation": {
+      "threshold": 200000,
+      "comparison": "published_maximum_at_least",
+      "currency": "USD",
+      "basis": "base",
+      "period": "year",
+      "unknown_policy": "exclude"
+    },
+    "employment_types": [
+      "full-time"
+    ],
+    "role": {
+      "primary_titles": [
+        "AI Frontend Engineer",
+        "Frontend AI Engineer",
+        "AI Full-Stack Engineer",
+        "Full-Stack AI Engineer",
+        "AI Product Engineer"
+      ],
+      "adjacent_titles": [
+        "Software Engineer, AI",
+        "Generative AI Engineer",
+        "AI Applications Engineer",
+        "Frontend Engineer, AI",
+        "Full-Stack Engineer, AI",
+        "Product Engineer, AI",
+        "Applied AI Engineer",
+        "Frontend Engineer",
+        "Front-End Engineer",
+        "Full-Stack Engineer",
+        "Product Engineer",
+        "Software Engineer, Product",
+        "Forward Deployed Engineer",
+        "Growth Engineer"
+      ],
+      "role_families": [
+        "product engineering",
+        "frontend engineering",
+        "full-stack engineering",
+        "applications engineering",
+        "growth engineering",
+        "forward-deployed engineering"
+      ],
+      "excluded_titles": [
+        "DevOps Engineer",
+        "Site Reliability Engineer",
+        "SRE",
+        "Platform Engineer",
+        "Infrastructure Engineer"
+      ],
+      "allowed_seniority": [
+        "mid-level",
+        "senior",
+        "lead"
+      ],
+      "require_role_specific_ai_work": true,
+      "employer_ai_focus_alone_is_sufficient": false,
+      "responsibility_signals": [
+        "building AI-powered user-facing features",
+        "building generative-AI or LLM product experiences",
+        "building agents, copilots, or intelligent workflows",
+        "integrating machine-learning capabilities into a product"
+      ]
+    }
+  },
+  "discovery": {
+    "target_new_companies": 10,
+    "canonical_source_required": true,
+    "preferred_ats_providers": [
+      "ashby",
+      "greenhouse",
+      "lever"
+    ],
+    "lead_sources": [
+      "web search",
+      "Google Jobs",
+      "LinkedIn",
+      "Indeed",
+      "Wellfound",
+      "Built In"
+    ]
+  }
+}

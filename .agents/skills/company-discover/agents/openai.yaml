@@ -1,0 +1,4 @@
+interface:
+  display_name: "Company Discover"
+  short_description: "Find qualifying jobs at new companies"
+  default_prompt: "Use $company-discover to find new qualifying companies through a replay-safe handoff."

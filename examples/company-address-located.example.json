@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "operation": "validate-company-address",
+  "created_at": "2026-08-06T19:20:00Z",
+  "changes": [
+    {
+      "company_id": "example-ai",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "525 Market Street, San Francisco, CA 94105",
+        "postal_code": "94105",
+        "latitude": 37.79051,
+        "longitude": -122.39947,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Example AI contact page",
+        "source_url": "https://example.com/contact",
+        "checked_at": "2026-08-06T19:20:00Z"
+      }
+    }
+  ],
+  "issues": []
+}

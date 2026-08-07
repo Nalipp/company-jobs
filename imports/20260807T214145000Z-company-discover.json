@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-07T21:41:45Z",
+  "changes": [
+    {
+      "company_id": "harvey-ai",
+      "name": "Harvey AI",
+      "website_url": "https://www.harvey.ai/",
+      "primary_domain": "harvey.ai",
+      "jobs_url": "https://jobs.ashbyhq.com/harvey",
+      "ats": {
+        "provider": "ashby",
+        "board_id": "harvey"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "04e17f81-d0a7-4f83-8526-ec4c9532ddcc",
+          "title": "Senior Software Engineer, Frontend",
+          "url": "https://www.harvey.ai/company/careers/04e17f81-d0a7-4f83-8526-ec4c9532ddcc",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 200000,
+            "maximum": 260000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$200,000 – $260,000 USD (Offers Equity)"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T20:51:08Z",
+          "evidence": {
+            "active_status": "Live on harvey.ai/company/careers with functioning Apply Now button linking to Ashby ATS.",
+            "location": "Official posting states San Francisco, CA.",
+            "workplace_arrangement": "Hybrid in-person model with relocation assistance offered.",
+            "compensation": "$200,000 – $260,000 USD (Offers Equity)",
+            "employment_type": "Full Time per official posting.",
+            "seniority": "Senior per title; requires React/TypeScript expertise for AI-powered legal product interfaces.",
+            "role_fit": "Develop interfaces enabling lawyers to collaborate with AI; lead frontend for Assistant, Vault, Workflows; build React/TypeScript UIs for streaming results and tool-calling workflows."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T20:51:08Z",
+      "last_verified_at": "2026-08-07T20:51:08Z"
+    },
+    {
+      "company_id": "anthropic",
+      "name": "Anthropic",
+      "website_url": "https://www.anthropic.com/",
+      "primary_domain": "anthropic.com",
+      "jobs_url": "https://job-boards.greenhouse.io/anthropic",
+      "ats": {
+        "provider": "greenhouse",
+        "board_id": "anthropic"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "5186067008",
+          "title": "Full-Stack Software Engineer, Reinforcement Learning",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5186067008",
+          "location_text": "San Francisco, CA | New York City, NY",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 300000,
+            "maximum": 405000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$300,000 - $405,000 USD"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T21:00:00Z",
+          "evidence": {
+            "active_status": "Live application form on job-boards.greenhouse.io/anthropic/jobs/5186067008.",
+            "location": "San Francisco, CA listed as primary; New York City, NY also listed.",
+            "workplace_arrangement": "Hybrid — 'we expect all staff to be in one of our offices at least 25% of the time'.",
+            "compensation": "$300,000 - $405,000 USD",
+            "employment_type": "Full-time implied by equity grants and comprehensive benefits; no part-time indication.",
+            "seniority": "Mid to Senior; requires substantial prior experience shipping production systems.",
+            "role_fit": "Build RL platforms for environment creation, human data collection at scale, and evaluation dashboards providing researchers real-time training insights; design code data generation pipelines with reward signals."
+          }
+        },
+        {
+          "job_id": "5174743008",
+          "title": "Senior Software Engineer, Full-stack",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174743008",
+          "location_text": "San Francisco, CA | New York City, NY | Seattle, WA",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 320000,
+            "maximum": 320000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$320,000 - $320,000 USD"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T21:00:00Z",
+          "evidence": {
+            "active_status": "Posting states 'Deadline to apply: None. Applications will be reviewed on a rolling basis.'",
+            "location": "San Francisco, CA listed first; NYC and Seattle also listed as options.",
+            "workplace_arrangement": "Hybrid — 'expect all staff to be in one of our offices at least 25% of the time'.",
+            "compensation": "$320,000 - $320,000 USD",
+            "employment_type": "Full-time; minimum 6 years experience required.",
+            "seniority": "Senior — 'minimum of 6 years of practical full-stack engineering experience'.",
+            "role_fit": "Build Claude AI products across developer experience tools and SDKs, beneficial deployments, vertical AI products for finance/healthcare, and enterprise AI capabilities including context and proactivity."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T21:00:00Z",
+      "last_verified_at": "2026-08-07T21:00:00Z"
+    },
+    {
+      "company_id": "scale-ai",
+      "name": "Scale AI",
+      "website_url": "https://scale.com/",
+      "primary_domain": "scale.com",
+      "jobs_url": "https://job-boards.greenhouse.io/scaleai",
+      "ats": {
+        "provider": "greenhouse",
+        "board_id": "scaleai"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "4593571005",
+          "title": "Forward Deployed Engineer, GenAI",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4593571005",
+          "location_text": "San Francisco, CA; New York, NY",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 179400,
+            "maximum": 224250,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$179,400 - $224,250 USD"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T21:05:00Z",
+          "evidence": {
+            "active_status": "Live application form on job-boards.greenhouse.io/scaleai/jobs/4593571005.",
+            "location": "San Francisco, CA and New York, NY listed as co-equal locations; in-person in SF or NY.",
+            "workplace_arrangement": "Hybrid — 3 days/week in-office required in SF or NYC.",
+            "compensation": "$179,400 - $224,250 USD base salary for SF, NY, and Seattle locations.",
+            "employment_type": "Full-time per equity grants and comprehensive health/dental/vision coverage.",
+            "seniority": "Mid-level — 2+ years preferred.",
+            "role_fit": "Deliver data infrastructure solutions for leading AI innovators; design and deploy full-stack features for generative AI applications; collaborate with enterprise customers on complex AI data challenges."
+          }
+        },
+        {
+          "job_id": "4513943005",
+          "title": "Software Engineer, Enterprise AI",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4513943005",
+          "location_text": "New York, NY; San Francisco, CA",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 179400,
+            "maximum": 224250,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$179,400 - $224,250 USD"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T21:05:00Z",
+          "evidence": {
+            "active_status": "Live application form on job-boards.greenhouse.io/scaleai/jobs/4513943005.",
+            "location": "New York, NY and San Francisco, CA listed; in-person in SF or NY 3 times a week.",
+            "workplace_arrangement": "Hybrid — on-site 3 days/week in SF or NYC.",
+            "compensation": "$179,400 - $224,250 USD base salary for SF/NY locations.",
+            "employment_type": "Full-time.",
+            "seniority": "Senior — 4+ years of full-time engineering experience post-graduation.",
+            "role_fit": "Build Scale GP enterprise generative AI platform; work with LLMs and vector databases; own large new product areas within Scale's AI platform."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T21:05:00Z",
+      "last_verified_at": "2026-08-07T21:05:00Z"
+    },
+    {
+      "company_id": "gem",
+      "name": "Gem",
+      "website_url": "https://www.gem.com/",
+      "primary_domain": "gem.com",
+      "jobs_url": "https://jobs.gem.com/gem",
+      "ats": {
+        "provider": "custom",
+        "board_id": "gem"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "AI Product Engineer",
+          "url": "https://www.ycombinator.com/companies/gem/jobs/4Uathaz-ai-product-engineer-san-francisco",
+          "location_text": "San Francisco, CA, US",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 150000,
+            "maximum": 260000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$150,000–$260,000"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T20:47:07Z",
+          "evidence": {
+            "active_status": "Active on Y Combinator Work at a Startup; posting live with functioning application link (signup_job_id=77415).",
+            "location": "San Francisco, CA, US per YC WaaS posting.",
+            "workplace_arrangement": "On-site — 'not eligible for full-time remote work'.",
+            "compensation": "$150,000–$260,000 annual salary plus equity and benefits.",
+            "employment_type": "Full-time.",
+            "seniority": "Mid-level — 3+ years of experience required.",
+            "role_fit": "Develop LLM-powered product features across full stack; build intelligent search and candidate matching; implement vector database and embedding systems; build and optimize RAG architectures; ship AI features from concept to production."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T20:47:07Z",
+      "last_verified_at": "2026-08-07T20:47:07Z"
+    },
+    {
+      "company_id": "together-ai",
+      "name": "Together AI",
+      "website_url": "https://www.together.ai/",
+      "primary_domain": "together.ai",
+      "jobs_url": "https://job-boards.greenhouse.io/togetherai",
+      "ats": {
+        "provider": "greenhouse",
+        "board_id": "togetherai"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "5192898007",
+          "title": "Senior Product Engineer, Fullstack",
+          "url": "https://job-boards.greenhouse.io/togetherai/jobs/5192898007",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 160000,
+            "maximum": 230000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$160,000 - 230,000 + equity + benefits"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T21:06:57Z",
+          "evidence": {
+            "active_status": "Live application form on job-boards.greenhouse.io/togetherai/jobs/5192898007.",
+            "location": "San Francisco per official Greenhouse posting.",
+            "workplace_arrangement": "On-site — 4 days/week required in San Francisco office.",
+            "compensation": "$160,000 - 230,000 + equity + benefits for US base salary.",
+            "employment_type": "Full-time.",
+            "seniority": "Senior per title; 4–7 years of experience required.",
+            "role_fit": "Develop features across Playground, Model Garden, Fine-Tuning, File Management, and Model Evals; build and improve agentic workflows; curiosity about AI and LLMs required."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T21:06:57Z",
+      "last_verified_at": "2026-08-07T21:06:57Z"
+    }
+  ],
+  "issues": [
+    {
+      "code": "canonical_source_blocked",
+      "company_id": null,
+      "subject": "xAI",
+      "source_url": "https://job-boards.greenhouse.io/xai/jobs/4547888007",
+      "details": "Greenhouse board slug 'xai' routes to SpaceX data-center operations jobs rather than xAI (Elon Musk's AI company) product engineering roles. Every attempt to fetch xAI engineering job URLs returned the SpaceX board. Cannot confirm a canonical posting; company excluded."
+    }
+  ]
+}

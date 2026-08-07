@@ -1,0 +1,4 @@
+interface:
+  display_name: "Company Job Fetch"
+  short_description: "Append new jobs from saved companies"
+  default_prompt: "Use $company-job-fetch to append qualifying unseen jobs through a replay-safe handoff."
