@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-07T23:00:00Z",
+  "changes": [
+    {
+      "company_id": "retool",
+      "name": "Retool",
+      "website_url": "https://retool.com/",
+      "primary_domain": "retool.com",
+      "jobs_url": "https://retool.com/careers",
+      "ats": {
+        "provider": "custom",
+        "board_id": "retool"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "Software Engineer, AI Product Engineer",
+          "url": "https://retool.com/careers/software-engineer-ai-product-engineer---engineering--san-francisco-united-states",
+          "location_text": "San Francisco, United States",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 163800,
+            "maximum": 306000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$163,800 – $306,000 per year"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:00:00Z",
+          "evidence": {
+            "active_status": "Posting live at retool.com/careers; role appears on official company careers board as a current opening.",
+            "location": "San Francisco, United States per official Retool careers page.",
+            "workplace_arrangement": "Hybrid — company operates a hybrid model with San Francisco office.",
+            "compensation": "$163,800 – $306,000 per year base salary per official careers page.",
+            "employment_type": "Full-time; 3+ years of professional software engineering experience required.",
+            "seniority": "Mid to senior — 3+ years experience required per official posting.",
+            "role_fit": "Build generative UIs for natural language app creation; implement RAG, few-shot prompting, and agentic patterns; create AI evaluation systems; ship developer-facing AI features."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T23:00:00Z",
+      "last_verified_at": "2026-08-07T23:00:00Z"
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-08T01:46:43Z",
+  "changes": [
+    {
+      "company_id": "rippling",
+      "name": "Rippling",
+      "website_url": "https://www.rippling.com/",
+      "primary_domain": "rippling.com",
+      "jobs_url": "https://ats.rippling.com/rippling/jobs",
+      "ats": {
+        "provider": "custom",
+        "board_id": "rippling"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "9e3a45d1-477e-4b0c-9fac-7178385c8da2",
+          "title": "Software Engineer II, Frontend/AI Fullstack - Growth Engineering",
+          "url": "https://ats.rippling.com/rippling/jobs/9e3a45d1-477e-4b0c-9fac-7178385c8da2",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 135000,
+            "maximum": 225000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$135,000 - $225,000 USD per year (US Tier 1)"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T01:46:43Z",
+          "evidence": {
+            "active_status": "Live on Rippling ATS board (ats.rippling.com/rippling/jobs) with active Apply now button on the official posting.",
+            "location": "San Francisco, CA per official Rippling ATS posting.",
+            "workplace_arrangement": "Hybrid — official posting states 'working in the office, at least three days a week under current policy, to be an essential function of the employee's role.'",
+            "compensation": "$135,000 - $225,000 USD per year (US Tier 1) per official Rippling ATS posting.",
+            "employment_type": "Full-time; annual salary structure and Software Engineer II leveling are consistent with standard full-time employment; no part-time indication in posting.",
+            "seniority": "Mid-level — 3+ years of professional software engineering experience required per official posting.",
+            "role_fit": "Design multi-turn AI chat experiences with conversation state and context management; build agentic workflows using LangChain and LangGraph with LLM reasoning and tool integration; instrument AI systems with LangSmith tracing, evaluation datasets, and quality metrics; create and maintain evals for AI-generated briefings, reports, analytics answers, and HTML artifacts; debug model behavior and optimize prompts across multi-turn conversations."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T01:46:43Z",
+      "last_verified_at": "2026-08-08T01:46:43Z"
+    }
+  ],
+  "issues": [
+    {
+      "code": "employment_type_missing",
+      "company_id": null,
+      "subject": "Revi",
+      "source_url": "https://getrevijob.com/",
+      "details": "Senior AI Engineer at Revi (San Francisco, hybrid, $220k–$270k+equity) could not be included: employment type not stated on the self-hosted careers page at getrevijob.com, and no apply link or ATS page available to confirm. Excluded per missing-required-fact policy."
+    }
+  ]
+}

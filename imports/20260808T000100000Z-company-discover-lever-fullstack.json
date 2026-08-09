@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-08T00:01:00Z",
+  "changes": [
+    {
+      "company_id": "angellist",
+      "name": "AngelList",
+      "website_url": "https://www.angellist.com/",
+      "primary_domain": "angellist.com",
+      "jobs_url": "https://jobs.lever.co/angellist",
+      "ats": {
+        "provider": "lever",
+        "board_id": "angellist"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "35d58a93-7080-4b3a-89b3-ed64d0f7a0c2",
+          "title": "Senior Software Engineer, Intelligence",
+          "url": "https://jobs.lever.co/angellist/35d58a93-7080-4b3a-89b3-ed64d0f7a0c2",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 200000,
+            "maximum": 200000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "The base salary for this role is $200,000+ annually but actual will vary based on a number of factors including a candidate's professional background, experience, and location."
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T00:01:00Z",
+          "evidence": {
+            "active_status": "Listed as active on AngelList's public Lever board via api.lever.co/v0/postings/angellist with a direct application link.",
+            "location": "San Francisco, CA per Lever API posting.",
+            "workplace_arrangement": "Hybrid — workplaceType field is 'hybrid' per Lever API.",
+            "compensation": "The base salary for this role is $200,000+ annually but actual will vary based on a number of factors including a candidate's professional background, experience, and location.",
+            "employment_type": "Full-time — commitment field is 'Full Time' per Lever API.",
+            "seniority": "Senior — title is 'Senior Software Engineer, Intelligence'; posting requires at least 4+ years of experience building large-scale web applications or backend services.",
+            "role_fit": "Design and operate OpenSearch-backed retrieval and semantic search systems; build and run agent orchestration, model integrations, and safety layers for LLM-driven workflows; prototype new AI-driven features and productionize them in a Go-first codebase."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T00:01:00Z",
+      "last_verified_at": "2026-08-08T00:01:00Z"
+    }
+  ],
+  "issues": [
+    {
+      "code": "canonical_fetch_error",
+      "company_id": null,
+      "subject": "Aircall — Full-Stack Software Engineer, AI",
+      "source_url": "https://api.lever.co/v0/postings/aircall?mode=json",
+      "details": "Aircall's Lever company board returns an empty array across multiple invocations, indicating no jobs are exposed via the public API. Direct jobs.lever.co URLs return HTTP 403. Cannot verify any Aircall Lever postings."
+    },
+    {
+      "code": "budget_exhausted",
+      "company_id": null,
+      "subject": "Run budget exhausted — second qualifying company not found",
+      "source_url": null,
+      "details": "20 canonical fetches consumed before finding a second qualifying company. Investigated: Persona (specific job ID returned 404 — expired), Notion (no Lever board; api.lever.co/v0/postings/notion-so returned 404), Intercom (not on Lever), Descript (not on Lever), Vanta (not on Lever), Arcade (not on Lever). AngelList is the only qualifying company found in this run."
+    }
+  ]
+}

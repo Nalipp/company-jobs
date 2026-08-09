@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-08T18:00:00Z",
+  "changes": [],
+  "issues": [
+    {
+      "code": "canonical_fetch_error",
+      "company_id": null,
+      "subject": "Aircall — Full-Stack Software Engineer, AI / Staff Software Engineer Backend/AI",
+      "source_url": "https://api.lever.co/v0/postings/aircall?mode=json",
+      "details": "Aircall's Lever company board continues to return an empty array across multiple invocations in this and prior runs, indicating no postings are exposed via the public API. Direct jobs.lever.co URLs return HTTP 403. Cannot verify any Aircall Lever postings."
+    },
+    {
+      "code": "canonical_fetch_error",
+      "company_id": null,
+      "subject": "Persona — Software Engineer, Product (SF/NYC)",
+      "source_url": "https://jobs.lever.co/persona/c63ca7cd-58ba-4704-a66a-1c98dbd2ff27",
+      "details": "Persona's Lever company board API (api.lever.co/v0/postings/persona) returned HTTP 404, indicating their board is either private or API-disabled. Posting appeared in web search index (SF/NYC hybrid, product engineering) but compensation, workplace arrangement, and active status cannot be verified from any canonical Lever source. Omitted."
+    },
+    {
+      "code": "canonical_fetch_error",
+      "company_id": null,
+      "subject": "WorkOS — Software Engineer, Frontend",
+      "source_url": "https://jobs.lever.co/workos/48251dd6-0338-4963-9fd7-54d806aeb17a",
+      "details": "WorkOS's Lever company board API (api.lever.co/v0/postings/workos) returned HTTP 404, indicating their board API is private. Web search showed a Frontend SE role with annual US base salary $175,000-$250,000 (qualifying max) in San Francisco as hybrid. However, active status, workplace arrangement, and exact SF location cannot be verified via any canonical Lever API source. Omitted per canonical-source-required policy."
+    },
+    {
+      "code": "canonical_fetch_error",
+      "company_id": null,
+      "subject": "unitQ — AI Software Engineer",
+      "source_url": "https://jobs.lever.co/unitq/3bae348e-dde3-4b26-bd2d-ec0b80cef307",
+      "details": "unitQ's Lever board (api.lever.co/v0/postings/unitq) is accessible and shows an active AI Software Engineer role in San Francisco (on-site, full-time) with responsibilities including building end-to-end RAG pipelines and LLM integration. However, no salary or compensation is published for this role. Excluded per unknown_policy: exclude."
+    },
+    {
+      "code": "canonical_fetch_error",
+      "company_id": null,
+      "subject": "Apollo Research — Full-stack Software Engineer",
+      "source_url": "https://jobs.lever.co/apolloresearch/421c9d78-2ca3-4b9e-9e4a-22044d837571",
+      "details": "Apollo Research's Lever board (api.lever.co/v0/postings/apolloresearch) is accessible and shows a Full-stack Software Engineer role listed for London & San Francisco, on-site, full-time, with LLM agent/evaluation work. However, no USD salary is published for this role (other roles have GBP salaries only). Excluded per unknown_policy: exclude."
+    },
+    {
+      "code": "budget_exhausted",
+      "company_id": null,
+      "subject": "Run budget exhausted — 0 of 5 target companies found",
+      "source_url": null,
+      "details": "12 web searches and 30 canonical fetches consumed. Boards investigated with no qualifying results: hive (no SWE roles with $200K+ and AI work), windfalldata (full-stack roles expired; data engineering only on current board), AIFund (Mountain View, not SF), ivo (empty board), minted (no current SWE roles), goodleap (Staff SE AI expired), floqast (no SF SWE roles). Board API returned 404 for: connectly, persona, writer, sierraai, brex, pika, linear, glean, groq, superhuman, intercom, coda-hq, workos, tome, lattice, replit, clerk. Most SF-based AI product companies in this size range use Greenhouse or Ashby rather than Lever. The two active Lever companies with qualifying AI engineering roles — Collate (lever/collate) and AngelList (lever/angellist) — are already in the catalog from prior runs."
+    }
+  ]
+}

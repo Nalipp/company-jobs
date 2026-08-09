@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-08T18:40:00Z",
+  "changes": [
+    {
+      "company_id": "commodityai",
+      "name": "CommodityAI",
+      "website_url": "https://commodityai.io/",
+      "primary_domain": "commodityai.io",
+      "jobs_url": "https://www.ycombinator.com/companies/commodityai/jobs",
+      "ats": {
+        "provider": "unknown",
+        "board_id": null
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "Senior Software Engineer",
+          "url": "https://www.ycombinator.com/companies/commodityai/jobs/fCU0ca2-senior-software-engineer",
+          "location_text": "San Francisco, CA, US",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 200000,
+            "maximum": 250000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$200K - $250K•0.25% - 1.00%"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T18:40:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/commodityai/jobs); direct application available.",
+            "location": "San Francisco, CA, US per official YC WaaS posting; relocation to SF required per posting.",
+            "workplace_arrangement": "On-site per official YC WaaS posting; relocation required for regular in-person collaboration.",
+            "compensation": "$200K - $250K•0.25% - 1.00%",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "6+ years of professional software engineering experience required per official YC WaaS posting; $200K floor supports senior.",
+            "role_fit": "Deploy Production AI/LLM Workflows: architect agentic systems, structured extraction pipelines, and evaluation frameworks to convert unstructured commodity trading documents into deterministic data; hands-on production AI experience required including deployed LLM or agent systems addressing structured outputs, retrieval, or orchestration."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T18:40:00Z",
+      "last_verified_at": "2026-08-08T18:40:00Z"
+    },
+    {
+      "company_id": "eloquent-ai",
+      "name": "Eloquent AI",
+      "website_url": "https://www.eloquentai.co/",
+      "primary_domain": "eloquentai.co",
+      "jobs_url": "https://www.ycombinator.com/companies/eloquent-ai/jobs",
+      "ats": {
+        "provider": "unknown",
+        "board_id": null
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "AI Engineer, Multimodal LLMs",
+          "url": "https://www.ycombinator.com/companies/eloquent-ai/jobs/2eWGivc-ai-engineer-multimodal-llms",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 150000,
+            "maximum": 250000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$150K - $250K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T18:40:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/eloquent-ai/jobs); direct application available.",
+            "location": "San Francisco, CA per official YC WaaS posting.",
+            "workplace_arrangement": "On-site in San Francisco per official YC WaaS posting; company page confirms AI engineering roles are in-person SF.",
+            "compensation": "$150K - $250K",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "3+ years of experience in software development, AI engineering, or NLP in a production environment per official YC WaaS posting; supports mid-level.",
+            "role_fit": "Build, deploy, and optimize AI agents for enterprise-grade conversations; design and develop next-generation multimodal LLM architectures spanning language, speech, and vision; refine training paradigms and improve agent performance through user simulations and evaluations; integrate AI systems with enterprise infrastructure at production scale."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T18:40:00Z",
+      "last_verified_at": "2026-08-08T18:40:00Z"
+    }
+  ],
+  "issues": []
+}

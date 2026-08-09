@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-07T23:00:00Z",
+  "changes": [
+    {
+      "company_id": "within-ai",
+      "name": "Within",
+      "website_url": "https://www.within.ai/",
+      "primary_domain": "within.ai",
+      "jobs_url": "https://jobs.ashbyhq.com/within-ai",
+      "ats": {
+        "provider": "ashby",
+        "board_id": "within-ai"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "Senior AI Product Engineer",
+          "url": "https://www.ycombinator.com/companies/klarity/jobs/dtfEDbk-senior-ai-product-engineer",
+          "location_text": "San Francisco, California",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 167000,
+            "maximum": 220000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$167K - $220K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:00:00Z",
+          "evidence": {
+            "active_status": "Listed as open on Y Combinator Work at a Startup (ycombinator.com/companies/klarity/jobs); direct application link available through YC WaaS platform.",
+            "location": "San Francisco per official YC WaaS posting for Within (formerly Klarity).",
+            "workplace_arrangement": "On-site — posting specifies in-person attendance at San Francisco HQ.",
+            "compensation": "$167K - $220K base salary per YC WaaS listing.",
+            "employment_type": "Full-time — Y Combinator Work at a Startup lists only full-time roles; Series B company ($91M raised) with enterprise clients.",
+            "seniority": "Senior — title is 'Senior AI Product Engineer'; 3+ years required per official posting.",
+            "role_fit": "Ship AI-native features to production; scope around non-determinism and probabilistic systems; bridge AI capabilities with user needs; build agentic system experiences for Fortune 500 enterprise clients."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T23:00:00Z",
+      "last_verified_at": "2026-08-07T23:00:00Z"
+    }
+  ],
+  "issues": [
+    {
+      "code": "canonical_source_unreachable",
+      "company_id": null,
+      "subject": "Perplexity AI — Member of Technical Staff (Software Engineer, Integrations)",
+      "source_url": "https://jobs.ashbyhq.com/perplexity/ea87532c-69a0-497d-9cf3-04cc2a6c6410",
+      "details": "Perplexity AI's Ashby board pages return only minimal text (JavaScript-rendered content not accessible via WebFetch). Third-party data indicates a qualifying SF hybrid role at $242K–$262K with full-stack applied AI responsibilities, but all hard constraints could not be verified from the canonical Ashby source. Role not admitted; a follow-up run with a JS-capable fetch tool could verify and add this company."
+    }
+  ]
+}

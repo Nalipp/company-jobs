@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "operation": "validate-company-address",
+  "created_at": "2026-08-07T00:00:00Z",
+  "changes": [
+    {
+      "company_id": "magic",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "580 California Street, Floor 12, San Francisco, CA 94104",
+        "postal_code": "94104",
+        "latitude": 37.7929,
+        "longitude": -122.4042,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Magic official headquarters",
+        "source_url": "https://www.cbinsights.com/company/magic-3",
+        "checked_at": "2026-08-07T00:00:00Z"
+      }
+    },
+    {
+      "company_id": "retool",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "1550 Bryant Street, San Francisco, CA 94103",
+        "postal_code": "94103",
+        "latitude": 37.7707,
+        "longitude": -122.3977,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Retool official headquarters - The Hamm's Building",
+        "source_url": "https://x.com/retool/status/1535313377924222982",
+        "checked_at": "2026-08-07T00:00:00Z"
+      }
+    },
+    {
+      "company_id": "airtable",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "1 Front Street, Suite 2800, San Francisco, CA 94111",
+        "postal_code": "94111",
+        "latitude": 37.7918,
+        "longitude": -122.3988,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Airtable official headquarters",
+        "source_url": "https://www.airtable.com/about",
+        "checked_at": "2026-08-07T00:00:00Z"
+      }
+    },
+    {
+      "company_id": "floot",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "945 Taraval Street, Suite 534, San Francisco, CA 94116",
+        "postal_code": "94116",
+        "latitude": 37.7420,
+        "longitude": -122.4750,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Floot San Francisco office",
+        "source_url": "https://www.highperformr.ai/company/floothq",
+        "checked_at": "2026-08-07T00:00:00Z"
+      }
+    },
+    {
+      "company_id": "within-ai",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "not_found",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": "2026-08-07T00:00:00Z"
+      }
+    },
+    {
+      "company_id": "cardinal",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "not_found",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": "2026-08-07T00:00:00Z"
+      }
+    },
+    {
+      "company_id": "f2-ai",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "not_found",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": "2026-08-07T00:00:00Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "address_not_found",
+      "company_id": "within-ai",
+      "subject": "Unable to locate Within AI headquarters address",
+      "source_url": null,
+      "details": "Searched for Within AI office address but could not find a definitive street address. Company jobs URL references Klarity platform but unclear if same entity."
+    },
+    {
+      "code": "address_not_found",
+      "company_id": "cardinal",
+      "subject": "Unable to locate Cardinal AI headquarters address",
+      "source_url": null,
+      "details": "Searched for Cardinal AI (Y Combinator W26) San Francisco office but no specific street address available. Company confirmed in SF but address details not publicly listed."
+    },
+    {
+      "code": "wrong_city",
+      "company_id": "f2-ai",
+      "subject": "F2 appears to be headquartered outside San Francisco",
+      "source_url": "https://www.crunchbase.com/organization/f2-ai",
+      "details": "F2 AI research indicates headquarters in New York City, possibly Tel Aviv. Catalog specifies San Francisco city. While company may have SF job postings, definitive SF office address not found during research."
+    }
+  ]
+}

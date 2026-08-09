@@ -1,5 +1,1920 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-05T20:20:22-07:00",
-  "companies": []
+  "updated_at": "2026-08-09T03:02:02Z",
+  "companies": [
+    {
+      "company_id": "thorin",
+      "name": "Thorin",
+      "website_url": null,
+      "primary_domain": null,
+      "jobs_url": "https://jobs.ashbyhq.com/thorin",
+      "ats": {
+        "provider": "ashby",
+        "board_id": "thorin"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "a2044814-4058-4022-b647-5008933ae17f",
+          "title": "Founding Senior AI Product Engineer",
+          "url": "https://jobs.ashbyhq.com/thorin/a2044814-4058-4022-b647-5008933ae17f",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 200000,
+            "maximum": 350000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$200,000-$350,000 expected base salary plus equity and benefits"
+          },
+          "posted_date": "2026-06-25",
+          "status": "active",
+          "verified_at": "2026-08-09T02:55:13Z",
+          "evidence": {
+            "active_status": "Current official Ashby board lists the posting as active (isListed true).",
+            "location": "Official posting lists San Francisco, CA.",
+            "workplace_arrangement": "Official Ashby posting classifies the role as OnSite.",
+            "compensation": "The official job description publishes an expected $200,000-$350,000 base range plus equity and benefits.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Senior: the title is Founding Senior AI Product Engineer and the role includes mentoring engineers and player-coach scope.",
+            "role_fit": "Builds proactive, long-horizon AI-agent products end to end and partners directly with founders and customers on product experiences."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-03T17:57:10Z",
+      "last_verified_at": "2026-08-09T02:55:13Z"
+    },
+    {
+      "company_id": "ampersand",
+      "name": "Ampersand",
+      "website_url": "https://www.withampersand.com/",
+      "primary_domain": "withampersand.com",
+      "jobs_url": "https://jobs.ashbyhq.com/Ampersand",
+      "ats": {
+        "provider": "ashby",
+        "board_id": "Ampersand"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "02cbb849-f38d-4061-81f0-c54a287d024c",
+          "title": "Product Engineer, Frontend",
+          "url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 125000,
+            "maximum": 288000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$125K - $288K"
+          },
+          "posted_date": "2026-06-18",
+          "status": "active",
+          "verified_at": "2026-08-09T02:55:13Z",
+          "evidence": {
+            "active_status": "Current official Ashby board feed lists the posting as active (isListed true).",
+            "location": "Official Ashby posting lists San Francisco.",
+            "workplace_arrangement": "Official Ashby posting classifies the role as Hybrid; the description identifies Monday, Tuesday, and Thursday as in-office days.",
+            "compensation": "Official posting publishes a $125K-$288K annual base range.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Mid-level: the posting requires 4+ years engineering and designing digital products.",
+            "role_fit": "Owns the dashboard, embeddable React UI library, and full-stack product features for Ampersand's integration platform, whose core function is delivering real-time context to AI agents."
+          }
+        },
+        {
+          "job_id": "ffa4a2b4-7b64-4b82-9e46-edb45144fca2",
+          "title": "Forward Deployed Engineer",
+          "url": "https://jobs.ashbyhq.com/Ampersand/ffa4a2b4-7b64-4b82-9e46-edb45144fca2",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 89000,
+            "maximum": 205000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$89K - $205K"
+          },
+          "posted_date": "2026-06-18",
+          "status": "active",
+          "verified_at": "2026-08-09T02:55:13Z",
+          "evidence": {
+            "active_status": "Current official Ashby board feed lists the posting as active (isListed true).",
+            "location": "Official Ashby posting lists San Francisco.",
+            "workplace_arrangement": "Official Ashby posting classifies the role as Hybrid; the description identifies Monday, Tuesday, and Thursday as in-office days.",
+            "compensation": "Official posting publishes an $89K-$205K annual base range.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Mid-level: the posting requires 4+ years of software engineering, solutions engineering, or customer-facing technical experience.",
+            "role_fit": "Implements and extends Ampersand's AI-agent integration product inside customer environments, writes production code, and feeds deployment patterns into the core product."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-03T18:33:00Z",
+      "last_verified_at": "2026-08-09T02:55:13Z"
+    },
+    {
+      "company_id": "openai",
+      "name": "OpenAI",
+      "website_url": "https://openai.com/",
+      "primary_domain": "openai.com",
+      "jobs_url": "https://jobs.ashbyhq.com/openai",
+      "ats": {
+        "provider": "ashby",
+        "board_id": "openai"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "1455 3rd Street, San Francisco, CA 94158, USA",
+        "postal_code": "94158",
+        "latitude": 37.7700459,
+        "longitude": -122.3887896,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "OpenAI official Terms of Use",
+        "source_url": "https://openai.com/policies/terms-of-use/",
+        "checked_at": "2026-08-03T19:56:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": "1bb1f351-41a2-43a5-bac1-259859886cb3",
+          "title": "Software Engineer, GTM Growth Engineering",
+          "url": "https://jobs.ashbyhq.com/openai/1bb1f351-41a2-43a5-bac1-259859886cb3",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 230000,
+            "maximum": 385000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$230K - $385K plus equity"
+          },
+          "posted_date": "2026-07-25",
+          "status": "active",
+          "verified_at": "2026-08-09T02:55:13Z",
+          "evidence": {
+            "active_status": "Current official OpenAI Ashby feed lists the posting as active (isListed true).",
+            "location": "Official OpenAI Ashby posting lists San Francisco.",
+            "workplace_arrangement": "Official Ashby feed classifies this posting as OnSite.",
+            "compensation": "Official posting publishes a $230K-$385K annual base range plus equity.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Mid-level: the posting requires 4+ years as a software, product, or full-stack engineer.",
+            "role_fit": "Builds AI-powered products and full-stack GTM experiences, including user interfaces, APIs, integrations, data models, and human-review surfaces for AI-assisted workflows."
+          }
+        },
+        {
+          "job_id": "38e3c4bf-a632-405e-9619-b87382ca2472",
+          "title": "Applied AI Software Engineer, GTM Growth Engineering",
+          "url": "https://jobs.ashbyhq.com/openai/38e3c4bf-a632-405e-9619-b87382ca2472",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 230000,
+            "maximum": 385000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$230K - $385K plus equity"
+          },
+          "posted_date": "2026-07-25",
+          "status": "active",
+          "verified_at": "2026-08-09T02:55:13Z",
+          "evidence": {
+            "active_status": "Current official OpenAI Ashby feed lists the posting as active (isListed true).",
+            "location": "Official OpenAI posting lists San Francisco.",
+            "workplace_arrangement": "OpenAI's official San Francisco role policy states a hybrid model of three in-office days per week.",
+            "compensation": "Official posting publishes a $230K-$385K annual base range plus equity.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Mid-level: the posting requires 4+ years of software, backend, applied-AI, or product-engineering experience.",
+            "role_fit": "Owns production agent improvement loops across feedback, evaluation, experimentation, prompting, context construction, tool use, human review, and backend services."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-03T18:33:00Z",
+      "last_verified_at": "2026-08-09T02:55:13Z"
+    },
+    {
+      "company_id": "mercor",
+      "name": "Mercor",
+      "website_url": "https://www.mercor.com/",
+      "primary_domain": "mercor.com",
+      "jobs_url": "https://jobs.ashbyhq.com/mercor",
+      "ats": {
+        "provider": "ashby",
+        "board_id": "mercor"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "181 Fremont Street, San Francisco, CA 94105, USA",
+        "postal_code": "94105",
+        "latitude": 37.7898002,
+        "longitude": -122.3953496,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Mercor official careers page",
+        "source_url": "https://www.mercor.com/careers/",
+        "checked_at": "2026-08-03T19:52:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": "03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+          "title": "Product Engineer, Talent Experience",
+          "url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 130000,
+            "maximum": 500000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$130K - $500K"
+          },
+          "posted_date": "2026-07-16",
+          "status": "active",
+          "verified_at": "2026-08-09T02:55:13Z",
+          "evidence": {
+            "active_status": "Current official Ashby board feed lists the posting as active (isListed true).",
+            "location": "Official posting lists San Francisco.",
+            "workplace_arrangement": "Official posting classifies the role as OnSite and states that Mercor works in person five days a week.",
+            "compensation": "Official posting publishes a $130K-$500K annual base range.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Mid-level: the posting requires 3+ years of professional software engineering experience.",
+            "role_fit": "Owns backend-heavy full-stack assessment products, including services for AI-assisted interviews, AI-powered scoring, skill verification, and candidate-facing product surfaces."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-03T18:42:00Z",
+      "last_verified_at": "2026-08-09T02:55:13Z"
+    },
+    {
+      "company_id": "edison-scientific",
+      "name": "Edison Scientific",
+      "website_url": "https://edisonscientific.com/",
+      "primary_domain": "edisonscientific.com",
+      "jobs_url": "https://jobs.ashbyhq.com/Edison%20Scientific",
+      "ats": {
+        "provider": "ashby",
+        "board_id": "Edison Scientific"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "19f9e74a-0bff-4ef4-9e4b-d5a44092e086",
+          "title": "Member of Technical Staff, Full-stack Engineer",
+          "url": "https://jobs.ashbyhq.com/Edison%20Scientific/19f9e74a-0bff-4ef4-9e4b-d5a44092e086",
+          "location_text": "San Francisco | New York",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 175000,
+            "maximum": 240000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$175K - $240K"
+          },
+          "posted_date": "2026-08-05",
+          "status": "active",
+          "verified_at": "2026-08-09T02:55:13Z",
+          "evidence": {
+            "active_status": "Current official Ashby board feed lists the posting as active (isListed true).",
+            "location": "Posting lists San Francisco | New York and explicitly says the role is on-site at the San Francisco Dogpatch office.",
+            "workplace_arrangement": "Official description explicitly says the role is on-site at the San Francisco office.",
+            "compensation": "Official posting publishes a $175K-$240K annual base range.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Senior: the posting typically requires 5+ years of software engineering experience.",
+            "role_fit": "Builds backend services, user-facing workflows, tools, interfaces, and data pipelines that power an AI scientist and support AI agents and scientific research workflows."
+          }
+        },
+        {
+          "job_id": "69572d5c-36ff-4a38-a1da-e1130d14b031",
+          "title": "Forward Deployed AI Engineer",
+          "url": "https://jobs.ashbyhq.com/Edison%20Scientific/69572d5c-36ff-4a38-a1da-e1130d14b031",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 200000,
+            "maximum": 350000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$200K - $350K"
+          },
+          "posted_date": "2026-07-01",
+          "status": "active",
+          "verified_at": "2026-08-09T02:55:13Z",
+          "evidence": {
+            "active_status": "Current official Ashby board feed lists the posting as active (isListed true).",
+            "location": "Official posting lists San Francisco.",
+            "workplace_arrangement": "Official Ashby posting classifies the role as OnSite and describes embedded customer work.",
+            "compensation": "Official posting publishes a $200K-$350K annual base range.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Mid-level: the posting requires 2+ years of professional software engineering experience.",
+            "role_fit": "Owns production deployments of Edison AI scientist agents, identifies agent use cases, and builds LLM/agentic systems using prompting, RAG, evaluation, and orchestration."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-05T21:50:00Z",
+      "last_verified_at": "2026-08-09T02:55:13Z"
+    },
+    {
+      "company_id": "gem",
+      "name": "Gem",
+      "website_url": "https://www.gem.com/",
+      "primary_domain": "gem.com",
+      "jobs_url": "https://jobs.gem.com/gem",
+      "ats": {
+        "provider": "custom",
+        "board_id": "gem"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "525 Market Street, 6th Floor, San Francisco, CA 94105",
+        "postal_code": "94105",
+        "latitude": 37.7906,
+        "longitude": -122.3979,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Gem official contact page",
+        "source_url": "https://www.gem.com/contact",
+        "checked_at": "2026-08-07T22:00:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "AI Product Engineer",
+          "url": "https://www.ycombinator.com/companies/gem/jobs/4Uathaz-ai-product-engineer-san-francisco",
+          "location_text": "San Francisco, CA, US",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 150000,
+            "maximum": 260000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$150,000–$260,000"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T20:47:07Z",
+          "evidence": {
+            "active_status": "Active on Y Combinator Work at a Startup; posting live with functioning application link (signup_job_id=77415).",
+            "location": "San Francisco, CA, US per YC WaaS posting.",
+            "workplace_arrangement": "On-site — 'not eligible for full-time remote work'.",
+            "compensation": "$150,000–$260,000 annual salary plus equity and benefits.",
+            "employment_type": "Full-time.",
+            "seniority": "Mid-level — 3+ years of experience required.",
+            "role_fit": "Develop LLM-powered product features across full stack; build intelligent search and candidate matching; implement vector database and embedding systems; build and optimize RAG architectures; ship AI features from concept to production."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T20:47:07Z",
+      "last_verified_at": "2026-08-07T20:47:07Z"
+    },
+    {
+      "company_id": "harvey-ai",
+      "name": "Harvey AI",
+      "website_url": "https://www.harvey.ai/",
+      "primary_domain": "harvey.ai",
+      "jobs_url": "https://jobs.ashbyhq.com/harvey",
+      "ats": {
+        "provider": "ashby",
+        "board_id": "harvey"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "201 3rd Street, Suite 500, San Francisco, CA 94103",
+        "postal_code": "94103",
+        "latitude": 37.7848,
+        "longitude": -122.3998,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Traded – Harvey AI lease at 201 3rd Street",
+        "source_url": "https://traded.co/deals/california/office/lease/201-3rd-street-1/",
+        "checked_at": "2026-08-07T22:00:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": "04e17f81-d0a7-4f83-8526-ec4c9532ddcc",
+          "title": "Senior Software Engineer, Frontend",
+          "url": "https://www.harvey.ai/company/careers/04e17f81-d0a7-4f83-8526-ec4c9532ddcc",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 200000,
+            "maximum": 260000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$200,000 – $260,000 USD (Offers Equity)"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T20:51:08Z",
+          "evidence": {
+            "active_status": "Live on harvey.ai/company/careers with functioning Apply Now button linking to Ashby ATS.",
+            "location": "Official posting states San Francisco, CA.",
+            "workplace_arrangement": "Hybrid in-person model with relocation assistance offered.",
+            "compensation": "$200,000 – $260,000 USD (Offers Equity)",
+            "employment_type": "Full Time per official posting.",
+            "seniority": "Senior per title; requires React/TypeScript expertise for AI-powered legal product interfaces.",
+            "role_fit": "Develop interfaces enabling lawyers to collaborate with AI; lead frontend for Assistant, Vault, Workflows; build React/TypeScript UIs for streaming results and tool-calling workflows."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T20:51:08Z",
+      "last_verified_at": "2026-08-07T20:51:08Z"
+    },
+    {
+      "company_id": "anthropic",
+      "name": "Anthropic",
+      "website_url": "https://www.anthropic.com/",
+      "primary_domain": "anthropic.com",
+      "jobs_url": "https://job-boards.greenhouse.io/anthropic",
+      "ats": {
+        "provider": "greenhouse",
+        "board_id": "anthropic"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "500 Howard Street, San Francisco, CA 94105",
+        "postal_code": "94105",
+        "latitude": 37.7864,
+        "longitude": -122.3958,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "SF Standard – Anthropic San Francisco office expansion",
+        "source_url": "https://sfstandard.com/2025/09/23/anthropic-san-francisco-office-lease/",
+        "checked_at": "2026-08-07T22:00:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": "5174743008",
+          "title": "Senior Software Engineer, Full-stack",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174743008",
+          "location_text": "San Francisco, CA | New York City, NY | Seattle, WA",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 320000,
+            "maximum": 320000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$320,000 - $320,000 USD"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T21:00:00Z",
+          "evidence": {
+            "active_status": "Posting states 'Deadline to apply: None. Applications will be reviewed on a rolling basis.'",
+            "location": "San Francisco, CA listed first; NYC and Seattle also listed as options.",
+            "workplace_arrangement": "Hybrid — 'expect all staff to be in one of our offices at least 25% of the time'.",
+            "compensation": "$320,000 - $320,000 USD",
+            "employment_type": "Full-time; minimum 6 years experience required.",
+            "seniority": "Senior — 'minimum of 6 years of practical full-stack engineering experience'.",
+            "role_fit": "Build Claude AI products across developer experience tools and SDKs, beneficial deployments, vertical AI products for finance/healthcare, and enterprise AI capabilities including context and proactivity."
+          }
+        },
+        {
+          "job_id": "5186067008",
+          "title": "Full-Stack Software Engineer, Reinforcement Learning",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5186067008",
+          "location_text": "San Francisco, CA | New York City, NY",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 300000,
+            "maximum": 405000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$300,000 - $405,000 USD"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T21:00:00Z",
+          "evidence": {
+            "active_status": "Live application form on job-boards.greenhouse.io/anthropic/jobs/5186067008.",
+            "location": "San Francisco, CA listed as primary; New York City, NY also listed.",
+            "workplace_arrangement": "Hybrid — 'we expect all staff to be in one of our offices at least 25% of the time'.",
+            "compensation": "$300,000 - $405,000 USD",
+            "employment_type": "Full-time implied by equity grants and comprehensive benefits; no part-time indication.",
+            "seniority": "Mid to Senior; requires substantial prior experience shipping production systems.",
+            "role_fit": "Build RL platforms for environment creation, human data collection at scale, and evaluation dashboards providing researchers real-time training insights; design code data generation pipelines with reward signals."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T21:00:00Z",
+      "last_verified_at": "2026-08-07T21:00:00Z"
+    },
+    {
+      "company_id": "scale-ai",
+      "name": "Scale AI",
+      "website_url": "https://scale.com/",
+      "primary_domain": "scale.com",
+      "jobs_url": "https://job-boards.greenhouse.io/scaleai",
+      "ats": {
+        "provider": "greenhouse",
+        "board_id": "scaleai"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "303 2nd Street, 5th Floor, San Francisco, CA 94107",
+        "postal_code": "94107",
+        "latitude": 37.7854,
+        "longitude": -122.3944,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Clay – Scale AI headquarters office locations",
+        "source_url": "https://www.clay.com/dossier/scale-ai-headquarters-office-locations",
+        "checked_at": "2026-08-07T22:00:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": "4513943005",
+          "title": "Software Engineer, Enterprise AI",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4513943005",
+          "location_text": "New York, NY; San Francisco, CA",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 179400,
+            "maximum": 224250,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$179,400 - $224,250 USD"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T21:05:00Z",
+          "evidence": {
+            "active_status": "Live application form on job-boards.greenhouse.io/scaleai/jobs/4513943005.",
+            "location": "New York, NY and San Francisco, CA listed; in-person in SF or NY 3 times a week.",
+            "workplace_arrangement": "Hybrid — on-site 3 days/week in SF or NYC.",
+            "compensation": "$179,400 - $224,250 USD base salary for SF/NY locations.",
+            "employment_type": "Full-time.",
+            "seniority": "Senior — 4+ years of full-time engineering experience post-graduation.",
+            "role_fit": "Build Scale GP enterprise generative AI platform; work with LLMs and vector databases; own large new product areas within Scale's AI platform."
+          }
+        },
+        {
+          "job_id": "4593571005",
+          "title": "Forward Deployed Engineer, GenAI",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4593571005",
+          "location_text": "San Francisco, CA; New York, NY",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 179400,
+            "maximum": 224250,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$179,400 - $224,250 USD"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T21:05:00Z",
+          "evidence": {
+            "active_status": "Live application form on job-boards.greenhouse.io/scaleai/jobs/4593571005.",
+            "location": "San Francisco, CA and New York, NY listed as co-equal locations; in-person in SF or NY.",
+            "workplace_arrangement": "Hybrid — 3 days/week in-office required in SF or NYC.",
+            "compensation": "$179,400 - $224,250 USD base salary for SF, NY, and Seattle locations.",
+            "employment_type": "Full-time per equity grants and comprehensive health/dental/vision coverage.",
+            "seniority": "Mid-level — 2+ years preferred.",
+            "role_fit": "Deliver data infrastructure solutions for leading AI innovators; design and deploy full-stack features for generative AI applications; collaborate with enterprise customers on complex AI data challenges."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T21:05:00Z",
+      "last_verified_at": "2026-08-07T21:05:00Z"
+    },
+    {
+      "company_id": "together-ai",
+      "name": "Together AI",
+      "website_url": "https://www.together.ai/",
+      "primary_domain": "together.ai",
+      "jobs_url": "https://job-boards.greenhouse.io/togetherai",
+      "ats": {
+        "provider": "greenhouse",
+        "board_id": "togetherai"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "2 Henry Adams Street, San Francisco, CA 94103",
+        "postal_code": "94103",
+        "latitude": 37.7673,
+        "longitude": -122.4063,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "The Real Deal – Together AI new headquarters at 2 Henry Adams Street",
+        "source_url": "https://therealdeal.com/san-francisco/2026/04/20/together-ai-moves-drastically-increases-headquarters-size/",
+        "checked_at": "2026-08-07T22:00:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": "5192898007",
+          "title": "Senior Product Engineer, Fullstack",
+          "url": "https://job-boards.greenhouse.io/togetherai/jobs/5192898007",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 160000,
+            "maximum": 230000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$160,000 - 230,000 + equity + benefits"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T21:06:57Z",
+          "evidence": {
+            "active_status": "Live application form on job-boards.greenhouse.io/togetherai/jobs/5192898007.",
+            "location": "San Francisco per official Greenhouse posting.",
+            "workplace_arrangement": "On-site — 4 days/week required in San Francisco office.",
+            "compensation": "$160,000 - 230,000 + equity + benefits for US base salary.",
+            "employment_type": "Full-time.",
+            "seniority": "Senior per title; 4–7 years of experience required.",
+            "role_fit": "Develop features across Playground, Model Garden, Fine-Tuning, File Management, and Model Evals; build and improve agentic workflows; curiosity about AI and LLMs required."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T21:06:57Z",
+      "last_verified_at": "2026-08-07T21:06:57Z"
+    },
+    {
+      "company_id": "magic",
+      "name": "Magic",
+      "website_url": "https://magic.dev/",
+      "primary_domain": "magic.dev",
+      "jobs_url": "https://jobs.ashbyhq.com/magic.dev",
+      "ats": {
+        "provider": "ashby",
+        "board_id": "magic.dev"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "580 California Street, Floor 12, San Francisco, CA 94104",
+        "postal_code": "94104",
+        "latitude": 37.7929,
+        "longitude": -122.4042,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Magic headquarters per Craft.co company profile",
+        "source_url": "https://craft.co/magic-ai",
+        "checked_at": "2026-08-08T18:55:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": "e6bfccff-afd4-464b-a434-b5d22002d8e1",
+          "title": "Member of Technical Staff, Product",
+          "url": "https://jobs.ashbyhq.com/magic.dev/e6bfccff-afd4-464b-a434-b5d22002d8e1",
+          "location_text": "San Francisco, California",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 200000,
+            "maximum": 550000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "Annual salary ranges between $200K - $550K depending on experience"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T22:50:23Z",
+          "evidence": {
+            "active_status": "Listed as active on Ashby board API (api.ashbyhq.com/posting-api/job-board/magic.dev) and magic.dev/careers.",
+            "location": "San Francisco, California per Ashby board API and magic.dev/careers.",
+            "workplace_arrangement": "OnSite per Ashby board API; magic.dev/careers confirms on-site arrangement with no remote flexibility stated.",
+            "compensation": "Annual salary ranges between $200K - $550K depending on experience; equity is additional to salary per Ashby board API.",
+            "employment_type": "FullTime per Ashby board API.",
+            "seniority": "Expects track record of owning product work end-to-end and strong software engineering fundamentals; salary floor of $200K confirms senior level.",
+            "role_fit": "Build web applications powered by long-context models; integrate model capabilities into usable product workflows; collaborate with RL and research teams to translate capability gains into customer-facing products and workflows."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T22:50:23Z",
+      "last_verified_at": "2026-08-07T22:50:23Z"
+    },
+    {
+      "company_id": "retool",
+      "name": "Retool",
+      "website_url": "https://retool.com/",
+      "primary_domain": "retool.com",
+      "jobs_url": "https://retool.com/careers",
+      "ats": {
+        "provider": "custom",
+        "board_id": "retool"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "1550 Bryant Street, San Francisco, CA 94103",
+        "postal_code": "94103",
+        "latitude": 37.7695,
+        "longitude": -122.4105,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Retool official announcement – Hamm's Building headquarters",
+        "source_url": "https://x.com/retool/status/1535313377924222982",
+        "checked_at": "2026-08-08T18:55:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "Software Engineer, AI Product Engineer",
+          "url": "https://retool.com/careers/software-engineer-ai-product-engineer---engineering--san-francisco-united-states",
+          "location_text": "San Francisco, United States",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 163800,
+            "maximum": 306000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$163,800 – $306,000 per year"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:00:00Z",
+          "evidence": {
+            "active_status": "Posting live at retool.com/careers; role appears on official company careers board as a current opening.",
+            "location": "San Francisco, United States per official Retool careers page.",
+            "workplace_arrangement": "Hybrid — company operates a hybrid model with San Francisco office.",
+            "compensation": "$163,800 – $306,000 per year base salary per official careers page.",
+            "employment_type": "Full-time; 3+ years of professional software engineering experience required.",
+            "seniority": "Mid to senior — 3+ years experience required per official posting.",
+            "role_fit": "Build generative UIs for natural language app creation; implement RAG, few-shot prompting, and agentic patterns; create AI evaluation systems; ship developer-facing AI features."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T23:00:00Z",
+      "last_verified_at": "2026-08-07T23:00:00Z"
+    },
+    {
+      "company_id": "within-ai",
+      "name": "Within",
+      "website_url": "https://www.within.ai/",
+      "primary_domain": "within.ai",
+      "jobs_url": "https://jobs.ashbyhq.com/within-ai",
+      "ats": {
+        "provider": "ashby",
+        "board_id": "within-ai"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "not_found",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": "2026-08-08T18:55:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "Senior AI Product Engineer",
+          "url": "https://www.ycombinator.com/companies/klarity/jobs/dtfEDbk-senior-ai-product-engineer",
+          "location_text": "San Francisco, California",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 167000,
+            "maximum": 220000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$167K - $220K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:00:00Z",
+          "evidence": {
+            "active_status": "Listed as open on Y Combinator Work at a Startup (ycombinator.com/companies/klarity/jobs); direct application link available through YC WaaS platform.",
+            "location": "San Francisco per official YC WaaS posting for Within (formerly Klarity).",
+            "workplace_arrangement": "On-site — posting specifies in-person attendance at San Francisco HQ.",
+            "compensation": "$167K - $220K base salary per YC WaaS listing.",
+            "employment_type": "Full-time — Y Combinator Work at a Startup lists only full-time roles; Series B company ($91M raised) with enterprise clients.",
+            "seniority": "Senior — title is 'Senior AI Product Engineer'; 3+ years required per official posting.",
+            "role_fit": "Ship AI-native features to production; scope around non-determinism and probabilistic systems; bridge AI capabilities with user needs; build agentic system experiences for Fortune 500 enterprise clients."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T23:00:00Z",
+      "last_verified_at": "2026-08-07T23:00:00Z"
+    },
+    {
+      "company_id": "airtable",
+      "name": "Airtable",
+      "website_url": "https://www.airtable.com/",
+      "primary_domain": "airtable.com",
+      "jobs_url": "https://job-boards.greenhouse.io/airtable",
+      "ats": {
+        "provider": "greenhouse",
+        "board_id": "airtable"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "1 Front Street, Suite 2800, San Francisco, CA 94111",
+        "postal_code": "94111",
+        "latitude": 37.7918,
+        "longitude": -122.3988,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Airtable California business filing – Formagrid Inc at 1 Front Street",
+        "source_url": "https://opengovus.com/los-angeles-business/0002978614-0001-1",
+        "checked_at": "2026-08-08T18:55:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": "8397228002",
+          "title": "Software Engineer, Product Frontend (8+ YOE)",
+          "url": "https://job-boards.greenhouse.io/airtable/jobs/8397228002",
+          "location_text": "San Francisco, CA; New York, NY",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 213000,
+            "maximum": 339900,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$213,000 - $339,900 USD"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:16:00Z",
+          "evidence": {
+            "active_status": "Live application form on job-boards.greenhouse.io/airtable/jobs/8397228002.",
+            "location": "San Francisco, CA listed as location; New York, NY also listed as alternative.",
+            "workplace_arrangement": "Hybrid — 'based in the San Francisco Bay Area and are open to coming into our office (Embarcadero) at least ~2-3 times/week'.",
+            "compensation": "$213,000 - $339,900 USD",
+            "employment_type": "Full-time.",
+            "seniority": "Senior — '8+ years of industry experience required'.",
+            "role_fit": "Build modern onboarding experiences 'by taking advantage of frontier AI capabilities' within Airtable's Self Serve Funnel team; required application question asks how candidate uses AI in their current role; bridges frontier AI capabilities with user-facing product activation."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T23:16:00Z",
+      "last_verified_at": "2026-08-07T23:16:00Z"
+    },
+    {
+      "company_id": "cardinal",
+      "name": "Cardinal",
+      "website_url": "https://trycardinal.com/",
+      "primary_domain": "trycardinal.com",
+      "jobs_url": "https://www.ycombinator.com/companies/trycardinal-ai/jobs",
+      "ats": {
+        "provider": "unknown",
+        "board_id": null
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "not_found",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": "2026-08-08T18:55:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "Founding Engineer",
+          "url": "https://www.ycombinator.com/companies/trycardinal-ai/jobs/vLd6N4I-founding-engineer",
+          "location_text": "San Francisco, CA, US",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 200000,
+            "maximum": 250000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$200K - $250K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:50:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/trycardinal-ai/jobs); direct application available with signup_job_id=92369.",
+            "location": "San Francisco, CA, US per official YC WaaS posting.",
+            "workplace_arrangement": "On-site (in-person SF office) per official YC WaaS posting.",
+            "compensation": "$200K - $250K•1.00%",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "1–6 years of experience per official YC WaaS posting; $200K minimum base confirms at least mid-level.",
+            "role_fit": "Build AI agents that discover hyper-targeted leads by analyzing ICPs, conference attendees, and hiring signals; implement real-time content monitoring systems tracking prospect activity across social platforms; architect multi-channel sequence orchestration across email and LinkedIn; work with LLMs and prompt engineering to generate personalized outreach snippets. Experience with AI/ML, LLMs, prompt engineering, or building AI agents noted as bonus."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T23:50:00Z",
+      "last_verified_at": "2026-08-07T23:50:00Z"
+    },
+    {
+      "company_id": "floot",
+      "name": "Floot",
+      "website_url": "https://floot.com/",
+      "primary_domain": "floot.com",
+      "jobs_url": "https://www.ycombinator.com/companies/floot/jobs",
+      "ats": {
+        "provider": "unknown",
+        "board_id": null
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "not_found",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": "2026-08-08T18:55:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "Founding Full-Stack Engineer",
+          "url": "https://www.ycombinator.com/companies/floot/jobs/2rbWibL-founding-full-stack-engineer",
+          "location_text": "San Francisco, CA, US",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 150000,
+            "maximum": 220000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$150K - $220K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:50:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/floot/jobs); direct application available with signup_job_id=82610.",
+            "location": "San Francisco, CA, US per official YC WaaS posting.",
+            "workplace_arrangement": "On-site — SF-only per official YC WaaS posting.",
+            "compensation": "$150K - $220K•0.25% - 2.00%",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "3+ years of experience required per official YC WaaS posting; $150K–$220K base floor supports mid-level.",
+            "role_fit": "Improve the AI runtime to handle edge cases and make the agentic system more reliable; prompt engineering and evals to improve AI output quality (for both function and design); ship full-stack features on an AI-first platform that enables non-coders to build full-stack web apps via an AI-optimized framework."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T23:50:00Z",
+      "last_verified_at": "2026-08-07T23:50:00Z"
+    },
+    {
+      "company_id": "f2-ai",
+      "name": "F2",
+      "website_url": "https://f2.ai/",
+      "primary_domain": "f2.ai",
+      "jobs_url": "https://jobs.ashbyhq.com/f2-ai",
+      "ats": {
+        "provider": "ashby",
+        "board_id": "f2-ai"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "not_found",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": "2026-08-08T18:55:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": "1fc58019-d335-4b08-83d2-40d0d4f97792",
+          "title": "Senior Software Engineer",
+          "url": "https://jobs.ashbyhq.com/f2-ai/1fc58019-d335-4b08-83d2-40d0d4f97792",
+          "location_text": "San Francisco, California",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 175000,
+            "maximum": 225000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$175K – $225K • Offers Equity"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:55:00Z",
+          "evidence": {
+            "active_status": "Listed as an active open posting on Ashby board API (api.ashbyhq.com/posting-api/job-board/f2-ai).",
+            "location": "San Francisco, California per Ashby board API location field.",
+            "workplace_arrangement": "Hybrid per Ashby board API workplaceType field.",
+            "compensation": "$175K – $225K • Offers Equity per Ashby board API compensationTierSummary.",
+            "employment_type": "Full Time per Ashby board API employmentType field.",
+            "seniority": "Senior — 4+ years building production software across frontend and backend required per Ashby posting.",
+            "role_fit": "Own and implement software features end-to-end across the full stack; 'Comfort building with AI at the core—integrating LLMs, retrieval, or agents into product experiences' is an explicit requirement."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T23:55:00Z",
+      "last_verified_at": "2026-08-07T23:55:00Z"
+    },
+    {
+      "company_id": "vercel",
+      "name": "Vercel",
+      "website_url": "https://vercel.com/",
+      "primary_domain": "vercel.com",
+      "jobs_url": "https://vercel.com/careers",
+      "ats": {
+        "provider": "custom",
+        "board_id": "vercel"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "650 California Street, Floor 7, San Francisco, CA 94108",
+        "postal_code": "94108",
+        "latitude": 37.7928,
+        "longitude": -122.4052,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Vercel San Francisco business registry filing",
+        "source_url": "https://opengovus.com/san-francisco-business/1263459-11-201",
+        "checked_at": "2026-08-08T18:55:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": "5474915004",
+          "title": "Software Engineer, AI SDK",
+          "url": "https://vercel.com/careers/software-engineer-ai-sdk-5474915004",
+          "location_text": "New York City, San Francisco",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 196000,
+            "maximum": 294000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$196,000–$294,000"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:58:00Z",
+          "evidence": {
+            "active_status": "Posting live at vercel.com/careers/software-engineer-ai-sdk-5474915004 with embedded application form on vercel.com.",
+            "location": "New York City, San Francisco per official Vercel careers page.",
+            "workplace_arrangement": "Hybrid — anchor days Monday, Tuesday, Friday for those within commuting distance of SF, NY, London, or Berlin offices.",
+            "compensation": "$196,000–$294,000 San Francisco base salary per official Vercel careers page.",
+            "employment_type": "Full-time per official Vercel careers page.",
+            "seniority": "Senior — at least 5+ years of relevant experience required per official posting.",
+            "role_fit": "Develop and enhance TypeScript toolkit for building AI-native products and agents; ensure high-performance standards and seamless integration with Vercel’s deployment platform; engage with developers to drive continuous improvement and innovation in the AI SDK."
+          }
+        },
+        {
+          "job_id": "5798406004",
+          "title": "Software Engineer, AI Gateway",
+          "url": "https://vercel.com/careers/software-engineer-ai-gateway-5798406004",
+          "location_text": "New York City, San Francisco",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 196000,
+            "maximum": 294000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$196,000–$294,000"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:58:00Z",
+          "evidence": {
+            "active_status": "Posting live at vercel.com/careers/software-engineer-ai-gateway-5798406004 with embedded application form on vercel.com.",
+            "location": "New York City, San Francisco per official Vercel careers page.",
+            "workplace_arrangement": "Hybrid — company-wide anchor days policy (Monday, Tuesday, Friday in-office) confirmed in simultaneously listed AI SDK role; both roles list identical SF and NYC locations.",
+            "compensation": "$196,000–$294,000 San Francisco base salary per official Vercel careers page.",
+            "employment_type": "Full-time per official Vercel careers page.",
+            "seniority": "Senior — 5+ years of experience required per official posting.",
+            "role_fit": "Develop and maintain unified API platform providing access to hundreds of AI models across multiple providers; build rate-limit management and intelligent failover mechanisms for AI inference; integrate new AI providers while addressing high-throughput scalability challenges."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T23:58:00Z",
+      "last_verified_at": "2026-08-07T23:58:00Z"
+    },
+    {
+      "company_id": "collate",
+      "name": "Collate",
+      "website_url": null,
+      "primary_domain": null,
+      "jobs_url": "https://jobs.lever.co/collate",
+      "ats": {
+        "provider": "lever",
+        "board_id": "collate"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "not_found",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": "2026-08-08T18:55:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": "31c0b6b3-3a59-4fd4-8ca9-63ff2740780a",
+          "title": "Forward Deployed Engineer",
+          "url": "https://jobs.lever.co/collate/31c0b6b3-3a59-4fd4-8ca9-63ff2740780a",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 150000,
+            "maximum": 300000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$150,000–$300,000 USD annually, depending on experience and level (Tier 1, San Francisco)"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:59:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Collate's public Lever board via api.lever.co/v0/postings/collate with a direct application link.",
+            "location": "San Francisco per Lever API posting.",
+            "workplace_arrangement": "On-site — commitment field is 'onsite' per Lever API.",
+            "compensation": "$150,000–$300,000 USD annually, depending on experience and level (Tier 1, San Francisco)",
+            "employment_type": "Full-time — annual salary range and senior-engineer-level professional role; no part-time indication in posting.",
+            "seniority": "Senior — posting requires 'senior engineer or tech lead level decision-making authority'.",
+            "role_fit": "Design and ship production AI systems including document generation agents, agentic workflows, and data pipelines; define and run eval loops measuring system quality against workflow-specific benchmarks; hands-on prompt engineering, agent development, evaluation frameworks, and deployment at scale."
+          }
+        },
+        {
+          "job_id": "ddb57f92-0391-43a6-bd90-10fc2abd23fb",
+          "title": "Frontend Software Engineer",
+          "url": "https://jobs.lever.co/collate/ddb57f92-0391-43a6-bd90-10fc2abd23fb",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 158000,
+            "maximum": 325000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "SWE: $158-200K; Senior SWE: $188-250K; Staff SWE: $228-296K; Principal $275-325K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:59:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Collate's public Lever board via api.lever.co/v0/postings/collate with a direct application link.",
+            "location": "San Francisco per Lever API posting.",
+            "workplace_arrangement": "On-site — commitment field is 'onsite' per Lever API.",
+            "compensation": "SWE: $158-200K; Senior SWE: $188-250K; Staff SWE: $228-296K; Principal $275-325K (Tier 1, San Francisco)",
+            "employment_type": "Full-time — annual salary range and senior professional role at a venture-backed startup; no part-time indication in posting.",
+            "seniority": "Senior — role spans SWE through Principal levels; qualifying Senior SWE band is $188–250K.",
+            "role_fit": "Build responsive web applications that 'make complex AI-driven healthcare data simple'; partner with ML teams to 'integrate APIs and models into smooth and information rich interfaces'; translate 'cutting-edge AI into tools that feel simple, reliable, and human'; AI-native application described as similar to Cursor."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T23:59:00Z",
+      "last_verified_at": "2026-08-07T23:59:00Z"
+    },
+    {
+      "company_id": "angellist",
+      "name": "AngelList",
+      "website_url": "https://www.angellist.com/",
+      "primary_domain": "angellist.com",
+      "jobs_url": "https://jobs.lever.co/angellist",
+      "ats": {
+        "provider": "lever",
+        "board_id": "angellist"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "90 Gold Street, Floor 3, San Francisco, CA 94133",
+        "postal_code": "94133",
+        "latitude": 37.7959,
+        "longitude": -122.4026,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "AngelList headquarters per ZoomInfo and Craft.co",
+        "source_url": "https://craft.co/angellist/locations",
+        "checked_at": "2026-08-08T18:55:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": "35d58a93-7080-4b3a-89b3-ed64d0f7a0c2",
+          "title": "Senior Software Engineer, Intelligence",
+          "url": "https://jobs.lever.co/angellist/35d58a93-7080-4b3a-89b3-ed64d0f7a0c2",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 200000,
+            "maximum": 200000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "The base salary for this role is $200,000+ annually but actual will vary based on a number of factors including a candidate's professional background, experience, and location."
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T00:01:00Z",
+          "evidence": {
+            "active_status": "Listed as active on AngelList's public Lever board via api.lever.co/v0/postings/angellist with a direct application link.",
+            "location": "San Francisco, CA per Lever API posting.",
+            "workplace_arrangement": "Hybrid — workplaceType field is 'hybrid' per Lever API.",
+            "compensation": "The base salary for this role is $200,000+ annually but actual will vary based on a number of factors including a candidate's professional background, experience, and location.",
+            "employment_type": "Full-time — commitment field is 'Full Time' per Lever API.",
+            "seniority": "Senior — title is 'Senior Software Engineer, Intelligence'; posting requires at least 4+ years of experience building large-scale web applications or backend services.",
+            "role_fit": "Design and operate OpenSearch-backed retrieval and semantic search systems; build and run agent orchestration, model integrations, and safety layers for LLM-driven workflows; prototype new AI-driven features and productionize them in a Go-first codebase."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T00:01:00Z",
+      "last_verified_at": "2026-08-08T00:01:00Z"
+    },
+    {
+      "company_id": "rippling",
+      "name": "Rippling",
+      "website_url": "https://www.rippling.com/",
+      "primary_domain": "rippling.com",
+      "jobs_url": "https://ats.rippling.com/rippling/jobs",
+      "ats": {
+        "provider": "custom",
+        "board_id": "rippling"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "430 California Street, 11th Floor, San Francisco, CA 94104, USA",
+        "postal_code": "94104",
+        "latitude": 37.79325,
+        "longitude": -122.4018041,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Rippling official company office directory",
+        "source_url": "https://www.rippling.com/company/about",
+        "checked_at": "2026-08-03T19:25:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": "9e3a45d1-477e-4b0c-9fac-7178385c8da2",
+          "title": "Software Engineer II, Frontend/AI Fullstack - Growth Engineering",
+          "url": "https://ats.rippling.com/rippling/jobs/9e3a45d1-477e-4b0c-9fac-7178385c8da2",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 135000,
+            "maximum": 225000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$135,000 - $225,000 USD per year (US Tier 1)"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T01:46:43Z",
+          "evidence": {
+            "active_status": "Live on Rippling ATS board (ats.rippling.com/rippling/jobs) with active Apply now button on the official posting.",
+            "location": "San Francisco, CA per official Rippling ATS posting.",
+            "workplace_arrangement": "Hybrid — official posting states 'working in the office, at least three days a week under current policy, to be an essential function of the employee's role.'",
+            "compensation": "$135,000 - $225,000 USD per year (US Tier 1) per official Rippling ATS posting.",
+            "employment_type": "Full-time; annual salary structure and Software Engineer II leveling are consistent with standard full-time employment; no part-time indication in posting.",
+            "seniority": "Mid-level — 3+ years of professional software engineering experience required per official posting.",
+            "role_fit": "Design multi-turn AI chat experiences with conversation state and context management; build agentic workflows using LangChain and LangGraph with LLM reasoning and tool integration; instrument AI systems with LangSmith tracing, evaluation datasets, and quality metrics; create and maintain evals for AI-generated briefings, reports, analytics answers, and HTML artifacts; debug model behavior and optimize prompts across multi-turn conversations."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T01:46:43Z",
+      "last_verified_at": "2026-08-08T01:46:43Z"
+    },
+    {
+      "company_id": "amplitude",
+      "name": "Amplitude",
+      "website_url": "https://amplitude.com/",
+      "primary_domain": "amplitude.com",
+      "jobs_url": "https://www.ycombinator.com/companies/amplitude/jobs",
+      "ats": {
+        "provider": "unknown",
+        "board_id": null
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "Senior AI Product Engineer",
+          "url": "https://www.ycombinator.com/companies/amplitude/jobs/vixZiNb-senior-ai-product-engineer",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 177000,
+            "maximum": 220000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$177K - $220K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T05:40:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/amplitude/jobs); direct application available with signup_job_id=86939.",
+            "location": "San Francisco, CA per official YC WaaS posting.",
+            "workplace_arrangement": "On-site in San Francisco with no remote or hybrid options per official YC WaaS posting.",
+            "compensation": "$177K - $220K",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "Senior per title; 3+ years of experience required per official YC WaaS posting.",
+            "role_fit": "Build and own full-stack features for Amplitude's AI-powered personal chaperone product embedded into websites and apps; collaborate with AI Engineering Lead to debug agent failures and design retrieval-based solutions; build automated pipelines to identify and address knowledge base gaps; experiment with frontier models and libraries and present findings to the team; participate in customer debugging sessions when AI agents fail in production."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T05:40:00Z",
+      "last_verified_at": "2026-08-08T05:40:00Z"
+    },
+    {
+      "company_id": "speak",
+      "name": "Speak",
+      "website_url": "https://speak.com/",
+      "primary_domain": "speak.com",
+      "jobs_url": "https://jobs.ashbyhq.com/speak",
+      "ats": {
+        "provider": "ashby",
+        "board_id": "speak"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "360 Spear Street, 4th Floor, San Francisco, CA 94105, USA",
+        "postal_code": "94105",
+        "latitude": 37.7889917,
+        "longitude": -122.3901367,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Speak official privacy notice",
+        "source_url": "https://www.speak.com/privacy",
+        "checked_at": "2026-08-03T19:50:00Z"
+      },
+      "jobs": [
+        {
+          "job_id": "e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+          "title": "AI Product Engineer",
+          "url": "https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 150000,
+            "maximum": 280000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$150K - $280K plus equity"
+          },
+          "posted_date": "2023-09-19",
+          "status": "active",
+          "verified_at": "2026-08-09T03:02:02Z",
+          "evidence": {
+            "active_status": "Current official Speak Ashby board feed lists the posting as active (isListed true).",
+            "location": "Official Speak Ashby posting lists San Francisco.",
+            "workplace_arrangement": "Official Ashby feed classifies the role as Hybrid.",
+            "compensation": "Official posting publishes a $150K-$280K annual base range plus equity.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Mid-level: the official posting requires 3-5+ years of full-stack, backend, or product-focused software engineering experience.",
+            "role_fit": "Develop and deploy LLM-powered language learning products across the full stack; evaluate models and test prompts for conversational tutoring; build conversational onboarding, lesson experiences, grammatical assessment and feedback, and personalized lessons; refine practices for prompting, experimentation/evaluation, LLM Ops, measuring quality and performance. Real-world experience developing and deploying LLM apps is a hard requirement."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T05:40:00Z",
+      "last_verified_at": "2026-08-09T03:02:02Z"
+    },
+    {
+      "company_id": "hex",
+      "name": "Hex",
+      "website_url": "https://hex.tech/",
+      "primary_domain": "hex.tech",
+      "jobs_url": "https://hex.tech/careers/",
+      "ats": {
+        "provider": "greenhouse",
+        "board_id": "hex"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "5808072004",
+          "title": "Software Engineer, AI Agent",
+          "url": "https://hex.tech/careers/software-engineer-ai-agent/?gh_jid=5808072004",
+          "location_text": "San Francisco, CA or New York, NY",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 160000,
+            "maximum": 265000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$160,000 - $265,000"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T06:00:00Z",
+          "evidence": {
+            "active_status": "Posting live at hex.tech/careers/software-engineer-ai-agent/ with schema markup dated April 29, 2026; official Hex careers page lists this as a current opening.",
+            "location": "San Francisco, CA or New York, NY per official Hex careers page; SF headquarters specifically listed.",
+            "workplace_arrangement": "Hybrid — 1-2 days per week in office at SF headquarters or NYC office per official posting.",
+            "compensation": "$160,000 - $265,000 per official Hex careers page.",
+            "employment_type": "Full-time implied by senior-level compensation range ($160K-$265K base), equity grants, and senior engineering role structure; no part-time indication in official posting.",
+            "seniority": "Senior — at least 4+ years of software engineering experience required per official posting; role targets senior and staff-level engineers.",
+            "role_fit": "Build AI-powered features into the Hex platform; own scalable agent infrastructure powering leading data agents; partner with Research team on context and model prompting; develop cutting-edge experimentation tooling for rapid AI feature delivery; build Magic AI features including the Notebook Agent."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T06:00:00Z",
+      "last_verified_at": "2026-08-08T06:00:00Z"
+    },
+    {
+      "company_id": "bretton-ai",
+      "name": "Bretton AI",
+      "website_url": "https://bretton.com/",
+      "primary_domain": "bretton.com",
+      "jobs_url": "https://www.ycombinator.com/companies/bretton-ai/jobs",
+      "ats": {
+        "provider": "unknown",
+        "board_id": null
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "Forward Deployed Engineer",
+          "url": "https://www.ycombinator.com/companies/bretton-ai/jobs/E8Bd0s3-forward-deployed-engineer",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 150000,
+            "maximum": 200000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$150K - $200K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T18:20:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/bretton-ai/jobs); direct application available with signup_job_id=92361.",
+            "location": "San Francisco, CA per official YC WaaS posting.",
+            "workplace_arrangement": "Hybrid per official YC WaaS posting.",
+            "compensation": "$150K - $200K",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "Mid-level per posting; $150K floor consistent with mid-level.",
+            "role_fit": "Deploy Bretton AI's autonomous research and enrichment agents at customer sites; build connectors and integration frameworks that extend agent capabilities; directly configure and tune AI agent workflows to meet enterprise data requirements."
+          }
+        },
+        {
+          "job_id": null,
+          "title": "Software Engineer, Product",
+          "url": "https://www.ycombinator.com/companies/bretton-ai/jobs/dqOP6MV-software-engineer-product",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 168000,
+            "maximum": 213000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$168K - $213K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T18:20:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/bretton-ai/jobs); direct application available with signup_job_id=90600.",
+            "location": "San Francisco, CA per official YC WaaS posting.",
+            "workplace_arrangement": "On-site per official YC WaaS posting.",
+            "compensation": "$168K - $213K",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "4+ years of experience required per official YC WaaS posting; $168K floor supports mid-level.",
+            "role_fit": "Build agentic workflows that coordinate AI tools and data services to perform research, enrichment, and verification; integrate AI/LLM capabilities into core product; own end-to-end feature development on an AI-native B2B intelligence platform that automates go-to-market data work."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T18:20:00Z",
+      "last_verified_at": "2026-08-08T18:20:00Z"
+    },
+    {
+      "company_id": "cartage",
+      "name": "Cartage",
+      "website_url": "https://cartage.ai/",
+      "primary_domain": "cartage.ai",
+      "jobs_url": "https://www.ycombinator.com/companies/cartage/jobs",
+      "ats": {
+        "provider": "unknown",
+        "board_id": null
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "Full Stack Engineer",
+          "url": "https://www.ycombinator.com/companies/cartage/jobs/xVIZlS8-full-stack-engineer",
+          "location_text": "San Francisco, CA, US / Vancouver, BC",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 150000,
+            "maximum": 250000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$150K - $250K•0.50% - 2.00%"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T18:20:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/cartage/jobs); direct application available.",
+            "location": "San Francisco, CA, US listed first in dual-location posting per official YC WaaS posting.",
+            "workplace_arrangement": "On-site per official YC WaaS posting.",
+            "compensation": "$150K - $250K•0.50% - 2.00%",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "3+ years of experience required per official YC WaaS posting; $150K floor supports mid-level.",
+            "role_fit": "Build autonomous agents: design and scale AI systems that can reliably automate complex, data-intensive workflows; automate AI evaluation loops: own the tooling to monitor, evaluate, and retrain AI models in production; implement data pipelines and integrations to feed real-time context into AI decision-making."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T18:20:00Z",
+      "last_verified_at": "2026-08-08T18:20:00Z"
+    },
+    {
+      "company_id": "commodityai",
+      "name": "CommodityAI",
+      "website_url": "https://commodityai.io/",
+      "primary_domain": "commodityai.io",
+      "jobs_url": "https://www.ycombinator.com/companies/commodityai/jobs",
+      "ats": {
+        "provider": "unknown",
+        "board_id": null
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "Senior Software Engineer",
+          "url": "https://www.ycombinator.com/companies/commodityai/jobs/fCU0ca2-senior-software-engineer",
+          "location_text": "San Francisco, CA, US",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 200000,
+            "maximum": 250000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$200K - $250K•0.25% - 1.00%"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T18:40:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/commodityai/jobs); direct application available.",
+            "location": "San Francisco, CA, US per official YC WaaS posting; relocation to SF required per posting.",
+            "workplace_arrangement": "On-site per official YC WaaS posting; relocation required for regular in-person collaboration.",
+            "compensation": "$200K - $250K•0.25% - 1.00%",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "6+ years of professional software engineering experience required per official YC WaaS posting; $200K floor supports senior.",
+            "role_fit": "Deploy Production AI/LLM Workflows: architect agentic systems, structured extraction pipelines, and evaluation frameworks to convert unstructured commodity trading documents into deterministic data; hands-on production AI experience required including deployed LLM or agent systems addressing structured outputs, retrieval, or orchestration."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T18:40:00Z",
+      "last_verified_at": "2026-08-08T18:40:00Z"
+    },
+    {
+      "company_id": "eloquent-ai",
+      "name": "Eloquent AI",
+      "website_url": "https://www.eloquentai.co/",
+      "primary_domain": "eloquentai.co",
+      "jobs_url": "https://www.ycombinator.com/companies/eloquent-ai/jobs",
+      "ats": {
+        "provider": "unknown",
+        "board_id": null
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "AI Engineer, Multimodal LLMs",
+          "url": "https://www.ycombinator.com/companies/eloquent-ai/jobs/2eWGivc-ai-engineer-multimodal-llms",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 150000,
+            "maximum": 250000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$150K - $250K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T18:40:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/eloquent-ai/jobs); direct application available.",
+            "location": "San Francisco, CA per official YC WaaS posting.",
+            "workplace_arrangement": "On-site in San Francisco per official YC WaaS posting; company page confirms AI engineering roles are in-person SF.",
+            "compensation": "$150K - $250K",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "3+ years of experience in software development, AI engineering, or NLP in a production environment per official YC WaaS posting; supports mid-level.",
+            "role_fit": "Build, deploy, and optimize AI agents for enterprise-grade conversations; design and develop next-generation multimodal LLM architectures spanning language, speech, and vision; refine training paradigms and improve agent performance through user simulations and evaluations; integrate AI systems with enterprise infrastructure at production scale."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T18:40:00Z",
+      "last_verified_at": "2026-08-08T18:40:00Z"
+    },
+    {
+      "company_id": "litellm",
+      "name": "LiteLLM",
+      "website_url": "https://www.litellm.ai/",
+      "primary_domain": "litellm.ai",
+      "jobs_url": "https://www.ycombinator.com/companies/litellm/jobs",
+      "ats": {
+        "provider": "unknown",
+        "board_id": null
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "Senior Backend Engineer",
+          "url": "https://www.ycombinator.com/companies/litellm/jobs/qwvhKQ3-senior-backend-engineer",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 200000,
+            "maximum": 260000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$200K - $260K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T18:50:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/litellm/jobs); direct application available.",
+            "location": "San Francisco, CA per official YC WaaS posting.",
+            "workplace_arrangement": "On-site per official YC WaaS jobs listing for this role.",
+            "compensation": "$200K - $260K",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "5+ years of experience required per official YC WaaS posting; title 'Senior' and $200K floor confirm senior level.",
+            "role_fit": "Build and design guardrails to address common attacks on LLM APIs, MCP servers, and AI agents; implement logging and traceability for guardrail and policy enforcement across AI systems; maintain monitoring and observability for an AI Gateway platform processing 1B+ requests per month; work directly on infrastructure enabling developers to call 100+ LLM APIs with a unified interface."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T18:50:00Z",
+      "last_verified_at": "2026-08-08T18:50:00Z"
+    }
+  ]
 }

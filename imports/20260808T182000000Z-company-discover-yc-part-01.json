@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-08T18:20:00Z",
+  "changes": [
+    {
+      "company_id": "cartage",
+      "name": "Cartage",
+      "website_url": "https://cartage.ai/",
+      "primary_domain": "cartage.ai",
+      "jobs_url": "https://www.ycombinator.com/companies/cartage/jobs",
+      "ats": {
+        "provider": "unknown",
+        "board_id": null
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "Full Stack Engineer",
+          "url": "https://www.ycombinator.com/companies/cartage/jobs/xVIZlS8-full-stack-engineer",
+          "location_text": "San Francisco, CA, US / Vancouver, BC",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 150000,
+            "maximum": 250000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$150K - $250K•0.50% - 2.00%"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T18:20:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/cartage/jobs); direct application available.",
+            "location": "San Francisco, CA, US listed first in dual-location posting per official YC WaaS posting.",
+            "workplace_arrangement": "On-site per official YC WaaS posting.",
+            "compensation": "$150K - $250K•0.50% - 2.00%",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "3+ years of experience required per official YC WaaS posting; $150K floor supports mid-level.",
+            "role_fit": "Build autonomous agents: design and scale AI systems that can reliably automate complex, data-intensive workflows; automate AI evaluation loops: own the tooling to monitor, evaluate, and retrain AI models in production; implement data pipelines and integrations to feed real-time context into AI decision-making."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T18:20:00Z",
+      "last_verified_at": "2026-08-08T18:20:00Z"
+    },
+    {
+      "company_id": "bretton-ai",
+      "name": "Bretton AI",
+      "website_url": "https://bretton.com/",
+      "primary_domain": "bretton.com",
+      "jobs_url": "https://www.ycombinator.com/companies/bretton-ai/jobs",
+      "ats": {
+        "provider": "unknown",
+        "board_id": null
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "Software Engineer, Product",
+          "url": "https://www.ycombinator.com/companies/bretton-ai/jobs/dqOP6MV-software-engineer-product",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 168000,
+            "maximum": 213000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$168K - $213K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T18:20:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/bretton-ai/jobs); direct application available with signup_job_id=90600.",
+            "location": "San Francisco, CA per official YC WaaS posting.",
+            "workplace_arrangement": "On-site per official YC WaaS posting.",
+            "compensation": "$168K - $213K",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "4+ years of experience required per official YC WaaS posting; $168K floor supports mid-level.",
+            "role_fit": "Build agentic workflows that coordinate AI tools and data services to perform research, enrichment, and verification; integrate AI/LLM capabilities into core product; own end-to-end feature development on an AI-native B2B intelligence platform that automates go-to-market data work."
+          }
+        },
+        {
+          "job_id": null,
+          "title": "Forward Deployed Engineer",
+          "url": "https://www.ycombinator.com/companies/bretton-ai/jobs/E8Bd0s3-forward-deployed-engineer",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 150000,
+            "maximum": 200000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$150K - $200K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T18:20:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/bretton-ai/jobs); direct application available with signup_job_id=92361.",
+            "location": "San Francisco, CA per official YC WaaS posting.",
+            "workplace_arrangement": "Hybrid per official YC WaaS posting.",
+            "compensation": "$150K - $200K",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "Mid-level per posting; $150K floor consistent with mid-level.",
+            "role_fit": "Deploy Bretton AI's autonomous research and enrichment agents at customer sites; build connectors and integration frameworks that extend agent capabilities; directly configure and tune AI agent workflows to meet enterprise data requirements."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T18:20:00Z",
+      "last_verified_at": "2026-08-08T18:20:00Z"
+    }
+  ],
+  "issues": []
+}

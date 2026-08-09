@@ -1,7 +1,27 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "Skill(claude-api)",
+      "WebSearch",
+      "WebFetch(domain:api.ashbyhq.com)",
+      "WebFetch(domain:job-boards.greenhouse.io)",
+      "WebFetch(domain:www.cursor.com)",
+      "WebFetch(domain:jobs.ashbyhq.com)",
+      "WebFetch(domain:www.ycombinator.com)",
+      "WebFetch(domain:magic.dev)",
+      "WebFetch(domain:retool.com)",
+      "WebFetch(domain:builtin.com)",
+      "WebFetch(domain:www.recruitingfromscratch.com)",
+      "WebFetch(domain:klarity.ai)",
+      "WebFetch(domain:jobs.lever.co)",
+      "WebFetch(domain:app.ashbyhq.com)",
+      "WebFetch(domain:www.within.ai)",
+      "WebFetch(domain:www.figma.com)",
+      "WebFetch(domain:openai.com)",
+      "WebFetch(domain:hnhiring.com)",
+      "WebFetch(domain:www.evolutionaryscale.ai)",
+      "WebFetch(domain:www.perplexity.ai)"
     ]
   }
 }

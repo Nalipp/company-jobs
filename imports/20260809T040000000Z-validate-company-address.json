@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "operation": "validate-company-address",
+  "created_at": "2026-08-09T04:00:00Z",
+  "changes": [
+    {
+      "company_id": "thorin",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "Pier 5, Suite 101, San Francisco, CA 94111",
+        "postal_code": "94111",
+        "latitude": 37.7989,
+        "longitude": -122.3936,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "BuiltIn SF – Thorin company profile at Pier 5",
+        "source_url": "https://www.builtinsf.com/company/thorin",
+        "checked_at": "2026-08-09T04:00:00Z"
+      }
+    },
+    {
+      "company_id": "ampersand",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "280 Spear St, Unit 1404, San Francisco, CA 94105",
+        "postal_code": "94105",
+        "latitude": 37.7843,
+        "longitude": -122.3928,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Ampersand official privacy policy",
+        "source_url": "https://www.withampersand.com/privacy",
+        "checked_at": "2026-08-09T04:00:00Z"
+      }
+    },
+    {
+      "company_id": "edison-scientific",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "1405 Minnesota St, San Francisco, CA 94107",
+        "postal_code": "94107",
+        "latitude": 37.7587,
+        "longitude": -122.3968,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "BizProfile – Edison Scientific Inc. San Francisco filing",
+        "source_url": "https://www.bizprofile.net/ca/san-francisco/edison-scientific-inc",
+        "checked_at": "2026-08-09T04:00:00Z"
+      }
+    },
+    {
+      "company_id": "amplitude",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "201 3rd Street, Suite 200, San Francisco, CA 94103",
+        "postal_code": "94103",
+        "latitude": 37.7814,
+        "longitude": -122.3931,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Amplitude official contact page",
+        "source_url": "https://amplitude.com/contact",
+        "checked_at": "2026-08-09T04:00:00Z"
+      }
+    },
+    {
+      "company_id": "hex",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "100 Montgomery Street, San Francisco, CA 94104",
+        "postal_code": "94104",
+        "latitude": 37.7901,
+        "longitude": -122.4009,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "The Real Deal – Hex leases 20,000 sq ft at 100 Montgomery Street",
+        "source_url": "https://therealdeal.com/san-francisco/2026/03/12/hex-joins-ai-companies-leasing-up-san-francisco/",
+        "checked_at": "2026-08-09T04:00:00Z"
+      }
+    },
+    {
+      "company_id": "bretton-ai",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "not_found",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": "2026-08-09T04:00:00Z"
+      }
+    },
+    {
+      "company_id": "cartage",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "3661 Buchanan St, Floor 3, San Francisco, CA 94123",
+        "postal_code": "94123",
+        "latitude": 37.8003,
+        "longitude": -122.4362,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Cartage official contact page",
+        "source_url": "https://cartage.ai/contact",
+        "checked_at": "2026-08-09T04:00:00Z"
+      }
+    },
+    {
+      "company_id": "commodityai",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "not_found",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": "2026-08-09T04:00:00Z"
+      }
+    },
+    {
+      "company_id": "eloquent-ai",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "456 Montgomery Street, Suite 1450, San Francisco, CA 94104",
+        "postal_code": "94104",
+        "latitude": 37.7942,
+        "longitude": -122.4028,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Eloquent AI official privacy policy",
+        "source_url": "https://eloquentai.co/information/privacy-policy",
+        "checked_at": "2026-08-09T04:00:00Z"
+      }
+    },
+    {
+      "company_id": "litellm",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "992 Pine St, San Francisco, CA 94108",
+        "postal_code": "94108",
+        "latitude": 37.7924,
+        "longitude": -122.4145,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Highperformr – BerriAI (LiteLLM) company profile",
+        "source_url": "https://www.highperformr.ai/company/berri-ai",
+        "checked_at": "2026-08-09T04:00:00Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "address_not_found",
+      "company_id": "bretton-ai",
+      "subject": "Bretton AI – no street address discoverable",
+      "source_url": "https://www.ycombinator.com/companies/bretton-ai",
+      "details": "Multiple search queries for 'Bretton AI San Francisco office address' and variants returned no street-level address. YC profile and Ashby board confirm SF location but publish no physical office address. Company website (bretton.com) has no contact or office page with a street address. Marked not_found pending a future retry when the company grows its public web presence."
+    },
+    {
+      "code": "address_not_found",
+      "company_id": "commodityai",
+      "subject": "CommodityAI – only a virtual mailbox address found",
+      "source_url": "https://www.ycombinator.com/companies/commodityai",
+      "details": "Search results for CommodityAI's SF office returned only 2261 Market St #5789, San Francisco, CA 94114 — a well-known PMB (private mailbox) hub used by many SF startups, not a physical office. No legitimate street-level office address was found for CommodityAI. Marked not_found; retry when a real office lease is announced."
+    }
+  ]
+}
