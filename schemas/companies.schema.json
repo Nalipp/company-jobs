@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://v3-daily-jobs.local/schemas/companies.schema.json",
+  "title": "V3 company catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "updated_at", "companies"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "updated_at": {
+      "oneOf": [
+        { "type": "string", "format": "date-time" },
+        { "type": "null" }
+      ]
+    },
+    "companies": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/company" }
+    }
+  },
+  "$defs": {
+    "nullableString": {
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        { "type": "null" }
+      ]
+    },
+    "nullableUri": {
+      "oneOf": [
+        { "type": "string", "format": "uri" },
+        { "type": "null" }
+      ]
+    },
+    "address": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["street", "city", "region", "postal_code", "country"],
+      "properties": {
+        "street": { "$ref": "#/$defs/nullableString" },
+        "city": { "$ref": "#/$defs/nullableString" },
+        "region": { "$ref": "#/$defs/nullableString" },
+        "postal_code": { "$ref": "#/$defs/nullableString" },
+        "country": { "$ref": "#/$defs/nullableString" }
+      }
+    },
+    "company": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "company_id",
+        "company_name",
+        "website_url",
+        "address",
+        "latitude",
+        "longitude",
+        "address_status",
+        "address_source_url",
+        "address_source_label",
+        "verified_date",
+        "added_date",
+        "updated_date"
+      ],
+      "properties": {
+        "company_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "company_name": { "type": "string", "minLength": 1 },
+        "website_url": { "$ref": "#/$defs/nullableUri" },
+        "address": {
+          "oneOf": [
+            { "$ref": "#/$defs/address" },
+            { "type": "null" }
+          ]
+        },
+        "latitude": {
+          "oneOf": [
+            { "type": "number", "minimum": -90, "maximum": 90 },
+            { "type": "null" }
+          ]
+        },
+        "longitude": {
+          "oneOf": [
+            { "type": "number", "minimum": -180, "maximum": 180 },
+            { "type": "null" }
+          ]
+        },
+        "address_status": {
+          "enum": ["pending", "verified", "not_found", "outside_sf"]
+        },
+        "address_source_url": { "$ref": "#/$defs/nullableUri" },
+        "address_source_label": { "$ref": "#/$defs/nullableString" },
+        "verified_date": {
+          "oneOf": [
+            { "type": "string", "format": "date-time" },
+            { "type": "null" }
+          ]
+        },
+        "added_date": { "type": "string", "format": "date-time" },
+        "updated_date": { "type": "string", "format": "date-time" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "address_status": { "const": "pending" } } },
+          "then": { "properties": { "verified_date": { "type": "null" } } }
+        },
+        {
+          "if": { "properties": { "address_status": { "const": "not_found" } } },
+          "then": {
+            "properties": {
+              "address": { "type": "null" },
+              "latitude": { "type": "null" },
+              "longitude": { "type": "null" },
+              "address_source_url": { "type": "null" },
+              "address_source_label": { "type": "null" },
+              "verified_date": { "type": "string", "format": "date-time" }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "address_status": { "enum": ["verified", "outside_sf"] }
+            }
+          },
+          "then": {
+            "properties": {
+              "address": {
+                "type": "object",
+                "properties": {
+                  "street": { "type": "string", "minLength": 1 },
+                  "city": { "type": "string", "minLength": 1 },
+                  "region": { "type": "string", "minLength": 1 },
+                  "country": { "type": "string", "minLength": 1 }
+                }
+              },
+              "latitude": { "type": "number" },
+              "longitude": { "type": "number" },
+              "address_source_url": { "type": "string", "format": "uri" },
+              "address_source_label": { "type": "string", "minLength": 1 },
+              "verified_date": { "type": "string", "format": "date-time" }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+
