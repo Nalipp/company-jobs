@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-09T23:45:00Z",
+  "changes": [
+    {
+      "company_id": "magic",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "580 California Street, Floor 12",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.7929,
+        "longitude": -122.4042,
+        "address_status": "verified",
+        "address_source_url": "https://websets.exa.ai/websets/directory/magic-ai-offices",
+        "address_source_label": "Exa websets company profile",
+        "verified_date": "2026-08-09T23:45:00Z"
+      }
+    },
+    {
+      "company_id": "mercor",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "181 Fremont Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7898002,
+        "longitude": -122.3953496,
+        "address_status": "verified",
+        "address_source_url": "https://news.theregistrysf.com/ai-training-startup-mercor-expands-with-27272-sqft-sublease-at-san-franciscos-181-fremont-tower/",
+        "address_source_label": "The Registry Northern California - Mercor sublease announcement",
+        "verified_date": "2026-08-09T23:45:00Z"
+      }
+    },
+    {
+      "company_id": "openai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1455 3rd Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94158",
+          "country": "US"
+        },
+        "latitude": 37.7700459,
+        "longitude": -122.3887896,
+        "address_status": "verified",
+        "address_source_url": "https://traded.co/deals/california/office/lease/1455-3rd-street-1515-3rd-street/",
+        "address_source_label": "Traded commercial real estate - Uber/OpenAI lease",
+        "verified_date": "2026-08-09T23:45:00Z"
+      }
+    },
+    {
+      "company_id": "retool",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1550 Bryant Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.7695,
+        "longitude": -122.4105,
+        "address_status": "verified",
+        "address_source_url": "https://x.com/retool/status/1535313377924222982?lang=en",
+        "address_source_label": "Retool official announcement - Hamm's Building headquarters",
+        "verified_date": "2026-08-09T23:45:00Z"
+      }
+    },
+    {
+      "company_id": "rippling",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "430 California Street, 11th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.79325,
+        "longitude": -122.4018041,
+        "address_status": "verified",
+        "address_source_url": "https://therealdeal.com/san-francisco/2024/04/05/rippling-leases-123k-sf-for-headquarters-in-san-francisco/",
+        "address_source_label": "The Real Deal - Rippling headquarters lease announcement",
+        "verified_date": "2026-08-09T23:45:00Z"
+      }
+    },
+    {
+      "company_id": "scale-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "303 2nd Street, 5th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.7854,
+        "longitude": -122.3944,
+        "address_status": "verified",
+        "address_source_url": "https://bandana.com/companies/6b0d1f10-c214-48c0-822b-33d18919296b/locations/48b34a5b-fe09-473c-9c51-ac2dcb07d752",
+        "address_source_label": "Bandana - Scale AI job listings with location",
+        "verified_date": "2026-08-09T23:45:00Z"
+      }
+    },
+    {
+      "company_id": "samba-tv",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "118 King Street, Suite 110",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.7796126,
+        "longitude": -122.3902323,
+        "address_status": "verified",
+        "address_source_url": "https://craft.co/samba-tv/locations",
+        "address_source_label": "Craft.co company profile",
+        "verified_date": "2026-08-09T23:45:00Z"
+      }
+    },
+    {
+      "company_id": "speak",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "360 Spear Street, 4th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7889917,
+        "longitude": -122.3901367,
+        "address_status": "verified",
+        "address_source_url": "https://www.builtinsf.com/company/speak",
+        "address_source_label": "Built In San Francisco company profile",
+        "verified_date": "2026-08-09T23:45:00Z"
+      }
+    },
+    {
+      "company_id": "tasklet",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1 Post Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.7887807,
+        "longitude": -122.4026599,
+        "address_status": "verified",
+        "address_source_url": "https://www.ycombinator.com/companies/tasklet-2/",
+        "address_source_label": "Y Combinator company profile",
+        "verified_date": "2026-08-09T23:45:00Z"
+      }
+    },
+    {
+      "company_id": "thorin",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "Pier 5, Suite 101",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.79828,
+        "longitude": -122.396344,
+        "address_status": "verified",
+        "address_source_url": "https://www.findlatitudeandlongitude.com/l/Pier+5,+The+Embarcadero,+Port+of+San+Francisco,+San+Francisco,+California,+94111,+USA/9894013/",
+        "address_source_label": "Find latitude and longitude database - Pier 5 coordinates",
+        "verified_date": "2026-08-09T23:45:00Z"
+      }
+    }
+  ],
+  "issues": []
+}

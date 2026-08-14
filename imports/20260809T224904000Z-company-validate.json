@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-09T22:49:04Z",
+  "changes": [
+    {
+      "company_id": "eloquent-ai",
+      "expected_status": "not_found",
+      "address_result": {
+        "address": {
+          "street": "456 Montgomery Street, Suite 1450",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.7935293,
+        "longitude": -122.402713,
+        "address_status": "verified",
+        "address_source_url": "https://eloquentai.co/information/privacy-policy",
+        "address_source_label": "Official privacy policy (principal office); Walk Score map result",
+        "verified_date": "2026-08-09T22:49:04Z"
+      }
+    },
+    {
+      "company_id": "f2-ai",
+      "expected_status": "not_found",
+      "address_result": {
+        "address": {
+          "street": "30 Broad Street",
+          "city": "New York",
+          "region": "NY",
+          "postal_code": "10004",
+          "country": "US"
+        },
+        "latitude": 40.7062694,
+        "longitude": -74.01165,
+        "address_status": "outside_sf",
+        "address_source_url": "https://f2.ai/privacy",
+        "address_source_label": "Official privacy policy (New York headquarters); OpenStreetMap geocoder result",
+        "verified_date": "2026-08-09T22:49:04Z"
+      }
+    },
+    {
+      "company_id": "klarity",
+      "expected_status": "not_found",
+      "address_result": {
+        "address": {
+          "street": "55 2nd Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7888063,
+        "longitude": -122.4003129,
+        "address_status": "verified",
+        "address_source_url": "https://us.kompass.com/c/klarity/usnn7701027/",
+        "address_source_label": "Kompass company directory (klarity.ai); map geocoder result",
+        "verified_date": "2026-08-09T22:49:04Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "office_address_unconfirmed",
+      "company_id": "floot",
+      "subject": "Floot physical office",
+      "source_url": "https://floot.com/careers",
+      "details": "Floot's current careers page confirms an in-person San Francisco role and team lunches in the Sunset District, but does not disclose an office street address. The only precise candidate remains 945 Taraval St #534 in corporate/listing records; its unit-style address is not independently established as a physical office, so the existing not_found result remains unchanged."
+    },
+    {
+      "code": "office_address_unconfirmed",
+      "company_id": "litellm",
+      "subject": "LiteLLM physical office",
+      "source_url": "https://uspto.report/TM/99155502",
+      "details": "A targeted review of LiteLLM's official web presence did not produce a current office address. The remaining 1730 Jones Street candidate appears in a trademark-owner filing and third-party listings, not an office source; it is also the previously flagged residential-looking address. It is insufficient to validate a physical office, so the existing not_found result remains unchanged."
+    }
+  ]
+}

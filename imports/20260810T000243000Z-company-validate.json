@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-10T00:02:43Z",
+  "changes": [
+    {
+      "company_id": "vera-whole-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "100 W Towne Ridge Pkwy, Suite 200", "city": "Sandy", "region": "UT", "postal_code": "84070", "country": "US"},
+        "latitude": 40.576154068381,
+        "longitude": -111.893804972942,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.verawholehealth.com/about",
+        "address_source_label": "Vera Whole Health official about page",
+        "verified_date": "2026-08-10T00:02:43Z"
+      }
+    },
+    {
+      "company_id": "verana-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "33 New Montgomery St, Suite 1550", "city": "San Francisco", "region": "CA", "postal_code": "94105", "country": "US"},
+        "latitude": 37.7885069129,
+        "longitude": -122.401603796706,
+        "address_status": "verified",
+        "address_source_url": "https://veranahealth.com/contact/",
+        "address_source_label": "Verana Health official contact page",
+        "verified_date": "2026-08-10T00:02:43Z"
+      }
+    },
+    {
+      "company_id": "vevo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "11 Times Square, 37th Floor", "city": "New York", "region": "NY", "postal_code": "10036", "country": "US"},
+        "latitude": 40.75677121559,
+        "longitude": -73.989840948018,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.hq.vevo.com/terms-of-use",
+        "address_source_label": "Vevo official terms of use",
+        "verified_date": "2026-08-10T00:02:43Z"
+      }
+    },
+    {
+      "company_id": "ware-malcomb",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "1700 Montgomery St, Suite 108", "city": "San Francisco", "region": "CA", "postal_code": "94111", "country": "US"},
+        "latitude": 37.805272227994,
+        "longitude": -122.404583395647,
+        "address_status": "verified",
+        "address_source_url": "https://waremalcomb.com/office/san-francisco/",
+        "address_source_label": "Ware Malcomb official San Francisco office page",
+        "verified_date": "2026-08-10T00:02:43Z"
+      }
+    },
+    {
+      "company_id": "waterworks",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "155 Rhode Island Street", "city": "San Francisco", "region": "CA", "postal_code": "94103", "country": "US"},
+        "latitude": 37.767964,
+        "longitude": -122.4027586,
+        "address_status": "verified",
+        "address_source_url": "https://www.waterworks.com/us_en/locations",
+        "address_source_label": "Waterworks official showroom locations page",
+        "verified_date": "2026-08-10T00:02:43Z"
+      }
+    },
+    {
+      "company_id": "wine-com",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "222 Sutter Street, Suite 450", "city": "San Francisco", "region": "CA", "postal_code": "94108", "country": "US"},
+        "latitude": 37.790028228327,
+        "longitude": -122.404530254381,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/wine.com",
+        "address_source_label": "Wine.com LinkedIn company profile",
+        "verified_date": "2026-08-10T00:02:43Z"
+      }
+    },
+    {
+      "company_id": "zendesk",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "989 Market Street", "city": "San Francisco", "region": "CA", "postal_code": "94103", "country": "US"},
+        "latitude": 37.782280793312,
+        "longitude": -122.409531149273,
+        "address_status": "verified",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/1463172/000146317222000238-index.htm",
+        "address_source_label": "Zendesk SEC filing mailing address",
+        "verified_date": "2026-08-10T00:02:43Z"
+      }
+    }
+  ],
+  "issues": []
+}

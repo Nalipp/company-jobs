@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-09T23:43:46Z",
+  "changes": [
+    {
+      "company_id": "argonaut",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "140 New Montgomery Street, Floor 3",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.786686,
+        "longitude": -122.3998909,
+        "address_status": "verified",
+        "address_source_url": "https://www.argonautinc.com/contact/",
+        "address_source_label": "ARGONAUT official contact page",
+        "verified_date": "2026-08-09T23:43:46Z"
+      }
+    },
+    {
+      "company_id": "ascend",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "901 North Glebe Road, 5th Floor",
+          "city": "Arlington",
+          "region": "VA",
+          "postal_code": "22203",
+          "country": "US"
+        },
+        "latitude": 38.8805495,
+        "longitude": -77.1145097,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.ascendtogether.com/contact",
+        "address_source_label": "Ascend official contact page",
+        "verified_date": "2026-08-09T23:43:46Z"
+      }
+    },
+    {
+      "company_id": "cater2-me",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "212 Sutter Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.78988,
+        "longitude": -122.404102,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/cater2-me",
+        "address_source_label": "Cater2.me LinkedIn company profile",
+        "verified_date": "2026-08-09T23:43:46Z"
+      }
+    },
+    {
+      "company_id": "datawizz",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2 Shaw Alley",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.788836,
+        "longitude": -122.398526,
+        "address_status": "verified",
+        "address_source_url": "https://docs.datawizz.ai/terms-of-service",
+        "address_source_label": "Datawizz official Terms of Service",
+        "verified_date": "2026-08-09T23:43:46Z"
+      }
+    },
+    {
+      "company_id": "juul",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1000 F Street NW",
+          "city": "Washington",
+          "region": "DC",
+          "postal_code": "20004",
+          "country": "US"
+        },
+        "latitude": 38.8971869,
+        "longitude": -77.0261629,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.juullabs.com/legal/privacy-policy/",
+        "address_source_label": "JUUL Labs official privacy notice",
+        "verified_date": "2026-08-09T23:43:46Z"
+      }
+    },
+    {
+      "company_id": "workday",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "160 Spear Street, Suite 1700",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7914376,
+        "longitude": -122.3935588,
+        "address_status": "verified",
+        "address_source_url": "https://www.workday.com/en-us/company/about-workday/contact-us.html",
+        "address_source_label": "Workday official contact page",
+        "verified_date": "2026-08-09T23:43:46Z"
+      }
+    },
+    {
+      "company_id": "wells-fargo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "333 Market Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7919383,
+        "longitude": -122.3974036,
+        "address_status": "verified",
+        "address_source_url": "https://www.wellsfargo.com/help/addresses/",
+        "address_source_label": "Wells Fargo official corporate offices page",
+        "verified_date": "2026-08-09T23:43:46Z"
+      }
+    },
+    {
+      "company_id": "altana-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "25 Kent Avenue, Suite 501",
+          "city": "Brooklyn",
+          "region": "NY",
+          "postal_code": "11249",
+          "country": "US"
+        },
+        "latitude": 40.722963,
+        "longitude": -73.9578041,
+        "address_status": "outside_sf",
+        "address_source_url": "https://altana.ai/privacy-notice",
+        "address_source_label": "Altana official privacy notice",
+        "verified_date": "2026-08-09T23:43:46Z"
+      }
+    },
+    {
+      "company_id": "atlassian",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "350 Bush Street, Floor 13",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.7913454,
+        "longitude": -122.4032976,
+        "address_status": "verified",
+        "address_source_url": "https://wac-cdn-a.atlassian.com/company/contact",
+        "address_source_label": "Atlassian official contact page",
+        "verified_date": "2026-08-09T23:43:46Z"
+      }
+    },
+    {
+      "company_id": "babylist",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1900 Powell Street, Suite 150",
+          "city": "Emeryville",
+          "region": "CA",
+          "postal_code": "94608",
+          "country": "US"
+        },
+        "latitude": 37.8383917,
+        "longitude": -122.2997634,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/babylist",
+        "address_source_label": "Babylist LinkedIn company profile",
+        "verified_date": "2026-08-09T23:43:46Z"
+      }
+    }
+  ],
+  "issues": []
+}

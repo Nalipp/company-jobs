@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-10T01:30:00Z",
+  "changes": [
+    {
+      "company_id": "parakeet-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-10T01:30:00Z"
+      }
+    },
+    {
+      "company_id": "pax-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "660 Alabama Street, 2nd Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94110",
+          "country": "US"
+        },
+        "latitude": 37.7608145,
+        "longitude": -122.412172,
+        "address_status": "verified",
+        "address_source_url": "https://opencorpdata.com/lei/549300FKJA0AEKUHVG68",
+        "address_source_label": "LEI registry – PAX Labs Inc. corporate address",
+        "verified_date": "2026-08-10T01:30:00Z"
+      }
+    },
+    {
+      "company_id": "plenful",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "28 2nd Street, 5th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7888067,
+        "longitude": -122.4012201,
+        "address_status": "verified",
+        "address_source_url": "https://www.plenful.com/terms",
+        "address_source_label": "Plenful official terms of service",
+        "verified_date": "2026-08-10T01:30:00Z"
+      }
+    },
+    {
+      "company_id": "sauron",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1 Letterman Drive, Suite C3500",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94129",
+          "country": "US"
+        },
+        "latitude": 37.7988828,
+        "longitude": -122.4493335,
+        "address_status": "verified",
+        "address_source_url": "https://www.builtinsf.com/company/sauron",
+        "address_source_label": "Built In San Francisco – Sauron office",
+        "verified_date": "2026-08-10T01:30:00Z"
+      }
+    },
+    {
+      "company_id": "septerna",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "250 East Grand Avenue",
+          "city": "South San Francisco",
+          "region": "CA",
+          "postal_code": "94080",
+          "country": "US"
+        },
+        "latitude": 37.6530743,
+        "longitude": -122.3961974,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/1984086/000119312524231178/d762905ds1.htm",
+        "address_source_label": "Septerna S-1 SEC filing – principal executive offices",
+        "verified_date": "2026-08-10T01:30:00Z"
+      }
+    },
+    {
+      "company_id": "seso",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-10T01:30:00Z"
+      }
+    },
+    {
+      "company_id": "side",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "466 Brannan Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.7790913,
+        "longitude": -122.396131,
+        "address_status": "verified",
+        "address_source_url": "https://www.yelp.com/biz/side-san-francisco",
+        "address_source_label": "Yelp – Side San Francisco office listing",
+        "verified_date": "2026-08-10T01:30:00Z"
+      }
+    },
+    {
+      "company_id": "tilt",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "660 York Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94110",
+          "country": "US"
+        },
+        "latitude": 37.7608319,
+        "longitude": -122.4093071,
+        "address_status": "verified",
+        "address_source_url": "https://www.builtinsf.com/company/tilt-formerly-empower",
+        "address_source_label": "Built In San Francisco – Tilt office",
+        "verified_date": "2026-08-10T01:30:00Z"
+      }
+    },
+    {
+      "company_id": "uptimeai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "611 Gateway Boulevard, Suite 120",
+          "city": "South San Francisco",
+          "region": "CA",
+          "postal_code": "94080",
+          "country": "US"
+        },
+        "latitude": 37.6587126,
+        "longitude": -122.4001488,
+        "address_status": "outside_sf",
+        "address_source_url": "https://leadiq.com/c/uptimeai-inc/5f3295eba0cf8ca20b20b2c2",
+        "address_source_label": "LeadIQ – UptimeAI Inc. company profile",
+        "verified_date": "2026-08-10T01:30:00Z"
+      }
+    },
+    {
+      "company_id": "upwind-security",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "140 New Montgomery Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7867018,
+        "longitude": -122.4001359,
+        "address_status": "verified",
+        "address_source_url": "https://leadiq.com/c/upwind-security/6435c6c1924b9e10440ec37a",
+        "address_source_label": "LeadIQ – Upwind Security company profile",
+        "verified_date": "2026-08-10T01:30:00Z"
+      }
+    }
+  ],
+  "issues": []
+}

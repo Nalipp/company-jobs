@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "operation": "company-ingest",
+  "created_at": "2026-08-10T03:53:53Z",
+  "changes": [
+    {
+      "company_id": "sprinter-health",
+      "company_name": "Sprinter Health",
+      "website_url": "https://www.sprinterhealth.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:53Z",
+      "updated_date": "2026-08-10T03:53:53Z"
+    },
+    {
+      "company_id": "samsara",
+      "company_name": "Samsara",
+      "website_url": "http://www.samsara.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:53Z",
+      "updated_date": "2026-08-10T03:53:53Z"
+    },
+    {
+      "company_id": "snap-inc",
+      "company_name": "Snap Inc.",
+      "website_url": "http://www.snap.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:53Z",
+      "updated_date": "2026-08-10T03:53:53Z"
+    },
+    {
+      "company_id": "buildops",
+      "company_name": "BuildOps",
+      "website_url": "http://buildops.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:53Z",
+      "updated_date": "2026-08-10T03:53:53Z"
+    },
+    {
+      "company_id": "redfin",
+      "company_name": "Redfin",
+      "website_url": "https://www.redfin.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:53Z",
+      "updated_date": "2026-08-10T03:53:53Z"
+    },
+    {
+      "company_id": "gloo",
+      "company_name": "Gloo",
+      "website_url": "http://www.gloo.us/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:53Z",
+      "updated_date": "2026-08-10T03:53:53Z"
+    },
+    {
+      "company_id": "proto",
+      "company_name": "Proto",
+      "website_url": "https://www.proto.cx/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:53Z",
+      "updated_date": "2026-08-10T03:53:53Z"
+    },
+    {
+      "company_id": "spiral",
+      "company_name": "Spiral",
+      "website_url": "https://spiral.xyz/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:53Z",
+      "updated_date": "2026-08-10T03:53:53Z"
+    }
+  ],
+  "issues": [
+    {
+      "code": "collection_checkpoint",
+      "company_id": null,
+      "subject": "Built In SF listing page 6, first paced profile batch",
+      "source_url": "https://builtin.com/companies/location/san-francisco?country=USA&page=6",
+      "details": "Listing cards examined: 20. Sortly was skipped from the listing because it was labeled Fully Remote. Profiles attempted sequentially, with a 120-second pause after each completed load: Sprinter Health — San Francisco office listed; Samsara — HQ San Francisco; Snap Inc. — San Francisco office listed; BuildOps — San Francisco office listed; Redfin — San Francisco office listed; Gloo — San Francisco office listed; Proto — San Francisco on-site workspace listed; Spiral — San Francisco on-site workspace listed. All eight supplied an unambiguous direct View Website link. No HTTP 429, Cloudflare challenge, or CAPTCHA occurred. The remaining page-6 cards were not processed in this bounded batch."
+    }
+  ]
+}

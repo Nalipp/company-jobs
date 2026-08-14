@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate and idempotently apply a V3 company handoff."""
+"""Validate and idempotently apply a V3 company or career-source handoff."""
 
 from __future__ import annotations
 
@@ -21,6 +21,7 @@ from referencing import Registry, Resource
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CATALOG = ROOT / "data" / "companies.json"
+DEFAULT_CAREER_SOURCES = ROOT / "data" / "career_sources.json"
 SCHEMA_DIR = ROOT / "schemas"
 ADDRESS_FIELDS = (
     "address",
@@ -54,7 +55,11 @@ def read_json(path: Path) -> dict[str, Any]:
 def schema_registry() -> tuple[Registry, dict[str, dict[str, Any]]]:
     schemas: dict[str, dict[str, Any]] = {}
     resources: list[tuple[str, Resource[Any]]] = []
-    for name in ("companies.schema.json", "handoff.schema.json"):
+    for name in (
+        "companies.schema.json",
+        "career-sources.schema.json",
+        "handoff.schema.json",
+    ):
         schema = read_json(SCHEMA_DIR / name)
         schemas[name] = schema
         resources.append((schema["$id"], Resource.from_contents(schema)))
@@ -323,9 +328,34 @@ def apply_validation(
             skipped += 1
             continue
 
+        if "address_result" not in change:
+            if company["address_status"] != change["expected_status"]:
+                conflict(
+                    conflicts,
+                    company_id,
+                    "address_status",
+                    company["address_status"],
+                    change["expected_status"],
+                    "Catalog status changed after this handoff was prepared.",
+                )
+                skipped += 1
+                continue
+            changed = merge_scalar(company, change, "website_url", conflicts, company_id)
+            if changed:
+                company["updated_date"] = handoff["created_at"]
+                applied += 1
+            else:
+                skipped += 1
+            continue
+
         result = change["address_result"]
         if address_result_matches(company, result, handoff["created_at"]):
-            skipped += 1
+            changed = merge_scalar(company, change, "website_url", conflicts, company_id)
+            if changed:
+                company["updated_date"] = handoff["created_at"]
+                applied += 1
+            else:
+                skipped += 1
             continue
 
         if company["address_status"] != change["expected_status"]:
@@ -340,9 +370,200 @@ def apply_validation(
             skipped += 1
             continue
 
+        merge_scalar(company, change, "website_url", conflicts, company_id)
         for field in ADDRESS_FIELDS:
             company[field] = copy.deepcopy(result[field])
         company["updated_date"] = handoff["created_at"]
+        applied += 1
+
+    return applied, skipped, conflicts
+
+
+def source_identity_matches(left: dict[str, Any], right: dict[str, Any]) -> bool:
+    """Return whether two source records identify the same underlying board."""
+    if left["provider"] != right["provider"]:
+        return False
+    if left["board_id"] is not None and right["board_id"] is not None:
+        return left["board_id"] == right["board_id"]
+    left_url = left["listings_url"]
+    right_url = right["listings_url"]
+    return left_url is not None and left_url == right_url
+
+
+def apply_career_source_discovery(
+    catalog: dict[str, Any], career_sources: dict[str, Any], handoff: dict[str, Any]
+) -> tuple[int, int, list[dict[str, Any]]]:
+    companies = {company["company_id"]: company for company in catalog["companies"]}
+    sources = career_sources["sources"]
+    by_id = {source["source_id"]: source for source in sources}
+    applied = 0
+    skipped = 0
+    conflicts: list[dict[str, Any]] = []
+
+    for change in handoff["changes"]:
+        incoming = change["source"]
+        source_id = incoming["source_id"]
+        company_id = incoming["company_id"]
+        company = companies.get(company_id)
+        if company is None:
+            conflict(
+                conflicts,
+                company_id,
+                "company_id",
+                None,
+                company_id,
+                "No catalog company has this ID.",
+            )
+            skipped += 1
+            continue
+        if company["address_status"] != "verified":
+            conflict(
+                conflicts,
+                company_id,
+                "address_status",
+                company["address_status"],
+                "verified",
+                "Career sources may be recorded only for currently verified companies.",
+            )
+            skipped += 1
+            continue
+        if incoming["updated_date"] != handoff["created_at"]:
+            conflict(
+                conflicts,
+                company_id,
+                "source.updated_date",
+                incoming["updated_date"],
+                handoff["created_at"],
+                "Source updated_date must equal the handoff created_at timestamp.",
+            )
+            skipped += 1
+            continue
+
+        existing = by_id.get(source_id)
+        expected_updated_date = change["expected_updated_date"]
+        if existing is None:
+            if expected_updated_date is not None:
+                conflict(
+                    conflicts,
+                    company_id,
+                    "expected_updated_date",
+                    None,
+                    expected_updated_date,
+                    "The source does not exist, so expected_updated_date must be null.",
+                )
+                skipped += 1
+                continue
+            if incoming["added_date"] != handoff["created_at"]:
+                conflict(
+                    conflicts,
+                    company_id,
+                    "source.added_date",
+                    incoming["added_date"],
+                    handoff["created_at"],
+                    "A new source added_date must equal the handoff created_at timestamp.",
+                )
+                skipped += 1
+                continue
+            duplicate = next(
+                (
+                    source
+                    for source in sources
+                    if source_identity_matches(source, incoming)
+                ),
+                None,
+            )
+            if duplicate is not None:
+                conflict(
+                    conflicts,
+                    company_id,
+                    "source_identity",
+                    duplicate["source_id"],
+                    source_id,
+                    "The provider and board identity already belongs to another source record.",
+                )
+                skipped += 1
+                continue
+            copied = copy.deepcopy(incoming)
+            sources.append(copied)
+            by_id[source_id] = copied
+            applied += 1
+            continue
+
+        if incoming == existing:
+            skipped += 1
+            continue
+        if expected_updated_date != existing["updated_date"]:
+            conflict(
+                conflicts,
+                company_id,
+                "source.updated_date",
+                existing["updated_date"],
+                expected_updated_date,
+                "Source changed after this handoff was prepared.",
+            )
+            skipped += 1
+            continue
+        if incoming["company_id"] != existing["company_id"]:
+            conflict(
+                conflicts,
+                company_id,
+                "source.company_id",
+                existing["company_id"],
+                incoming["company_id"],
+                "A source cannot be reassigned to a different company.",
+            )
+            skipped += 1
+            continue
+        if incoming["added_date"] != existing["added_date"]:
+            conflict(
+                conflicts,
+                company_id,
+                "source.added_date",
+                existing["added_date"],
+                incoming["added_date"],
+                "A source added_date is immutable.",
+            )
+            skipped += 1
+            continue
+        if existing["status"] == "ready" and incoming["status"] in {
+            "blocked",
+            "no_careers_found",
+            "unsupported",
+        }:
+            conflict(
+                conflicts,
+                company_id,
+                "source.status",
+                existing["status"],
+                incoming["status"],
+                "A failed refresh must preserve a previously ready source; report it as an issue instead.",
+            )
+            skipped += 1
+            continue
+        duplicate = next(
+            (
+                source
+                for source in sources
+                if source["source_id"] != source_id and source_identity_matches(source, incoming)
+            ),
+            None,
+        )
+        if duplicate is not None:
+            conflict(
+                conflicts,
+                company_id,
+                "source_identity",
+                duplicate["source_id"],
+                source_id,
+                "The provider and board identity already belongs to another source record.",
+            )
+            skipped += 1
+            continue
+
+        index = sources.index(existing)
+        copied = copy.deepcopy(incoming)
+        sources[index] = copied
+        by_id[source_id] = copied
         applied += 1
 
     return applied, skipped, conflicts
@@ -368,6 +589,12 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("handoff", type=Path, help="JSON handoff to apply")
     parser.add_argument("--catalog", type=Path, default=DEFAULT_CATALOG)
+    parser.add_argument(
+        "--career-sources",
+        type=Path,
+        default=DEFAULT_CAREER_SOURCES,
+        help="Career-source registry path for career-source-discover handoffs",
+    )
     parser.add_argument("--dry-run", action="store_true")
     return parser.parse_args()
 
@@ -376,6 +603,7 @@ def main() -> int:
     args = parse_args()
     handoff_path = args.handoff.expanduser().resolve()
     catalog_path = args.catalog.expanduser().resolve()
+    career_sources_path = args.career_sources.expanduser().resolve()
 
     try:
         registry, schemas = schema_registry()
@@ -383,20 +611,51 @@ def main() -> int:
         catalog = read_json(catalog_path)
         validate_json(handoff, schemas["handoff.schema.json"], registry, "Handoff")
         validate_json(catalog, schemas["companies.schema.json"], registry, "Catalog")
+        career_sources = None
+        if handoff["operation"] == "career-source-discover":
+            career_sources = read_json(career_sources_path)
+            validate_json(
+                career_sources,
+                schemas["career-sources.schema.json"],
+                registry,
+                "Career-source registry",
+            )
 
         updated = copy.deepcopy(catalog)
+        updated_career_sources = copy.deepcopy(career_sources) if career_sources is not None else None
         if handoff["operation"] == "company-ingest":
             applied, skipped, conflicts = apply_ingest(updated, handoff)
-        else:
+        elif handoff["operation"] == "company-validate":
             applied, skipped, conflicts = apply_validation(updated, handoff)
+        else:
+            assert updated_career_sources is not None
+            applied, skipped, conflicts = apply_career_source_discovery(
+                updated, updated_career_sources, handoff
+            )
 
         would_change = updated != catalog
         if would_change:
             updated["updated_at"] = handoff["created_at"]
         validate_json(updated, schemas["companies.schema.json"], registry, "Updated catalog")
 
+        career_sources_would_change = (
+            updated_career_sources is not None and updated_career_sources != career_sources
+        )
+        if career_sources_would_change:
+            assert updated_career_sources is not None
+            updated_career_sources["updated_at"] = handoff["created_at"]
+            validate_json(
+                updated_career_sources,
+                schemas["career-sources.schema.json"],
+                registry,
+                "Updated career-source registry",
+            )
+
         if would_change and not args.dry_run:
             atomic_write(catalog_path, updated)
+        if career_sources_would_change and not args.dry_run:
+            assert updated_career_sources is not None
+            atomic_write(career_sources_path, updated_career_sources)
 
         output = {
             "schema_version": 1,
@@ -406,6 +665,9 @@ def main() -> int:
             "dry_run": args.dry_run,
             "catalog_changed": would_change and not args.dry_run,
             "would_change": would_change,
+            "career_sources": str(career_sources_path) if career_sources is not None else None,
+            "career_sources_changed": career_sources_would_change and not args.dry_run,
+            "career_sources_would_change": career_sources_would_change,
             "applied": applied,
             "skipped": skipped,
             "conflicts": conflicts,
@@ -420,4 +682,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

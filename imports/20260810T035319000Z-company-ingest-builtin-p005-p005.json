@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "operation": "company-ingest",
+  "created_at": "2026-08-10T03:53:19Z",
+  "changes": [
+    {
+      "company_id": "servicenow",
+      "company_name": "ServiceNow",
+      "website_url": "http://www.servicenow.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:19Z",
+      "updated_date": "2026-08-10T03:53:19Z"
+    },
+    {
+      "company_id": "outset-ai",
+      "company_name": "Outset AI",
+      "website_url": "https://outset.ai/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:19Z",
+      "updated_date": "2026-08-10T03:53:19Z"
+    },
+    {
+      "company_id": "morningstar",
+      "company_name": "Morningstar",
+      "website_url": "https://www.morningstar.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:19Z",
+      "updated_date": "2026-08-10T03:53:19Z"
+    },
+    {
+      "company_id": "citadel",
+      "company_name": "Citadel",
+      "website_url": "https://www.citadel.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:19Z",
+      "updated_date": "2026-08-10T03:53:19Z"
+    },
+    {
+      "company_id": "snyk",
+      "company_name": "Snyk",
+      "website_url": "https://snyk.io/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:19Z",
+      "updated_date": "2026-08-10T03:53:19Z"
+    },
+    {
+      "company_id": "take-two-interactive-software",
+      "company_name": "Take-Two Interactive Software",
+      "website_url": "https://www.take2games.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:19Z",
+      "updated_date": "2026-08-10T03:53:19Z"
+    },
+    {
+      "company_id": "philo",
+      "company_name": "Philo",
+      "website_url": "http://philo.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:19Z",
+      "updated_date": "2026-08-10T03:53:19Z"
+    }
+  ],
+  "issues": [
+    {
+      "code": "collection_summary",
+      "company_id": null,
+      "subject": "Built In page 5 paced profile collection",
+      "source_url": "https://builtin.com/companies/location/san-francisco?country=USA&page=5",
+      "details": "Profiles were opened sequentially with a 120-second pause between completed loads. Eve: skipped because the profile lists only San Mateo offices. ServiceNow: included; profile lists a San Francisco, California office. Outset AI: included; HQ San Francisco. Morningstar: included; office list includes San Francisco. Citadel: included; office list includes San Francisco. Snyk: included; office list includes San Francisco. Take-Two Interactive Software: included; office list includes San Francisco. Philo: included; HQ San Francisco. No HTTP 429 or Cloudflare/CAPTCHA challenge occurred."
+    }
+  ]
+}

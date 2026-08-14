@@ -1,13 +1,15 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://v3-daily-jobs.local/schemas/handoff.schema.json",
-  "title": "V3 company handoff",
+  "title": "V3 state handoff",
   "type": "object",
   "additionalProperties": false,
   "required": ["schema_version", "operation", "created_at", "changes", "issues"],
   "properties": {
     "schema_version": { "const": 1 },
-    "operation": { "enum": ["company-ingest", "company-validate"] },
+    "operation": {
+      "enum": ["company-ingest", "company-validate", "career-source-discover"]
+    },
     "created_at": { "type": "string", "format": "date-time" },
     "changes": { "type": "array" },
     "issues": {
@@ -32,6 +34,16 @@
         "properties": {
           "changes": {
             "items": { "$ref": "#/$defs/validationChange" }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "operation": { "const": "career-source-discover" } } },
+      "then": {
+        "properties": {
+          "changes": {
+            "items": { "$ref": "#/$defs/careerSourceChange" }
           }
         }
       }
@@ -79,14 +91,35 @@
     "validationChange": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["company_id", "expected_status", "address_result"],
+      "required": ["company_id", "expected_status"],
       "properties": {
         "company_id": {
           "type": "string",
           "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
         },
-        "expected_status": { "enum": ["pending", "not_found"] },
+        "expected_status": {
+          "enum": ["pending", "verified", "outside_sf", "not_found"]
+        },
+        "website_url": { "type": "string", "format": "uri" },
         "address_result": { "$ref": "#/$defs/addressResult" }
+      },
+      "anyOf": [
+        { "required": ["website_url"] },
+        { "required": ["address_result"] }
+      ]
+    },
+    "careerSourceChange": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["expected_updated_date", "source"],
+      "properties": {
+        "expected_updated_date": {
+          "oneOf": [
+            { "type": "string", "format": "date-time" },
+            { "type": "null" }
+          ]
+        },
+        "source": { "$ref": "career-sources.schema.json#/$defs/careerSource" }
       }
     },
     "addressResult": {
@@ -176,4 +209,3 @@
     }
   }
 }
-

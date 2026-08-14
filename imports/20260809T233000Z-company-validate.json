@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-09T23:30:00Z",
+  "changes": [
+    {
+      "company_id": "airtable",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1 Front Street, Suite 2800",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.7918,
+        "longitude": -122.3988,
+        "address_status": "verified",
+        "address_source_url": "https://opengovus.com/los-angeles-business/0002978614-0001-1",
+        "address_source_label": "California business filing - Formagrid Inc",
+        "verified_date": "2026-08-09T23:30:00Z"
+      }
+    },
+    {
+      "company_id": "ampersand",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "280 Spear Street, Unit 1404",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7901615,
+        "longitude": -122.3913352,
+        "address_status": "verified",
+        "address_source_url": "https://www.builtinsf.com/company/ampersand",
+        "address_source_label": "Built In San Francisco company profile",
+        "verified_date": "2026-08-09T23:30:00Z"
+      }
+    },
+    {
+      "company_id": "amplitude",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "201 3rd Street, Suite 200",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.78505,
+        "longitude": -122.39982,
+        "address_status": "verified",
+        "address_source_url": "https://craft.co/amplitude/locations",
+        "address_source_label": "Craft.co company profile",
+        "verified_date": "2026-08-09T23:30:00Z"
+      }
+    },
+    {
+      "company_id": "angellist",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "90 Gold Street, Floor 3",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94133",
+          "country": "US"
+        },
+        "latitude": 37.7959,
+        "longitude": -122.4026,
+        "address_status": "verified",
+        "address_source_url": "https://www.zoominfo.com/c/angellist/371598585",
+        "address_source_label": "ZoomInfo company directory",
+        "verified_date": "2026-08-09T23:30:00Z"
+      }
+    },
+    {
+      "company_id": "anthropic",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "500 Howard Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7864,
+        "longitude": -122.3958,
+        "address_status": "verified",
+        "address_source_url": "https://traded.co/deals/california/office/lease/500-howard-street/",
+        "address_source_label": "Traded commercial real estate database",
+        "verified_date": "2026-08-09T23:30:00Z"
+      }
+    },
+    {
+      "company_id": "bretton-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "535 Mission Street, Floor 14",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.788891,
+        "longitude": -122.3981,
+        "address_status": "verified",
+        "address_source_url": "https://www.builtinsf.com/company/bretton-ai",
+        "address_source_label": "Built In San Francisco company profile",
+        "verified_date": "2026-08-09T23:30:00Z"
+      }
+    },
+    {
+      "company_id": "cardinal",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-09T23:30:00Z"
+      }
+    },
+    {
+      "company_id": "cartage",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-09T23:30:00Z"
+      }
+    },
+    {
+      "company_id": "collate",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-09T23:30:00Z"
+      }
+    },
+    {
+      "company_id": "commodityai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2261 Market Street, Suite 5789",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94114",
+          "country": "US"
+        },
+        "latitude": 37.7647,
+        "longitude": -122.432,
+        "address_status": "verified",
+        "address_source_url": "https://b2bhint.com/en/company/us-ca/commodityai-inc--6073727",
+        "address_source_label": "California business registry - CommodityAI Inc",
+        "verified_date": "2026-08-09T23:30:00Z"
+      }
+    }
+  ],
+  "issues": []
+}

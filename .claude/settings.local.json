@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://builtin.com/companies/location/san-francisco?country=USA&page=1\")",
+      "Bash(node -e ' *)",
+      "Bash(curl -s \"https://builtin.com/company/benchling\")",
+      "Read(//tmp/**)",
+      "Bash(python3 *)",
+      "WebSearch",
+      "Bash(.venv/bin/python *)",
+      "WebFetch(domain:www.walkscore.com)",
+      "WebFetch(domain:builtin.com)",
+      "mcp__puppeteer__puppeteer_navigate",
+      "mcp__puppeteer__puppeteer_evaluate",
+      "WebFetch(domain:www.builtinsf.com)",
+      "WebFetch(domain:leadiq.com)",
+      "WebFetch(domain:therealdeal.com)",
+      "WebFetch(domain:altana.ai)",
+      "WebFetch(domain:www.atlassian.com)",
+      "WebFetch(domain:www.zoominfo.com)",
+      "WebFetch(domain:www.fieldguide.io)",
+      "WebFetch(domain:www.sec.gov)",
+      "WebFetch(domain:www.costar.com)",
+      "WebFetch(domain:www.coupa.com)",
+      "WebFetch(domain:www.codepath.org)",
+      "WebFetch(domain:investors.dropbox.com)",
+      "WebFetch(domain:www.causeiq.com)",
+      "WebFetch(domain:www.connectcre.com)",
+      "WebFetch(domain:investors.bxp.com)",
+      "WebFetch(domain:www.businesswire.com)",
+      "WebFetch(domain:hoodline.com)",
+      "WebFetch(domain:www.citybiz.co)"
+    ]
+  }
+}

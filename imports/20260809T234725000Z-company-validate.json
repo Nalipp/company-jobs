@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-09T23:47:25Z",
+  "changes": [
+    {
+      "company_id": "cloudflare",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "101 Townsend Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.7803446,
+        "longitude": -122.390613,
+        "address_status": "verified",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000026/000147733326000026-index-headers.html",
+        "address_source_label": "Cloudflare 2026 SEC filing",
+        "verified_date": "2026-08-09T23:47:25Z"
+      }
+    },
+    {
+      "company_id": "codepath-org",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-09T23:47:25Z"
+      }
+    },
+    {
+      "company_id": "coupa-software",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "950 Tower Lane, 20th Floor",
+          "city": "Foster City",
+          "region": "CA",
+          "postal_code": "94404",
+          "country": "US"
+        },
+        "latitude": 37.5588688,
+        "longitude": -122.2761914,
+        "address_status": "outside_sf",
+        "address_source_url": "https://coupa.co.jp/company",
+        "address_source_label": "Coupa official company page",
+        "verified_date": "2026-08-09T23:47:25Z"
+      }
+    },
+    {
+      "company_id": "dropbox",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "50 Hawthorne Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7851064,
+        "longitude": -122.3987825,
+        "address_status": "verified",
+        "address_source_url": "https://dropbox.gcs-web.com/investor-resources/investor-faq",
+        "address_source_label": "Dropbox official investor FAQ",
+        "verified_date": "2026-08-09T23:47:25Z"
+      }
+    },
+    {
+      "company_id": "fieldguide",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-09T23:47:25Z"
+      }
+    },
+    {
+      "company_id": "hedra",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-09T23:47:25Z"
+      }
+    },
+    {
+      "company_id": "huntress",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-09T23:47:25Z"
+      }
+    },
+    {
+      "company_id": "idler",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-09T23:47:25Z"
+      }
+    },
+    {
+      "company_id": "monte-carlo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2 Embarcadero Center",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.7947915,
+        "longitude": -122.3984407,
+        "address_status": "verified",
+        "address_source_url": "https://www.builtinsf.com/company/monte-carlo/offices",
+        "address_source_label": "Built In Monte Carlo offices profile",
+        "verified_date": "2026-08-09T23:47:25Z"
+      }
+    },
+    {
+      "company_id": "navan",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "181 Fremont Street, Floors 22-24",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7896303,
+        "longitude": -122.3955461,
+        "address_status": "verified",
+        "address_source_url": "https://navan.com/contact",
+        "address_source_label": "Navan official contact page",
+        "verified_date": "2026-08-09T23:47:25Z"
+      }
+    }
+  ],
+  "issues": []
+}

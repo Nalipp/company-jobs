@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "operation": "company-ingest",
+  "created_at": "2026-08-10T03:53:02Z",
+  "changes": [
+    {
+      "company_id": "crunchyroll",
+      "company_name": "Crunchyroll",
+      "website_url": "https://www.crunchyroll.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:02Z",
+      "updated_date": "2026-08-10T03:53:02Z"
+    },
+    {
+      "company_id": "new-relic",
+      "company_name": "New Relic",
+      "website_url": "http://newrelic.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:02Z",
+      "updated_date": "2026-08-10T03:53:02Z"
+    },
+    {
+      "company_id": "cisco-thousandeyes",
+      "company_name": "Cisco ThousandEyes",
+      "website_url": "http://www.thousandeyes.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:02Z",
+      "updated_date": "2026-08-10T03:53:02Z"
+    },
+    {
+      "company_id": "january",
+      "company_name": "January",
+      "website_url": "https://www.january.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:02Z",
+      "updated_date": "2026-08-10T03:53:02Z"
+    },
+    {
+      "company_id": "treeswift",
+      "company_name": "Treeswift",
+      "website_url": "https://treeswift.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:02Z",
+      "updated_date": "2026-08-10T03:53:02Z"
+    },
+    {
+      "company_id": "airwallex",
+      "company_name": "Airwallex",
+      "website_url": "https://www.airwallex.com/us",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-10T03:53:02Z",
+      "updated_date": "2026-08-10T03:53:02Z"
+    }
+  ],
+  "issues": [
+    {
+      "code": "collection_coverage",
+      "company_id": null,
+      "subject": "Built In page 5 paced profile review",
+      "source_url": "https://builtin.com/companies/location/san-francisco?country=USA&page=5",
+      "details": "Attempted sequentially with at least 120 seconds between completed profile loads: Crunchyroll — included; profile lists a San Francisco office and a direct View Website link. New Relic — included; profile lists HQ San Francisco and a direct View Website link. Cisco ThousandEyes — included; profile lists HQ San Francisco and a direct View Website link. GC AI — skipped; profile lists only San Mateo and Provo. January — included; profile lists a San Francisco office and a direct View Website link. Treeswift — included; profile lists a San Francisco office and a direct View Website link. Xero — skipped; profile lists only San Mateo among its Bay Area offices. Airwallex — included; profile lists HQ San Francisco and a direct View Website link. No HTTP 429 or Cloudflare/CAPTCHA challenge occurred."
+    }
+  ]
+}
