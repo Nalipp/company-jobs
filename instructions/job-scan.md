@@ -22,7 +22,7 @@ For a source problem, explain the specific failure, leave that company's saved j
 state unchanged, and provide this command with the actual ID substituted:
 
 ```text
-/career-source-discover <actual-company-id> --refresh
+/career-source-discover company <actual-company-id> --refresh
 ```
 
 Never ask the human to remember or reconstruct a command. When several sources
@@ -43,6 +43,30 @@ fail, give one literal copy-pastable command per affected company.
 - AI evidence must come from the official job posting and meet the profile's
   `minimum_evidence`. Employer branding alone is insufficient when the profile
   says so.
+
+## Complete-enumeration handoff
+
+Every selected source produces one `job-scan` change. A successful change carries
+both:
+
+- `active_job_identities`, the complete stable identity set for every current
+  posting on that source; and
+- `matching_jobs`, the full normalized and evidenced records for only the jobs
+  that pass the selected profile.
+
+The complete identity set is transient handoff data rather than canonical job
+state. It lets the importer distinguish a posting that disappeared from one that
+still exists but was not emitted as a current match. In keeping with the current
+policy, the latter is left unchanged; there is no separate
+`no_longer_matching` lifecycle state.
+
+Each source scan carries two optimistic-concurrency guards: the source
+`updated_date` and that profile's per-source `last_successful_scan_at`. Successful
+scans advance the per-source watermark. This makes independent batches safe and
+prevents an older handoff from overwriting newer job state.
+
+Failed or incomplete enumeration submits no identities or matches and changes no
+job state.
 
 ## Stable identity and lifecycle
 

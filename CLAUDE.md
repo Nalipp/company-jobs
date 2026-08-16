@@ -1,14 +1,16 @@
 # V3 Daily Jobs — Claude instructions
 
-Read `AGENTS.md` before making changes. The canonical company catalog is `data/companies.json`; reusable career sources belong in `data/career_sources.json`; versioned search constraints belong under `config/search-profiles/`.
+Read `AGENTS.md` before making changes. The canonical company catalog is `data/companies.json`; reusable career sources belong in `data/career_sources.json`; versioned search constraints belong under `config/search-profiles/`; profile-specific job state belongs under `data/job-results/`.
 
 Use the project commands for operational work:
 
 - `/company-ingest <source or instructions>`
 - `/company-validate [limit or retry instructions]`
 - `/career-source-discover [limit or company selectors]`
+- `/job-scan <profile_id> [source selectors]`
 
-Do not directly edit `data/companies.json` or `data/career_sources.json`. External
+Do not directly edit `data/companies.json`, `data/career_sources.json`, or files
+under `data/job-results/`. External
 research runs write one schema-valid JSON handoff to `imports/` and stop. Codex
 reviews and applies it with:
 

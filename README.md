@@ -1,13 +1,14 @@
 # V3 Daily Jobs
 
-V3 separates stable San Francisco company identity, reusable career-source access, versioned search constraints, and job-result state. The company catalog is populated and address-validated; career-source discovery and profile-based job scanning are the next operational layers.
+V3 separates stable San Francisco company identity, reusable career-source access, versioned search constraints, and profile-specific job-result state.
 
 ## Data flow
 
 1. `/company-ingest` reads company names from sources or data supplied with the command. It appends new companies and fills missing data on existing companies.
 2. `/company-validate` selects 10 pending companies by default, researches a physical address, geocodes it, and records whether the company is in San Francisco.
 3. `/career-source-discover` records reusable official career and job-listing sources for verified companies. It does not collect jobs.
-4. Every command writes a JSON handoff in `imports/`. `scripts/apply_handoff.py` validates and applies company handoffs to `data/companies.json` and career-source handoffs to `data/career_sources.json`, atomically for the target file and idempotently.
+4. `/job-scan` enumerates ready career sources, applies one exact search profile, and maintains that profile's active and inactive jobs.
+5. Every command writes a JSON handoff in `imports/`. `scripts/apply_handoff.py` validates and applies the handoff to the appropriate canonical state file, atomically for that file and idempotently.
 
 The source used merely to discover a company is not retained. An address source is retained because it supports the validation decision.
 
@@ -16,9 +17,9 @@ The source used merely to discover a company is not retained. An address source 
 - `data/companies.json` contains company identity and physical-location state.
 - `data/career_sources.json` is the separate registry for reusable official careers and job-listing access instructions.
 - `config/search-profiles/` contains versioned role constraints. The first profile is `ai-product-frontend-v1`.
-- Job-result state will remain separate so one career source can be evaluated under several profiles without copying source instructions into each result.
+- `data/job-results/` contains one canonical result file per profile so the same career sources can be evaluated under different constraints.
 
-See `instructions/career-source-discovery.md` and `instructions/job-scan.md` for the current operational contracts. Career-source discovery is ready to run; the job-result schema and job-scan importer are the next implementation layer.
+See `instructions/career-source-discovery.md` and `instructions/job-scan.md` for the operational contracts.
 
 ## Setup
 
@@ -35,9 +36,10 @@ Then run, for example:
 /company-ingest https://www.builtin.com/companies/location/san-francisco
 /company-validate
 /career-source-discover
+/job-scan ai-product-frontend-v1
 ```
 
-The command may apply its handoff automatically. If it cannot, it will print the exact `apply_handoff.py` command to copy and paste into a normal terminal.
+External research commands write a handoff and stop. They print exact dry-run and apply commands for Codex or the user.
 
 ## Address validation policy
 

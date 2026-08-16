@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SCRIPT = ROOT / "scripts" / "apply_handoff.py"
 T1 = "2026-08-09T18:00:00Z"
 T2 = "2026-08-09T19:00:00Z"
+T3 = "2026-08-09T20:00:00Z"
 
 
 def company(
@@ -81,12 +82,99 @@ def career_source(
     }
 
 
+def job_observation(*, workplace: str = "hybrid") -> dict:
+    return {
+        "company_id": "acme-ai",
+        "source_id": "acme-ai-greenhouse",
+        "source_job_id": "job-123",
+        "canonical_url": "https://job-boards.greenhouse.io/acmeai/jobs/job-123",
+        "title": "Senior AI Product Engineer",
+        "location_text": "San Francisco, CA",
+        "location": {"city": "San Francisco", "region": "CA", "country": "US"},
+        "workplace_arrangement": workplace,
+        "workplace_text": "Hybrid in San Francisco",
+        "employment_type": None,
+        "employment_text": None,
+        "seniority": "senior",
+        "compensation": {
+            "minimum": 180000,
+            "maximum": 230000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$180,000-$230,000 base salary",
+        },
+        "posted_date": "2026-08-01",
+        "evidence": {
+            "active_status": "Listed on the current official board.",
+            "location": "San Francisco, CA",
+            "workplace_arrangement": "Hybrid in San Francisco",
+            "employment_type": None,
+            "compensation": "$180,000-$230,000 base salary",
+            "seniority": "Senior",
+            "role_fit": "Build user-facing product features across frontend and backend.",
+            "ai_involvement": "Build LLM-powered product workflows and evaluations.",
+        },
+    }
+
+
+def job_scan(
+    *, outcome: str = "success_matches", observation: dict | None = None
+) -> dict:
+    observation = observation or job_observation()
+    if outcome == "success_matches":
+        identities = [
+            {
+                "source_job_id": observation["source_job_id"],
+                "canonical_url": observation["canonical_url"],
+            }
+        ]
+        matching_jobs = [observation]
+        current_job_count = 1
+        failure_details = None
+    elif outcome == "success_zero_jobs":
+        identities = []
+        matching_jobs = []
+        current_job_count = 0
+        failure_details = None
+    elif outcome == "success_no_matches":
+        identities = [
+            {
+                "source_job_id": observation["source_job_id"],
+                "canonical_url": observation["canonical_url"],
+            }
+        ]
+        matching_jobs = []
+        current_job_count = 1
+        failure_details = None
+    elif outcome == "failed":
+        identities = []
+        matching_jobs = []
+        current_job_count = None
+        failure_details = "The source could not be enumerated."
+    else:
+        raise ValueError(outcome)
+    return {
+        "company_id": "acme-ai",
+        "source_id": "acme-ai-greenhouse",
+        "expected_source_updated_date": T1,
+        "expected_last_successful_scan_at": None,
+        "outcome": outcome,
+        "scanned_at": T2,
+        "current_job_count": current_job_count,
+        "active_job_identities": identities,
+        "matching_jobs": matching_jobs,
+        "failure_details": failure_details,
+    }
+
+
 class ApplyHandoffTests(unittest.TestCase):
     def setUp(self) -> None:
         self.temporary = tempfile.TemporaryDirectory()
         self.directory = Path(self.temporary.name)
         self.catalog_path = self.directory / "companies.json"
         self.career_sources_path = self.directory / "career_sources.json"
+        self.job_results_dir = self.directory / "job-results"
         self.handoff_path = self.directory / "handoff.json"
 
     def tearDown(self) -> None:
@@ -98,23 +186,45 @@ class ApplyHandoffTests(unittest.TestCase):
             encoding="utf-8",
         )
 
-    def write_handoff(self, operation: str, changes: list[dict], timestamp: str = T2) -> None:
+    def write_handoff(
+        self,
+        operation: str,
+        changes: list[dict],
+        timestamp: str = T2,
+        profile_id: str | None = None,
+    ) -> None:
+        envelope = {
+            "schema_version": 1,
+            "operation": operation,
+            "created_at": timestamp,
+            "changes": changes,
+            "issues": [],
+        }
+        if profile_id is not None:
+            envelope["profile_id"] = profile_id
         self.handoff_path.write_text(
-            json.dumps(
-                {
-                    "schema_version": 1,
-                    "operation": operation,
-                    "created_at": timestamp,
-                    "changes": changes,
-                    "issues": [],
-                }
-            ),
+            json.dumps(envelope),
             encoding="utf-8",
         )
 
     def write_career_sources(self, sources: list[dict]) -> None:
         self.career_sources_path.write_text(
             json.dumps({"schema_version": 1, "updated_at": None, "sources": sources}),
+            encoding="utf-8",
+        )
+
+    def write_job_results(self, jobs: list[dict]) -> None:
+        self.job_results_dir.mkdir(parents=True, exist_ok=True)
+        (self.job_results_dir / "ai-product-frontend-v1.json").write_text(
+            json.dumps(
+                {
+                    "schema_version": 1,
+                    "profile_id": "ai-product-frontend-v1",
+                    "updated_at": None,
+                    "source_states": [],
+                    "jobs": jobs,
+                }
+            ),
             encoding="utf-8",
         )
 
@@ -128,6 +238,8 @@ class ApplyHandoffTests(unittest.TestCase):
                 str(self.catalog_path),
                 "--career-sources",
                 str(self.career_sources_path),
+                "--job-results-dir",
+                str(self.job_results_dir),
             ],
             text=True,
             capture_output=True,
@@ -141,6 +253,13 @@ class ApplyHandoffTests(unittest.TestCase):
 
     def read_career_sources(self) -> dict:
         return json.loads(self.career_sources_path.read_text(encoding="utf-8"))
+
+    def read_job_results(self) -> dict:
+        return json.loads(
+            (self.job_results_dir / "ai-product-frontend-v1.json").read_text(
+                encoding="utf-8"
+            )
+        )
 
     def test_ingest_appends_and_replay_is_noop(self) -> None:
         self.write_catalog([])
@@ -469,6 +588,163 @@ class ApplyHandoffTests(unittest.TestCase):
         self.assertFalse(result["career_sources_changed"])
         self.assertEqual(self.read_career_sources()["sources"][0]["status"], "ready")
         self.assertEqual(result["conflicts"][0]["field"], "source.status")
+
+    def setup_job_scan_state(self) -> None:
+        self.write_catalog(
+            [
+                company(
+                    "acme-ai",
+                    "Acme AI",
+                    status="verified",
+                    address=sf_address(),
+                    latitude=37.793,
+                    longitude=-122.397,
+                    source_url="https://acme.example/contact",
+                    source_label="Official contact page",
+                    verified_date=T1,
+                )
+            ]
+        )
+        self.write_career_sources([career_source(timestamp=T1)])
+        self.write_job_results([])
+
+    def test_job_scan_adds_match_and_replay_is_noop(self) -> None:
+        self.setup_job_scan_state()
+        self.write_handoff(
+            "job-scan",
+            [job_scan()],
+            profile_id="ai-product-frontend-v1",
+        )
+
+        first = self.run_apply()
+        self.assertTrue(first["job_results_changed"])
+        self.assertEqual(first["applied"], 1)
+        saved = self.read_job_results()["jobs"]
+        self.assertEqual(len(saved), 1)
+        self.assertEqual(saved[0]["status"], "active")
+        self.assertEqual(saved[0]["first_seen_at"], T2)
+
+        second = self.run_apply()
+        self.assertFalse(second["job_results_changed"])
+        self.assertEqual(second["applied"], 0)
+        self.assertEqual(second["skipped"], 1)
+
+    def test_failed_job_scan_preserves_jobs_and_complete_empty_scan_deactivates(self) -> None:
+        self.setup_job_scan_state()
+        self.write_handoff(
+            "job-scan",
+            [job_scan()],
+            profile_id="ai-product-frontend-v1",
+        )
+        self.run_apply()
+
+        failed_scan = job_scan(outcome="failed")
+        failed_scan["scanned_at"] = T3
+        failed_scan["expected_last_successful_scan_at"] = T2
+        self.write_handoff(
+            "job-scan",
+            [failed_scan],
+            timestamp=T3,
+            profile_id="ai-product-frontend-v1",
+        )
+        failed = self.run_apply()
+        self.assertFalse(failed["job_results_changed"])
+        self.assertEqual(self.read_job_results()["jobs"][0]["status"], "active")
+
+        empty_scan = job_scan(outcome="success_zero_jobs")
+        empty_scan["scanned_at"] = T3
+        empty_scan["expected_last_successful_scan_at"] = T2
+        self.write_handoff(
+            "job-scan",
+            [empty_scan],
+            timestamp=T3,
+            profile_id="ai-product-frontend-v1",
+        )
+        complete = self.run_apply()
+        saved = self.read_job_results()["jobs"][0]
+        self.assertTrue(complete["job_results_changed"])
+        self.assertEqual(saved["status"], "inactive")
+        self.assertEqual(saved["inactive_at"], T3)
+
+    def test_job_scan_rejects_explicit_remote_match(self) -> None:
+        self.setup_job_scan_state()
+        remote = job_observation(workplace="remote")
+        self.write_handoff(
+            "job-scan",
+            [job_scan(observation=remote)],
+            profile_id="ai-product-frontend-v1",
+        )
+
+        result = self.run_apply(expected_code=2)
+        self.assertFalse(result["job_results_changed"])
+        self.assertEqual(self.read_job_results()["jobs"], [])
+        self.assertIn("excluded by profile", result["conflicts"][0]["details"])
+
+    def test_job_scan_accepts_unknown_workplace(self) -> None:
+        self.setup_job_scan_state()
+        unknown = job_observation(workplace="unknown")
+        unknown["workplace_text"] = None
+        unknown["evidence"]["workplace_arrangement"] = None
+        self.write_handoff(
+            "job-scan",
+            [job_scan(observation=unknown)],
+            profile_id="ai-product-frontend-v1",
+        )
+
+        result = self.run_apply()
+        self.assertTrue(result["job_results_changed"])
+        self.assertEqual(
+            self.read_job_results()["jobs"][0]["workplace_arrangement"], "unknown"
+        )
+
+    def test_job_scan_rejects_stale_source_watermark(self) -> None:
+        self.setup_job_scan_state()
+        self.write_handoff(
+            "job-scan",
+            [job_scan()],
+            profile_id="ai-product-frontend-v1",
+        )
+        self.run_apply()
+
+        stale = job_scan(outcome="success_zero_jobs")
+        stale["scanned_at"] = T3
+        self.write_handoff(
+            "job-scan",
+            [stale],
+            timestamp=T3,
+            profile_id="ai-product-frontend-v1",
+        )
+        result = self.run_apply(expected_code=2)
+
+        self.assertFalse(result["job_results_changed"])
+        self.assertEqual(self.read_job_results()["jobs"][0]["status"], "active")
+        self.assertEqual(result["conflicts"][0]["field"], "last_successful_scan_at")
+
+    def test_existing_job_stays_active_when_identity_exists_but_is_not_reemitted(self) -> None:
+        self.setup_job_scan_state()
+        self.write_handoff(
+            "job-scan",
+            [job_scan()],
+            profile_id="ai-product-frontend-v1",
+        )
+        self.run_apply()
+
+        no_matches = job_scan(outcome="success_no_matches")
+        no_matches["scanned_at"] = T3
+        no_matches["expected_last_successful_scan_at"] = T2
+        self.write_handoff(
+            "job-scan",
+            [no_matches],
+            timestamp=T3,
+            profile_id="ai-product-frontend-v1",
+        )
+        result = self.run_apply()
+
+        saved = self.read_job_results()
+        self.assertTrue(result["job_results_changed"])
+        self.assertEqual(saved["jobs"][0]["status"], "active")
+        self.assertEqual(saved["jobs"][0]["updated_at"], T2)
+        self.assertEqual(saved["source_states"][0]["last_successful_scan_at"], T3)
 
 
 if __name__ == "__main__":

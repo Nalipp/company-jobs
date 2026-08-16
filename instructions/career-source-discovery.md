@@ -104,7 +104,7 @@ must report the specific failure, leave that company's job state unchanged, and
 give the human the exact refresh command:
 
 ```text
-/career-source-discover <actual-company-id> --refresh
+/career-source-discover company <actual-company-id> --refresh
 ```
 
 The completion response must replace the placeholder with the real `company_id`.

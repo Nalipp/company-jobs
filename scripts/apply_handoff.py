@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate and idempotently apply a V3 company or career-source handoff."""
+"""Validate and idempotently apply a V3 state handoff."""
 
 from __future__ import annotations
 
@@ -11,9 +11,10 @@ import re
 import sys
 import tempfile
 import unicodedata
+from datetime import datetime
 from pathlib import Path
 from typing import Any
-from urllib.parse import urlparse
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 from jsonschema import Draft202012Validator, FormatChecker
 from referencing import Registry, Resource
@@ -22,6 +23,8 @@ from referencing import Registry, Resource
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CATALOG = ROOT / "data" / "companies.json"
 DEFAULT_CAREER_SOURCES = ROOT / "data" / "career_sources.json"
+DEFAULT_JOB_RESULTS_DIR = ROOT / "data" / "job-results"
+SEARCH_PROFILE_DIR = ROOT / "config" / "search-profiles"
 SCHEMA_DIR = ROOT / "schemas"
 ADDRESS_FIELDS = (
     "address",
@@ -33,6 +36,31 @@ ADDRESS_FIELDS = (
     "verified_date",
 )
 LEGAL_SUFFIXES = {"inc", "incorporated", "corp", "corporation", "llc", "ltd", "limited"}
+TRACKING_QUERY_KEYS = {
+    "fbclid",
+    "gclid",
+    "gh_src",
+    "lever-origin",
+    "lever-source",
+    "source",
+}
+JOB_FACT_FIELDS = (
+    "company_id",
+    "source_id",
+    "source_job_id",
+    "canonical_url",
+    "title",
+    "location_text",
+    "location",
+    "workplace_arrangement",
+    "workplace_text",
+    "employment_type",
+    "employment_text",
+    "seniority",
+    "compensation",
+    "posted_date",
+    "evidence",
+)
 
 
 class ApplyError(Exception):
@@ -58,6 +86,8 @@ def schema_registry() -> tuple[Registry, dict[str, dict[str, Any]]]:
     for name in (
         "companies.schema.json",
         "career-sources.schema.json",
+        "job-results.schema.json",
+        "search-profile.schema.json",
         "handoff.schema.json",
     ):
         schema = read_json(SCHEMA_DIR / name)
@@ -569,6 +599,358 @@ def apply_career_source_discovery(
     return applied, skipped, conflicts
 
 
+def normalize_job_url(value: str) -> str:
+    parsed = urlparse(value)
+    filtered_query = [
+        (key, item)
+        for key, item in parse_qsl(parsed.query, keep_blank_values=True)
+        if not key.lower().startswith("utm_") and key.lower() not in TRACKING_QUERY_KEYS
+    ]
+    path = parsed.path.rstrip("/") or "/"
+    return urlunparse(
+        (
+            parsed.scheme.lower(),
+            parsed.netloc.lower(),
+            path,
+            parsed.params,
+            urlencode(filtered_query, doseq=True),
+            parsed.fragment,
+        )
+    )
+
+
+def job_identities_match(left: dict[str, Any], right: dict[str, Any]) -> bool:
+    left_id = left.get("source_job_id")
+    right_id = right.get("source_job_id")
+    if left_id is not None and right_id is not None:
+        return left_id == right_id
+    return normalize_job_url(left["canonical_url"]) == normalize_job_url(right["canonical_url"])
+
+
+def job_facts(job: dict[str, Any]) -> dict[str, Any]:
+    return {field: copy.deepcopy(job[field]) for field in JOB_FACT_FIELDS}
+
+
+def profile_mismatch(observation: dict[str, Any], profile: dict[str, Any]) -> str | None:
+    constraints = profile["hard_constraints"]
+    expected_location = constraints["location"]
+    location = observation["location"]
+    for field in ("city", "region", "country"):
+        if location[field].casefold() != expected_location[field].casefold():
+            return f"normalized location {field} does not match profile"
+
+    workplace = observation["workplace_arrangement"]
+    workplace_policy = constraints["workplace"]
+    if workplace == "unknown":
+        if workplace_policy["unknown_policy"] != "include":
+            return "unknown workplace arrangement is excluded by profile"
+    elif workplace not in workplace_policy["allowed_arrangements"]:
+        return f"workplace arrangement {workplace!r} is excluded by profile"
+
+    employment = observation["employment_type"]
+    employment_policy = constraints["employment"]
+    if employment is None:
+        if employment_policy["missing_type_policy"] == "exclude":
+            return "missing employment type is excluded by profile"
+    else:
+        normalized_employment = employment.casefold()
+        disallowed = {
+            value.casefold() for value in employment_policy["explicitly_disallowed_types"]
+        }
+        allowed = {value.casefold() for value in employment_policy["allowed_types"]}
+        if normalized_employment in disallowed:
+            return f"employment type {employment!r} is explicitly excluded"
+        if normalized_employment not in allowed:
+            return f"employment type {employment!r} is not allowed by profile"
+
+    compensation = observation["compensation"]
+    compensation_policy = constraints["compensation"]
+    for field in ("currency", "basis", "period"):
+        if compensation[field] != compensation_policy[field]:
+            return f"compensation {field} does not match profile"
+    threshold = compensation_policy["threshold"]
+    comparison = compensation_policy["comparison"]
+    if comparison == "published_maximum_at_least":
+        compensation_matches = compensation["maximum"] >= threshold
+    elif comparison == "published_minimum_at_least":
+        compensation_matches = (
+            compensation["minimum"] is not None and compensation["minimum"] >= threshold
+        )
+    else:
+        compensation_matches = (
+            compensation["minimum"] is not None
+            and compensation["minimum"] <= threshold <= compensation["maximum"]
+        )
+    if not compensation_matches:
+        return "published compensation does not satisfy profile threshold"
+
+    excluded_titles = {
+        re.sub(r"\s+", " ", value.strip()).casefold()
+        for value in constraints["role"]["excluded_titles"]
+    }
+    normalized_title = re.sub(r"\s+", " ", observation["title"].strip()).casefold()
+    if normalized_title in excluded_titles:
+        return f"title {observation['title']!r} is explicitly excluded"
+    return None
+
+
+def find_job_index(jobs: list[dict[str, Any]], observation: dict[str, Any]) -> int | None:
+    for index, job in enumerate(jobs):
+        if job["source_id"] == observation["source_id"] and job_identities_match(
+            job, observation
+        ):
+            return index
+    return None
+
+
+def validate_job_results_consistency(
+    job_results: dict[str, Any], career_sources: dict[str, Any]
+) -> None:
+    source_by_id = {source["source_id"]: source for source in career_sources["sources"]}
+    seen_source_states: set[str] = set()
+    for state in job_results["source_states"]:
+        source_id = state["source_id"]
+        if source_id in seen_source_states:
+            raise ApplyError(f"Job results contain duplicate source state for {source_id}")
+        if source_id not in source_by_id:
+            raise ApplyError(f"Job results reference unknown source state {source_id}")
+        seen_source_states.add(source_id)
+
+    jobs = job_results["jobs"]
+    for index, job in enumerate(jobs):
+        source = source_by_id.get(job["source_id"])
+        if source is None:
+            raise ApplyError(f"Job results reference unknown source {job['source_id']}")
+        if source["company_id"] != job["company_id"]:
+            raise ApplyError(
+                f"Job {job['canonical_url']} references a source owned by another company"
+            )
+        for prior in jobs[:index]:
+            if prior["source_id"] == job["source_id"] and job_identities_match(prior, job):
+                raise ApplyError(
+                    f"Job results contain duplicate identity for source {job['source_id']}"
+                )
+
+
+def apply_job_scan(
+    catalog: dict[str, Any],
+    career_sources: dict[str, Any],
+    job_results: dict[str, Any],
+    profile: dict[str, Any],
+    handoff: dict[str, Any],
+) -> tuple[int, int, list[dict[str, Any]]]:
+    companies = {company["company_id"]: company for company in catalog["companies"]}
+    sources = {source["source_id"]: source for source in career_sources["sources"]}
+    source_states = job_results["source_states"]
+    source_state_by_id = {state["source_id"]: state for state in source_states}
+    jobs = job_results["jobs"]
+    applied = 0
+    skipped = 0
+    conflicts: list[dict[str, Any]] = []
+    processed_sources: set[str] = set()
+
+    for scan in handoff["changes"]:
+        company_id = scan["company_id"]
+        source_id = scan["source_id"]
+        source = sources.get(source_id)
+        company = companies.get(company_id)
+        if source_id in processed_sources:
+            conflict(
+                conflicts,
+                company_id,
+                "source_id",
+                source_id,
+                source_id,
+                "A job-scan handoff may contain only one result per source.",
+            )
+            skipped += 1
+            continue
+        processed_sources.add(source_id)
+        if company is None:
+            conflict(
+                conflicts,
+                company_id,
+                "company_id",
+                None,
+                company_id,
+                "No catalog company has this ID.",
+            )
+            skipped += 1
+            continue
+        if source is None:
+            conflict(
+                conflicts,
+                company_id,
+                "source_id",
+                None,
+                source_id,
+                "No career-source record has this ID.",
+            )
+            skipped += 1
+            continue
+        if source["company_id"] != company_id:
+            conflict(
+                conflicts,
+                company_id,
+                "source.company_id",
+                source["company_id"],
+                company_id,
+                "The source belongs to a different company.",
+            )
+            skipped += 1
+            continue
+        if source["status"] != "ready":
+            conflict(
+                conflicts,
+                company_id,
+                "source.status",
+                source["status"],
+                "ready",
+                "Only ready career sources may be scanned for jobs.",
+            )
+            skipped += 1
+            continue
+        if source["updated_date"] != scan["expected_source_updated_date"]:
+            conflict(
+                conflicts,
+                company_id,
+                "source.updated_date",
+                source["updated_date"],
+                scan["expected_source_updated_date"],
+                "Career-source instructions changed after this handoff was prepared.",
+            )
+            skipped += 1
+            continue
+        if scan["outcome"] == "failed":
+            skipped += 1
+            continue
+
+        source_state = source_state_by_id.get(source_id)
+        last_successful_scan_at = (
+            source_state["last_successful_scan_at"] if source_state is not None else None
+        )
+        if last_successful_scan_at == scan["scanned_at"]:
+            skipped += 1
+            continue
+        if scan["expected_last_successful_scan_at"] != last_successful_scan_at:
+            conflict(
+                conflicts,
+                company_id,
+                "last_successful_scan_at",
+                last_successful_scan_at,
+                scan["expected_last_successful_scan_at"],
+                "A newer successful scan was applied after this handoff was prepared.",
+            )
+            skipped += 1
+            continue
+        if last_successful_scan_at is not None and datetime.fromisoformat(
+            scan["scanned_at"].replace("Z", "+00:00")
+        ) <= datetime.fromisoformat(last_successful_scan_at.replace("Z", "+00:00")):
+            conflict(
+                conflicts,
+                company_id,
+                "scanned_at",
+                last_successful_scan_at,
+                scan["scanned_at"],
+                "A successful scan timestamp must advance the source watermark.",
+            )
+            skipped += 1
+            continue
+
+        identities = scan["active_job_identities"]
+        observations = scan["matching_jobs"]
+        if scan["current_job_count"] != len(identities):
+            conflict(
+                conflicts,
+                company_id,
+                "current_job_count",
+                len(identities),
+                scan["current_job_count"],
+                "The current-job count must equal the complete identity list length.",
+            )
+            skipped += 1
+            continue
+
+        scan_error: str | None = None
+        for index, identity in enumerate(identities):
+            if any(job_identities_match(identity, prior) for prior in identities[:index]):
+                scan_error = "The complete source identity list contains a duplicate."
+                break
+        if scan_error is None:
+            for index, observation in enumerate(observations):
+                if observation["company_id"] != company_id or observation["source_id"] != source_id:
+                    scan_error = "A matching job references a different company or source."
+                    break
+                if any(job_identities_match(observation, prior) for prior in observations[:index]):
+                    scan_error = "The matching-job list contains a duplicate identity."
+                    break
+                if not any(job_identities_match(observation, identity) for identity in identities):
+                    scan_error = "A matching job is absent from the complete active identity list."
+                    break
+                mismatch = profile_mismatch(observation, profile)
+                if mismatch is not None:
+                    scan_error = f"Job {observation['canonical_url']} does not match profile: {mismatch}."
+                    break
+        if scan_error is not None:
+            conflict(
+                conflicts,
+                company_id,
+                "source_scan",
+                None,
+                source_id,
+                scan_error,
+            )
+            skipped += 1
+            continue
+
+        for observation in observations:
+            index = find_job_index(jobs, observation)
+            incoming_facts = job_facts(observation)
+            if index is None:
+                jobs.append(
+                    {
+                        **incoming_facts,
+                        "status": "active",
+                        "first_seen_at": handoff["created_at"],
+                        "updated_at": handoff["created_at"],
+                        "inactive_at": None,
+                    }
+                )
+                continue
+            existing = jobs[index]
+            if job_facts(existing) == incoming_facts and existing["status"] == "active":
+                continue
+            jobs[index] = {
+                **incoming_facts,
+                "status": "active",
+                "first_seen_at": existing["first_seen_at"],
+                "updated_at": handoff["created_at"],
+                "inactive_at": None,
+            }
+
+        for job in jobs:
+            if job["source_id"] != source_id or job["status"] != "active":
+                continue
+            if any(job_identities_match(job, identity) for identity in identities):
+                continue
+            job["status"] = "inactive"
+            job["updated_at"] = handoff["created_at"]
+            job["inactive_at"] = handoff["created_at"]
+
+        if source_state is None:
+            source_state = {
+                "source_id": source_id,
+                "last_successful_scan_at": scan["scanned_at"],
+            }
+            source_states.append(source_state)
+            source_state_by_id[source_id] = source_state
+        else:
+            source_state["last_successful_scan_at"] = scan["scanned_at"]
+        applied += 1
+
+    return applied, skipped, conflicts
+
+
 def atomic_write(path: Path, value: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     descriptor, temporary_name = tempfile.mkstemp(prefix=f".{path.name}.", dir=path.parent)
@@ -593,7 +975,13 @@ def parse_args() -> argparse.Namespace:
         "--career-sources",
         type=Path,
         default=DEFAULT_CAREER_SOURCES,
-        help="Career-source registry path for career-source-discover handoffs",
+        help="Career-source registry path",
+    )
+    parser.add_argument(
+        "--job-results-dir",
+        type=Path,
+        default=DEFAULT_JOB_RESULTS_DIR,
+        help="Directory containing profile-specific job-result files",
     )
     parser.add_argument("--dry-run", action="store_true")
     return parser.parse_args()
@@ -604,6 +992,7 @@ def main() -> int:
     handoff_path = args.handoff.expanduser().resolve()
     catalog_path = args.catalog.expanduser().resolve()
     career_sources_path = args.career_sources.expanduser().resolve()
+    job_results_dir = args.job_results_dir.expanduser().resolve()
 
     try:
         registry, schemas = schema_registry()
@@ -612,7 +1001,10 @@ def main() -> int:
         validate_json(handoff, schemas["handoff.schema.json"], registry, "Handoff")
         validate_json(catalog, schemas["companies.schema.json"], registry, "Catalog")
         career_sources = None
-        if handoff["operation"] == "career-source-discover":
+        profile = None
+        job_results = None
+        job_results_path = None
+        if handoff["operation"] in {"career-source-discover", "job-scan"}:
             career_sources = read_json(career_sources_path)
             validate_json(
                 career_sources,
@@ -620,17 +1012,66 @@ def main() -> int:
                 registry,
                 "Career-source registry",
             )
+        if handoff["operation"] == "job-scan":
+            profile_id = handoff["profile_id"]
+            profile_path = SEARCH_PROFILE_DIR / f"{profile_id}.json"
+            profile = read_json(profile_path)
+            validate_json(
+                profile,
+                schemas["search-profile.schema.json"],
+                registry,
+                "Search profile",
+            )
+            if profile["profile_id"] != profile_id:
+                raise ApplyError(
+                    f"Search profile ID {profile['profile_id']!r} does not match handoff {profile_id!r}"
+                )
+            job_results_path = job_results_dir / f"{profile_id}.json"
+            if job_results_path.exists():
+                job_results = read_json(job_results_path)
+            else:
+                job_results = {
+                    "schema_version": 1,
+                    "profile_id": profile_id,
+                    "updated_at": None,
+                    "source_states": [],
+                    "jobs": [],
+                }
+            validate_json(
+                job_results,
+                schemas["job-results.schema.json"],
+                registry,
+                "Job results",
+            )
+            if job_results["profile_id"] != profile_id:
+                raise ApplyError(
+                    f"Job-result profile ID {job_results['profile_id']!r} does not match handoff {profile_id!r}"
+                )
+            assert career_sources is not None
+            validate_job_results_consistency(job_results, career_sources)
 
         updated = copy.deepcopy(catalog)
         updated_career_sources = copy.deepcopy(career_sources) if career_sources is not None else None
+        updated_job_results = copy.deepcopy(job_results) if job_results is not None else None
         if handoff["operation"] == "company-ingest":
             applied, skipped, conflicts = apply_ingest(updated, handoff)
         elif handoff["operation"] == "company-validate":
             applied, skipped, conflicts = apply_validation(updated, handoff)
-        else:
+        elif handoff["operation"] == "career-source-discover":
             assert updated_career_sources is not None
             applied, skipped, conflicts = apply_career_source_discovery(
                 updated, updated_career_sources, handoff
+            )
+        else:
+            assert updated_career_sources is not None
+            assert updated_job_results is not None
+            assert profile is not None
+            applied, skipped, conflicts = apply_job_scan(
+                updated,
+                updated_career_sources,
+                updated_job_results,
+                profile,
+                handoff,
             )
 
         would_change = updated != catalog
@@ -651,11 +1092,30 @@ def main() -> int:
                 "Updated career-source registry",
             )
 
+        job_results_would_change = (
+            updated_job_results is not None and updated_job_results != job_results
+        )
+        if job_results_would_change:
+            assert updated_job_results is not None
+            updated_job_results["updated_at"] = handoff["created_at"]
+            validate_json(
+                updated_job_results,
+                schemas["job-results.schema.json"],
+                registry,
+                "Updated job results",
+            )
+            assert updated_career_sources is not None
+            validate_job_results_consistency(updated_job_results, updated_career_sources)
+
         if would_change and not args.dry_run:
             atomic_write(catalog_path, updated)
         if career_sources_would_change and not args.dry_run:
             assert updated_career_sources is not None
             atomic_write(career_sources_path, updated_career_sources)
+        if job_results_would_change and not args.dry_run:
+            assert updated_job_results is not None
+            assert job_results_path is not None
+            atomic_write(job_results_path, updated_job_results)
 
         output = {
             "schema_version": 1,
@@ -668,6 +1128,9 @@ def main() -> int:
             "career_sources": str(career_sources_path) if career_sources is not None else None,
             "career_sources_changed": career_sources_would_change and not args.dry_run,
             "career_sources_would_change": career_sources_would_change,
+            "job_results": str(job_results_path) if job_results_path is not None else None,
+            "job_results_changed": job_results_would_change and not args.dry_run,
+            "job_results_would_change": job_results_would_change,
             "applied": applied,
             "skipped": skipped,
             "conflicts": conflicts,

@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "operation": "career-source-discover",
+  "created_at": "2026-08-14T21:09:30Z",
+  "changes": [
+    {
+      "expected_updated_date": "2026-08-14T18:12:12Z",
+      "source": {
+        "source_id": "benchling-greenhouse",
+        "company_id": "benchling",
+        "careers_url": "https://www.benchling.com/careers",
+        "listings_url": "https://jobs.ashbyhq.com/benchling",
+        "provider": "ashby",
+        "board_id": "benchling",
+        "access_mode": "structured_feed",
+        "scope": "All Benchling roles",
+        "instructions": "The official Benchling careers page embeds the Ashby board. Enumerate the public Ashby board API for the exact board ID benchling, then open each canonical Ashby job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.benchling.com/careers",
+        "checked_at": "2026-08-14T21:09:30Z",
+        "last_success_at": "2026-08-14T21:09:30Z",
+        "added_date": "2026-08-14T18:12:12Z",
+        "updated_date": "2026-08-14T21:09:30Z"
+      }
+    },
+    {
+      "expected_updated_date": "2026-08-14T18:12:12Z",
+      "source": {
+        "source_id": "cloudflare-primary",
+        "company_id": "cloudflare",
+        "careers_url": "https://www.cloudflare.com/careers/",
+        "listings_url": "https://job-boards.greenhouse.io/cloudflare",
+        "provider": "greenhouse",
+        "board_id": "cloudflare",
+        "access_mode": "structured_feed",
+        "scope": "All Cloudflare roles",
+        "instructions": "The official Cloudflare careers page links to its Greenhouse-powered openings. Enumerate the public Greenhouse board API for board ID cloudflare, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.cloudflare.com/careers/",
+        "checked_at": "2026-08-14T21:09:30Z",
+        "last_success_at": "2026-08-14T21:09:30Z",
+        "added_date": "2026-08-14T18:12:12Z",
+        "updated_date": "2026-08-14T21:09:30Z"
+      }
+    },
+    {
+      "expected_updated_date": "2026-08-14T18:12:12Z",
+      "source": {
+        "source_id": "zendesk-primary",
+        "company_id": "zendesk",
+        "careers_url": "https://www.zendesk.com/company/careers/",
+        "listings_url": "https://zendesk.wd1.myworkdayjobs.com/zendesk",
+        "provider": "workday",
+        "board_id": "zendesk",
+        "access_mode": "structured_feed",
+        "scope": "All Zendesk roles",
+        "instructions": "The official Zendesk careers page links directly to this Workday tenant. Enumerate the tenant's public CXS jobs endpoint through every result page and use each posting's stable external path or requisition ID.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.zendesk.com/company/careers/",
+        "checked_at": "2026-08-14T21:09:30Z",
+        "last_success_at": "2026-08-14T21:09:30Z",
+        "added_date": "2026-08-14T18:12:12Z",
+        "updated_date": "2026-08-14T21:09:30Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "incomplete_listing_set",
+      "company_id": "sofi",
+      "subject": "Official careers page and candidate feeds disagree",
+      "source_url": "https://www.sofi.com/careers/",
+      "details": "The official careers page reported 78 roles, while its embedded job data exposed 59 distinct Greenhouse job IDs and the public Greenhouse board API returned 60 jobs. No source was updated because none established a complete current listing set. The existing ready source remains unchanged."
+    },
+    {
+      "code": "listing_endpoint_not_resolved",
+      "company_id": "datarobot",
+      "subject": "Official open-positions page",
+      "source_url": "https://www.datarobot.com/careers/open-positions/",
+      "details": "The official page reported 25 open positions, but the available listing representation did not expose a reliable complete, stable machine-readable identity set. The existing ready source remains unchanged."
+    },
+    {
+      "code": "listing_endpoint_not_resolved",
+      "company_id": "hubspot",
+      "subject": "Official all-openings directory",
+      "source_url": "https://www.hubspot.com/careers/jobs/all",
+      "details": "The official directory reported 142 openings and is implemented with a client-side GraphQL directory, but its public endpoint configuration could not be established reliably in this pass. The existing ready source remains unchanged."
+    },
+    {
+      "code": "listing_endpoint_not_resolved",
+      "company_id": "navan",
+      "subject": "Official openings page",
+      "source_url": "https://navan.com/careers/openings",
+      "details": "The official openings page rendered only a loading state in the available workflow, and no reliable complete listing endpoint or stable identity set was established. The existing ready source remains unchanged."
+    }
+  ]
+}

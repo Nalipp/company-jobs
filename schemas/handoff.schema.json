@@ -8,7 +8,16 @@
   "properties": {
     "schema_version": { "const": 1 },
     "operation": {
-      "enum": ["company-ingest", "company-validate", "career-source-discover"]
+      "enum": [
+        "company-ingest",
+        "company-validate",
+        "career-source-discover",
+        "job-scan"
+      ]
+    },
+    "profile_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*-v[1-9][0-9]*$"
     },
     "created_at": { "type": "string", "format": "date-time" },
     "changes": { "type": "array" },
@@ -44,6 +53,17 @@
         "properties": {
           "changes": {
             "items": { "$ref": "#/$defs/careerSourceChange" }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "operation": { "const": "job-scan" } } },
+      "then": {
+        "required": ["profile_id"],
+        "properties": {
+          "changes": {
+            "items": { "$ref": "#/$defs/jobSourceScan" }
           }
         }
       }
@@ -121,6 +141,133 @@
         },
         "source": { "$ref": "career-sources.schema.json#/$defs/careerSource" }
       }
+    },
+    "jobSourceScan": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "company_id",
+        "source_id",
+        "expected_source_updated_date",
+        "expected_last_successful_scan_at",
+        "outcome",
+        "scanned_at",
+        "current_job_count",
+        "active_job_identities",
+        "matching_jobs",
+        "failure_details"
+      ],
+      "properties": {
+        "company_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "source_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "expected_source_updated_date": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "expected_last_successful_scan_at": {
+          "oneOf": [
+            { "type": "string", "format": "date-time" },
+            { "type": "null" }
+          ]
+        },
+        "outcome": {
+          "enum": [
+            "success_matches",
+            "success_no_matches",
+            "success_zero_jobs",
+            "failed"
+          ]
+        },
+        "scanned_at": { "type": "string", "format": "date-time" },
+        "current_job_count": {
+          "oneOf": [
+            { "type": "integer", "minimum": 0 },
+            { "type": "null" }
+          ]
+        },
+        "active_job_identities": {
+          "type": "array",
+          "items": {
+            "$ref": "job-results.schema.json#/$defs/sourceJobIdentity"
+          }
+        },
+        "matching_jobs": {
+          "type": "array",
+          "items": {
+            "$ref": "job-results.schema.json#/$defs/jobObservation"
+          }
+        },
+        "failure_details": {
+          "oneOf": [
+            { "type": "string", "minLength": 1 },
+            { "type": "null" }
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "outcome": { "const": "success_matches" } },
+            "required": ["outcome"]
+          },
+          "then": {
+            "properties": {
+              "current_job_count": { "type": "integer", "minimum": 1 },
+              "active_job_identities": { "minItems": 1 },
+              "matching_jobs": { "minItems": 1 },
+              "failure_details": { "type": "null" }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "outcome": { "const": "success_no_matches" } },
+            "required": ["outcome"]
+          },
+          "then": {
+            "properties": {
+              "current_job_count": { "type": "integer", "minimum": 1 },
+              "active_job_identities": { "minItems": 1 },
+              "matching_jobs": { "maxItems": 0 },
+              "failure_details": { "type": "null" }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "outcome": { "const": "success_zero_jobs" } },
+            "required": ["outcome"]
+          },
+          "then": {
+            "properties": {
+              "current_job_count": { "const": 0 },
+              "active_job_identities": { "maxItems": 0 },
+              "matching_jobs": { "maxItems": 0 },
+              "failure_details": { "type": "null" }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "outcome": { "const": "failed" } },
+            "required": ["outcome"]
+          },
+          "then": {
+            "properties": {
+              "current_job_count": { "type": "null" },
+              "active_job_identities": { "maxItems": 0 },
+              "matching_jobs": { "maxItems": 0 },
+              "failure_details": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      ]
     },
     "addressResult": {
       "type": "object",

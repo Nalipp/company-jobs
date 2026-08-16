@@ -7,7 +7,7 @@ argument-hint: <URL, file path, pasted data, or collection instructions> [limit 
 
 Ingest technology companies from the source or instructions in `$ARGUMENTS`.
 
-Keep this operation narrow: collect company records, deduplicate them, and apply a handoff. Do not research jobs, job constraints, ATS providers, or company addresses that were not supplied by the source.
+Keep this operation narrow: collect company records, deduplicate them, and write a handoff. Do not research jobs, job constraints, ATS providers, or company addresses that were not supplied by the source.
 
 ## Safety and inputs
 
@@ -43,7 +43,7 @@ Include each source company at most once in the handoff. For an existing company
 
 New companies must be appended to the end of the canonical list. Existing catalog order must remain unchanged.
 
-## Write and apply
+## Write handoff
 
 Create one handoff matching `schemas/handoff.schema.json`:
 
@@ -61,22 +61,23 @@ Write it to this exact repository using an absolute path with this filename patt
 
 `/Users/natelipp/ai-code/_v3_daily-jobs/imports/<UTC compact timestamp>-company-ingest.json`
 
-Then apply it automatically:
+Do not apply it yourself. Finish by giving the human these commands with the
+actual absolute handoff path:
 
 ```bash
 cd /Users/natelipp/ai-code/_v3_daily-jobs
+.venv/bin/python scripts/apply_handoff.py "/Users/natelipp/ai-code/_v3_daily-jobs/imports/<filename>-company-ingest.json" --dry-run
 .venv/bin/python scripts/apply_handoff.py "/Users/natelipp/ai-code/_v3_daily-jobs/imports/<filename>-company-ingest.json"
 ```
 
-If `.venv/bin/python` is unavailable, do not mutate the catalog directly. Keep the handoff and print the exact command the user should run after setup.
+If `.venv/bin/python` is unavailable, still write the handoff and print those exact commands; do not mutate canonical data directly.
 
 ## Completion response
 
 End with a short, human-readable summary containing:
 
 - `Status: complete`, `partial`, or `blocked`;
-- source records examined, candidates written, catalog records applied, records skipped, and conflicts/issues;
+- source records examined, candidates written, records skipped, and conflicts/issues;
 - the absolute handoff path;
-- whether it was applied;
-- when not applied, the exact copy-pastable `cd` plus `apply_handoff.py` command.
-
+- that it was not applied by the research agent; and
+- the exact copy-pastable dry-run and apply commands.

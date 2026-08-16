@@ -37,6 +37,12 @@ class StaticSchemaTests(unittest.TestCase):
             ROOT / "schemas" / "career-sources.schema.json",
         )
 
+    def test_empty_job_results_validate(self) -> None:
+        self.assert_valid(
+            ROOT / "data" / "job-results" / "ai-product-frontend-v1.json",
+            ROOT / "schemas" / "job-results.schema.json",
+        )
+
     def test_ready_career_source_requires_scan_capabilities(self) -> None:
         registry = {
             "schema_version": 1,
