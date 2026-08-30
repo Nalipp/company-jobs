@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://v4-daily-jobs.local/schemas/job-snapshot.schema.json",
+  "title": "V4 canonical per-source job snapshot",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "revision", "source_id", "company_id", "source_revision", "profile_id", "profile_digest", "provider", "last_attempt_at", "last_successful_scan_at", "fetch_complete", "current_job_count", "jobs", "unresolved_candidates", "rejection_counts", "warnings", "application_ledger"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "revision": {"type": "integer", "minimum": 1},
+    "source_id": {"type": "string", "minLength": 1},
+    "company_id": {"type": "string", "minLength": 1},
+    "source_revision": {"type": "integer", "minimum": 1},
+    "profile_id": {"type": "string", "minLength": 1},
+    "profile_digest": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "provider": {"type": "string", "minLength": 1},
+    "last_attempt_at": {"type": "string", "format": "date-time"},
+    "last_successful_scan_at": {"oneOf": [{"type": "string", "format": "date-time"}, {"type": "null"}]},
+    "fetch_complete": {"type": "boolean"},
+    "current_job_count": {"type": "integer", "minimum": 0},
+    "jobs": {"type": "array", "items": {"type": "object"}},
+    "unresolved_candidates": {"type": "array", "items": {"type": "object"}},
+    "rejection_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "application_ledger": {"type": "array", "items": {"type": "object"}}
+  }
+}
+

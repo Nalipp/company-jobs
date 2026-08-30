@@ -1,0 +1,24 @@
+[
+  {
+    "id": "lever-2",
+    "text": "Contract Product Engineer",
+    "categories": {
+      "commitment": "Contract",
+      "location": "San Francisco, CA"
+    },
+    "workplaceType": "on-site",
+    "description": "<p>Build a short-term product.</p>",
+    "hostedUrl": "https://jobs.lever.co/acme/lever-2"
+  },
+  {
+    "id": "lever-3",
+    "text": "Frontend Engineer",
+    "categories": {
+      "commitment": "Full-time",
+      "location": "San Francisco Bay Area"
+    },
+    "workplaceType": "remote",
+    "descriptionPlain": "Build web interfaces.",
+    "hostedUrl": "https://jobs.lever.co/acme/lever-3"
+  }
+]

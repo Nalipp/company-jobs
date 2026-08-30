@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Jobs"
+  short_description: "Claim and safely process one job source"
+  default_prompt: "Use $find-jobs --claim-next luna to claim and complete the next Luna job-source task."

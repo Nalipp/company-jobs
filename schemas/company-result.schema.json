@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://v4-daily-jobs.local/schemas/company-result.schema.json",
+  "title": "V4 company validation result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "workflow", "task_id", "attempt_id", "claim_token", "model", "created_at", "target", "outcome", "reason_code", "evidence", "patch", "item_results", "failure_class", "notes"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "workflow": {"const": "validate_companies"},
+    "task_id": {"type": "string", "minLength": 1},
+    "attempt_id": {"type": "string", "minLength": 1},
+    "claim_token": {"type": "string", "minLength": 32},
+    "model": {"enum": ["luna", "terra", "sol"]},
+    "created_at": {"type": "string", "format": "date-time"},
+    "target": {"$ref": "queue-common.schema.json#/$defs/task/properties/target"},
+    "outcome": {"enum": ["resolved", "inconclusive", "blocked", "failed"]},
+    "reason_code": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"},
+    "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}},
+    "patch": {"$ref": "#/$defs/patch"},
+    "item_results": {"type": "array", "items": {"$ref": "#/$defs/item"}},
+    "failure_class": {"oneOf": [{"enum": ["network", "authentication", "rate_limit", "robots", "source_access", "timeout", "invalid_output", "conflict", "other"]}, {"type": "null"}]},
+    "notes": {"oneOf": [{"type": "string"}, {"type": "null"}]}
+  },
+  "$defs": {
+    "nullableString": {"oneOf": [{"type": "string"}, {"type": "null"}]},
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "retrieved_at", "evidence_type", "finding"],
+      "properties": {
+        "url": {"type": "string", "format": "uri"},
+        "retrieved_at": {"type": "string", "format": "date-time"},
+        "evidence_type": {"type": "string", "minLength": 1},
+        "finding": {"type": "string", "minLength": 1}
+      }
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["item", "status", "summary"],
+      "properties": {
+        "item": {"type": "string", "minLength": 1},
+        "status": {"enum": ["resolved", "unchanged", "inconclusive", "blocked", "failed"]},
+        "summary": {"type": "string", "minLength": 1}
+      }
+    },
+    "patch": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["company_id", "expected_record_revision", "company_changes", "source_upserts"],
+      "properties": {
+        "company_id": {"type": "string", "minLength": 1},
+        "expected_record_revision": {"type": "integer", "minimum": 1},
+        "company_changes": {"type": "object"},
+        "source_upserts": {"type": "array", "items": {"type": "object"}}
+      }
+    }
+  }
+}

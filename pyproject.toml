@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "v4-daily-jobs"
+version = "0.1.0"
+description = "Local-first deterministic company validation and job-search queues"
+requires-python = ">=3.11"
+dependencies = [
+  "jsonschema>=4.23,<5",
+  "referencing>=0.35,<1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.3,<10", "pyyaml>=6,<7"]
+
+[project.scripts]
+v4-queue = "v4_daily_jobs.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

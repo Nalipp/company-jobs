@@ -1,0 +1,146 @@
+{
+  "baseline_company_updated_at": "2026-08-28T22:05:00Z",
+  "company_counts": {
+    "not_found": 1553,
+    "outside_sf": 426,
+    "pending": 127,
+    "total": 3036,
+    "verified": 930
+  },
+  "excluded": [
+    "V3 job result state",
+    "V3 job-scan handoffs",
+    "V3 generated job reports"
+  ],
+  "handoffs": [
+    {
+      "applied": 5,
+      "file": "imports/20260810T035302000Z-company-ingest-builtin-p005-p005.json",
+      "operation": "company-ingest",
+      "sha256": "d07d94e23971ac677c3631e7ef904b3810ffe34bd07b2cd0abc688f7da78403f",
+      "skipped": 1
+    },
+    {
+      "applied": 5,
+      "file": "imports/20260810T035319000Z-company-ingest-builtin-p005-p005.json",
+      "operation": "company-ingest",
+      "sha256": "ac895cd090bbd7157aebfa94bc1ddd90fb0aba0db85cb297d9995b8a4b5a8044",
+      "skipped": 2
+    },
+    {
+      "applied": 5,
+      "file": "imports/20260810T035353000Z-company-ingest-builtin-p006-p006.json",
+      "operation": "company-ingest",
+      "sha256": "6eadbb3bbc74640a7ea9a6651b36ec72c7581c36baf7b5bae80222c31cc5e604",
+      "skipped": 3
+    },
+    {
+      "applied": 7,
+      "file": "imports/20260815T202742000Z-company-ingest.json",
+      "operation": "company-ingest",
+      "sha256": "52148120cc71d522ea142a6ce3a349dfa8a4709cba07bf33cb104c19ecda1f1c",
+      "skipped": 2
+    },
+    {
+      "applied": 75,
+      "file": "imports/20260828T214645Z-company-validate.json",
+      "operation": "company-validate",
+      "sha256": "0a389ffc0392969a08a9f58fd9a55a320f82ba5b2619ad1822888ae1a5b2bf54",
+      "skipped": 0
+    }
+  ],
+  "inputs": {
+    "config/search-profiles/ai-product-frontend-v1.json": "705bc38cdd186ea75c17c5c0d154f141dbd67a1acc57ecfcfb9749e55ec16af9",
+    "data/career_sources.json": "33da7cafc1d77f1bbecde8bd39158990f084804a23e37cc0d33ac8e7ef57b0bb",
+    "data/companies.json": "d778008a7b9256b279c4c4540cc479183206e8155e70612a8062353b67167af3",
+    "scripts/apply_handoff.py": "cb53a395e8c4ab7945f25c2da07c70a8a98f7b30413cc2051996fce28b7d8be2"
+  },
+  "integrity": {
+    "duplicate_company_ids": [],
+    "duplicate_source_ids": [],
+    "duplicate_website_domains": {
+      "horizon3.ai": [
+        "horizon3",
+        "horizon3-ai"
+      ],
+      "julius.ai": [
+        "julius",
+        "julius-ai"
+      ],
+      "mercury.com": [
+        "mercury",
+        "mercury-technologies"
+      ],
+      "omen.ai": [
+        "omen-ai",
+        "omen"
+      ],
+      "unlearn.ai": [
+        "unlearn-ai",
+        "unlearn"
+      ]
+    },
+    "orphan_source_ids": []
+  },
+  "migration_version": "v3_to_v4_v1",
+  "output_digests": {
+    "archive/v3/company-research.json": "7d3d8580932cd1cabcacf4c0466ef9da6af985b9813331b5ce7fa59e4eb8e70e",
+    "data/companies.json": "7c28cb6f86aa60db330d137f7f38fc0b84294ca0ec04592ed0e783e130ea4dc9",
+    "data/profiles/ai-product-frontend-v1.json": "705bc38cdd186ea75c17c5c0d154f141dbd67a1acc57ecfcfb9749e55ec16af9"
+  },
+  "ready_provider_counts": {
+    "applicantstack": 1,
+    "ashby": 191,
+    "atlassian": 1,
+    "bamboohr": 3,
+    "breezy": 4,
+    "custom": 105,
+    "deel": 1,
+    "disney": 1,
+    "dover": 3,
+    "gem": 2,
+    "greenhouse": 135,
+    "hibob": 1,
+    "hiringthing": 1,
+    "icims": 1,
+    "ihg": 1,
+    "jazzhr": 5,
+    "jobscore": 1,
+    "kula": 1,
+    "lever": 40,
+    "paycom": 1,
+    "rippling": 6,
+    "smartrecruiters": 5,
+    "successfactors": 1,
+    "teamtailor": 1,
+    "trinethire": 1,
+    "ttcportals": 1,
+    "workable": 3,
+    "workatastartup": 1,
+    "workday": 13,
+    "ycombinator": 12
+  },
+  "research_company_count": 1365,
+  "research_record_count": 1446,
+  "research_unknown_company_ids": [
+    "qualified"
+  ],
+  "schema_version": 1,
+  "source_count": 878,
+  "source_root": "/Users/natelipp/ai-code/_v3_daily-jobs",
+  "source_status_counts": {
+    "blocked": 20,
+    "no_careers_found": 178,
+    "ready": 543,
+    "stale": 5,
+    "unsupported": 132
+  },
+  "source_updated_at": "2026-08-28T21:46:45Z",
+  "warnings": [
+    "The V3 baseline company root updated_at (2026-08-28T22:05:00Z) is newer than the last applied handoff timestamp (2026-08-28T21:46:45Z); the migrated canonical root preserves the exact V3 handoff-applier output.",
+    "Four pre-existing companies received website URLs from historical handoffs whose source timestamps can predate their added_date; preserved without silent timestamp repair: buildops, new-relic, nexhealth, substack.",
+    "Preserved 5 duplicate website-domain groups for explicit company-validation audit.",
+    "The research archive preserves 1446 issue/evidence rows across 1365 non-null company identifiers; repeated identifiers remain separate provenance records.",
+    "Research records reference identifiers absent from the canonical company set; preserved verbatim for provenance: qualified"
+  ]
+}

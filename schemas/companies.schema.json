@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://v4-daily-jobs.local/schemas/companies.schema.json",
+  "title": "V4 canonical company and career-source database",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "revision", "updated_at", "companies", "application_ledger", "migration"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "revision": {"type": "integer", "minimum": 1},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "companies": {"type": "array", "items": {"$ref": "#/$defs/company"}},
+    "application_ledger": {"type": "array", "items": {"$ref": "#/$defs/ledgerEntry"}},
+    "migration": {"type": "object"}
+  },
+  "$defs": {
+    "nullableString": {"oneOf": [{"type": "string", "minLength": 1}, {"type": "null"}]},
+    "nullableUri": {"oneOf": [{"type": "string", "format": "uri"}, {"type": "null"}]},
+    "nullableDateTime": {"oneOf": [{"type": "string", "format": "date-time"}, {"type": "null"}]},
+    "address": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["street", "city", "region", "postal_code", "country"],
+      "properties": {
+        "street": {"$ref": "#/$defs/nullableString"},
+        "city": {"$ref": "#/$defs/nullableString"},
+        "region": {"$ref": "#/$defs/nullableString"},
+        "postal_code": {"$ref": "#/$defs/nullableString"},
+        "country": {"$ref": "#/$defs/nullableString"}
+      }
+    },
+    "capabilities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["complete_enumeration", "stable_job_identity", "structured_data"],
+      "properties": {
+        "complete_enumeration": {"type": "boolean"},
+        "stable_job_identity": {"type": "boolean"},
+        "structured_data": {"type": "boolean"}
+      }
+    },
+    "careerSource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "company_id", "record_revision", "careers_url", "listings_url", "provider", "board_id", "access_mode", "scope", "instructions", "capabilities", "status", "official_relationship_url", "checked_at", "last_success_at", "added_date", "updated_date"],
+      "properties": {
+        "source_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "company_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "record_revision": {"type": "integer", "minimum": 1},
+        "careers_url": {"$ref": "#/$defs/nullableUri"},
+        "listings_url": {"$ref": "#/$defs/nullableUri"},
+        "provider": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "board_id": {"$ref": "#/$defs/nullableString"},
+        "access_mode": {"oneOf": [{"enum": ["structured_feed", "html_listing", "browser_required", "primary_platform"]}, {"type": "null"}]},
+        "scope": {"type": "string", "minLength": 1},
+        "instructions": {"type": "string", "minLength": 1},
+        "capabilities": {"$ref": "#/$defs/capabilities"},
+        "status": {"enum": ["ready", "no_careers_found", "blocked", "unsupported", "stale"]},
+        "official_relationship_url": {"$ref": "#/$defs/nullableUri"},
+        "checked_at": {"type": "string", "format": "date-time"},
+        "last_success_at": {"$ref": "#/$defs/nullableDateTime"},
+        "added_date": {"type": "string", "format": "date-time"},
+        "updated_date": {"type": "string", "format": "date-time"}
+      }
+    },
+    "company": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["company_id", "company_name", "record_revision", "website_url", "address", "latitude", "longitude", "address_status", "address_source_url", "address_source_label", "verified_date", "added_date", "updated_date", "career_sources"],
+      "properties": {
+        "company_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "company_name": {"type": "string", "minLength": 1},
+        "record_revision": {"type": "integer", "minimum": 1},
+        "website_url": {"$ref": "#/$defs/nullableUri"},
+        "address": {"oneOf": [{"$ref": "#/$defs/address"}, {"type": "null"}]},
+        "latitude": {"oneOf": [{"type": "number", "minimum": -90, "maximum": 90}, {"type": "null"}]},
+        "longitude": {"oneOf": [{"type": "number", "minimum": -180, "maximum": 180}, {"type": "null"}]},
+        "address_status": {"enum": ["pending", "verified", "not_found", "outside_sf"]},
+        "address_source_url": {"$ref": "#/$defs/nullableUri"},
+        "address_source_label": {"$ref": "#/$defs/nullableString"},
+        "verified_date": {"$ref": "#/$defs/nullableDateTime"},
+        "added_date": {"type": "string", "format": "date-time"},
+        "updated_date": {"type": "string", "format": "date-time"},
+        "career_sources": {"type": "array", "items": {"$ref": "#/$defs/careerSource"}}
+      }
+    },
+    "ledgerEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["transaction_id", "task_id", "attempt_id", "result_digest", "applied_at"],
+      "properties": {
+        "transaction_id": {"type": "string", "minLength": 1},
+        "task_id": {"type": "string", "minLength": 1},
+        "attempt_id": {"type": "string", "minLength": 1},
+        "result_digest": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "applied_at": {"type": "string", "format": "date-time"}
+      }
+    }
+  }
+}
+

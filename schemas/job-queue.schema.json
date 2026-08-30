@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://v4-daily-jobs.local/schemas/job-queue.schema.json",
+  "title": "V4 job finding queue",
+  "$ref": "queue-common.schema.json"
+}
+

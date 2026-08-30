@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://v4-daily-jobs.local/schemas/operation-report.schema.json",
+  "title": "V4 operation report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "execution_status", "operation", "generated_at", "task", "item_results", "changes", "queue_delta", "progress", "warnings", "message"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "execution_status": {"enum": ["completed", "no_task", "failed"]},
+    "operation": {"type": "string", "minLength": 1},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "task": {"oneOf": [{"type": "object"}, {"type": "null"}]},
+    "item_results": {"type": "array", "items": {"type": "object"}},
+    "changes": {"type": "array", "items": {"type": "string"}},
+    "queue_delta": {"type": "object"},
+    "progress": {"type": "object"},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "message": {"type": "string"}
+  }
+}
+
