@@ -54,7 +54,18 @@ def fetch_json(url: str, timeout: float = 30.0) -> Any:
     except (TimeoutError, socket.timeout) as exc:
         raise FetchError(f"Timed out while fetching {url}", "timeout") from exc
     except URLError as exc:
-        raise FetchError(f"Network error while fetching {url}: {exc.reason}", "network") from exc
+        # Provider API hosts are fixed by the adapters. A resolver failure for
+        # one of those hosts normally means the local execution environment
+        # has no DNS/network permission, not that this career source is bad.
+        # Keep that distinct so it cannot consume the source's retry budget.
+        failure_class = (
+            "environment_network"
+            if isinstance(exc.reason, socket.gaierror)
+            else "network"
+        )
+        raise FetchError(
+            f"Network error while fetching {url}: {exc.reason}", failure_class
+        ) from exc
     try:
         return json.loads(data)
     except (UnicodeDecodeError, json.JSONDecodeError) as exc:

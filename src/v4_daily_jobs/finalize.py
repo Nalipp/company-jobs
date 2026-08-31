@@ -26,6 +26,7 @@ ACCESS_FAILURE_CLASSES = {
     "source_access",
     "timeout",
 }
+ENVIRONMENT_FAILURE_CLASSES = {"environment_network"}
 
 
 class FinalizationError(RuntimeError):
@@ -119,6 +120,17 @@ def _queue_resolution(
         "notes": result.get("notes"),
         "result_file": result_file,
     }
+    if outcome == "blocked" and result.get("failure_class") in ENVIRONMENT_FAILURE_CLASSES:
+        return engine.release_environment_failure_locked(
+            locked,
+            result["task_id"],
+            result["claim_token"],
+            resolution=common,
+            attempt_id=result["attempt_id"],
+            expected_model=result["model"],
+            now=now,
+            require_unexpired=require_unexpired,
+        )
     if outcome == "blocked" and result.get("failure_class") in ACCESS_FAILURE_CLASSES:
         return engine.handle_access_failure_locked(
             locked,
@@ -624,6 +636,8 @@ def finalize_result(paths: RepoPaths, result_path: Path) -> dict[str, Any]:
         "follow_up_model": follow_up["expected_model"] if follow_up else None,
         "queue_revision": transition.revision,
     }
+    if result.get("failure_class") in ENVIRONMENT_FAILURE_CLASSES:
+        queue_delta.update({"stop_batch": True, "retry_budget_consumed": False})
     return operation_report(
         f"{workflow}.finalize",
         task={

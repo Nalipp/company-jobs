@@ -1,4 +1,4 @@
 interface:
   display_name: "Validate Companies"
   short_description: "Claim and safely validate one company task"
-  default_prompt: "Use $validate-companies --claim-next luna to claim and complete the next Luna company task."
+  default_prompt: "Use $validate-companies --claim-next luna --batch-size 50 to sequentially complete a safe Luna company batch."

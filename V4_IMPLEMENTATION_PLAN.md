@@ -20,6 +20,17 @@ $find-jobs --claim-next sol
 
 The operator may start any number of Codex tasks and paste the same command into several of them. Each command atomically claims a different eligible task. The agent receives a self-contained scope, performs only that scope, and finalizes through a deterministic helper. Neither the operator nor an agent directly edits queue or canonical database JSON.
 
+For lower repeated-agent overhead, both work skills also accept sequential batching without changing the queue's one-target invariant:
+
+```text
+$validate-companies --claim-next luna --batch-size 50
+$find-jobs --claim-next luna --batch-size 5
+```
+
+The batch loop claims and finalizes one item at a time. It never reserves a multi-target transaction. Concurrent batch agents can interleave but cannot overlap, and interruption strands at most the currently claimed task. Company batches are capped at 75. Job batches are capped at 20 and stop after 25 semantic candidates because job-source work size is not proportional to source count. A partial batch is safe, but its report must name an explicit stop reason so normal execution-budget limits are distinguishable from queue, network, or finalization failures.
+
+The read-only terminal planner `.venv/bin/v4-queue next-commands` converts current due queue counts into exact work commands and required run counts using configurable company/job batch sizes. It performs a dry audit calculation so newly eligible work is included without changing the queues, and prints local deterministic audit/recovery/inspection commands where needed. Like `status`, the planner itself performs no research or mutation.
+
 The initial implementation must favor a small, auditable Python system over a service, database server, daemon, terminal UI, or distributed scheduler.
 
 ## 2. Non-negotiable invariants
@@ -35,7 +46,7 @@ The initial implementation must favor a small, auditable Python system over a se
 9. Writes reload current state after locking, validate before and after mutation, write a same-directory temporary file, flush and `fsync`, use `os.replace`, and `fsync` the parent directory where supported.
 10. Repeating an audit, enqueue, claim response, or result submission cannot create duplicate work or duplicate canonical records.
 11. Model escalation happens only for a genuine evidence-based `inconclusive` result: Luna to Terra, Terra to Sol. Sol never auto-escalates.
-12. Network, authentication, rate-limit, robots, and source-access failures remain at the same model.
+12. Network, authentication, rate-limit, robots, and source-access failures remain at the same model. Local sandbox/DNS failures are environment failures: release the current claim without consuming a source retry and stop the batch.
 13. An empty eligible queue is a successful no-op and must not rewrite a file.
 14. V3 is migration input only. Migration must not mutate it.
 
@@ -467,6 +478,8 @@ The agent handles ambiguous company identity, conflicting evidence, website disc
 - exact profile predicates for known structured fields;
 - fail-safe disappearance handling: an incomplete fetch must never mark prior jobs closed;
 - compensation normalization only when source units/currency/period are explicit.
+
+The canonical snapshot `jobs` array is the authoritative qualifying set. The finalizer assigns every selected record a `qualification_status` (`qualifying` for semantic selections and `deterministic_pass` for deterministic string selections), and the snapshot schema requires that provenance marker. Status counts active records in this qualifying-only array rather than trusting an optional agent annotation.
 
 The agent handles semantic title/role relevance, job-specific AI involvement, unclear workplace language, ambiguous compensation, and unsupported sources.
 

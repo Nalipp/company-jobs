@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T02:49:32Z",
+      "attempt_id": "attempt:9fd7a366-a5f5-4f04-85b7-bc1c307b9fca",
+      "result_digest": "4f3c48d74b2b16d934ce1b0bb99712480279785ce9fccda2486b1eb8e48dc345",
+      "task_id": "source:anyroad-lever:luna:f9435a6df15168d1",
+      "transaction_id": "txn:4f3c48d74b2b16d934ce1b0b"
+    }
+  ],
+  "company_id": "anyroad",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T02:49:18Z",
+  "last_successful_scan_at": "2026-08-31T02:49:18Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "total": 1,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "anyroad-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

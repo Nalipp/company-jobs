@@ -439,6 +439,31 @@ class SnapshotTests(unittest.TestCase):
             value["jobs"][0]["ai_involvement_evidence"],
             "Official posting evidence",
         )
+        self.assertEqual(value["jobs"][0]["qualification_status"], "qualifying")
+
+        deterministic = snapshot(
+            None,
+            adapter_result,
+            "2026-08-29T10:00:00Z",
+            qualifying_jobs=[adapter_result.jobs[0].stable_id],
+        )
+        self.assertEqual(
+            deterministic["jobs"][0]["qualification_status"],
+            "deterministic_pass",
+        )
+
+        with self.assertRaisesRegex(JobInvariantError, "invalid qualification_status"):
+            snapshot(
+                None,
+                adapter_result,
+                "2026-08-29T10:00:00Z",
+                qualifying_jobs=[
+                    {
+                        "stable_id": adapter_result.jobs[0].stable_id,
+                        "qualification_status": "rejected",
+                    }
+                ],
+            )
 
     def test_incomplete_fetch_preserves_prior_unresolved_candidate(self) -> None:
         initial_result = result()

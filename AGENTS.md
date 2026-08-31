@@ -15,14 +15,19 @@ Never directly edit canonical or queue JSON during operational work. All mutatio
 ## User workflows
 
 - `$validate-companies --claim-next luna|terra|sol`
+- `$validate-companies --claim-next luna|terra|sol --batch-size 1..75`
 - `$validate-companies --audit-and-enqueue`
 - `$validate-companies --recover-stale`
 - `$find-jobs --claim-next luna|terra|sol`
+- `$find-jobs --claim-next luna|terra|sol --batch-size 1..20`
 - `$find-jobs --audit-and-enqueue`
 - `$find-jobs --recover-stale`
 - `$daily-jobs-status`
+- `.venv/bin/v4-queue next-commands` (read-only terminal planner)
 
 Each claimed task is an absolute scope boundary. A worker must possess the current claim token and target revision to finalize. Never copy work from another target into a result.
+
+Batch commands are sequential agent loops, not multi-target queue tasks. Finalize the current task before the next claim. Use one unique `claimed_by` batch label throughout the loop. A systemic or finalization error stops further claims; successfully finalized item-level outcomes may continue. Run structured `jobs prepare-result` calls with approved network access. `environment_network`/`stop_batch: true` is a mandatory circuit breaker and does not consume a source retry.
 
 ## Safety invariants
 
@@ -47,7 +52,7 @@ cd /Users/natelipp/ai-code/_v4_daily-jobs
 .venv/bin/python /Users/natelipp/.codex/skills/.system/skill-creator/scripts/quick_validate.py .agents/skills/find-jobs
 .venv/bin/python /Users/natelipp/.codex/skills/.system/skill-creator/scripts/quick_validate.py .agents/skills/daily-jobs-status
 .venv/bin/python scripts/v4-queue status
+.venv/bin/v4-queue next-commands
 ```
 
 Routine completion output must state per-item outcomes, canonical changes, queue transition/follow-up, warnings, and the deterministic progress footer. Do not perform extra research solely to prepare a summary.
-

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import copy
 import json
+import math
 from collections import Counter
 from contextlib import ExitStack
 from datetime import datetime, timedelta, timezone
@@ -11,7 +12,7 @@ from pathlib import Path
 from typing import Any, Mapping
 
 from .companies import integrity_report
-from .json_store import JsonStore
+from .json_store import FileLock, JsonStore
 from .paths import RepoPaths
 from .queue import QueueEngine, STATUSES, format_timestamp, parse_timestamp
 from .schemas import validate, validator
@@ -56,11 +57,25 @@ def queue_counts(document: Mapping[str, Any], *, now: datetime | None = None) ->
     raw_by_status = Counter(task["status"] for task in document["tasks"])
     by_status = {status: raw_by_status.get(status, 0) for status in STATUSES}
     by_model: dict[str, dict[str, int]] = {}
+    availability_by_model: dict[str, dict[str, int]] = {}
     for model in ("luna", "terra", "sol"):
         counts = Counter(
             task["status"] for task in document["tasks"] if task["expected_model"] == model
         )
         by_model[model] = {status: counts.get(status, 0) for status in STATUSES}
+        model_open = [
+            task
+            for task in document["tasks"]
+            if task["expected_model"] == model and task["status"] == "open"
+        ]
+        availability_by_model[model] = {
+            "due": sum(
+                parse_timestamp(task["available_at"]) <= instant for task in model_open
+            ),
+            "delayed": sum(
+                parse_timestamp(task["available_at"]) > instant for task in model_open
+            ),
+        }
     active_running = 0
     expired_running = 0
     due_open = 0
@@ -81,6 +96,7 @@ def queue_counts(document: Mapping[str, Any], *, now: datetime | None = None) ->
         "total": len(document["tasks"]),
         "by_status": by_status,
         "by_model": by_model,
+        "availability_by_model": availability_by_model,
         "running": {"active": active_running, "expired": expired_running},
         "open": {"due": due_open, "delayed": delayed_open},
         "revision": document["revision"],
@@ -141,6 +157,7 @@ def status_snapshot(paths: RepoPaths, *, now: datetime | None = None) -> dict[st
         and source["capabilities"].get("structured_data")
     )
     profile = json.loads(paths.profile.read_text(encoding="utf-8"))
+    validate(profile, "search-profile.schema.json", str(paths.profile))
     from .audit import profile_digest
 
     current_digest = profile_digest(profile)
@@ -163,11 +180,9 @@ def status_snapshot(paths: RepoPaths, *, now: datetime | None = None) -> dict[st
             coverage["stale"] += 1
         else:
             coverage["current"] += 1
-        qualifying += sum(
-            job.get("status", "active") == "active"
-            and job.get("qualification_status") in {"qualifying", "deterministic_pass"}
-            for job in snapshot["jobs"]
-        )
+        # The canonical jobs array is the qualifying set; schema validation
+        # guarantees every record also carries its qualification provenance.
+        qualifying += sum(job["status"] == "active" for job in snapshot["jobs"])
         unresolved += len(snapshot["unresolved_candidates"])
 
     recent = {"24h": Counter(), "7d": Counter()}
@@ -259,6 +274,232 @@ def status_snapshot(paths: RepoPaths, *, now: datetime | None = None) -> dict[st
         "recent_activity": normalized_recent,
     }
     return report
+
+
+def next_commands_snapshot(
+    paths: RepoPaths,
+    *,
+    company_batch_size: int = 50,
+    job_batch_size: int = 5,
+    now: datetime | None = None,
+) -> dict[str, Any]:
+    """Plan operator launches from one coherent, read-only status snapshot."""
+
+    if not 1 <= company_batch_size <= 75:
+        raise ValueError("company batch size must be between 1 and 75")
+    if not 1 <= job_batch_size <= 20:
+        raise ValueError("job batch size must be between 1 and 20")
+    instant = now or datetime.now(timezone.utc)
+    status = status_snapshot(paths, now=instant)
+    from .audit import build_company_tasks, build_job_tasks
+
+    company_engine = QueueEngine(
+        paths.company_queue,
+        "validate_companies",
+        validator=validator("company-queue.schema.json"),
+    )
+    job_engine = QueueEngine(
+        paths.job_queue,
+        "find_jobs",
+        validator=validator("job-queue.schema.json"),
+    )
+    canonical = JsonStore(
+        paths.companies,
+        validator=validator("companies.schema.json"),
+    ).read()
+    company_queue = company_engine.read()
+    job_queue = job_engine.read()
+    profile = json.loads(paths.profile.read_text(encoding="utf-8"))
+    validate(profile, "search-profile.schema.json", str(paths.profile))
+    archive = (
+        json.loads(paths.research_archive.read_text(encoding="utf-8"))
+        if paths.research_archive.exists()
+        else None
+    )
+    with FileLock(paths.jobs_lock, exclusive=False, timeout=10):
+        snapshots = _read_job_snapshots(paths)
+    prospective = {
+        "validate_companies": build_company_tasks(
+            canonical,
+            company_engine,
+            research_archive=archive,
+            now=instant,
+        ),
+        "find_jobs": build_job_tasks(
+            canonical,
+            job_engine,
+            profile,
+            snapshots,
+            now=instant,
+        ),
+    }
+    queue_documents = {
+        "validate_companies": company_queue,
+        "find_jobs": job_queue,
+    }
+    workflow_config = (
+        (
+            "validate_companies",
+            "Company validation",
+            "$validate-companies",
+            "company",
+            company_batch_size,
+            False,
+        ),
+        ("find_jobs", "Job finding", "$find-jobs", "jobs", job_batch_size, True),
+    )
+    workflows: list[dict[str, Any]] = []
+    total_launches = 0
+    for (
+        workflow,
+        label,
+        command,
+        cli_workflow,
+        batch_size,
+        minimum_only,
+    ) in workflow_config:
+        queue = status["queues"][workflow]
+        existing_keys = {
+            task["dedupe_key"] for task in queue_documents[workflow]["tasks"]
+        }
+        missing_audit_tasks = [
+            task
+            for task in prospective[workflow]
+            if task["dedupe_key"] not in existing_keys
+        ]
+        pending_audit_by_model = Counter(
+            task["expected_model"] for task in missing_audit_tasks
+        )
+        launches: list[dict[str, Any]] = []
+        for model in ("luna", "terra", "sol"):
+            queued_due = queue["availability_by_model"][model]["due"]
+            pending_audit = pending_audit_by_model.get(model, 0)
+            due = queued_due + pending_audit
+            if not due:
+                continue
+            count = math.ceil(due / batch_size)
+            total_launches += count
+            launches.append(
+                {
+                    "model": model,
+                    "due_tasks": due,
+                    "queued_due_tasks": queued_due,
+                    "pending_audit_tasks": pending_audit,
+                    "batch_size": batch_size,
+                    "launch_count": count,
+                    "count_is_minimum": minimum_only,
+                    "last_batch_capacity": due - ((count - 1) * batch_size),
+                    "command": f"{command} --claim-next {model} --batch-size {batch_size}",
+                }
+            )
+        expired = queue["running"]["expired"]
+        blocked = queue["by_status"]["blocked"]
+        failed = queue["by_status"]["failed"]
+        running = queue["running"]["active"]
+        delayed = queue["open"]["delayed"]
+        audit_recommended = bool(missing_audit_tasks)
+        workflows.append(
+            {
+                "workflow": workflow,
+                "label": label,
+                "launches": launches,
+                "active_running": running,
+                "delayed_open": delayed,
+                "expired_running": expired,
+                "recovery_command": (
+                    f".venv/bin/v4-queue {cli_workflow} recover-stale"
+                    if expired
+                    else None
+                ),
+                "blocked": blocked,
+                "failed": failed,
+                "inspect_commands": [
+                    *(
+                        [
+                            f".venv/bin/v4-queue {'company' if workflow == 'validate_companies' else 'jobs'} inspect --status blocked --json"
+                        ]
+                        if blocked
+                        else []
+                    ),
+                    *(
+                        [
+                            f".venv/bin/v4-queue {'company' if workflow == 'validate_companies' else 'jobs'} inspect --status failed --json"
+                        ]
+                        if failed
+                        else []
+                    ),
+                ],
+                "audit_recommended": audit_recommended,
+                "audit_task_count": len(missing_audit_tasks),
+                "audit_command": (
+                    f".venv/bin/v4-queue {cli_workflow} audit-and-enqueue"
+                    if audit_recommended
+                    else None
+                ),
+            }
+        )
+    return {
+        "schema_version": 1,
+        "generated_at": status["generated_at"],
+        "company_batch_size": company_batch_size,
+        "job_batch_size": job_batch_size,
+        "total_planned_launches": total_launches,
+        "workflows": workflows,
+        "notes": [
+            "Launch counts cover tasks that are open and due at this snapshot.",
+            "Job launch counts are minimum estimates because a batch stops after 25 semantic candidates.",
+            "Re-run this command after each wave; completions, retries, and model escalation change the plan.",
+        ],
+    }
+
+
+def render_next_commands(report: Mapping[str, Any]) -> str:
+    lines = [f"V4 next commands — {report['generated_at']}"]
+    for workflow in report["workflows"]:
+        lines.extend(["", workflow["label"]])
+        if workflow["recovery_command"]:
+            lines.append(
+                f"  Run once: {workflow['recovery_command']} "
+                f"({workflow['expired_running']} expired claim(s))"
+            )
+        if workflow["audit_recommended"]:
+            lines.append(
+                f"  Run once first: {workflow['audit_command']} "
+                f"({workflow['audit_task_count']} task(s) not yet queued)"
+            )
+        for launch in workflow["launches"]:
+            qualifier = "at least " if launch["count_is_minimum"] else ""
+            lines.append(
+                f"  Run {qualifier}{launch['launch_count']} time(s): "
+                f"{launch['command']}"
+            )
+            lines.append(
+                f"    {launch['due_tasks']} due {launch['model'].title()} task(s); "
+                f"last batch has up to {launch['last_batch_capacity']} item(s)."
+            )
+            if launch["pending_audit_tasks"]:
+                lines.append(
+                    f"    Includes {launch['pending_audit_tasks']} task(s) added by the audit above."
+                )
+        if not workflow["launches"] and not workflow["recovery_command"]:
+            if workflow["active_running"]:
+                lines.append(
+                    f"  No new launch now; {workflow['active_running']} task(s) are actively running."
+                )
+            elif workflow["delayed_open"]:
+                lines.append(
+                    f"  No due launch now; {workflow['delayed_open']} retry task(s) are delayed."
+                )
+            else:
+                lines.append("  No command required; no due or newly recommended work.")
+        if workflow["blocked"] or workflow["failed"]:
+            lines.append(
+                f"  Attention: {workflow['blocked']} blocked | {workflow['failed']} failed."
+            )
+            lines.extend(f"    Inspect: {command}" for command in workflow["inspect_commands"])
+    lines.extend(["", f"Planned agent launches: {report['total_planned_launches']}"])
+    lines.extend(f"Note: {note}" for note in report["notes"])
+    return "\n".join(lines) + "\n"
 
 
 def render_status(report: Mapping[str, Any]) -> str:

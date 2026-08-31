@@ -3,8 +3,10 @@ from __future__ import annotations
 import copy
 import hashlib
 import json
+import socket
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.error import URLError
 
 import pytest
 
@@ -20,12 +22,18 @@ from v4_daily_jobs.audit import (
 )
 from v4_daily_jobs.companies import validate_integrity
 from v4_daily_jobs.cli import main as cli_main
-from v4_daily_jobs.fetching import prepare_job_result
+from v4_daily_jobs.fetching import FetchError, fetch_json, prepare_job_result
 from v4_daily_jobs.finalize import finalize_result, recover_journal
 from v4_daily_jobs.migration import EXPECTED_COMPANY_COUNTS, build_migration
+from v4_daily_jobs.maintenance import repair_job_qualification_statuses
 from v4_daily_jobs.paths import RepoPaths
 from v4_daily_jobs.queue import QueueEngine
-from v4_daily_jobs.reporting import render_status, status_snapshot
+from v4_daily_jobs.reporting import (
+    next_commands_snapshot,
+    render_next_commands,
+    render_status,
+    status_snapshot,
+)
 from v4_daily_jobs.schemas import validate, validator
 
 
@@ -351,20 +359,16 @@ def test_job_finalizer_preserves_lifecycle_history(repo_factory) -> None:
     paths = RepoPaths.discover(repo_factory(verified=True, with_source=True))
     first_claim = job_claim(paths, policy="jobs_first_v1")
     job = normalized_job("example-company-ashby")
-    first = job_result(
-        paths,
-        first_claim,
-        [job],
-        [{"stable_id": job["stable_id"], "qualification_status": "qualifying"}],
-    )
+    first = job_result(paths, first_claim, [job], [{"stable_id": job["stable_id"]}])
     first_path = paths.result_dir("find_jobs") / "first.json"
     write_json(first_path, first)
-    finalize_result(paths, first_path)
+    report = finalize_result(paths, first_path)
 
     snapshot_path = paths.job_sources / "example-company-ashby.json"
     first_snapshot = load(snapshot_path)
     assert first_snapshot["jobs"][0]["status"] == "active"
     assert first_snapshot["jobs"][0]["qualification_status"] == "qualifying"
+    assert report["progress"]["coverage"]["active_qualifying_jobs"] == 1
 
     second_claim = job_claim(paths, policy="jobs_second_v1")
     second = job_result(paths, second_claim, [], [])
@@ -379,6 +383,42 @@ def test_job_finalizer_preserves_lifecycle_history(repo_factory) -> None:
     assert second_snapshot["current_job_count"] == 0
     assert second_snapshot["jobs"][0]["status"] == "inactive"
     assert second_snapshot["jobs"][0]["inactive_at"] == "2026-08-30T13:00:00Z"
+
+
+def test_legacy_job_qualification_repair_is_validated_and_idempotent(
+    repo_factory,
+) -> None:
+    paths = RepoPaths.discover(repo_factory(verified=True, with_source=True))
+    claim = job_claim(paths, policy="jobs_repair_v1")
+    job = normalized_job("example-company-ashby")
+    result = job_result(paths, claim, [job], [{"stable_id": job["stable_id"]}])
+    result_path = paths.result_dir("find_jobs") / "repair-source.json"
+    write_json(result_path, result)
+    finalize_result(paths, result_path)
+
+    snapshot_path = paths.job_sources / "example-company-ashby.json"
+    legacy = load(snapshot_path)
+    legacy["jobs"][0].pop("qualification_status")
+    write_json(snapshot_path, legacy)
+
+    repaired = repair_job_qualification_statuses(
+        paths,
+        now=datetime(2026, 8, 30, 14, tzinfo=timezone.utc),
+    )
+    assert repaired["source_count"] == 1
+    assert repaired["job_count"] == 1
+    current = load(snapshot_path)
+    assert current["jobs"][0]["qualification_status"] == "qualifying"
+    assert current["revision"] == legacy["revision"] + 1
+    assert current["application_ledger"][-1]["task_id"].startswith("maintenance:")
+
+    before = snapshot_path.read_bytes()
+    repeated = repair_job_qualification_statuses(
+        paths,
+        now=datetime(2026, 8, 30, 15, tzinfo=timezone.utc),
+    )
+    assert repeated["source_count"] == repeated["job_count"] == 0
+    assert snapshot_path.read_bytes() == before
 
 
 def test_prepare_structured_result_is_schema_valid(repo_factory) -> None:
@@ -435,6 +475,39 @@ def test_prepare_incomplete_or_invalid_feed_fails_closed(repo_factory, monkeypat
     invalid = prepare_job_result(paths, claim.task)
     assert invalid["result"]["outcome"] == "failed"
     assert invalid["result"]["failure_class"] == "invalid_output"
+
+
+def test_dns_failure_is_environment_failure_and_does_not_consume_retry(
+    repo_factory, monkeypatch
+) -> None:
+    paths = RepoPaths.discover(repo_factory(verified=True, with_source=True))
+    claim = job_claim(paths)
+
+    def dns_failure(*_args, **_kwargs):
+        raise URLError(socket.gaierror(8, "nodename nor servname provided"))
+
+    monkeypatch.setattr(fetching_module, "urlopen", dns_failure)
+    with pytest.raises(FetchError) as raised:
+        fetch_json("https://boards-api.greenhouse.io/v1/boards/example/jobs")
+    assert raised.value.failure_class == "environment_network"
+
+    def blocked_fetch(_url, _timeout):
+        raise FetchError("local resolver unavailable", "environment_network")
+
+    prepared = prepare_job_result(paths, claim.task, fetcher=blocked_fetch)
+    result = prepared["result"]
+    assert result["outcome"] == "blocked"
+    assert result["failure_class"] == "environment_network"
+    validate(result, "job-result.schema.json")
+
+    report = finalize_result(paths, Path(prepared["result_path"]))
+    assert report["queue_delta"]["stop_batch"] is True
+    assert report["queue_delta"]["retry_budget_consumed"] is False
+    task = job_engine(paths).read()["tasks"][0]
+    assert task["status"] == "open"
+    assert task["expected_model"] == "luna"
+    assert task["attempts"][-1]["outcome"] == "environment_failure"
+    assert not list(paths.job_sources.glob("*.json"))
 
 
 def test_resolved_job_result_cannot_change_profile_or_leave_candidates(repo_factory) -> None:
@@ -650,3 +723,85 @@ def test_real_cli_audit_claim_and_empty_claim_contract(repo_factory, capsys) -> 
     empty = json.loads(capsys.readouterr().out)
     assert empty["execution_status"] == "no_task"
     assert queue_path.read_bytes() == before_empty
+
+
+def test_next_commands_is_read_only_and_uses_batch_math(repo_factory) -> None:
+    paths = RepoPaths.discover(repo_factory(verified=True, with_source=True))
+    canonical = load(paths.companies)
+    profile = load(paths.profile)
+    audit_and_enqueue_jobs(
+        canonical,
+        job_engine(paths),
+        profile,
+        {},
+        now=datetime(2026, 8, 30, 12, tzinfo=timezone.utc),
+    )
+    tracked = [paths.companies, paths.company_queue, paths.job_queue, paths.profile]
+    before = {path: path.read_bytes() for path in tracked}
+
+    plan = next_commands_snapshot(
+        paths,
+        company_batch_size=50,
+        job_batch_size=5,
+        now=datetime(2026, 8, 30, 12, tzinfo=timezone.utc),
+    )
+    after = {path: path.read_bytes() for path in tracked}
+    assert before == after
+    company, jobs = plan["workflows"]
+    assert company["launches"] == []
+    assert company["audit_recommended"] is False
+    assert jobs["launches"][0]["command"] == (
+        "$find-jobs --claim-next luna --batch-size 5"
+    )
+    assert jobs["launches"][0]["launch_count"] == 1
+    assert jobs["launches"][0]["count_is_minimum"] is True
+    rendered = render_next_commands(plan)
+    assert "No command required" in rendered
+    assert "Run at least 1 time(s): $find-jobs" in rendered
+
+    with pytest.raises(ValueError, match="company batch size"):
+        next_commands_snapshot(paths, company_batch_size=76)
+    with pytest.raises(ValueError, match="job batch size"):
+        next_commands_snapshot(paths, job_batch_size=21)
+
+
+def test_next_commands_includes_not_yet_enqueued_audit_work(repo_factory) -> None:
+    paths = RepoPaths.discover(repo_factory(verified=True, with_source=True))
+    canonical = load(paths.companies)
+    profile = load(paths.profile)
+    audit_and_enqueue_jobs(
+        canonical,
+        job_engine(paths),
+        profile,
+        {},
+        now=datetime(2026, 8, 30, 12, tzinfo=timezone.utc),
+    )
+    second_source = copy.deepcopy(canonical["companies"][0]["career_sources"][0])
+    second_source.update(
+        {
+            "source_id": "example-company-greenhouse",
+            "provider": "greenhouse",
+            "board_id": "example-company",
+            "listings_url": "https://job-boards.greenhouse.io/example-company",
+        }
+    )
+    canonical["companies"][0]["career_sources"].append(second_source)
+    canonical["revision"] += 1
+    write_json(paths.companies, canonical)
+
+    plan = next_commands_snapshot(
+        paths,
+        job_batch_size=5,
+        now=datetime(2026, 8, 30, 12, tzinfo=timezone.utc),
+    )
+    jobs = plan["workflows"][1]
+    assert jobs["audit_recommended"] is True
+    assert jobs["audit_task_count"] == 1
+    assert jobs["launches"][0]["queued_due_tasks"] == 1
+    assert jobs["launches"][0]["pending_audit_tasks"] == 1
+    assert jobs["launches"][0]["due_tasks"] == 2
+    rendered = render_next_commands(plan)
+    assert (
+        "Run once first: .venv/bin/v4-queue jobs audit-and-enqueue" in rendered
+    )
+    assert "Includes 1 task(s) added by the audit above" in rendered

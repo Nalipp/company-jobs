@@ -544,6 +544,7 @@ def _selected_records(
     *,
     company_id: str,
     source_id: str,
+    qualifying: bool = False,
 ) -> list[dict[str, Any]]:
     """Merge semantic annotations onto facts from the captured enumeration."""
 
@@ -581,6 +582,21 @@ def _selected_records(
                 )
         for field in _SEMANTIC_ANNOTATION_FIELDS & annotation.keys():
             base[field] = deepcopy(annotation[field])
+        if qualifying:
+            qualification_status = annotation.get("qualification_status")
+            if qualification_status is None:
+                # String selections are emitted by the deterministic filter;
+                # object selections are agent-reviewed semantic matches.  In
+                # both cases membership in qualifying_jobs is authoritative.
+                qualification_status = (
+                    "deterministic_pass" if isinstance(item, str) else "qualifying"
+                )
+            if qualification_status not in {"qualifying", "deterministic_pass"}:
+                raise JobInvariantError(
+                    "qualifying job has invalid qualification_status "
+                    f"{qualification_status!r}"
+                )
+            base["qualification_status"] = qualification_status
         if base.get("company_id") != company_id or base.get("source_id") != source_id:
             raise JobInvariantError("selected job cannot change source ownership")
         records.append(base)
@@ -678,6 +694,7 @@ def reconcile_snapshot(
         observed,
         company_id=company_id,
         source_id=source_id,
+        qualifying=True,
     )
     unresolved = _selected_records(
         unresolved_candidates,

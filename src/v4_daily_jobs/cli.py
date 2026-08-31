@@ -15,9 +15,17 @@ from .finalize import finalize_result, recover_journal
 from .fetching import prepare_job_result
 from .json_store import FileLock, JsonStore
 from .migration import DEFAULT_V3_ROOT, migrate
+from .maintenance import repair_job_qualification_statuses
 from .paths import RepoPaths
 from .queue import QueueEngine
-from .reporting import operation_report, queue_counts, render_status, status_snapshot
+from .reporting import (
+    next_commands_snapshot,
+    operation_report,
+    queue_counts,
+    render_next_commands,
+    render_status,
+    status_snapshot,
+)
 from .schemas import validator
 
 
@@ -67,6 +75,23 @@ def _handle_workflow(paths: RepoPaths, args: argparse.Namespace) -> dict[str, An
     if command != "inspect":
         recover_journal(paths, workflow)
 
+    if command == "repair-snapshots":
+        repaired = repair_job_qualification_statuses(paths)
+        return operation_report(
+            "find_jobs.repair-snapshots",
+            task={"repair_version": repaired["repair_version"]},
+            changes=[
+                f"{item['source_id']}:{item['stable_id']}: qualification_status=qualifying"
+                for item in repaired["changed_jobs"]
+            ],
+            queue_delta={"queue_revision": engine.read()["revision"]},
+            progress={"repair": repaired},
+            message=(
+                f"Repaired {repaired['job_count']} job(s) in "
+                f"{repaired['source_count']} source snapshot(s)."
+            ),
+        )
+
     if command == "claim-next":
         result = engine.claim_next(args.model, claimed_by=args.claimed_by)
         if not result.claimed:
@@ -74,6 +99,7 @@ def _handle_workflow(paths: RepoPaths, args: argparse.Namespace) -> dict[str, An
             return operation_report(
                 f"{workflow}.claim-next",
                 execution_status="no_task",
+                queue_delta={"queue_revision": result.revision},
                 progress=_progress_for_queue(engine),
                 message=f"No open {args.model.title()} {label} task was available. No files changed.",
             )
@@ -81,7 +107,10 @@ def _handle_workflow(paths: RepoPaths, args: argparse.Namespace) -> dict[str, An
         return operation_report(
             f"{workflow}.claim-next",
             task=result.task,
-            queue_delta={"claimed": 1, "queue_revision": result.revision},
+            queue_delta={
+                "claimed": 1,
+                "queue_revision": result.revision,
+            },
             progress=_progress_for_queue(engine),
             message=(
                 f"Claimed {result.task['task_id']} for {args.model}. "
@@ -125,6 +154,7 @@ def _handle_workflow(paths: RepoPaths, args: argparse.Namespace) -> dict[str, An
                 "model": args.model,
                 "target": task["target"],
                 "draft_outcome": result["outcome"],
+                "failure_class": result.get("failure_class"),
                 "result_path": prepared["result_path"],
             },
             item_results=result["item_results"],
@@ -135,10 +165,18 @@ def _handle_workflow(paths: RepoPaths, args: argparse.Namespace) -> dict[str, An
                 "fetched_jobs": len(adapter.get("jobs", [])),
                 "semantic_candidates": prepared.get("semantic_candidates", 0),
                 "draft_result": prepared["result_path"],
+                "stop_batch": result.get("failure_class") == "environment_network",
             },
             message=(
-                f"Prepared {prepared['result_path']}. Review its semantic candidates, "
-                "then finalize the result through the queue helper."
+                (
+                    "Local DNS/network access is unavailable. Finalize this draft to "
+                    "release the claim without consuming a source retry, then stop the batch."
+                )
+                if result.get("failure_class") == "environment_network"
+                else (
+                    f"Prepared {prepared['result_path']}. Review its semantic candidates, "
+                    "then finalize the result through the queue helper."
+                )
             ),
         )
     if command == "finalize":
@@ -273,6 +311,7 @@ def _add_workflow_parsers(subparsers: Any, name: str) -> None:
     renew.add_argument("--attempt-id")
     renew.add_argument("--model", choices=("luna", "terra", "sol"))
     if name == "jobs":
+        commands.add_parser("repair-snapshots")
         prepare = commands.add_parser("prepare-result")
         prepare.add_argument("--task-id", required=True)
         prepare.add_argument("--claim-token", required=True)
@@ -301,6 +340,9 @@ def parser() -> argparse.ArgumentParser:
     migrate_parser.add_argument("--v3-root", type=Path, default=DEFAULT_V3_ROOT)
     migrate_parser.add_argument("--force", action="store_true")
     commands.add_parser("status")
+    next_parser = commands.add_parser("next-commands")
+    next_parser.add_argument("--company-batch-size", type=int, default=50)
+    next_parser.add_argument("--job-batch-size", type=int, default=5)
     _add_workflow_parsers(commands, "company")
     _add_workflow_parsers(commands, "jobs")
     return result
@@ -321,6 +363,16 @@ def main(argv: list[str] | None = None) -> int:
         elif args.command == "status":
             value = status_snapshot(paths)
             _print(value, as_json=args.json, status=True)
+        elif args.command == "next-commands":
+            value = next_commands_snapshot(
+                paths,
+                company_batch_size=args.company_batch_size,
+                job_batch_size=args.job_batch_size,
+            )
+            if args.json:
+                _print(value, as_json=True)
+            else:
+                print(render_next_commands(value), end="")
         else:
             args.workflow = args.command
             value = _handle_workflow(paths, args)

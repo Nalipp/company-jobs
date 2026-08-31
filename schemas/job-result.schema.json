@@ -19,7 +19,7 @@
     "evidence": {"type": "array", "items": {"type": "object"}},
     "snapshot": {"oneOf": [{"$ref": "#/$defs/snapshot"}, {"type": "null"}]},
     "item_results": {"type": "array", "items": {"type": "object"}},
-    "failure_class": {"oneOf": [{"enum": ["network", "authentication", "rate_limit", "robots", "source_access", "timeout", "invalid_output", "conflict", "other"]}, {"type": "null"}]},
+    "failure_class": {"oneOf": [{"enum": ["network", "environment_network", "authentication", "rate_limit", "robots", "source_access", "timeout", "invalid_output", "conflict", "other"]}, {"type": "null"}]},
     "notes": {"oneOf": [{"type": "string"}, {"type": "null"}]}
   },
   "$defs": {
@@ -61,7 +61,22 @@
             }
           }
         },
-        "qualifying_jobs": {"type": "array", "items": {"oneOf": [{"type": "string", "minLength": 1}, {"type": "object"}]}},
+        "qualifying_jobs": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {"type": "string", "minLength": 1},
+              {
+                "type": "object",
+                "required": ["stable_id"],
+                "properties": {
+                  "stable_id": {"type": "string", "minLength": 1},
+                  "qualification_status": {"enum": ["qualifying", "deterministic_pass"]}
+                }
+              }
+            ]
+          }
+        },
         "unresolved_candidates": {"type": "array", "items": {"type": "object"}},
         "rejection_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
         "warnings": {"type": "array", "items": {"type": "string"}}

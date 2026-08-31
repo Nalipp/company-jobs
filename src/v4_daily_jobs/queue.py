@@ -31,6 +31,16 @@ DEFAULT_LEASE_SECONDS = {
 }
 DEFAULT_ACCESS_RETRY_LIMIT = 2
 DEFAULT_ACCESS_BACKOFF_SECONDS = (5 * 60, 30 * 60)
+DEFAULT_ENVIRONMENT_BACKOFF_SECONDS = 5 * 60
+BATCH_LIMITS = {"validate_companies": 75, "find_jobs": 20}
+BATCH_STATUSES = ("active", "limit_reached", "closed")
+BATCH_CLOSE_REASONS = (
+    "completed",
+    "queue_empty",
+    "candidate_budget",
+    "stopped",
+    "system_error",
+)
 REASON_CODE_PATTERN = re.compile(r"^[a-z0-9]+(?:_[a-z0-9]+)*$")
 
 
@@ -180,7 +190,13 @@ def _normalize_source_ids(
 
 
 def empty_queue_document() -> JsonObject:
-    return {"schema_version": 1, "revision": 0, "updated_at": None, "tasks": []}
+    return {
+        "schema_version": 1,
+        "revision": 0,
+        "updated_at": None,
+        "batches": [],
+        "tasks": [],
+    }
 
 
 @dataclass(frozen=True)
@@ -201,6 +217,8 @@ class ClaimResult:
     claimed: bool
     task: JsonObject | None
     revision: int
+    reason: str | None = None
+    batch: JsonObject | None = None
 
     @property
     def claim_token(self) -> str | None:
@@ -248,6 +266,13 @@ class AccessFailureResult:
 class RetryResult:
     task: JsonObject
     revision: int
+
+
+@dataclass(frozen=True)
+class BatchResult:
+    batch: JsonObject
+    revision: int
+    changed: bool = True
 
 
 class LockedQueue:
@@ -361,6 +386,7 @@ class QueueEngine:
         now_factory: Callable[[], datetime] = utc_now,
         token_factory: Callable[[], str] | None = None,
         attempt_id_factory: Callable[[], str] | None = None,
+        batch_id_factory: Callable[[], str] | None = None,
     ) -> None:
         self.workflow = normalize_workflow(workflow)
         self.lease_seconds = (
@@ -372,6 +398,9 @@ class QueueEngine:
         self.now_factory = now_factory
         self.token_factory = token_factory or (lambda: secrets.token_urlsafe(32))
         self.attempt_id_factory = attempt_id_factory or (lambda: f"attempt:{uuid.uuid4()}")
+        self.batch_id_factory = batch_id_factory or (
+            lambda: f"batch:{self.workflow}:{uuid.uuid4()}"
+        )
         self.store = JsonStore(
             path,
             lock_path=lock_path,
@@ -538,15 +567,96 @@ class QueueEngine:
                 save.document["revision"],
             )
 
+    def start_batch(
+        self,
+        model: str,
+        limit: int,
+        *,
+        now: datetime | str | None = None,
+    ) -> BatchResult:
+        """Create a workflow-bound claim budget in the same atomic queue."""
+        model = normalize_model(model)
+        maximum = BATCH_LIMITS[self.workflow]
+        if not isinstance(limit, int) or isinstance(limit, bool) or not 1 <= limit <= maximum:
+            raise QueueValidationError(
+                f"{self.workflow} batch limit must be an integer from 1 through {maximum}"
+            )
+        instant = _as_datetime(now) if now is not None else _as_datetime(self.now_factory())
+        timestamp = format_timestamp(instant)
+        batch_id = self.batch_id_factory()
+        self._require_batch_workflow(batch_id)
+        batch: JsonObject = {
+            "batch_id": batch_id,
+            "workflow": self.workflow,
+            "model": model,
+            "limit": limit,
+            "claimed_count": 0,
+            "task_ids": [],
+            "status": "active",
+            "close_reason": None,
+            "created_at": timestamp,
+            "updated_at": timestamp,
+        }
+        self.validate_batch(batch)
+        with self.locked() as locked:
+            batches = locked.document.setdefault("batches", [])
+            if any(item["batch_id"] == batch_id for item in batches):
+                raise DedupeConflict(f"duplicate batch_id: {batch_id}")
+            batches.append(batch)
+            batches.sort(key=lambda item: (item["created_at"], item["batch_id"]))
+            save = locked.save(now=instant)
+            return BatchResult(copy.deepcopy(batch), save.document["revision"])
+
+    def close_batch(
+        self,
+        batch_id: str,
+        reason: str,
+        *,
+        now: datetime | str | None = None,
+    ) -> BatchResult:
+        """Close unused capacity without changing task ownership."""
+        self._require_batch_workflow(batch_id)
+        if reason not in BATCH_CLOSE_REASONS:
+            raise QueueValidationError(
+                f"batch close reason must be one of {', '.join(BATCH_CLOSE_REASONS)}"
+            )
+        instant = _as_datetime(now) if now is not None else _as_datetime(self.now_factory())
+        with self.locked() as locked:
+            batch = self._find_batch(locked.document, batch_id)
+            if batch["status"] == "limit_reached":
+                return BatchResult(copy.deepcopy(batch), locked.revision, False)
+            if batch["status"] == "closed":
+                if batch["close_reason"] != reason:
+                    raise InvalidTransition(
+                        f"batch {batch_id} is already closed as {batch['close_reason']}"
+                    )
+                return BatchResult(copy.deepcopy(batch), locked.revision, False)
+            batch["status"] = "closed"
+            batch["close_reason"] = reason
+            batch["updated_at"] = format_timestamp(instant)
+            save = locked.save(now=instant)
+            return BatchResult(
+                copy.deepcopy(self._find_batch(save.document, batch_id)),
+                save.document["revision"],
+            )
+
     def claim_next(
         self,
         model: str,
         *,
         claimed_by: str | None = None,
+        batch_id: str | None = None,
         lease_seconds: int | None = None,
         now: datetime | str | None = None,
     ) -> ClaimResult:
         model = normalize_model(model)
+        if batch_id is not None:
+            self._require_batch_workflow(batch_id)
+            if claimed_by is not None and claimed_by != batch_id:
+                raise QueueValidationError(
+                    "claimed_by must be omitted or equal batch_id for a batch claim"
+                )
+            claimed_by = batch_id
         if claimed_by is not None and (not isinstance(claimed_by, str) or not claimed_by):
             raise QueueValidationError("claimed_by must be null or a non-empty string")
         instant = _as_datetime(now) if now is not None else _as_datetime(self.now_factory())
@@ -554,6 +664,20 @@ class QueueEngine:
         if not isinstance(duration, int) or duration <= 0:
             raise ValueError("lease_seconds must be a positive integer")
         with self.locked() as locked:
+            batch = None
+            if batch_id is not None:
+                batch = self._find_batch(locked.document, batch_id)
+                if batch["model"] != model:
+                    raise ClaimRejected(
+                        f"batch {batch_id} is for {batch['model']}, not {model}"
+                    )
+                if batch["status"] == "closed":
+                    raise ClaimRejected(f"batch {batch_id} is closed")
+                if batch["claimed_count"] >= batch["limit"]:
+                    return ClaimResult(
+                        False, None, locked.revision,
+                        "batch_limit_reached", copy.deepcopy(batch),
+                    )
             due = [
                 task
                 for task in locked.document["tasks"]
@@ -564,7 +688,9 @@ class QueueEngine:
             due.sort(key=lambda task: (-task["priority"], task["created_at"], task["task_id"]))
             if not due:
                 # Crucially, do not call save: bytes, revision, and timestamps stay exact.
-                return ClaimResult(False, None, locked.revision)
+                return ClaimResult(
+                    False, None, locked.revision, "queue_empty", copy.deepcopy(batch)
+                )
 
             task = due[0]
             token = self.token_factory()
@@ -601,8 +727,17 @@ class QueueEngine:
             task["resolution"] = None
             task["attempts"].append(attempt)
             task["updated_at"] = claimed_at
+            if batch is not None:
+                batch["task_ids"].append(task["task_id"])
+                batch["claimed_count"] += 1
+                batch["updated_at"] = claimed_at
+                if batch["claimed_count"] == batch["limit"]:
+                    batch["status"] = "limit_reached"
             save = locked.save(now=instant)
-            return ClaimResult(True, copy.deepcopy(task), save.document["revision"])
+            return ClaimResult(
+                True, copy.deepcopy(task), save.document["revision"],
+                None, copy.deepcopy(batch),
+            )
 
     def renew(
         self,
@@ -852,6 +987,94 @@ class QueueEngine:
                 require_unexpired=require_unexpired,
             )
 
+    def release_environment_failure(
+        self,
+        task_id: str,
+        claim_token: str,
+        *,
+        resolution: Mapping[str, Any] | None = None,
+        attempt_id: str | None = None,
+        expected_model: str | None = None,
+        backoff_seconds: int = DEFAULT_ENVIRONMENT_BACKOFF_SECONDS,
+        now: datetime | str | None = None,
+        require_unexpired: bool = True,
+    ) -> RetryResult:
+        """Release a claim after a local environment outage without charging
+        the target source's access-retry allowance.
+        """
+
+        with self.locked() as locked:
+            return self.release_environment_failure_locked(
+                locked,
+                task_id,
+                claim_token,
+                resolution=resolution,
+                attempt_id=attempt_id,
+                expected_model=expected_model,
+                backoff_seconds=backoff_seconds,
+                now=now,
+                require_unexpired=require_unexpired,
+            )
+
+    def release_environment_failure_locked(
+        self,
+        locked: LockedQueue,
+        task_id: str,
+        claim_token: str,
+        *,
+        resolution: Mapping[str, Any] | None = None,
+        attempt_id: str | None = None,
+        expected_model: str | None = None,
+        backoff_seconds: int = DEFAULT_ENVIRONMENT_BACKOFF_SECONDS,
+        now: datetime | str | None = None,
+        require_unexpired: bool = True,
+    ) -> RetryResult:
+        if locked.engine is not self:
+            raise QueueError("locked queue belongs to a different engine")
+        if backoff_seconds < 0:
+            raise ValueError("backoff seconds must be non-negative")
+        instant = _as_datetime(now) if now is not None else _as_datetime(self.now_factory())
+        timestamp = format_timestamp(instant)
+        task = locked.require_claim(
+            task_id,
+            claim_token,
+            attempt_id=attempt_id,
+            expected_model=expected_model,
+            now=instant,
+            require_unexpired=require_unexpired,
+        )
+        claim = copy.deepcopy(task["claim"])
+        attempt = self._current_attempt(task, claim["attempt_id"])
+        details = copy.deepcopy(dict(resolution or {}))
+        details.update(
+            {
+                "outcome": "environment_failure",
+                "error_class": "environment_network",
+                "retry_budget_consumed": False,
+                "resolved_at": timestamp,
+                "retry_at": format_timestamp(
+                    instant + timedelta(seconds=backoff_seconds)
+                ),
+            }
+        )
+        attempt.update(
+            {
+                "ended_at": timestamp,
+                "status": "retry_scheduled",
+                "outcome": "environment_failure",
+                "error_class": "environment_network",
+                "resolution": copy.deepcopy(details),
+            }
+        )
+        task["claim"] = None
+        task["status"] = "open"
+        task["available_at"] = details["retry_at"]
+        task["resolution"] = None
+        task["updated_at"] = timestamp
+        save = locked.save(now=instant)
+        saved_task = self._find_task(save.document, task_id)
+        return RetryResult(copy.deepcopy(saved_task), save.document["revision"])
+
     def handle_access_failure_locked(
         self,
         locked: LockedQueue,
@@ -1011,7 +1234,7 @@ class QueueEngine:
         missing = required - set(document)
         if missing:
             raise QueueValidationError(f"queue document missing fields: {sorted(missing)}")
-        extra = set(document) - required
+        extra = set(document) - required - {"batches"}
         if extra:
             raise QueueValidationError(f"queue document has unknown fields: {sorted(extra)}")
         if document["schema_version"] != 1:
@@ -1023,6 +1246,15 @@ class QueueEngine:
             parse_timestamp(document["updated_at"], label="queue updated_at")
         if not isinstance(document["tasks"], list):
             raise QueueValidationError("queue tasks must be an array")
+        batches = document.get("batches", [])
+        if not isinstance(batches, list):
+            raise QueueValidationError("queue batches must be an array")
+        batch_ids: set[str] = set()
+        for batch in batches:
+            self.validate_batch(batch)
+            if batch["batch_id"] in batch_ids:
+                raise QueueValidationError(f"duplicate batch_id: {batch['batch_id']}")
+            batch_ids.add(batch["batch_id"])
         task_ids: set[str] = set()
         dedupe_keys: set[str] = set()
         tasks_by_id: dict[str, JsonObject] = {}
@@ -1072,8 +1304,65 @@ class QueueEngine:
                     raise QueueValidationError(
                         f"task {task['task_id']} has invalid model escalation lineage"
                     )
+        for batch in batches:
+            for task_id in batch["task_ids"]:
+                if task_id not in tasks_by_id:
+                    raise QueueValidationError(
+                        f"batch {batch['batch_id']} references missing task {task_id}"
+                    )
+                if not any(
+                    attempt.get("claimed_by") == batch["batch_id"]
+                    for attempt in tasks_by_id[task_id]["attempts"]
+                ):
+                    raise QueueValidationError(
+                        f"batch {batch['batch_id']} does not own an attempt for {task_id}"
+                    )
         if self.external_validator is not None:
             self.external_validator(document)
+
+    def validate_batch(self, batch: JsonObject) -> None:
+        if not isinstance(batch, dict):
+            raise QueueValidationError("batch session must be an object")
+        required = {
+            "batch_id", "workflow", "model", "limit", "claimed_count",
+            "task_ids", "status", "close_reason", "created_at", "updated_at",
+        }
+        if set(batch) != required:
+            raise QueueValidationError(f"batch fields must be exactly {sorted(required)}")
+        self._require_batch_workflow(batch["batch_id"])
+        if batch["workflow"] != self.workflow:
+            raise QueueValidationError("batch workflow does not match its queue")
+        normalize_model(batch["model"])
+        maximum = BATCH_LIMITS[self.workflow]
+        limit = batch["limit"]
+        if not isinstance(limit, int) or isinstance(limit, bool) or not 1 <= limit <= maximum:
+            raise QueueValidationError(
+                f"batch limit must be an integer from 1 through {maximum}"
+            )
+        count = batch["claimed_count"]
+        task_ids = batch["task_ids"]
+        if not isinstance(count, int) or isinstance(count, bool) or not 0 <= count <= limit:
+            raise QueueValidationError("batch claimed_count is outside its limit")
+        if (
+            not isinstance(task_ids, list)
+            or not all(isinstance(item, str) and item for item in task_ids)
+            or len(task_ids) != len(set(task_ids))
+            or len(task_ids) != count
+        ):
+            raise QueueValidationError("batch task_ids must be unique and match claimed_count")
+        if batch["status"] not in BATCH_STATUSES:
+            raise QueueValidationError("batch has an invalid status")
+        if batch["status"] == "limit_reached" and count != limit:
+            raise QueueValidationError("limit_reached batch must consume its full limit")
+        if count == limit and batch["status"] == "active":
+            raise QueueValidationError("a full batch cannot remain active")
+        if batch["status"] == "closed":
+            if batch["close_reason"] not in BATCH_CLOSE_REASONS:
+                raise QueueValidationError("closed batch requires a valid close_reason")
+        elif batch["close_reason"] is not None:
+            raise QueueValidationError("open batch cannot have a close_reason")
+        parse_timestamp(batch["created_at"], label="batch created_at")
+        parse_timestamp(batch["updated_at"], label="batch updated_at")
 
     def validate_task(self, task: JsonObject) -> None:
         if not isinstance(task, dict):
@@ -1277,6 +1566,47 @@ class QueueEngine:
     def validate_transition(self, before: JsonObject, after: JsonObject) -> None:
         """Reject state changes that bypass the documented transition table."""
 
+        before_batches = {item["batch_id"]: item for item in before.get("batches", [])}
+        after_batches = {item["batch_id"]: item for item in after.get("batches", [])}
+        removed_batches = set(before_batches) - set(after_batches)
+        if removed_batches:
+            raise InvalidTransition(
+                f"queue transactions cannot remove batches: {sorted(removed_batches)}"
+            )
+        for batch_id, old in before_batches.items():
+            new = after_batches[batch_id]
+            for field in ("batch_id", "workflow", "model", "limit", "created_at"):
+                if old[field] != new[field]:
+                    raise InvalidTransition(
+                        f"batch {batch_id} cannot change immutable field {field}"
+                    )
+            if new["task_ids"][: len(old["task_ids"])] != old["task_ids"]:
+                raise InvalidTransition(f"batch {batch_id} cannot remove or reorder task IDs")
+            added = len(new["task_ids"]) - len(old["task_ids"])
+            if added not in (0, 1):
+                raise InvalidTransition(f"batch {batch_id} may claim at most one task per transaction")
+            if new["claimed_count"] != old["claimed_count"] + added:
+                raise InvalidTransition(f"batch {batch_id} claim count must match its task IDs")
+            allowed = {
+                "active": {"active", "limit_reached", "closed"},
+                "limit_reached": {"limit_reached"},
+                "closed": {"closed"},
+            }
+            if new["status"] not in allowed[old["status"]]:
+                raise InvalidTransition(
+                    f"forbidden batch transition for {batch_id}: {old['status']} -> {new['status']}"
+                )
+            if old["status"] != "active" and old != new:
+                raise InvalidTransition(f"terminal batch {batch_id} cannot be edited")
+            if old["status"] == new["status"] == "active" and added == 0 and old != new:
+                raise InvalidTransition(
+                    f"active batch {batch_id} can change only when claiming a task"
+                )
+        for batch_id in set(after_batches) - set(before_batches):
+            batch = after_batches[batch_id]
+            if batch["status"] != "active" or batch["claimed_count"] != 0 or batch["task_ids"]:
+                raise InvalidTransition(f"new batch {batch_id} must start empty and active")
+
         before_by_id = {task["task_id"]: task for task in before["tasks"]}
         after_by_id = {task["task_id"]: task for task in after["tasks"]}
         removed = set(before_by_id) - set(after_by_id)
@@ -1351,6 +1681,20 @@ class QueueEngine:
             if task["task_id"] == task_id:
                 return task
         raise TaskNotFound(f"task not found: {task_id}")
+
+    def _require_batch_workflow(self, batch_id: str) -> None:
+        if not isinstance(batch_id, str) or not batch_id:
+            raise QueueValidationError("batch_id must be a non-empty string")
+        prefix = f"batch:{self.workflow}:"
+        if not batch_id.startswith(prefix) or len(batch_id) == len(prefix):
+            raise ClaimRejected(f"batch {batch_id!r} does not belong to {self.workflow}")
+
+    @staticmethod
+    def _find_batch(document: JsonObject, batch_id: str) -> JsonObject:
+        for batch in document.get("batches", []):
+            if batch["batch_id"] == batch_id:
+                return batch
+        raise TaskNotFound(f"batch not found: {batch_id}")
 
     @staticmethod
     def _find_by_dedupe_key(document: JsonObject, dedupe_key: str) -> JsonObject | None:
@@ -1445,10 +1789,15 @@ class QueueEngine:
 
 __all__ = [
     "AccessFailureResult",
+    "BATCH_CLOSE_REASONS",
+    "BATCH_LIMITS",
+    "BATCH_STATUSES",
+    "BatchResult",
     "ClaimRejected",
     "ClaimResult",
     "DEFAULT_ACCESS_BACKOFF_SECONDS",
     "DEFAULT_ACCESS_RETRY_LIMIT",
+    "DEFAULT_ENVIRONMENT_BACKOFF_SECONDS",
     "DEFAULT_LEASE_SECONDS",
     "DedupeConflict",
     "EnqueueResult",

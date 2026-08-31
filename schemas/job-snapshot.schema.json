@@ -18,11 +18,21 @@
     "last_successful_scan_at": {"oneOf": [{"type": "string", "format": "date-time"}, {"type": "null"}]},
     "fetch_complete": {"type": "boolean"},
     "current_job_count": {"type": "integer", "minimum": 0},
-    "jobs": {"type": "array", "items": {"type": "object"}},
+    "jobs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["stable_id", "status", "qualification_status"],
+        "properties": {
+          "stable_id": {"type": "string", "minLength": 1},
+          "status": {"enum": ["active", "inactive"]},
+          "qualification_status": {"enum": ["qualifying", "deterministic_pass"]}
+        }
+      }
+    },
     "unresolved_candidates": {"type": "array", "items": {"type": "object"}},
     "rejection_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
     "warnings": {"type": "array", "items": {"type": "string"}},
     "application_ledger": {"type": "array", "items": {"type": "object"}}
   }
 }
-

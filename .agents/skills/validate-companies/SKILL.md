@@ -1,6 +1,6 @@
 ---
 name: validate-companies
-description: Atomically claim and complete one V4 company-validation task, including company identity/address validation and career-source discovery, or deterministically audit/recover the company queue. Use for `$validate-companies --claim-next luna|terra|sol`, `$validate-companies --audit-and-enqueue`, and `$validate-companies --recover-stale` in the V4 Daily Jobs repository.
+description: Atomically claim and complete one or a sequential batch of V4 company-validation tasks, including company identity/address validation and career-source discovery, or deterministically audit/recover the company queue. Use for `$validate-companies --claim-next luna|terra|sol [--batch-size 1..75]`, `$validate-companies --audit-and-enqueue`, and `$validate-companies --recover-stale` in the V4 Daily Jobs repository.
 ---
 
 # Validate Companies
@@ -11,17 +11,25 @@ Work only in `/Users/natelipp/ai-code/_v4_daily-jobs`. Never edit `data/companie
 
 - For `--audit-and-enqueue`, run `.venv/bin/python scripts/v4-queue company audit-and-enqueue --json`, report its counts, and stop.
 - For `--recover-stale`, run `.venv/bin/python scripts/v4-queue company recover-stale --json`, report recovered IDs, and stop.
-- For `--claim-next MODEL`, require exactly `luna`, `terra`, or `sol`, then follow the workflow below.
+- For `--claim-next MODEL`, require exactly `luna`, `terra`, or `sol`. Accept optional `--batch-size N`; default to 1 and require an integer from 1 through 75.
+
+## Batch discipline
+
+Process a batch as a sequential loop over independent queue tasks. Never claim the whole batch in advance and never combine companies into one result. Create one unique label such as `company-batch:<uuid>` and pass it as `--claimed-by` on every claim in the run. Repeat the complete claim, research, result, and finalize workflow until `N` items have finalized or `claim-next` returns `no_task`.
+
+Finalize the current company before claiming the next. After a successfully finalized `completed`, `inconclusive`, `blocked`, or `failed` item, record its compact operation report and continue. Stop without claiming another item when finalization is rejected, a helper invariant fails, or a systemic tool/access problem prevents safe completion. An interrupted batch may therefore strand at most one running task.
 
 ## Claim and scope
 
-Run exactly once:
+For each batch iteration, run exactly once:
 
 ```bash
-.venv/bin/python scripts/v4-queue company claim-next --model MODEL --json
+.venv/bin/python scripts/v4-queue company claim-next --model MODEL --claimed-by BATCH_ID --json
 ```
 
-Replace `MODEL` with the requested lowercase model. If `execution_status` is `no_task`, report the message and stop. Otherwise retain the returned `task_id`, `attempt_id`, `claim_token`, target IDs, target revision, reason codes, context, and lease.
+Replace `MODEL` and `BATCH_ID` with the requested lowercase model and unique run label. If `execution_status` is `no_task`, end the loop successfully. Otherwise retain the returned `task_id`, `attempt_id`, `claim_token`, target IDs, target revision, reason codes, context, and lease.
+
+Before research, assert `task.workflow == "validate_companies"`, `task.claim.claimed_by == BATCH_ID`, exactly one company ID, and only source IDs belonging to that company. A mismatch is a systemic invariant failure: do not research or finalize it, and report the failure.
 
 Treat `task.target.company_ids` and `task.target.source_ids` as an absolute boundary. Do not research or change another company/source. The command label cannot verify the model selected in the Codex UI; ensure it matches `task.expected_model`.
 
@@ -69,5 +77,6 @@ Run:
 
 The finalizer alone verifies the claim token, locks queue then canonical data, applies keyed changes, records idempotency, commits the queue outcome, and enqueues any escalation. Do not compensate for a rejected finalization by directly editing JSON.
 
-End with the finalizer's item results first, then its run summary and current-progress footer. Add no new research merely to make the summary.
+After finalization, retain only the task ID, company ID/name, final status, concise canonical changes, follow-up model, and warning count in the batch accumulator. Do not carry full evidence or result bodies forward in conversation when the files already preserve them.
 
+At batch end, report one line per attempted company first, then totals for requested, claimed, completed, inconclusive, blocked/retry, failed, Terra/Sol follow-ups, and unprocessed capacity. Use only accumulated finalizer reports; add no new research or full-database scan. For batch size 1, preserve the same output shape with one item.

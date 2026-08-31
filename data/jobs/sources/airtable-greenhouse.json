@@ -1,0 +1,71 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T02:45:42Z",
+      "attempt_id": "attempt:47649278-06cc-4d1c-ab0f-2ef8b63a1015",
+      "result_digest": "179928254980763d6cc8d8e39f3288086ab718079571c41c91b842321f12ae2b",
+      "task_id": "source:airtable-greenhouse:luna:574581bf755674b3",
+      "transaction_id": "txn:179928254980763d6cc8d8e3"
+    }
+  ],
+  "company_id": "airtable",
+  "current_job_count": 16,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://job-boards.greenhouse.io/airtable/jobs/8397515002",
+      "company_id": "airtable",
+      "compensation": null,
+      "compensation_text": null,
+      "department": "Engineering",
+      "description_text": "Airtable is the no-code app platform that empowers people closest to the work to accelerate their most critical business processes. More than 500,000 organizations, including 80% of the Fortune 100, rely on Airtable to transform how work gets done. Airtable’s mission is to bring the power of computing and software development to everyone. We are developing a powerful and extensible toolkit that our customers can leverage to solve a variety of different problems and workflows. We’ve seen our most sophisticated customers use the product to run global processes across thousands of employees, coordinate precision manufacturing pipelines, and consolidate previously siloed mission-critical data into a single source of truth. The complexity of these use cases requires us to be extremely thoughtful about how we design and implement new functionality in the product and make sure it’s both easy to use and comprehend for our customers and maintainable for us. As a Full-Stack, Backend engineer at Airtable, you will have the opportunity to work with customers to deeply understand their needs and workflows. You will collaborate with cross-functional partners across product management, design, research and data science to create innovative new features that enable our customers to do their best work. You will be responsible for owning and executing the end-to-end implementation of these new features that will contribute to making our toolkit even more powerful and successful. We currently have openings on: The Admin & Governance Team (Full-Stack/BE) ensures Airtable is secure, compliant, and enterprise-ready. It owns key admin capabilities like the Admin Panel, SSO, and audit systems, as well as foundational features like User Groups. This team's mission is to accelerate organizational value for the largest customers with enterprise-first governance and controls. The Omni Capability & Quality Team (Full-Stack/BE) brings the power of AI directly to Airtable end users—helping them search, navigate, and operate their bases with ease. While other teams focus on embedding AI throughout the platform and building tools for creators, our mission is simple: make AI immediately helpful with little to no setup. From the moment someone opens a base, installs a solution, or uses a template, AI should be there—ready to assist. Our pod also builds much of Airtable's AI platform that helps other engineering teams produce quality AI products. Please note: while we employ a hybrid working model at Airtable (flexible in working from the office or elsewhere), we are only hiring in the following locations at this time: Based in the San Francisco Bay Area and are open to coming into our office (Embarcadero) at least ~2-3 times/week for team collaboration Based in New York City and are open to coming into our office (Soho) at least ~2-3 times/week for team collaboration What you'll do Spec and build product features that are beautiful, consistent, and fast, that encourage exploration, and that earn the trust of our customers through predictable, reliable, and thoughtful interactions. Work at all levels of the stack, from AWS, Node.js, and SQL to React, HTML. and CSS to build and maintain end to end products on Airtable, with a primary focus on backend development. Partner with product managers, designers, and data scientists to understand the needs of potential users and build a product that unlocks their potential. Work alongside and learn from a talented group of engineers with a diverse range of experiences and backgrounds. Who you are You have 4+ years of industry experience with modern full-stack web development, with particular emphasis on backend feature development. You are fluent in one or more backend technologies, and are interested in programming in JavaScript and React. You are excited by a product-oriented backend role. You have a good understanding of web technologies and large-scale web application architecture. You have a background in computer science or a related field. You believe the best product is the one that helps users accomplish their goals while growing the business. You take a thoughtful approach to decision making; knowing when to move fast and when to do things right. You have strong convictions, weakly held and assume validation and iteration are a given to produce the best results. You show strong ownership instincts and sweat the details. You are currently based and/or will be based in the San Francisco Bay Area or New York City. Airtable is an equal opportunity employer. We embrace diversity and strive to create a workplace where everyone has an equal opportunity to thrive. We welcome people of different backgrounds, experiences, abilities, and perspectives. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status or any characteristic protected by applicable federal and state laws, regulations and ordinances. Learn more about your EEO rights as an applicant . VEVRAA-Federal Contractor If you have a medical condition, disability, or religious belief/practice which inhibits your ability to participate in any part of the application or interview process, please complete our Accommodations Request Form and let us know how we may assist you. Airtable is committed to participating in the interactive process and providing reasonable accommodations to qualified applicants. Compensation awarded to successful candidates will vary based on their work location, relevant skills, and experience. Our total compensation package also includes the opportunity to receive benefits, restricted stock units, and may include incentive compensation. To learn more about our comprehensive benefit offerings, please check out Life at Airtable . For work locations in the San Francisco Bay Area, Seattle, New York City, and Los Angeles, the base salary range for this role is: $170,000 — $277,600 USD Please see our Privacy Notice for details regarding Airtable’s collection and use of personal data relating to the application and recruitment process by clicking here . For applicants that live in or have a link to Australia, please see this Privacy Collection Statement for details regarding Airtable's collection and use of personal data relating to the application and recruitment process. 🔒 Stay Safe from Job Scams All official Airtable communication will come from an @airtable.com email address. We will never ask you to share sensitive information or purchase equipment during the hiring process. If in doubt, contact us at hr@airtable.com . Learn more about avoiding job scams here .",
+      "employment_text": null,
+      "employment_type": null,
+      "first_seen_at": "2026-08-31T02:45:07Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T02:45:07Z",
+      "locations": [
+        "San Francisco, CA; New York, NY",
+        "New York, New York, United States",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-04-14T17:03:31Z",
+      "provider": "greenhouse",
+      "qualification_status": "qualifying",
+      "semantic_evidence": {
+        "ai_involvement": "official posting describes AI-native Airtable product",
+        "compensation": "published USD annual base maximum $277,600",
+        "employment": "full-time by profile missing-type assumption",
+        "location": "San Francisco",
+        "role_fit": "product backend engineering",
+        "workplace": "unknown allowed by profile"
+      },
+      "source_id": "airtable-greenhouse",
+      "source_job_id": "8397515002",
+      "stable_id": "job-cd9ca098b7261084d7efd522",
+      "status": "active",
+      "team": null,
+      "title": "Software Engineer, Product Backend (4-8 YOE)",
+      "updated_at": "2026-08-13T18:20:04Z",
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    }
+  ],
+  "last_attempt_at": "2026-08-31T02:45:07Z",
+  "last_successful_scan_at": "2026-08-31T02:45:07Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 1,
+    "location_outside_target_city": 8,
+    "role_fit_excluded": 6,
+    "total": 15
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "airtable-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

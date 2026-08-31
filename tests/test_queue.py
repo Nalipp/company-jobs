@@ -69,6 +69,36 @@ def _enqueue_same(path_string: str) -> bool:
     return engine.enqueue(task, now=T0).changed
 
 
+def _process_sequential_batch(
+    path_string: str,
+    limit: int,
+    claimed_by: str,
+) -> list[str]:
+    """Model the skill loop: claim one, finalize it, then claim another."""
+
+    engine = QueueEngine(path_string, "company", lock_timeout=15)
+    completed: list[str] = []
+    for _index in range(limit):
+        claim = engine.claim_next(
+            "luna",
+            claimed_by=claimed_by,
+            now=T0 + timedelta(minutes=1),
+        )
+        if not claim.claimed:
+            break
+        assert claim.task is not None
+        engine.resolve(
+            claim.task["task_id"],
+            claim.claim_token,
+            "completed",
+            attempt_id=claim.attempt_id,
+            expected_model="luna",
+            now=T0 + timedelta(minutes=2),
+        )
+        completed.append(claim.task["task_id"])
+    return completed
+
+
 def _new_queue(tmp_path: Path, **kwargs: object) -> QueueEngine:
     engine = _company_engine(tmp_path / "company-queue.json", **kwargs)
     engine.initialize()
@@ -155,6 +185,53 @@ def test_twenty_concurrent_claimers_receive_distinct_tasks(tmp_path: Path) -> No
     document = engine.read()
     assert sum(task["status"] == "running" for task in document["tasks"]) == 20
     assert sum(task["status"] == "open" for task in document["tasks"]) == 5
+
+
+def test_concurrent_sequential_batch_loops_never_overlap(tmp_path: Path) -> None:
+    engine = _new_queue(tmp_path)
+    engine.enqueue_many((_task(engine, f"batch_{index:02d}") for index in range(32)), now=T0)
+    context = get_context("spawn")
+    with context.Pool(processes=4) as pool:
+        batches = pool.starmap(
+            _process_sequential_batch,
+            [
+                (str(engine.store.path), 7, f"company-batch:worker-{index}")
+                for index in range(4)
+            ],
+        )
+
+    completed = [task_id for batch in batches for task_id in batch]
+    assert all(len(batch) == 7 for batch in batches)
+    assert len(completed) == len(set(completed)) == 28
+    document = engine.read()
+    assert sum(task["status"] == "completed" for task in document["tasks"]) == 28
+    assert sum(task["status"] == "open" for task in document["tasks"]) == 4
+    assert sum(task["status"] == "running" for task in document["tasks"]) == 0
+
+
+def test_interrupted_sequential_batch_strands_only_current_item(tmp_path: Path) -> None:
+    engine = _new_queue(tmp_path)
+    engine.enqueue_many((_task(engine, f"interrupt_{index:02d}") for index in range(10)), now=T0)
+
+    abandoned_agent = engine.claim_next(
+        "luna",
+        claimed_by="company-batch:interrupted",
+        now=T0 + timedelta(minutes=1),
+    )
+    assert abandoned_agent.claimed
+    completed = _process_sequential_batch(
+        str(engine.store.path),
+        5,
+        "company-batch:healthy",
+    )
+
+    assert len(completed) == 5
+    document = engine.read()
+    assert sum(task["status"] == "running" for task in document["tasks"]) == 1
+    assert sum(task["status"] == "completed" for task in document["tasks"]) == 5
+    assert sum(task["status"] == "open" for task in document["tasks"]) == 4
+    running = next(task for task in document["tasks"] if task["status"] == "running")
+    assert running["claim"]["claimed_by"] == "company-batch:interrupted"
 
 
 def test_concurrent_enqueue_creates_exactly_one_task(tmp_path: Path) -> None:
@@ -363,6 +440,39 @@ def test_access_failures_retry_same_model_twice_then_block(tmp_path: Path) -> No
     assert third.task["resolution"]["failure_number"] == 3
     assert all(item["expected_model"] == "luna" for item in engine.read()["tasks"])
     assert len(engine.read()["tasks"]) == 1
+
+
+def test_environment_failure_releases_claim_without_consuming_access_retry(
+    tmp_path: Path,
+) -> None:
+    engine = _new_queue(tmp_path, lease_seconds=3600)
+    task = _task(engine, "cmp_environment")
+    engine.enqueue(task, now=T0)
+    claim = engine.claim_next("luna", now=T0)
+
+    released = engine.release_environment_failure(
+        task["task_id"],
+        claim.claim_token,
+        attempt_id=claim.attempt_id,
+        expected_model="luna",
+        now=T0 + timedelta(seconds=1),
+    )
+
+    assert released.task["status"] == "open"
+    assert released.task["expected_model"] == "luna"
+    assert released.task["available_at"] == "2026-08-29T18:05:01Z"
+    attempt = released.task["attempts"][-1]
+    assert attempt["outcome"] == "environment_failure"
+    assert attempt["resolution"]["retry_budget_consumed"] is False
+
+    retry_claim = engine.claim_next("luna", now=T0 + timedelta(minutes=6))
+    access = engine.handle_access_failure(
+        task["task_id"],
+        retry_claim.claim_token,
+        "network",
+        now=T0 + timedelta(minutes=6, seconds=1),
+    )
+    assert access.task["attempts"][-1]["resolution"]["failure_number"] == 1
 
 
 def test_explicit_retry_only_reopens_blocked_or_failed(tmp_path: Path) -> None:

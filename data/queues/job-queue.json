@@ -1,10 +1,70 @@
 {
-  "revision": 1,
+  "revision": 75,
   "schema_version": 1,
   "tasks": [
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
+      "attempts": [
+        {
+          "attempt_id": "attempt:cd2eec3d-871d-46f8-9954-2656960ac2e9",
+          "claim_token_sha256": "3cb508e2e4115e77bd140d825a307cb5149dd1dfc9f5e71a976e5878c2b8b8e3",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:18:29Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:18:16Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source 6sense-greenhouse",
+                "status": "blocked",
+                "summary": "Network error while fetching https://boards-api.greenhouse.io/v1/boards/6sense/jobs?content=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:18:29Z",
+            "result_digest": "1c6f965bdf99e8cb3257c26b4db82abad72f7d2746051964e39d2b47cebaeaa9",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_cd2eec3d-871d-46f8-9954-2656960ac2e9.json",
+            "retry_at": "2026-08-30T19:23:29Z"
+          },
+          "started_at": "2026-08-30T19:18:16Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:a3966896-2bac-449f-87e9-00a2bdc524c2",
+          "claim_token_sha256": "cf65f039a7c9c20153c2cb6fe64b73a73a81a5730a839722e19cf376ffcfcfa7",
+          "claimed_by": "job-batch:$(uuidgen)",
+          "ended_at": "2026-08-30T21:28:34Z",
+          "lease_expires_at": "2026-08-30T22:24:34Z",
+          "model": "luna",
+          "outcome": "completed",
+          "resolution": {
+            "attempt_id": "attempt:a3966896-2bac-449f-87e9-00a2bdc524c2",
+            "evidence_count": 1,
+            "item_results": [
+              {
+                "item": "source 6sense-greenhouse",
+                "status": "resolved",
+                "summary": "Fetched 31 current jobs; 23 deterministically rejected, 7 semantically rejected, and 1 qualifies."
+              }
+            ],
+            "notes": "Complete official enumeration reviewed against the exact profile; one qualifying job retained and all semantic candidates resolved.",
+            "outcome": "completed",
+            "reason_code": "structured_scan_complete",
+            "resolved_at": "2026-08-30T21:28:34Z",
+            "result_digest": "2ee5ac8906f91f4db9ef5c99c7ccf8fd597288e5e2dfb129a61052c50e060f7a",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_a3966896-2bac-449f-87e9-00a2bdc524c2.json"
+          },
+          "started_at": "2026-08-30T21:24:34Z",
+          "status": "completed"
+        }
+      ],
+      "available_at": "2026-08-30T19:23:29Z",
       "claim": null,
       "context": {
         "company_snapshot": {
@@ -155,9 +215,25 @@
       "reason_codes": [
         "missing_snapshot"
       ],
-      "resolution": null,
+      "resolution": {
+        "attempt_id": "attempt:a3966896-2bac-449f-87e9-00a2bdc524c2",
+        "evidence_count": 1,
+        "item_results": [
+          {
+            "item": "source 6sense-greenhouse",
+            "status": "resolved",
+            "summary": "Fetched 31 current jobs; 23 deterministically rejected, 7 semantically rejected, and 1 qualifies."
+          }
+        ],
+        "notes": "Complete official enumeration reviewed against the exact profile; one qualifying job retained and all semantic candidates resolved.",
+        "outcome": "completed",
+        "reason_code": "structured_scan_complete",
+        "resolved_at": "2026-08-30T21:28:34Z",
+        "result_digest": "2ee5ac8906f91f4db9ef5c99c7ccf8fd597288e5e2dfb129a61052c50e060f7a",
+        "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_a3966896-2bac-449f-87e9-00a2bdc524c2.json"
+      },
       "root_task_id": "source:6sense-greenhouse:luna:18e284595a2daa49",
-      "status": "open",
+      "status": "completed",
       "target": {
         "company_ids": [
           "6sense"
@@ -168,7 +244,7 @@
       },
       "target_revision": 1,
       "task_id": "source:6sense-greenhouse:luna:18e284595a2daa49",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-30T21:28:34Z",
       "workflow": "find_jobs"
     },
     {
@@ -341,8 +417,68 @@
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
+      "attempts": [
+        {
+          "attempt_id": "attempt:94f6230d-5e61-4899-97d8-04d85978cfc7",
+          "claim_token_sha256": "03cd31d4ff936f55f4b5904197baa22309325f9c4afd8a861b115190b89f8459",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:18:53Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:18:52Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source afresh-greenhouse",
+                "status": "blocked",
+                "summary": "Network error while fetching https://boards-api.greenhouse.io/v1/boards/afresh/jobs?content=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:18:53Z",
+            "result_digest": "08484f42795e189a42e9df6d8492dd15bbb15d0efd711362030236a52ae041bc",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_94f6230d-5e61-4899-97d8-04d85978cfc7.json",
+            "retry_at": "2026-08-30T19:23:53Z"
+          },
+          "started_at": "2026-08-30T19:18:52Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:a27a9e5f-f8ab-4214-bac9-0b30702ab710",
+          "claim_token_sha256": "f6b175c9a5539dc8dd637fcbd0fc6658c108f31ba07e2ed759fdd889a1632db9",
+          "claimed_by": "job-batch:f81c7e01-724d-4d19-afa3-b7abc1b205e3",
+          "ended_at": "2026-08-30T21:31:18Z",
+          "lease_expires_at": "2026-08-30T22:30:08Z",
+          "model": "luna",
+          "outcome": "completed",
+          "resolution": {
+            "attempt_id": "attempt:a27a9e5f-f8ab-4214-bac9-0b30702ab710",
+            "evidence_count": 1,
+            "item_results": [
+              {
+                "item": "source afresh-greenhouse",
+                "status": "resolved",
+                "summary": "Fetched 16 current jobs; 2 qualifying, 3 semantically rejected, 0 unresolved."
+              }
+            ],
+            "notes": "All semantic candidates reviewed against the active profile.",
+            "outcome": "completed",
+            "reason_code": "job_scan_completed",
+            "resolved_at": "2026-08-30T21:31:18Z",
+            "result_digest": "5d6dd44feb7aca5f1401702030b3f88ee1755db5dbe6079a5838072480c1ef70",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_a27a9e5f-f8ab-4214-bac9-0b30702ab710.json"
+          },
+          "started_at": "2026-08-30T21:30:08Z",
+          "status": "completed"
+        }
+      ],
+      "available_at": "2026-08-30T19:23:53Z",
       "claim": null,
       "context": {
         "company_snapshot": {
@@ -493,9 +629,25 @@
       "reason_codes": [
         "missing_snapshot"
       ],
-      "resolution": null,
+      "resolution": {
+        "attempt_id": "attempt:a27a9e5f-f8ab-4214-bac9-0b30702ab710",
+        "evidence_count": 1,
+        "item_results": [
+          {
+            "item": "source afresh-greenhouse",
+            "status": "resolved",
+            "summary": "Fetched 16 current jobs; 2 qualifying, 3 semantically rejected, 0 unresolved."
+          }
+        ],
+        "notes": "All semantic candidates reviewed against the active profile.",
+        "outcome": "completed",
+        "reason_code": "job_scan_completed",
+        "resolved_at": "2026-08-30T21:31:18Z",
+        "result_digest": "5d6dd44feb7aca5f1401702030b3f88ee1755db5dbe6079a5838072480c1ef70",
+        "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_a27a9e5f-f8ab-4214-bac9-0b30702ab710.json"
+      },
       "root_task_id": "source:afresh-greenhouse:luna:96675dd9543de884",
-      "status": "open",
+      "status": "completed",
       "target": {
         "company_ids": [
           "afresh"
@@ -506,12 +658,72 @@
       },
       "target_revision": 1,
       "task_id": "source:afresh-greenhouse:luna:96675dd9543de884",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-30T21:31:18Z",
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
+      "attempts": [
+        {
+          "attempt_id": "attempt:a7f24a89-1171-47a2-a720-ae9a5805e942",
+          "claim_token_sha256": "9ba3ec648884e6aa2a86d985863a8968acc42ad1a96f430871c7f3c13ae89651",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:18:55Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:18:55Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source agave-primary",
+                "status": "blocked",
+                "summary": "Network error while fetching https://api.ashbyhq.com/posting-api/job-board/Agave?includeCompensation=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:18:55Z",
+            "result_digest": "cbca831576f15759bfb53cfdf14030adadaabf4f76bf79a723b29f7cdb0b55a2",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_a7f24a89-1171-47a2-a720-ae9a5805e942.json",
+            "retry_at": "2026-08-30T19:23:55Z"
+          },
+          "started_at": "2026-08-30T19:18:55Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:3c15511e-ab3e-4921-bf49-0012e349aef0",
+          "claim_token_sha256": "4dfc8a3db46be9af74c0f2e8723cde574ff67dad3759dff1fcf8d65e77fac41a",
+          "claimed_by": "job-batch:f81c7e01-724d-4d19-afa3-b7abc1b205e3",
+          "ended_at": "2026-08-30T21:31:56Z",
+          "lease_expires_at": "2026-08-30T22:31:25Z",
+          "model": "luna",
+          "outcome": "completed",
+          "resolution": {
+            "attempt_id": "attempt:3c15511e-ab3e-4921-bf49-0012e349aef0",
+            "evidence_count": 1,
+            "item_results": [
+              {
+                "item": "source agave-primary",
+                "status": "resolved",
+                "summary": "Fetched 7 current jobs; 0 qualifying, 3 semantically rejected, 0 unresolved."
+              }
+            ],
+            "notes": "All semantic candidates reviewed against the active profile.",
+            "outcome": "completed",
+            "reason_code": "job_scan_completed",
+            "resolved_at": "2026-08-30T21:31:56Z",
+            "result_digest": "12599930e3467b182c3d024d98c1b1c93ed8ce4c4b3a813a0917a0ed2b77cb8b",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_3c15511e-ab3e-4921-bf49-0012e349aef0.json"
+          },
+          "started_at": "2026-08-30T21:31:25Z",
+          "status": "completed"
+        }
+      ],
+      "available_at": "2026-08-30T19:23:55Z",
       "claim": null,
       "context": {
         "company_snapshot": {
@@ -662,9 +874,25 @@
       "reason_codes": [
         "missing_snapshot"
       ],
-      "resolution": null,
+      "resolution": {
+        "attempt_id": "attempt:3c15511e-ab3e-4921-bf49-0012e349aef0",
+        "evidence_count": 1,
+        "item_results": [
+          {
+            "item": "source agave-primary",
+            "status": "resolved",
+            "summary": "Fetched 7 current jobs; 0 qualifying, 3 semantically rejected, 0 unresolved."
+          }
+        ],
+        "notes": "All semantic candidates reviewed against the active profile.",
+        "outcome": "completed",
+        "reason_code": "job_scan_completed",
+        "resolved_at": "2026-08-30T21:31:56Z",
+        "result_digest": "12599930e3467b182c3d024d98c1b1c93ed8ce4c4b3a813a0917a0ed2b77cb8b",
+        "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_3c15511e-ab3e-4921-bf49-0012e349aef0.json"
+      },
       "root_task_id": "source:agave-primary:luna:a4b60390eee08887",
-      "status": "open",
+      "status": "completed",
       "target": {
         "company_ids": [
           "agave"
@@ -675,12 +903,72 @@
       },
       "target_revision": 1,
       "task_id": "source:agave-primary:luna:a4b60390eee08887",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-30T21:31:56Z",
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
+      "attempts": [
+        {
+          "attempt_id": "attempt:0ca0da68-d521-4892-a320-b08732c5033b",
+          "claim_token_sha256": "5889f2a59ca2980cfe874800ae363becf5f9ef78cc4252e6f96b9c261af213d3",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:18:58Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:18:57Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source agentmail-primary",
+                "status": "blocked",
+                "summary": "Network error while fetching https://api.ashbyhq.com/posting-api/job-board/agentmail?includeCompensation=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:18:58Z",
+            "result_digest": "8d42a15e6361e94a27b88b97465a208b105fe86a3fd0c41364d23234a85e48b0",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_0ca0da68-d521-4892-a320-b08732c5033b.json",
+            "retry_at": "2026-08-30T19:23:58Z"
+          },
+          "started_at": "2026-08-30T19:18:57Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:13dd4a45-0902-4f24-9a9c-80bc3e690222",
+          "claim_token_sha256": "223d1c3905723a2edd0b50bb15334562f4d570032596b4adbb08577f8d9704c3",
+          "claimed_by": "job-batch:f81c7e01-724d-4d19-afa3-b7abc1b205e3",
+          "ended_at": "2026-08-30T21:32:32Z",
+          "lease_expires_at": "2026-08-30T22:32:01Z",
+          "model": "luna",
+          "outcome": "completed",
+          "resolution": {
+            "attempt_id": "attempt:13dd4a45-0902-4f24-9a9c-80bc3e690222",
+            "evidence_count": 1,
+            "item_results": [
+              {
+                "item": "source agentmail-primary",
+                "status": "resolved",
+                "summary": "Fetched 6 current jobs; 0 qualifying, 6 semantically rejected, 0 unresolved."
+              }
+            ],
+            "notes": "All semantic candidates reviewed against the active profile.",
+            "outcome": "completed",
+            "reason_code": "job_scan_completed",
+            "resolved_at": "2026-08-30T21:32:32Z",
+            "result_digest": "8b4d380133246ee8e04aff88f4ecc8fb0b141f94f81599eb6184156969837132",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_13dd4a45-0902-4f24-9a9c-80bc3e690222.json"
+          },
+          "started_at": "2026-08-30T21:32:01Z",
+          "status": "completed"
+        }
+      ],
+      "available_at": "2026-08-30T19:23:58Z",
       "claim": null,
       "context": {
         "company_snapshot": {
@@ -831,9 +1119,25 @@
       "reason_codes": [
         "missing_snapshot"
       ],
-      "resolution": null,
+      "resolution": {
+        "attempt_id": "attempt:13dd4a45-0902-4f24-9a9c-80bc3e690222",
+        "evidence_count": 1,
+        "item_results": [
+          {
+            "item": "source agentmail-primary",
+            "status": "resolved",
+            "summary": "Fetched 6 current jobs; 0 qualifying, 6 semantically rejected, 0 unresolved."
+          }
+        ],
+        "notes": "All semantic candidates reviewed against the active profile.",
+        "outcome": "completed",
+        "reason_code": "job_scan_completed",
+        "resolved_at": "2026-08-30T21:32:32Z",
+        "result_digest": "8b4d380133246ee8e04aff88f4ecc8fb0b141f94f81599eb6184156969837132",
+        "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_13dd4a45-0902-4f24-9a9c-80bc3e690222.json"
+      },
       "root_task_id": "source:agentmail-primary:luna:f4a0d22aa06e03a1",
-      "status": "open",
+      "status": "completed",
       "target": {
         "company_ids": [
           "agentmail"
@@ -844,12 +1148,72 @@
       },
       "target_revision": 1,
       "task_id": "source:agentmail-primary:luna:f4a0d22aa06e03a1",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-30T21:32:32Z",
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
+      "attempts": [
+        {
+          "attempt_id": "attempt:e3abd971-fdb3-48ca-90bb-3ff14e82aff0",
+          "claim_token_sha256": "9aea1f082329b6c0387cdf8a8488740dc50d97b5669772257c66dc39d92bbe40",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:19:02Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:19:02Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source airtable-greenhouse",
+                "status": "blocked",
+                "summary": "Network error while fetching https://boards-api.greenhouse.io/v1/boards/airtable/jobs?content=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:19:02Z",
+            "result_digest": "ac8aa5908fda4d18c2283a1081ede4ad36be6484254692079d52f1cce8a3e66c",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_e3abd971-fdb3-48ca-90bb-3ff14e82aff0.json",
+            "retry_at": "2026-08-30T19:24:02Z"
+          },
+          "started_at": "2026-08-30T19:19:02Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:47649278-06cc-4d1c-ab0f-2ef8b63a1015",
+          "claim_token_sha256": "a3a4cb9e1495cd82f7491357181f37534cf04a403196fcef98d8f7f294d201ec",
+          "claimed_by": "job-batch:9f0e7c70-8bd0-4f82-9849-c1126834d63c",
+          "ended_at": "2026-08-31T02:45:42Z",
+          "lease_expires_at": "2026-08-31T03:44:56Z",
+          "model": "luna",
+          "outcome": "completed",
+          "resolution": {
+            "attempt_id": "attempt:47649278-06cc-4d1c-ab0f-2ef8b63a1015",
+            "evidence_count": 1,
+            "item_results": [
+              {
+                "item": "source airtable-greenhouse",
+                "status": "resolved",
+                "summary": "Fetched 16 current jobs; 1 qualifying, 7 semantically rejected, 0 unresolved."
+              }
+            ],
+            "notes": "All semantic candidates reviewed against the active profile.",
+            "outcome": "completed",
+            "reason_code": "job_scan_completed",
+            "resolved_at": "2026-08-31T02:45:42Z",
+            "result_digest": "179928254980763d6cc8d8e39f3288086ab718079571c41c91b842321f12ae2b",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_47649278-06cc-4d1c-ab0f-2ef8b63a1015.json"
+          },
+          "started_at": "2026-08-31T02:44:56Z",
+          "status": "completed"
+        }
+      ],
+      "available_at": "2026-08-30T19:24:02Z",
       "claim": null,
       "context": {
         "company_snapshot": {
@@ -1000,9 +1364,25 @@
       "reason_codes": [
         "missing_snapshot"
       ],
-      "resolution": null,
+      "resolution": {
+        "attempt_id": "attempt:47649278-06cc-4d1c-ab0f-2ef8b63a1015",
+        "evidence_count": 1,
+        "item_results": [
+          {
+            "item": "source airtable-greenhouse",
+            "status": "resolved",
+            "summary": "Fetched 16 current jobs; 1 qualifying, 7 semantically rejected, 0 unresolved."
+          }
+        ],
+        "notes": "All semantic candidates reviewed against the active profile.",
+        "outcome": "completed",
+        "reason_code": "job_scan_completed",
+        "resolved_at": "2026-08-31T02:45:42Z",
+        "result_digest": "179928254980763d6cc8d8e39f3288086ab718079571c41c91b842321f12ae2b",
+        "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_47649278-06cc-4d1c-ab0f-2ef8b63a1015.json"
+      },
       "root_task_id": "source:airtable-greenhouse:luna:574581bf755674b3",
-      "status": "open",
+      "status": "completed",
       "target": {
         "company_ids": [
           "airtable"
@@ -1013,7 +1393,7 @@
       },
       "target_revision": 1,
       "task_id": "source:airtable-greenhouse:luna:574581bf755674b3",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-31T02:45:42Z",
       "workflow": "find_jobs"
     },
     {
@@ -1186,8 +1566,68 @@
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
+      "attempts": [
+        {
+          "attempt_id": "attempt:649493aa-fa2c-4758-b161-102b4dbab7ec",
+          "claim_token_sha256": "b12514b173061b7ae054e68c86646e8c77d8d301a8e8ef97a809e7037ce840cd",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:19:05Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:19:04Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source alchemy-ashby",
+                "status": "blocked",
+                "summary": "Network error while fetching https://api.ashbyhq.com/posting-api/job-board/alchemy?includeCompensation=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:19:05Z",
+            "result_digest": "e88e23120e6e73f6eede22b1526c7576df73a1e767a8c16d99c597c4949448ca",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_649493aa-fa2c-4758-b161-102b4dbab7ec.json",
+            "retry_at": "2026-08-30T19:24:05Z"
+          },
+          "started_at": "2026-08-30T19:19:04Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:2083b89b-507d-4fcd-8138-6fe81ea111d2",
+          "claim_token_sha256": "a78e9a7a08cbd0cd23ea2398ed76afd238d69608ea44bab3283cc0b34f18e8a6",
+          "claimed_by": "job-batch:a96ab68e-1f36-44e1-96f6-1c97903baf2d",
+          "ended_at": "2026-08-31T02:49:01Z",
+          "lease_expires_at": "2026-08-31T03:48:29Z",
+          "model": "luna",
+          "outcome": "completed",
+          "resolution": {
+            "attempt_id": "attempt:2083b89b-507d-4fcd-8138-6fe81ea111d2",
+            "evidence_count": 1,
+            "item_results": [
+              {
+                "item": "source alchemy-ashby",
+                "status": "resolved",
+                "summary": "Fetched 22 current jobs; 0 qualifying, 15 semantically rejected, 0 unresolved."
+              }
+            ],
+            "notes": "All semantic candidates reviewed against the active profile.",
+            "outcome": "completed",
+            "reason_code": "job_scan_completed",
+            "resolved_at": "2026-08-31T02:49:01Z",
+            "result_digest": "f897702d64f56d9977a25a00dd0ab79b8916c26183beb3146309eb152c26048b",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_2083b89b-507d-4fcd-8138-6fe81ea111d2.json"
+          },
+          "started_at": "2026-08-31T02:48:29Z",
+          "status": "completed"
+        }
+      ],
+      "available_at": "2026-08-30T19:24:05Z",
       "claim": null,
       "context": {
         "company_snapshot": {
@@ -1338,9 +1778,25 @@
       "reason_codes": [
         "missing_snapshot"
       ],
-      "resolution": null,
+      "resolution": {
+        "attempt_id": "attempt:2083b89b-507d-4fcd-8138-6fe81ea111d2",
+        "evidence_count": 1,
+        "item_results": [
+          {
+            "item": "source alchemy-ashby",
+            "status": "resolved",
+            "summary": "Fetched 22 current jobs; 0 qualifying, 15 semantically rejected, 0 unresolved."
+          }
+        ],
+        "notes": "All semantic candidates reviewed against the active profile.",
+        "outcome": "completed",
+        "reason_code": "job_scan_completed",
+        "resolved_at": "2026-08-31T02:49:01Z",
+        "result_digest": "f897702d64f56d9977a25a00dd0ab79b8916c26183beb3146309eb152c26048b",
+        "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_2083b89b-507d-4fcd-8138-6fe81ea111d2.json"
+      },
       "root_task_id": "source:alchemy-ashby:luna:ce2c1d56683d83ad",
-      "status": "open",
+      "status": "completed",
       "target": {
         "company_ids": [
           "alchemy"
@@ -1351,7 +1807,7 @@
       },
       "target_revision": 1,
       "task_id": "source:alchemy-ashby:luna:ce2c1d56683d83ad",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-31T02:49:01Z",
       "workflow": "find_jobs"
     },
     {
@@ -1524,9 +1980,58 @@
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
-      "claim": null,
+      "attempts": [
+        {
+          "attempt_id": "attempt:e24db23d-ac4f-4aaf-892d-e491c68d7254",
+          "claim_token_sha256": "825519012aa65393e98a68214fe8e90465d35dd50c52c76b962c9dfd7d0c22b3",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:19:10Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:19:09Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source ambience-healthcare-ashby",
+                "status": "blocked",
+                "summary": "Network error while fetching https://api.ashbyhq.com/posting-api/job-board/ambiencehealthcare?includeCompensation=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:19:10Z",
+            "result_digest": "dc27ed586a8dd09cf92627a3b06b21b85d134a327e31f40678fcde4aa773f629",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_e24db23d-ac4f-4aaf-892d-e491c68d7254.json",
+            "retry_at": "2026-08-30T19:24:10Z"
+          },
+          "started_at": "2026-08-30T19:19:09Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:ffabafe6-204a-4440-9b32-ab81891ec00a",
+          "claim_token_sha256": "82e22f1ab4974c942b41678558e8b20ba8ef238300986fff5187694191382add",
+          "claimed_by": "job-batch:01a055b7-d958-7691-abda-22aee0b5ae76",
+          "ended_at": null,
+          "lease_expires_at": "2026-08-31T03:48:38Z",
+          "model": "luna",
+          "started_at": "2026-08-31T02:48:38Z",
+          "status": "running"
+        }
+      ],
+      "available_at": "2026-08-30T19:24:10Z",
+      "claim": {
+        "attempt_id": "attempt:ffabafe6-204a-4440-9b32-ab81891ec00a",
+        "claim_token": "MFr9blRLx-fuT9hBYiI872nUYeHYyOKVeYGN-KEsCS8",
+        "claimed_at": "2026-08-31T02:48:38Z",
+        "claimed_by": "job-batch:01a055b7-d958-7691-abda-22aee0b5ae76",
+        "lease_expires_at": "2026-08-31T03:48:38Z",
+        "requested_model": "luna"
+      },
       "context": {
         "company_snapshot": {
           "address_status": "verified",
@@ -1678,7 +2183,7 @@
       ],
       "resolution": null,
       "root_task_id": "source:ambience-healthcare-ashby:luna:24a0c00ba8b81764",
-      "status": "open",
+      "status": "running",
       "target": {
         "company_ids": [
           "ambience-healthcare"
@@ -1689,12 +2194,72 @@
       },
       "target_revision": 1,
       "task_id": "source:ambience-healthcare-ashby:luna:24a0c00ba8b81764",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-31T02:48:38Z",
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
+      "attempts": [
+        {
+          "attempt_id": "attempt:18dabef8-7aff-487e-adac-5c81b68254bb",
+          "claim_token_sha256": "97a6ccf17dd88d90a371230403ccc76b4f508b64150127f2f53961a256fb5f4e",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:19:12Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:19:12Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source ampersand-ashby",
+                "status": "blocked",
+                "summary": "Network error while fetching https://api.ashbyhq.com/posting-api/job-board/Ampersand?includeCompensation=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:19:12Z",
+            "result_digest": "52d750c1f9c856d90d196a5244cf2e253707779f17b290dd98b7644f262bfb30",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_18dabef8-7aff-487e-adac-5c81b68254bb.json",
+            "retry_at": "2026-08-30T19:24:12Z"
+          },
+          "started_at": "2026-08-30T19:19:12Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:1a9ceeff-23dd-43fb-a694-833ef3bbf811",
+          "claim_token_sha256": "7f97c8d8b84da3e96103584d56973248882409f7e6d06f246bda42ce744a1fd6",
+          "claimed_by": "job-batch:01a055b7-e8c9-7843-ac00-5710d69acd86",
+          "ended_at": "2026-08-31T02:49:45Z",
+          "lease_expires_at": "2026-08-31T03:48:41Z",
+          "model": "luna",
+          "outcome": "completed",
+          "resolution": {
+            "attempt_id": "attempt:1a9ceeff-23dd-43fb-a694-833ef3bbf811",
+            "evidence_count": 1,
+            "item_results": [
+              {
+                "item": "source ampersand-ashby",
+                "status": "resolved",
+                "summary": "Fetched 10 current jobs; 3 qualifying and 7 semantically rejected."
+              }
+            ],
+            "notes": "Review every unresolved candidate against role fit and job-specific AI involvement. Move supported candidates to qualifying_jobs, remove reviewed candidates from unresolved_candidates, and set outcome/reason_code before finalizing.",
+            "outcome": "completed",
+            "reason_code": "structured_scan_complete",
+            "resolved_at": "2026-08-31T02:49:45Z",
+            "result_digest": "a1b8d5347e7206ca41868f381534a97aaa10634e1326532c5f397b915cd61017",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_1a9ceeff-23dd-43fb-a694-833ef3bbf811.json"
+          },
+          "started_at": "2026-08-31T02:48:41Z",
+          "status": "completed"
+        }
+      ],
+      "available_at": "2026-08-30T19:24:12Z",
       "claim": null,
       "context": {
         "company_snapshot": {
@@ -1845,9 +2410,25 @@
       "reason_codes": [
         "missing_snapshot"
       ],
-      "resolution": null,
+      "resolution": {
+        "attempt_id": "attempt:1a9ceeff-23dd-43fb-a694-833ef3bbf811",
+        "evidence_count": 1,
+        "item_results": [
+          {
+            "item": "source ampersand-ashby",
+            "status": "resolved",
+            "summary": "Fetched 10 current jobs; 3 qualifying and 7 semantically rejected."
+          }
+        ],
+        "notes": "Review every unresolved candidate against role fit and job-specific AI involvement. Move supported candidates to qualifying_jobs, remove reviewed candidates from unresolved_candidates, and set outcome/reason_code before finalizing.",
+        "outcome": "completed",
+        "reason_code": "structured_scan_complete",
+        "resolved_at": "2026-08-31T02:49:45Z",
+        "result_digest": "a1b8d5347e7206ca41868f381534a97aaa10634e1326532c5f397b915cd61017",
+        "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_1a9ceeff-23dd-43fb-a694-833ef3bbf811.json"
+      },
       "root_task_id": "source:ampersand-ashby:luna:41028b4a17149923",
-      "status": "open",
+      "status": "completed",
       "target": {
         "company_ids": [
           "ampersand"
@@ -1858,13 +2439,62 @@
       },
       "target_revision": 1,
       "task_id": "source:ampersand-ashby:luna:41028b4a17149923",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-31T02:49:45Z",
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
-      "claim": null,
+      "attempts": [
+        {
+          "attempt_id": "attempt:50aca05a-2798-45e5-b2e1-04ab3496b33d",
+          "claim_token_sha256": "51c549bb001434c7b9f659b7cceae9c2c9f411383493cbdea21944c173ae5853",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:19:17Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:19:17Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source amplitude-greenhouse",
+                "status": "blocked",
+                "summary": "Network error while fetching https://boards-api.greenhouse.io/v1/boards/amplitude/jobs?content=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:19:17Z",
+            "result_digest": "2e165be80f9a25440deacf3efe750fd4608b5ec598eb2d0badcbc4d6012f6248",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_50aca05a-2798-45e5-b2e1-04ab3496b33d.json",
+            "retry_at": "2026-08-30T19:24:17Z"
+          },
+          "started_at": "2026-08-30T19:19:17Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:c09567e9-3f71-4348-b683-700501771c3a",
+          "claim_token_sha256": "22ad346fa47d1b80469889c448323bfa7c95cefba040c9aea1314b7bf3e810a5",
+          "claimed_by": "job-batch:20260830-01",
+          "ended_at": null,
+          "lease_expires_at": "2026-08-31T03:48:45Z",
+          "model": "luna",
+          "started_at": "2026-08-31T02:48:45Z",
+          "status": "running"
+        }
+      ],
+      "available_at": "2026-08-30T19:24:17Z",
+      "claim": {
+        "attempt_id": "attempt:c09567e9-3f71-4348-b683-700501771c3a",
+        "claim_token": "l0tdIqG_bLRU8Q4snj1ZUmoD4PqaexCBnslHCJWmDzU",
+        "claimed_at": "2026-08-31T02:48:45Z",
+        "claimed_by": "job-batch:20260830-01",
+        "lease_expires_at": "2026-08-31T03:48:45Z",
+        "requested_model": "luna"
+      },
       "context": {
         "company_snapshot": {
           "address_status": "verified",
@@ -2016,7 +2646,7 @@
       ],
       "resolution": null,
       "root_task_id": "source:amplitude-greenhouse:luna:9e86bec3518a1f01",
-      "status": "open",
+      "status": "running",
       "target": {
         "company_ids": [
           "amplitude"
@@ -2027,12 +2657,75 @@
       },
       "target_revision": 1,
       "task_id": "source:amplitude-greenhouse:luna:9e86bec3518a1f01",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-31T02:48:45Z",
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
+      "attempts": [
+        {
+          "attempt_id": "attempt:5429ec8b-921b-4073-a424-02b55e132ad7",
+          "claim_token_sha256": "fac575e29dca81949e8e406c847f5fe2e153b406d3d6dd4d6d6a90974ee11ffa",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:19:20Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:19:19Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source anara-primary",
+                "status": "blocked",
+                "summary": "Network error while fetching https://api.ashbyhq.com/posting-api/job-board/anara?includeCompensation=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:19:20Z",
+            "result_digest": "8c4701bde41582eb93bfe8489f1331e481c641fd88178b9f28e2fbb26aad2dfc",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_5429ec8b-921b-4073-a424-02b55e132ad7.json",
+            "retry_at": "2026-08-30T19:24:20Z"
+          },
+          "started_at": "2026-08-30T19:19:19Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:88da53ab-b609-4238-89c7-a8fbf3c2cf8e",
+          "claim_token_sha256": "0074984c0d1c110d00029b9c9dee764d0156c51c69d02d89288b765d34a338ca",
+          "claimed_by": "job-batch:20260830-luna-01",
+          "ended_at": "2026-08-31T02:49:40Z",
+          "lease_expires_at": "2026-08-31T03:48:46Z",
+          "model": "luna",
+          "outcome": "inconclusive",
+          "resolution": {
+            "attempt_id": "attempt:88da53ab-b609-4238-89c7-a8fbf3c2cf8e",
+            "evidence_count": 1,
+            "follow_up_created": true,
+            "follow_up_model": "terra",
+            "follow_up_task_id": "source:anara-primary:terra:1fcc77e39e9af934",
+            "item_results": [
+              {
+                "item": "source anara-primary",
+                "status": "inconclusive",
+                "summary": "Fetched 4 current jobs; 0 deterministically rejected; 4 require semantic review."
+              }
+            ],
+            "notes": "Review every unresolved candidate against role fit and job-specific AI involvement. Move supported candidates to qualifying_jobs, remove reviewed candidates from unresolved_candidates, and set outcome/reason_code before finalizing.",
+            "outcome": "inconclusive",
+            "reason_code": "semantic_review_required",
+            "resolved_at": "2026-08-31T02:49:40Z",
+            "result_digest": "7ac4eeae5107b43881f40d3056638ebf5b87ad46f0584919f460d4e05d59e228",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_88da53ab-b609-4238-89c7-a8fbf3c2cf8e.json"
+          },
+          "started_at": "2026-08-31T02:48:46Z",
+          "status": "inconclusive"
+        }
+      ],
+      "available_at": "2026-08-30T19:24:20Z",
       "claim": null,
       "context": {
         "company_snapshot": {
@@ -2183,9 +2876,28 @@
       "reason_codes": [
         "missing_snapshot"
       ],
-      "resolution": null,
+      "resolution": {
+        "attempt_id": "attempt:88da53ab-b609-4238-89c7-a8fbf3c2cf8e",
+        "evidence_count": 1,
+        "follow_up_created": true,
+        "follow_up_model": "terra",
+        "follow_up_task_id": "source:anara-primary:terra:1fcc77e39e9af934",
+        "item_results": [
+          {
+            "item": "source anara-primary",
+            "status": "inconclusive",
+            "summary": "Fetched 4 current jobs; 0 deterministically rejected; 4 require semantic review."
+          }
+        ],
+        "notes": "Review every unresolved candidate against role fit and job-specific AI involvement. Move supported candidates to qualifying_jobs, remove reviewed candidates from unresolved_candidates, and set outcome/reason_code before finalizing.",
+        "outcome": "inconclusive",
+        "reason_code": "semantic_review_required",
+        "resolved_at": "2026-08-31T02:49:40Z",
+        "result_digest": "7ac4eeae5107b43881f40d3056638ebf5b87ad46f0584919f460d4e05d59e228",
+        "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_88da53ab-b609-4238-89c7-a8fbf3c2cf8e.json"
+      },
       "root_task_id": "source:anara-primary:luna:2fd99132d058fc8d",
-      "status": "open",
+      "status": "inconclusive",
       "target": {
         "company_ids": [
           "anara"
@@ -2196,7 +2908,7 @@
       },
       "target_revision": 1,
       "task_id": "source:anara-primary:luna:2fd99132d058fc8d",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-31T02:49:40Z",
       "workflow": "find_jobs"
     },
     {
@@ -2369,8 +3081,71 @@
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
+      "attempts": [
+        {
+          "attempt_id": "attempt:7bb75442-f621-46f0-8941-450570f0cbcf",
+          "claim_token_sha256": "64f1ece075ece038cb5eeca102a76b04ca8412082db26b35f7417b9899f3bf9a",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:19:24Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:19:24Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source angellist-lever",
+                "status": "blocked",
+                "summary": "Network error while fetching https://api.lever.co/v0/postings/angellist?mode=json&skip=0&limit=100: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:19:24Z",
+            "result_digest": "dcf7b371089b42a800061636b1e9bf551ec022b84ebf3105fb671251889c9549",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_7bb75442-f621-46f0-8941-450570f0cbcf.json",
+            "retry_at": "2026-08-30T19:24:24Z"
+          },
+          "started_at": "2026-08-30T19:19:24Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:19f43440-301c-43ad-9293-0d6e4bf2c952",
+          "claim_token_sha256": "3df040b2d952fa926eb1ff09970acc17af9e290b1102224238e8971d0f5ffeac",
+          "claimed_by": "job-batch:20260830-01",
+          "ended_at": "2026-08-31T02:49:47Z",
+          "lease_expires_at": "2026-08-31T03:48:47Z",
+          "model": "luna",
+          "outcome": "inconclusive",
+          "resolution": {
+            "attempt_id": "attempt:19f43440-301c-43ad-9293-0d6e4bf2c952",
+            "evidence_count": 1,
+            "follow_up_created": true,
+            "follow_up_model": "terra",
+            "follow_up_task_id": "source:angellist-lever:terra:8c71fc6a358511c6",
+            "item_results": [
+              {
+                "item": "source angellist-lever",
+                "status": "resolved",
+                "summary": "Fetched 25 current jobs; 2 deterministically rejected and 23 semantically rejected: no qualifying roles met all profile constraints."
+              }
+            ],
+            "notes": "Review every unresolved candidate against role fit and job-specific AI involvement. Move supported candidates to qualifying_jobs, remove reviewed candidates from unresolved_candidates, and set outcome/reason_code before finalizing.",
+            "outcome": "inconclusive",
+            "reason_code": "semantic_review_required",
+            "resolved_at": "2026-08-31T02:49:47Z",
+            "result_digest": "a10e5838f27959d39bb99abffc97c7523598b78e6aed741a0e855be24de3dc2d",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_19f43440-301c-43ad-9293-0d6e4bf2c952.json"
+          },
+          "started_at": "2026-08-31T02:48:47Z",
+          "status": "inconclusive"
+        }
+      ],
+      "available_at": "2026-08-30T19:24:24Z",
       "claim": null,
       "context": {
         "company_snapshot": {
@@ -2521,9 +3296,28 @@
       "reason_codes": [
         "missing_snapshot"
       ],
-      "resolution": null,
+      "resolution": {
+        "attempt_id": "attempt:19f43440-301c-43ad-9293-0d6e4bf2c952",
+        "evidence_count": 1,
+        "follow_up_created": true,
+        "follow_up_model": "terra",
+        "follow_up_task_id": "source:angellist-lever:terra:8c71fc6a358511c6",
+        "item_results": [
+          {
+            "item": "source angellist-lever",
+            "status": "resolved",
+            "summary": "Fetched 25 current jobs; 2 deterministically rejected and 23 semantically rejected: no qualifying roles met all profile constraints."
+          }
+        ],
+        "notes": "Review every unresolved candidate against role fit and job-specific AI involvement. Move supported candidates to qualifying_jobs, remove reviewed candidates from unresolved_candidates, and set outcome/reason_code before finalizing.",
+        "outcome": "inconclusive",
+        "reason_code": "semantic_review_required",
+        "resolved_at": "2026-08-31T02:49:47Z",
+        "result_digest": "a10e5838f27959d39bb99abffc97c7523598b78e6aed741a0e855be24de3dc2d",
+        "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_19f43440-301c-43ad-9293-0d6e4bf2c952.json"
+      },
       "root_task_id": "source:angellist-lever:luna:3aa4636d44aa6a57",
-      "status": "open",
+      "status": "inconclusive",
       "target": {
         "company_ids": [
           "angellist"
@@ -2534,13 +3328,62 @@
       },
       "target_revision": 1,
       "task_id": "source:angellist-lever:luna:3aa4636d44aa6a57",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-31T02:49:47Z",
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
-      "claim": null,
+      "attempts": [
+        {
+          "attempt_id": "attempt:54222420-5200-4247-8dea-6f3f7de42a1a",
+          "claim_token_sha256": "8de828f6b3f64a00003a329e97eac451c6b5e8308a28be52b3a2fa9e14f6c0fd",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:19:27Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:19:26Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source anthropic-greenhouse",
+                "status": "blocked",
+                "summary": "Network error while fetching https://boards-api.greenhouse.io/v1/boards/anthropic/jobs?content=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:19:27Z",
+            "result_digest": "97a7924e0d520f44666295851c85ccec16fc318ca0d62592c8da1b9f400c26d6",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_54222420-5200-4247-8dea-6f3f7de42a1a.json",
+            "retry_at": "2026-08-30T19:24:27Z"
+          },
+          "started_at": "2026-08-30T19:19:26Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:9b3fd016-943d-49da-a8d9-71abe6068ea6",
+          "claim_token_sha256": "37bb69a2f240a74c52aae449dcbda145fcf8e5e12b9aafaf5d0114fddb2f2ed1",
+          "claimed_by": "job-batch:B45B249E-2F38-4353-8A55-04AE0178FFBD",
+          "ended_at": null,
+          "lease_expires_at": "2026-08-31T03:48:51Z",
+          "model": "luna",
+          "started_at": "2026-08-31T02:48:51Z",
+          "status": "running"
+        }
+      ],
+      "available_at": "2026-08-30T19:24:27Z",
+      "claim": {
+        "attempt_id": "attempt:9b3fd016-943d-49da-a8d9-71abe6068ea6",
+        "claim_token": "4VGlU-h2au0dj2vHZ69KZGBc6onXjLHep9jry8bxJUs",
+        "claimed_at": "2026-08-31T02:48:51Z",
+        "claimed_by": "job-batch:B45B249E-2F38-4353-8A55-04AE0178FFBD",
+        "lease_expires_at": "2026-08-31T03:48:51Z",
+        "requested_model": "luna"
+      },
       "context": {
         "company_snapshot": {
           "address_status": "verified",
@@ -2692,7 +3535,7 @@
       ],
       "resolution": null,
       "root_task_id": "source:anthropic-greenhouse:luna:33ba72baaf532f09",
-      "status": "open",
+      "status": "running",
       "target": {
         "company_ids": [
           "anthropic"
@@ -2703,13 +3546,62 @@
       },
       "target_revision": 1,
       "task_id": "source:anthropic-greenhouse:luna:33ba72baaf532f09",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-31T02:48:51Z",
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
-      "claim": null,
+      "attempts": [
+        {
+          "attempt_id": "attempt:a47921b2-d6b0-4024-b79b-9f89a3e77f98",
+          "claim_token_sha256": "3e25746f2374da59ee24661b56afd8383979a627751efc9eec8c3087e2c2e352",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:19:32Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:19:31Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source antithesis-primary",
+                "status": "blocked",
+                "summary": "Network error while fetching https://api.ashbyhq.com/posting-api/job-board/antithesis?includeCompensation=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:19:32Z",
+            "result_digest": "05ba1c5df6a1ef1b5164bf0fdda182a92f77c08e7f90c218e801e4d6c2947604",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_a47921b2-d6b0-4024-b79b-9f89a3e77f98.json",
+            "retry_at": "2026-08-30T19:24:32Z"
+          },
+          "started_at": "2026-08-30T19:19:31Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:a96ae4f0-3e91-4fcd-a015-251d56c6a90e",
+          "claim_token_sha256": "8f6bf3b86c403004a3f11f5a7e2d252880b4e85b8889af24cc84e22d2ebf1050",
+          "claimed_by": "job-batch:435546F0-06D6-4E36-9D27-C4632282354B",
+          "ended_at": null,
+          "lease_expires_at": "2026-08-31T03:48:52Z",
+          "model": "luna",
+          "started_at": "2026-08-31T02:48:52Z",
+          "status": "running"
+        }
+      ],
+      "available_at": "2026-08-30T19:24:32Z",
+      "claim": {
+        "attempt_id": "attempt:a96ae4f0-3e91-4fcd-a015-251d56c6a90e",
+        "claim_token": "1KZkmPCrviDiLsB4S0Zjmrijk7jYGfpIcm1Sdbhd1J4",
+        "claimed_at": "2026-08-31T02:48:52Z",
+        "claimed_by": "job-batch:435546F0-06D6-4E36-9D27-C4632282354B",
+        "lease_expires_at": "2026-08-31T03:48:52Z",
+        "requested_model": "luna"
+      },
       "context": {
         "company_snapshot": {
           "address_status": "verified",
@@ -2861,7 +3753,7 @@
       ],
       "resolution": null,
       "root_task_id": "source:antithesis-primary:luna:3a3b8fce9166111f",
-      "status": "open",
+      "status": "running",
       "target": {
         "company_ids": [
           "antithesis"
@@ -2872,12 +3764,72 @@
       },
       "target_revision": 1,
       "task_id": "source:antithesis-primary:luna:3a3b8fce9166111f",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-31T02:48:52Z",
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
+      "attempts": [
+        {
+          "attempt_id": "attempt:d1840ad0-2c3e-490a-96a9-beafded15712",
+          "claim_token_sha256": "8ae6b8804824bfab5a891743bb2e2279b3763fd55bdbd46768090b5173e5c44a",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:19:37Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:19:37Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source anyroad-lever",
+                "status": "blocked",
+                "summary": "Network error while fetching https://api.lever.co/v0/postings/anyroad?mode=json&skip=0&limit=100: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:19:37Z",
+            "result_digest": "90775da8199a2c162a1aae57c0912ec25da85b24b9df8f90cb24a895ada0001d",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_d1840ad0-2c3e-490a-96a9-beafded15712.json",
+            "retry_at": "2026-08-30T19:24:37Z"
+          },
+          "started_at": "2026-08-30T19:19:37Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:9fd7a366-a5f5-4f04-85b7-bc1c307b9fca",
+          "claim_token_sha256": "c7e36b76393f65dd11ef2b3ae855e720463fc1434209e7e995d29d4aaa3a2577",
+          "claimed_by": "job-batch:20260830-1788144545",
+          "ended_at": "2026-08-31T02:49:32Z",
+          "lease_expires_at": "2026-08-31T03:49:05Z",
+          "model": "luna",
+          "outcome": "completed",
+          "resolution": {
+            "attempt_id": "attempt:9fd7a366-a5f5-4f04-85b7-bc1c307b9fca",
+            "evidence_count": 1,
+            "item_results": [
+              {
+                "item": "source anyroad-lever",
+                "status": "resolved",
+                "summary": "Fetched 1 current jobs; 1 deterministically rejected; 0 require semantic review."
+              }
+            ],
+            "notes": "No semantic candidates remained after deterministic filtering.",
+            "outcome": "completed",
+            "reason_code": "structured_scan_complete",
+            "resolved_at": "2026-08-31T02:49:32Z",
+            "result_digest": "4f3c48d74b2b16d934ce1b0bb99712480279785ce9fccda2486b1eb8e48dc345",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_9fd7a366-a5f5-4f04-85b7-bc1c307b9fca.json"
+          },
+          "started_at": "2026-08-31T02:49:05Z",
+          "status": "completed"
+        }
+      ],
+      "available_at": "2026-08-30T19:24:37Z",
       "claim": null,
       "context": {
         "company_snapshot": {
@@ -3028,9 +3980,25 @@
       "reason_codes": [
         "missing_snapshot"
       ],
-      "resolution": null,
+      "resolution": {
+        "attempt_id": "attempt:9fd7a366-a5f5-4f04-85b7-bc1c307b9fca",
+        "evidence_count": 1,
+        "item_results": [
+          {
+            "item": "source anyroad-lever",
+            "status": "resolved",
+            "summary": "Fetched 1 current jobs; 1 deterministically rejected; 0 require semantic review."
+          }
+        ],
+        "notes": "No semantic candidates remained after deterministic filtering.",
+        "outcome": "completed",
+        "reason_code": "structured_scan_complete",
+        "resolved_at": "2026-08-31T02:49:32Z",
+        "result_digest": "4f3c48d74b2b16d934ce1b0bb99712480279785ce9fccda2486b1eb8e48dc345",
+        "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_9fd7a366-a5f5-4f04-85b7-bc1c307b9fca.json"
+      },
       "root_task_id": "source:anyroad-lever:luna:f9435a6df15168d1",
-      "status": "open",
+      "status": "completed",
       "target": {
         "company_ids": [
           "anyroad"
@@ -3041,12 +4009,75 @@
       },
       "target_revision": 1,
       "task_id": "source:anyroad-lever:luna:f9435a6df15168d1",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-31T02:49:32Z",
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
+      "attempts": [
+        {
+          "attempt_id": "attempt:d2fb97a2-4a79-4d6f-8a50-d33f645c7b4c",
+          "claim_token_sha256": "1ba797f49bcbdb923cc5e056af1732aa6d73bc71256953bb856821de0f9b70c1",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:19:40Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:19:39Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source anyscale-ashby",
+                "status": "blocked",
+                "summary": "Network error while fetching https://api.ashbyhq.com/posting-api/job-board/anyscale?includeCompensation=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:19:40Z",
+            "result_digest": "c9f71020b115c49c7ffddfffd4fe9d0757a156d28a9e8a99ae330a41ea095a32",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_d2fb97a2-4a79-4d6f-8a50-d33f645c7b4c.json",
+            "retry_at": "2026-08-30T19:24:40Z"
+          },
+          "started_at": "2026-08-30T19:19:39Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:a31c8d41-d3d8-4472-8942-3d5866343f91",
+          "claim_token_sha256": "1187f16a2977447f486777f12cb1ba003dc96a370ac8f9f22dc3a4479ea9e7ff",
+          "claimed_by": "job-batch:a96ab68e-1f36-44e1-96f6-1c97903baf2d",
+          "ended_at": "2026-08-31T02:49:39Z",
+          "lease_expires_at": "2026-08-31T03:49:06Z",
+          "model": "luna",
+          "outcome": "inconclusive",
+          "resolution": {
+            "attempt_id": "attempt:a31c8d41-d3d8-4472-8942-3d5866343f91",
+            "evidence_count": 1,
+            "follow_up_created": true,
+            "follow_up_model": "terra",
+            "follow_up_task_id": "source:anyscale-ashby:terra:9a7bbd227772b7c1",
+            "item_results": [
+              {
+                "item": "source anyscale-ashby",
+                "status": "inconclusive",
+                "summary": "Fetched 20 current jobs; 1 qualifying, 9 semantic candidates rejected, 5 remain for follow-up review."
+              }
+            ],
+            "notes": "Reviewed 10 candidates; 5 remain unresolved for the next model.",
+            "outcome": "inconclusive",
+            "reason_code": "semantic_review_required",
+            "resolved_at": "2026-08-31T02:49:39Z",
+            "result_digest": "6337dcbb55d8269154de5c890bff2e2f9d6915cd767dfe8efc7d2160c83970c0",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_a31c8d41-d3d8-4472-8942-3d5866343f91.json"
+          },
+          "started_at": "2026-08-31T02:49:06Z",
+          "status": "inconclusive"
+        }
+      ],
+      "available_at": "2026-08-30T19:24:40Z",
       "claim": null,
       "context": {
         "company_snapshot": {
@@ -3197,9 +4228,28 @@
       "reason_codes": [
         "missing_snapshot"
       ],
-      "resolution": null,
+      "resolution": {
+        "attempt_id": "attempt:a31c8d41-d3d8-4472-8942-3d5866343f91",
+        "evidence_count": 1,
+        "follow_up_created": true,
+        "follow_up_model": "terra",
+        "follow_up_task_id": "source:anyscale-ashby:terra:9a7bbd227772b7c1",
+        "item_results": [
+          {
+            "item": "source anyscale-ashby",
+            "status": "inconclusive",
+            "summary": "Fetched 20 current jobs; 1 qualifying, 9 semantic candidates rejected, 5 remain for follow-up review."
+          }
+        ],
+        "notes": "Reviewed 10 candidates; 5 remain unresolved for the next model.",
+        "outcome": "inconclusive",
+        "reason_code": "semantic_review_required",
+        "resolved_at": "2026-08-31T02:49:39Z",
+        "result_digest": "6337dcbb55d8269154de5c890bff2e2f9d6915cd767dfe8efc7d2160c83970c0",
+        "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_a31c8d41-d3d8-4472-8942-3d5866343f91.json"
+      },
       "root_task_id": "source:anyscale-ashby:luna:b34a99a47a8d25bf",
-      "status": "open",
+      "status": "inconclusive",
       "target": {
         "company_ids": [
           "anyscale"
@@ -3210,13 +4260,62 @@
       },
       "target_revision": 1,
       "task_id": "source:anyscale-ashby:luna:b34a99a47a8d25bf",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-31T02:49:39Z",
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
-      "claim": null,
+      "attempts": [
+        {
+          "attempt_id": "attempt:a419f179-3a05-41fb-94f0-ea68df23c52f",
+          "claim_token_sha256": "4f32400f1cf30729ec54b3aa379d45ae06a6e24d88c332b2f6cfcaf39310ad68",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:19:45Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:19:44Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source apiphany-ai-ashby",
+                "status": "blocked",
+                "summary": "Network error while fetching https://api.ashbyhq.com/posting-api/job-board/apiphany?includeCompensation=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:19:45Z",
+            "result_digest": "24dcbc3e743b25eef98e5209d3006b91da8cdb3021ae09e27106c0742f59c349",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_a419f179-3a05-41fb-94f0-ea68df23c52f.json",
+            "retry_at": "2026-08-30T19:24:45Z"
+          },
+          "started_at": "2026-08-30T19:19:44Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:c52e523b-9df7-42eb-8cba-3e0d1e4c3756",
+          "claim_token_sha256": "d13a7a321b131163858639e391d3e040e7d93fa5d540931d0caaa86f1824bce1",
+          "claimed_by": "job-batch:AA86654E-9825-4C98-9CB2-DA9C69ACB6F8",
+          "ended_at": null,
+          "lease_expires_at": "2026-08-31T03:49:11Z",
+          "model": "luna",
+          "started_at": "2026-08-31T02:49:11Z",
+          "status": "running"
+        }
+      ],
+      "available_at": "2026-08-30T19:24:45Z",
+      "claim": {
+        "attempt_id": "attempt:c52e523b-9df7-42eb-8cba-3e0d1e4c3756",
+        "claim_token": "qorKiWFx4kL8m4FcCwcZcKKC4Emv1rUS8V1jEOvEK4Q",
+        "claimed_at": "2026-08-31T02:49:11Z",
+        "claimed_by": "job-batch:AA86654E-9825-4C98-9CB2-DA9C69ACB6F8",
+        "lease_expires_at": "2026-08-31T03:49:11Z",
+        "requested_model": "luna"
+      },
       "context": {
         "company_snapshot": {
           "address_status": "verified",
@@ -3368,7 +4467,7 @@
       ],
       "resolution": null,
       "root_task_id": "source:apiphany-ai-ashby:luna:19c42d16aa129884",
-      "status": "open",
+      "status": "running",
       "target": {
         "company_ids": [
           "apiphany-ai"
@@ -3379,12 +4478,75 @@
       },
       "target_revision": 1,
       "task_id": "source:apiphany-ai-ashby:luna:19c42d16aa129884",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-31T02:49:11Z",
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
+      "attempts": [
+        {
+          "attempt_id": "attempt:b44ae3ce-2088-499b-9207-e3d7fed7850e",
+          "claim_token_sha256": "aa45fa71bcb1cb2b2696adb1dd1624334f38979bf785a31b4d0b355aeb1b94b9",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:19:47Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:19:46Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source apollo-io-greenhouse",
+                "status": "blocked",
+                "summary": "Network error while fetching https://boards-api.greenhouse.io/v1/boards/apolloio/jobs?content=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:19:47Z",
+            "result_digest": "c29c556e87d534920e9f843ca74ed55034ce01fc0b92327f48517826703a2fd4",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_b44ae3ce-2088-499b-9207-e3d7fed7850e.json",
+            "retry_at": "2026-08-30T19:24:47Z"
+          },
+          "started_at": "2026-08-30T19:19:46Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:4af128f7-002d-4ba5-981d-902f41e56c92",
+          "claim_token_sha256": "b2e51b64e9904c6545a7731436fbae83d60d8fde59edc752d0577ebb67286677",
+          "claimed_by": "job-batch:20260830-1788144545",
+          "ended_at": "2026-08-31T02:49:41Z",
+          "lease_expires_at": "2026-08-31T03:49:34Z",
+          "model": "luna",
+          "outcome": "inconclusive",
+          "resolution": {
+            "attempt_id": "attempt:4af128f7-002d-4ba5-981d-902f41e56c92",
+            "evidence_count": 1,
+            "follow_up_created": true,
+            "follow_up_model": "terra",
+            "follow_up_task_id": "source:apollo-io-greenhouse:terra:8c9f319bff272959",
+            "item_results": [
+              {
+                "item": "source apollo-io-greenhouse",
+                "status": "inconclusive",
+                "summary": "Fetched 41 current jobs; 19 deterministically rejected; 22 require semantic review."
+              }
+            ],
+            "notes": "Review every unresolved candidate against role fit and job-specific AI involvement. Move supported candidates to qualifying_jobs, remove reviewed candidates from unresolved_candidates, and set outcome/reason_code before finalizing.",
+            "outcome": "inconclusive",
+            "reason_code": "semantic_review_required",
+            "resolved_at": "2026-08-31T02:49:41Z",
+            "result_digest": "6e9214e1d56bba276738c84fac83ab065089602700354d57d1e54fb158ce2e54",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_4af128f7-002d-4ba5-981d-902f41e56c92.json"
+          },
+          "started_at": "2026-08-31T02:49:34Z",
+          "status": "inconclusive"
+        }
+      ],
+      "available_at": "2026-08-30T19:24:47Z",
       "claim": null,
       "context": {
         "company_snapshot": {
@@ -3535,9 +4697,28 @@
       "reason_codes": [
         "missing_snapshot"
       ],
-      "resolution": null,
+      "resolution": {
+        "attempt_id": "attempt:4af128f7-002d-4ba5-981d-902f41e56c92",
+        "evidence_count": 1,
+        "follow_up_created": true,
+        "follow_up_model": "terra",
+        "follow_up_task_id": "source:apollo-io-greenhouse:terra:8c9f319bff272959",
+        "item_results": [
+          {
+            "item": "source apollo-io-greenhouse",
+            "status": "inconclusive",
+            "summary": "Fetched 41 current jobs; 19 deterministically rejected; 22 require semantic review."
+          }
+        ],
+        "notes": "Review every unresolved candidate against role fit and job-specific AI involvement. Move supported candidates to qualifying_jobs, remove reviewed candidates from unresolved_candidates, and set outcome/reason_code before finalizing.",
+        "outcome": "inconclusive",
+        "reason_code": "semantic_review_required",
+        "resolved_at": "2026-08-31T02:49:41Z",
+        "result_digest": "6e9214e1d56bba276738c84fac83ab065089602700354d57d1e54fb158ce2e54",
+        "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_4af128f7-002d-4ba5-981d-902f41e56c92.json"
+      },
       "root_task_id": "source:apollo-io-greenhouse:luna:0da689f521316e0d",
-      "status": "open",
+      "status": "inconclusive",
       "target": {
         "company_ids": [
           "apollo-io"
@@ -3548,12 +4729,75 @@
       },
       "target_revision": 1,
       "task_id": "source:apollo-io-greenhouse:luna:0da689f521316e0d",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-31T02:49:41Z",
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
+      "attempts": [
+        {
+          "attempt_id": "attempt:c679a9ab-f13b-4242-8bc9-47a9d6bcfcf6",
+          "claim_token_sha256": "cf194a10ae74b72077ccd06fda73bbf2196b4908761011b890e2f5d41cf2e913",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:19:52Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:19:51Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source applied-compute-ashby",
+                "status": "blocked",
+                "summary": "Network error while fetching https://api.ashbyhq.com/posting-api/job-board/Applied%20Compute?includeCompensation=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:19:52Z",
+            "result_digest": "e25b4998a99786c29338e89b7b278e0c975c03e41ccab30c6ba2b4b0a15c5bde",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_c679a9ab-f13b-4242-8bc9-47a9d6bcfcf6.json",
+            "retry_at": "2026-08-30T19:24:52Z"
+          },
+          "started_at": "2026-08-30T19:19:51Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:5e75eac5-8581-4647-9691-6c18944db545",
+          "claim_token_sha256": "95482bd00af8209b928a96278ecab89265c71dd25b8daecbac213409d775ad1b",
+          "claimed_by": "job-batch:20260830-1788144545",
+          "ended_at": "2026-08-31T02:49:49Z",
+          "lease_expires_at": "2026-08-31T03:49:43Z",
+          "model": "luna",
+          "outcome": "inconclusive",
+          "resolution": {
+            "attempt_id": "attempt:5e75eac5-8581-4647-9691-6c18944db545",
+            "evidence_count": 1,
+            "follow_up_created": true,
+            "follow_up_model": "terra",
+            "follow_up_task_id": "source:applied-compute-ashby:terra:908a8b160f857206",
+            "item_results": [
+              {
+                "item": "source applied-compute-ashby",
+                "status": "inconclusive",
+                "summary": "Fetched 12 current jobs; 0 deterministically rejected; 12 require semantic review."
+              }
+            ],
+            "notes": "Review every unresolved candidate against role fit and job-specific AI involvement. Move supported candidates to qualifying_jobs, remove reviewed candidates from unresolved_candidates, and set outcome/reason_code before finalizing.",
+            "outcome": "inconclusive",
+            "reason_code": "semantic_review_required",
+            "resolved_at": "2026-08-31T02:49:49Z",
+            "result_digest": "a54909f87d5e46d6689d73cbc63818d936d4c03da1b7409b3729c88bf9447754",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_5e75eac5-8581-4647-9691-6c18944db545.json"
+          },
+          "started_at": "2026-08-31T02:49:43Z",
+          "status": "inconclusive"
+        }
+      ],
+      "available_at": "2026-08-30T19:24:52Z",
       "claim": null,
       "context": {
         "company_snapshot": {
@@ -3704,9 +4948,28 @@
       "reason_codes": [
         "missing_snapshot"
       ],
-      "resolution": null,
+      "resolution": {
+        "attempt_id": "attempt:5e75eac5-8581-4647-9691-6c18944db545",
+        "evidence_count": 1,
+        "follow_up_created": true,
+        "follow_up_model": "terra",
+        "follow_up_task_id": "source:applied-compute-ashby:terra:908a8b160f857206",
+        "item_results": [
+          {
+            "item": "source applied-compute-ashby",
+            "status": "inconclusive",
+            "summary": "Fetched 12 current jobs; 0 deterministically rejected; 12 require semantic review."
+          }
+        ],
+        "notes": "Review every unresolved candidate against role fit and job-specific AI involvement. Move supported candidates to qualifying_jobs, remove reviewed candidates from unresolved_candidates, and set outcome/reason_code before finalizing.",
+        "outcome": "inconclusive",
+        "reason_code": "semantic_review_required",
+        "resolved_at": "2026-08-31T02:49:49Z",
+        "result_digest": "a54909f87d5e46d6689d73cbc63818d936d4c03da1b7409b3729c88bf9447754",
+        "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_5e75eac5-8581-4647-9691-6c18944db545.json"
+      },
       "root_task_id": "source:applied-compute-ashby:luna:daf4eefaa958edb9",
-      "status": "open",
+      "status": "inconclusive",
       "target": {
         "company_ids": [
           "applied-compute"
@@ -3717,13 +4980,62 @@
       },
       "target_revision": 1,
       "task_id": "source:applied-compute-ashby:luna:daf4eefaa958edb9",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-31T02:49:49Z",
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
-      "claim": null,
+      "attempts": [
+        {
+          "attempt_id": "attempt:6f23ca2a-c059-409b-9e5a-0656d842127b",
+          "claim_token_sha256": "9cdd54fae75371adb12d7ea3d66565ee78569fc4eea7423a51b38143c3dc8239",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:19:54Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:19:53Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source arcade-ashby",
+                "status": "blocked",
+                "summary": "Network error while fetching https://api.ashbyhq.com/posting-api/job-board/arcade?includeCompensation=true: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:19:54Z",
+            "result_digest": "91174534a4d2b3f9f02923bd06290a8ad88d2ef3eb0086371466b8d4de9ce31c",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_6f23ca2a-c059-409b-9e5a-0656d842127b.json",
+            "retry_at": "2026-08-30T19:24:54Z"
+          },
+          "started_at": "2026-08-30T19:19:53Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:2eba2f2a-3d0f-48aa-9f51-70f9b4f4d8ed",
+          "claim_token_sha256": "8156374ffdb15493e8a5d8d1692dad363993952ad748b429121b9d4b41fc2805",
+          "claimed_by": "job-batch:20260830-luna-01",
+          "ended_at": null,
+          "lease_expires_at": "2026-08-31T03:49:47Z",
+          "model": "luna",
+          "started_at": "2026-08-31T02:49:47Z",
+          "status": "running"
+        }
+      ],
+      "available_at": "2026-08-30T19:24:54Z",
+      "claim": {
+        "attempt_id": "attempt:2eba2f2a-3d0f-48aa-9f51-70f9b4f4d8ed",
+        "claim_token": "LTUUHlLQQFtYN882aocwVptL8Fs16xfzTztA53pCi_k",
+        "claimed_at": "2026-08-31T02:49:47Z",
+        "claimed_by": "job-batch:20260830-luna-01",
+        "lease_expires_at": "2026-08-31T03:49:47Z",
+        "requested_model": "luna"
+      },
       "context": {
         "company_snapshot": {
           "address_status": "verified",
@@ -3875,7 +5187,7 @@
       ],
       "resolution": null,
       "root_task_id": "source:arcade-ashby:luna:cab3357b1c0d5dd7",
-      "status": "open",
+      "status": "running",
       "target": {
         "company_ids": [
           "arcade"
@@ -3886,7 +5198,7 @@
       },
       "target_revision": 1,
       "task_id": "source:arcade-ashby:luna:cab3357b1c0d5dd7",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-31T02:49:47Z",
       "workflow": "find_jobs"
     },
     {
@@ -4059,9 +5371,58 @@
       "workflow": "find_jobs"
     },
     {
-      "attempts": [],
-      "available_at": "2026-08-30T03:18:14Z",
-      "claim": null,
+      "attempts": [
+        {
+          "attempt_id": "attempt:42ca282a-f3cd-4126-9491-f55cf1a94a61",
+          "claim_token_sha256": "feb4327fa20a99a04e6d3b99dc02efd86159c3259e2e8e945260dbe287f29805",
+          "claimed_by": "job-batch:F14A2544-10CB-420C-8D2F-7405960C794D",
+          "ended_at": "2026-08-30T19:19:56Z",
+          "error_class": "network",
+          "lease_expires_at": "2026-08-30T20:19:56Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "network",
+            "evidence_count": 0,
+            "failure_number": 1,
+            "item_results": [
+              {
+                "item": "source argonaut-lever",
+                "status": "blocked",
+                "summary": "Network error while fetching https://api.lever.co/v0/postings/argonaut?mode=json&skip=0&limit=100: [Errno 8] nodename nor servname provided, or not known"
+              }
+            ],
+            "notes": "Finalize this draft to schedule a same-model retry or block after the retry limit.",
+            "outcome": "access_failure",
+            "reason_code": "structured_source_access_failed",
+            "resolved_at": "2026-08-30T19:19:56Z",
+            "result_digest": "70a13034e1e15301376fea5a1ac58e824162e8bf99522b0fec4b967385424b87",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_42ca282a-f3cd-4126-9491-f55cf1a94a61.json",
+            "retry_at": "2026-08-30T19:24:56Z"
+          },
+          "started_at": "2026-08-30T19:19:56Z",
+          "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:9dab220b-a1fd-4d00-8b39-d4c950e1a620",
+          "claim_token_sha256": "d05af84f702142f80d5e29f04dc723fe32b10d1437582feb716808aaa6ddebcb",
+          "claimed_by": "job-batch:20260830-1788144545",
+          "ended_at": null,
+          "lease_expires_at": "2026-08-31T03:49:51Z",
+          "model": "luna",
+          "started_at": "2026-08-31T02:49:51Z",
+          "status": "running"
+        }
+      ],
+      "available_at": "2026-08-30T19:24:56Z",
+      "claim": {
+        "attempt_id": "attempt:9dab220b-a1fd-4d00-8b39-d4c950e1a620",
+        "claim_token": "anQQRvrr-sGjvwAUCl6YRiYROQgS6ftJ5fQ9Wx19XNs",
+        "claimed_at": "2026-08-31T02:49:51Z",
+        "claimed_by": "job-batch:20260830-1788144545",
+        "lease_expires_at": "2026-08-31T03:49:51Z",
+        "requested_model": "luna"
+      },
       "context": {
         "company_snapshot": {
           "address_status": "verified",
@@ -4213,7 +5574,7 @@
       ],
       "resolution": null,
       "root_task_id": "source:argonaut-lever:luna:e9abce6a0f92bfa7",
-      "status": "open",
+      "status": "running",
       "target": {
         "company_ids": [
           "argonaut"
@@ -4224,7 +5585,7 @@
       },
       "target_revision": 1,
       "task_id": "source:argonaut-lever:luna:e9abce6a0f92bfa7",
-      "updated_at": "2026-08-30T03:18:14Z",
+      "updated_at": "2026-08-31T02:49:51Z",
       "workflow": "find_jobs"
     },
     {
@@ -91768,7 +93129,1479 @@
       "task_id": "source:zip-primary:luna:de941ed8421cce9b",
       "updated_at": "2026-08-30T03:18:14Z",
       "workflow": "find_jobs"
+    },
+    {
+      "attempts": [],
+      "available_at": "2026-08-30T19:17:30Z",
+      "claim": null,
+      "context": {
+        "company_snapshot": {
+          "address_status": "not_found",
+          "company_id": "anodize",
+          "company_name": "Anodize",
+          "website_url": null
+        },
+        "previous_job_snapshot": null,
+        "profile": {
+          "description": "San Francisco product engineering roles with job-specific AI involvement and a published annual base-compensation maximum of at least $200,000; hybrid or on-site is required only when workplace arrangement is stated.",
+          "hard_constraints": {
+            "compensation": {
+              "basis": "base",
+              "comparison": "published_maximum_at_least",
+              "currency": "USD",
+              "period": "year",
+              "threshold": 200000,
+              "unknown_policy": "exclude"
+            },
+            "employment": {
+              "allowed_types": [
+                "full-time"
+              ],
+              "explicitly_disallowed_types": [
+                "part-time",
+                "contract",
+                "temporary",
+                "internship"
+              ],
+              "missing_type_policy": "assume_full_time"
+            },
+            "location": {
+              "broader_region_only_is_eligible": false,
+              "city": "San Francisco",
+              "country": "US",
+              "mode": "city",
+              "region": "CA"
+            },
+            "role": {
+              "adjacent_titles": [
+                "Software Engineer, AI",
+                "Generative AI Engineer",
+                "AI Applications Engineer",
+                "Frontend Engineer, AI",
+                "Full-Stack Engineer, AI",
+                "Product Engineer, AI",
+                "Applied AI Engineer",
+                "Frontend Engineer",
+                "Front-End Engineer",
+                "Full-Stack Engineer",
+                "Product Engineer",
+                "Software Engineer, Product",
+                "Forward Deployed Engineer",
+                "Growth Engineer"
+              ],
+              "ai_involvement": {
+                "employer_ai_focus_alone_is_sufficient": false,
+                "evidence_scope": "official_job_posting",
+                "minimum_evidence": "role_relevant_indication",
+                "required": true,
+                "signals": [
+                  "building or shipping AI-powered user-facing features",
+                  "building generative-AI or LLM product experiences",
+                  "building agents, copilots, or intelligent workflows",
+                  "integrating machine-learning models or capabilities into a product",
+                  "working directly with AI models, model APIs, evaluation, inference, or AI product infrastructure",
+                  "role responsibilities, qualifications, team description, or technology stack explicitly connect the job to AI or machine learning"
+                ],
+                "unknown_policy": "exclude"
+              },
+              "excluded_titles": [
+                "DevOps Engineer",
+                "Site Reliability Engineer",
+                "SRE",
+                "Platform Engineer",
+                "Infrastructure Engineer"
+              ],
+              "primary_titles": [
+                "AI Frontend Engineer",
+                "Frontend AI Engineer",
+                "AI Full-Stack Engineer",
+                "Full-Stack AI Engineer",
+                "AI Product Engineer"
+              ],
+              "role_families": [
+                "product engineering",
+                "frontend engineering",
+                "full-stack engineering",
+                "applications engineering",
+                "growth engineering",
+                "forward-deployed engineering"
+              ],
+              "role_fit_policy": "title_or_responsibilities",
+              "seniority": {
+                "allowed_levels": [],
+                "collection_required": true,
+                "eligibility_policy": "informational",
+                "excluded_levels": [],
+                "unknown_policy": "include"
+              },
+              "title_policy": "signal_only"
+            },
+            "workplace": {
+              "allowed_arrangements": [
+                "hybrid",
+                "on-site"
+              ],
+              "unknown_policy": "include"
+            }
+          },
+          "profile_id": "ai-product-frontend-v1",
+          "profile_name": "AI Product and Frontend Engineering",
+          "schema_version": 1
+        },
+        "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+        "source_snapshot": {
+          "access_mode": "structured_feed",
+          "added_date": "2026-08-30T19:05:00Z",
+          "board_id": "anodize",
+          "capabilities": {
+            "complete_enumeration": true,
+            "stable_job_identity": true,
+            "structured_data": true
+          },
+          "careers_url": "https://job-boards.greenhouse.io/anodize?error=true",
+          "checked_at": "2026-08-30T19:05:00Z",
+          "company_id": "anodize",
+          "instructions": "Enumerate the public Greenhouse board API for this board, then open each canonical job URL.",
+          "last_success_at": "2026-08-30T19:05:00Z",
+          "listings_url": "https://job-boards.greenhouse.io/anodize",
+          "official_relationship_url": "https://job-boards.greenhouse.io/anodize",
+          "provider": "greenhouse",
+          "record_revision": 1,
+          "scope": "All Anodize roles",
+          "source_id": "anodize-greenhouse",
+          "status": "ready",
+          "updated_date": "2026-08-30T19:05:02Z"
+        },
+        "structured_adapter_available": true
+      },
+      "created_at": "2026-08-30T19:17:30Z",
+      "dedupe_key": "workflow=find_jobs|company=anodize|sources=anodize-greenhouse|reasons=missing_snapshot|policy=job_search_v1|model=luna|revision=1",
+      "expected_model": "luna",
+      "parent_task_id": null,
+      "policy_version": "job_search_v1",
+      "priority": 90,
+      "reason_codes": [
+        "missing_snapshot"
+      ],
+      "resolution": null,
+      "root_task_id": "source:anodize-greenhouse:luna:28ad416190184868",
+      "status": "open",
+      "target": {
+        "company_ids": [
+          "anodize"
+        ],
+        "source_ids": [
+          "anodize-greenhouse"
+        ]
+      },
+      "target_revision": 1,
+      "task_id": "source:anodize-greenhouse:luna:28ad416190184868",
+      "updated_at": "2026-08-30T19:17:30Z",
+      "workflow": "find_jobs"
+    },
+    {
+      "attempts": [],
+      "available_at": "2026-08-30T19:17:30Z",
+      "claim": null,
+      "context": {
+        "company_snapshot": {
+          "address_status": "verified",
+          "company_id": "autopilot",
+          "company_name": "Autopilot",
+          "website_url": "https://ortto.com/"
+        },
+        "previous_job_snapshot": null,
+        "profile": {
+          "description": "San Francisco product engineering roles with job-specific AI involvement and a published annual base-compensation maximum of at least $200,000; hybrid or on-site is required only when workplace arrangement is stated.",
+          "hard_constraints": {
+            "compensation": {
+              "basis": "base",
+              "comparison": "published_maximum_at_least",
+              "currency": "USD",
+              "period": "year",
+              "threshold": 200000,
+              "unknown_policy": "exclude"
+            },
+            "employment": {
+              "allowed_types": [
+                "full-time"
+              ],
+              "explicitly_disallowed_types": [
+                "part-time",
+                "contract",
+                "temporary",
+                "internship"
+              ],
+              "missing_type_policy": "assume_full_time"
+            },
+            "location": {
+              "broader_region_only_is_eligible": false,
+              "city": "San Francisco",
+              "country": "US",
+              "mode": "city",
+              "region": "CA"
+            },
+            "role": {
+              "adjacent_titles": [
+                "Software Engineer, AI",
+                "Generative AI Engineer",
+                "AI Applications Engineer",
+                "Frontend Engineer, AI",
+                "Full-Stack Engineer, AI",
+                "Product Engineer, AI",
+                "Applied AI Engineer",
+                "Frontend Engineer",
+                "Front-End Engineer",
+                "Full-Stack Engineer",
+                "Product Engineer",
+                "Software Engineer, Product",
+                "Forward Deployed Engineer",
+                "Growth Engineer"
+              ],
+              "ai_involvement": {
+                "employer_ai_focus_alone_is_sufficient": false,
+                "evidence_scope": "official_job_posting",
+                "minimum_evidence": "role_relevant_indication",
+                "required": true,
+                "signals": [
+                  "building or shipping AI-powered user-facing features",
+                  "building generative-AI or LLM product experiences",
+                  "building agents, copilots, or intelligent workflows",
+                  "integrating machine-learning models or capabilities into a product",
+                  "working directly with AI models, model APIs, evaluation, inference, or AI product infrastructure",
+                  "role responsibilities, qualifications, team description, or technology stack explicitly connect the job to AI or machine learning"
+                ],
+                "unknown_policy": "exclude"
+              },
+              "excluded_titles": [
+                "DevOps Engineer",
+                "Site Reliability Engineer",
+                "SRE",
+                "Platform Engineer",
+                "Infrastructure Engineer"
+              ],
+              "primary_titles": [
+                "AI Frontend Engineer",
+                "Frontend AI Engineer",
+                "AI Full-Stack Engineer",
+                "Full-Stack AI Engineer",
+                "AI Product Engineer"
+              ],
+              "role_families": [
+                "product engineering",
+                "frontend engineering",
+                "full-stack engineering",
+                "applications engineering",
+                "growth engineering",
+                "forward-deployed engineering"
+              ],
+              "role_fit_policy": "title_or_responsibilities",
+              "seniority": {
+                "allowed_levels": [],
+                "collection_required": true,
+                "eligibility_policy": "informational",
+                "excluded_levels": [],
+                "unknown_policy": "include"
+              },
+              "title_policy": "signal_only"
+            },
+            "workplace": {
+              "allowed_arrangements": [
+                "hybrid",
+                "on-site"
+              ],
+              "unknown_policy": "include"
+            }
+          },
+          "profile_id": "ai-product-frontend-v1",
+          "profile_name": "AI Product and Frontend Engineering",
+          "schema_version": 1
+        },
+        "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+        "source_snapshot": {
+          "access_mode": "html_listing",
+          "added_date": "2026-08-30T19:07:00Z",
+          "board_id": null,
+          "capabilities": {
+            "complete_enumeration": false,
+            "stable_job_identity": false,
+            "structured_data": false
+          },
+          "careers_url": "https://ortto.com/careers/",
+          "checked_at": "2026-08-30T19:07:00Z",
+          "company_id": "autopilot",
+          "instructions": "Open the official Ortto careers page, follow its LinkedIn open-roles link, and enumerate the visible listings.",
+          "last_success_at": "2026-08-30T19:07:00Z",
+          "listings_url": "https://www.linkedin.com/company/ortto/jobs/",
+          "official_relationship_url": "https://ortto.com/careers/",
+          "provider": "linkedin",
+          "record_revision": 1,
+          "scope": "All Ortto roles linked from the official careers page",
+          "source_id": "autopilot-linkedin",
+          "status": "ready",
+          "updated_date": "2026-08-30T19:06:02Z"
+        },
+        "structured_adapter_available": false
+      },
+      "created_at": "2026-08-30T19:17:30Z",
+      "dedupe_key": "workflow=find_jobs|company=autopilot|sources=autopilot-linkedin|reasons=missing_snapshot|policy=job_search_v1|model=luna|revision=1",
+      "expected_model": "luna",
+      "parent_task_id": null,
+      "policy_version": "job_search_v1",
+      "priority": 60,
+      "reason_codes": [
+        "missing_snapshot"
+      ],
+      "resolution": null,
+      "root_task_id": "source:autopilot-linkedin:luna:f311da3c000f6fa6",
+      "status": "open",
+      "target": {
+        "company_ids": [
+          "autopilot"
+        ],
+        "source_ids": [
+          "autopilot-linkedin"
+        ]
+      },
+      "target_revision": 1,
+      "task_id": "source:autopilot-linkedin:luna:f311da3c000f6fa6",
+      "updated_at": "2026-08-30T19:17:30Z",
+      "workflow": "find_jobs"
+    },
+    {
+      "attempts": [],
+      "available_at": "2026-08-30T19:17:30Z",
+      "claim": null,
+      "context": {
+        "company_snapshot": {
+          "address_status": "verified",
+          "company_id": "beacon-software",
+          "company_name": "Beacon Software",
+          "website_url": "https://www.beaconsoftware.com/"
+        },
+        "previous_job_snapshot": null,
+        "profile": {
+          "description": "San Francisco product engineering roles with job-specific AI involvement and a published annual base-compensation maximum of at least $200,000; hybrid or on-site is required only when workplace arrangement is stated.",
+          "hard_constraints": {
+            "compensation": {
+              "basis": "base",
+              "comparison": "published_maximum_at_least",
+              "currency": "USD",
+              "period": "year",
+              "threshold": 200000,
+              "unknown_policy": "exclude"
+            },
+            "employment": {
+              "allowed_types": [
+                "full-time"
+              ],
+              "explicitly_disallowed_types": [
+                "part-time",
+                "contract",
+                "temporary",
+                "internship"
+              ],
+              "missing_type_policy": "assume_full_time"
+            },
+            "location": {
+              "broader_region_only_is_eligible": false,
+              "city": "San Francisco",
+              "country": "US",
+              "mode": "city",
+              "region": "CA"
+            },
+            "role": {
+              "adjacent_titles": [
+                "Software Engineer, AI",
+                "Generative AI Engineer",
+                "AI Applications Engineer",
+                "Frontend Engineer, AI",
+                "Full-Stack Engineer, AI",
+                "Product Engineer, AI",
+                "Applied AI Engineer",
+                "Frontend Engineer",
+                "Front-End Engineer",
+                "Full-Stack Engineer",
+                "Product Engineer",
+                "Software Engineer, Product",
+                "Forward Deployed Engineer",
+                "Growth Engineer"
+              ],
+              "ai_involvement": {
+                "employer_ai_focus_alone_is_sufficient": false,
+                "evidence_scope": "official_job_posting",
+                "minimum_evidence": "role_relevant_indication",
+                "required": true,
+                "signals": [
+                  "building or shipping AI-powered user-facing features",
+                  "building generative-AI or LLM product experiences",
+                  "building agents, copilots, or intelligent workflows",
+                  "integrating machine-learning models or capabilities into a product",
+                  "working directly with AI models, model APIs, evaluation, inference, or AI product infrastructure",
+                  "role responsibilities, qualifications, team description, or technology stack explicitly connect the job to AI or machine learning"
+                ],
+                "unknown_policy": "exclude"
+              },
+              "excluded_titles": [
+                "DevOps Engineer",
+                "Site Reliability Engineer",
+                "SRE",
+                "Platform Engineer",
+                "Infrastructure Engineer"
+              ],
+              "primary_titles": [
+                "AI Frontend Engineer",
+                "Frontend AI Engineer",
+                "AI Full-Stack Engineer",
+                "Full-Stack AI Engineer",
+                "AI Product Engineer"
+              ],
+              "role_families": [
+                "product engineering",
+                "frontend engineering",
+                "full-stack engineering",
+                "applications engineering",
+                "growth engineering",
+                "forward-deployed engineering"
+              ],
+              "role_fit_policy": "title_or_responsibilities",
+              "seniority": {
+                "allowed_levels": [],
+                "collection_required": true,
+                "eligibility_policy": "informational",
+                "excluded_levels": [],
+                "unknown_policy": "include"
+              },
+              "title_policy": "signal_only"
+            },
+            "workplace": {
+              "allowed_arrangements": [
+                "hybrid",
+                "on-site"
+              ],
+              "unknown_policy": "include"
+            }
+          },
+          "profile_id": "ai-product-frontend-v1",
+          "profile_name": "AI Product and Frontend Engineering",
+          "schema_version": 1
+        },
+        "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+        "source_snapshot": {
+          "access_mode": "structured_feed",
+          "added_date": "2026-08-30T19:13:00Z",
+          "board_id": "beaconsoftware",
+          "capabilities": {
+            "complete_enumeration": true,
+            "stable_job_identity": true,
+            "structured_data": true
+          },
+          "careers_url": "https://www.beaconsoftware.com/",
+          "checked_at": "2026-08-30T19:13:00Z",
+          "company_id": "beacon-software",
+          "instructions": "Enumerate the public Ashby board API for this board, then open each canonical job URL.",
+          "last_success_at": "2026-08-30T19:13:00Z",
+          "listings_url": "https://jobs.ashbyhq.com/beaconsoftware",
+          "official_relationship_url": "https://www.beaconsoftware.com/",
+          "provider": "ashby",
+          "record_revision": 1,
+          "scope": "All Beacon Software roles",
+          "source_id": "beacon-software-ashby",
+          "status": "ready",
+          "updated_date": "2026-08-30T19:10:17Z"
+        },
+        "structured_adapter_available": true
+      },
+      "created_at": "2026-08-30T19:17:30Z",
+      "dedupe_key": "workflow=find_jobs|company=beacon-software|sources=beacon-software-ashby|reasons=missing_snapshot|policy=job_search_v1|model=luna|revision=1",
+      "expected_model": "luna",
+      "parent_task_id": null,
+      "policy_version": "job_search_v1",
+      "priority": 90,
+      "reason_codes": [
+        "missing_snapshot"
+      ],
+      "resolution": null,
+      "root_task_id": "source:beacon-software-ashby:luna:d854c309bebc42e6",
+      "status": "open",
+      "target": {
+        "company_ids": [
+          "beacon-software"
+        ],
+        "source_ids": [
+          "beacon-software-ashby"
+        ]
+      },
+      "target_revision": 1,
+      "task_id": "source:beacon-software-ashby:luna:d854c309bebc42e6",
+      "updated_at": "2026-08-30T19:17:30Z",
+      "workflow": "find_jobs"
+    },
+    {
+      "attempts": [],
+      "available_at": "2026-08-31T02:49:39Z",
+      "claim": null,
+      "context": {
+        "company_snapshot": {
+          "address_status": "verified",
+          "company_id": "anyscale",
+          "company_name": "Anyscale",
+          "website_url": "https://anyscale.io/"
+        },
+        "previous_job_snapshot": null,
+        "prior_attempts": [
+          {
+            "model": "luna",
+            "outcome": "inconclusive",
+            "resolution": {
+              "attempt_id": "attempt:a31c8d41-d3d8-4472-8942-3d5866343f91",
+              "evidence_count": 1,
+              "item_results": [
+                {
+                  "item": "source anyscale-ashby",
+                  "status": "inconclusive",
+                  "summary": "Fetched 20 current jobs; 1 qualifying, 9 semantic candidates rejected, 5 remain for follow-up review."
+                }
+              ],
+              "notes": "Reviewed 10 candidates; 5 remain unresolved for the next model.",
+              "outcome": "inconclusive",
+              "reason_code": "semantic_review_required",
+              "resolved_at": "2026-08-31T02:49:39Z",
+              "result_digest": "6337dcbb55d8269154de5c890bff2e2f9d6915cd767dfe8efc7d2160c83970c0",
+              "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_a31c8d41-d3d8-4472-8942-3d5866343f91.json"
+            },
+            "task_id": "source:anyscale-ashby:luna:b34a99a47a8d25bf"
+          }
+        ],
+        "profile": {
+          "description": "San Francisco product engineering roles with job-specific AI involvement and a published annual base-compensation maximum of at least $200,000; hybrid or on-site is required only when workplace arrangement is stated.",
+          "hard_constraints": {
+            "compensation": {
+              "basis": "base",
+              "comparison": "published_maximum_at_least",
+              "currency": "USD",
+              "period": "year",
+              "threshold": 200000,
+              "unknown_policy": "exclude"
+            },
+            "employment": {
+              "allowed_types": [
+                "full-time"
+              ],
+              "explicitly_disallowed_types": [
+                "part-time",
+                "contract",
+                "temporary",
+                "internship"
+              ],
+              "missing_type_policy": "assume_full_time"
+            },
+            "location": {
+              "broader_region_only_is_eligible": false,
+              "city": "San Francisco",
+              "country": "US",
+              "mode": "city",
+              "region": "CA"
+            },
+            "role": {
+              "adjacent_titles": [
+                "Software Engineer, AI",
+                "Generative AI Engineer",
+                "AI Applications Engineer",
+                "Frontend Engineer, AI",
+                "Full-Stack Engineer, AI",
+                "Product Engineer, AI",
+                "Applied AI Engineer",
+                "Frontend Engineer",
+                "Front-End Engineer",
+                "Full-Stack Engineer",
+                "Product Engineer",
+                "Software Engineer, Product",
+                "Forward Deployed Engineer",
+                "Growth Engineer"
+              ],
+              "ai_involvement": {
+                "employer_ai_focus_alone_is_sufficient": false,
+                "evidence_scope": "official_job_posting",
+                "minimum_evidence": "role_relevant_indication",
+                "required": true,
+                "signals": [
+                  "building or shipping AI-powered user-facing features",
+                  "building generative-AI or LLM product experiences",
+                  "building agents, copilots, or intelligent workflows",
+                  "integrating machine-learning models or capabilities into a product",
+                  "working directly with AI models, model APIs, evaluation, inference, or AI product infrastructure",
+                  "role responsibilities, qualifications, team description, or technology stack explicitly connect the job to AI or machine learning"
+                ],
+                "unknown_policy": "exclude"
+              },
+              "excluded_titles": [
+                "DevOps Engineer",
+                "Site Reliability Engineer",
+                "SRE",
+                "Platform Engineer",
+                "Infrastructure Engineer"
+              ],
+              "primary_titles": [
+                "AI Frontend Engineer",
+                "Frontend AI Engineer",
+                "AI Full-Stack Engineer",
+                "Full-Stack AI Engineer",
+                "AI Product Engineer"
+              ],
+              "role_families": [
+                "product engineering",
+                "frontend engineering",
+                "full-stack engineering",
+                "applications engineering",
+                "growth engineering",
+                "forward-deployed engineering"
+              ],
+              "role_fit_policy": "title_or_responsibilities",
+              "seniority": {
+                "allowed_levels": [],
+                "collection_required": true,
+                "eligibility_policy": "informational",
+                "excluded_levels": [],
+                "unknown_policy": "include"
+              },
+              "title_policy": "signal_only"
+            },
+            "workplace": {
+              "allowed_arrangements": [
+                "hybrid",
+                "on-site"
+              ],
+              "unknown_policy": "include"
+            }
+          },
+          "profile_id": "ai-product-frontend-v1",
+          "profile_name": "AI Product and Frontend Engineering",
+          "schema_version": 1
+        },
+        "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+        "source_snapshot": {
+          "access_mode": "structured_feed",
+          "added_date": "2026-08-28T22:59:59Z",
+          "board_id": "anyscale",
+          "capabilities": {
+            "complete_enumeration": true,
+            "stable_job_identity": true,
+            "structured_data": true
+          },
+          "careers_url": "https://www.anyscale.com/careers",
+          "checked_at": "2026-08-28T22:59:59Z",
+          "company_id": "anyscale",
+          "instructions": "Enumerate the public Ashby board through all result pages and open each stable job-detail URL.",
+          "last_success_at": "2026-08-28T22:59:59Z",
+          "listings_url": "https://jobs.ashbyhq.com/anyscale",
+          "official_relationship_url": "https://www.anyscale.com/careers",
+          "provider": "ashby",
+          "record_revision": 1,
+          "scope": "All Anyscale roles",
+          "source_id": "anyscale-ashby",
+          "status": "ready",
+          "updated_date": "2026-08-28T22:59:59Z"
+        },
+        "structured_adapter_available": true
+      },
+      "created_at": "2026-08-31T02:49:39Z",
+      "dedupe_key": "workflow=find_jobs|company=anyscale|sources=anyscale-ashby|reasons=missing_snapshot|policy=job_search_v1|model=terra|revision=1",
+      "expected_model": "terra",
+      "parent_task_id": "source:anyscale-ashby:luna:b34a99a47a8d25bf",
+      "policy_version": "job_search_v1",
+      "priority": 90,
+      "reason_codes": [
+        "missing_snapshot"
+      ],
+      "resolution": null,
+      "root_task_id": "source:anyscale-ashby:luna:b34a99a47a8d25bf",
+      "status": "open",
+      "target": {
+        "company_ids": [
+          "anyscale"
+        ],
+        "source_ids": [
+          "anyscale-ashby"
+        ]
+      },
+      "target_revision": 1,
+      "task_id": "source:anyscale-ashby:terra:9a7bbd227772b7c1",
+      "updated_at": "2026-08-31T02:49:39Z",
+      "workflow": "find_jobs"
+    },
+    {
+      "attempts": [],
+      "available_at": "2026-08-31T02:49:40Z",
+      "claim": null,
+      "context": {
+        "company_snapshot": {
+          "address_status": "verified",
+          "company_id": "anara",
+          "company_name": "Anara",
+          "website_url": "https://anara.com"
+        },
+        "previous_job_snapshot": null,
+        "prior_attempts": [
+          {
+            "model": "luna",
+            "outcome": "inconclusive",
+            "resolution": {
+              "attempt_id": "attempt:88da53ab-b609-4238-89c7-a8fbf3c2cf8e",
+              "evidence_count": 1,
+              "item_results": [
+                {
+                  "item": "source anara-primary",
+                  "status": "inconclusive",
+                  "summary": "Fetched 4 current jobs; 0 deterministically rejected; 4 require semantic review."
+                }
+              ],
+              "notes": "Review every unresolved candidate against role fit and job-specific AI involvement. Move supported candidates to qualifying_jobs, remove reviewed candidates from unresolved_candidates, and set outcome/reason_code before finalizing.",
+              "outcome": "inconclusive",
+              "reason_code": "semantic_review_required",
+              "resolved_at": "2026-08-31T02:49:40Z",
+              "result_digest": "7ac4eeae5107b43881f40d3056638ebf5b87ad46f0584919f460d4e05d59e228",
+              "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_88da53ab-b609-4238-89c7-a8fbf3c2cf8e.json"
+            },
+            "task_id": "source:anara-primary:luna:2fd99132d058fc8d"
+          }
+        ],
+        "profile": {
+          "description": "San Francisco product engineering roles with job-specific AI involvement and a published annual base-compensation maximum of at least $200,000; hybrid or on-site is required only when workplace arrangement is stated.",
+          "hard_constraints": {
+            "compensation": {
+              "basis": "base",
+              "comparison": "published_maximum_at_least",
+              "currency": "USD",
+              "period": "year",
+              "threshold": 200000,
+              "unknown_policy": "exclude"
+            },
+            "employment": {
+              "allowed_types": [
+                "full-time"
+              ],
+              "explicitly_disallowed_types": [
+                "part-time",
+                "contract",
+                "temporary",
+                "internship"
+              ],
+              "missing_type_policy": "assume_full_time"
+            },
+            "location": {
+              "broader_region_only_is_eligible": false,
+              "city": "San Francisco",
+              "country": "US",
+              "mode": "city",
+              "region": "CA"
+            },
+            "role": {
+              "adjacent_titles": [
+                "Software Engineer, AI",
+                "Generative AI Engineer",
+                "AI Applications Engineer",
+                "Frontend Engineer, AI",
+                "Full-Stack Engineer, AI",
+                "Product Engineer, AI",
+                "Applied AI Engineer",
+                "Frontend Engineer",
+                "Front-End Engineer",
+                "Full-Stack Engineer",
+                "Product Engineer",
+                "Software Engineer, Product",
+                "Forward Deployed Engineer",
+                "Growth Engineer"
+              ],
+              "ai_involvement": {
+                "employer_ai_focus_alone_is_sufficient": false,
+                "evidence_scope": "official_job_posting",
+                "minimum_evidence": "role_relevant_indication",
+                "required": true,
+                "signals": [
+                  "building or shipping AI-powered user-facing features",
+                  "building generative-AI or LLM product experiences",
+                  "building agents, copilots, or intelligent workflows",
+                  "integrating machine-learning models or capabilities into a product",
+                  "working directly with AI models, model APIs, evaluation, inference, or AI product infrastructure",
+                  "role responsibilities, qualifications, team description, or technology stack explicitly connect the job to AI or machine learning"
+                ],
+                "unknown_policy": "exclude"
+              },
+              "excluded_titles": [
+                "DevOps Engineer",
+                "Site Reliability Engineer",
+                "SRE",
+                "Platform Engineer",
+                "Infrastructure Engineer"
+              ],
+              "primary_titles": [
+                "AI Frontend Engineer",
+                "Frontend AI Engineer",
+                "AI Full-Stack Engineer",
+                "Full-Stack AI Engineer",
+                "AI Product Engineer"
+              ],
+              "role_families": [
+                "product engineering",
+                "frontend engineering",
+                "full-stack engineering",
+                "applications engineering",
+                "growth engineering",
+                "forward-deployed engineering"
+              ],
+              "role_fit_policy": "title_or_responsibilities",
+              "seniority": {
+                "allowed_levels": [],
+                "collection_required": true,
+                "eligibility_policy": "informational",
+                "excluded_levels": [],
+                "unknown_policy": "include"
+              },
+              "title_policy": "signal_only"
+            },
+            "workplace": {
+              "allowed_arrangements": [
+                "hybrid",
+                "on-site"
+              ],
+              "unknown_policy": "include"
+            }
+          },
+          "profile_id": "ai-product-frontend-v1",
+          "profile_name": "AI Product and Frontend Engineering",
+          "schema_version": 1
+        },
+        "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+        "source_snapshot": {
+          "access_mode": "structured_feed",
+          "added_date": "2026-08-28T22:59:54Z",
+          "board_id": "anara",
+          "capabilities": {
+            "complete_enumeration": true,
+            "stable_job_identity": true,
+            "structured_data": true
+          },
+          "careers_url": "https://anara.com/",
+          "checked_at": "2026-08-28T22:59:54Z",
+          "company_id": "anara",
+          "instructions": "Enumerate the public Ashby board through all result pages and open every stable job-detail URL.",
+          "last_success_at": "2026-08-28T22:59:54Z",
+          "listings_url": "https://jobs.ashbyhq.com/anara",
+          "official_relationship_url": "https://anara.com/",
+          "provider": "ashby",
+          "record_revision": 1,
+          "scope": "All Anara roles",
+          "source_id": "anara-primary",
+          "status": "ready",
+          "updated_date": "2026-08-28T22:59:54Z"
+        },
+        "structured_adapter_available": true
+      },
+      "created_at": "2026-08-31T02:49:40Z",
+      "dedupe_key": "workflow=find_jobs|company=anara|sources=anara-primary|reasons=missing_snapshot|policy=job_search_v1|model=terra|revision=1",
+      "expected_model": "terra",
+      "parent_task_id": "source:anara-primary:luna:2fd99132d058fc8d",
+      "policy_version": "job_search_v1",
+      "priority": 90,
+      "reason_codes": [
+        "missing_snapshot"
+      ],
+      "resolution": null,
+      "root_task_id": "source:anara-primary:luna:2fd99132d058fc8d",
+      "status": "open",
+      "target": {
+        "company_ids": [
+          "anara"
+        ],
+        "source_ids": [
+          "anara-primary"
+        ]
+      },
+      "target_revision": 1,
+      "task_id": "source:anara-primary:terra:1fcc77e39e9af934",
+      "updated_at": "2026-08-31T02:49:40Z",
+      "workflow": "find_jobs"
+    },
+    {
+      "attempts": [],
+      "available_at": "2026-08-31T02:49:41Z",
+      "claim": null,
+      "context": {
+        "company_snapshot": {
+          "address_status": "verified",
+          "company_id": "apollo-io",
+          "company_name": "Apollo.io",
+          "website_url": "https://www.apollo.io/"
+        },
+        "previous_job_snapshot": null,
+        "prior_attempts": [
+          {
+            "model": "luna",
+            "outcome": "inconclusive",
+            "resolution": {
+              "attempt_id": "attempt:4af128f7-002d-4ba5-981d-902f41e56c92",
+              "evidence_count": 1,
+              "item_results": [
+                {
+                  "item": "source apollo-io-greenhouse",
+                  "status": "inconclusive",
+                  "summary": "Fetched 41 current jobs; 19 deterministically rejected; 22 require semantic review."
+                }
+              ],
+              "notes": "Review every unresolved candidate against role fit and job-specific AI involvement. Move supported candidates to qualifying_jobs, remove reviewed candidates from unresolved_candidates, and set outcome/reason_code before finalizing.",
+              "outcome": "inconclusive",
+              "reason_code": "semantic_review_required",
+              "resolved_at": "2026-08-31T02:49:41Z",
+              "result_digest": "6e9214e1d56bba276738c84fac83ab065089602700354d57d1e54fb158ce2e54",
+              "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_4af128f7-002d-4ba5-981d-902f41e56c92.json"
+            },
+            "task_id": "source:apollo-io-greenhouse:luna:0da689f521316e0d"
+          }
+        ],
+        "profile": {
+          "description": "San Francisco product engineering roles with job-specific AI involvement and a published annual base-compensation maximum of at least $200,000; hybrid or on-site is required only when workplace arrangement is stated.",
+          "hard_constraints": {
+            "compensation": {
+              "basis": "base",
+              "comparison": "published_maximum_at_least",
+              "currency": "USD",
+              "period": "year",
+              "threshold": 200000,
+              "unknown_policy": "exclude"
+            },
+            "employment": {
+              "allowed_types": [
+                "full-time"
+              ],
+              "explicitly_disallowed_types": [
+                "part-time",
+                "contract",
+                "temporary",
+                "internship"
+              ],
+              "missing_type_policy": "assume_full_time"
+            },
+            "location": {
+              "broader_region_only_is_eligible": false,
+              "city": "San Francisco",
+              "country": "US",
+              "mode": "city",
+              "region": "CA"
+            },
+            "role": {
+              "adjacent_titles": [
+                "Software Engineer, AI",
+                "Generative AI Engineer",
+                "AI Applications Engineer",
+                "Frontend Engineer, AI",
+                "Full-Stack Engineer, AI",
+                "Product Engineer, AI",
+                "Applied AI Engineer",
+                "Frontend Engineer",
+                "Front-End Engineer",
+                "Full-Stack Engineer",
+                "Product Engineer",
+                "Software Engineer, Product",
+                "Forward Deployed Engineer",
+                "Growth Engineer"
+              ],
+              "ai_involvement": {
+                "employer_ai_focus_alone_is_sufficient": false,
+                "evidence_scope": "official_job_posting",
+                "minimum_evidence": "role_relevant_indication",
+                "required": true,
+                "signals": [
+                  "building or shipping AI-powered user-facing features",
+                  "building generative-AI or LLM product experiences",
+                  "building agents, copilots, or intelligent workflows",
+                  "integrating machine-learning models or capabilities into a product",
+                  "working directly with AI models, model APIs, evaluation, inference, or AI product infrastructure",
+                  "role responsibilities, qualifications, team description, or technology stack explicitly connect the job to AI or machine learning"
+                ],
+                "unknown_policy": "exclude"
+              },
+              "excluded_titles": [
+                "DevOps Engineer",
+                "Site Reliability Engineer",
+                "SRE",
+                "Platform Engineer",
+                "Infrastructure Engineer"
+              ],
+              "primary_titles": [
+                "AI Frontend Engineer",
+                "Frontend AI Engineer",
+                "AI Full-Stack Engineer",
+                "Full-Stack AI Engineer",
+                "AI Product Engineer"
+              ],
+              "role_families": [
+                "product engineering",
+                "frontend engineering",
+                "full-stack engineering",
+                "applications engineering",
+                "growth engineering",
+                "forward-deployed engineering"
+              ],
+              "role_fit_policy": "title_or_responsibilities",
+              "seniority": {
+                "allowed_levels": [],
+                "collection_required": true,
+                "eligibility_policy": "informational",
+                "excluded_levels": [],
+                "unknown_policy": "include"
+              },
+              "title_policy": "signal_only"
+            },
+            "workplace": {
+              "allowed_arrangements": [
+                "hybrid",
+                "on-site"
+              ],
+              "unknown_policy": "include"
+            }
+          },
+          "profile_id": "ai-product-frontend-v1",
+          "profile_name": "AI Product and Frontend Engineering",
+          "schema_version": 1
+        },
+        "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+        "source_snapshot": {
+          "access_mode": "structured_feed",
+          "added_date": "2026-08-28T22:59:59Z",
+          "board_id": "apolloio",
+          "capabilities": {
+            "complete_enumeration": true,
+            "stable_job_identity": true,
+            "structured_data": true
+          },
+          "careers_url": "https://www.apollo.io/careers",
+          "checked_at": "2026-08-28T22:59:59Z",
+          "company_id": "apollo-io",
+          "instructions": "Enumerate the public Greenhouse board through all result pages and open each stable job-detail URL.",
+          "last_success_at": "2026-08-28T22:59:59Z",
+          "listings_url": "https://job-boards.greenhouse.io/apolloio",
+          "official_relationship_url": "https://www.apollo.io/careers",
+          "provider": "greenhouse",
+          "record_revision": 1,
+          "scope": "All Apollo.io roles",
+          "source_id": "apollo-io-greenhouse",
+          "status": "ready",
+          "updated_date": "2026-08-28T22:59:59Z"
+        },
+        "structured_adapter_available": true
+      },
+      "created_at": "2026-08-31T02:49:41Z",
+      "dedupe_key": "workflow=find_jobs|company=apollo-io|sources=apollo-io-greenhouse|reasons=missing_snapshot|policy=job_search_v1|model=terra|revision=1",
+      "expected_model": "terra",
+      "parent_task_id": "source:apollo-io-greenhouse:luna:0da689f521316e0d",
+      "policy_version": "job_search_v1",
+      "priority": 90,
+      "reason_codes": [
+        "missing_snapshot"
+      ],
+      "resolution": null,
+      "root_task_id": "source:apollo-io-greenhouse:luna:0da689f521316e0d",
+      "status": "open",
+      "target": {
+        "company_ids": [
+          "apollo-io"
+        ],
+        "source_ids": [
+          "apollo-io-greenhouse"
+        ]
+      },
+      "target_revision": 1,
+      "task_id": "source:apollo-io-greenhouse:terra:8c9f319bff272959",
+      "updated_at": "2026-08-31T02:49:41Z",
+      "workflow": "find_jobs"
+    },
+    {
+      "attempts": [],
+      "available_at": "2026-08-31T02:49:47Z",
+      "claim": null,
+      "context": {
+        "company_snapshot": {
+          "address_status": "verified",
+          "company_id": "angellist",
+          "company_name": "AngelList",
+          "website_url": "https://www.angellist.com/"
+        },
+        "previous_job_snapshot": null,
+        "prior_attempts": [
+          {
+            "model": "luna",
+            "outcome": "inconclusive",
+            "resolution": {
+              "attempt_id": "attempt:19f43440-301c-43ad-9293-0d6e4bf2c952",
+              "evidence_count": 1,
+              "item_results": [
+                {
+                  "item": "source angellist-lever",
+                  "status": "resolved",
+                  "summary": "Fetched 25 current jobs; 2 deterministically rejected and 23 semantically rejected: no qualifying roles met all profile constraints."
+                }
+              ],
+              "notes": "Review every unresolved candidate against role fit and job-specific AI involvement. Move supported candidates to qualifying_jobs, remove reviewed candidates from unresolved_candidates, and set outcome/reason_code before finalizing.",
+              "outcome": "inconclusive",
+              "reason_code": "semantic_review_required",
+              "resolved_at": "2026-08-31T02:49:47Z",
+              "result_digest": "a10e5838f27959d39bb99abffc97c7523598b78e6aed741a0e855be24de3dc2d",
+              "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_19f43440-301c-43ad-9293-0d6e4bf2c952.json"
+            },
+            "task_id": "source:angellist-lever:luna:3aa4636d44aa6a57"
+          }
+        ],
+        "profile": {
+          "description": "San Francisco product engineering roles with job-specific AI involvement and a published annual base-compensation maximum of at least $200,000; hybrid or on-site is required only when workplace arrangement is stated.",
+          "hard_constraints": {
+            "compensation": {
+              "basis": "base",
+              "comparison": "published_maximum_at_least",
+              "currency": "USD",
+              "period": "year",
+              "threshold": 200000,
+              "unknown_policy": "exclude"
+            },
+            "employment": {
+              "allowed_types": [
+                "full-time"
+              ],
+              "explicitly_disallowed_types": [
+                "part-time",
+                "contract",
+                "temporary",
+                "internship"
+              ],
+              "missing_type_policy": "assume_full_time"
+            },
+            "location": {
+              "broader_region_only_is_eligible": false,
+              "city": "San Francisco",
+              "country": "US",
+              "mode": "city",
+              "region": "CA"
+            },
+            "role": {
+              "adjacent_titles": [
+                "Software Engineer, AI",
+                "Generative AI Engineer",
+                "AI Applications Engineer",
+                "Frontend Engineer, AI",
+                "Full-Stack Engineer, AI",
+                "Product Engineer, AI",
+                "Applied AI Engineer",
+                "Frontend Engineer",
+                "Front-End Engineer",
+                "Full-Stack Engineer",
+                "Product Engineer",
+                "Software Engineer, Product",
+                "Forward Deployed Engineer",
+                "Growth Engineer"
+              ],
+              "ai_involvement": {
+                "employer_ai_focus_alone_is_sufficient": false,
+                "evidence_scope": "official_job_posting",
+                "minimum_evidence": "role_relevant_indication",
+                "required": true,
+                "signals": [
+                  "building or shipping AI-powered user-facing features",
+                  "building generative-AI or LLM product experiences",
+                  "building agents, copilots, or intelligent workflows",
+                  "integrating machine-learning models or capabilities into a product",
+                  "working directly with AI models, model APIs, evaluation, inference, or AI product infrastructure",
+                  "role responsibilities, qualifications, team description, or technology stack explicitly connect the job to AI or machine learning"
+                ],
+                "unknown_policy": "exclude"
+              },
+              "excluded_titles": [
+                "DevOps Engineer",
+                "Site Reliability Engineer",
+                "SRE",
+                "Platform Engineer",
+                "Infrastructure Engineer"
+              ],
+              "primary_titles": [
+                "AI Frontend Engineer",
+                "Frontend AI Engineer",
+                "AI Full-Stack Engineer",
+                "Full-Stack AI Engineer",
+                "AI Product Engineer"
+              ],
+              "role_families": [
+                "product engineering",
+                "frontend engineering",
+                "full-stack engineering",
+                "applications engineering",
+                "growth engineering",
+                "forward-deployed engineering"
+              ],
+              "role_fit_policy": "title_or_responsibilities",
+              "seniority": {
+                "allowed_levels": [],
+                "collection_required": true,
+                "eligibility_policy": "informational",
+                "excluded_levels": [],
+                "unknown_policy": "include"
+              },
+              "title_policy": "signal_only"
+            },
+            "workplace": {
+              "allowed_arrangements": [
+                "hybrid",
+                "on-site"
+              ],
+              "unknown_policy": "include"
+            }
+          },
+          "profile_id": "ai-product-frontend-v1",
+          "profile_name": "AI Product and Frontend Engineering",
+          "schema_version": 1
+        },
+        "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+        "source_snapshot": {
+          "access_mode": "structured_feed",
+          "added_date": "2026-08-14T18:12:12Z",
+          "board_id": "angellist",
+          "capabilities": {
+            "complete_enumeration": true,
+            "stable_job_identity": true,
+            "structured_data": true
+          },
+          "careers_url": "https://www.angellist.com/careers",
+          "checked_at": "2026-08-14T18:12:12Z",
+          "company_id": "angellist",
+          "instructions": "Enumerate the public Lever postings feed for this tenant, then open each hosted job URL.",
+          "last_success_at": "2026-08-14T18:12:12Z",
+          "listings_url": "https://jobs.lever.co/angellist",
+          "official_relationship_url": "https://www.angellist.com/careers",
+          "provider": "lever",
+          "record_revision": 1,
+          "scope": "All AngelList corporate roles",
+          "source_id": "angellist-lever",
+          "status": "ready",
+          "updated_date": "2026-08-14T18:12:12Z"
+        },
+        "structured_adapter_available": true
+      },
+      "created_at": "2026-08-31T02:49:47Z",
+      "dedupe_key": "workflow=find_jobs|company=angellist|sources=angellist-lever|reasons=missing_snapshot|policy=job_search_v1|model=terra|revision=1",
+      "expected_model": "terra",
+      "parent_task_id": "source:angellist-lever:luna:3aa4636d44aa6a57",
+      "policy_version": "job_search_v1",
+      "priority": 90,
+      "reason_codes": [
+        "missing_snapshot"
+      ],
+      "resolution": null,
+      "root_task_id": "source:angellist-lever:luna:3aa4636d44aa6a57",
+      "status": "open",
+      "target": {
+        "company_ids": [
+          "angellist"
+        ],
+        "source_ids": [
+          "angellist-lever"
+        ]
+      },
+      "target_revision": 1,
+      "task_id": "source:angellist-lever:terra:8c71fc6a358511c6",
+      "updated_at": "2026-08-31T02:49:47Z",
+      "workflow": "find_jobs"
+    },
+    {
+      "attempts": [],
+      "available_at": "2026-08-31T02:49:49Z",
+      "claim": null,
+      "context": {
+        "company_snapshot": {
+          "address_status": "verified",
+          "company_id": "applied-compute",
+          "company_name": "Applied Compute",
+          "website_url": null
+        },
+        "previous_job_snapshot": null,
+        "prior_attempts": [
+          {
+            "model": "luna",
+            "outcome": "inconclusive",
+            "resolution": {
+              "attempt_id": "attempt:5e75eac5-8581-4647-9691-6c18944db545",
+              "evidence_count": 1,
+              "item_results": [
+                {
+                  "item": "source applied-compute-ashby",
+                  "status": "inconclusive",
+                  "summary": "Fetched 12 current jobs; 0 deterministically rejected; 12 require semantic review."
+                }
+              ],
+              "notes": "Review every unresolved candidate against role fit and job-specific AI involvement. Move supported candidates to qualifying_jobs, remove reviewed candidates from unresolved_candidates, and set outcome/reason_code before finalizing.",
+              "outcome": "inconclusive",
+              "reason_code": "semantic_review_required",
+              "resolved_at": "2026-08-31T02:49:49Z",
+              "result_digest": "a54909f87d5e46d6689d73cbc63818d936d4c03da1b7409b3729c88bf9447754",
+              "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/jobs/attempt_5e75eac5-8581-4647-9691-6c18944db545.json"
+            },
+            "task_id": "source:applied-compute-ashby:luna:daf4eefaa958edb9"
+          }
+        ],
+        "profile": {
+          "description": "San Francisco product engineering roles with job-specific AI involvement and a published annual base-compensation maximum of at least $200,000; hybrid or on-site is required only when workplace arrangement is stated.",
+          "hard_constraints": {
+            "compensation": {
+              "basis": "base",
+              "comparison": "published_maximum_at_least",
+              "currency": "USD",
+              "period": "year",
+              "threshold": 200000,
+              "unknown_policy": "exclude"
+            },
+            "employment": {
+              "allowed_types": [
+                "full-time"
+              ],
+              "explicitly_disallowed_types": [
+                "part-time",
+                "contract",
+                "temporary",
+                "internship"
+              ],
+              "missing_type_policy": "assume_full_time"
+            },
+            "location": {
+              "broader_region_only_is_eligible": false,
+              "city": "San Francisco",
+              "country": "US",
+              "mode": "city",
+              "region": "CA"
+            },
+            "role": {
+              "adjacent_titles": [
+                "Software Engineer, AI",
+                "Generative AI Engineer",
+                "AI Applications Engineer",
+                "Frontend Engineer, AI",
+                "Full-Stack Engineer, AI",
+                "Product Engineer, AI",
+                "Applied AI Engineer",
+                "Frontend Engineer",
+                "Front-End Engineer",
+                "Full-Stack Engineer",
+                "Product Engineer",
+                "Software Engineer, Product",
+                "Forward Deployed Engineer",
+                "Growth Engineer"
+              ],
+              "ai_involvement": {
+                "employer_ai_focus_alone_is_sufficient": false,
+                "evidence_scope": "official_job_posting",
+                "minimum_evidence": "role_relevant_indication",
+                "required": true,
+                "signals": [
+                  "building or shipping AI-powered user-facing features",
+                  "building generative-AI or LLM product experiences",
+                  "building agents, copilots, or intelligent workflows",
+                  "integrating machine-learning models or capabilities into a product",
+                  "working directly with AI models, model APIs, evaluation, inference, or AI product infrastructure",
+                  "role responsibilities, qualifications, team description, or technology stack explicitly connect the job to AI or machine learning"
+                ],
+                "unknown_policy": "exclude"
+              },
+              "excluded_titles": [
+                "DevOps Engineer",
+                "Site Reliability Engineer",
+                "SRE",
+                "Platform Engineer",
+                "Infrastructure Engineer"
+              ],
+              "primary_titles": [
+                "AI Frontend Engineer",
+                "Frontend AI Engineer",
+                "AI Full-Stack Engineer",
+                "Full-Stack AI Engineer",
+                "AI Product Engineer"
+              ],
+              "role_families": [
+                "product engineering",
+                "frontend engineering",
+                "full-stack engineering",
+                "applications engineering",
+                "growth engineering",
+                "forward-deployed engineering"
+              ],
+              "role_fit_policy": "title_or_responsibilities",
+              "seniority": {
+                "allowed_levels": [],
+                "collection_required": true,
+                "eligibility_policy": "informational",
+                "excluded_levels": [],
+                "unknown_policy": "include"
+              },
+              "title_policy": "signal_only"
+            },
+            "workplace": {
+              "allowed_arrangements": [
+                "hybrid",
+                "on-site"
+              ],
+              "unknown_policy": "include"
+            }
+          },
+          "profile_id": "ai-product-frontend-v1",
+          "profile_name": "AI Product and Frontend Engineering",
+          "schema_version": 1
+        },
+        "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+        "source_snapshot": {
+          "access_mode": "structured_feed",
+          "added_date": "2026-08-28T23:00:08Z",
+          "board_id": "Applied Compute",
+          "capabilities": {
+            "complete_enumeration": true,
+            "stable_job_identity": true,
+            "structured_data": true
+          },
+          "careers_url": "https://www.appliedcompute.com/",
+          "checked_at": "2026-08-28T23:00:08Z",
+          "company_id": "applied-compute",
+          "instructions": "Enumerate the public Ashby board for the exact case-sensitive board ID linked from Applied Compute's official site, then open each canonical Ashby job URL and retain its stable posting identity.",
+          "last_success_at": "2026-08-28T23:00:08Z",
+          "listings_url": "https://jobs.ashbyhq.com/Applied%20Compute",
+          "official_relationship_url": "https://www.appliedcompute.com/",
+          "provider": "ashby",
+          "record_revision": 1,
+          "scope": "All Applied Compute roles",
+          "source_id": "applied-compute-ashby",
+          "status": "ready",
+          "updated_date": "2026-08-28T23:00:08Z"
+        },
+        "structured_adapter_available": true
+      },
+      "created_at": "2026-08-31T02:49:49Z",
+      "dedupe_key": "workflow=find_jobs|company=applied-compute|sources=applied-compute-ashby|reasons=missing_snapshot|policy=job_search_v1|model=terra|revision=1",
+      "expected_model": "terra",
+      "parent_task_id": "source:applied-compute-ashby:luna:daf4eefaa958edb9",
+      "policy_version": "job_search_v1",
+      "priority": 90,
+      "reason_codes": [
+        "missing_snapshot"
+      ],
+      "resolution": null,
+      "root_task_id": "source:applied-compute-ashby:luna:daf4eefaa958edb9",
+      "status": "open",
+      "target": {
+        "company_ids": [
+          "applied-compute"
+        ],
+        "source_ids": [
+          "applied-compute-ashby"
+        ]
+      },
+      "target_revision": 1,
+      "task_id": "source:applied-compute-ashby:terra:908a8b160f857206",
+      "updated_at": "2026-08-31T02:49:49Z",
+      "workflow": "find_jobs"
     }
   ],
-  "updated_at": "2026-08-30T03:18:14Z"
+  "updated_at": "2026-08-31T02:49:51Z"
 }

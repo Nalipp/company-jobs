@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T02:49:01Z",
+      "attempt_id": "attempt:2083b89b-507d-4fcd-8138-6fe81ea111d2",
+      "result_digest": "f897702d64f56d9977a25a00dd0ab79b8916c26183beb3146309eb152c26048b",
+      "task_id": "source:alchemy-ashby:luna:ce2c1d56683d83ad",
+      "transaction_id": "txn:f897702d64f56d9977a25a00"
+    }
+  ],
+  "company_id": "alchemy",
+  "current_job_count": 22,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T02:48:37Z",
+  "last_successful_scan_at": "2026-08-31T02:48:37Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "ai_involvement_insufficient": 2,
+    "compensation_below_profile_threshold": 4,
+    "location_outside_target_city": 3,
+    "role_fit_excluded": 13,
+    "total": 22
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "alchemy-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}
