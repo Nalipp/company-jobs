@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:37:20Z",
+      "attempt_id": "attempt:0a7b2e27-e4e6-4382-824b-24b7fff9c426",
+      "result_digest": "c2f9099b0f859b2838e5d01e5fc5f23021e8d34a45db069bef997f36af997bf3",
+      "task_id": "source:zerocater-primary:luna:2a2e3fbb903bd11d",
+      "transaction_id": "txn:c2f9099b0f859b2838e5d01e"
+    }
+  ],
+  "company_id": "zerocater",
+  "current_job_count": 9,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:37:07Z",
+  "last_successful_scan_at": "2026-08-31T15:37:07Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 4,
+    "semantic_non_target": 4,
+    "title_explicitly_non_target_function": 2,
+    "total": 9
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "zerocater-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,34 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:14:40Z",
+      "attempt_id": "attempt:34163e4a-477c-4e93-ab4b-366a0438b095",
+      "result_digest": "7ad742d841bd6fed73c53788e5276922587c31a250725f847590f39f823e31be",
+      "task_id": "source:payjoy-primary:luna:78a12de9d8b60844",
+      "transaction_id": "txn:7ad742d841bd6fed73c53788"
+    }
+  ],
+  "company_id": "payjoy",
+  "current_job_count": 77,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:14:23Z",
+  "last_successful_scan_at": "2026-08-31T15:14:23Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "employment_internship_excluded": 1,
+    "location_outside_target_city": 67,
+    "title_explicitly_non_target_function": 33,
+    "total": 77,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "payjoy-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

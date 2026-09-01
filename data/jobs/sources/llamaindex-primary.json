@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T03:42:26Z",
+      "attempt_id": "attempt:13cb6637-b9b8-4f90-8830-4084a3c8ccaa",
+      "result_digest": "25a0dea1b2c907e6d894d7a1bf35b2989885357a40982e352d28dd62858be609",
+      "task_id": "source:llamaindex-primary:terra:fc72a0e760d676c0",
+      "transaction_id": "txn:25a0dea1b2c907e6d894d7a1"
+    }
+  ],
+  "company_id": "llamaindex",
+  "current_job_count": 15,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T03:43:00Z",
+  "last_successful_scan_at": "2026-09-01T03:43:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_missing_or_below_threshold": 1,
+    "role_not_target": 12,
+    "semantic_role_rejected": 8
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "llamaindex-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

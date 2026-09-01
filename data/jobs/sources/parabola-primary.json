@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:13:45Z",
+      "attempt_id": "attempt:3dcaa0b8-39ae-4c5d-a666-5d2d8731a045",
+      "result_digest": "c3cb7a6d8d7406c7972b7c4471ffd6a98d486a2135babfe4086877f2ae6ce77b",
+      "task_id": "source:parabola-primary:luna:c17e57b3ac8fe18b",
+      "transaction_id": "txn:c3cb7a6d8d7406c7972b7c44"
+    }
+  ],
+  "company_id": "parabola",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:13:31Z",
+  "last_successful_scan_at": "2026-08-31T15:13:31Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 3,
+    "title_explicitly_non_target_function": 1,
+    "total": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "parabola-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

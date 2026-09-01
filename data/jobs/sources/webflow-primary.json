@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:47:44Z",
+      "attempt_id": "attempt:e3eba2eb-812e-41b5-aab3-c103f2e02902",
+      "result_digest": "7965366ba206c2c22329eac13c21de43e3dab00b62a6757fa8ec11a8ea31f8e5",
+      "task_id": "source:webflow-primary:luna:6fd6273600f3ff6f",
+      "transaction_id": "txn:7965366ba206c2c22329eac1"
+    }
+  ],
+  "company_id": "webflow",
+  "current_job_count": 28,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T04:10:00Z",
+  "last_successful_scan_at": "2026-09-01T04:10:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_unknown": 28
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "webflow-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

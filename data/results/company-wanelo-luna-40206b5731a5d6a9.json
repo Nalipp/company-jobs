@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:wanelo:luna:40206b5731a5d6a9",
+  "attempt_id": "attempt:318ac0ed-768f-4ed0-918f-27442f3df2fe",
+  "claim_token": "IH6BRXUecv3BYOYbTOFLxnYuVjuF8omT-wX0gixLb_o",
+  "model": "luna",
+  "created_at": "2026-09-01T18:11:00Z",
+  "target": {"company_ids": ["wanelo"], "source_ids": ["wanelo-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [
+    {"url": "https://wanelo.com/", "retrieved_at": "2026-09-01T18:11:00Z", "evidence_type": "official_company_site", "finding": "The official Wanelo site is accessible, but no current employer-controlled careers page or job-listing destination was found."},
+    {"url": "https://www.linkedin.com/company/wanelo", "retrieved_at": "2026-09-01T18:11:00Z", "evidence_type": "third_party_company_profile", "finding": "LinkedIn contains a hiring reference and contact email, but it is not an employer-controlled careers destination."}
+  ],
+  "patch": {
+    "company_id": "wanelo",
+    "expected_record_revision": 1,
+    "company_changes": {},
+    "source_upserts": [{
+      "source_id": "wanelo-primary",
+      "company_id": "wanelo",
+      "expected_record_revision": 1,
+      "careers_url": null,
+      "listings_url": null,
+      "provider": "unknown",
+      "board_id": null,
+      "access_mode": null,
+      "scope": "All Wanelo roles",
+      "instructions": "A bounded search found no current employer-controlled careers destination; recheck the official site before the next source refresh.",
+      "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+      "status": "no_careers_found",
+      "official_relationship_url": "https://wanelo.com",
+      "checked_at": "2026-09-01T18:11:00Z",
+      "last_success_at": null,
+      "added_date": "2026-08-28T23:04:10Z",
+      "updated_date": "2026-09-01T18:11:00Z"
+    }]
+  },
+  "item_results": [{"item": "wanelo-primary", "status": "resolved", "summary": "Official site rechecked; no employer-controlled careers source found."}],
+  "failure_class": null,
+  "notes": "Canonical source metadata refreshed; no company identity changes."
+}

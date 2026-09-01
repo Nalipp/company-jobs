@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:17:44Z",
+      "attempt_id": "attempt:07b0d92c-1019-4159-b1cc-24295b12f9cf",
+      "result_digest": "523d89993e07f5b1c71a9049be5defe0219ff254e9521baceb3154a732c97a0e",
+      "task_id": "source:omen-primary:luna:91650d2ca9f1651e",
+      "transaction_id": "txn:523d89993e07f5b1c71a9049"
+    }
+  ],
+  "company_id": "omen",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:17:21Z",
+  "last_successful_scan_at": "2026-08-31T22:17:21Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_unknown": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "omen-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

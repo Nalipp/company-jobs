@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:36:20Z",
+      "attempt_id": "attempt:61efef37-9bc5-4236-8566-60028c7629ac",
+      "result_digest": "05f21e7dc43c1ec27c532ca97417c5b8943deebfd86bdf8712c1ef0d1e074bbb",
+      "task_id": "source:hub-international-workday:luna:096ad7fb167e0efb",
+      "transaction_id": "txn:05f21e7dc43c1ec27c532ca9"
+    }
+  ],
+  "company_id": "hub-international",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:35:17Z",
+  "last_successful_scan_at": "2026-08-31T21:35:17Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "hub-international-workday",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

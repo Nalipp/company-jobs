@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:07:47Z",
+      "attempt_id": "attempt:44ff0045-f3fe-4cf7-849c-3399cbbdcad9",
+      "result_digest": "37332d7df88fedd9e987e0f7bea84c5f59f524b33ac3f1719ab8c0fc67c26112",
+      "task_id": "source:doordash-primary:luna:dbbc8fc79ec21b27",
+      "transaction_id": "txn:37332d7df88fedd9e987e0f7"
+    }
+  ],
+  "company_id": "doordash",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:20:00Z",
+  "last_successful_scan_at": "2026-08-31T21:20:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_unknown_or_role_mismatch": 22
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "doordash-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

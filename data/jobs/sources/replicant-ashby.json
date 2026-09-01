@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:19:16Z",
+      "attempt_id": "attempt:6e499aaf-6964-4417-91f0-7271be15cf2c",
+      "result_digest": "9e14a634a51b2fb03d3da0fef1047d42b67b451c2f44c47b6232757eedea801e",
+      "task_id": "source:replicant-ashby:luna:9f762f6afb5d1f3b",
+      "transaction_id": "txn:9e14a634a51b2fb03d3da0fe"
+    }
+  ],
+  "company_id": "replicant",
+  "current_job_count": 8,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:19:02Z",
+  "last_successful_scan_at": "2026-08-31T15:19:02Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "location_outside_target_city": 2,
+    "total": 8,
+    "workplace_remote_excluded": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "replicant-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

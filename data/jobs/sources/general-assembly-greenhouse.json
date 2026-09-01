@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:06:38Z",
+      "attempt_id": "attempt:bea81b31-010f-4feb-bcce-a547346c94d9",
+      "result_digest": "1e5295cb3c9d4e3bf3aaa955cc9df64e02b4495ed8fa2ce3161567b2e4f99a0d",
+      "task_id": "source:general-assembly-greenhouse:luna:caf154a9de46a094",
+      "transaction_id": "txn:1e5295cb3c9d4e3bf3aaa955"
+    }
+  ],
+  "company_id": "general-assembly",
+  "current_job_count": 19,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:06:26Z",
+  "last_successful_scan_at": "2026-08-31T04:06:26Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 3,
+    "location_outside_target_city": 13,
+    "title_explicitly_non_target_function": 6,
+    "total": 19
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "general-assembly-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,74 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:03:05Z",
+      "attempt_id": "attempt:5c2e6fba-917e-4eea-a0e2-2473922755cb",
+      "result_digest": "334baf260e7e9b04bc0207805394b927304833d4e87855e3afb603a247c4acdb",
+      "task_id": "source:magic-ashby:luna:98ad378221c308b7",
+      "transaction_id": "txn:334baf260e7e9b04bc020780"
+    }
+  ],
+  "company_id": "magic",
+  "current_job_count": 10,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/magic.dev/e6bfccff-afd4-464b-a434-b5d22002d8e1",
+      "company_id": "magic",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 550000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $550K"
+      },
+      "compensation_text": "$200K - $550K",
+      "department": "Engineering",
+      "description_text": "Magic’s mission is to build safe AGI that accelerates humanity’s progress on the world’s most important problems. We believe the most promising path to safe AGI lies in automating research and code generation to improve models and solve alignment more reliably than humans can alone. Our approach combines frontier-scale pre-training, domain-specific RL, ultra-long context, and inference-time compute to achieve this goal. ABOUT THE ROLE As a Software Engineer on the Product team, you will build and scale the user-facing systems that sit directly on top of Magic’s long-context models. This is an end-to-end role spanning frontend, backend, APIs, and deep model integration. You will own product surfaces from problem framing through implementation and iteration, working closely with RL Research & Environments to translate capability improvements into real user impact. Magic’s long-context models introduce distinct product challenges: making complex behavior understandable, exposing control without overwhelming users, and maintaining reliability under long-running or high-context workloads. You will design systems that make advanced model behavior intuitive and production-ready. This role can evolve into broader ownership of product architecture, defining AI-native interaction patterns, or leading major product initiatives built on top of Magic’s long-context models. WHAT YOU’LL WORK ON - Build and maintain web applications and developer-facing tools powered by long-context models - Design and implement backend APIs and service integrations - Integrate model capabilities into usable product workflows - Improve reliability, observability, and performance of product-facing systems - Collaborate closely with RL and research teams to translate capability gains into shipped features - Iterate quickly based on product feedback and real-world usage WHAT WE’RE LOOKING FOR - Strong software engineering fundamentals across the stack - Experience building and shipping production-grade products - High product judgment and strong taste in interaction design - Ability to translate complex technical systems into simple user workflows - Comfort operating in ambiguous, fast-moving environments - Track record of owning product work end-to-end OUR CULTURE - Integrity. Words and actions should be aligned - Hands-on. At Magic, everyone is building - Teamwork. We move as one team, not N individuals - Focus. Safely deploy AGI. Everything else is noise - Quality. Magic should feel like magic Magic strives to be the place where high-potential individuals can do their best work. We value quick learning and grit just as much as skill and experience. COMPENSATION, BENEFITS, AND PERKS (US): - Annual salary ranges between $200K - $550K depending on experience - Equity is a significant part of total compensation, in addition to salary - 401(k) plan with 6% salary matching - Generous health, dental and vision insurance for you and your dependents - Unlimited paid time off - Visa sponsorship and relocation stipend to bring you to SF, if possible - A small, fast-paced, highly focused team",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:02:47Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:02:47Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, USA"
+      ],
+      "posted_at": "2025-06-20T20:31:49Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "published USD annual base maximum $550,000",
+        "full-time product engineering role",
+        "end-to-end user-facing systems powered by long-context AI models"
+      ],
+      "source_id": "magic-ashby",
+      "source_job_id": "e6bfccff-afd4-464b-a434-b5d22002d8e1",
+      "stable_id": "job-154a6d378aee940f88ce0137",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Member of Technical Staff, Product",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:02:47Z",
+  "last_successful_scan_at": "2026-08-31T15:02:47Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "role_not_target_family": 9,
+    "total": 9
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "magic-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

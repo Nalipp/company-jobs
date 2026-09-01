@@ -46,6 +46,14 @@ class RepoPaths:
     def audit_events(self) -> Path:
         return self.root / "data" / "audit" / "events.jsonl"
 
+    @property
+    def telemetry_dir(self) -> Path:
+        return self.root / "data" / "telemetry"
+
+    @property
+    def telemetry_lock(self) -> Path:
+        return self.root / "data" / "telemetry.lock"
+
     def queue_path(self, workflow: str) -> Path:
         return self.company_queue if workflow == "validate_companies" else self.job_queue
 
@@ -56,4 +64,3 @@ class RepoPaths:
     def journal_path(self, workflow: str) -> Path:
         leaf = "company" if workflow == "validate_companies" else "jobs"
         return self.root / "data" / "transactions" / f"{leaf}.journal.json"
-

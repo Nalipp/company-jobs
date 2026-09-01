@@ -6,7 +6,7 @@ import json
 import socket
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.error import URLError
+from urllib.error import HTTPError, URLError
 
 import pytest
 
@@ -23,9 +23,17 @@ from v4_daily_jobs.audit import (
 from v4_daily_jobs.companies import validate_integrity
 from v4_daily_jobs.cli import main as cli_main
 from v4_daily_jobs.fetching import FetchError, fetch_json, prepare_job_result
-from v4_daily_jobs.finalize import finalize_result, recover_journal
+from v4_daily_jobs.finalize import (
+    finalize_result,
+    preflight_job_result,
+    recover_journal,
+)
+from v4_daily_jobs.jobs import JobInvariantError
 from v4_daily_jobs.migration import EXPECTED_COMPANY_COUNTS, build_migration
-from v4_daily_jobs.maintenance import repair_job_qualification_statuses
+from v4_daily_jobs.maintenance import (
+    repair_invalid_job_escalations,
+    repair_job_qualification_statuses,
+)
 from v4_daily_jobs.paths import RepoPaths
 from v4_daily_jobs.queue import QueueEngine
 from v4_daily_jobs.reporting import (
@@ -355,6 +363,27 @@ def job_result(paths: RepoPaths, claim, jobs: list[dict], qualifying: list[dict 
     }
 
 
+def test_job_result_preflight_is_read_only_and_catches_missing_job_ownership(repo_factory) -> None:
+    paths = RepoPaths.discover(repo_factory(verified=True, with_source=True))
+    claim = job_claim(paths, policy="jobs_preflight_v1")
+    job = normalized_job("example-company-ashby")
+    result = job_result(paths, claim, [job], [{"stable_id": job["stable_id"]}])
+    result_path = paths.result_dir("find_jobs") / "preflight.json"
+    write_json(result_path, result)
+    before = paths.job_queue.read_bytes()
+
+    report = preflight_job_result(paths, result_path)
+    assert report["operation"] == "find_jobs.preflight-result"
+    assert paths.job_queue.read_bytes() == before
+    assert not list(paths.job_sources.glob("*.json"))
+
+    result["snapshot"]["adapter_result"]["jobs"][0].pop("source_id")
+    write_json(result_path, result)
+    with pytest.raises(JobInvariantError, match="normalized job does not belong"):
+        preflight_job_result(paths, result_path)
+    assert paths.job_queue.read_bytes() == before
+
+
 def test_job_finalizer_preserves_lifecycle_history(repo_factory) -> None:
     paths = RepoPaths.discover(repo_factory(verified=True, with_source=True))
     first_claim = job_claim(paths, policy="jobs_first_v1")
@@ -477,6 +506,46 @@ def test_prepare_incomplete_or_invalid_feed_fails_closed(repo_factory, monkeypat
     assert invalid["result"]["failure_class"] == "invalid_output"
 
 
+def test_manual_source_cannot_enter_structured_prepare_path(repo_factory) -> None:
+    paths = RepoPaths.discover(repo_factory(verified=True, with_source=True))
+    claim = job_claim(paths)
+    claim.task["context"]["structured_adapter_available"] = False
+
+    with pytest.raises(FetchError, match="restricted to the structured lane") as raised:
+        prepare_job_result(paths, claim.task)
+
+    assert raised.value.retryable is False
+    assert raised.value.reason_code == "manual_lane_required"
+    task = job_engine(paths).read()["tasks"][0]
+    assert task["status"] == "running"
+    assert len(task["attempts"]) == 1
+
+
+def test_http_404_blocks_immediately_without_retry(repo_factory, monkeypatch) -> None:
+    paths = RepoPaths.discover(repo_factory(verified=True, with_source=True))
+    claim = job_claim(paths)
+
+    def missing(_request, timeout):
+        del timeout
+        raise HTTPError("https://example.test/feed", 404, "not found", {}, None)
+
+    monkeypatch.setattr(fetching_module, "urlopen", missing)
+    prepared = prepare_job_result(paths, claim.task)
+    result = prepared["result"]
+    assert result["reason_code"] == "structured_source_not_found"
+    assert result["retryable"] is False
+
+    report = finalize_result(paths, Path(prepared["result_path"]))
+    assert report["queue_delta"]["final_status"] == "blocked"
+    task = job_engine(paths).read()["tasks"][0]
+    assert task["status"] == "blocked"
+    assert task["attempts"][-1]["resolution"]["failure_number"] == 1
+    company_tasks = company_engine(paths).read()["tasks"]
+    assert len(company_tasks) == 1
+    assert company_tasks[0]["reason_codes"] == ["job_source_revalidation"]
+    assert company_tasks[0]["target"]["source_ids"] == ["example-company-ashby"]
+
+
 def test_dns_failure_is_environment_failure_and_does_not_consume_retry(
     repo_factory, monkeypatch
 ) -> None:
@@ -501,7 +570,7 @@ def test_dns_failure_is_environment_failure_and_does_not_consume_retry(
     validate(result, "job-result.schema.json")
 
     report = finalize_result(paths, Path(prepared["result_path"]))
-    assert report["queue_delta"]["stop_batch"] is True
+    assert report["queue_delta"]["stop_worker"] is True
     assert report["queue_delta"]["retry_budget_consumed"] is False
     task = job_engine(paths).read()["tasks"][0]
     assert task["status"] == "open"
@@ -522,6 +591,27 @@ def test_resolved_job_result_cannot_change_profile_or_leave_candidates(repo_fact
         finalize_result(paths, unresolved_path)
     assert not paths.journal_path("find_jobs").exists()
 
+
+def test_manual_result_requires_explicit_candidate_accounting(repo_factory) -> None:
+    paths = RepoPaths.discover(repo_factory(verified=True, with_source=True))
+    claim = job_claim(paths)
+    task = copy.deepcopy(claim.task)
+    task["context"]["structured_adapter_available"] = False
+    job = normalized_job("example-company-ashby")
+    result = job_result(paths, claim, [job], [])
+
+    with pytest.raises(Exception, match="requires semantic_decisions"):
+        finalize_module._verify_result_scope(task, result)
+
+    result["snapshot"]["semantic_decisions"] = [
+        {
+            "stable_id": job["stable_id"],
+            "decision": "rejected",
+            "review_notes": "Official posting establishes AI work but not product or frontend role fit.",
+        }
+    ]
+    finalize_module._verify_result_scope(task, result)
+
     changed_profile = job_result(paths, claim, [job], [])
     changed_profile["snapshot"]["profile_digest"] = "f" * 64
     profile_path = paths.result_dir("find_jobs") / "changed-profile.json"
@@ -529,6 +619,80 @@ def test_resolved_job_result_cannot_change_profile_or_leave_candidates(repo_fact
     with pytest.raises(Exception, match="profile digest"):
         finalize_result(paths, profile_path)
     assert not paths.journal_path("find_jobs").exists()
+
+
+def test_unreviewed_or_budget_limited_job_result_cannot_escalate(repo_factory) -> None:
+    paths = RepoPaths.discover(repo_factory(verified=True, with_source=True))
+    claim = job_claim(paths, policy="jobs_review_gate_v1")
+    job = normalized_job("example-company-ashby")
+    result = job_result(paths, claim, [job], [])
+    result["outcome"] = "inconclusive"
+    result["reason_code"] = "semantic_review_required"
+    result["snapshot"]["unresolved_candidates"] = [copy.deepcopy(job)]
+    result_path = paths.result_dir("find_jobs") / "unreviewed.json"
+    write_json(result_path, result)
+
+    with pytest.raises(Exception, match="Only evidence-based semantic uncertainty"):
+        finalize_result(paths, result_path)
+    assert not paths.journal_path("find_jobs").exists()
+    task = job_engine(paths).read()["tasks"][0]
+    assert task["status"] == "running"
+    assert len(job_engine(paths).read()["tasks"]) == 1
+
+    result["reason_code"] = "manual_detail_review_incomplete"
+    result["snapshot"]["unresolved_candidates"][0]["review_notes"] = (
+        "Detail-page review was not completed."
+    )
+    write_json(result_path, result)
+    with pytest.raises(Exception, match="Only evidence-based semantic uncertainty"):
+        finalize_result(paths, result_path)
+
+    result["reason_code"] = "semantic_evidence_inconclusive"
+    result["snapshot"]["unresolved_candidates"][0]["review_notes"] = (
+        "The official posting does not establish whether the role ships a user-facing AI product."
+    )
+    write_json(result_path, result)
+    report = finalize_result(paths, result_path)
+    assert report["queue_delta"]["follow_up_model"] == "terra"
+
+
+def test_repair_reopens_invalid_luna_escalation_and_supersedes_unused_child(
+    repo_factory,
+) -> None:
+    paths = RepoPaths.discover(repo_factory(verified=True, with_source=True))
+    claim = job_claim(paths, policy="jobs_escalation_repair_v1")
+    job = normalized_job("example-company-ashby")
+    result = job_result(paths, claim, [job], [])
+    result["outcome"] = "inconclusive"
+    result["reason_code"] = "semantic_evidence_inconclusive"
+    unresolved = copy.deepcopy(job)
+    unresolved["review_notes"] = "The official description leaves role fit ambiguous."
+    result["snapshot"]["unresolved_candidates"] = [unresolved]
+    result_path = paths.result_dir("find_jobs") / "repairable-escalation.json"
+    write_json(result_path, result)
+    finalize_result(paths, result_path)
+
+    # Simulate a historical finalization made before the review gate existed.
+    result["reason_code"] = "execution_budget"
+    del result["snapshot"]["unresolved_candidates"][0]["review_notes"]
+    write_json(result_path, result)
+
+    repaired = repair_invalid_job_escalations(paths)
+    assert repaired["reopened_count"] == 1
+    assert repaired["superseded_count"] == 1
+    tasks = job_engine(paths).read()["tasks"]
+    parent = next(task for task in tasks if task["expected_model"] == "luna")
+    child = next(task for task in tasks if task["expected_model"] == "terra")
+    assert parent["status"] == "open"
+    assert parent["resolution"] is None
+    assert parent["context"]["maintenance_history"][0]["invalid_reason"] == "execution_budget"
+    assert child["status"] == "superseded"
+    assert child["resolution"]["superseded_by_task_id"] == parent["task_id"]
+
+    before = paths.job_queue.read_bytes()
+    repeated = repair_invalid_job_escalations(paths)
+    assert repeated["reopened_count"] == 0
+    assert paths.job_queue.read_bytes() == before
 
 
 def test_audits_are_idempotent_and_status_is_read_only(repo_factory) -> None:
@@ -725,7 +889,7 @@ def test_real_cli_audit_claim_and_empty_claim_contract(repo_factory, capsys) -> 
     assert queue_path.read_bytes() == before_empty
 
 
-def test_next_commands_is_read_only_and_uses_batch_math(repo_factory) -> None:
+def test_next_commands_is_read_only_and_recommends_drain_workers(repo_factory) -> None:
     paths = RepoPaths.discover(repo_factory(verified=True, with_source=True))
     canonical = load(paths.companies)
     profile = load(paths.profile)
@@ -741,8 +905,8 @@ def test_next_commands_is_read_only_and_uses_batch_math(repo_factory) -> None:
 
     plan = next_commands_snapshot(
         paths,
-        company_batch_size=50,
-        job_batch_size=5,
+        company_workers=10,
+        job_workers=5,
         now=datetime(2026, 8, 30, 12, tzinfo=timezone.utc),
     )
     after = {path: path.read_bytes() for path in tracked}
@@ -750,19 +914,16 @@ def test_next_commands_is_read_only_and_uses_batch_math(repo_factory) -> None:
     company, jobs = plan["workflows"]
     assert company["launches"] == []
     assert company["audit_recommended"] is False
-    assert jobs["launches"][0]["command"] == (
-        "$find-jobs --claim-next luna --batch-size 5"
-    )
+    assert jobs["launches"][0]["command"] == "$find-jobs --run luna --lane structured"
     assert jobs["launches"][0]["launch_count"] == 1
-    assert jobs["launches"][0]["count_is_minimum"] is True
     rendered = render_next_commands(plan)
     assert "No command required" in rendered
-    assert "Run at least 1 time(s): $find-jobs" in rendered
+    assert "Open 1 new agent(s), once each: $find-jobs" in rendered
 
-    with pytest.raises(ValueError, match="company batch size"):
-        next_commands_snapshot(paths, company_batch_size=76)
-    with pytest.raises(ValueError, match="job batch size"):
-        next_commands_snapshot(paths, job_batch_size=21)
+    with pytest.raises(ValueError, match="company workers"):
+        next_commands_snapshot(paths, company_workers=51)
+    with pytest.raises(ValueError, match="job workers"):
+        next_commands_snapshot(paths, job_workers=51)
 
 
 def test_next_commands_includes_not_yet_enqueued_audit_work(repo_factory) -> None:
@@ -791,7 +952,7 @@ def test_next_commands_includes_not_yet_enqueued_audit_work(repo_factory) -> Non
 
     plan = next_commands_snapshot(
         paths,
-        job_batch_size=5,
+        job_workers=5,
         now=datetime(2026, 8, 30, 12, tzinfo=timezone.utc),
     )
     jobs = plan["workflows"][1]
@@ -805,3 +966,61 @@ def test_next_commands_includes_not_yet_enqueued_audit_work(repo_factory) -> Non
         "Run once first: .venv/bin/v4-queue jobs audit-and-enqueue" in rendered
     )
     assert "Includes 1 task(s) added by the audit above" in rendered
+
+
+def test_next_commands_prioritizes_existing_manual_work_without_hiding_structured_work(
+    repo_factory,
+) -> None:
+    paths = RepoPaths.discover(repo_factory(verified=True, with_source=True))
+    canonical = load(paths.companies)
+    source = canonical["companies"][0]["career_sources"][0]
+    source.update(
+        {
+            "provider": "custom",
+            "board_id": None,
+            "access_mode": "html_listing",
+            "capabilities": {
+                "complete_enumeration": True,
+                "stable_job_identity": True,
+                "structured_data": False,
+            },
+        }
+    )
+    write_json(paths.companies, canonical)
+    audit_and_enqueue_jobs(
+        canonical,
+        job_engine(paths),
+        load(paths.profile),
+        {},
+        now=datetime(2026, 8, 30, 12, tzinfo=timezone.utc),
+    )
+
+    structured_source = copy.deepcopy(source)
+    structured_source.update(
+        {
+            "source_id": "example-company-greenhouse",
+            "provider": "greenhouse",
+            "board_id": "example-company",
+            "access_mode": "structured_feed",
+            "capabilities": {
+                "complete_enumeration": True,
+                "stable_job_identity": True,
+                "structured_data": True,
+            },
+        }
+    )
+    canonical["companies"][0]["career_sources"].append(structured_source)
+    canonical["revision"] += 1
+    write_json(paths.companies, canonical)
+
+    plan = next_commands_snapshot(
+        paths,
+        job_workers=3,
+        now=datetime(2026, 8, 30, 12, tzinfo=timezone.utc),
+    )
+
+    jobs = plan["workflows"][1]
+    assert jobs["launches"][0]["lane"] == "manual"
+    assert jobs["launches"][0]["command"] == "$find-jobs --run luna --lane manual"
+    assert jobs["launches"][1]["lane"] == "structured"
+    assert jobs["launches"][1]["pending_audit_tasks"] == 1

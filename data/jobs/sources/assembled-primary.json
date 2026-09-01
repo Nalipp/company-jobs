@@ -1,0 +1,78 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:28:20Z",
+      "attempt_id": "attempt:4fb7d7d9-3f02-40d6-8286-965076601118",
+      "result_digest": "0b033107a317cb4badb1524ecb25076eee00ed32208a5514d0d5285967f44dd9",
+      "task_id": "source:assembled-primary:luna:9082b8fcdc47d9b1",
+      "transaction_id": "txn:0b033107a317cb4badb1524e"
+    }
+  ],
+  "company_id": "assembled",
+  "current_job_count": 20,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/assembledhq/dc171cfa-d410-4de9-8065-e0322cd4d399",
+      "company_id": "assembled",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 210000,
+        "minimum": 140000,
+        "period": "year",
+        "source_text": "$140K - $210K"
+      },
+      "compensation_text": "$140K - $210K",
+      "department": "Engineering",
+      "description_text": "ABOUT ASSEMBLED Great customer support requires human agents and AI in perfect balance, and Assembled https://www.assembled.com/customers is the only unified platform that orchestrates both at scale. Companies like Canva, Etsy, and Robinhood use Assembled to coordinate their entire support operation — in-house agents, BPOs, and AI — in a single operating system. With AI Agents that resolve cases end-to-end, AI Copilot for agent assistance, and AI-powered workforce management that optimizes both human and AI capacity, Assembled helps teams deliver faster, better service while making smarter decisions about how to staff and automate. Backed by $71M from NEA, Emergence Capital, and Stripe, we're building the platform that makes AI and human collaboration actually work. THE ROLE We're looking for a full-stack product engineer with deep frontend expertise. You'll work across the stack to ship customer-facing product experiences, from polished interfaces to the backend systems, APIs, and AI-powered workflows that power them. You'll partner closely with product and design, move quickly from idea to production, and help shape both what we build and how we build it. We're looking for a product-minded engineer who can own outcomes end-to-end, but who also brings strong frontend engineering fundamentals, exceptional product instincts, and a high bar for user experience. We're in-person 5 days a week from our bright, airy offices in the Mission (San Francisco) and Chelsea Market (New York). WHAT YOU'LL OWN - Build product experiences end to end — Own customer-facing features from concept through production across frontend, backend, APIs, data models, and AI-powered workflows. - Lead frontend implementation for complex products — Build intuitive, performant user experiences while bringing strong judgment around frontend architecture, state management, and application design. - Strengthen our frontend foundations — Improve performance, maintainability, developer experience, and technical quality across our React application. Drive major upgrades and architectural improvements when needed. - Create reusable systems and patterns — Build thoughtful abstractions, components, and frameworks that help the team move faster without sacrificing product quality. - Partner deeply with product and design — Turn ambiguous customer problems into elegant product experiences and iterate quickly based on customer feedback. - Shape the future of AI-assisted software development — Evaluate, experiment with, and operationalize AI coding agents and development workflows. Help us determine how engineers and AI work together to build products faster, with higher quality, and greater leverage. WHAT EXCITES US - 4+ years of software engineering experience building and shipping production software. - Strong full-stack engineering skills, with the ability to comfortably move between frontend, backend, APIs, databases, and infrastructure. - Exceptional frontend engineering fundamentals, including experience building large React applications and making sound decisions around architecture, performance, maintainability, and developer experience. - A strong product mindset and track record of owning customer-facing features from idea through launch. - Experience partnering closely with product managers and designers to turn ambiguous problems into polished user experiences. - Strong communication skills, both written and verbal. - Bias toward ownership and shipping, especially in fast-moving environments where priorities evolve quickly. - Experience using AI coding agents in your daily workflow and excitement about how AI is changing software development. NICE TO HAVES - Experience with our full stack: TypeScript, React, Storybook, and data visualization libraries such as Visx, D3, Chart.js, or similar. - Experience improving frontend performance, application architecture, build systems, or developer experience at scale. - Experience working on B2B SaaS, operational software, support tooling, or workflow-heavy products. OUR U.S. BENEFITS - Generous medical, dental, and vision benefits - Paid company holidays, sick time, and unlimited time off - Monthly credits to spend on each: professional development, general wellness, Assembled customers, and commuting - Paid parental leave - Catered lunches every day (M-F) and fully stocked kitchen - 401(k) plan enrollment The estimated base salary range for this role is $140,000 - $210,000 per year. The base pay offered may vary depending on location, job-related knowledge, skills, and experience. Stock options are provided as part of the compensation package, in addition to a full range of medical, financial, and/or other benefits, dependent on the position offered. We know great candidates don’t always meet every requirement listed in a job description. If the role excites you and you believe you can make an impact at Assembled, we encourage you to apply. We value diverse perspectives and are committed to building an inclusive workplace where everyone feels like they belong and has the opportunity to do their best work. We look forward to hearing from you! For United States Applicants: Assembled participates in E-Verify and will provide the federal government with your Form I-9 information to confirm that you are authorized to work in the United States. For United Kingdom Applicants: Assembled is required to verify your right to work in the UK and will conduct a Right to Work check prior to employment in accordance with applicable law.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T03:27:57Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T03:27:57Z",
+      "locations": [
+        "New York City, NY",
+        "New York City, New York, United States",
+        "San Francisco, CA"
+      ],
+      "posted_at": "2026-07-01T17:30:48Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "Product frontend-leaning software engineering role lists San Francisco and on-site work; published salary maximum $210,000; role-specific product engineering evidence reviewed."
+      ],
+      "source_id": "assembled-primary",
+      "source_job_id": "dc171cfa-d410-4de9-8065-e0322cd4d399",
+      "stable_id": "job-4c885f5dd895c3bb51401be9",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Software Engineer, Product (Frontend-leaning)",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T03:27:57Z",
+  "last_successful_scan_at": "2026-08-31T03:27:57Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "ai_involvement_insufficient": 0,
+    "compensation_below_profile_threshold": 5,
+    "compensation_currency_mismatch": 1,
+    "compensation_unknown_or_below_threshold": 2,
+    "location_outside_target_city": 4,
+    "role_fit_excluded": 1,
+    "title_explicitly_non_target_function": 8,
+    "total": 19,
+    "workplace_remote_excluded": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "assembled-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

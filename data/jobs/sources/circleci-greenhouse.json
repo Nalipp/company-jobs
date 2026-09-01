@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:34:55Z",
+      "attempt_id": "attempt:7dd984f4-e5f6-41c6-a8c8-dc0ab6b43e04",
+      "result_digest": "a077aaf18e16e01e8383b36f6a448cb79890b6ed36f4272a5ae58179aabde9c7",
+      "task_id": "source:circleci-greenhouse:luna:d342d94f61e67821",
+      "transaction_id": "txn:a077aaf18e16e01e8383b36f"
+    }
+  ],
+  "company_id": "circleci",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:34:39Z",
+  "last_successful_scan_at": "2026-08-31T03:34:39Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 1,
+    "location_outside_target_city": 2,
+    "title_explicitly_non_target_function": 1,
+    "total": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "circleci-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

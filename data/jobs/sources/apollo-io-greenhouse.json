@@ -1,0 +1,68 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:19:31Z",
+      "attempt_id": "attempt:c19d859a-607e-4e11-b897-bd00bb9bcb51",
+      "result_digest": "dc7170f65047f17bbed0365f88ee1e776c75008cb92a99a87451b262819e8187",
+      "task_id": "source:apollo-io-greenhouse:luna:0da689f521316e0d",
+      "transaction_id": "txn:dc7170f65047f17bbed0365f"
+    }
+  ],
+  "company_id": "apollo-io",
+  "current_job_count": 41,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://job-boards.greenhouse.io/apolloio/jobs/6134562004",
+      "company_id": "apollo-io",
+      "compensation": null,
+      "compensation_text": null,
+      "department": "Engineering",
+      "description_text": "Apollo.io is the leading go-to-market solution for revenue teams, trusted by over 500,000 companies and millions of users globally, from rapidly growing startups to some of the world's largest enterprises. Founded in 2015, the company is one of the fastest growing companies in SaaS, raising approximately $250 million to date and valued at $1.6 billion. Apollo.io provides sales and marketing teams with easy access to verified contact data for over 210 million B2B contacts and 35 million companies worldwide, along with tools to engage and convert these contacts in one unified platform. By helping revenue professionals find the most accurate contact information and automating the outreach process, Apollo.io turns prospects into customers. Apollo raised a series D in 2023 and is backed by top-tier investors, including Sequoia Capital, Bain Capital Ventures, and more, and counts the former President and COO of Hubspot, JD Sherman, among its board members. About Apollo Apollo is the AI-powered go-to-market platform that helps revenue teams find, engage, and convert their best customers. We combine a database of more than 210 million contacts and 35 million companies with an agentic end-to-end GTM platform, and more than 500,000 companies rely on us to run their go-to-market motion. We are profitable, growing fast, and rebuilding the product around AI and agents. Your role and mission You will set technical direction at the level of the whole engineering organization. You will own the hardest, most ambiguous, and highest-stakes technical bets, the ones that shape the product for years, and you will be a force multiplier across many teams. Your judgment will be a reference point for how we build, and your impact will be felt org-wide rather than on any single team. What you will do Own the technical direction of Apollo's most critical and most ambiguous problems, across team and organizational boundaries Make the architectural bets that shape the product and platform over multiple years, and be accountable for how they play out Set the technical strategy for the rebuild around AI and agents, and turn it into direction teams can execute Raise the engineering bar across the whole organization through the standards, patterns, and decisions you drive Multiply the output of engineers and teams far beyond your own code, through design, review, and mentorship of our most senior engineers Partner with engineering and product leadership as a peer on where the technology needs to go. How we work: AI-native by default You set the standard for what AI-native engineering looks like at the highest level. You use agents to move faster on the hardest design, investigation, and implementation work, you define the practices other engineers adopt, and you find the step-change bets where AI reshapes how we build the product, not just how fast we ship. What we are looking for A track record of setting technical direction that shaped a product or platform across an entire engineering organization Depth across distributed systems and architecture, and command of the reliability, scale, and cost tradeoffs behind company-defining decisions The judgment to make the hardest calls under ambiguity, and the influence to align many teams behind them A record of multiplying the most senior engineers around you. Genuine, current fluency with AI-assisted development, and a clear point of view on where AI takes engineering next Our tech stack React on the front end; Ruby, Ruby on Rails, Python, MongoDB, and Elasticsearch on the backend; Kubernetes, Docker, and Terraform in infrastructure; GCP for cloud. What you will love about Apollo You will own the technical bets that define the company, work as a peer to engineering and product leadership, and have the scope and AI tooling to shape how a fast-moving organization builds. The listed Pay Range reflects the total cash compensation inclusive of annual base salary and annual bonus as applicable. For sales roles, the range provided is the role’s On Target Earnings (\"OTE\") range, meaning that the range includes both the sales commissions/sales bonus target and annual base salary for the role. This salary range may be inclusive of several career levels at Apollo and will be narrowed during the interview process based on a number of factors, including the candidate’s experience, qualifications, and location. Applicants interested in this role who are not located in the US may request the annual salary range for their location during the interview process. Additional benefits for this role may include: equity; company bonus or sales commissions/bonuses; 401(k) plan; at least 10 paid holidays per year, flex PTO, and parental leave; employee assistance program and wellbeing benefits; global travel coverage; life/AD&D/STD/LTD insurance; FSA/HSA and medical, dental, and vision benefits. San Francisco Pay Range $315,300 — $472,900 USD We are AI Native Apollo.io is an AI-native company built on a culture of continuous improvement. We’re on the front lines of driving productivity for our customers—and we expect the same mindset from our team. If you're energized by finding smarter, faster ways to get things done using AI and automation, you'll thrive here. Why You’ll Love Working at Apollo At Apollo, we’re driven by a shared mission: to help our customers unlock their full revenue potential. That’s why we take extreme ownership of our work, move with focus and urgency , and learn voraciously to stay ahead. We invest deeply in your growth, ensuring you have the resources, support, and autonomy to own your role and make a real impact . Collaboration is at our core—we’re all for one , meaning you’ll have a team across departments ready to help you succeed. We encourage bold ideas and courageous action , giving you the freedom to experiment, take smart risks, and drive big wins. If you’re looking for a place where your work matters, where you can push boundaries, and where your career can thrive—Apollo is the place for you. Learn more here!",
+      "employment_text": null,
+      "employment_type": null,
+      "first_seen_at": "2026-08-31T03:18:45Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T03:18:45Z",
+      "locations": [
+        "Hybrid, San Francisco",
+        "Hybrid - San Francisco"
+      ],
+      "posted_at": "2026-08-05T15:58:30Z",
+      "provider": "greenhouse",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "Principal software engineering role owns technical direction for Apollo AI and agents product rebuild; official posting lists San Francisco hybrid location and full-time role; published pay range maximum $472,900 USD."
+      ],
+      "source_id": "apollo-io-greenhouse",
+      "source_job_id": "6134562004",
+      "stable_id": "job-2039b37cdfe6cd42a4cd9e63",
+      "status": "active",
+      "team": null,
+      "title": "Principal Software Engineer (Hybrid, San Francisco)",
+      "updated_at": "2026-08-14T22:57:22Z",
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    }
+  ],
+  "last_attempt_at": "2026-08-31T03:18:45Z",
+  "last_successful_scan_at": "2026-08-31T03:18:45Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "ai_involvement_insufficient": 1,
+    "compensation_unknown_or_below_threshold": 0,
+    "location_outside_target_city": 19,
+    "role_fit_excluded": 8,
+    "title_explicitly_non_target_function": 16,
+    "total": 40,
+    "workplace_remote_excluded": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "apollo-io-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

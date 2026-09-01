@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:28:45Z",
+      "attempt_id": "attempt:1a77b839-8759-4b6a-afc2-c361e1ad87b5",
+      "result_digest": "a221a2ab08b95523014b8492653543b5d1c5e13483f12b8ec2309b8a47864ce7",
+      "task_id": "source:tavus-primary:luna:8b3eb6ebf85a582b",
+      "transaction_id": "txn:a221a2ab08b95523014b8492"
+    }
+  ],
+  "company_id": "tavus",
+  "current_job_count": 14,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:28:30Z",
+  "last_successful_scan_at": "2026-08-31T15:28:30Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 8,
+    "title_explicitly_non_target_function": 4,
+    "total": 14,
+    "workplace_remote_excluded": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "tavus-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

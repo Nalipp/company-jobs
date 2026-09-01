@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:32:31Z",
+      "attempt_id": "attempt:d274a557-a7cc-42f4-839a-927fdab74088",
+      "result_digest": "a24248bd0703996f5b0587ee64f4d950c64aacfc06d956e168c2843201432b90",
+      "task_id": "source:vesta-ashby:luna:da2a9c7722d3e220",
+      "transaction_id": "txn:a24248bd0703996f5b0587ee"
+    }
+  ],
+  "company_id": "vesta",
+  "current_job_count": 10,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:32:22Z",
+  "last_successful_scan_at": "2026-08-31T15:32:22Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 4,
+    "title_explicitly_non_target_function": 1,
+    "total": 10,
+    "workplace_remote_excluded": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "vesta-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

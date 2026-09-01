@@ -1,0 +1,75 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:10:27Z",
+      "attempt_id": "attempt:0982efe2-654c-473a-bec1-a676198f1ce3",
+      "result_digest": "761f6a7b428f46947d8294cd976d6c8f5af1672c996e72d39e18a30b920fa47e",
+      "task_id": "source:nuna-ashby:luna:ff38e929d93b75a3",
+      "transaction_id": "txn:761f6a7b428f46947d8294cd"
+    }
+  ],
+  "company_id": "nuna",
+  "current_job_count": 7,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/nuna/6d313b04-d9ad-4db7-98d4-cb16d59c3ca1",
+      "company_id": "nuna",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 232200,
+        "minimum": 147500,
+        "period": "year",
+        "source_text": "$147.5K - $232.2K"
+      },
+      "compensation_text": "$147.5K - $232.2K",
+      "department": "Engineering",
+      "description_text": "Chronic disease isn't managed in a clinic. It is managed at home, in relationships, in the everyday. What's on the dinner table, what gets said, and who notices when someone's struggling. For the 130 million Americans managing a chronic condition, the healthcare system has offered the same answer for decades: a 15-minute doctor's visit, a pamphlet, and a portal login they'll never use. At Nuna, we are building an AI health coach that shows up like a person who actually has time: available at 3am, infinitely patient, and never behind a waiting room. We use motivational interviewing to help patients and their families see themselves clearly, design experiments that fit their real lives, and navigate a system that has not historically been on their side. We are building from the ground up around a simple belief: patients don't want to be healthy; they want their lives back. We're not competing with other health apps. We're competing with the moment a person gives up on getting better. If that's a problem you want to work on, we'd like to talk. YOUR TEAM We are a small, interdisciplinary team - engineers, data scientists, designers, product managers, and clinicians - building Nuna's AI health coach. Our products are only as good as the care and science behind them, and your piece is how we know the coach is safe and working. You'll own the evaluation system for the team building the coach: a data scientist partners with you on the science, clinicians and designers supply the ground truth, and the engineers shipping the agents depend on the signal you produce to decide what ships. THE ROLE This is a net-new, build-first role for someone who wants to own how we evaluate our AI agents end to end. You'll build the harnesses, datasets, judges, and release gates that tell us whether the coach is safe and good, and you'll own both that infrastructure and the evals that run on it. This is not a test-execution role - you write the code and own the system, rather than running tests someone else designed. You'll make the day-to-day calls on standards, methods, and trade-offs, often with incomplete information and the freedom to define the right answer yourself. Comfort with ambiguity is part of the job. WHAT YOU'LL DO - Build testing harnesses and evaluation infrastructure for our agentic products and our internal agentic tooling - Own our evals end to end - both the architecture and the content - with support from data science and clinical partners - Make every agentic deployment run through the testing apparatus before it ships, and own the release gates that keep unsafe or low-quality behavior from reaching patients - Build the ground truth, judges, and metrics, and validate that the evaluation itself can be trusted: calibration to human labels, reliability, and honest confidence on every number, in partnership with our data scientist - Build functional tooling for labeling and review workflows, so clinicians, coaches, and designers can author and review evaluation scenarios without an engineer in the loop - Help close the loop from evaluation results to model and prompt refinement, working toward systems that iterate safely with less human hand-holding WHAT WE'RE LOOKING FOR - Significant experience building and shipping reliable production systems and tooling - Deep understanding of how to evaluate AI systems - LLM-as-judge, red-teaming and adversarial testing, synthetic scenario generation, and multi-turn and agentic evaluation - and a clear sense of how evals themselves fail. You've deployed evals and automated AI tooling in production, not just prototyped them - A testing mindset applied to building the measurement system, not running tests against a spec: adversarial instinct, coverage thinking, regression discipline, and documentation others can build on - You use AI in your daily work and build tools that make the people around you more effective - Enough fluency in statistics and experimental design to partner with a data scientist on calibration and reliability - Can design the workflow and build a functional UI for non-engineers like clinicians and labelers - A genuine interest in improving healthcare alongside an interdisciplinary team, with the judgment to tell a launch-blocking issue from a nice-to-have Bonus Points - Experience in healthcare or another regulated, high-trust domain, and familiarity with the regulatory landscape - Hands-on experience with the eval tooling ecosystem (LangSmith, Braintrust, DeepEval, Ragas, Promptfoo, or similar) - Red-teaming or AI safety experience - prompt injection, jailbreaks, adversarial and stress testing - Experience with automated, eval-driven model or prompt optimization - You've built in an early-stage or fast-moving environment Nuna is an Equal Employment Opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, age, disability, genetics and/or veteran status. #LI-LM1",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:10:04Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:10:04Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, CA, United States"
+      ],
+      "posted_at": "2026-08-13T17:42:42Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "Title is Software Engineer, AI Evaluation, directly indicating an AI product engineering role.",
+        "Location is San Francisco, CA; workplace is hybrid; published maximum base compensation is USD 232,200/year."
+      ],
+      "source_id": "nuna-ashby",
+      "source_job_id": "6d313b04-d9ad-4db7-98d4-cb16d59c3ca1",
+      "stable_id": "job-fdd17552697a8673e23ad501",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Software Engineer, AI Evaluation",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:10:04Z",
+  "last_successful_scan_at": "2026-08-31T15:10:04Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 4,
+    "location_outside_target_city": 1,
+    "semantic_non_target": 1,
+    "title_explicitly_non_target_function": 3,
+    "total": 6,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "nuna-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

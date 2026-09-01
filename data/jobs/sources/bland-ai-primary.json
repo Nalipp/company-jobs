@@ -1,0 +1,34 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:30:10Z",
+      "attempt_id": "attempt:e780db9b-9fb6-4be6-9174-fee23810441b",
+      "result_digest": "845155b8e2fbcbd8a39f21a2c5248e86bc8df9c7e29eaa62c84c465b781c03a8",
+      "task_id": "source:bland-ai-primary:luna:2d614744333fb330",
+      "transaction_id": "txn:845155b8e2fbcbd8a39f21a2"
+    }
+  ],
+  "company_id": "bland-ai",
+  "current_job_count": 19,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:29:54Z",
+  "last_successful_scan_at": "2026-08-31T03:29:54Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 8,
+    "compensation_unknown_or_below_threshold": 4,
+    "role_fit_excluded": 5,
+    "title_explicitly_non_target_function": 8,
+    "total": 19,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "bland-ai-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

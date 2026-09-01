@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:21:46Z",
+      "attempt_id": "attempt:fda9c9b2-e704-4a33-a189-7a70f169eb44",
+      "result_digest": "bca285753646e31b4b932f865a7b8f8ae82e26224d2d089318bbe2365a2da3df",
+      "task_id": "source:piris-labs-primary:luna:5d8f8244db3df0fb",
+      "transaction_id": "txn:bca285753646e31b4b932f86"
+    }
+  ],
+  "company_id": "piris-labs",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:21:26Z",
+  "last_successful_scan_at": "2026-08-31T22:21:26Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "role_or_employment_mismatch": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "piris-labs-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

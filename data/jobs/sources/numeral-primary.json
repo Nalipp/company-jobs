@@ -1,0 +1,71 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:11:02Z",
+      "attempt_id": "attempt:6bf68766-8cf6-48be-8ac8-d11efc49045d",
+      "result_digest": "a9d2ac4a4941c2928f3984bb4efaee667bdb729620d9efe11cfbf8896bed5a5f",
+      "task_id": "source:numeral-primary:luna:0d1cd38bf9536c83",
+      "transaction_id": "txn:a9d2ac4a4941c2928f3984bb"
+    }
+  ],
+  "company_id": "numeral",
+  "current_job_count": 19,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/numeral/3d9dd65d-4d7e-4d3d-b1ee-390074e27266",
+      "company_id": "numeral",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 300000,
+        "minimum": 175000,
+        "period": "year",
+        "source_text": "$175K - $300K"
+      },
+      "compensation_text": "$175K - $300K",
+      "department": "Engineering & Product",
+      "description_text": "ABOUT NUMERAL: Numeral is transforming how taxes get done. Digital businesses are currently bogged down by a painful web of regulations across 47 states and 70+ countries. We’re eliminating this burden so teams can focus on their core mission. We’re the largest and fastest-growing AI-native tax solution. Started in 2023, Numeral has raised over $57M from Benchmark, Mayfield, Y-Combinator, and many others. We now serve over 3,000 paying customers and have more than tripled our revenue every year in our history. ABOUT THE ROLE: We’re looking for a foundational Full-Stack Engineer who thrives in ambiguity, enjoys building complex distributed systems, and wants to define foundational architecture in a fast-growing early-stage startup. You’ll lead the design and implementation of APIs, services, and infrastructure that underpin our platform. You’ll also help drive engineering strategy, product execution, and cultural foundations alongside leadership. WHAT YOU’LL DO - Design and build scalable, secure backend services and APIs from scratch. - Make architectural decisions that optimize for speed, data integrity, and long-term maintainability. - Collaborate closely with product, design, and data teams to develop performant systems that power key customer workflows. - Own infrastructure, observability, and performance for the services you build. - Help shape engineering best practices, code quality, and our overall backend culture. WHAT YOU'LL BRING: - 7+ years of experience building backend systems in high-growth environments. - Fluency with backend technologies like Node.js, PostgreSQL, Redis, and cloud services (AWS preferred). - Experience designing robust APIs and distributed systems at scale. - Strong product sensibility—able to balance performance, flexibility, and speed. - Startup mindset: Not scared of ambiguity and hungry for rapid growth - Intensity & Ownership: This is not a 9-5 — we’re scaling rapidly and have a massive opportunity ahead of us. - Customer Obsession: You deeply care about the user experience and solving their problems EVEN BETTER: - Experience in payments, tax, accounting, or regulatory tech. - Infrastructure or platform engineering background (e.g., CI/CD, observability). - Experience scaling monolith-to-service architectures or event-driven systems. - Familiarity with GraphQL, Kafka, Terraform, or container orchestration tools. WHAT WE OFFER: - Competitive salary and equity - you'll share directly in the company's success - Full medical, dental, and vision coverage - Wellness perks like Headspace and the Peloton One App - 401(k) to help you build long-term financial security - Lunch and snacks when you're in the office - Regular team offsites and company events as we grow - A culture built on ownership - your work matters and people will see it!",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:09:28Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:09:28Z",
+      "locations": [
+        "HQ - San Francisco, CA",
+        "San Francisco, California, USA",
+        "New York (hybrid)"
+      ],
+      "posted_at": "2025-07-16T05:05:56Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "numeral-primary",
+      "source_job_id": "3d9dd65d-4d7e-4d3d-b1ee-390074e27266",
+      "stable_id": "job-b887198454df9c7dfb7f3e98",
+      "status": "active",
+      "team": "Engineering & Product",
+      "title": "Software Engineer (Product)",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:09:28Z",
+  "last_successful_scan_at": "2026-08-31T15:09:28Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 6,
+    "location_outside_target_city": 4,
+    "title_explicitly_non_target_function": 15,
+    "total": 18,
+    "workplace_remote_excluded": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "numeral-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

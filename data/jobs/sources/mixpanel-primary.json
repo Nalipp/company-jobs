@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:06:11Z",
+      "attempt_id": "attempt:fc630035-ab78-4e20-89fc-23c7f9ff7da7",
+      "result_digest": "eef6ffa933314ddff63d6a360f8b1d878e8b1437d6699622da0d876190d8968e",
+      "task_id": "source:mixpanel-primary:luna:c06a505470901470",
+      "transaction_id": "txn:eef6ffa933314ddff63d6a36"
+    }
+  ],
+  "company_id": "mixpanel",
+  "current_job_count": 89,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:05:48Z",
+  "last_successful_scan_at": "2026-08-31T15:05:48Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 29,
+    "location_outside_target_city": 46,
+    "title_explicitly_non_target_function": 45,
+    "total": 89
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "mixpanel-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

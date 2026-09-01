@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:10:23Z",
+      "attempt_id": "attempt:ac9327ae-6c81-4010-bb7e-cd3428c18727",
+      "result_digest": "cf675a4efdd2ae7ac5d2a116a941e455229cfbe31de98dffe3f01ea2dd7707d1",
+      "task_id": "source:dracoinlabs-careers:luna:a3a1206875ee30df",
+      "transaction_id": "txn:cf675a4efdd2ae7ac5d2a116"
+    }
+  ],
+  "company_id": "dracoinlabs",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:30:00Z",
+  "last_successful_scan_at": "2026-08-31T21:30:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "location_or_role_or_employment_mismatch": 10
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "dracoinlabs-careers",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

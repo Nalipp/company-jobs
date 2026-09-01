@@ -7,5 +7,6 @@ __pycache__/
 *.journal.json
 data/results/companies/*.json
 data/results/jobs/*.json
+data/telemetry/*.jsonl
 !data/results/companies/.gitkeep
 !data/results/jobs/.gitkeep

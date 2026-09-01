@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:13:45Z",
+      "attempt_id": "attempt:ffbaeefb-9744-44a6-9390-2abb0bbef13c",
+      "result_digest": "31a4094c5b9fc63aa9a3a9390fd22aa0a147bb96068ae886dbfaaacc11fcead7",
+      "task_id": "source:parafin-primary:luna:4775a2580a72c3d4",
+      "transaction_id": "txn:31a4094c5b9fc63aa9a3a939"
+    }
+  ],
+  "company_id": "parafin",
+  "current_job_count": 20,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:13:32Z",
+  "last_successful_scan_at": "2026-08-31T15:13:32Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 14,
+    "title_explicitly_non_target_function": 6,
+    "total": 20
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "parafin-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

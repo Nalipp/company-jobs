@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:41:06Z",
+      "attempt_id": "attempt:a9100b57-288e-4812-b7ad-f529e82a0a66",
+      "result_digest": "176c74fcb5e6c828f4876ce364e4d34081a98f3b0fbd1bfbb11320a0676e3473",
+      "task_id": "source:unbound-primary:luna:429009c1205aa2b2",
+      "transaction_id": "txn:176c74fcb5e6c828f4876ce3"
+    }
+  ],
+  "company_id": "unbound",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T03:10:00Z",
+  "last_successful_scan_at": "2026-09-01T03:10:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ycombinator",
+  "rejection_counts": {
+    "compensation_below_threshold": 3,
+    "employment_type_disallowed": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "unbound-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

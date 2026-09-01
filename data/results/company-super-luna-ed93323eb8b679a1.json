@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:super:luna:ed93323eb8b679a1",
+  "attempt_id": "attempt:784ecbab-f14d-463a-bb73-dfb2c2026115",
+  "claim_token": "0aFDKv3b45t6b2L8Cy5X5IM8RZuPDdnOGJUPz0BrL5k",
+  "model": "luna",
+  "created_at": "2026-09-01T17:58:37Z",
+  "target": {"company_ids": ["super"], "source_ids": ["super-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [{"url": "https://www.super.com/careers", "retrieved_at": "2026-09-01T17:59:05Z", "evidence_type": "official_careers_page", "finding": "The official Super.com careers page is accessible and exposes an Explore open roles control, but no complete listing endpoint or stable canonical job identities were verifiable in this bounded pass; the source remains unsupported."}],
+  "patch": {"company_id": "super", "expected_record_revision": 1, "company_changes": {}, "source_upserts": [{
+    "source_id": "super-primary", "company_id": "super", "expected_record_revision": 1, "careers_url": "https://www.super.com/careers", "listings_url": "https://www.super.com/careers", "provider": "custom", "board_id": null, "access_mode": "browser_required", "scope": "All Super.com roles", "instructions": "Recheck the official Super.com careers page in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.", "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false}, "status": "unsupported", "official_relationship_url": "https://www.super.com/careers", "checked_at": "2026-09-01T17:59:05Z", "last_success_at": null, "added_date": "2026-08-28T23:17:44Z", "updated_date": "2026-09-01T17:59:05Z"
+  }]},
+  "item_results": [{"item": "super-primary", "status": "resolved", "summary": "Official careers page rechecked; endpoint and stable job identities remain unverified."}],
+  "failure_class": null,
+  "notes": "No canonical company identity or address change supported."
+}

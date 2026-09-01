@@ -1,0 +1,34 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:30:43Z",
+      "attempt_id": "attempt:3cd64f4b-9a32-432b-a822-3de329d6fd3f",
+      "result_digest": "a0a09c2eb97fe519f18e775bbdb6bb6646df96594f9b63d1d65df8a0a934341e",
+      "task_id": "source:brave-greenhouse:luna:c9c48fb1e6c755c2",
+      "transaction_id": "txn:a0a09c2eb97fe519f18e775b"
+    }
+  ],
+  "company_id": "brave",
+  "current_job_count": 15,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:30:27Z",
+  "last_successful_scan_at": "2026-08-31T03:30:27Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 4,
+    "location_outside_target_city": 5,
+    "role_fit_excluded": 1,
+    "title_explicitly_non_target_function": 2,
+    "total": 15,
+    "workplace_remote_excluded": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "brave-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

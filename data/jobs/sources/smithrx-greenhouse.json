@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:24:58Z",
+      "attempt_id": "attempt:62426c11-3f01-4f67-8ba8-8e60652b9ca1",
+      "result_digest": "3bf01ab9fbe5d4c721703be1f34098bc0e23bdd133874b0c27a2e2a7a9c66966",
+      "task_id": "source:smithrx-greenhouse:luna:ec4b2ae4d14ba5d2",
+      "transaction_id": "txn:3bf01ab9fbe5d4c721703be1"
+    }
+  ],
+  "company_id": "smithrx",
+  "current_job_count": 37,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:24:48Z",
+  "last_successful_scan_at": "2026-08-31T15:24:48Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 14,
+    "title_explicitly_non_target_function": 9,
+    "total": 37,
+    "workplace_remote_excluded": 16
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "smithrx-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

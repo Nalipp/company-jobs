@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:15:24Z",
+      "attempt_id": "attempt:54246613-3dbb-4651-b4a7-9cc415a3fda4",
+      "result_digest": "69e995af730f404f2a91f52a499fb67c2ace4b4dee1a486168e63de57c58a32b",
+      "task_id": "source:philo-primary:luna:3460b3b80345cb0f",
+      "transaction_id": "txn:69e995af730f404f2a91f52a"
+    }
+  ],
+  "company_id": "philo",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:15:14Z",
+  "last_successful_scan_at": "2026-08-31T15:15:14Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "location_outside_target_city": 3,
+    "total": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "philo-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,35 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T02:50:24Z",
+      "attempt_id": "attempt:a96ae4f0-3e91-4fcd-a015-251d56c6a90e",
+      "result_digest": "f1bce901af1f41640f798a46e22ed68785a973232c02d53f198a8887f3a47609",
+      "task_id": "source:antithesis-primary:luna:3a3b8fce9166111f",
+      "transaction_id": "txn:f1bce901af1f41640f798a46"
+    }
+  ],
+  "company_id": "antithesis",
+  "current_job_count": 26,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T02:49:05Z",
+  "last_successful_scan_at": "2026-08-31T02:49:05Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "ai_involvement_insufficient": 1,
+    "compensation_below_profile_threshold": 4,
+    "compensation_currency_mismatch": 11,
+    "location_outside_target_city": 23,
+    "role_fit_excluded": 1,
+    "total": 26,
+    "workplace_remote_excluded": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "antithesis-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

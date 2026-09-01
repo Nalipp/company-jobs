@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:30:44Z",
+      "attempt_id": "attempt:8116169c-872f-49bf-9f20-7494586652df",
+      "result_digest": "0867ec57722504240a78ee9198b1c5a524ad8249005d904f800af62c3bad3bdf",
+      "task_id": "source:bootloop-primary:luna:c6f32aea87d6b096",
+      "transaction_id": "txn:0867ec57722504240a78ee91"
+    }
+  ],
+  "company_id": "bootloop",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:30:20Z",
+  "last_successful_scan_at": "2026-08-31T03:30:20Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "title_explicitly_non_target_function": 1,
+    "total": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "bootloop-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

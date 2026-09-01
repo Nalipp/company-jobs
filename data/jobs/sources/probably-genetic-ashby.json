@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:17:36Z",
+      "attempt_id": "attempt:11370006-2574-4726-895e-210805e9e7f5",
+      "result_digest": "3d843c27f4d5bc07bd078a4197b374f3f090f072796bbfe62fe5a6273afd797d",
+      "task_id": "source:probably-genetic-ashby:luna:6d7967663bc0eec5",
+      "transaction_id": "txn:3d843c27f4d5bc07bd078a41"
+    }
+  ],
+  "company_id": "probably-genetic",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:17:23Z",
+  "last_successful_scan_at": "2026-08-31T15:17:23Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 3,
+    "title_explicitly_non_target_function": 3,
+    "total": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "probably-genetic-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

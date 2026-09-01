@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:21:51Z",
+      "attempt_id": "attempt:7fb086e8-3b81-40a0-bec8-cdd263802f6b",
+      "result_digest": "97cd7837d78f732846b661eb54b051043c13278d9bb2266aad0c4b3278e55ad9",
+      "task_id": "source:planisware-primary:luna:f08fd88d232edb61",
+      "transaction_id": "txn:97cd7837d78f732846b661eb"
+    }
+  ],
+  "company_id": "planisware",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T23:45:00Z",
+  "last_successful_scan_at": "2026-08-31T23:45:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "total": 0
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "planisware-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": [
+    "All 24 listed roles were outside the exact target role scope; the San Francisco role was Consulting."
+  ]
+}

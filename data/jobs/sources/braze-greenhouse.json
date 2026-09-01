@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:30:55Z",
+      "attempt_id": "attempt:97e4ddb2-5533-4255-9130-b0f43f3503c9",
+      "result_digest": "df5ffac63023bc4ea87a7b9984c6e9ae337d444108145e5955fc9a0e63bdc873",
+      "task_id": "source:braze-greenhouse:luna:1ba968a00477d4dd",
+      "transaction_id": "txn:df5ffac63023bc4ea87a7b99"
+    }
+  ],
+  "company_id": "braze",
+  "current_job_count": 275,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:30:37Z",
+  "last_successful_scan_at": "2026-08-31T03:30:37Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_below_threshold_or_unknown": 22,
+    "location_outside_target_city": 225,
+    "role_fit_not_product_engineering": 22,
+    "title_explicitly_non_target_function": 145,
+    "total": 414
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "braze-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

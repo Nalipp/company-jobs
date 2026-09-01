@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:03:27Z",
+      "attempt_id": "attempt:b29f7716-9b39-45e2-bf3a-7adb5480a36c",
+      "result_digest": "411b85ff351f5fdf31b5de255c50b81beb60428fa79ef728a50794f0c045c868",
+      "task_id": "source:medrio-primary:luna:af91cd25193b1624",
+      "transaction_id": "txn:411b85ff351f5fdf31b5de25"
+    }
+  ],
+  "company_id": "medrio",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:03:16Z",
+  "last_successful_scan_at": "2026-08-31T15:03:16Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 2,
+    "title_explicitly_non_target_function": 2,
+    "total": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "medrio-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

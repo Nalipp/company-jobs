@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:28:39Z",
+      "attempt_id": "attempt:e257ea18-c6ba-4fa8-91e7-1637b9f0e85e",
+      "result_digest": "706f21a2cc7a7fadf55b85ce01b35adbd036ec5405efad937bfef8441d8186f3",
+      "task_id": "source:talkdesk-greenhouse:luna:7509097b22c9416e",
+      "transaction_id": "txn:706f21a2cc7a7fadf55b85ce"
+    }
+  ],
+  "company_id": "talkdesk",
+  "current_job_count": 47,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:28:25Z",
+  "last_successful_scan_at": "2026-08-31T15:28:25Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 8,
+    "location_outside_target_city": 39,
+    "title_explicitly_non_target_function": 10,
+    "total": 47
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "talkdesk-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

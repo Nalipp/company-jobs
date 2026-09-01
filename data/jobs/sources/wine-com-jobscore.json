@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:52:18Z",
+      "attempt_id": "attempt:d4265dae-3d05-4d41-b8c1-f21e7e74ddfc",
+      "result_digest": "a0bf867aba63864c94e37614965d9c6f4145bfe60f40cabb952175b2133dd550",
+      "task_id": "source:wine-com-jobscore:luna:b2385294f0d76df9",
+      "transaction_id": "txn:a0bf867aba63864c94e37614"
+    }
+  ],
+  "company_id": "wine-com",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T02:55:00Z",
+  "last_successful_scan_at": "2026-09-01T02:55:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "jobscore",
+  "rejection_counts": {
+    "ai_involvement_not_evidenced": 1,
+    "compensation_below_profile_threshold": 1,
+    "location_outside_target_city": 1,
+    "role_not_target_family": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "wine-com-jobscore",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

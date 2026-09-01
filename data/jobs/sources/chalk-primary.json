@@ -1,0 +1,144 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:33:32Z",
+      "attempt_id": "attempt:04a9cc67-5d93-4ddf-8000-dd778e79d738",
+      "result_digest": "4db2af60bb31920c538fb0732eb462abe23009e9a5e2b83a29542a65c59fc516",
+      "task_id": "source:chalk-primary:luna:706924bc953111a8",
+      "transaction_id": "txn:4db2af60bb31920c538fb073"
+    }
+  ],
+  "company_id": "chalk",
+  "current_job_count": 17,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/chalk/a953ba3c-9448-4adb-be09-bfe8acab5b03",
+      "company_id": "chalk",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 280000,
+        "minimum": 170000,
+        "period": "year",
+        "source_text": "$170K - $280K"
+      },
+      "compensation_text": "$170K - $280K",
+      "department": "Engineering",
+      "description_text": "About Chalk Chalk is building the data platform that powers the future of machine learning applications. We tear down complexity, latency, and scale barriers that have traditionally constrained ML capabilities. Our platform combines Rust-speed performance with elegant tools that developers love to use. Leading companies depend on Chalk for everything from stopping fraudulent credit card swipes, verifying identities, and maximizing clean energy capture. We've recently raised a $50 million Series A https://www.reuters.com/business/databricks-competitor-chalk-raises-50-million-series-2025-05-28/, led by Felicis. About Chalk Chalk is building the data platform that powers the future of machine learning applications. We tear down complexity, latency, and scale barriers that have traditionally constrained ML capabilities. Our platform combines Rust-speed performance with elegant tools that developers love to use. Leading companies depend on Chalk for everything from stopping fraudulent credit card swipes, verifying identities, and maximizing clean energy capture. We've recently raised a $50 million Series A https://www.reuters.com/business/databricks-competitor-chalk-raises-50-million-series-2025-05-28/, led by Felicis. About the role We are hiring Software Engineers to join our team. This is an opportunity to join us in-person as an early employee and make a large impact at a high growth start-up. You will tackle challenging engineering problems with a high degree of autonomy and ownership. We are looking for software engineers who are comfortable solving business problems across all layers of the software stack. At Chalk, we build reliable data processing systems that can operate performantly at scale with a laser-focus on developer experience. We need engineers who can build world-class user experiences across CLI and web surfaces, while also understanding and contributing to a codebase that contains ideas from compilers, query planners, and distributed systems. We're in the office 5 days a week. When unavoidable conflicts come up, we’re flexible. This is not a hybrid role. What you will do - Work directly with Chalk’s co-founders to productionize our first iteration - Write TypeScript, Python, Go, and React - Expose the functionality of our core platform to data scientist and machine learning end-users in their home environments - Iterate rapidly to improve Chalk’s platform in response to customer needs What we’re looking for - 4+ years experience of professional software engineering experience - Working knowledge of computer science fundamentals. We’re not looking for experience from drilling leet code – we need folks who are comfortable building and maintaining real systems - A record of developing sophisticated user-facing applications that are pleasant to use - An eye for high-quality UX - Track record of learning new concepts quickly - Ability to work autonomously & to make pragmatic tradeoffs with an eye towards business outcomes - Strong communication skills - Bachelor's degree in Computer Science or equivalent Bonus points - Experience implementing data infrastructure - Experience working with developer tools - Experience with applied machine learning or data analytics - Experience with Go",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T03:33:14Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T03:33:14Z",
+      "locations": [
+        "SF",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2022-06-17T20:13:01Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "chalk-primary",
+      "source_job_id": "a953ba3c-9448-4adb-be09-bfe8acab5b03",
+      "stable_id": "job-42f5a6f3db4144572d0854f2",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Full Stack Software Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/chalk/4daa8b14-53ac-47a0-86d8-eaedc81bafac",
+      "company_id": "chalk",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 280000,
+        "minimum": 170000,
+        "period": "year",
+        "source_text": "$170K - $280K"
+      },
+      "compensation_text": "$170K - $280K",
+      "department": "Engineering",
+      "description_text": "About Chalk Chalk is building the data platform that powers the future of machine learning applications. We tear down complexity, latency, and scale barriers that have traditionally constrained ML capabilities. Our platform combines Rust-speed performance with elegant tools that developers love to use. Leading companies depend on Chalk for everything from stopping fraudulent credit card swipes, verifying identities, and maximizing clean energy capture. We've recently raised a $50 million Series A https://www.reuters.com/business/databricks-competitor-chalk-raises-50-million-series-2025-05-28/, led by Felicis. About the role You are an exceptional software engineer who is able to build bespoke technical solutions and partner with machine learning teams to develop Chalk’s proprietary infrastructure. You will work with customers of Chalk to build efficient feature pipelines for problems in healthcare, finance, and recommendation systems. This role will give you a unique opportunity to work closely with customers, gathering requirements and engineering feature pipelines that support use-cases like cancer detection, fraud prevention, and product recommendation. This is your opportunity to join us in-person as an early employee and make a significant impact at a high growth start-up. We're in the office 5 days a week. When unavoidable conflicts come up, we’re flexible. This is not a hybrid role. What you will do - Write code to implement Chalk technology for Chalk customers and prospects. You will become familiar with Chalk infrastructure and find the best way to integrate and implement them in different environments - Work closely with our Engineering and Sales teams - Act as the primary technical point of contact pre-sales and post-sales (when we are onboarding a new customer or supporting an existing one) - Recommend new products to customers as their business evolves - Help interview and grow the Engineering team What we’re looking for - Technical background including experience writing software or building ML models - 2+ years experience of professional backend software engineering experience - Proficient in Python, SQL - Ability to collaborate effectively in teams of technical and non-technical individuals - Excellent written and verbal communication, problem-solving, storytelling, and analytical skills - Experience working closely with sales teams and customers is a plus. - Bachelor's degree in Computer Science or equivalent Bonus points - Previous experience working with ML/data products or services - Understanding of Machine Learning Ops/Infrastructure - Previous experience as a forward-deployed engineer in a high-growth startup focusing on Machine Learning Compensation Chalk offers early team members a generous salary + equity package based on experience and competitive benefits. Actual compensation awarded to successful candidates will be based on several factors, including but not limited to: market, location, scope of the position and individual qualifications objectively assessed during the interview process. Our comprehensive total package plays a major role in how we recognize individuals for the impact they will have on Chalk’s growth and us achieving our goals.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T03:33:14Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T03:33:14Z",
+      "locations": [
+        "NY",
+        "New York, New York, United States",
+        "SF"
+      ],
+      "posted_at": "2022-10-17T20:52:50Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "chalk-primary",
+      "source_job_id": "4daa8b14-53ac-47a0-86d8-eaedc81bafac",
+      "stable_id": "job-87cf696ac73b0e0c2cc2f84c",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Forward Deployed Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/chalk/867937ab-fa06-4740-9e78-24bffacc779c",
+      "company_id": "chalk",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 280000,
+        "minimum": 170000,
+        "period": "year",
+        "source_text": "$170K - $280K"
+      },
+      "compensation_text": "$170K - $280K",
+      "department": "Engineering",
+      "description_text": "About Chalk Chalk is building the data platform that powers the future of machine learning applications. We tear down complexity, latency, and scale barriers that have traditionally constrained ML capabilities. Our platform combines Rust-speed performance with elegant tools that developers love to use. Leading companies depend on Chalk for everything from stopping fraudulent credit card swipes, verifying identities, and maximizing clean energy capture. We've recently raised a $50 million Series A https://www.reuters.com/business/databricks-competitor-chalk-raises-50-million-series-2025-05-28/, led by Felicis. About the role We are hiring experienced Frontend Software Engineers to join our team. In this role, you will be responsible for defining strong front-end architecture patterns, leading development of well abstracted reusable components, and collaborating across teams to increase developer velocity. You will excel in this role if you’re an experienced engineer with deep front-end expertise who can collaborate effectively across multiple teams and functions to deliver results. This is an opportunity to join us in-person as an early employee and make a large impact at a high growth start-up. You will tackle challenging engineering problems with a high degree of autonomy and ownership. We are looking for software engineers who are comfortable solving business problems across all layers of the software stack, with a specific focus on frontend engineering. At Chalk, we build reliable data processing systems that can operate performantly at scale with a laser-focus on developer experience. We need engineers who can build world-class user experiences across web and command-line surfaces, while also understanding and contributing to a codebase that contains ideas from compilers, query planners, and distributed systems. We're in the office 5 days a week. When unavoidable conflicts come up, we’re flexible. This is not a hybrid role. What you will do - Work directly with Chalk’s co-founders to productionize our first iteration - Write TypeScript (React), Python, Go - Drive frontend architecture discussions and technical breakdowns. - Expose the functionality of our core platform to data scientist and machine learning end-users in their home environments - Iterate rapidly to improve Chalk’s platform in response to customer needs What we’re looking for - 4+ years experience of professional software engineering experience - Working knowledge of computer science fundamentals. We’re not looking for experience from drilling leet code – we need folks who are comfortable building and maintaining real applications - You have a deep technical understanding of frontend technologies, patterns, and best practices. You have a firm understanding of backend systems which enable you to collaborate on problems that span the entire stack - An eye for high-quality UX - Track record of learning new concepts quickly - Ability to work autonomously & to make pragmatic tradeoffs with an eye towards business outcomes - Strong communication skills - Bachelor's degree in Computer Science or equivalent Bonus points - Experience implementing data infrastructure - Experience working with developer tools - Experience with applied machine learning or data analytics - Experience with Go",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T03:33:14Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T03:33:14Z",
+      "locations": [
+        "SF",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-05-19T19:50:58Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "chalk-primary",
+      "source_job_id": "867937ab-fa06-4740-9e78-24bffacc779c",
+      "stable_id": "job-b8a61cc0d0fbb76575993ef5",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Frontend Software Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T03:33:14Z",
+  "last_successful_scan_at": "2026-08-31T03:33:14Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "location_outside_target_city": 6,
+    "title_explicitly_excluded": 1,
+    "title_explicitly_non_target_function": 6,
+    "total": 14,
+    "workplace_remote_excluded": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "chalk-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

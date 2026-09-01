@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:30:37Z",
+      "attempt_id": "attempt:321cb544-4ec2-43ed-887a-94df29fce9e6",
+      "result_digest": "f2ed1fc332cb26e25e2854f28246a8a986fb757d4c30b93c7a52fbc1b220a232",
+      "task_id": "source:town-com-ashby:luna:73eb8e97fac835d0",
+      "transaction_id": "txn:f2ed1fc332cb26e25e2854f2"
+    }
+  ],
+  "company_id": "town-com",
+  "current_job_count": 17,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:30:13Z",
+  "last_successful_scan_at": "2026-08-31T15:30:13Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "compensation_unknown_or_below_threshold": 9,
+    "location_outside_target_city": 2,
+    "title_explicitly_non_target_function": 5,
+    "total": 17
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "town-com-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

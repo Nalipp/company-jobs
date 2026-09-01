@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:22:36Z",
+      "attempt_id": "attempt:fb236395-ee96-482a-9137-cc791e41b6d3",
+      "result_digest": "b70e686fcd4c222929b830d3d78e24a0aa21c586c809991a45277d2440aaa119",
+      "task_id": "source:semgrep-ashby:luna:f2cc957d124ffb31",
+      "transaction_id": "txn:b70e686fcd4c222929b830d3"
+    }
+  ],
+  "company_id": "semgrep",
+  "current_job_count": 10,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:22:22Z",
+  "last_successful_scan_at": "2026-08-31T15:22:22Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 5,
+    "employment_contract_excluded": 1,
+    "location_outside_target_city": 3,
+    "title_explicitly_non_target_function": 2,
+    "total": 10
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "semgrep-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

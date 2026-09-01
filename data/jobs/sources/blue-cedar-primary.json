@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:16:00Z",
+      "attempt_id": "attempt:4ffe2618-e5be-4f13-aefc-dda32ea7c5e8",
+      "result_digest": "4ebcbfae7df79fac954b9da71b8be55fad477ba908510e41f773bd18200d9950",
+      "task_id": "source:blue-cedar-primary:luna:e1a60744afa46bd1",
+      "transaction_id": "txn:4ebcbfae7df79fac954b9da7"
+    }
+  ],
+  "company_id": "blue-cedar",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:45:00Z",
+  "last_successful_scan_at": "2026-08-31T21:45:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "blue-cedar-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

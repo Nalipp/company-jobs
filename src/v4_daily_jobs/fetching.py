@@ -24,9 +24,18 @@ from .schemas import validator
 class FetchError(RuntimeError):
     """Structured access failure with deterministic retry classification."""
 
-    def __init__(self, message: str, failure_class: str = "network") -> None:
+    def __init__(
+        self,
+        message: str,
+        failure_class: str = "network",
+        *,
+        retryable: bool = True,
+        reason_code: str = "structured_source_access_failed",
+    ) -> None:
         super().__init__(message)
         self.failure_class = failure_class
+        self.retryable = retryable
+        self.reason_code = reason_code
 
 
 JsonFetcher = Callable[[str, float], Any]
@@ -48,6 +57,14 @@ def fetch_json(url: str, timeout: float = 30.0) -> Any:
             failure_class = "rate_limit"
         elif exc.code in {401, 403}:
             failure_class = "authentication"
+        elif exc.code in {404, 410}:
+            failure_class = "source_access"
+            raise FetchError(
+                f"HTTP {exc.code} while fetching {url}",
+                failure_class,
+                retryable=False,
+                reason_code="structured_source_not_found",
+            ) from exc
         else:
             failure_class = "source_access"
         raise FetchError(f"HTTP {exc.code} while fetching {url}", failure_class) from exc
@@ -87,15 +104,24 @@ def fetch_structured_source(
     if provider not in {"ashby", "greenhouse", "lever"}:
         raise FetchError(
             f"Source {source_id} provider {provider!r} has no deterministic V4 adapter",
-            "source_access",
+            "other",
+            retryable=False,
+            reason_code="manual_lane_required",
         )
     if not source.get("capabilities", {}).get("structured_data"):
         raise FetchError(
             f"Source {source_id} is not marked structured-data capable",
-            "source_access",
+            "other",
+            retryable=False,
+            reason_code="manual_lane_required",
         )
     if not isinstance(board_id, str) or not board_id:
-        raise FetchError(f"Source {source_id} lacks a provider board ID", "source_access")
+        raise FetchError(
+            f"Source {source_id} lacks a provider board ID",
+            "source_access",
+            retryable=False,
+            reason_code="structured_source_configuration_invalid",
+        )
 
     urls: list[str] = []
     if provider == "ashby":
@@ -194,6 +220,13 @@ def prepare_job_result(
     profile = context.get("profile")
     if not all(isinstance(item, Mapping) for item in (source, company, profile)):
         raise FetchError("Claim context lacks company, source, or profile snapshot", "other")
+    if context.get("structured_adapter_available") is not True:
+        raise FetchError(
+            "prepare-result is restricted to the structured lane; manually enumerate this source",
+            "other",
+            retryable=False,
+            reason_code="manual_lane_required",
+        )
     timestamp = format_timestamp(now or datetime.now(timezone.utc))
     target = copy.deepcopy(task["target"])
     base: dict[str, Any] = {
@@ -219,9 +252,10 @@ def prepare_job_result(
         result = {
             **base,
             "outcome": "blocked",
-            "reason_code": "structured_source_access_failed",
+            "reason_code": exc.reason_code,
             "snapshot": None,
             "failure_class": exc.failure_class,
+            "retryable": exc.retryable,
             "item_results": [
                 {
                     "item": f"source {source.get('source_id')}",

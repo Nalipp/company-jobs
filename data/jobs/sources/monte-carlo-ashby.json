@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:06:39Z",
+      "attempt_id": "attempt:b8346e20-5bff-427c-b26c-e2d4706f455d",
+      "result_digest": "f9df14fa31a34630acaa36f74f8752b18a591ac83443f8b1ac516b9afa404814",
+      "task_id": "source:monte-carlo-ashby:luna:b72feeac4b3854af",
+      "transaction_id": "txn:f9df14fa31a34630acaa36f7"
+    }
+  ],
+  "company_id": "monte-carlo",
+  "current_job_count": 7,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:06:38Z",
+  "last_successful_scan_at": "2026-08-31T15:06:38Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "location_outside_target_city": 3,
+    "title_explicitly_non_target_function": 1,
+    "total": 7,
+    "workplace_remote_excluded": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "monte-carlo-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

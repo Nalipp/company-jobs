@@ -1,0 +1,67 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:09:11Z",
+      "attempt_id": "attempt:a4d4ede0-4bd4-4351-9d70-6189e442c24d",
+      "result_digest": "dd84331ec90bd2a0eae493799d6cf01a7698d92b31a1a3eb7a0d9b0701d0c724",
+      "task_id": "source:halluminate-primary:luna:71441b8145d534a0",
+      "transaction_id": "txn:dd84331ec90bd2a0eae49379"
+    }
+  ],
+  "company_id": "halluminate",
+  "current_job_count": 8,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/halluminate/e84fa450-13b8-4a09-809c-551c26fed8f2",
+      "company_id": "halluminate",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 275000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $275K"
+      },
+      "compensation_text": "$200K - $275K",
+      "department": "Engineering",
+      "description_text": "ABOUT HALLUMINATE Halluminate is an applied AI and data company building RL gyms to train AI agents on real financial services knowledge work — Excel modeling, pitch decks, and everything investment banking, private equity, and hedge funds rely on. THE ROLE Base: $200–275k · Equity: 0.15–0.30% · Location: San Francisco, 5 days in office Our FDEs will interface directly with our customers at AI Labs and Enterprises. You will sit in the customer research meetings, understand the intent behind the requests, and create software that drives forward $xMM projects. The work is a mix of client facing, 0 to 1, rapid prototyping, and product scaling with core platform teams. Your engineering will directly support revenue creation and frontier intelligence scaling. RESPONSIBILITIES - Work directly with frontier AI labs and enterprise customers to understand requirements and what they need from an RL environment - Translate customer requirements into concrete technical specs our platform and project pods can build against. - Build 0→1 — prototype, ship, and iterate on customer-specific environments and tooling before any of it becomes a platform feature. - Use and extend our internal platforms and dev tooling rather than rebuilding them. - Embed with SPL project pods to unblock delivery: integration, technical debugging, and the last-mile problems that decide whether a project lands. - Feed patterns back to the platform team so one-off solutions become reusable capability. - Own technical credibility in customer conversations, from scoping through delivery. YOU SHOULD HAVE - 2+ years of experience in consulting or forward-deployed engineering roles for large enterprises with custom software, systems, and requirements - Strong engineering ability paired with genuine comfort interacting directly in front of customers - A track record of 0→1 work: shipping something that did not exist, under ambiguity, without waiting for a spec. - The ability to translate fuzzy customer language into technical requirements, and technical constraints back into plain terms. - Startup speed: iterate quick, ask quick, respond quick, make mistakes quick. - Experience building evals, environments, and benchmarks for AI Agents NICE TO HAVE - Financial services domain exposure (investment banking, private equity, hedge funds). - Former founders or experience at early-stage startups. WHAT WE OFFER - Healthcare — Fully covered medical, dental, and vision for you. Subsidized for dependents. - Relocation — $10k+ relocation stipend to help you get to San Francisco. - 401(k) — Up to 4% employer match. - Food — Free breakfast, lunch, and dinner while working. - Health — Free gym membership. - Transportation — Free Ubers and Waymo rides to and from the office. - Visa sponsorship — We sponsor visas, including H-1B.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T04:08:57Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T04:08:57Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-08-17T23:22:42Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "halluminate-primary",
+      "source_job_id": "e84fa450-13b8-4a09-809c-551c26fed8f2",
+      "stable_id": "job-f9c75ebd1ced27666fe590e3",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Member of Technical Staff - Forward Deployed Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T04:08:57Z",
+  "last_successful_scan_at": "2026-08-31T04:08:57Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "title_explicitly_non_target_function": 7,
+    "total": 8
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "halluminate-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

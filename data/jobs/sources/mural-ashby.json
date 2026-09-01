@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:07:13Z",
+      "attempt_id": "attempt:96d1e6d5-3b43-4c1f-b347-151b71d704f6",
+      "result_digest": "aae37f38db74eee30599520b9103cdc5c433fd0648279b265659cd4338012df5",
+      "task_id": "source:mural-ashby:luna:cac19eab6a8a7ba2",
+      "transaction_id": "txn:aae37f38db74eee30599520b"
+    }
+  ],
+  "company_id": "mural",
+  "current_job_count": 11,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:07:13Z",
+  "last_successful_scan_at": "2026-08-31T15:07:13Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "location_outside_target_city": 5,
+    "title_explicitly_non_target_function": 5,
+    "total": 11,
+    "workplace_remote_excluded": 9
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "mural-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

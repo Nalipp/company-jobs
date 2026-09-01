@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:15:23Z",
+      "attempt_id": "attempt:3e1a747b-5118-40b8-944d-321b1d1988ea",
+      "result_digest": "c5a3de37d4192f9c99e3724b649794aedd6549f307795c283064ca0db545956a",
+      "task_id": "source:perfect-venue-ashby:luna:37c1cf4fcd950e53",
+      "transaction_id": "txn:c5a3de37d4192f9c99e3724b"
+    }
+  ],
+  "company_id": "perfect-venue",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:15:00Z",
+  "last_successful_scan_at": "2026-08-31T15:15:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "ai_involvement_insufficient": 1,
+    "title_explicitly_non_target_function": 2,
+    "total": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "perfect-venue-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:08:57Z",
+      "attempt_id": "attempt:dbf2ceb5-6917-43ed-b2b0-66482f66d8ed",
+      "result_digest": "6098f584f482dce3b361942bcb6f5ecb12b274a0cc3a8f9ec2c3dc0685d7eb45",
+      "task_id": "source:grove-collaborative-greenhouse:luna:4e4d9dea6a2022c6",
+      "transaction_id": "txn:6098f584f482dce3b361942b"
+    }
+  ],
+  "company_id": "grove-collaborative",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:08:43Z",
+  "last_successful_scan_at": "2026-08-31T04:08:43Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 2,
+    "title_explicitly_non_target_function": 2,
+    "total": 6,
+    "workplace_remote_excluded": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "grove-collaborative-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

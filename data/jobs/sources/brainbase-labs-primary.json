@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T02:52:08Z",
+      "attempt_id": "attempt:d551b182-16b0-4432-bafa-a13d510150e4",
+      "result_digest": "3c405b1e2103df3946a1df7f9511940e951bd0ab44a14170ea025d79d3efbb9f",
+      "task_id": "source:brainbase-labs-primary:luna:ab099d7deb1abd57",
+      "transaction_id": "txn:3c405b1e2103df3946a1df7f"
+    }
+  ],
+  "company_id": "brainbase-labs",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T02:51:36Z",
+  "last_successful_scan_at": "2026-08-31T02:51:36Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 4,
+    "total": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "brainbase-labs-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

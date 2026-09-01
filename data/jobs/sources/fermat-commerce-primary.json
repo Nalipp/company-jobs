@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:04:18Z",
+      "attempt_id": "attempt:7f8c7e63-4869-4963-a37a-412b23551245",
+      "result_digest": "599c0b94fe1b7f6473c0e75b7aa699f91ac90f70366cf1c75d8ed762335a7b99",
+      "task_id": "source:fermat-commerce-primary:luna:6ef5e56632248bd9",
+      "transaction_id": "txn:599c0b94fe1b7f6473c0e75b"
+    }
+  ],
+  "company_id": "fermat-commerce",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:03:59Z",
+  "last_successful_scan_at": "2026-08-31T04:03:59Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "ai_involvement_insufficient": 1,
+    "title_explicitly_non_target_function": 1,
+    "total": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "fermat-commerce-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

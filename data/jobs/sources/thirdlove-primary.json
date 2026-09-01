@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:29:13Z",
+      "attempt_id": "attempt:f64ba8e3-a39b-4114-b0aa-75e7668188dc",
+      "result_digest": "c347d627c83f3f86a998d765657ecbfebb3671c248d3931a176e8e20cae4c5a2",
+      "task_id": "source:thirdlove-primary:luna:01fa96f38f7874e2",
+      "transaction_id": "txn:c347d627c83f3f86a998d765"
+    }
+  ],
+  "company_id": "thirdlove",
+  "current_job_count": 32,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:28:59Z",
+  "last_successful_scan_at": "2026-08-31T15:28:59Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 20,
+    "location_outside_target_city": 3,
+    "title_explicitly_non_target_function": 10,
+    "total": 32
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "thirdlove-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

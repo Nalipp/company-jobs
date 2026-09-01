@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:32:49Z",
+      "attempt_id": "attempt:c364484b-59fc-43a5-b5f6-208def9bd4e9",
+      "result_digest": "7056bebefc218dde8b6d8c5a082936e2b70c71b25748b01c46a46407f5e39ee0",
+      "task_id": "source:vir-biotechnology-primary:luna:dca3bd3bb6a72fee",
+      "transaction_id": "txn:7056bebefc218dde8b6d8c5a"
+    }
+  ],
+  "company_id": "vir-biotechnology",
+  "current_job_count": 18,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:32:35Z",
+  "last_successful_scan_at": "2026-08-31T15:32:35Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 13,
+    "location_outside_target_city": 4,
+    "title_explicitly_non_target_function": 1,
+    "total": 18
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "vir-biotechnology-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

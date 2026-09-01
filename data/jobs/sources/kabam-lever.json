@@ -1,0 +1,34 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:58:00Z",
+      "attempt_id": "attempt:f0f87146-e33e-4cc7-b429-c32dc5c2889f",
+      "result_digest": "d2693ee71b8f4e78a0e95e887e6836285f2ae37b8d9f6462fb2604c7c4de8811",
+      "task_id": "source:kabam-lever:luna:7402fb869dc52317",
+      "transaction_id": "txn:d2693ee71b8f4e78a0e95e88"
+    }
+  ],
+  "company_id": "kabam",
+  "current_job_count": 28,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:58:00Z",
+  "last_successful_scan_at": "2026-08-31T14:58:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_currency_mismatch": 24,
+    "employment_contract_excluded": 10,
+    "location_outside_target_city": 28,
+    "title_explicitly_non_target_function": 6,
+    "total": 28,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "kabam-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

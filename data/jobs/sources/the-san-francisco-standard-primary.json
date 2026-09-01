@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:41:57Z",
+      "attempt_id": "attempt:8a9c3d4b-30a1-470a-bbea-633a68031617",
+      "result_digest": "71322b4c5313134eaaacaa930241ac5afaff6307521510882198a677ac2f398a",
+      "task_id": "source:the-san-francisco-standard-primary:luna:f2cd793853c2d80c",
+      "transaction_id": "txn:71322b4c5313134eaaacaa93"
+    }
+  ],
+  "company_id": "the-san-francisco-standard",
+  "current_job_count": 8,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T03:40:00Z",
+  "last_successful_scan_at": "2026-09-01T03:40:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "breezy",
+  "rejection_counts": {
+    "role_not_product_engineering": 8
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "the-san-francisco-standard-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": [
+    "Board roles were all non-engineering editorial, marketing, internship, creator, or community-call positions."
+  ]
+}

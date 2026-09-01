@@ -1,0 +1,75 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:07:38Z",
+      "attempt_id": "attempt:30042133-6534-4dc4-af37-c6809ffcf06a",
+      "result_digest": "8b3eb83c735a2131648afca8d37aa5a18f1be18dbc4c93de6257ee2303944a4e",
+      "task_id": "source:multiply-labs-lever:luna:53d4485464d47374",
+      "transaction_id": "txn:8b3eb83c735a2131648afca8"
+    }
+  ],
+  "company_id": "multiply-labs",
+  "current_job_count": 7,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.lever.co/multiplylabs/eacf89a7-44a5-4313-836b-78fe969dce75",
+      "company_id": "multiply-labs",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 320000,
+        "minimum": 250000,
+        "period": "year",
+        "source_text": "USD 250000-320000 / year"
+      },
+      "compensation_text": "Multiply Labs is an early-stage startup where equity is a major part of the compensation package.",
+      "department": null,
+      "description_text": "Join the Future of Robotic Biomanufacturing! Multiply Labs is a robotics company on a mission to solve a significant bottleneck in modern medicine: the manufacturing of life-saving advanced biologics, from gene and cell therapies to antibodies and more. Today, these therapies are produced through manual, labor-intensive processes. Costs are extremely high—often $500K–$2M per patient—limiting access to only a small fraction of those who need them. As product complexity increases and the cost of failure and scientific labor rises, the industry is shifting toward automation. Robotics and AI are making automated biologics manufacturing feasible, reliable, and economically scalable. We believe the future of biomanufacturing is robotic—closed, automated, and scalable—ensuring critical therapeutics are accessible to every patient who needs them. Why This Matters We don’t just build robots; we build the infrastructure for the next generation of biologics manufacturing. Our technology allows biopharma companies to scale production without redesigning their science, drastically lowering regulatory hurdles and bringing costs down to a level where these treatments can actually reach patients. The Stack & The Scale The Mission: Build the world’s best robots to make life-saving therapies accessible to all. The Technology: Advanced robotic orchestration, high-precision automation, cloud-integrated hardware-software systems, dextrous manipulation, and imitation learning. The Location: Headquartered in San Francisco, CA. The Backing: Supported by premier investors, including Casdin Capital, Lux Capital, and Y Combinator. To learn more and to view a video of our robots in action, visit us at www.multiplylabs.com and follow us on LinkedIn. About the Role As our VP Software Engineering, Robotics & Systems, you will lead Multiply Labs’ growing software and robotics engineering organization during an exciting phase of scaling customer deployments and product evolution. You will report directly to the CEO and play a central leadership role on the executive team. We are looking for a collaborative technical leader to drive the strategic growth of our software engineering organization. You will manage the leads of our Robotics and Systems software teams, helping to scale our organization and professionalize our engineering practices while preserving the collaborative culture that makes our team unique. You are someone who can balance the strategic need for industry-standard processes with the startup need for speed and execution. Requirements: Engineering Excellence & Standards Lead Technical Evolution: Build upon our existing software architecture across Robotics (motion planning, kinematics) and Platform (cloud, scheduling, distributed systems). You will translate ambiguity into clear technical plans and scope minimum viable solutions, ensuring the stack remains robust and maintainable as system complexity increases. Innovation Transfer: Partner with our R&D Software team to transition frontier robotic advancements into commercial production. You will bridge the gap between research and production, ensuring that experimental features are rigorously integrated and stabilized before they reach our deployed clusters. Standards & Excellence: Evaluate our current Software Development Lifecycle and provide strategic feedback to close process gaps. You will guide the team in adopting and refining industry standards for code reviews, release management, versioning strategies, and technical documentation. Reliability & Testing Strategy: Champion a strategy for mission-critical reliability. You will oversee the maturation of our testing frameworks—building on our existing simulation and integration tests—and guide the strategic ramp-up of Hardware-in-the-Loop (HIL) testing. Requirements: Strategic Leadership & Product Partnership Product Alignment: Work alongside Hardware, Product, and Biology leadership to ensure software roadmaps align with physical constraints. You will help translate complex biological protocols and physical constraints into realistic software roadmaps. Customer Focus & Technical Strategy: Occasionally meet with customers to understand their needs and ensure our engineering efforts are solving the right problems. You will use this context to define the strategy for balancing new feature delivery with the reduction of technical debt, ensuring sustainable velocity. Requirements: Team Growth & Culture Scale the Organization: You will prepare the engineering team for a critical phase of growth—moving from a single Process Development (PD) unit to a fleet operating in both PD and regulated GMP environments. You understand the operational rigor required to support commercial GMP systems without stifling the agility needed for ongoing development. Mentorship & Career Guidance: You will take an active role in the professional development of your team. You will provide coaching, define clear career pathways, and ensure that engineers have the mentorship they need to evolve into technical leaders and effective managers. Team Culture & Values: Champion our existing culture of positivity and collaboration, ensuring these values persist as the organization scales. You will foster an environment of high trust and personal ownership, where intellectual honesty is valued over ego. Qualifications 15+ years of software engineering experience , with a demonstrated track record of building and maintaining complex, high-reliability integrated software systems. Proven Scale: Track record of scaling engineering organizations beyond 20–50+ engineers. You have the strategic foresight to plan for future organizational needs and the experience to manage managers effectively, ensuring the leadership structure remains strong as the team grows. Strong Technical Background: While this is a leadership position, we expect you to have a strong software engineering background. You have the ability to guide the team effectively and, at times, ship features or dive deep into design and implementation details. Regulated Industry Experience: Direct experience working in GMP environments or delivering software for regulated applications, such as life sciences/biopharma, aerospace, or defense. Hybrid Domain Experience: You have successfully bridged the gap between Enterprise Software (Cloud, SaaS) and Physical/Robotics Systems, and you have experience working in or managing multiple parts of the stack (SW, HW, Robotics). Technical Fluency: Familiarity with modern AI/ML landscapes (vision-language models, developer tools) and an understanding of how to leverage them in a robotics context. Product Intuition: Strong ability to create clarity in ambiguity. You care whether what we ship really works for the user, and have a history of collaborating successfully with external customers or partners. Who You Are (Cultural Fit) Intellectual Agility: You are a fast learner who adapts quickly when priorities shift. You actively collaborate with other teams to learn new constraints—asking questions and seeking explanations to ensure you fully understand the context behind complex requirements. Intrinsic Drive: You are a self-starter who identifies gaps and fills them without waiting for direction. You are personally motivated to constantly elevate our technical systems and team practices, ensuring the organization gets stronger every day. System-Level Collaboration: You understand that our robotic clusters are highly integrated systems. You have a naturally collaborative nature that enables you to work closely with hardware and biology teams to ensure the entire system functions as a cohesive unit. Data-Driven Alignment: You anchor your decisions in data and technical truth. You actively solicit feedback and diverse perspectives, using a steady and constructive approach to unite the team around complex technical decisions. Commitment to Impact: You measure success by the reliability of the system and the safety of the patients it serves. You take full responsibility for your team's deliverables, driven by the knowledge that solving our customers' problems ultimately makes people's lives better. Total Rewards & Life at Multiply Labs Competitive Compensation: Salary range of $250,000 - $320,000 a year plus meaningful early-stage equity . We want our team to have a real stake in the future we’re building. Premium Health: Premium Medical, Dental, and Vision plans with subsidies for child dependents. Wealth Building: 401(k) with a 4% company match to help you plan for the long term. Pre-Tax Commuter Benefit: Pay for eligible transit and parking with pre-tax dollars to save on commuting costs. Parental Support: Robust Paid Parental Leave to support your family’s newest additions. True Flexibility: We offer Flexible PTO and 12 Paid Holidays , trusting you to manage your time and recharge when you need it. No Set Hours: Set your own schedule in alignment with your manager and team. We hold a high bar, measuring success by impact and outcomes – not hours logged. Office Perks: A vibrant SF office culture featuring catered team lunches , stocked kitchen, and frequent team events. H-1B and Green Card sponsorship available for exceptional talent. Referral bonuses for helping us build a world-class team. Great people, meaningful work , and a team that genuinely believes in what we're building. Come build the world’s best robots—and help make life-saving therapies accessible to all. Travel While our headquarters is located in San Francisco, CA, this position will require up to 5-10% domestic and international travel. We actively seek candidates with diverse perspectives and lived experiences. We’re committed to building a team where everyone feels valued, respected, and empowered to do their best work. Multiply Labs encourages candidates from all backgrounds to apply — even if you don’t meet every qualification. If you’re excited about our mission and think you can contribute, we’d love to hear from you. Our headquarters is located in San Francisco’s vibrant Dogpatch neighborhood. Some roles may require 5-10% of domestic and international travel.",
+      "employment_text": "Full Time",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:07:11Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:07:11Z",
+      "locations": [
+        "San Francisco"
+      ],
+      "posted_at": "2026-02-10T20:53:56Z",
+      "provider": "lever",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "published USD annual base $250,000-$320,000",
+        "software engineering leadership role with job-specific AI/ML robotics context"
+      ],
+      "source_id": "multiply-labs-lever",
+      "source_job_id": "eacf89a7-44a5-4313-836b-78fe969dce75",
+      "stable_id": "job-b3112ca72c4a4de8a90efb94",
+      "status": "active",
+      "team": "Engineering Leadership",
+      "title": "VP Software Engineering, Robotics & System",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "onsite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:07:11Z",
+  "last_successful_scan_at": "2026-08-31T15:07:11Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "ai_involvement_insufficient": 1,
+    "compensation_below_profile_threshold": 3,
+    "compensation_unknown_or_below_threshold": 1,
+    "location_outside_target_city": 2,
+    "total": 7
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "multiply-labs-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

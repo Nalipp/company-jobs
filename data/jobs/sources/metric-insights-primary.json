@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:07:21Z",
+      "attempt_id": "attempt:769f5246-cd86-43a9-add6-38509243ee93",
+      "result_digest": "bb5a1aca5ca8f564755655d45ac9bbebb716974513b2aa1a63abdec7d627c5da",
+      "task_id": "source:metric-insights-primary:luna:fab19fb2b6ca768b",
+      "transaction_id": "txn:bb5a1aca5ca8f564755655d4"
+    }
+  ],
+  "company_id": "metric-insights",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T23:58:00Z",
+  "last_successful_scan_at": "2026-08-31T23:58:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_unknown": 1,
+    "role_not_target": 1,
+    "workplace_remote": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "metric-insights-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

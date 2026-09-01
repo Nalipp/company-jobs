@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:55:30Z",
+      "attempt_id": "attempt:dc46671a-182a-422a-aed5-634df6106b49",
+      "result_digest": "3362eca4797877907f0468c5dffe7c1da891d5fd37e85c920c9e24058e85212c",
+      "task_id": "source:human-interest-greenhouse:luna:7e04eb5ac94ab01e",
+      "transaction_id": "txn:3362eca4797877907f0468c5"
+    }
+  ],
+  "company_id": "human-interest",
+  "current_job_count": 45,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:55:11Z",
+  "last_successful_scan_at": "2026-08-31T14:55:11Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 3,
+    "title_explicitly_non_target_function": 33,
+    "total": 46,
+    "workplace_remote_excluded": 10
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "human-interest-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

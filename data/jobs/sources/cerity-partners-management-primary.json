@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:35:17Z",
+      "attempt_id": "attempt:5d25e779-eeca-490f-a0c8-68165046ddcf",
+      "result_digest": "c2dd5bb661726567f6302247ef07674275137bc9552cee399bfa2e40e2a76af8",
+      "task_id": "source:cerity-partners-management-primary:luna:38adf5cdce94ef54",
+      "transaction_id": "txn:c2dd5bb661726567f6302247"
+    }
+  ],
+  "company_id": "cerity-partners-management",
+  "current_job_count": 55,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T20:34:11.485Z",
+  "last_successful_scan_at": "2026-08-31T20:34:11.485Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "workday",
+  "rejection_counts": {
+    "deterministic_rejected": 18,
+    "semantic_rejected": 37
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "cerity-partners-management-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:29:46Z",
+      "attempt_id": "attempt:deb6b58e-3654-49c7-901a-79f338e372ba",
+      "result_digest": "28764845d28a4b3cef3e63ca3c10cdeced237c491158161c5a419dafc10d4426",
+      "task_id": "source:tia-greenhouse:luna:5453c0dce8ccf47d",
+      "transaction_id": "txn:28764845d28a4b3cef3e63ca"
+    }
+  ],
+  "company_id": "tia",
+  "current_job_count": 26,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:29:28Z",
+  "last_successful_scan_at": "2026-08-31T15:29:28Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "location_outside_target_city": 22,
+    "title_explicitly_non_target_function": 16,
+    "total": 26,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "tia-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

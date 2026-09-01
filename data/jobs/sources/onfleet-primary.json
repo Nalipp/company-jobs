@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:18:08Z",
+      "attempt_id": "attempt:2077862f-0d61-48bb-9f60-fbb80c41a284",
+      "result_digest": "f80cbd99862471068fca560853838649c26de0d955d19fbb2b56b88b79dd4a36",
+      "task_id": "source:onfleet-primary:luna:c5d7f1f25ad2bacd",
+      "transaction_id": "txn:f80cbd99862471068fca5608"
+    }
+  ],
+  "company_id": "onfleet",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:18:02Z",
+  "last_successful_scan_at": "2026-08-31T22:18:02Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "onfleet-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

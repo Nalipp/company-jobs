@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:55:17Z",
+      "attempt_id": "attempt:f28ae37f-ebe6-4d11-b3aa-627c7e1ed93e",
+      "result_digest": "1d806d2ab11655a0a18d80befaa92380013a3c73ddf7f3701d81bead7149dec2",
+      "task_id": "source:horizon3-primary:luna:be5892ff36ea01c7",
+      "transaction_id": "txn:1d806d2ab11655a0a18d80be"
+    }
+  ],
+  "company_id": "horizon3",
+  "current_job_count": 91,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:55:01Z",
+  "last_successful_scan_at": "2026-08-31T14:55:01Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 5,
+    "location_outside_target_city": 30,
+    "title_explicitly_non_target_function": 52,
+    "total": 91,
+    "workplace_remote_excluded": 65
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "horizon3-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

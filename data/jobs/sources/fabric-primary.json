@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:18:19Z",
+      "attempt_id": "attempt:4a6d9c66-df09-4bd6-b0dc-d8b415689600",
+      "result_digest": "1765e83a80d1f64215a6efa1bbff0a3adea2440de06b16411ae88ba83dbffdc8",
+      "task_id": "source:fabric-primary:luna:15395183ff3fa9d8",
+      "transaction_id": "txn:1765e83a80d1f64215a6efa1"
+    }
+  ],
+  "company_id": "fabric",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:33:00Z",
+  "last_successful_scan_at": "2026-08-31T22:33:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_unknown_or_role_mismatch": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "fabric-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

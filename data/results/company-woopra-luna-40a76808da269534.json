@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:woopra:luna:40a76808da269534",
+  "attempt_id": "attempt:fc6ca32f-2466-44f7-ba85-eae0b4247692",
+  "claim_token": "Y75_aGZmppONfnccH4g3uRI76Wq7TW_YoKwbHS1l1og",
+  "model": "luna",
+  "created_at": "2026-09-01T18:14:00Z",
+  "target": {"company_ids": ["woopra"], "source_ids": ["woopra-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [
+    {"url": "https://www.woopra.com/company/careers", "retrieved_at": "2026-09-01T18:14:00Z", "evidence_type": "official_careers_page", "finding": "The official careers page is accessible but stale, with no current reliable job enumeration or canonical job-detail URLs."},
+    {"url": "https://www.woopra.com/", "retrieved_at": "2026-09-01T18:14:00Z", "evidence_type": "official_company_site", "finding": "The official Woopra site remains accessible and identifies the company."}
+  ],
+  "patch": {
+    "company_id": "woopra",
+    "expected_record_revision": 1,
+    "company_changes": {},
+    "source_upserts": [{
+      "source_id": "woopra-primary",
+      "company_id": "woopra",
+      "expected_record_revision": 1,
+      "careers_url": "https://www.woopra.com/company/careers",
+      "listings_url": "https://www.woopra.com/company/careers",
+      "provider": "custom",
+      "board_id": null,
+      "access_mode": "html_listing",
+      "scope": "All Woopra roles",
+      "instructions": "The official careers page is stale and does not expose a reliable current job enumeration or canonical job-detail URLs; recheck before enabling automated scanning.",
+      "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+      "status": "unsupported",
+      "official_relationship_url": "https://www.woopra.com/company/careers",
+      "checked_at": "2026-09-01T18:14:00Z",
+      "last_success_at": null,
+      "added_date": "2026-08-28T23:04:10Z",
+      "updated_date": "2026-09-01T18:14:00Z"
+    }]
+  },
+  "item_results": [{"item": "woopra-primary", "status": "resolved", "summary": "Official careers page rechecked; remains unsupported because it is stale and lacks stable role endpoints."}],
+  "failure_class": null,
+  "notes": "Canonical source metadata refreshed; no company identity changes."
+}

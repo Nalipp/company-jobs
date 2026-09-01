@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:36:47Z",
+      "attempt_id": "attempt:a1c92c92-22c1-4468-9b76-65835c6002ce",
+      "result_digest": "3a60de82b8be152a6ff4eae97cb5d9f488e837252d91ae6e92c6cb04f04cd749",
+      "task_id": "source:you-com-greenhouse:luna:3b20730f3ac5c29e",
+      "transaction_id": "txn:3a60de82b8be152a6ff4eae9"
+    }
+  ],
+  "company_id": "you-com",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:36:33Z",
+  "last_successful_scan_at": "2026-08-31T15:36:33Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 5,
+    "total": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "you-com-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

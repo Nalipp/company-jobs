@@ -1,0 +1,58 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:39:13Z",
+      "attempt_id": "attempt:bd49fa5d-883d-425d-9bf7-4b993a67d9ee",
+      "result_digest": "7601e9921018911b128b8a47fa59e003728e138e5842af0ad49e077ae2569edd",
+      "task_id": "source:gusto-primary:luna:c455016df2185217",
+      "transaction_id": "txn:7601e9921018911b128b8a47"
+    }
+  ],
+  "company_id": "gusto",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://job-boards.greenhouse.io/gusto/jobs/7986047",
+      "company_id": "gusto",
+      "first_seen_at": "2026-08-31T21:40:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T21:40:00Z",
+      "provider": "custom",
+      "qualification_status": "deterministic_pass",
+      "source_id": "gusto-primary",
+      "source_job_id": "7986047",
+      "stable_id": "job-0b8497cf09c4705f81389d5c",
+      "status": "active",
+      "title": "Staff Software Engineer, Retirement AI"
+    },
+    {
+      "canonical_url": "https://job-boards.greenhouse.io/gusto/jobs/7760341",
+      "company_id": "gusto",
+      "first_seen_at": "2026-08-31T21:40:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T21:40:00Z",
+      "provider": "custom",
+      "qualification_status": "deterministic_pass",
+      "source_id": "gusto-primary",
+      "source_job_id": "7760341",
+      "stable_id": "job-68d2a80d9a92e06465d158fd",
+      "status": "active",
+      "title": "Staff Software Engineer, Core AI Platforms"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T21:40:00Z",
+  "last_successful_scan_at": "2026-08-31T21:40:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "gusto-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

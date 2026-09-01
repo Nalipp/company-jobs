@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:33:22Z",
+      "attempt_id": "attempt:e93eab41-5b94-485b-b361-c3c714fa3ebe",
+      "result_digest": "a1f4dd25644916711a13d02f8b11fb3d07d7e00a9b0c9961790d1623d04e20a7",
+      "task_id": "source:cardless-primary:luna:10a0d02ae6bb2c72",
+      "transaction_id": "txn:a1f4dd25644916711a13d02f"
+    }
+  ],
+  "company_id": "cardless",
+  "current_job_count": 23,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:33:05Z",
+  "last_successful_scan_at": "2026-08-31T03:33:05Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 3,
+    "compensation_below_threshold_or_unknown": 12,
+    "role_fit_not_product_engineering": 12,
+    "title_explicitly_non_target_function": 11,
+    "total": 38
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "cardless-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

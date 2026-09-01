@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:37:17Z",
+      "attempt_id": "attempt:f7f7e1dd-377d-45c1-8806-5af7d646c150",
+      "result_digest": "57f0fd9f8fb235d2ee9000d40ab48df40adec883a1a16bce20f571c427c70b8e",
+      "task_id": "source:cobalt-greenhouse:luna:a77d6514e1c8bdb5",
+      "transaction_id": "txn:57f0fd9f8fb235d2ee9000d4"
+    }
+  ],
+  "company_id": "cobalt",
+  "current_job_count": 11,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:37:00Z",
+  "last_successful_scan_at": "2026-08-31T03:37:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 5,
+    "role_fit_excluded": 2,
+    "title_explicitly_non_target_function": 2,
+    "total": 11,
+    "workplace_remote_excluded": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "cobalt-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

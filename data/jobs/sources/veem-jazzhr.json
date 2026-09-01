@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:43:12Z",
+      "attempt_id": "attempt:a048bb93-9d16-4bed-9789-15d520110bd3",
+      "result_digest": "dc82ffe37ac51191a79418b2c1e938d3bf4f591781b6492b8e4fb1b1c7c51edb",
+      "task_id": "source:veem-jazzhr:luna:bd32de5d12c3d5c2",
+      "transaction_id": "txn:dc82ffe37ac51191a79418b2"
+    }
+  ],
+  "company_id": "veem",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T03:50:00Z",
+  "last_successful_scan_at": "2026-09-01T03:50:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "jazzhr",
+  "rejection_counts": {
+    "location_outside_target_city": 6,
+    "role_family_mismatch": 3,
+    "workplace_remote_excluded": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "veem-jazzhr",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

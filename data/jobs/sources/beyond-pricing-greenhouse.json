@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T02:50:53Z",
+      "attempt_id": "attempt:6d94daea-ddbf-4483-a68e-98a0c9e9d743",
+      "result_digest": "4612539c6bd8cb190802d67bd6de95d813cc1fbcb5a9e98651516075e05618d7",
+      "task_id": "source:beyond-pricing-greenhouse:luna:05024668c81dd6cb",
+      "transaction_id": "txn:4612539c6bd8cb190802d67b"
+    }
+  ],
+  "company_id": "beyond-pricing",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T02:50:53Z",
+  "last_successful_scan_at": "2026-08-31T02:50:53Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 4,
+    "total": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "beyond-pricing-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

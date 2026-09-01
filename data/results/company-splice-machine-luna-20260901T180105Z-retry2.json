@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:splice-machine:luna:6d2059d589cef114",
+  "attempt_id": "attempt:f50523db-a8bb-407d-a8c0-de8376ed926a",
+  "claim_token": "vDUCfL4PkklFmza6v1DKXYO4HGkmdJ7mYeH6VpBU9h8",
+  "model": "luna",
+  "created_at": "2026-09-01T18:01:05Z",
+  "target": {"company_ids": ["splice-machine"], "source_ids": ["splice-machine-primary"]},
+  "outcome": "blocked",
+  "reason_code": "career_source_no_careers_found",
+  "evidence": [{"url": "https://splicemachine.com", "retrieved_at": "2026-09-01T18:01:35Z", "evidence_type": "official_company_page", "finding": "The saved official Splice Machine domain timed out again during the retry, preventing verification of a current employer careers source."}, {"url": "https://job-boards.greenhouse.io/splice", "retrieved_at": "2026-09-01T18:01:35Z", "evidence_type": "search_result", "finding": "A Greenhouse board for a separate music company named Splice appeared in search; it was rejected as an identity mismatch and not used for Splice Machine."}],
+  "patch": {"company_id": "splice-machine", "expected_record_revision": 1, "company_changes": {}, "source_upserts": []},
+  "item_results": [{"item": "splice-machine-primary", "status": "blocked", "summary": "Official domain timed out again; unrelated Splice board rejected; retry at Luna without canonical changes."}],
+  "failure_class": "timeout",
+  "notes": "Access failure; do not escalate model."
+}

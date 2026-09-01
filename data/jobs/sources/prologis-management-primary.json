@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:27:29Z",
+      "attempt_id": "attempt:294db9e0-aeb7-4abb-b132-9760773a5bed",
+      "result_digest": "cc0f58e59a1b092d66fb1b3cf4299583176c419a85a833beb1e80b2efe2f5b34",
+      "task_id": "source:prologis-management-primary:luna:2a5c5921e9e138f8",
+      "transaction_id": "txn:cc0f58e59a1b092d66fb1b3c"
+    }
+  ],
+  "company_id": "prologis-management",
+  "current_job_count": 66,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:25:45Z",
+  "last_successful_scan_at": "2026-08-31T22:25:45Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "workday",
+  "rejection_counts": {
+    "compensation_unknown": 10,
+    "location_or_role_mismatch": 56
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "prologis-management-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

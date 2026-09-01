@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:31:48Z",
+      "attempt_id": "attempt:18ce7751-d7be-4ca9-9276-b5dd5c72ca5c",
+      "result_digest": "6bc32fa240ee19633030c63ac8d760447b7100b14e08cfa72c216a396207b5be",
+      "task_id": "source:upwave-primary:luna:90cfb149a6b8d91b",
+      "transaction_id": "txn:6bc32fa240ee19633030c63a"
+    }
+  ],
+  "company_id": "upwave",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:31:38Z",
+  "last_successful_scan_at": "2026-08-31T15:31:38Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 2,
+    "title_explicitly_non_target_function": 1,
+    "total": 3,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "upwave-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

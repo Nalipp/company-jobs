@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:03:34Z",
+      "attempt_id": "attempt:4fc1e2d2-9b80-48c5-910e-daeedf247d50",
+      "result_digest": "1f1f038fee1fa41087004778711ccd1e9733954c6413733c7d50f2e5b9897b3d",
+      "task_id": "source:extend-greenhouse:luna:892bf4ff7722246e",
+      "transaction_id": "txn:1f1f038fee1fa41087004778"
+    }
+  ],
+  "company_id": "extend",
+  "current_job_count": 20,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:03:20Z",
+  "last_successful_scan_at": "2026-08-31T04:03:20Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 1,
+    "location_outside_target_city": 17,
+    "title_explicitly_non_target_function": 6,
+    "total": 20
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "extend-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

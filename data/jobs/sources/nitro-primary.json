@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:14:56Z",
+      "attempt_id": "attempt:76afb246-f04f-4fcd-aa6e-3e7ef98119c3",
+      "result_digest": "57d7500fa15673100096093df38115075f3eeb31026879bb0146ad82a55b5f0e",
+      "task_id": "source:nitro-primary:luna:92c32d8ebfb17393",
+      "transaction_id": "txn:57d7500fa15673100096093d"
+    }
+  ],
+  "company_id": "nitro",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:30:00Z",
+  "last_successful_scan_at": "2026-08-31T22:30:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "total": 0
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "nitro-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": [
+    "Official directory showed 22 roles, all outside the exact San Francisco city constraint; no normalized records were retained."
+  ]
+}

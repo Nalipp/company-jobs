@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:00:06Z",
+      "attempt_id": "attempt:61136946-6740-471f-b752-5a335cfb7111",
+      "result_digest": "d28efe0a250b9cad9daf4edf5549df25634532fc65bd42d1446f6a87cf768070",
+      "task_id": "source:cypress-creek-renewables-primary:luna:a4718cdb621e19e7",
+      "transaction_id": "txn:d28efe0a250b9cad9daf4edf"
+    }
+  ],
+  "company_id": "cypress-creek-renewables",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:20:00Z",
+  "last_successful_scan_at": "2026-08-31T21:20:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "location": 16,
+    "role_fit": 8
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "cypress-creek-renewables-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

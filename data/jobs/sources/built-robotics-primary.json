@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:19:16Z",
+      "attempt_id": "attempt:db3e8f65-edb0-4dcd-8c2f-d130faab4d73",
+      "result_digest": "233d47c0544c70e17cd5fece2507632eaa56ad56752e2e12b11049d703991388",
+      "task_id": "source:built-robotics-primary:luna:f975a88f28dc3102",
+      "transaction_id": "txn:233d47c0544c70e17cd5fece"
+    }
+  ],
+  "company_id": "built-robotics",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T23:00:00Z",
+  "last_successful_scan_at": "2026-08-31T23:00:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_maximum_unknown": 2,
+    "role_fit": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "built-robotics-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

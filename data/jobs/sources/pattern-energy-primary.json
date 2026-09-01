@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:20:16Z",
+      "attempt_id": "attempt:8a8518c9-f6dd-48e0-a429-a65d208caa5a",
+      "result_digest": "1027667c9c65d0e6672286b4c3ed4cec151587b2195cd877f7de4ebc82fd2be4",
+      "task_id": "source:pattern-energy-primary:luna:35b9e71d6aa94f7d",
+      "transaction_id": "txn:1027667c9c65d0e6672286b4"
+    }
+  ],
+  "company_id": "pattern-energy",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T23:15:00Z",
+  "last_successful_scan_at": "2026-08-31T23:15:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "icims",
+  "rejection_counts": {
+    "total": 0
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "pattern-energy-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": [
+    "All enumerated roles were non-target or outside the exact San Francisco product/frontend/AI role scope."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:59:18Z",
+      "attempt_id": "attempt:59dd69d1-40f8-4109-8b1b-6bf0a92218b4",
+      "result_digest": "ba0d610fb30830c7d0374d5ab7a6c38ac594652e5be2d100c6cbcae09a8ce8cb",
+      "task_id": "source:klaviyo-greenhouse:luna:c835243f8507a35b",
+      "transaction_id": "txn:ba0d610fb30830c7d0374d5a"
+    }
+  ],
+  "company_id": "klaviyo",
+  "current_job_count": 142,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:59:01Z",
+  "last_successful_scan_at": "2026-08-31T14:59:01Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 118,
+    "title_explicitly_non_target_function": 71,
+    "title_not_target_engineering_family": 12,
+    "total": 201
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "klaviyo-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

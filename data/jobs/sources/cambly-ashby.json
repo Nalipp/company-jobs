@@ -1,0 +1,71 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T02:52:49Z",
+      "attempt_id": "attempt:a4a31e3e-f6ad-46ed-bac0-301665a48164",
+      "result_digest": "4a01fc8569ed8a8e933ae6e375aede8f8beee2befe43101759b0c115a5bec430",
+      "task_id": "source:cambly-ashby:luna:11cad8bc7e2b048f",
+      "transaction_id": "txn:4a01fc8569ed8a8e933ae6e3"
+    }
+  ],
+  "company_id": "cambly",
+  "current_job_count": 8,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "ai_involvement_evidence": "Official posting states Cambly is bringing AI to language learning and builds AI-first with AI coding tools integrated into engineering practice.",
+      "canonical_url": "https://jobs.ashbyhq.com/Cambly/2e7dd09c-3678-4324-ade9-486e791322fa",
+      "company_id": "cambly",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 230000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $230K"
+      },
+      "compensation_text": "$200K - $230K",
+      "department": "Research & Development",
+      "description_text": "STAFF SOFTWARE ENGINEER About Cambly: Our mission is to bring high-quality English education to every English learner in the world at the touch of a button. Think of us as the Airbnb that matches English students with English tutors. Come help us build the world's largest English learning marketplace and school. We're looking for a Staff Software Engineer to own the technical direction of the products we ship. You'll be a senior technical owner on a fast-moving engineering team of around 15 engineers: backend-strong, comfortable working across the stack, and accountable for taking products from design through launch. You'll work closely with product managers, designers, and engineers, and you'll set the bar for how the team builds. We're bringing AI to language learning in a way that strengthens what makes Cambly work: real tutors and real human connection. And we build AI-first: implementation is delegated to AI coding tools so engineers spend their time on the decisions, design, and review that actually shape the product. That's how you work too. Our frontend is built on Next.js, React, and TypeScript. Our backend is built with Python (Flask and FastAPI) on AWS with MongoDB. YOU WILL - Own the product platform. Lead the design and delivery of our backend systems: APIs, data models, and services, and be accountable for them working in production. - Make the hard calls. Own the judgment that shapes product work, including how we model the domain and when to build for scale and extensibility versus building quickly for fast learnings. - Ship end to end. Take products from technical design through launch, and own major initiatives across the team. - Work across the stack. Pick up frontend, mobile, and data work outside your core when a product needs it, using AI to be effective in areas where you aren't the resident expert. - Set how we build. Raise the technical bar through architecture, reviews, and good practices, and turn the AI workflows that work into practices the rest of the team adopts. - Grow the team. Mentor engineers, review their work, and help raise the standard of everyone around you. WORK ON PROJECTS LIKE - Owning the platform behind a new AI-forward learning experience that generates personalized activities for each learner, and shaping it as we learn what works. - Designing the backend systems and data models that hold up as an AI-forward product grows. - Building post-lesson activities curated to each learner's areas for improvement. ABOUT YOU - 7+ years of engineering experience, with a track record of owning systems and leading them to production. - Deep backend ability: API design, data modeling, and production systems that hold up at scale. - You build AI-first. Directing AI coding tools to do the implementation, and spending your own time on decisions and review, is already how you work, not something you're curious to try. - You own your work and have the technical judgment to make the calls that come with it, including when to invest in scale and extensibility and when to optimize for speed and learning. - Comfortable working outside your core. You'd rather pick up unfamiliar parts of the stack and ship than wait for a specialist. - A product mindset. You care about shipping things learners actually use. - A clear communicator who can explain technical trade-offs to engineers and non-engineers alike. LIFE AT CAMBLY INCLUDES - $60M VC backed. Check out why Bessemer https://www.bvp.com/news/our-investment-in-cambly invested in us. - Hybrid first company. Office days are Monday, Tuesday, and Thursday. - Daily catered lunch. - 100% of medical, dental, and vision paid, along with 401k matching up to 4%. - Maternity and paternity paid leave. - 20 days of PTO, 9 days of sick leave, 10 company holidays, plus an end-of-year shutdown. - Helping people around the world unlock economic opportunities by learning English. COMPENSATION This role is based in the San Francisco Bay Area, and the expected base salary range for this position is shown below. The actual base pay depends on job-related factors such as professional background, training, work experience, business needs, and market demand, so in some circumstances the actual salary could fall outside this range. This pay range is subject to change and may be modified in the future. All full-time employees are also eligible for equity compensation and for benefits. $200,000 - $230,000 USD Base Salary plus pre-IPO stock options. EQUAL OPPORTUNITY We are proud to be a highly inclusive company and an Equal Employment Opportunity employer. We believe that in order to thrive, businesses need a diverse team and leadership. We welcome every background, identity, ability, and mindset to join us on our mission to make high-quality English education available to all. Everyone is welcome here.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T02:52:33Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T02:52:33Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-07-31T00:47:47Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "role_fit_evidence": "Staff Software Engineer owns product platform delivery across APIs, services, and product teams; official posting names Next.js, React, and TypeScript frontend work.",
+      "source_id": "cambly-ashby",
+      "source_job_id": "2e7dd09c-3678-4324-ade9-486e791322fa",
+      "stable_id": "job-0ede3ccc2215bfd306cef446",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Staff Software Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T02:52:33Z",
+  "last_successful_scan_at": "2026-08-31T02:52:33Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_period_mismatch": 1,
+    "location_outside_target_city": 6,
+    "total": 8,
+    "workplace_remote_excluded": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "cambly-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

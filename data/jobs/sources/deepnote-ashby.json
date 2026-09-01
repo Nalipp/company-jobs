@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:01:06Z",
+      "attempt_id": "attempt:9df60e53-7c2c-47a4-8c59-fe4c079cdadf",
+      "result_digest": "2af5256182cdb0eabdf30e0513307c92163237c1532c4f41830ffacae51e040b",
+      "task_id": "source:deepnote-ashby:luna:2c37570a0070a674",
+      "transaction_id": "txn:2af5256182cdb0eabdf30e05"
+    }
+  ],
+  "company_id": "deepnote",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:01:02Z",
+  "last_successful_scan_at": "2026-08-31T04:01:02Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "employment_part-time_excluded": 1,
+    "title_explicitly_non_target_function": 1,
+    "total": 3,
+    "workplace_remote_excluded": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "deepnote-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:00:15Z",
+      "attempt_id": "attempt:93d20a06-e350-4c0e-9655-b127a67716d1",
+      "result_digest": "dcba1a6972d29779a91ef738d60a51fe613e52cbceae32cc2eee960774b89313",
+      "task_id": "source:lakera-primary:luna:af5c77e08c6994de",
+      "transaction_id": "txn:dcba1a6972d29779a91ef738"
+    }
+  ],
+  "company_id": "lakera",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:00:12Z",
+  "last_successful_scan_at": "2026-08-31T15:00:12Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "lakera-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

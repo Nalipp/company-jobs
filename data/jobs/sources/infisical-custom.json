@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:41:10Z",
+      "attempt_id": "attempt:0ac2ffc4-5c90-4a36-8115-9643657195d1",
+      "result_digest": "662ac607991c2bb2296f33e59151bde472cc225efe7145237b2e5d3d65ba34cb",
+      "task_id": "source:infisical-custom:luna:23c64b31012529c7",
+      "transaction_id": "txn:662ac607991c2bb2296f33e5"
+    }
+  ],
+  "company_id": "infisical",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:55:00Z",
+  "last_successful_scan_at": "2026-08-31T21:55:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "ai_product": 2,
+    "compensation": 2,
+    "location": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "infisical-custom",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

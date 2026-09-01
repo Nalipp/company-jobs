@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:09:10Z",
+      "attempt_id": "attempt:478f4511-3067-4def-a234-68cc6a6886dd",
+      "result_digest": "78dde3b64178dea165ecd4a98af0308e22a3c72a77b02373aaf9237a235818e2",
+      "task_id": "source:smartrecruiters-primary:luna:a659f41e89998372",
+      "transaction_id": "txn:78dde3b64178dea165ecd4a9"
+    }
+  ],
+  "company_id": "smartrecruiters",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T02:08:00Z",
+  "last_successful_scan_at": "2026-09-01T02:08:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "smartrecruiters",
+  "rejection_counts": {
+    "compensation_unknown": 2,
+    "employment_temporary": 1,
+    "location_not_san_francisco": 2,
+    "role_not_product_engineering": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "smartrecruiters-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

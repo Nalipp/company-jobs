@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:19:31Z",
+      "attempt_id": "attempt:2b3ae5a2-94db-42bf-b7f5-5ca657df2fc0",
+      "result_digest": "be4671c658874992a9d1fdbc1c068a2da5623e60e8da00c75a164662a6667fdc",
+      "task_id": "source:replo-primary:luna:16083bd03eb3ec3b",
+      "transaction_id": "txn:be4671c658874992a9d1fdbc"
+    }
+  ],
+  "company_id": "replo",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:19:18Z",
+  "last_successful_scan_at": "2026-08-31T15:19:18Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "semantic_non_target": 1,
+    "title_explicitly_non_target_function": 1,
+    "total": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "replo-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

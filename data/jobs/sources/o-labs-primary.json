@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:15:49Z",
+      "attempt_id": "attempt:b08921f3-9260-4ca8-9a84-6dabd134c031",
+      "result_digest": "5c4752d72f280739ee69900e2a72cc19b012d4caafd633ea25a2aa9c142bce9b",
+      "task_id": "source:o-labs-primary:luna:8c8397696b2fc8fc",
+      "transaction_id": "txn:5c4752d72f280739ee69900e"
+    }
+  ],
+  "company_id": "o-labs",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:40:00Z",
+  "last_successful_scan_at": "2026-08-31T22:40:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "rippling",
+  "rejection_counts": {
+    "total": 0
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "o-labs-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

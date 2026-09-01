@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:33:48Z",
+      "attempt_id": "attempt:cc4cc5f3-a2fd-4ac6-a11b-cce883681fb6",
+      "result_digest": "790b0a0c559556ae0ff2b4201ca386282389be5676b27d8c5f142b8e112ac691",
+      "task_id": "source:hover-primary:luna:d3fa73e9c8ac60c7",
+      "transaction_id": "txn:790b0a0c559556ae0ff2b420"
+    }
+  ],
+  "company_id": "hover",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T23:58:00Z",
+  "last_successful_scan_at": "2026-08-31T23:58:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "ai_or_role_mismatch": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "hover-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

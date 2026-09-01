@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:zendrive:luna:19226c55703276ef",
+  "attempt_id": "attempt:6d41fef7-cce3-4184-8e59-9248a9cf7e70",
+  "claim_token": "YdhD-uhQkzNY9effALCpYYjRUXS-CAjKzNXDU9toNoU",
+  "model": "luna",
+  "created_at": "2026-09-01T18:16:00Z",
+  "target": {"company_ids": ["zendrive"], "source_ids": ["zendrive-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [
+    {"url": "https://zendrive-61307a49c5661e6e-d1a87a856581d.webflow.io/company", "retrieved_at": "2026-09-01T18:16:00Z", "evidence_type": "company_hosted_careers_page", "finding": "The Zendrive-branded page exposes an Open positions section with multiple roles and Apply now actions, but it is hosted on a Webflow subdomain rather than the company domain."},
+    {"url": "https://www.linkedin.com/company/zendrive", "retrieved_at": "2026-09-01T18:16:00Z", "evidence_type": "third_party_company_profile", "finding": "LinkedIn identifies Zendrive as a San Francisco software company, but does not establish a current employer-controlled job endpoint."}
+  ],
+  "patch": {
+    "company_id": "zendrive",
+    "expected_record_revision": 1,
+    "company_changes": {},
+    "source_upserts": [{
+      "source_id": "zendrive-primary",
+      "company_id": "zendrive",
+      "expected_record_revision": 1,
+      "careers_url": "https://zendrive-61307a49c5661e6e-d1a87a856581d.webflow.io/company",
+      "listings_url": "https://zendrive-61307a49c5661e6e-d1a87a856581d.webflow.io/company",
+      "provider": "custom",
+      "board_id": null,
+      "access_mode": "browser_required",
+      "scope": "All Zendrive roles",
+      "instructions": "Load the Zendrive-branded page in a browser and resolve its open-position links and stable role-detail URLs; verify the company-domain relationship before enabling automated enumeration.",
+      "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+      "status": "unsupported",
+      "official_relationship_url": "https://zendrive-61307a49c5661e6e-d1a87a856581d.webflow.io/company",
+      "checked_at": "2026-09-01T18:16:00Z",
+      "last_success_at": null,
+      "added_date": "2026-08-28T23:02:15Z",
+      "updated_date": "2026-09-01T18:16:00Z"
+    }]
+  },
+  "item_results": [{"item": "zendrive-primary", "status": "resolved", "summary": "Zendrive-branded hiring page rechecked; source remains unsupported pending domain relationship and stable role verification."}],
+  "failure_class": null,
+  "notes": "Canonical source metadata refreshed; no company identity changes."
+}

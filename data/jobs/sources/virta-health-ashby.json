@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:33:39Z",
+      "attempt_id": "attempt:31ec5912-6380-438a-add1-6468f0dc3750",
+      "result_digest": "3867ef1d3f65635212f549681c988223c4f6e39c0641487dcf2891ec5ef2578a",
+      "task_id": "source:virta-health-ashby:luna:4e387f68df000444",
+      "transaction_id": "txn:3867ef1d3f65635212f54968"
+    }
+  ],
+  "company_id": "virta-health",
+  "current_job_count": 22,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:33:34Z",
+  "last_successful_scan_at": "2026-08-31T15:33:34Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 12,
+    "compensation_period_mismatch": 1,
+    "title_explicitly_non_target_function": 5,
+    "total": 22,
+    "workplace_remote_excluded": 22
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "virta-health-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

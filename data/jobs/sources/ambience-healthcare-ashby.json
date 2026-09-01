@@ -1,0 +1,98 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:18:31Z",
+      "attempt_id": "attempt:34396c52-a818-47d3-946d-a541cc4e1d4e",
+      "result_digest": "b47cb8075fdcdf30170f73a2d57526674979542fcbb7e112156ef5a9bb1dfbb9",
+      "task_id": "source:ambience-healthcare-ashby:luna:24a0c00ba8b81764",
+      "transaction_id": "txn:b47cb8075fdcdf30170f73a2"
+    }
+  ],
+  "company_id": "ambience-healthcare",
+  "current_job_count": 17,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/ambiencehealthcare/ff693839-faff-4921-ae76-b4c7ef45ecc9",
+      "company_id": "ambience-healthcare",
+      "compensation": null,
+      "compensation_text": null,
+      "department": "Engineering",
+      "description_text": "About Us: Here at Ambience, we never set out to be just another scribe. We’re building the AI intelligence platform that restores humanity to healthcare and drives meaningful ROI for health systems across the country. Our technology helps providers focus on delivering great care by removing the administrative burden that pulls them away from patients and away from their most impactful work. Ambience delivers real-time coding-aware documentation and clinical workflow support across ambulatory, emergency and inpatient settings at the top health systems in North America. Our teams operate relentlessly with extreme ownership to build the best solutions for our health system partners. We value candor, positivity and deep thought — and we expect a lot from each other because we know the problems we’re solving truly matter. Ambience was ranked #1 for Improving the Clinician Experience in the KLAS Research Emerging Solutions Top 20 Report, recognized by Fast Company as one of the Next Big Things in Tech, named one of the best AI companies in healthcare by Inc., and selected as a LinkedIn Top Startup in 2024 and 2025. We’re backed by Oak HC/FT, Andreessen Horowitz (a16z), OpenAI Startup Fund, and Kleiner Perkins — and we’re just getting started. The Role: Ambience is hiring a Technical Lead Manager of Product Engineering to lead and scale our core engineering teams as we build the category-defining AI platform for healthcare. You’ll partner closely with product, design, and clinical teams to translate ambitious ideas into production-ready systems that are scalable, maintainable, and loved by end users. This role is responsible for growing the team from 5 to 10+ engineers, building high-functioning pods around product domains, and delivering features that have a direct impact on clinician efficiency and patient outcomes. You’ll shape org design, culture, and process at a critical moment in Ambience’s growth, reporting directly to the Head of Engineering. What You’ll Do: - Build the Team: Help grow and shape a high-performing engineering group by hiring, onboarding, and developing strong ICs. Partner closely with recruiting and tap into your own network to attract and close exceptional talent. - Design for Speed and Autonomy: Architect the engineering team for high ownership and product velocity. Set clear team charters, rituals, and scopes of responsibility. - Drive Product Impact: Ship major customer-facing initiatives that expand Ambience’s enterprise footprint, while raising the bar on quality and performance. - Coach and Grow Managers: Mentor EMs or TLs, create pathways for career growth, and promote a culture of feedback, execution, and high agency. - Set Engineering Standards: Lead on architecture, code quality, release reliability, and data integrity. Establish best practices and ensure consistency across pods. - Partner Cross-functionally: Collaborate deeply with PM, Design, and Clinical SMEs to ensure strong planning, discovery, and delivery practices across the product lifecycle. - Lead Through Ambiguity: Translate high-level business goals into actionable plans, unblocking teams and delivering results in fast-moving and uncertain environments. Who You Are: - Experienced hiring manager; has personally hired 7+ engineers, and built teams in fast-paced, high-growth environments - Hands-on Leader: You bring 8+ years of software engineering experience, including 3+ years managing engineers - Technically Credible: You’ve built and scaled distributed systems, shipped backend and full-stack features in SaaS environments, and can go deep on technical decisions when needed. - Product-Oriented: You know how to collaborate with PM and Design, think in terms of user outcomes, and ensure your team is always building the right thing. - Execution-Focused: You take pride in delivering on ambitious goals. You know how to align a team, debug process issues, and accelerate throughput. - Culture Shaper: You build inclusive teams with strong feedback and trust cultures. You lead with empathy and set a high bar for engineering maturity and ownership. - Mission-Aligned: You’re excited by our vision to improve healthcare through AI and motivated by the opportunity to build a platform that makes a real-world impact. Nice-to-haves: - Experience in enterprise SaaS or healthtech - Prior experience at high-growth Series B–D startups - A personal network of Bay Area engineers or managers - History of technical thought leadership (talks, blogs, open-source) Pay Transparency We offer a base compensation range of approximately $265,000–$325,000 per year, exclusive of equity. This intentionally broad range provides flexibility for candidates to tailor their cash and equity mix based on individual preferences. Our compensation philosophy prioritizes meaningful equity grants, enabling team members to share directly in the impact they help create. Are you outside of the range? We encourage you to still apply: we take an individualized approach to ensure that compensation accounts for all of the life factors that matter for each candidate. Life at Ambience Working at Ambience means opting into a high-ownership, high-trust environment built for people who want to grow fast, operate decisively and focus on work that matters. This could be the right place for you if you want to - Work on mission-critical AI technology that directly improves clinicians’ day-to-day lives and health system financial health across some of the most complex, high-stakes workflows in the world. - Join a “dream team” culture where we hire exceptional people, expect exceptional outcomes and invest deeply in feedback and continuous growth. We operate as a championship team, and that means being ok with hard, uncomfortable, ambiguous problems that lead to real greatness. - Operate with real ownership and accountability in an environment where there are no bystanders: If something is broken, we fix it! You will have meaningful autonomy and be expected to drive work to completion. To help you do your best work, we pair these expectations with benefits intentionally designed to help you feel supported and safe at Ambience and beyond. Some of our key benefits include - Comprehensive medical, dental, and vision coverage for you and your dependents - 401(k) with a company match of up to 3% of base salary - A remote-friendly culture (with a San Francisco HQ) and full equipment provisioning to ensure you can work effectively from wherever you’re based. - Parental leave to support your family needs - Annual company-wide off-sites, team off-sites and regular team lunches and all-hands gatherings, with travel, lodging and meals covered - Flexible time off with no annual cap, company-wide holidays and an annual holiday shutdown from December 24–January 1 designed to support real rest and long-term sustainability. Ambience Healthcare is an equal opportunity employer and is committed to building a diverse and inclusive workplace. We do not discriminate on the basis of race, color, religion, sex, gender identity or expression, sexual orientation, national origin, age, disability, veteran status, genetic information, or any other legally protected status. We encourage applicants from all backgrounds to apply. Ambience is committed to supporting every candidate’s ability to fully participate in our hiring process. If you need any accommodations during your application or interviews, please reach out to our Recruiting team at accommodations@ambiencehealthcare.com recruiting@ambiencehealth.com. We’ll handle your request confidentially and work with you to ensure an accessible and equitable experience for all candidates. Ambience Healthcare has become aware of scams targeting jobseekers with fake jobs and even interviewing people. Our emails will always come from @ambiencehealthcare.com. We would never our ask candidates to download apps or make any form of payment(s). If you are contacted through WhatsApp, Telegram, similar but fake email domains, or asked to make a payment, these contacts are not legitimate. Report the issue immediately to LinkedIn and the FBI https://www.fbi.gov/how-we-can-help-you/scams-and-safety.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T03:16:56Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T03:16:56Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-08-20T22:40:23Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "Product engineering leadership for customer-facing AI platform features; published base $265,000-$325,000/year; San Francisco, full-time."
+      ],
+      "source_id": "ambience-healthcare-ashby",
+      "source_job_id": "ff693839-faff-4921-ae76-b4c7ef45ecc9",
+      "stable_id": "job-16261f584ea0b2eaa44f8b56",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Engineering Manager, Product",
+      "updated_at": null,
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/ambiencehealthcare/2a5dcd26-fe35-4d06-b6d4-6f76d330134e",
+      "company_id": "ambience-healthcare",
+      "compensation": null,
+      "compensation_text": null,
+      "department": "Engineering",
+      "description_text": "About Us: Here at Ambience, we never set out to be just another scribe. We’re building the AI intelligence platform that restores humanity to healthcare and drives meaningful ROI for health systems across the country. Our technology helps providers focus on delivering great care by removing the administrative burden that pulls them away from patients and away from their most impactful work. Ambience delivers real-time coding-aware documentation and clinical workflow support across ambulatory, emergency and inpatient settings at the top health systems in North America. Our teams operate relentlessly with extreme ownership to build the best solutions for our health system partners. We value candor, positivity and deep thought — and we expect a lot from each other because we know the problems we’re solving truly matter. Ambience was ranked #1 for Improving the Clinician Experience in the KLAS Research Emerging Solutions Top 20 Report, recognized by Fast Company as one of the Next Big Things in Tech, named one of the best AI companies in healthcare by Inc., and selected as a LinkedIn Top Startup in 2024 and 2025. We’re backed by Oak HC/FT, Andreessen Horowitz (a16z), OpenAI Startup Fund, and Kleiner Perkins — and we’re just getting started. The Role: As a Staff Software Engineer on the AI Platform team, you will design, build, and maintain the core infrastructure that empowers healthcare providers who use our platform every single day as they care for patients. As an OpenAI portfolio company, you will be surrounded by the leading minds in AI and exposed to the latest advancements in our field. In the first 6 months, you’ll be responsible for setting up the foundations for long term success, investing in platform observability, reliability, and scalability. As a technical leader, you’ll be responsible for the entire lifecycle of major technical initiatives in our AI stack--from system design to deploying the code you've written. Our Engineering roles are hybrid in our SF office 3x/wk. What You’ll Do: - Design and architect major product features leveraging the latest advancements in AI to deliver a magical user experience - Anticipate system bottlenecks and proactively re-architect key system components before they create issues for our customers - Lead product initiatives with high strategic value, accelerating speed of iteration while preventing accumulation of technical debt - Hold the codebase to a high standard, and assist in developing engineering processes that encourage shipping high quality code Who You Are: - You have a Bachelors degree and 7+ years of experience, or equivalent - 7+ years of experience tackling zero-to-one engineering challenges, building and scaling systems to meet production SLAs, and navigating architectural trade-offs in distributed systems. - Proficient with modern infrastructure stacks, including cloud providers (AWS, GCP), containers (Docker), queuing systems (Kafka), and databases (Postgres), and flexible across the stack to deliver projects. - Skilled at mentoring engineers while remaining hands-on, driving quality, execution speed, and successful outcomes as a technical leader or engineering manager. - Demonstrated ability to own end-to-end execution, from concept to impactful results, with a focus on building breakthrough product experiences. - Thrives in environments of complexity and ambiguity, prioritizing collaboration and seeking the best ideas regardless of their source. - Values kindness, encouragement, and being a supportive teammate, fostering a mission-aligned and ambitious team culture. Pay Transparency We offer a base compensation range of approximately $250,000–$300,000 per year, exclusive of equity. This intentionally broad range provides flexibility for candidates to tailor their cash and equity mix based on individual preferences. Our compensation philosophy prioritizes meaningful equity grants, enabling team members to share directly in the impact they help create. Are you outside of the range? We encourage you to still apply: we take an individualized approach to ensure that compensation accounts for all of the life factors that matter for each candidate. Life at Ambience Working at Ambience means opting into a high-ownership, high-trust environment built for people who want to grow fast, operate decisively and focus on work that matters. This could be the right place for you if you want to - Work on mission-critical AI technology that directly improves clinicians’ day-to-day lives and health system financial health across some of the most complex, high-stakes workflows in the world. - Join a “dream team” culture where we hire exceptional people, expect exceptional outcomes and invest deeply in feedback and continuous growth. We operate as a championship team, and that means being ok with hard, uncomfortable, ambiguous problems that lead to real greatness. - Operate with real ownership and accountability in an environment where there are no bystanders: If something is broken, we fix it! You will have meaningful autonomy and be expected to drive work to completion. To help you do your best work, we pair these expectations with benefits intentionally designed to help you feel supported and safe at Ambience and beyond. Some of our key benefits include - Comprehensive medical, dental, and vision coverage for you and your dependents - 401(k) with a company match of up to 3% of base salary - A remote-friendly culture (with a San Francisco HQ) and full equipment provisioning to ensure you can work effectively from wherever you’re based. - Parental leave to support your family needs - Annual company-wide off-sites, team off-sites and regular team lunches and all-hands gatherings, with travel, lodging and meals covered - Flexible time off with no annual cap, company-wide holidays and an annual holiday shutdown from December 24–January 1 designed to support real rest and long-term sustainability. Ambience Healthcare is an equal opportunity employer and is committed to building a diverse and inclusive workplace. We do not discriminate on the basis of race, color, religion, sex, gender identity or expression, sexual orientation, national origin, age, disability, veteran status, genetic information, or any other legally protected status. We encourage applicants from all backgrounds to apply. Ambience is committed to supporting every candidate’s ability to fully participate in our hiring process. If you need any accommodations during your application or interviews, please reach out to our Recruiting team at accommodations@ambiencehealthcare.com recruiting@ambiencehealth.com. We’ll handle your request confidentially and work with you to ensure an accessible and equitable experience for all candidates. Ambience Healthcare has become aware of scams targeting jobseekers with fake jobs and even interviewing people. Our emails will always come from @ambiencehealthcare.com. We would never our ask candidates to download apps or make any form of payment(s). If you are contacted through WhatsApp, Telegram, similar but fake email domains, or asked to make a payment, these contacts are not legitimate. Report the issue immediately to LinkedIn and the FBI https://www.fbi.gov/how-we-can-help-you/scams-and-safety.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T03:16:56Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T03:16:56Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2023-03-21T19:00:08Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "Product engineering role designing AI-powered product features; published base meets threshold; San Francisco, full-time."
+      ],
+      "source_id": "ambience-healthcare-ashby",
+      "source_job_id": "2a5dcd26-fe35-4d06-b6d4-6f76d330134e",
+      "stable_id": "job-904ed4b93b455cc2130db417",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Staff Software Engineer, Product",
+      "updated_at": null,
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    }
+  ],
+  "last_attempt_at": "2026-08-31T03:16:56Z",
+  "last_successful_scan_at": "2026-08-31T03:16:56Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "employment_contract_excluded": 1,
+    "role_fit_excluded": 6,
+    "title_explicitly_non_target_function": 3,
+    "total": 15,
+    "workplace_remote_excluded": 8
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "ambience-healthcare-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

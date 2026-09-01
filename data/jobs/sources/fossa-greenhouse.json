@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:05:52Z",
+      "attempt_id": "attempt:fab4a256-c6f1-4a91-9761-11ef080d67e1",
+      "result_digest": "4a53a7073f96c99e1820ad120b20a4e870d187acb9d846807f64b09e0c199b71",
+      "task_id": "source:fossa-greenhouse:luna:3e186fca932ed0c7",
+      "transaction_id": "txn:4a53a7073f96c99e1820ad12"
+    }
+  ],
+  "company_id": "fossa",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:05:47Z",
+  "last_successful_scan_at": "2026-08-31T04:05:47Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 2,
+    "total": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "fossa-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

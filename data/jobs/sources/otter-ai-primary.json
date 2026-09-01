@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:12:34Z",
+      "attempt_id": "attempt:fb890f8d-1145-41a0-90f7-427ee23187a8",
+      "result_digest": "a91761bb65de171f854be2dd550b347dad97a73122701e3893ae185710db3acb",
+      "task_id": "source:otter-ai-primary:luna:ca9037af232dc06a",
+      "transaction_id": "txn:a91761bb65de171f854be2dd"
+    }
+  ],
+  "company_id": "otter-ai",
+  "current_job_count": 28,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:12:31Z",
+  "last_successful_scan_at": "2026-08-31T15:12:31Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 26,
+    "title_explicitly_non_target_function": 7,
+    "total": 28
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "otter-ai-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

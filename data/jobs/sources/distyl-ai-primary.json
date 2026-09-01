@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:01:56Z",
+      "attempt_id": "attempt:9f4fc6e6-5ea9-4b54-829b-48267e058a6b",
+      "result_digest": "dd0261ab0329b18bcabf6d8ea796638d35c9f8a88f7650b56d9a4d30600d8797",
+      "task_id": "source:distyl-ai-primary:luna:357000745116053e",
+      "transaction_id": "txn:dd0261ab0329b18bcabf6d8e"
+    }
+  ],
+  "company_id": "distyl-ai",
+  "current_job_count": 29,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:01:43Z",
+  "last_successful_scan_at": "2026-08-31T04:01:43Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 22,
+    "location_outside_target_city": 3,
+    "title_explicitly_non_target_function": 4,
+    "total": 29,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "distyl-ai-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

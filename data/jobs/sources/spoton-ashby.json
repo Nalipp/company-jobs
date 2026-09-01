@@ -1,0 +1,35 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:26:39Z",
+      "attempt_id": "attempt:2259c206-1354-43e3-8071-fc05e21c2378",
+      "result_digest": "71645754d3dd50d6cb4ead9c70bcadea4e93ecb003d39042299b41f21208d2ad",
+      "task_id": "source:spoton-ashby:luna:63d09b4fb108b05e",
+      "transaction_id": "txn:71645754d3dd50d6cb4ead9c"
+    }
+  ],
+  "company_id": "spoton",
+  "current_job_count": 81,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:26:29Z",
+  "last_successful_scan_at": "2026-08-31T15:26:29Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "compensation_currency_mismatch": 9,
+    "compensation_period_mismatch": 13,
+    "location_outside_target_city": 74,
+    "title_explicitly_non_target_function": 50,
+    "total": 81,
+    "workplace_remote_excluded": 7
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "spoton-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

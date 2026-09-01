@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:06:03Z",
+      "attempt_id": "attempt:9160dab2-c587-4240-8cd8-37c03da05d1c",
+      "result_digest": "eacb0783e1de67624b6d70228d7407ff7a51c696183ca3de232ef0b2d3b883e6",
+      "task_id": "source:dispatch-bio-primary:luna:1b10ec10262397df",
+      "transaction_id": "txn:eacb0783e1de67624b6d7022"
+    }
+  ],
+  "company_id": "dispatch-bio",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:12:00Z",
+  "last_successful_scan_at": "2026-08-31T21:12:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "dispatch-bio-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

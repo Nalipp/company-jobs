@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:09:09Z",
+      "attempt_id": "attempt:8b5ade20-5e42-4953-bc11-78a898adb0c3",
+      "result_digest": "215421d9d998435c4d4ce0c9b014fc7e3664a16dffd8b5eaba5b1549b8a10f21",
+      "task_id": "source:nimble-robotics-primary:luna:a62d214826c32a99",
+      "transaction_id": "txn:215421d9d998435c4d4ce0c9"
+    }
+  ],
+  "company_id": "nimble-robotics",
+  "current_job_count": 35,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:08:55Z",
+  "last_successful_scan_at": "2026-08-31T15:08:55Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 25,
+    "location_outside_target_city": 10,
+    "total": 35
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "nimble-robotics-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

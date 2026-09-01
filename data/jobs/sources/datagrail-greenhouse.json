@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:00:27Z",
+      "attempt_id": "attempt:518aa44c-df43-49b2-a282-0a3e7f4b5961",
+      "result_digest": "7be7b25cffb47046099696812c8ad703dd846b6ae2866f4a3bb385b281400a4c",
+      "task_id": "source:datagrail-greenhouse:luna:68da983f143cdeab",
+      "transaction_id": "txn:7be7b25cffb4704609969681"
+    }
+  ],
+  "company_id": "datagrail",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:00:15Z",
+  "last_successful_scan_at": "2026-08-31T04:00:15Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_maximum_below_threshold": 1,
+    "location_remote_excluded": 1,
+    "title_explicitly_non_target_function": 5,
+    "total": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "datagrail-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

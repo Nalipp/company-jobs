@@ -1,0 +1,106 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:25:48Z",
+      "attempt_id": "attempt:1cfbc654-5135-4406-aa05-791299fb054f",
+      "result_digest": "ecaf0bb4c2e36a332f5d54bca7cad472f2b12cbc6933f5f3292aa51a0de1617d",
+      "task_id": "source:solidroad-primary:luna:d16a06104d9ffa07",
+      "transaction_id": "txn:ecaf0bb4c2e36a332f5d54bc"
+    }
+  ],
+  "company_id": "solidroad",
+  "current_job_count": 8,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/solidroad/983882bc-67e2-4fcf-8069-3cab721bd7e6",
+      "company_id": "solidroad",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 300000,
+        "minimum": 250000,
+        "period": "year",
+        "source_text": "$250K - $300K"
+      },
+      "compensation_text": "$250K - $300K",
+      "department": "Product",
+      "description_text": "About Solidroad Building something great is addictive. It’s like discovering your favorite TV show mid-season, except you're helping write the next episode. It’s like unboxing a new gadget, except you’re the one designing it. You shape how it feels, how it works, and how people react when they use it. At Solidroad we're solving a big, messy, exciting problem: how do you scale customer support without losing what makes humans amazing? Warmth, empathy, intuition. We’re using AI, generative tech, and real-time simulations to make this happen. It's ambitious, difficult, and genuinely new. About the role We’re growing our SF engineering hub and hiring a Staff Engineer to be a technical leader here. You’ll own key product areas, set architecture and quality bars, and support growing an elite team. We are in unprecedented times and in startups, this role is truly unbounded as to what you can accomplish. What you’ll do - Lead technical direction: set architecture, reliability, and performance standards; make trade-offs explicit; keep the bar high. - Build & mentor a team: hire great engineers, level them up, and create a high-trust, high-feedback culture. - Work directly with our customers: translate messy, high-leverage problems into shippable work; measure outcomes. - Own critical systems end-to-end: - Partner across SF & Dublin: tight loops with product/design/GTM; share context and push decisions over the line. What success looks like - 3 months: You’ve shipped one meaningful product to customers, enabled GTM, recorded and ran demos for our VIP customers, troubleshooted key customer issues, shared early observations of strategic investments to be made. - 6 months: You've operationalized a small product pod in SF, mentoring 1–2 engineers, helping grow revenue in key customer accounts, helping shape our roadmap, improved a key service and raised the bar for how engineering work is done in Solidroad. - 12 months: You make people around you force multipliers: faster iteration, happier customers, cleaner architecture, wins we can publish and you know our customer base inside out. We're looking for a Staff engineer who sees this role as what it could be, not just what it is now. It should feel like signing up for a job and a hobby. Or a job and a triathlon. Or a job and an advanced language course. You’ll shape our technical decisions, own major parts of our product, mentor your teammates, and push yourself in ways you might not expect. It’ll stretch your skills and fill your life in a deeply rewarding way. You’ll write impactful code (full-stack, frontend, backend, AI integrations; it's all on the table), and make critical decisions about architecture, tooling, and product direction. There will be challenging moments, but also regular moments of genuine \"wow, we built that\" pride. Our Team & Culture We’re a focused group working full-time in our San Francisco and Dublin offices. We’re there five days a week because building something ambitious means collaborating closely, solving problems together, sharing ideas spontaneously, and occasionally challenging each other to padel matches, cold plunges, or karaoke evenings. We're intentional about creating a culture that's mature, supportive, and fun. You'll be joining experienced founders who've done this before, alongside a tight-knit team genuinely excited about building something impactful. We hope you - Have at least 4 years of engineering experience, ideally at a startup (Series A to C), where you've helped ship complex, customer-facing products. - Bring strong technical leadership, including experience mentoring other engineers, leading technical decisions, or architecting significant product areas. - Have deep expertise in modern web technologies, product architecture, or AI integrations—bonus points if you’ve worked on notable or challenging projects we can explore together. The good, the bad, and the honest truth The highs here are incredibly high, direct collaboration with founders who’ve done this before, significant ownership, and a product you'll feel deeply proud of. The lows are that you'll need to move fast, navigate ambiguity, and sometimes tackle tough problems solo. But the reality is that startups are a bit like a sport or an instrument: you invest in it not just because you have to, but because you genuinely want to be better tomorrow than you are today. If that sounds exciting, don’t second-guess yourself. Get in touch. Send us something you've built that you're proud of (GitHub, personal site, anything goes) and a short note about who you are and why this feels right to you. We value enthusiasm, ambition, and curiosity just as much as your technical experience.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:25:38Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:25:38Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-01-14T00:42:41Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "solidroad-primary",
+      "source_job_id": "983882bc-67e2-4fcf-8069-3cab721bd7e6",
+      "stable_id": "job-001c3928cead2c5fadd68847",
+      "status": "active",
+      "team": "Product",
+      "title": "Staff Software Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/solidroad/40f414ef-e084-41ce-ae70-724e67b98f2f",
+      "company_id": "solidroad",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 275000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $275K"
+      },
+      "compensation_text": "$200K - $275K",
+      "department": "Product",
+      "description_text": "San Francisco · Full-time · In-person About Solidroad Building something great is addictive. It’s like discovering your favorite TV show mid-season, except you're helping write the next episode. It’s like unboxing a new gadget, except you’re the one designing it. You shape how it feels, how it works, and how people react when they use it. At Solidroad we're solving a big, messy, exciting problem: how do you scale customer support without losing what makes humans amazing? Warmth, empathy, intuition. We’re using AI, generative tech, and real-time simulations to make this happen. It's ambitious, difficult, and genuinely new. About the role We're looking for a senior engineer who sees this role as more than just a job. It should feel like signing up for a job and a hobby. Or a job and a triathlon. Or a job and an advanced language course. You’ll shape our technical decisions, own major parts of our product, mentor your teammates, and push yourself in ways you might not expect. It’ll stretch your skills and fill your life in a deeply rewarding way. You’ll write impactful code (full-stack, frontend, backend, AI integrations; it's all on the table), and make critical decisions about architecture, tooling, and product direction. There will be challenging moments, but also regular moments of genuine \"wow, we built that\" pride. What you'll actually do day-to-day - Lead Development of Advanced Prompt Engineering and Retrieval Pipelines Architect and build scalable solutions handling thousands of customer conversations daily across integrations like Zendesk, Intercom, and Salesforce. You’ll leverage cutting-edge generation pipelines to deliver rapid insights, accurate analysis, and meaningful customer interaction scoring. - Architect Real-Time Multimodal Simulations Own the development of realistic, interactive training experiences across voice, video, and chat using platforms like OpenAI, ElevenLabs, and Vapi. Your simulations will dynamically adapt to user input, creating genuinely immersive learning environments. - Drive High-Performance User Experiences Set the technical standard for intuitive, lightning-fast interfaces built with Next.js. You'll ensure our UIs handle complex AI interactions seamlessly, even under demanding workloads, and mentor others to achieve the same standard. Our Team & Culture We’re a small, focused group working full-time in our San Francisco office. We’re here five days a week because building something ambitious means collaborating closely, solving problems together, sharing ideas spontaneously, and occasionally challenging each other to padel matches, cold plunges, or karaoke evenings. We're intentional about creating a culture that's mature, supportive, and fun. You'll be joining experienced founders who've done this before, alongside a tight-knit team genuinely excited about building something impactful. We hope you - Have at least 4 years of engineering experience, ideally at a startup (Series A to C), where you've helped ship complex, customer-facing products. - Bring strong technical leadership, including experience mentoring other engineers, leading technical decisions, or architecting significant product areas. - Have deep expertise in modern web technologies, product architecture, or AI integrations—bonus points if you’ve worked on notable or challenging projects we can explore together. The good, the bad, and the honest truth The highs here are incredibly high, direct collaboration with founders who’ve done this before, significant ownership, and a product you'll feel deeply proud of. The lows are that you'll need to move fast, navigate ambiguity, and sometimes tackle tough problems solo. But the reality is that startups are a bit like a sport or an instrument: you invest in it not just because you have to, but because you genuinely want to be better tomorrow than you are today. If that sounds exciting, don’t second-guess yourself. Get in touch. Send us something you've built that you're proud of (GitHub, personal site, anything goes) and a short note about who you are and why this feels right to you. We value enthusiasm, ambition, and curiosity just as much as your technical experience.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:25:38Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:25:38Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-04-03T23:10:00Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "solidroad-primary",
+      "source_job_id": "40f414ef-e084-41ce-ae70-724e67b98f2f",
+      "stable_id": "job-b87b23eb77d41bb2be53615a",
+      "status": "active",
+      "team": "Product",
+      "title": "Senior Software Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:25:38Z",
+  "last_successful_scan_at": "2026-08-31T15:25:38Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "compensation_currency_mismatch": 2,
+    "location_outside_target_city": 2,
+    "title_explicitly_non_target_function": 3,
+    "total": 8
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "solidroad-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

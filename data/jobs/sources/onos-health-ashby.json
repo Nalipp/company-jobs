@@ -1,0 +1,140 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:11:44Z",
+      "attempt_id": "attempt:9a1d5c56-d52d-402d-8f55-59088324bc4d",
+      "result_digest": "230c0ccf370ea897764bbcb7916e2349954ab9054ca5c53762e74b1c01b12b9f",
+      "task_id": "source:onos-health-ashby:luna:d9c191f2a5867ed3",
+      "transaction_id": "txn:230c0ccf370ea897764bbcb7"
+    }
+  ],
+  "company_id": "onos-health",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/onoshealth/58d36bae-5153-471a-9c8c-2094339be001",
+      "company_id": "onos-health",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 250000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $250K"
+      },
+      "compensation_text": "$200K - $250K",
+      "department": "Engineering",
+      "description_text": "ABOUT ONOS HEALTH Onos Health’s mission is simple but ambitious: ensure every healthcare dollar goes toward delivering the highest quality care. Today, 30% of total U.S. healthcare spending is wasted due to ineffective care and administrative burden caused by misalignment between providers and payers. Onos is addressing this by building the largest AI-driven healthcare data platform. Our models enables payers to make faster, more accurate decisions across their populations. By guiding members to the right care, Onos is channeling more dollars to high-quality care that drives better outcomes while making healthcare more affordable. Onos is well-funded by some of the best healthcare investors and is working with the nation’s largest health plans. Come join a category-defining company and help reimagine healthcare for the better. WHY ONOS? - Meaningful impact: Help fix what is fundamentally broken in healthcare - Direct collaboration: Work alongside experienced founders with deep healthcare and data expertise - Culture: Join a high-performing, transparent, and results-oriented team - Ownership: Significant responsibility and autonomy from day one - Opportunity: Play a pivotal role in building a fast-growing, category-defining healthcare AI company THE ROLE We're seeking an experienced Forward Deployed Engineer, someone who is product minded and customer oriented to join and be our technical lead to interface directly with clients. As an early team member, you'll work closely with our founding team while helping to build and lead a growing engineering team. This role is a hybrid role based in San Francisco, where you'll be expected to work at our office in person 3 times a week. WHAT YOU'LL BE DOING AT ONOS: - Work directly with health plan customers to understand their claims workflows, data formats, and pain points, then translate that into working software - Be the primary technical point of contact during integrations and rollouts of the Onos platform for new enterprise customers, and provide actionable insights and recommendations to health plan administrators - Own end-to-end development of new features and functionality for the Onos platform, including requirements gathering, scoping, architecting, implementation and testing to deliver timely and high quality outcomes - Shape our technical roadmap, make key architectural decisions, and influence the company's product and technical strategy TECHNICAL CHALLENGES AT ONOS: - Develop an intelligent engine that ingests complex medical standards of care documents and evaluates provider adherence to guidelines - Design and implement robust and extensible systems to easily support many different kinds of enterprise workflows and integrations - Build AI/ML pipelines to analyze handwritten clinical notes, accurately extract important medical information, and automate recommendations for clinical reviewers - Scale our systems to process millions of healthcare records while maintaining strict security and compliance requirements TECH STACK: At Onos, we work with a modern tech stack where we continuously evaluate and adopt cutting-edge technologies as we scale. - Infrastructure/Systems: AWS (ECS, Bedrock, Glue, etc.), Docker, Github Actions, Terraform - Languages/Frameworks - Backend: Python, Django, Celery / Celery Beat, django-ninja, django-tenants - Frontend: NextJS, Typescript, Tanstack Query, Shadcn UI, Zod, Nuqs - Database/Storage: PostgreSQL (AWS RDS), S3, Clickhouse - Development Tools: Github, Jira, Claude Code, CoderabbitAI, Tusk WHAT WE'RE LOOKING FOR: - 5+ years experience building software applications - Strong product sense and system design skills with a track record of defining clear requirements, test scenarios, and acceptance criteria for complex systems - Customer obsessed and motivated to make an impact in the healthcare space - A hands-on technical leader who can architect robust and extensible systems, establish best practices with AI coding tools, and ship high quality production code BONUS POINTS IF YOU HAVE: - Worked with machine learning and large language models for end-user applications - Hands-on experience navigating healthcare data formats such as EDI X12, HL7, FHIR, and custom payer flat files BENEFITS AND PERKS - Flexible hybrid arrangement: 3 days/week at San Francisco office (Financial District), remote-first culture - Unlimited vacation policy - Paid parental leave - Medical, dental, and vision insurance - Pre-tax commuter benefits - 401(k) - Significant equity as an early employee - Direct mentorship from experienced founders - Ground-floor opportunity to help build a team and culture - Regular team events and offsites - Company-provided equipment and home office setup We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:11:28Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:11:28Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-07-28T02:54:25Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "onos-health-ashby",
+      "source_job_id": "58d36bae-5153-471a-9c8c-2094339be001",
+      "stable_id": "job-3a0d2822028fc038883971a8",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Forward Deployed Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/onoshealth/56d3c49a-b7cf-4bd6-a03b-3f8051c0b833",
+      "company_id": "onos-health",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 275000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $275K"
+      },
+      "compensation_text": "$200K - $275K",
+      "department": "Engineering",
+      "description_text": "ABOUT ONOS HEALTH Onos Health’s mission is simple but ambitious: ensure every healthcare dollar goes toward delivering the highest quality care. Today, 30% of total U.S. healthcare spending is wasted due to ineffective care and administrative burden caused by misalignment between providers and payers. Onos is addressing this by building the largest AI-driven healthcare data platform. Our models enables payers to make faster, more accurate decisions across their populations. By guiding members to the right care, Onos is channeling more dollars to high-quality care that drives better outcomes while making healthcare more affordable. Onos is well-funded by some of the best healthcare investors and is working with the nation’s largest health plans. Come join a category-defining company and help reimagine healthcare for the better. WHY ONOS? - Meaningful impact: Help fix what is fundamentally broken in healthcare - Direct collaboration: Work alongside experienced founders with deep healthcare and data expertise - Culture: Join a high-performing, transparent, and results-oriented team - Ownership: Significant responsibility and autonomy from day one - Opportunity: Play a pivotal role in building a fast-growing, category-defining healthcare AI company THE ROLE We're seeking an experienced and highly capable engineering leader who is motivated to meaningfully improve the way healthcare is administered in the United States. You'll take ownership of developing a significant part of the Onos platform through hands-on development and technical leadership. As an early team member, you'll work closely with our founding team while helping to build and lead a growing engineering team. This role is a hybrid role based in San Francisco, where you'll be expected to work at our office in person 3 times a week. WHAT YOU'LL BE DOING AT ONOS: - Architect workflows that utilize AI/ML to process claims, medical records and other data types to evaluate the optimal care path for health plan members - Lead the integration and rollout of the Onos platform for new enterprise customers to provide actionable insights and recommendations to health plan administrators - Own end-to-end development of new features and functionality for the Onos platform, including requirements gathering, scoping, architecting, implementation and testing to deliver timely and high quality outcomes - Establish engineering best practices and technical foundations for future team growth - Shape our technical roadmap, make key architectural decisions, and influence the company's product and technical strategy TECHNICAL CHALLENGES AT ONOS: - Develop an intelligent engine that ingests complex medical standards of care documents and evaluates provider adherence to guidelines - Design and implement robust and extensible systems to easily support many different kinds of enterprise workflows and integrations - Build AI/ML pipelines to analyze handwritten clinical notes, accurately extract important medical information, and automate recommendations for clinical reviewers - Scale our systems to process millions of healthcare records while maintaining strict security and compliance requirements TECH STACK: At Onos, we work with a modern tech stack where we continuously evaluate and adopt cutting-edge technologies as we scale. - Infrastructure/Systems: AWS (ECS, Bedrock, Glue, etc.), Docker, Github Actions, Terraform - Languages/Frameworks - Backend: Python, Django, Celery / Celery Beat, django-ninja, django-tenants - Frontend: NextJS, Typescript, Tanstack Query, Shadcn UI, Zod, Nuqs - Database/Storage: PostgreSQL (AWS RDS), S3, Clickhouse - Development Tools: Github, Jira, Claude Code, CoderabbitAI, Tusk WHAT WE'RE LOOKING FOR: - 5+ years experience building software applications - Prior experience leading engineering teams as a tech lead or engineering manager - Strong product sense and system design skills with a track record of defining clear requirements, test scenarios, and acceptance criteria for complex systems - Customer obsessed and motivated to make an impact in the healthcare space - A hands-on technical leader who can architect robust and extensible systems, establish best practices with AI coding tools, and ship high quality production code BONUS POINTS IF YOU HAVE: - Worked with machine learning and large language models for end-user applications - Hands-on experience navigating healthcare data formats such as EDI X12, HL7, FHIR, and custom payer flat files BENEFITS AND PERKS - Hybrid arrangement: 3 days/week at San Francisco office (Financial District) - Unlimited vacation policy - Paid parental leave - Medical, dental, and vision insurance - Pre-tax commuter benefits - 401(k) - Significant equity as an early employee - Direct mentorship from experienced founders - Ground-floor opportunity to help build a team and culture - Regular team events and offsites - Company-provided equipment and home office setup We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:11:28Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:11:28Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-12-17T23:05:19Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "onos-health-ashby",
+      "source_job_id": "56d3c49a-b7cf-4bd6-a03b-3f8051c0b833",
+      "stable_id": "job-a18e835c480e5c4c786639a0",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Lead Software Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/onoshealth/05fe0f8e-90a4-4d9e-a4d3-90b9cc755352",
+      "company_id": "onos-health",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 250000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $250K"
+      },
+      "compensation_text": "$200K - $250K",
+      "department": "Engineering",
+      "description_text": "ABOUT ONOS HEALTH Onos Health’s mission is simple but ambitious: ensure every healthcare dollar goes toward delivering the highest quality care. Today, 30% of total U.S. healthcare spending is wasted due to ineffective care and administrative burden caused by misalignment between providers and payers. Onos is addressing this by building the largest AI-driven healthcare data platform. Our models enables payers to make faster, more accurate decisions across their populations. By guiding members to the right care, Onos is channeling more dollars to high-quality care that drives better outcomes while making healthcare more affordable. Onos is well-funded by some of the best healthcare investors and is working with the nation’s largest health plans. Come join a category-defining company and help reimagine healthcare for the better. WHY ONOS? - Meaningful impact: Help fix what is fundamentally broken in healthcare - Direct collaboration: Work alongside experienced founders with deep healthcare and data expertise - Culture: Join a high-performing, transparent, and results-oriented team - Ownership: Significant responsibility and autonomy from day one - Opportunity: Play a pivotal role in building a fast-growing, category-defining healthcare AI company THE ROLE We're seeking an experienced data engineering leader who is motivated to meaningfully improve the way healthcare is administered in the country. You'll own the architecture and implementation of our integrations with claims and utilization management systems at the nation's largest health plans. As an early team member, you'll build the data infrastructure that powers the entire Onos platform and establish the best practices for a growing data engineering team. This role is a hybrid role based in San Francisco, where you'll be expected to work at our office in person 3 times per week. WHAT YOU’LL BE DOING AT ONOS: - Lead the architecture and implementation of data integrations with major healthcare payers, including claims feeds, utilization management authorization data, eligibility files, and provider rosters - Build an integration framework that makes onboarding each new payer faster and more reliable over time - Work across healthcare data formats and exchange methods - Build monitoring, reconciliation, and data quality systems, including defining requirements, test scenarios, and acceptance criteria for each integration - Build and scale data pipelines for our AI/ML systems and analytics dashboards for behavioral and mental health quality and cost - Establish engineering best practices and technical foundations for future team growth TECHNICAL CHALLENGES AT ONOS: - Build a payer integration framework that makes each new national and regional health plan onboarding faster and more reliable than the last - Develop fault-tolerant data pipelines that process millions of claims records while maintaining strict data quality, security, and compliance requirements - Design normalization layers that translate varied payer data formats into a unified data model for AI/ML and analytics - Architect robust monitoring and alerting systems that detect data quality issues, feed disruptions, and schema drift before they impact downstream systems - Establish best practices for using AI tooling across the engineering workflow to ship faster without sacrificing quality TECH STACK: At Onos, we work with a modern tech stack where we continuously evaluate and adopt cutting-edge technologies as we scale. - Infrastructure/Systems: AWS (ECS, Bedrock, Glue, etc.), Docker, Github Actions, Terraform - Languages/Frameworks - Backend: Python, Django, Celery / Celery Beat, django-ninja, django-tenants - Frontend: NextJS, Typescript, Tanstack Query, Shadcn UI, Zod, Nuqs - Database/Storage: PostgreSQL (AWS RDS), S3, Clickhouse - Development Tools: Github, Jira, Claude Code, CoderabbitAI, Tusk WHAT WE’RE LOOKING FOR: - 5+ years experience in data engineering, with significant time spent working with healthcare payer data (claims, UM, eligibility) - Prior experience leading engineering teams as a tech lead or engineering manager - Experience integrating (or willing to learn) health plan systems and navigating payer data formats including EDI X12, HL7, FHIR, and custom flat files - Strong system design skills with a track record of defining clear requirements, test scenarios, and acceptance criteria for complex data systems - Customer obsessed and motivated to make an impact in the healthcare space - A hands-on technical leader who can architect robust and extensible systems, establish best practices with AI coding tools, and ship high quality production code BONUS POINTS IF YOU HAVE (NOT REQUIRED): - Direct experience integrating with claims platforms or UM systems such as QNXT, Facets, Amisys, Jiva, CareRadius, or similar - Experience with behavioral health or mental health claims data (e.g., behavioral health carve-outs, BH-specific CPT codes, quality measurement) - Built data infrastructure that powers AI/ML systems — feature pipelines, training data preparation, model monitoring BENEFITS AND PERKS - Flexible hybrid arrangement: 3 days/week at San Francisco office (Financial District), remote-first culture - Unlimited vacation policy - Paid parental leave - Medical, dental, and vision insurance - Pre-tax commuter benefits - 401(k) - Significant equity as an early employee - Direct mentorship from experienced founders - Ground-floor opportunity to help build a team and culture - Regular team events and offsites - Company-provided equipment and home office setup We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:11:28Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:11:28Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-03-26T18:14:42Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "onos-health-ashby",
+      "source_job_id": "05fe0f8e-90a4-4d9e-a4d3-90b9cc755352",
+      "stable_id": "job-c2d66e79a7d5ad7b872ac7c5",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Lead Engineer (Data/Integrations)",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:11:28Z",
+  "last_successful_scan_at": "2026-08-31T15:11:28Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "title_explicitly_non_target_function": 1,
+    "total": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "onos-health-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

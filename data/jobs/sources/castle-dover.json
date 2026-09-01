@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:29:20Z",
+      "attempt_id": "attempt:e413e2b3-8a06-4406-ab47-3f0070161b00",
+      "result_digest": "3e358562e534ac1bb1f5e77e68252760f0c4af720bc9e29a7d27194fdd35ef33",
+      "task_id": "source:castle-dover:luna:2085cab9c024cf5f",
+      "transaction_id": "txn:3e358562e534ac1bb1f5e77e"
+    }
+  ],
+  "company_id": "castle",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T20:40:00Z",
+  "last_successful_scan_at": "2026-08-31T20:40:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "dover",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "castle-dover",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

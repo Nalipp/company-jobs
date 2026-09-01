@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:05:20Z",
+      "attempt_id": "attempt:6aeb0292-068d-4748-9e9a-aac70680e55e",
+      "result_digest": "7f23b2bc8fe49e15d65b39f77ad9139bba7e3784f619bb0a3f39bd3e20a849b1",
+      "task_id": "source:mapbox-primary:luna:6ddceb39fee729ef",
+      "transaction_id": "txn:7f23b2bc8fe49e15d65b39f7"
+    }
+  ],
+  "company_id": "mapbox",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T23:19:00Z",
+  "last_successful_scan_at": "2026-08-31T23:19:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "mapbox-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

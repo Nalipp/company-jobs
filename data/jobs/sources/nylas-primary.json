@@ -1,0 +1,35 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:10:17Z",
+      "attempt_id": "attempt:e590df1d-6b52-47db-ad1c-cb9f0c5d4ad0",
+      "result_digest": "167649f5641fba1728cba4e2f5ae7dc2a0c95e00caa4c705b1aa967732957d09",
+      "task_id": "source:nylas-primary:luna:8e1df9be767431e7",
+      "transaction_id": "txn:167649f5641fba1728cba4e2"
+    }
+  ],
+  "company_id": "nylas",
+  "current_job_count": 7,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:10:11Z",
+  "last_successful_scan_at": "2026-08-31T15:10:11Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_currency_mismatch": 2,
+    "compensation_period_mismatch": 1,
+    "employment_internship_excluded": 1,
+    "location_outside_target_city": 6,
+    "title_explicitly_non_target_function": 5,
+    "total": 7,
+    "workplace_remote_excluded": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "nylas-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

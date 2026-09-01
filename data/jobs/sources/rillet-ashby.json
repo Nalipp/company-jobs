@@ -1,0 +1,76 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:20:04Z",
+      "attempt_id": "attempt:f1a6e0b9-97fc-4928-bff4-3046092d63d4",
+      "result_digest": "ab8821e6be1451550ec7bdfb15e83eeeb4c6eb47c43ed89e3a55b7c8732e30e6",
+      "task_id": "source:rillet-ashby:luna:cc114f36da3b8da7",
+      "transaction_id": "txn:ab8821e6be1451550ec7bdfb"
+    }
+  ],
+  "company_id": "rillet",
+  "current_job_count": 32,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/rillet/fa5a733f-84aa-41af-8b4d-0b5be16d1e64",
+      "company_id": "rillet",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 270000,
+        "minimum": 160000,
+        "period": "year",
+        "source_text": "$160K - $270K"
+      },
+      "compensation_text": "$160K - $270K",
+      "department": "Engineering, Product & Design",
+      "description_text": "WHAT WE DO Rillet serves accounting and finance teams, the financial brains of their companies. Our job is to help them run the numbers with impossible speed, accuracy, and insight. Rillet is the AI-native ERP built for modern finance teams. We help companies automate the most critical parts of finance, from closing the books and recognizing revenue to consolidating entities and reporting to investors. More than 600 companies run on Rillet, including Mercor, Scribe, and Function Health, and we partner with leading accounting firms including EY and KPMG. This huge market is ours to take. We’ve raised $200M+ from Sequoia, a16z, ICONIQ, Bain Capital Ventures, Oak HC/FT, and other leading investors to build the financial infrastructure for the next generation of companies and help every business run its numbers at the speed of AI. WHO WE ARE Rillet’s pace is not for everyone. Intelligence is table stakes. To succeed here, you need extreme speed, agency, and flexibility. The people who thrive at Rillet do not wait for assignments. They internalize the mission, design a strategy, and bring back results that are better, faster, and more creative than a manager could have asked for. Our work revolves around our customers. The people who succeed here are energized by delivering what matters most, even when it was not part of the original plan. Rillet is built on deep accounting expertise, and it takes people from many disciplines to build a category-defining company. You do not need to be an accountant to thrive here. You do need to care deeply about the problems we solve and the impact our customers can create. Together, we combine the precision of accounting with the speed, creativity, and ambition of AI-native software to power the financial core of the world’s fastest-growing companies while redefining what finance teams should expect from their software. WHO WE NEED As an Applied AI Engineer on Rillet's AI & ML team, you'll design and ship production AI systems that transform how finance and accounting teams operate. This team sits at the intersection of LLMs, ERP workflows, and financial data, building the intelligence layer that makes Rillet fundamentally different from legacy ERP. You'll own high-impact features end-to-end, from model integration to infrastructure, and your work will be used daily by finance teams at companies like Juicebox, Scribe, and Sotheby’s. We're an AI-native company, and we expect our engineers to bring that same mindset to how they work. If you're energized by pushing the boundaries of what AI can do in a real product context, you'll fit right in. We’re looking for teammates who are based near our New York City or San Francisco offices, or open to relocating. Our hybrid schedule brings the team together in person on Tuesdays and Thursdays, plus one additional flexible day each week. Some roles may spend more time in the office depending on the needs of the team. WHAT YOU'LL DO - Own AI features end-to-end: from designing agentic systems to the infrastructure that runs them in production at scale. - Work on genuinely hard problems: financial data is structured, high-stakes, and unforgiving, making it one of the more interesting domains to apply LLMs to. - Build the evaluation frameworks and experimentation loops that turn good models into reliable, production-grade systems. - Partner directly with product and domain experts to push the frontier of what AI can do inside an ERP, not just what's been done before. WHO WE'RE LOOKING FOR - 3+ years in a technical role with a strong foundation in Machine Learning and data analysis or backend systems - 2+ years shipping production AI systems with real users and real stakes - Hands-on experience with production LLM applications: agentic systems and offline/online evals to make them reliable - Proficiency in Python and comfort working across the full stack to deliver end-to-end features - Strong product instincts and a habit of thinking about user impact, not just technical correctness - Drawn to hard, ambiguous problems and energized by building in an environment where the playbook is still being written BONUS POINTS - Background in fintech, ERP, or accounting software - Familiarity with Python, Kotlin or TypeScript - Experience building AI systems that operate on structured financial or transactional data LIFE AT RILLET - Grow with us. Take meaningful ownership, expand your scope, and make an impact as Rillet scales. - Competitive pay and meaningful equity. Be rewarded for the value you help create. - Benefits that support you. We offer competitive benefits designed to support your health, wellbeing, time away from work, family, and long-term financial goals. - Better together. We value collaboration, connection, and spending meaningful time together as a team. We regularly create opportunities to connect through team meals, events, and company gatherings.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:19:50Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:19:50Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States",
+        "New York City"
+      ],
+      "posted_at": "2026-04-27T01:12:05Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "Title is Applied AI Engineer, directly indicating an AI engineering role.",
+        "The listing includes San Francisco, hybrid work, and a published maximum base compensation of USD 270,000/year."
+      ],
+      "source_id": "rillet-ashby",
+      "source_job_id": "fa5a733f-84aa-41af-8b4d-0b5be16d1e64",
+      "stable_id": "job-dcbb072e74049a0fdb896b9b",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Applied AI Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:19:50Z",
+  "last_successful_scan_at": "2026-08-31T15:19:50Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 10,
+    "location_outside_target_city": 6,
+    "semantic_non_target": 4,
+    "title_explicitly_non_target_function": 18,
+    "total": 31,
+    "workplace_remote_excluded": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "rillet-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

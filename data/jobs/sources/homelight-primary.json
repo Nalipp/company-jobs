@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:11:35Z",
+      "attempt_id": "attempt:f1dec95e-e3e1-40f1-8914-43b346ef1725",
+      "result_digest": "02c73221ac14f2f803d350876a703897bf9a492a7dd0e933a69250ea0d4d1873",
+      "task_id": "source:homelight-primary:luna:4305e06b9c809c94",
+      "transaction_id": "txn:02c73221ac14f2f803d35087"
+    }
+  ],
+  "company_id": "homelight",
+  "current_job_count": 14,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:11:24Z",
+  "last_successful_scan_at": "2026-08-31T04:11:24Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 1,
+    "title_explicitly_non_target_function": 14,
+    "total": 14
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "homelight-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

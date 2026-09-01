@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T03:40:15Z",
+      "attempt_id": "attempt:f007287b-2401-4497-947b-c71dd3019713",
+      "result_digest": "e732b89a53a747dfa3bda9adf1bfa79e83a1407d826df24d0fcae896f7cb4d74",
+      "task_id": "source:productboard-primary:luna:8cc4ab8ab7b7a6b3",
+      "transaction_id": "txn:e732b89a53a747dfa3bda9ad"
+    }
+  ],
+  "company_id": "productboard",
+  "current_job_count": 8,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T03:45:00Z",
+  "last_successful_scan_at": "2026-09-01T03:45:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_below_threshold": 2,
+    "location_not_san_francisco": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "productboard-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

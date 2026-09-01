@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:59:21Z",
+      "attempt_id": "attempt:251502c4-01f5-4b6b-82ba-3c0193fbf31f",
+      "result_digest": "61550008dc6bd60f2c3f4a98c17ce3738d381fd8ab4bc8eaf87c556ddcbe359a",
+      "task_id": "source:komodo-health-inc-primary:luna:d36fdab25cf116c6",
+      "transaction_id": "txn:61550008dc6bd60f2c3f4a98"
+    }
+  ],
+  "company_id": "komodo-health-inc",
+  "current_job_count": 37,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:59:07Z",
+  "last_successful_scan_at": "2026-08-31T14:59:07Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 22,
+    "location_outside_target_city": 7,
+    "title_explicitly_excluded": 1,
+    "title_explicitly_non_target_function": 8,
+    "total": 37
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "komodo-health-inc-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

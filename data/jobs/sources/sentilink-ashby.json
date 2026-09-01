@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:22:50Z",
+      "attempt_id": "attempt:33a86d24-3dbb-468a-876d-fed7c81f63cd",
+      "result_digest": "a25cccb1834a06b0aab901d77355c5e10633689de8394f00aabea4f77f78485c",
+      "task_id": "source:sentilink-ashby:luna:172eb48779f3a62b",
+      "transaction_id": "txn:a25cccb1834a06b0aab901d7"
+    }
+  ],
+  "company_id": "sentilink",
+  "current_job_count": 55,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:22:46Z",
+  "last_successful_scan_at": "2026-08-31T15:22:46Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "location_outside_target_city": 1,
+    "title_explicitly_non_target_function": 19,
+    "total": 55,
+    "workplace_remote_excluded": 55
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "sentilink-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

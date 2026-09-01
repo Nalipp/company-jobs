@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:20:34Z",
+      "attempt_id": "attempt:84390fea-55ce-4a9e-80ac-a4034b8b6c75",
+      "result_digest": "9848f0d7d25a74e36b483ff85cfc18a1185630392a46e55d1fbed85a7bd80e85",
+      "task_id": "source:fireflies-ai-primary:luna:520eb91241d3b1e3",
+      "transaction_id": "txn:9848f0d7d25a74e36b483ff8"
+    }
+  ],
+  "company_id": "fireflies-ai",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:58:00Z",
+  "last_successful_scan_at": "2026-08-31T22:58:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "location_or_compensation_mismatch": 9
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "fireflies-ai-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

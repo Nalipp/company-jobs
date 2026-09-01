@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:27:39Z",
+      "attempt_id": "attempt:68861ffc-819a-4aef-8368-e3bd61ec9da2",
+      "result_digest": "fb30edda33027d65740a7edfe629d78f7d49332200dd6bbd3d37eaf014459b3e",
+      "task_id": "source:stellar-development-ashby:luna:22c76a1f8d15b216",
+      "transaction_id": "txn:fb30edda33027d65740a7edf"
+    }
+  ],
+  "company_id": "stellar-development",
+  "current_job_count": 32,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:27:25Z",
+  "last_successful_scan_at": "2026-08-31T15:27:25Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 10,
+    "location_outside_target_city": 16,
+    "title_explicitly_non_target_function": 10,
+    "total": 32,
+    "workplace_remote_excluded": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "stellar-development-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

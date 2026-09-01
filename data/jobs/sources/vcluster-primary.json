@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:43:45Z",
+      "attempt_id": "attempt:4432433e-bb68-4960-81a7-7df1ad9e9227",
+      "result_digest": "7d88a6dcb11f6469e671e30402457a8749edf117f61635730bb003b5760da272",
+      "task_id": "source:vcluster-primary:luna:72f72512864294a8",
+      "transaction_id": "txn:7d88a6dcb11f6469e671e304"
+    }
+  ],
+  "company_id": "vcluster",
+  "current_job_count": 15,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T03:45:00Z",
+  "last_successful_scan_at": "2026-09-01T03:45:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "role_not_product_engineering": 10,
+    "workplace_remote_excluded": 15
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "vcluster-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

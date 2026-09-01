@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:36:05Z",
+      "attempt_id": "attempt:dc652c78-ae04-4b4d-9b3f-c6920fa5df52",
+      "result_digest": "4d2ad73cb752bec75d9af47ee4ff6cb40e4822c0348ace74718d0eaf137bf3cb",
+      "task_id": "source:world-labs-greenhouse:luna:59fa93cb62578f0d",
+      "transaction_id": "txn:4d2ad73cb752bec75d9af47e"
+    }
+  ],
+  "company_id": "world-labs",
+  "current_job_count": 9,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:35:51Z",
+  "last_successful_scan_at": "2026-08-31T15:35:51Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 9,
+    "total": 9
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "world-labs-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,166 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:06:10Z",
+      "attempt_id": "attempt:9fa3e4df-1414-418e-bc9b-d2f5e99eb385",
+      "result_digest": "bd978d13c220f69482b08d6fe757f7abc7b63221897048c19e02c39cd8a8fedb",
+      "task_id": "source:mithrl-ashby:luna:93c2ed5fcfaa3fad",
+      "transaction_id": "txn:bd978d13c220f69482b08d6f"
+    }
+  ],
+  "company_id": "mithrl",
+  "current_job_count": 16,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/mithrl/7903b385-4c29-443f-b5a3-f60fb74c8b59",
+      "company_id": "mithrl",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 200000,
+        "minimum": 150000,
+        "period": "year",
+        "source_text": "$150K - $200K"
+      },
+      "compensation_text": "$150K - $200K",
+      "department": "Engineering",
+      "description_text": "ABOUT MITHRL We imagine a world where new medicines reach patients in months, not years, and where scientific breakthroughs happen at the speed of thought. Mithrl is building the world’s first commercially available AI Co-Scientist. It is a discovery engine that transforms messy biological data into insights in minutes. Scientists ask questions in natural language, and Mithrl responds with analysis, novel targets, hypotheses, and patent-ready reports. Our traction speaks for itself: - 12X year-over-year revenue growth - Trusted by leading biotechs and big pharma across three continents - Driving real breakthroughs from target discovery to patient outcomes. ABOUT THE ROLE We are hiring an ML Engineer, Discovery Applications to build the high level, end-to-end scientific workflows that power real bench to bench decision making inside the Mithrl platform. This role focuses on building the application layer on top of the AI Co-Scientist. Your work will shape how scientists discover biomarkers, identify and validate targets, design experiments, and run early discovery programs that extend all the way to IND-enabling work. This role requires a deep understanding of the discovery and preclinical development cycle. You should understand how research teams move from early target hypotheses to biomarker strategy, hit identification, hit to lead, lead optimization, and preclinical validation. Your applications will support decision making across this entire arc and will be consumed directly by scientists and program teams. You will design multi step workflows that combine analysis modules, ML models, domain logic, and agentic reasoning into complete applications. These applications cover biomarker discovery, target ID, target validation, small molecule hit identification and optimization, and gene therapy workflows. You will also extend applications to support new data modalities as our platform expands. WHAT YOU WILL DO - Build full discovery applications that support biomarker identification, target discovery, target validation, small molecule design workflows, and gene therapy programs - Stand up new analyses that support application logic and improve or extend the existing analysis suite - Create multi step reasoning flows that integrate ML models, statistical methods, pathway context, simulation tools, and biological domain logic - Design application specific workflows for compound evaluation, program prioritization, and multi modal evidence integration - Extend existing applications to incorporate new data modalities and new analysis routines - Build reusable frameworks for Design of Experiments across biomarker discovery, target ID, validation, small molecule programs, and gene therapy - Implement and improve the AI systems that orchestrate and chain analyses into coherent applications used directly by scientists - Collaborate closely with ML engineers, bioinformatics teams, and data ingestion teams to ensure workflows run on consistent data - Validate scientific correctness and ensure applications produce accurate, reproducible, and interpretable results WHAT YOU BRING Required Qualifications - Strong experience in ML, computational biology, scientific computing, or a related field - Deep understanding of the drug discovery and preclinical development cycle including early discovery, target identification, target validation, hit identification, hit to lead, lead optimization, and IND-enabling work - Experience building analytical workflows or application logic for biological or scientific data - Familiarity with key discovery analysis methods such as differential expression, pathway analysis, clustering, enrichment, and target scoring - Proficiency in Python and scientific computing libraries and comfort with building multi step workflows - Ability to convert scientific questions into structured, reproducible workflows that support real decision making - Strong communication skills and ability to collaborate with cross functional engineering and biology teams Nice to Have - Experience building LLM powered agents or multi agent reasoning systems - Experience with multi modal biological data integration - Experience with computational chemistry tools such as docking or ADMET modeling - Familiarity with biological ontologies, curated knowledge sources, or pathway databases - Prior experience in a tech bio startup, biotech R&D group, or scientific software platform WHAT YOU WILL LOVE AT MITHRL - High ownership and impact: You will build the decision making applications that scientists rely on throughout the discovery and preclinical process - Team: Join a tight-knit, talent-dense team of engineers, scientists, and builders - Culture: We value consistency, clarity, and hard work. We solve hard problems through focused daily execution - Speed: We ship fast (2x/week) and improve continuously based on real user feedback - Location: Beautiful SF office with a high-energy, in-person culture - Benefits: Comprehensive PPO health coverage through Anthem (medical, dental, and vision) + 401(k) with top-tier plans We encourage you to apply even if you do not believe you meet every single qualification. Not all strong candidates will meet every single qualification as listed. Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you're interested in this work. We think AI systems like the ones we're building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:05:47Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:05:47Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-12-30T20:13:09Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "full-time employment",
+        "published USD annual base maximum $200,000 or more",
+        "official posting describes AI co-scientist/product work",
+        "applications, product, or forward-deployed engineering fit"
+      ],
+      "source_id": "mithrl-ashby",
+      "source_job_id": "7903b385-4c29-443f-b5a3-f60fb74c8b59",
+      "stable_id": "job-5d7dc5c317d849c525427eba",
+      "status": "active",
+      "team": "Engineering",
+      "title": "ML Engineer, Discovery Applications",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/mithrl/c8cff948-a000-4d8b-93d4-f33f66c09ee9",
+      "company_id": "mithrl",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 220000,
+        "minimum": 175000,
+        "period": "year",
+        "source_text": "$175K - $220K"
+      },
+      "compensation_text": "$175K - $220K",
+      "department": "Engineering",
+      "description_text": "ABOUT MITHRL We imagine a world where new medicines reach patients in months, not years, and where scientific breakthroughs happen at the speed of thought. Mithrl is building the world’s first commercially available AI Co-Scientist. It is a discovery engine that transforms messy biological data into insights in minutes. Scientists ask questions in natural language, and Mithrl responds with real analysis, novel targets, hypotheses, and patent-ready reports. Our traction speaks for itself: - 12X year-over-year revenue growth - Trusted by leading biotechs and big pharma across three continents - Driving real breakthroughs from target discovery to patient outcomes. ABOUT THE ROLE We are hiring a Senior Full Stack Engineer to help build, scale, and evolve the core Mithrl product. This is a highly product-oriented engineering role with deep ownership across frontend, backend, and system design. You will work closely with product, design, ML, and scientific teams to turn complex scientific workflows into intuitive, high-performance software used daily by world-class researchers. As a senior engineer, you will be responsible not just for execution, but for technical direction, architectural decisions, and setting engineering standards. You will own features end-to-end, from initial concept through production, iteration, and scale. This role requires strong full-stack engineering fundamentals, a bias toward shipping, and the ability to operate comfortably in ambiguous, fast-moving environments. If you enjoy building real products used by sophisticated users, thinking deeply about system design and user experience, and taking ownership of critical parts of a fast-growing platform, this role is an ideal match. WHAT YOU WILL DO - Design, build, and maintain core Mithrl product features across frontend and backend - Own end-to-end feature development, from product requirements to production deployment and iteration - Build intuitive user interfaces that abstract complex scientific and data workflows - Develop scalable backend services, APIs, and data pipelines that power the Mithrl platform - Collaborate closely with product, design, ML, and scientific teams to translate user needs into technical solutions - Make architectural decisions that balance speed, scalability, reliability, and developer velocity - Improve system performance, reliability, and observability as usage and data volumes grow - Write clean, maintainable, and well-tested code that sets a high bar for quality - Mentor junior engineers and contribute to raising the overall engineering bar - Participate in technical planning, code reviews, and ongoing platform evolution WHAT YOU BRING Required Qualifications - 7+ years of professional software engineering experience - Strong full-stack engineering experience with Python and React in production environments - Proficiency in Django for building backend APIs, services, and data-intensive systems - Strong experience building modern frontend applications using React - Experience designing and working with GraphQL APIs, including schema design, performance considerations, and client-server data modeling - Experience designing and working with scalable systems, databases, and data-intensive applications - Strong understanding of system design, software architecture, and engineering best practices - Experience shipping and owning production systems used by real customers - Ability to work effectively in fast-paced, ambiguous environments - Strong problem solving skills and a product-oriented mindset - Excellent communication skills and ability to collaborate cross-functionally Nice to Have - Experience building products for technical or scientific users - Familiarity with data-heavy, analytics, or ML-enabled platforms - Experience with cloud infrastructure such as AWS, GCP, or Azure - Experience mentoring or leading other engineers - Exposure to biotech, life sciences, or R&D workflows WHAT YOU WILL LOVE AT MITHRL - High ownership and impact: You will own meaningful parts of a category-defining product used by leading pharma and biotech organizations. Your work will directly shape how scientists interact with AI and data on a daily basis - Team: Join a tight-knit, talent-dense team of engineers, scientists, and builders - Culture: We value consistency, clarity, and hard work. We solve hard problems through focused daily execution - Speed: We ship fast (2x/week) and improve continuously based on real user feedback - Location: Beautiful SF office with a high-energy, in-person culture - Benefits: Comprehensive PPO health coverage through Anthem (medical, dental, and vision) + 401(k) with top-tier plans We encourage you to apply even if you do not believe you meet every single qualification. Not all strong candidates will meet every single qualification as listed. Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you’re interested in this work. We think AI systems like the ones we’re building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:05:47Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:05:47Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-01-08T04:23:50Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "full-time employment",
+        "published USD annual base maximum $200,000 or more",
+        "official posting describes AI co-scientist/product work",
+        "applications, product, or forward-deployed engineering fit"
+      ],
+      "source_id": "mithrl-ashby",
+      "source_job_id": "c8cff948-a000-4d8b-93d4-f33f66c09ee9",
+      "stable_id": "job-7c2ea6410ac04d814b1cbdc7",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Senior Software Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/mithrl/adec212c-8b3a-4ac2-aa86-c4f613177ab0",
+      "company_id": "mithrl",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 200000,
+        "minimum": 150000,
+        "period": "year",
+        "source_text": "$150K - $200K"
+      },
+      "compensation_text": "$150K - $200K",
+      "department": "Engineering",
+      "description_text": "ABOUT MITHRL We imagine a world where new medicines reach patients in months, not years, and where scientific breakthroughs happen at the speed of thought. Mithrl is building the world’s first commercially available AI Co-Scientist. It is a discovery engine that transforms messy biological data into insights in minutes. Scientists ask questions in natural language, and Mithrl responds with real analysis, novel targets, hypotheses, and patent-ready reports. Our traction speaks for itself: - 12X year-over-year revenue growth - Trusted by leading biotechs and big pharma across three continents - Driving real breakthroughs from target discovery to patient outcomes. ABOUT THE ROLE We are hiring Forward Deployed Engineers to partner directly with our customers and help them deploy, integrate, and operationalize the Mithrl platform inside their private cloud environments. FDEs sit at the intersection of engineering, customer success, and solutions architecture. You will work hands-on with customer IT, security, data, and R&D teams to set up secure cloud environments, configure integrations, troubleshoot technical challenges, and ensure Mithrl becomes a seamless part of their discovery workflow. This role requires strong software engineering fundamentals, deep comfort with cloud infrastructure, and excellent problem solving skills. You will work very closely with customer teams to design deployment architectures, automate provisioning steps, validate platform functionality in their environments, and ensure that their scientific teams can begin using Mithrl without friction. If you enjoy solving hard and novel problems in real customer environments, working across cloud infrastructure and product engineering, and being part of the customer’s journey from day one, this role is an ideal match. WHAT YOU WILL DO - Deploy Mithrl into customer private clouds including AWS, Azure, or GCP - Work directly with customer IT and security teams to configure networking, IAM, private subnets, secure VPCs, and data access patterns - Build integrations between customer systems and Mithrl APIs for data ingestion or workflow automation - Validate deployed environments through functional, performance, and scientific smoke tests - Troubleshoot infrastructure, deployment, and connectivity issues in real customer environments - Implement automation and internal tools that make deployments faster, more reliable, and more repeatable - Serve as a technical advisor to customers during onboarding and through early product adoption - Document deployment guidelines, architecture templates, and integration playbooks - Collaborate with Mithrl platform engineering, DevOps, and ML teams to resolve issues and drive improvements - Ensure that deployments meet customer security standards and internal best practices WHAT YOU BRING Required Qualifications - Strong experience with cloud environments such as AWS, Azure, or GCP - Experience configuring VPCs, IAM, networking, private endpoints, and secure infrastructure setups - Software engineering fundamentals and proficiency in Python or a similar language - Experience with container technologies and orchestrators such as Docker, ECS, EKS, or Kubernetes - Ability to diagnose and resolve issues involving networking, storage, compute, and configuration - Experience working directly with external stakeholders in highly technical environments - Excellent problem solving skills and the ability to adapt quickly in complex customer deployments - Strong communication skills and ability to build trust with customer teams Nice to Have - Experience integrating ML or data heavy platforms into enterprise environments - Experience with Terraform or CloudFormation - Experience with secure data environments, regulated R&D teams, or biotech customers - Familiarity with scientific computing or R&D workflow tools - Experience writing internal tools, automation scripts, or lightweight backend services WHAT YOU WILL LOVE AT MITHRL - High ownership and impact: You will work directly with leading pharma and biotech organizations on real deployments. You will solve complex problems across cloud, networking, security, and systems engineering. You will have enormous ownership over how Mithrl operates in customer environments - Team: Join a tight-knit, talent-dense team of engineers, scientists, and builders - Culture: We value consistency, clarity, and hard work. We solve hard problems through focused daily execution - Speed: We ship fast (2x/week) and improve continuously based on real user feedback - Location: Beautiful SF office with a high-energy, in-person culture - Benefits: Comprehensive PPO health coverage through Anthem (medical, dental, and vision) + 401(k) with top-tier plans We encourage you to apply even if you do not believe you meet every single qualification. Not all strong candidates will meet every single qualification as listed. Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you're interested in this work. We think AI systems like the ones we're building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:05:47Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:05:47Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-12-30T01:42:04Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "full-time employment",
+        "published USD annual base maximum $200,000 or more",
+        "official posting describes AI co-scientist/product work",
+        "applications, product, or forward-deployed engineering fit"
+      ],
+      "source_id": "mithrl-ashby",
+      "source_job_id": "adec212c-8b3a-4ac2-aa86-c4f613177ab0",
+      "stable_id": "job-c118016119fe50f27ba46c00",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Forward Deployed Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:05:47Z",
+  "last_successful_scan_at": "2026-08-31T15:05:47Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "compensation_unknown": 3,
+    "role_not_target_family": 9,
+    "title_explicitly_non_target_function": 2,
+    "total": 13
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "mithrl-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

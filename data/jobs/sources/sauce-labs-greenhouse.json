@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:22:00Z",
+      "attempt_id": "attempt:a637e47c-744b-478e-a01b-d304cc4f34c0",
+      "result_digest": "73ba8824bfb14f2a95618bf7d02c2efc3054b90c1dd38e9a95c39fa66254bc68",
+      "task_id": "source:sauce-labs-greenhouse:luna:4889bc89848a2df7",
+      "transaction_id": "txn:73ba8824bfb14f2a95618bf7"
+    }
+  ],
+  "company_id": "sauce-labs",
+  "current_job_count": 11,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:21:44Z",
+  "last_successful_scan_at": "2026-08-31T15:21:44Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 9,
+    "title_explicitly_non_target_function": 4,
+    "total": 11
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "sauce-labs-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:59:57Z",
+      "attempt_id": "attempt:e8e16acb-1bba-4da4-8985-555a00f55050",
+      "result_digest": "e60a59e22036553dbdc1d0884488a94a052b00dd0523205d2a0742c615bf9011",
+      "task_id": "source:culture-amp-primary:luna:81e8d83c76765ffb",
+      "transaction_id": "txn:e60a59e22036553dbdc1d088"
+    }
+  ],
+  "company_id": "culture-amp",
+  "current_job_count": 39,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:59:46Z",
+  "last_successful_scan_at": "2026-08-31T03:59:46Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_maximum_below_threshold": 3,
+    "location_outside_target_city": 27,
+    "title_explicitly_non_target_function": 21,
+    "total": 39
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "culture-amp-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

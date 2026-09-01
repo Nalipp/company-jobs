@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:29:43Z",
+      "attempt_id": "attempt:08f840ce-1fc0-4be6-a7c2-03e4033cd5d7",
+      "result_digest": "f8ad23413e10f444dd03ac22c53b68e57f09a541e0d474918cb1528c7c1861e6",
+      "task_id": "source:sunrun-primary:luna:8c58d2ba7aebc196",
+      "transaction_id": "txn:f8ad23413e10f444dd03ac22"
+    }
+  ],
+  "company_id": "sunrun",
+  "current_job_count": 313,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T02:45:00Z",
+  "last_successful_scan_at": "2026-09-01T02:45:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_unknown": 313,
+    "role_not_product_engineering": 313
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "sunrun-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": [
+    "Official detail URLs were enumerated from all pages; individual detail pages were not opened for every clearly non-target occupational listing."
+  ]
+}

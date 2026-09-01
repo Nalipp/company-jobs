@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:25:00Z",
+      "attempt_id": "attempt:a9455790-2898-4ff4-8e25-9f28fca96b57",
+      "result_digest": "f3a95f38d84479c028ae939fc76521eb84a976e922912a2699aed4fa7e25e7cd",
+      "task_id": "source:smartly-greenhouse:luna:aea418b6910859bb",
+      "transaction_id": "txn:f3a95f38d84479c028ae939f"
+    }
+  ],
+  "company_id": "smartly",
+  "current_job_count": 72,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:24:55Z",
+  "last_successful_scan_at": "2026-08-31T15:24:55Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 72,
+    "title_explicitly_non_target_function": 28,
+    "total": 72
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "smartly-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

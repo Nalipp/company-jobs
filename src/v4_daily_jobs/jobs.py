@@ -60,6 +60,30 @@ def _normalized_phrase(value: Any) -> str:
     return re.sub(r"\s+", " ", str(value or "").strip()).casefold()
 
 
+# These are explicit occupational families, not fuzzy role scoring. Titles
+# carrying an engineering/development signal bypass this shortcut because the
+# profile deliberately permits responsibilities to establish role fit.
+_ENGINEERING_TITLE_SIGNAL = re.compile(r"\b(engineer(?:ing)?|developer|development)\b")
+_NON_TARGET_TITLE_FUNCTION = re.compile(
+    r"\b(?:"
+    r"account executive|account manager|accountant|accounting|"
+    r"business development|communications?|compliance|counsel|customer success|"
+    r"designer|finance|financial|fraud operations|human resources|implementation consultant|"
+    r"legal|marketing|nurse|operations associate|partnerships?|people partner|physician|"
+    r"product manager|program manager|project manager|recruiter|recruiting|"
+    r"risk manager|sales|sourcer|support specialist|talent acquisition|tax"
+    r")\b"
+)
+
+
+def _explicitly_non_target_title(title: str) -> bool:
+    return bool(
+        title
+        and not _ENGINEERING_TITLE_SIGNAL.search(title)
+        and _NON_TARGET_TITLE_FUNCTION.search(title)
+    )
+
+
 def _location_kind(value: str, *, city: str, region: str, country: str) -> str:
     """Return ``match``, ``mismatch``, or ``unknown`` for one location label."""
 
@@ -271,6 +295,8 @@ def evaluate_profile(
     }
     if title in excluded_titles:
         rejected.append("title_explicitly_excluded")
+    elif _explicitly_non_target_title(title):
+        rejected.append("title_explicitly_non_target_function")
     elif title in signaled_titles:
         accepted.append("title_is_configured_role_signal")
     else:
@@ -394,6 +420,18 @@ def _adapter_parts(
     return parts
 
 
+def validate_adapter_result(result: AdapterResult | Mapping[str, Any]) -> None:
+    """Validate a serialized adapter enumeration without changing any state.
+
+    Manual workers use this through the result preflight command before they
+    submit a result to the journaled finalizer.  In particular it ensures every
+    normalized job carries the same company, source, and provider identity as
+    the enclosing adapter result.
+    """
+
+    _adapter_parts(result)
+
+
 def _validate_adapter_result_parts(
     company_id: str,
     source_id: str,
@@ -426,13 +464,22 @@ def _validate_adapter_result_parts(
         raise JobInvariantError("adapter duplicates_removed is inconsistent")
 
     seen_urls: set[str] = set()
-    for job in jobs:
-        if (
-            job.get("company_id") != company_id
-            or job.get("source_id") != source_id
-            or job.get("provider") != provider
-        ):
-            raise JobInvariantError("normalized job does not belong to adapter source")
+    for index, job in enumerate(jobs):
+        missing_or_mismatched = [
+            field
+            for field, expected in (
+                ("company_id", company_id),
+                ("source_id", source_id),
+                ("provider", provider),
+            )
+            if job.get(field) != expected
+        ]
+        if missing_or_mismatched:
+            raise JobInvariantError(
+                "normalized job does not belong to adapter source at index "
+                f"{index}: set {', '.join(missing_or_mismatched)} to the enclosing "
+                "adapter-result values"
+            )
         source_job_id = str(job.get("source_job_id") or "")
         if not source_job_id:
             raise JobInvariantError("normalized job lacks source_job_id")
@@ -918,4 +965,5 @@ __all__ = [
     "reconcile_snapshot",
     "record_failed_snapshot",
     "semantic_candidates",
+    "validate_adapter_result",
 ]

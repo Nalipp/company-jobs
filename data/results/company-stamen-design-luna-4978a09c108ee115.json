@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:stamen-design:luna:4978a09c108ee115",
+  "attempt_id": "attempt:f97108b4-6116-44e5-9f8d-25bb82deab3f",
+  "claim_token": "ciKrqT-NbYBAtGUQi7xg5KnVKQCo4Md61nT7o5E6MhM",
+  "model": "luna",
+  "created_at": "2026-09-01T17:57:30Z",
+  "target": {"company_ids": ["stamen-design"], "source_ids": ["stamen-design-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [{"url": "https://stamen.com/jobs/", "retrieved_at": "2026-09-01T17:58:00Z", "evidence_type": "official_careers_page", "finding": "Stamen's official Jobs page invites applications by email for interactive developers and designers and describes ongoing contract-technologist and designer networking, but lists no enumerated openings or stable job-detail URLs; the source is official but unsupported for automated enumeration."}],
+  "patch": {"company_id": "stamen-design", "expected_record_revision": 1, "company_changes": {}, "source_upserts": [{
+    "source_id": "stamen-design-primary", "company_id": "stamen-design", "expected_record_revision": 1, "careers_url": "https://stamen.com/jobs/", "listings_url": "https://stamen.com/jobs/", "provider": "custom", "board_id": null, "access_mode": "html_listing", "scope": "All Stamen Design roles", "instructions": "The official Jobs page accepts general applications but exposes no enumerated openings or stable job-detail URLs; do not enable automated enumeration until that mapping is restored.", "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false}, "status": "unsupported", "official_relationship_url": "https://stamen.com/jobs/", "checked_at": "2026-09-01T17:58:00Z", "last_success_at": null, "added_date": "2026-08-28T23:04:10Z", "updated_date": "2026-09-01T17:58:00Z"
+  }]},
+  "item_results": [{"item": "stamen-design-primary", "status": "resolved", "summary": "Official Jobs page found; source is not enumerable and is marked unsupported."}],
+  "failure_class": null,
+  "notes": "No canonical company identity or address change supported."
+}

@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:16:16Z",
+      "attempt_id": "attempt:470a0c31-d2c8-4380-b233-edc3d9d71a4d",
+      "result_digest": "03b22bb385cdc434a98ca5e85fdd24a0ade605744428ea5cdebb38673395a71e",
+      "task_id": "source:planetscale-greenhouse:luna:771fd30465938214",
+      "transaction_id": "txn:03b22bb385cdc434a98ca5e8"
+    }
+  ],
+  "company_id": "planetscale",
+  "current_job_count": 10,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:16:07Z",
+  "last_successful_scan_at": "2026-08-31T15:16:07Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 6,
+    "location_outside_target_city": 4,
+    "total": 10
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "planetscale-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

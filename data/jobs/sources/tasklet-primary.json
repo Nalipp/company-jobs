@@ -1,0 +1,104 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:34:25Z",
+      "attempt_id": "attempt:09396aac-1887-46be-ae2d-b3df4c1bfbea",
+      "result_digest": "1d3f8b22c79490bc2b7b6cacd0825431ba5524309e4136d625e9d0123148a5c2",
+      "task_id": "source:tasklet-primary:luna:2d13e1f72f132985",
+      "transaction_id": "txn:1d3f8b22c79490bc2b7b6cac"
+    }
+  ],
+  "company_id": "tasklet",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://tasklet.ai/careers/head-of-design-engineering",
+      "company_id": "tasklet",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 450000,
+        "minimum": 300000,
+        "period": "year",
+        "source_text": "$300K-$450K"
+      },
+      "compensation_text": "$300K-$450K",
+      "department": "Design & Engineering",
+      "description_text": "Hands-on product design and frontend engineering role defining user experiences for AI agents.",
+      "employment_text": "Full-time",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-09-01T03:20:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-09-01T03:20:00Z",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "posted_at": null,
+      "provider": "custom",
+      "qualification_status": "qualifying",
+      "semantic_evidence": "Hands-on frontend/product design engineering for AI-agent experiences; SF in-person; $450K annual base maximum.",
+      "source_id": "tasklet-primary",
+      "source_job_id": "head-of-design-engineering",
+      "stable_id": "job-24dc6e4349374285380cad86",
+      "status": "active",
+      "team": null,
+      "title": "Head of Design Engineering",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "In-person at 1 Post St., San Francisco"
+    },
+    {
+      "canonical_url": "https://tasklet.ai/careers/software-engineer-product",
+      "company_id": "tasklet",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 425000,
+        "minimum": 225000,
+        "period": "year",
+        "source_text": "$225K-$425K"
+      },
+      "compensation_text": "$225K-$425K",
+      "department": "Engineering",
+      "description_text": "Product-minded engineer building web and mobile user experiences for AI agents.",
+      "employment_text": "Full-time",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-09-01T03:20:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-09-01T03:20:00Z",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "posted_at": null,
+      "provider": "custom",
+      "qualification_status": "qualifying",
+      "semantic_evidence": "Product engineering for user-facing AI-agent experiences; SF in-person; $425K annual base maximum.",
+      "source_id": "tasklet-primary",
+      "source_job_id": "software-engineer-product",
+      "stable_id": "job-30745f09ca1866734c1ae8bd",
+      "status": "active",
+      "team": "Product",
+      "title": "Software Engineer — Product",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "In-person at 1 Post St., San Francisco"
+    }
+  ],
+  "last_attempt_at": "2026-09-01T03:20:00Z",
+  "last_successful_scan_at": "2026-09-01T03:20:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_below_threshold": 2,
+    "role_not_product_engineering": 2,
+    "role_platform_or_infrastructure": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "tasklet-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

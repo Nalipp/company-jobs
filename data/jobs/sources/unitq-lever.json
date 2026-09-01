@@ -1,0 +1,34 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:31:43Z",
+      "attempt_id": "attempt:c20ff4e5-9eee-40d3-80df-3e8dc2edf933",
+      "result_digest": "dade663010b3ddbc2cfc1f021a73ac5ba210dc406df5b4bd9bde3fb332a113f7",
+      "task_id": "source:unitq-lever:luna:a0adc7d6f69d2951",
+      "transaction_id": "txn:dade663010b3ddbc2cfc1f02"
+    }
+  ],
+  "company_id": "unitq",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:31:29Z",
+  "last_successful_scan_at": "2026-08-31T15:31:29Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "compensation_unknown_or_below_threshold": 2,
+    "location_outside_target_city": 2,
+    "title_explicitly_non_target_function": 3,
+    "total": 6,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "unitq-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

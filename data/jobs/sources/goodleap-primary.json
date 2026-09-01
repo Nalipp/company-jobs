@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:08:01Z",
+      "attempt_id": "attempt:377151df-b0bf-4e2b-a897-0d0b295b4c9d",
+      "result_digest": "4156cd39461ca3ce475c12f66b4275b1f3932d74e31b1cc99cef420f1fcc8a9c",
+      "task_id": "source:goodleap-primary:luna:6eddeb47004a1c2a",
+      "transaction_id": "txn:4156cd39461ca3ce475c12f6"
+    }
+  ],
+  "company_id": "goodleap",
+  "current_job_count": 22,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:07:44Z",
+  "last_successful_scan_at": "2026-08-31T04:07:44Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "location_outside_target_city": 18,
+    "title_explicitly_non_target_function": 7,
+    "total": 22,
+    "workplace_remote_excluded": 7
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "goodleap-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

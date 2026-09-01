@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:37:49Z",
+      "attempt_id": "attempt:959c5988-18ce-4e7d-a941-f554ff323644",
+      "result_digest": "801f41f994ca8aaba63fa855827fe2d898cdaff532bede7817f65e560e23da2a",
+      "task_id": "source:sinai-technologies-primary:luna:7435f446be5f2692",
+      "transaction_id": "txn:801f41f994ca8aaba63fa855"
+    }
+  ],
+  "company_id": "sinai-technologies",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:37:21Z",
+  "last_successful_scan_at": "2026-08-31T22:37:21Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "breezy",
+  "rejection_counts": {
+    "role_or_location_mismatch": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "sinai-technologies-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

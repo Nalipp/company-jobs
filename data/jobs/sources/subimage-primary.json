@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:24:28Z",
+      "attempt_id": "attempt:15407022-52f8-4623-b9ee-7c981a22fbbb",
+      "result_digest": "db7ce4483bf7d8f78495ce7c8342f7f873279bc3ee942d444915c9545e3d01db",
+      "task_id": "source:subimage-primary:luna:bfd6fadb771b6c05",
+      "transaction_id": "txn:db7ce4483bf7d8f78495ce7c"
+    }
+  ],
+  "company_id": "subimage",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T02:40:00Z",
+  "last_successful_scan_at": "2026-09-01T02:40:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ycombinator",
+  "rejection_counts": {
+    "compensation_below_threshold": 1,
+    "role_not_product_engineering": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "subimage-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

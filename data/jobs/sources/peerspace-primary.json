@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:14:41Z",
+      "attempt_id": "attempt:c7641274-030e-4bb3-b89b-c0425e9a3cd1",
+      "result_digest": "263c5c6b5b3db33e49190460cf7b11f334b9269c4189919d10dc3b935ccf5c89",
+      "task_id": "source:peerspace-primary:luna:09e6f46ba8ba3fd8",
+      "transaction_id": "txn:263c5c6b5b3db33e49190460"
+    }
+  ],
+  "company_id": "peerspace",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:14:38Z",
+  "last_successful_scan_at": "2026-08-31T15:14:38Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "title_explicitly_non_target_function": 1,
+    "total": 3,
+    "workplace_remote_excluded": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "peerspace-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

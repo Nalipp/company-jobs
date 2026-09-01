@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:35:15Z",
+      "attempt_id": "attempt:0ef8e089-278f-41dc-a6b5-26fbef26f458",
+      "result_digest": "6984a6af167853daea6dce348ff43a0c5fb89b465a64c60bac3f7fdb3b4cc977",
+      "task_id": "source:classdojo-ashby:luna:b5b534ee0afbe0ed",
+      "transaction_id": "txn:6984a6af167853daea6dce34"
+    }
+  ],
+  "company_id": "classdojo",
+  "current_job_count": 12,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:35:11Z",
+  "last_successful_scan_at": "2026-08-31T03:35:11Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "employment_contract_excluded": 2,
+    "title_explicitly_non_target_function": 3,
+    "total": 12,
+    "workplace_remote_excluded": 12
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "classdojo-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:31:24Z",
+      "attempt_id": "attempt:e4108220-899d-4bb0-b510-8a80616054ba",
+      "result_digest": "74e85cf632b0e8aaac072639a52c92d4ce526a78b0f48f4f5b0ab30c8e7a9abd",
+      "task_id": "source:unison-primary:luna:b35e2794852bc788",
+      "transaction_id": "txn:74e85cf632b0e8aaac072639"
+    }
+  ],
+  "company_id": "unison",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:31:14Z",
+  "last_successful_scan_at": "2026-08-31T15:31:14Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 3,
+    "title_explicitly_non_target_function": 3,
+    "total": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "unison-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

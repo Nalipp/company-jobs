@@ -1,0 +1,147 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:58:33Z",
+      "attempt_id": "attempt:bd7c4263-f074-4276-9876-6a90746d8b10",
+      "result_digest": "b2b8dcc919be5a217e7a7c2628475595f8e735bb6a617b3512011e15db688c57",
+      "task_id": "source:coderabbit-primary:luna:929a4684ac6f87dd",
+      "transaction_id": "txn:b2b8dcc919be5a217e7a7c26"
+    }
+  ],
+  "company_id": "coderabbit",
+  "current_job_count": 53,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/coderabbit/8f17b66f-ea44-4e83-85f6-ef9427d61a01",
+      "company_id": "coderabbit",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 300000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $300K"
+      },
+      "compensation_text": "$200K - $300K",
+      "department": "AI",
+      "description_text": "ABOUT CODERABBIT CodeRabbit is the leading AI code review platform, trusted by more than 17,000 customers and 150,000 open-source projects, conducting over 2 million code reviews each week. We build the symbiotic partnership between developers and AI that makes shipping fast software safe again, reviewing every pull request, IDE change, and CLI commit so teams can move quickly without breaking things. We are a fast-moving, well-funded company, fresh off a $143M Series C at a $1.5B valuation — building Agentic Change Management, the control layer for software changes created by humans and agents. As AI writes more of the world's code, the bottleneck moves from implementation to judgment and helping human judgment scale is exactly the problem we exist to solve. ROLE OVERVIEW As an Applied Gen AI Engineer at CodeRabbit, you'll play a central role in designing, building, and deploying advanced generative AI systems that power our code review and developer productivity tools. You’ll be responsible for bringing the latest advancements in generative AI to life — integrating techniques like RAG, RLHF, and multi-step agentic reasoning into high-impact product workflows. You’ll collaborate with engineers, product managers, and technical leads to iterate on intelligent systems that deliver real-world value, improving how developers write, review, and ship code. RESPONSIBILITIES - Design and optimize LLM-based systems for high-quality, context-rich code reviews - Build and refine agentic workflows that reason across multiple steps and contexts - Develop and maintain knowledge base and retrieval pipelines (e.g., chunking, embeddings, semantic search) - Deploy generative AI models and pipelines into production and monitor performance - Collaborate across teams to ensure that AI outputs align with user needs and product goals - Analyze human-in-the-loop feedback and usage data to iteratively improve system performance - Apply RLHF, ranking, and reward modeling techniques to improve response quality over time - Stay current with the latest generative AI developments and apply them to new use cases QUALIFICATIONS - Education: Degree in Computer Science, Engineering, Artificial Intelligence, or related field, or equivalent practical experience - Experience: 5+ years applying ML or LLM-based systems in real-world production environments, with at least 2 years of industry experience focused on generative AI - Technical Skills: Strong programming skills in TypeScript and Python - AI Frameworks: Experience with tooling such as LangChain, LlamaIndex, OpenAI APIs, or vector databases like Pinecone or Lancedb - Prompt Engineering: Strong skills in prompt engineering - Data Fluency: Ability to extract insight from telemetry, logs, user signals, and structured feedback - Practical Mindset: Comfortable applying research-inspired methods to solve concrete product challenges - Cross-Functional Collaboration: Experience working across product, engineering, and design to deliver production-grade systems BONUS POINTS - Experience optimizing RAG systems and tuning retrieval performance using custom embeddings or search strategies - Hands-on experience with RLHF pipelines, reward modeling, or behavioral policy tuning in LLMs - Experience integrating LLM systems into developer tooling or collaborative workflows - Track record of contributions to open-source projects or publications in applied AI/ML WHY JOIN OUR ENGINEERING CULTURE? - CodeRabbit is building the next generation of AI-native developer tooling — starting with code review. We combine large language models with deep software engineering context to help teams ship faster, catch more bugs, and make better architectural decisions at scale. - We are a high-ownership engineering culture. That means no passive execution, no waiting for perfect tickets, and no narrowly defined task boundaries. Engineers here find problems before they're assigned, use AI as a core part of how they build, ship with judgment, and own outcomes from proposal to production. - Our operating philosophy: bias toward action, ship the smallest necessary coherent slice, validate proportional to risk, watch what happens, and make the system better. AI drafts; humans decide. Speed matters, but so does understanding what you ship. - This opportunity will be energizing for people who want real ownership, pace, and high standards. It's uncomfortable for people who prefer slow consensus or heavily managed workflows. - If you want to build tools that are changing how software gets written, and be held to the standard that the best engineers thrive under; we'd love to talk. OUR VALUES - 🤝 Collaborative Humans — Prioritizing collective intelligence - 🚀 Fearless Innovators — Turning obstacles into growth opportunities - 💪 Persistent, Passionate Developers — Thriving on complex, long-term challenges - 🎯 Impact-Driven Creators — Crafting intuitive tools for developers - 🧠 Rapid Learners and Un-learners — Adapting quickly in our fast-paced technological world",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T03:57:30Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T03:57:30Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, CA, United States"
+      ],
+      "posted_at": "2025-09-18T23:54:56Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": "Applied AI role builds and deploys LLM/RAG/agentic systems for code-review product workflows; exact SF, hybrid, full-time, $200K-$300K base.",
+      "source_id": "coderabbit-primary",
+      "source_job_id": "8f17b66f-ea44-4e83-85f6-ef9427d61a01",
+      "stable_id": "job-129801dab5e3e671aaf1761d",
+      "status": "active",
+      "team": "AI",
+      "title": "Senior Applied AI Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/coderabbit/92b33382-63f5-48bd-be54-b7640fd1ab45",
+      "company_id": "coderabbit",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 325000,
+        "minimum": 225000,
+        "period": "year",
+        "source_text": "$225K - $325K"
+      },
+      "compensation_text": "$225K - $325K",
+      "department": "Engineering",
+      "description_text": "ABOUT CODERABBIT CodeRabbit is the leading AI code review platform, trusted by more than 17,000 customers and 150,000 open-source projects, conducting over 2 million code reviews each week. We build the symbiotic partnership between developers and AI that makes shipping fast software safe again, reviewing every pull request, IDE change, and CLI commit so teams can move quickly without breaking things. We are a fast-moving, well-funded company, fresh off a $143M Series C at a $1.5B valuation — building Agentic Change Management, the control layer for software changes created by humans and agents. As AI writes more of the world's code, the bottleneck moves from implementation to judgment and helping human judgment scale is exactly the problem we exist to solve. ROLE OVERVIEW As a Full Stack Engineer at CodeRabbit, you’ll build end-to-end systems that power intelligent code review and developer workflows. Working across frontend, backend, and infrastructure, you’ll help create seamless, context-aware experiences that bring AI directly into the developer loop. You’ll design and ship features that span from intuitive interfaces to scalable backend services, enabling developers to move faster, understand their codebases more deeply, and collaborate more effectively. You’ll partner closely with AI researchers, product thinkers, and infra engineers to turn complex ideas into polished, production-ready systems. RESPONSIBILITIES - Design and build full stack features across frontend, backend, and infrastructure - Develop scalable APIs and services that support AI-driven workflows - Create intuitive, high-performance user interfaces for developer tools - Collaborate with ML engineers to integrate AI models into product experiences - Own projects end-to-end, from concept through deployment and iteration - Ensure performance, reliability, and maintainability across the stack - Contribute to engineering culture through code reviews, design discussions, and mentorship QUALIFICATIONS - Education: Degree in Computer Science, Engineering, or related field, or equivalent practical experience - Experience: 7+ years building full stack applications in production environments - Frontend: Proficiency in React, TypeScript, and modern web development practices - Backend: Strong experience with Node.js (or similar), APIs, and distributed systems - Systems Thinking: Familiarity with cloud infrastructure (AWS/GCP), containers, CI/CD, and observability - Engineering Craft: Strong fundamentals in testing, code quality, and version control - Product Mindset: Care for user experience, iteration speed, and pragmatic decision-making - AI Dev tool Fluency: Must have strong experience using development tools like Cursor, Claude Code, or Codex and strong familiarity with various models and where these systems work and don’t BONUS POINTS - Experience building developer tools or working with code-centric systems - Familiarity with LLMs or integrating AI into product workflows - Experience with real-time systems, collaborative tools, or rich editors - Contributions to open source or technical communities WHY JOIN OUR ENGINEERING CULTURE? - CodeRabbit is building the next generation of AI-native developer tooling — starting with code review. We combine large language models with deep software engineering context to help teams ship faster, catch more bugs, and make better architectural decisions at scale. - We are a high-ownership engineering culture. That means no passive execution, no waiting for perfect tickets, and no narrowly defined task boundaries. Engineers here find problems before they're assigned, use AI as a core part of how they build, ship with judgment, and own outcomes from proposal to production. - Our operating philosophy: bias toward action, ship the smallest necessary coherent slice, validate proportional to risk, watch what happens, and make the system better. AI drafts; humans decide. Speed matters, but so does understanding what you ship. - This opportunity will be energizing for people who want real ownership, pace, and high standards. It's uncomfortable for people who prefer slow consensus or heavily managed workflows. - If you want to build tools that are changing how software gets written, and be held to the standard that the best engineers thrive under; we'd love to talk. OUR VALUES - 🤝 Collaborative Humans: We build together, not in silos - 🚀 Fearless Innovators: We explore bold ideas and iterate quickly - 💪 Persistent Builders: We embrace hard problems and see them through - 🎯 Impact-Driven: We focus on tools that meaningfully improve developer workflows - 🧠 Adaptive Learners: We evolve with the technology we’re shaping",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T03:57:30Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T03:57:30Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, CA, United States"
+      ],
+      "posted_at": "2026-04-03T15:56:52Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": "Full-stack product engineering role ships AI-driven developer workflows and user interfaces; exact SF, hybrid, full-time, $225K-$325K base.",
+      "source_id": "coderabbit-primary",
+      "source_job_id": "92b33382-63f5-48bd-be54-b7640fd1ab45",
+      "stable_id": "job-30151fff92e4e5d1361662de",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Senior Full Stack Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/coderabbit/bb95e939-0da5-4480-b162-c6ae82db3c12",
+      "company_id": "coderabbit",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 225000,
+        "minimum": 175000,
+        "period": "year",
+        "source_text": "$175K - $225K"
+      },
+      "compensation_text": "$175K - $225K",
+      "department": "Product",
+      "description_text": "ABOUT CODERABBIT CodeRabbit is the leading AI code review platform, trusted by more than 17,000 customers and 150,000 open-source projects, conducting over 2 million code reviews each week. We build the symbiotic partnership between developers and AI that makes shipping fast software safe again, reviewing every pull request, IDE change, and CLI commit so teams can move quickly without breaking things. We are a fast-moving, well-funded company, fresh off a $143M Series C at a $1.5B valuation — building Agentic Change Management, the control layer for software changes created by humans and agents. As AI writes more of the world's code, the bottleneck moves from implementation to judgment and helping human judgment scale is exactly the problem we exist to solve. ABOUT THE ROLE We're looking for a Design Engineer who lives at the intersection of design and code. You will prototype, build, and polish the experiences that make CodeRabbit feel like a trusted teammate rather than noise — across IDEs, Git platforms, the CLI, and the web, surfaces with few established conventions, where the right interaction pattern hasn't been invented yet. Whether a developer trusts an AI-generated suggestion enough to merge it often comes down to execution: the pixels, the motion, the copy, the milliseconds of latency, the edge cases. This role owns that last mile. It is perfect for someone who thinks like a designer but builds like an engineer — or vice versa. This is a high-ownership role working directly with design, engineering, and AI teams to define what's possible and then ship it, fast. WHAT YOU'LL DO - Build production-quality UI. Ship polished components and interactions that make complex code analysis feel effortless and earn developers' trust in AI-generated suggestions. - Prototype rapidly. Turn concepts for emerging AI experiences — real-time review, conversational feedback, agentic workflows — into working prototypes in hours, not days, to validate ideas before full implementation. - Bridge design and engineering. Translate high-fidelity designs into pixel-perfect code, and push design forward through technical innovation the mockups couldn't anticipate. - Own implementation quality. Set and hold the bar for UI execution across the product — smooth interactions, thoughtful motion, and micro-interactions that make the product feel alive. - Build the design system in code. Create and maintain reusable, well-engineered components spanning Web, IDE extensions, Git platforms, and CLI surfaces, so the whole team ships faster. - Make complex data legible. Implement clear, performant visualizations for code quality metrics, dependency graphs, and AI-generated insights. - Stay close to the model. Build for where AI capabilities are heading, not just what they can do today, and help define interaction paradigms native to AI and developer tools. WHAT WE'RE LOOKING FOR - Equally fluent in Figma and your editor. You move between design tools and code without friction, and you're credible in both rooms. This is the core of the role. - Strong front-end engineering. Deep skills in TypeScript, React, CSS, and animation, with an instinct for building reusable, maintainable UI systems. - An obsession with craft. You have an eye for design details, you've shipped polished products, and you know what it takes to get from 90% to 100%. - You ship fast and learn in the open. You'd rather get something in front of users this week than perfect it for a month — and you find ways to keep the care in the details while moving quickly. - You're AI-native in how you work. You already use AI tools to extend what you can build and see AI as a creative partner in your own practice. - You're rethinking the basics. Many UI primitives were designed for a different era; you're excited to question assumptions and invent patterns native to AI and developer tools. YOU MAY BE A GOOD FIT IF YOU HAVE - 2–5+ years of experience in design engineering, front-end, or product design roles, with a portfolio or shipped work demonstrating both engineering rigor and visual craft. - A proven track record of shipping complex technical products end-to-end in ambiguous, fast-moving environments. - Experience building or contributing to design systems and component libraries across multiple platforms. - Strong command of modern front-end tooling (TypeScript, React, CSS, animation libraries) and modern design tools (e.g., Figma). - Excellent collaboration and communication skills across cross-functional teams. Nice to have - Experience at developer-focused companies (e.g., GitHub, Postman, Hasura) or building developer tools. - A background in or strong understanding of software development and Git workflows. - Experience with IDE extensions (VS Code, JetBrains), Electron, or building cross-platform apps. - Experience designing or building AI/ML-powered interfaces, or motion design and micro-interactions. - Contributions to open-source projects or design systems. WHAT WE OFFER - The chance to define the design language for a category-defining AI product used by millions of developers. - A collaborative, high-velocity environment working alongside strong engineers and AI researchers. - Competitive salary, meaningful equity, and benefits. - Professional development and the resources to do the best work of your career.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T03:57:30Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T03:57:30Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, CA, United States"
+      ],
+      "posted_at": "2026-08-26T20:13:12Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": "Design engineering role ships AI-powered interfaces and agentic workflows with TypeScript/React; exact SF, hybrid, full-time, $175K-$225K base.",
+      "source_id": "coderabbit-primary",
+      "source_job_id": "bb95e939-0da5-4480-b162-c6ae82db3c12",
+      "stable_id": "job-fd2505d4f4d21f3692a9566b",
+      "status": "active",
+      "team": "Product",
+      "title": "Design Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T03:57:30Z",
+  "last_successful_scan_at": "2026-08-31T03:57:30Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "location_outside_target_city": 28,
+    "title_explicitly_excluded_platform": 1,
+    "title_explicitly_non_target_function": 30,
+    "title_not_target_engineering_family": 6,
+    "total": 77,
+    "workplace_remote_excluded": 10
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "coderabbit-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

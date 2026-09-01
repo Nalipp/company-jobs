@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:06:16Z",
+      "attempt_id": "attempt:a31da9c8-62b3-44b7-8e2a-24d3bd8d32da",
+      "result_digest": "f1b158d001326da16671cf50af38d54aeab649bf6081f0b82e2d27e31d7cfe8e",
+      "task_id": "source:mochi-health-greenhouse:luna:5143f07bc5afc5cc",
+      "transaction_id": "txn:f1b158d001326da16671cf50"
+    }
+  ],
+  "company_id": "mochi-health",
+  "current_job_count": 12,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:06:03Z",
+  "last_successful_scan_at": "2026-08-31T15:06:03Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 7,
+    "title_explicitly_non_target_function": 5,
+    "total": 12
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "mochi-health-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

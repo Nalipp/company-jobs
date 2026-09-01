@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:12:52Z",
+      "attempt_id": "attempt:28f9c6b7-2882-419c-b49d-be66558ccfd9",
+      "result_digest": "03de6cf26dd3cd5ba146300d18450a41f011a2b2b07fd9336ab96aa9cc192c55",
+      "task_id": "source:middleware-primary:luna:8572d917c32a4333",
+      "transaction_id": "txn:03de6cf26dd3cd5ba146300d"
+    }
+  ],
+  "company_id": "middleware",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:30:00Z",
+  "last_successful_scan_at": "2026-08-31T15:30:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "explicit_infrastructure_backend_focus": 1,
+    "location_outside_target_city": 6,
+    "non_target_function": 5,
+    "total": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "middleware-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

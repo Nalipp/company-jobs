@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:57:07Z",
+      "attempt_id": "attempt:3207a910-6ccb-4288-9eb6-f1422a5a8ddd",
+      "result_digest": "ec397e4e0086ee9b906f64e9f2b39a3a4483107c1023b7b5ff7d697c954ca854",
+      "task_id": "source:intercom-greenhouse:luna:b539dff44ceca8f6",
+      "transaction_id": "txn:ec397e4e0086ee9b906f64e9"
+    }
+  ],
+  "company_id": "intercom",
+  "current_job_count": 124,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:56:55Z",
+  "last_successful_scan_at": "2026-08-31T14:56:55Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 22,
+    "location_outside_target_city": 91,
+    "title_explicitly_non_target_function": 40,
+    "total": 124
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "intercom-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

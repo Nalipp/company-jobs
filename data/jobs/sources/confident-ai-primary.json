@@ -1,0 +1,62 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:53:25Z",
+      "attempt_id": "attempt:76d301a2-73b9-4a1b-81fb-60323e5b03c1",
+      "result_digest": "f12611d835bd16db2478601d2ffd377423df22094aaf7d34416bbeb11e6de1d9",
+      "task_id": "source:confident-ai-primary:luna:ec9d44dd6578f204",
+      "transaction_id": "txn:f12611d835bd16db2478601d"
+    }
+  ],
+  "company_id": "confident-ai",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://www.confident-ai.com/careers%23founding-product-engineer-frontend",
+      "company_id": "confident-ai",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 250000,
+        "minimum": 175000,
+        "period": "year"
+      },
+      "compensation_text": "$175K–$250K base + equity",
+      "department": "Engineering",
+      "description_text": "Confident AI builds infrastructure that makes AI trustworthy. Own user-facing features, design polished interfaces for traces, evaluation results, and testing workflows, and work across the stack. Requires React, Next.js, TypeScript, CSS, and backend fluency.",
+      "employment_text": "Full-time",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:30:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:30:00Z",
+      "locations": [
+        "San Francisco"
+      ],
+      "provider": "custom",
+      "qualification_status": "qualifying",
+      "review_notes": "San Francisco, full-time, frontend product engineering role building AI infrastructure interfaces; published annual USD base maximum $250,000.",
+      "source_id": "confident-ai-primary",
+      "source_job_id": "founding-product-engineer-frontend",
+      "stable_id": "job-e63dcaab92c5cc59d0102d8f",
+      "status": "active",
+      "title": "Founding Product Engineer (Frontend)",
+      "workplace_arrangement": "on-site",
+      "workplace_text": "In person"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:30:00Z",
+  "last_successful_scan_at": "2026-08-31T15:30:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "role_family": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "confident-ai-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

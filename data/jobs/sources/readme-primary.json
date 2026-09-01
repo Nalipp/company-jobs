@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:19:01Z",
+      "attempt_id": "attempt:abaeb7f3-8e8b-461d-8d2d-a03b5fc1e1bd",
+      "result_digest": "2037a3faff0dd022c443856dbf6dd8089456ed68d834914753770ed2565da91d",
+      "task_id": "source:readme-primary:luna:c70211075f7c3e80",
+      "transaction_id": "txn:2037a3faff0dd022c443856d"
+    }
+  ],
+  "company_id": "readme",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:18:57Z",
+  "last_successful_scan_at": "2026-08-31T15:18:57Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "total": 1,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "readme-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

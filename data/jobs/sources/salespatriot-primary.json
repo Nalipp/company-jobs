@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:21:10Z",
+      "attempt_id": "attempt:f56973fb-52ab-430a-87d6-7816c2ac25c3",
+      "result_digest": "aca5baf56219c8ed94a2fd78a502b72fa25164e6c58ef97de148c2f3fa2710b4",
+      "task_id": "source:salespatriot-primary:luna:d123e9a0f668040f",
+      "transaction_id": "txn:aca5baf56219c8ed94a2fd78"
+    }
+  ],
+  "company_id": "salespatriot",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:20:56Z",
+  "last_successful_scan_at": "2026-08-31T15:20:56Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "location_outside_target_city": 2,
+    "semantic_non_target": 2,
+    "title_explicitly_non_target_function": 1,
+    "total": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "salespatriot-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,75 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:30:22Z",
+      "attempt_id": "attempt:6644bf3a-62f7-4ab8-b0e1-6a4788d48ac4",
+      "result_digest": "9199d07fd0a7f71893e110ccb440bdace1795360137170b9572d8d4d561dbeca",
+      "task_id": "source:blaxel-primary:luna:4021ac780484fb52",
+      "transaction_id": "txn:9199d07fd0a7f71893e110cc"
+    }
+  ],
+  "company_id": "blaxel",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/blaxel/4acea42a-589d-42b1-949e-d4ec4b8907a2",
+      "company_id": "blaxel",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 250000,
+        "minimum": 150000,
+        "period": "year",
+        "source_text": "$150K - $250K"
+      },
+      "compensation_text": "$150K - $250K",
+      "department": "Engineering",
+      "description_text": "We're looking for a world-class Forward Deployed Engineer to help strategic customers deploy Blaxel in real production environments. You will work directly with customer teams, founders, and Blaxel's Product & Engineering teams to turn ambiguous requirements into working systems: integrations, deployment plans, debugging workflows, runbooks, examples, and product fixes. This is a hands-on engineering role with direct customer ownership. Some days you'll be onsite at customer’s office mapping a customer's architecture and success criteria. Other days you'll be deep in code debugging an agent deployment, agent-LLM networking behavior, or sandbox runtime issues. The best person for this role can build trust in a room, then earn it again by shipping the solution. WHAT YOU'LL DO Working side by side with our customers and interacting closely with Blaxel’s Product & Engineering teams, you’ll own the technical path from customer issues to successful deployment. - Lead end-to-end technical discovery & implementation for strategic customer deployments. - Engage directly with customer stakeholders (from engineering teams to executives) to understand their issues, architecture constraints and success criteria. - Build on Blaxel platform APIs, SDKs, sandboxes, CI/CD systems, observability tools, as well as customer infrastructure. - Ensure customer success and retention by improving their workloads reliability, performance, cost, and operational visibility. - Bring customer learnings back into product and engineering with enough technical detail to shape roadmap decisions. WHO YOU ARE - Customer-obsessed builder: You enjoy working directly with users and shipping solutions that solve real problems while ensuring retained success for the Blaxel product. - Strong engineer: You can write production code, navigate unfamiliar codebases quickly, and make pragmatic technical tradeoffs. - Systems generalist: You are comfortable moving between APIs, cloud infrastructure, containers, networking, observability, and application logic. - Fast in ambiguity: You can turn incomplete context into a concrete plan, then iterate as you learn. - Excellent communicator: You can explain tradeoffs clearly, align stakeholders, and keep momentum during tense debugging sessions. - High ownership: You don't stop at diagnosis. You drive problems through implementation, validation, documentation, and follow-up. SKILLS AND EXPERIENCE - Strong proficiency in TypeScript/Node or Python. Experience with Go, Rust, or systems-level engineering is a plus. - Experience building and shipping production software, ideally in backend, infrastructure, cloud, developer platform, or AI product environments. - Comfort with APIs, Docker, Kubernetes or similar orchestration, AWS/GCP/Azure, Linux, networking fundamentals, and CI/CD. - Useful context includes agent frameworks, sandboxes, LLM applications, model-provider routing, eval workflows, vector databases, workflow orchestration, SSO/RBAC, security reviews, private networking, or compliance constraints. - Prior forward-deployed, solutions, platform, customer engineering, founding engineer, or high-context consulting experience is helpful but not required. ABOUT BLAXEL Blaxel is AWS for AI agents. We're building a new kind of cloud optimized specifically for the demands of agentic AI, powered by a purpose-built serverless compute engine delivering sub-25ms cold starts. We process billions of AI agent requests and power the infrastructure behind coding agents and background AI systems for top AI startups. Traditional clouds weren't built for agentic workloads. We are. We recently raised a $7.3M seed round led by First Round Capital.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T03:30:05Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T03:30:05Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-05-14T18:52:57Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "full-time Forward Deployed Engineer role",
+        "published USD annual base maximum $250,000",
+        "official posting cites agent and agent-LLM deployments",
+        "forward-deployed engineering fit"
+      ],
+      "source_id": "blaxel-primary",
+      "source_job_id": "4acea42a-589d-42b1-949e-d4ec4b8907a2",
+      "stable_id": "job-60008e83060504c4e1492369",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Forward Deployed Engineer (FDE)",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T03:30:05Z",
+  "last_successful_scan_at": "2026-08-31T03:30:05Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "title_explicitly_excluded": 1,
+    "total": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "blaxel-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

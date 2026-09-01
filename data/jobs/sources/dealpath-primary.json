@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:00:47Z",
+      "attempt_id": "attempt:e611f769-0d50-4faa-bdc7-f5cbe72b2d85",
+      "result_digest": "214711a4725def9ed3208a09333767bcea07f17c49569f3f810cc30aa572c457",
+      "task_id": "source:dealpath-primary:luna:92ec3a7084421794",
+      "transaction_id": "txn:214711a4725def9ed3208a09"
+    }
+  ],
+  "company_id": "dealpath",
+  "current_job_count": 19,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:00:34Z",
+  "last_successful_scan_at": "2026-08-31T04:00:34Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 10,
+    "location_outside_target_city": 7,
+    "title_explicitly_non_target_function": 5,
+    "total": 19
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "dealpath-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

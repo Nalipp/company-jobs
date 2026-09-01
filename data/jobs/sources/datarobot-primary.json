@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:03:02Z",
+      "attempt_id": "attempt:be980284-2d41-402c-8469-ef34fdbb3a2c",
+      "result_digest": "c979f6a2a61ffd82c9d58d178bba7473cf928abbd8d28838ee6be94757f19a06",
+      "task_id": "source:datarobot-primary:luna:2e8c26c308a3bc00",
+      "transaction_id": "txn:c979f6a2a61ffd82c9d58d17"
+    }
+  ],
+  "company_id": "datarobot",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:30:00Z",
+  "last_successful_scan_at": "2026-08-31T15:30:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "role_or_domain_mismatch": 16
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "datarobot-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:08:30Z",
+      "attempt_id": "attempt:9e68dbac-ed77-4c10-9c72-219e8f345376",
+      "result_digest": "569384b60a457c778a99984e1c115b684b7a0773f954549ed48b79362deefc2d",
+      "task_id": "source:nextdoor-greenhouse:luna:759ba8fb91e7acff",
+      "transaction_id": "txn:569384b60a457c778a99984e"
+    }
+  ],
+  "company_id": "nextdoor",
+  "current_job_count": 23,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:08:17Z",
+  "last_successful_scan_at": "2026-08-31T15:08:17Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 9,
+    "location_outside_target_city": 14,
+    "title_explicitly_non_target_function": 3,
+    "total": 23
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "nextdoor-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

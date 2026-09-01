@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:11:36Z",
+      "attempt_id": "attempt:b7ec58ee-e21b-407f-9557-8028f4c31ef6",
+      "result_digest": "92658502aeba379792c2cf162a1c5337fa60cba7fcaed07c23cec5a3fe5545b0",
+      "task_id": "source:oneschema-ashby:luna:55ee31a114a4cf47",
+      "transaction_id": "txn:92658502aeba379792c2cf16"
+    }
+  ],
+  "company_id": "oneschema",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:11:24Z",
+  "last_successful_scan_at": "2026-08-31T15:11:24Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 2,
+    "total": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "oneschema-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

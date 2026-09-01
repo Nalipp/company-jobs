@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:23:09Z",
+      "attempt_id": "attempt:f2b525af-d84d-45db-b16d-17e93069682a",
+      "result_digest": "fbd0970ad186127dcf5abe8c71fb1719ff01c2fc770fd442e416956cb5b4d6df",
+      "task_id": "source:streak-primary:luna:fea05a42af5364a8",
+      "transaction_id": "txn:fbd0970ad186127dcf5abe8c"
+    }
+  ],
+  "company_id": "streak",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T02:30:00Z",
+  "last_successful_scan_at": "2026-09-01T02:30:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_basis_total_not_base": 1,
+    "location_not_san_francisco": 1,
+    "workplace_remote": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "streak-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

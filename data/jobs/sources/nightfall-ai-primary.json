@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:08:53Z",
+      "attempt_id": "attempt:5d33bee4-1f1b-45fc-97cf-1a3edd55ed9b",
+      "result_digest": "6ebe7fe10b18fb35241c7ded9a28de49a1c5feef65ca3f23974654e1274f1d97",
+      "task_id": "source:nightfall-ai-primary:luna:ef0490f518f333f1",
+      "transaction_id": "txn:6ebe7fe10b18fb35241c7ded"
+    }
+  ],
+  "company_id": "nightfall-ai",
+  "current_job_count": 26,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:08:49Z",
+  "last_successful_scan_at": "2026-08-31T15:08:49Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "location_outside_target_city": 25,
+    "title_explicitly_non_target_function": 8,
+    "total": 26,
+    "workplace_remote_excluded": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "nightfall-ai-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

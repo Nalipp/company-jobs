@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:tonal:luna:ced10f711872cfe6",
+  "attempt_id": "attempt:cebe3337-3bd7-4a65-8e34-bd770510b35b",
+  "claim_token": "-IWgkhdHZ17WheJ84AngmapB5UyYmu54p4z0LbGUnOA",
+  "model": "luna",
+  "created_at": "2026-09-01T18:04:13Z",
+  "target": {"company_ids": ["tonal"], "source_ids": ["tonal-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [{"url": "https://tonal.com/pages/careers", "retrieved_at": "2026-09-01T18:04:45Z", "evidence_type": "official_careers_page", "finding": "Tonal's official careers page is live and describes employee benefits and recruiting contact information, but its open-roles control did not expose a complete enumerable listing endpoint or stable canonical role-detail URLs in this bounded pass; the source remains unsupported."}],
+  "patch": {"company_id": "tonal", "expected_record_revision": 1, "company_changes": {}, "source_upserts": [{
+    "source_id": "tonal-primary", "company_id": "tonal", "expected_record_revision": 1, "careers_url": "https://tonal.com/pages/careers", "listings_url": "https://tonal.com/pages/careers", "provider": "custom", "board_id": null, "access_mode": "browser_required", "scope": "All Tonal roles", "instructions": "Recheck the official Tonal careers page in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.", "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false}, "status": "unsupported", "official_relationship_url": "https://tonal.com/pages/careers", "checked_at": "2026-09-01T18:04:45Z", "last_success_at": null, "added_date": "2026-08-28T23:17:44Z", "updated_date": "2026-09-01T18:04:45Z"
+  }]},
+  "item_results": [{"item": "tonal-primary", "status": "resolved", "summary": "Official careers page rechecked; open-role endpoint and stable identities remain unverified."}],
+  "failure_class": null,
+  "notes": "No canonical company identity or address change supported."
+}

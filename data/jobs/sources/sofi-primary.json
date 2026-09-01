@@ -1,0 +1,72 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:13:03Z",
+      "attempt_id": "attempt:2dabd84f-58a9-4196-97f2-6928c1132cf4",
+      "result_digest": "886d43cbd4d1fdd9cd6ebee89222191c3efe777bc995d294c585988aaf4b6adb",
+      "task_id": "source:sofi-primary:luna:b6f810295501ca8a",
+      "transaction_id": "txn:886d43cbd4d1fdd9cd6ebee8"
+    }
+  ],
+  "company_id": "sofi",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://sofi.com/careers/job/7978419003?gh_jid=7978419003",
+      "company_id": "sofi",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 243305,
+        "minimum": 221187,
+        "period": "year",
+        "source_text": "$221,187.00 - $243,305.00 per year"
+      },
+      "compensation_text": "$221,187-$243,305/year",
+      "department": "Infrastructure",
+      "description_text": "Senior software engineering role in San Francisco with hybrid work; duties include product technical architecture and AI terminology including LLM agent development using AWS Bedrock and Spring AI.",
+      "employment_text": null,
+      "employment_type": "full-time",
+      "first_seen_at": "2026-09-01T02:15:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-09-01T02:15:00Z",
+      "locations": [
+        "San Francisco, CA",
+        "CA - Remote"
+      ],
+      "posted_at": null,
+      "provider": "custom",
+      "qualification_status": "qualifying",
+      "semantic_evidence": "Official posting describes San Francisco hybrid software engineering, LLM agent development using AWS Bedrock/Spring AI, and $221,187-$243,305 annual base salary.",
+      "source_id": "sofi-primary",
+      "source_job_id": "7978419003",
+      "stable_id": "job-21159a7e75dc75c609024260",
+      "status": "active",
+      "team": null,
+      "title": "Senior Software Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid work from Social Finance offices in San Francisco, CA"
+    }
+  ],
+  "last_attempt_at": "2026-09-01T02:15:00Z",
+  "last_successful_scan_at": "2026-09-01T02:15:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_below_threshold": 1,
+    "employment_contract": 1,
+    "role_infrastructure": 2,
+    "role_not_product_engineering": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "sofi-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": [
+    "The openings panel contains responsive-layout duplicate cards; 4 reviewed profile-relevant cards recorded."
+  ]
+}

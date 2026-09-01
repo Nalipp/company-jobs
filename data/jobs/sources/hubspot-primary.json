@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:40:05Z",
+      "attempt_id": "attempt:f089751c-7338-445d-9920-fad441038d4b",
+      "result_digest": "23407634898c4a636fd8e67c10180607014de94804a772a1240fe977a59d7a24",
+      "task_id": "source:hubspot-primary:luna:ef065a8bfbd7185c",
+      "transaction_id": "txn:23407634898c4a636fd8e67c"
+    }
+  ],
+  "company_id": "hubspot",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:45:00Z",
+  "last_successful_scan_at": "2026-08-31T21:45:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "location": 13
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "hubspot-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

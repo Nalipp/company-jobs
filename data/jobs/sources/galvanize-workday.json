@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:25:36Z",
+      "attempt_id": "attempt:465ad840-54ea-419e-8ab0-0f9cb4b85dcf",
+      "result_digest": "bbeac78b5f033c8609c93259979ec6d2bc0eec290285bb68574bb8d3c7613339",
+      "task_id": "source:galvanize-workday:luna:abb218b22b940aad",
+      "transaction_id": "txn:bbeac78b5f033c8609c93259"
+    }
+  ],
+  "company_id": "galvanize",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T23:42:00Z",
+  "last_successful_scan_at": "2026-08-31T23:42:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "galvanize-workday",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

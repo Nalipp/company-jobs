@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:38:23Z",
+      "attempt_id": "attempt:0114841b-b3a8-4cf2-a18e-d1d18fd7b0cd",
+      "result_digest": "95c2419eed250497f38b055f034fbacc3fd289bcb8f937d9d65b88031342fd31",
+      "task_id": "source:testrigor-primary:luna:d4898b6f0b4d3879",
+      "transaction_id": "txn:95c2419eed250497f38b055f"
+    }
+  ],
+  "company_id": "testrigor",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T03:36:00Z",
+  "last_successful_scan_at": "2026-09-01T03:36:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "workable",
+  "rejection_counts": {
+    "location_outside_target_city": 2,
+    "workplace_remote_excluded": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "testrigor-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

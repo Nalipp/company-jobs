@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:13:02Z",
+      "attempt_id": "attempt:5a929780-6cf2-4a8d-8eda-db90c4655a21",
+      "result_digest": "d87eb7afe90bbaf8d1539b2f9143535f93606008da7f79b001af22104c787831",
+      "task_id": "source:oura-primary:luna:c25df19fde2c561f",
+      "transaction_id": "txn:d87eb7afe90bbaf8d1539b2f"
+    }
+  ],
+  "company_id": "oura",
+  "current_job_count": 101,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:12:45Z",
+  "last_successful_scan_at": "2026-08-31T15:12:45Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 42,
+    "location_outside_target_city": 48,
+    "title_explicitly_non_target_function": 24,
+    "total": 101
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "oura-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

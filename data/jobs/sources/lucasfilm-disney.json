@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:02:16Z",
+      "attempt_id": "attempt:8b4d68a3-a7f3-4015-a648-3a054785cd68",
+      "result_digest": "49d1b592f2e70a79300f26ab2dce8b88ddf494246343580a498e7b7d19ca430c",
+      "task_id": "source:lucasfilm-disney:luna:bdf6ee5bc01d85d5",
+      "transaction_id": "txn:49d1b592f2e70a79300f26ab"
+    }
+  ],
+  "company_id": "lucasfilm",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:44:00Z",
+  "last_successful_scan_at": "2026-08-31T22:44:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "disney",
+  "rejection_counts": {
+    "location_not_san_francisco": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "lucasfilm-disney",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

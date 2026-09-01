@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:30:11Z",
+      "attempt_id": "attempt:57057174-c83a-4d17-ac81-963a983292ed",
+      "result_digest": "a29789359317f662dd091b380320646b82f5b688e90dae31b334db166932447c",
+      "task_id": "source:together-ai-greenhouse:luna:426ee6a2883d0890",
+      "transaction_id": "txn:a29789359317f662dd091b38"
+    }
+  ],
+  "company_id": "together-ai",
+  "current_job_count": 62,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:29:57Z",
+  "last_successful_scan_at": "2026-08-31T15:29:57Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 44,
+    "location_outside_target_city": 8,
+    "title_explicitly_non_target_function": 10,
+    "total": 62
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "together-ai-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

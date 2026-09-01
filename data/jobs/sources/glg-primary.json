@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:27:23Z",
+      "attempt_id": "attempt:1c6c22e6-184e-466c-9e91-8a8d726c6a12",
+      "result_digest": "b0ff787927e8c3e40848ef33edcf8ffe3132d3856eaaeff0d14f9f4a104cbf1e",
+      "task_id": "source:glg-primary:luna:87cbe3837bc1608b",
+      "transaction_id": "txn:b0ff787927e8c3e40848ef33"
+    }
+  ],
+  "company_id": "glg",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T23:58:00Z",
+  "last_successful_scan_at": "2026-08-31T23:58:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "role_or_location_mismatch": 99
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "glg-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

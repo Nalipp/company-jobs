@@ -1,0 +1,70 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:58:48Z",
+      "attempt_id": "attempt:4afe5667-6f7b-4b45-ac64-30966e81614b",
+      "result_digest": "9fe725e740db132df1882aeb1c4437485a47319989fe1c66c1b8834649791918",
+      "task_id": "source:kiddom-ashby:luna:981c2b09815f3811",
+      "transaction_id": "txn:9fe725e740db132df1882aeb"
+    }
+  ],
+  "company_id": "kiddom",
+  "current_job_count": 9,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/kiddom/1ee4c4ab-e501-4822-926b-99d5ef4c0ad1",
+      "company_id": "kiddom",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 230000,
+        "minimum": 180000,
+        "period": "year",
+        "source_text": "$180K - $230K"
+      },
+      "compensation_text": "$180K - $230K",
+      "department": "Engineering",
+      "description_text": "About Kiddom Kiddom is transforming K–12 education by bringing high-quality curriculum, instructional tools, and student analytics together in one coherent system. We are building Learning Intelligence Technology (LIT), a new category that gives educators the infrastructure to plan, teach, assess, and respond to student needs. With Kiddom, educators spend less time managing administrative burden and more time delivering meaningful student instruction. Kiddom helps schools and districts deliver more equitable, effective, and adaptive learning experiences. We're looking for a Senior Full Stack Engineer to join our AI Experience Pod, the team behind Kiddom's flagship AI-powered experience for teachers and students. You'll work in a small, agile team of 3–4 engineers, building intuitive, performant, AI-enhanced interfaces in close partnership with product, design, and data. This role suits an AI-native engineer who uses AI tools daily to accelerate development and thoughtfully integrate AI into user-facing products, and who thrives in ambiguity and complex technical challenges.  What You'll Do: - Build end-to-end solutions from React/TypeScript frontends to GoLang and Python backend services (being highly experienced in one of these can be sufficient) - Develop, maintain, and optimize AI/LLM-powered features that personalize learning at scale - Rapidly prototype new AI-driven capabilities and iterate based on user feedback and data - Work with large datasets to analyze model performance, identify issues, and guide improvements - Turn complex product concepts into robust, reliable AI-enhanced user experiences - Collaborate closely with product, design, data science, and ML engineering partners - Contribute to architectural decisions, tooling enhancements, and best practices across the stack - Leverage AI tools to improve engineering velocity, code quality, and experimentation workflows What We're Looking For: - 5–7+ years of professional software development experience - A full-stack mindset with willingness to work across frontend, backend, AI integration layers, and supporting infrastructure - Strong ability to reason about AI system behavior, model limitations, and best practices for safe, reliable integration - Experience working with data pipelines, experiment evaluation, or model performance analysis - A collaborative, product-minded engineer who enjoys working directly with design and PM partners - Someone who embraces fast iteration, incomplete information, and continuous learning - An AI-native engineer who knows how to select, use, and apply AI tools effectively in both development and product experiences - Bachelor’s or Master’s degree in CS or equivalent work experience Nice to Have: - Experience integrating LLMs or ML systems into production applicationsFamiliarity with vector databases, embeddings, or retrieval-augmented generation - CI/CD experience (GitHub Actions or similar) - Familiarity with the AWS ecosystem (Lambda, ECS, RDS, k8s, containerized applications) What we offer - Full time permanent employees are eligible for the following benefits from their first day of employment: - Competitive salary - Meaningful equity - Health insurance benefits: medical (various PPO/HMO/HSA plans), dental, vision, disability and life insurance - 401k plan - One Medical membership (in participating locations) - Flexible vacation time policy (subject to internal approval). Average use 4 weeks off per year. - 10 paid sick days per year (pro rated depending on start date) - Paid holidays - Paid bereavement leave - Paid family leave after birth/adoption. Minimum of 16 paid weeks for birthing parents, 10 weeks for caretaker parents. Meant to supplement benefits offered by State. - Commuter and FSA plans Equal Employment Opportunity Policy Kiddom is committed to providing equal employment opportunities to all employees and applicants without regard to race, religion, color, gender, sexual orientation, transgender status, national origin, citizenship status, uniform service member status, pregnancy, age, genetic information, disability, or any other protected status in accordance with all applicable federal, state, and local laws.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T14:58:35Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T14:58:35Z",
+      "locations": [
+        "San Francisco or New York"
+      ],
+      "posted_at": "2026-06-11T18:49:37Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "kiddom-ashby",
+      "source_job_id": "1ee4c4ab-e501-4822-926b-99d5ef4c0ad1",
+      "stable_id": "job-cfe907b6a01d36efd06e1224",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Senior Full Stack Engineer, AI Experience",
+      "updated_at": null,
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    }
+  ],
+  "last_attempt_at": "2026-08-31T14:58:35Z",
+  "last_successful_scan_at": "2026-08-31T14:58:35Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 4,
+    "compensation_period_mismatch": 1,
+    "employment_contract_excluded": 2,
+    "title_explicitly_non_target_function": 5,
+    "total": 9,
+    "workplace_remote_excluded": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "kiddom-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,503 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:04:46Z",
+      "attempt_id": "attempt:54344bac-f2ed-4f63-a716-6ec4c14bf0b0",
+      "result_digest": "fa72320713fa7e05632c3ed535a42bcaafb3f4d43b8b359dfe4231b20cbaccc6",
+      "task_id": "source:mercor-ashby:luna:743e47ee9fe6b471",
+      "transaction_id": "txn:fa72320713fa7e05632c3ed5"
+    }
+  ],
+  "company_id": "mercor",
+  "current_job_count": 92,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/mercor/160c8177-765b-4bdc-a5be-5f646dccc98a",
+      "company_id": "mercor",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 500000,
+        "minimum": 130000,
+        "period": "year",
+        "source_text": "$130K - $500K"
+      },
+      "compensation_text": "$130K - $500K",
+      "department": "Engineering",
+      "description_text": "ABOUT MERCOR Mercor's mission is to organize human intelligence to power the AI economy. We're a leading AI data company, building the layer between human expertise and frontier models. Millions of domain experts on the platform are paid over $4 million per day to train frontier AI models. Mercor's APEX benchmark family measures AI's real-world impact on professional work. Mercor Enterprise brings this same infrastructure to Fortune 500 companies: helping companies capture how their best people actually work, translating that expertise directly back into agents. Mercor is creating a new category of work where expertise powers AI advancement. Achieving this requires an ambitious, fast-paced and deeply committed team. You’ll work alongside researchers, operators, and AI companies at the forefront of shaping the systems that are redefining society. Mercor is a profitable Series C company valued at $10 billion. We work in-person five days a week in our San Francisco, NYC, or London offices. ABOUT THE ROLE As a Software Engineer on the Marketplace team, you will own the core systems that bring human intelligence to AI opportunities You'll work on search, matching, allocation, and workflow infrastructure at the heart of the marketplace, where systems deliver the world’s top experts to staff our cutting edge projects. The problems are technically demanding and tightly coupled to business outcomes: latency, reliability, throughput, and system quality all directly affect marketplace performance. WHAT YOU'LL BUILD - Backend services that power candidate-job matching, routing, and marketplace workflows - APIs and internal systems for search, eligibility, scoring, allocation, and fulfillment - Data models and system abstractions for a rapidly evolving labor marketplace - Infrastructure for real-time and asynchronous decisioning at high volume - Operational systems and tooling that keep product-critical workflows reliable, observable, and easy to evolve EXAMPLE PROBLEMS - • Build the systems that determine which candidates are eligible for which opportunities - • Design matching and allocation infrastructure that balance speed, quality, and fill rate - • Improve the performance and reliability of APIs serving marketplace decisions in real time - • Develop workflow engines for onboarding, vetting, routing, and placement - Design backend abstractions that let product and ML teams iterate quickly without degrading system quality WHAT WE'RE LOOKING FOR - • Track record of building and operating reliable backend systems in production - • Strong judgment in system design, performance, reliability, and data modeling - • Comfort working on high-throughput APIs, distributed systems, and asynchronous workflows - • Ability to translate product and marketplace requirements into clean technical systems - • High engineering standards and a bias toward simple, durable abstractions NICE TO HAVE - • Experience with search, recommendation, matching, scheduling, or marketplace systems - • Experience supporting ML-powered products or integrating model inference into production systems - • Familiarity with event-driven architecture, queues, caching, and observability tooling WHY THIS ROLE This role sits on a core decision layer of the product. Your work will directly shape how the marketplace operates: which opportunities get filled, how quickly hiring happens, and how reliably the system scales as volume and complexity increase. TECH STACK Python, Go, Kafka, Postgres, Redis, Elasticsearch, Kubernetes, Terraform BENEFITS - Bi-annual performance bonus structure - Generous equity grant vested over 4 years - Up to $15k Relocation bonus - $10K housing bonus (if you live within 0.5 miles of our office) - $1.5K monthly stipend for meals - Free Equinox membership - $200 monthly laundry reimbursement - $200 monthly personal wellness reimbursement - Health, Dental, Vision insurance",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:04:08Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:04:08Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-08-26T16:47:24Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "published USD annual base maximum at least $200,000",
+        "role-specific AI or agent work",
+        "product, applications, or full-stack engineering fit"
+      ],
+      "source_id": "mercor-ashby",
+      "source_job_id": "160c8177-765b-4bdc-a5be-5f646dccc98a",
+      "stable_id": "job-044019c4245df7b3cb83c2a8",
+      "status": "active",
+      "team": "Core Engineering",
+      "title": "Software Engineer, Marketplace",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/mercor/b39b38ad-6b71-40da-854f-4a5de2657b50",
+      "company_id": "mercor",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 400000,
+        "minimum": 250000,
+        "period": "year",
+        "source_text": "$250K - $400K"
+      },
+      "compensation_text": "$250K - $400K",
+      "department": "Engineering",
+      "description_text": "ABOUT MERCOR Mercor's mission is to organize human intelligence to power the AI economy. We're a leading AI data company, building the layer between human expertise and frontier models. Millions of domain experts on the platform are paid over $4 million per day to train frontier AI models. Mercor's APEX benchmark family measures AI's real-world impact on professional work. Mercor Enterprise brings this same infrastructure to Fortune 500 companies: helping companies capture how their best people actually work, translating that expertise directly back into agents. Mercor is creating a new category of work where expertise powers AI advancement. Achieving this requires an ambitious, fast-paced and deeply committed team. You’ll work alongside researchers, operators, and AI companies at the forefront of shaping the systems that are redefining society. Mercor is a profitable Series C company valued at $10 billion. We work in-person five days a week in our San Francisco, NYC, or London offices. ABOUT THE ROLE We’re hiring Engineering Managers to lead teams within our Applied AI organization. Applied AI builds systems that directly improve model quality, including evaluation infrastructure, annotation products, and emerging multimodal capabilities. You’ll lead a team of engineers, partner with product and research, and help define how Mercor stays at the frontier of AI. You will also build partnerships with leading AI labs and directly contribute to improving the quality of frontier models through data, evaluation, and systems. This role requires high ownership and abstraction: setting direction, driving outcomes, and staying hands-on while leading. WHAT YOU’LL WORK ON BUILD AND SCALE TEAMS - Manage and grow a team of 6–10 engineers - Coach and develop high-potential engineers - Establish strong ownership, culture, and execution standards - Shape the team: define hiring processes, establish engineering practices, and scale a high-performing team from the ground up DRIVE APPLIED AI SYSTEMS AND OUTCOMES - Drive insights and methodology behind evaluation systems that benchmark and improve model performance - Lead development while driving improvements in data quality, operational efficiency, system stability, and scalability - Scale products that generate high-quality training data and improve human-in-the-loop workflows OWN TECHNICAL DIRECTION - Lead system design for complex AI systems - Stay close to the technical work and guide engineers through ambiguous problems - Translate high-level AI goals into clear engineering roadmaps and execution plans OPERATE ACROSS A BROAD SCOPE - Partner with product, research, operations, and external AI labs - Work across systems, data insights, and custom partnerships to drive model quality SHAPE THE ORGANIZATION - Introduce lightweight processes as the organization scales - Hire and develop strong engineering talent - Help define engineering management at Mercor WHAT WE’RE LOOKING FOR - 6–10 years in engineering; 2–3+ years managing teams - Strong background in building scalable systems - Ability to lead in ambiguous environments with sound technical judgment - Proven ability to coach engineers and drive execution - Strong ownership mindset with pragmatic decision-making Who Thrives Here - We’re looking for engineering leaders who take ownership in ambiguous environments, make pragmatic decisions, and consistently deliver measurable impact. SUCCESS METRICS - Build high-performing, well-supported teams - Hire and retain strong engineers - Improve team velocity and execution quality - Contribute to systems that measurably improve model performance LOCATION - San Francisco (preferred) or New York - Relocation assistance will be provided as needed WHY THIS ROLE - Direct impact on frontier AI development - Build partnerships with leading AI labs and shape how frontier models improve - High ownership across team, systems, and hiring - Opportunity to shape a rapidly scaling organization - Work at the intersection of engineering, product, data, and AI Benefits - Bi-annual performance bonus structure - Generous equity grant vested over 4 years - Up to $15k Relocation bonus - $10K housing bonus (if you live within 0.5 miles of our office) - $1.5K monthly stipend for meals - Free Equinox membership - $200 monthly laundry reimbursement - $200 monthly personal wellness reimbursement - Health, Dental, Vision insurance",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:04:08Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:04:08Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States",
+        "New York City"
+      ],
+      "posted_at": "2026-06-19T20:10:33Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "published USD annual base maximum at least $200,000",
+        "role-specific AI or agent work",
+        "product, applications, or full-stack engineering fit"
+      ],
+      "source_id": "mercor-ashby",
+      "source_job_id": "b39b38ad-6b71-40da-854f-4a5de2657b50",
+      "stable_id": "job-3683117142f896c3aea52f13",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Engineering Manager, Applied AI",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/mercor/c019b11f-4fbb-46a2-bbad-338ba8f4bedb",
+      "company_id": "mercor",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 250000,
+        "minimum": 175000,
+        "period": "year",
+        "source_text": "$175K - $250K"
+      },
+      "compensation_text": "$175K - $250K",
+      "department": "Finance",
+      "description_text": "ABOUT MERCOR Mercor's mission is to organize human intelligence to power the AI economy. We're a leading AI data company, building the layer between human expertise and frontier models. Millions of domain experts on the platform are paid over $4 million per day to train frontier AI models. Mercor's APEX benchmark family measures AI's real-world impact on professional work. Mercor Enterprise brings this same infrastructure to Fortune 500 companies: helping companies capture how their best people actually work, translating that expertise directly back into agents. Mercor is creating a new category of work where expertise powers AI advancement. Achieving this requires an ambitious, fast-paced and deeply committed team. You’ll work alongside researchers, operators, and AI companies at the forefront of shaping the systems that are redefining society. Mercor is a profitable Series C company valued at $10 billion. We work in-person five days a week in our San Francisco, NYC, or London offices. About Mercor Mercor's mission is to organize human intelligence to power the AI economy. We partner with leading AI labs and enterprises to provide the human intelligence essential to AI development. Our vast talent network trains frontier AI models in the same way teachers teach students: by sharing knowledge, experience, and context that can't be captured in code alone. Today, more than 30,000 experts in our network collectively earn over $3 million a day. Mercor is creating a new category of work where expertise powers AI advancement. Achieving this requires an ambitious, fast-paced and deeply committed team. You’ll work alongside researchers, operators, and AI companies at the forefront of shaping the systems that are redefining society. Mercor is a profitable Series C company valued at $10 billion. We work in-person five days a week in our San Francisco, NYC, or London offices. ABOUT THE ROLE This is a rare, foundational hire: Mercor's first Agentic Finance Engineer. You'll sit at the intersection of finance, data engineering, and applied AI — building the systems and infrastructure that power how our finance and corporate operations team runs. You will design and deploy the modern data and automation stack from the ground up: architecting scalable financial data models, integrating AI agents into real workflows, and turning manual, spreadsheet-driven processes into reliable, production-grade systems. The ideal candidate has deep finance domain knowledge — you understand how the books actually close, how procurement flows, how revenue is recognized — and the technical fluency to translate that understanding into durable, automated systems. You're equally comfortable in a SQL editor and in a conversation with the CFO, and you're energized by building in a zero-to-one environment. WHAT YOU'LL DO Finance Data & Systems - Facilitate the design, build, and maintenance of a reliable financial data foundation using modern tools (.g. dbt, FiveTran, Snowflake/BigQuery, Airflow), covering revenue, AP/AR, procurement, close, strategic finance and FP&A - Partner closely with data infrastructure team to build Mercor's financial data model: define canonical datasets, dimensional schemas, and the transformation logic that serves Finance stakeholders - Partner with Finance leads across accounting, strategic finance, and operations to translate business requirements into technical architecture - Build and maintain dashboards and self-serve reporting tools that give finance leaders real-time visibility into key metrics AI & Automation - Own the Agentic Finance roadmap – prioritizing use cases and driving features from ideation to deployment - Identify high-value automation opportunities across Finance and corporate operations — month-end close tasks, reconciliations, procurement workflows, variance analysis — and ship solutions that eliminate manual work - Build intelligent, reliable automation via agents (in partnership with engineering teams), AI-powered tools, and multi-step ETL jobs into live finance workflows, using APIs (including frontier models) - Build internal tooling that Finance teams actually use: lightweight apps, workflow automations, and AI-assisted processes that save meaningful time at scale - Stay at the frontier of what's possible with AI in Finance (meeting other finance teams, reading research, etc.), and proactively bring new capabilities to bear on Mercor's highest-leverage operational problems Governance, Quality & Scale - Enforce data integrity standards and testing practices across all financial data products — ensuring auditability and reliability for a maturing Finance function - Ensure AI-assisted processes meet appropriate governance and controls standards, with clear auditability of model outputs used in financial workflows - Champion a culture of data quality and documentation so that Finance teams trust and rely on the systems you build WHAT WE'RE LOOKING FOR - 3+ years of experience spanning finance operations, data engineering, analytics engineering, data science, or a combination — with a track record of shipping reliable systems in high-growth environments - Understand the data needs of finance and corporate operations, including accounting, finance operations, FP&A, strategic finance, and procurement - You should be very proficient in SQL and Python. While you can learn data & workflow orchestration tools on-the-job, we expect you to have a very strong computer science fundamentals. - A builder's instinct: you take ownership of problems, move fast, and know when to do things properly versus pragmatically - Excellent communication skills — you can explain a data model to a CFO and a pipeline architecture to an engineer - Experience navigating ambiguity in early-stage or rapidly scaling environments BONUS POINTS - Hands-on experience deploying AI agents or LLM-powered tools - Experience with financial data governance and audit readiness - Background in strategic finance, accounting, FP&A, or finance transformation — or time spent in a high-growth tech company's finance function COMPENSATION - Base cash comp from $175K - $250k - Generous equity grant vested over 4 years - Up to $15k Relocation bonus - $10K housing bonus (if you live within 0.5 miles of our office) - $1.5K monthly stipend for meals - Free Equinox membership - $200 monthly laundry reimbursement - $200 monthly personal wellness reimbursement - Health, Dental, Vision insurance - 401(k) with company match",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:04:08Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:04:08Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-04-18T20:39:30Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "published USD annual base maximum at least $200,000",
+        "role-specific AI or agent work",
+        "product, applications, or full-stack engineering fit"
+      ],
+      "source_id": "mercor-ashby",
+      "source_job_id": "c019b11f-4fbb-46a2-bbad-338ba8f4bedb",
+      "stable_id": "job-464a1eed53684a37ffac2a9f",
+      "status": "active",
+      "team": "Finance",
+      "title": "Agentic Finance Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/mercor/cae88190-a2fd-4d04-9352-9f48fedb56a7",
+      "company_id": "mercor",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 500000,
+        "minimum": 130000,
+        "period": "year",
+        "source_text": "$130K - $500K"
+      },
+      "compensation_text": "$130K - $500K",
+      "department": "Engineering",
+      "description_text": "ABOUT MERCOR Mercor's mission is to organize human intelligence to power the AI economy. We're a leading AI data company, building the layer between human expertise and frontier models. Millions of domain experts on the platform are paid over $4 million per day to train frontier AI models. Mercor's APEX benchmark family measures AI's real-world impact on professional work. Mercor Enterprise brings this same infrastructure to Fortune 500 companies: helping companies capture how their best people actually work, translating that expertise directly back into agents. Mercor is creating a new category of work where expertise powers AI advancement. Achieving this requires an ambitious, fast-paced and deeply committed team. You’ll work alongside researchers, operators, and AI companies at the forefront of shaping the systems that are redefining society. Mercor is a profitable Series C company valued at $10 billion. We work in-person five days a week in our San Francisco, NYC, or London offices. ABOUT THE ROLE As a Software Engineer on Applied AI, you’ll build, deploy, and operate systems that sit directly between frontier AI research and data delivery. This is a high-ownership, deeply technical role. You’ll work through ill-defined problems, prototype quickly with researchers and customers, and take systems from early experiments to reliable, scalable production. You’ll own projects end-to-end: spanning requirements gathering, creating data creation pipelines, and improving model-adjacent infrastructure, while partnering closely with frontier AI labs and Mercor’s internal teams to ship high-impact applied AI solutions. WHAT YOU’LL DO - Partner closely with frontier AI labs to understand their data, post-training, and evaluation needs - Build and operate scalable data pipelines for post-training workflows and model evaluations - Design and build scalable systems for synthetic data generation and data quality, and work directly with customers to understand requirements and develop technical solutions - Prototype new data types, benchmarks, and evaluation frameworks - Lead technical discussions with customers WHAT MAKES THIS ROLE DIFFERENT - Direct frontier exposure. You’ll work closely with researchers at leading AI labs, building infrastructure that directly accelerates cutting-edge research. - Coding + customer work. This role blends deep technical execution with customer interaction. Engineers who enjoy both building and communicating tend to thrive. DAY-TO-DAY - Fast-moving, high-ownership environment - Technically demanding, collaborative work - “Building the plane while flying it” - In-person culture (SF, 181 Fremont) - Aligned with frontier research timelines WHAT WE’RE LOOKING FOR - Strong backend engineering fundamentals in a modern language (Python, Go, Rust, etc.) - Experience with model training and inference - Strong grounding in statistical analysis and experimental design for measuring model performance and improvements - Familiarity with evaluation methods for large language models - Comfort working through ambiguity and shipping iteratively YOU’RE LIKELY SOMEONE WHO - Enjoys ownership and customer-facing problem solving - Thinks entrepreneurially and moves quickly - Balances speed with engineering rigor - Communicates clearly with technical and non-technical users WHY ENGINEERS JOIN - Direct exposure to frontier AI research - Real ownership and visible impact - Technical depth paired with human interaction - Fast feedback loops and high leverage - There are very few roles that combine this level of technical rigor, customer proximity, and research exposure. BENEFITS - Bi-annual performance bonus structure - Generous equity grant vested over 4 years - Up to $15k Relocation bonus - $10K proximity bonus (if you live within 0.5 miles of our office) - $1.5K monthly stipend for meals - Free Equinox membership - $200 monthly laundry reimbursement - $200 monthly personal wellness reimbursement - Health, Dental, Vision insurance",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:04:08Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:04:08Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-04-21T06:21:25Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "published USD annual base maximum at least $200,000",
+        "role-specific AI or agent work",
+        "product, applications, or full-stack engineering fit"
+      ],
+      "source_id": "mercor-ashby",
+      "source_job_id": "cae88190-a2fd-4d04-9352-9f48fedb56a7",
+      "stable_id": "job-5accb68d61863275bb904e78",
+      "status": "active",
+      "team": "Applied AI",
+      "title": "Software Engineer, Applied AI",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/mercor/ae344099-3fde-4027-bfde-f953db8b4728",
+      "company_id": "mercor",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 500000,
+        "minimum": 130000,
+        "period": "year",
+        "source_text": "$130K - $500K"
+      },
+      "compensation_text": "$130K - $500K",
+      "department": "Engineering",
+      "description_text": "ABOUT MERCOR Mercor's mission is to organize human intelligence to power the AI economy. We're a leading AI data company, building the layer between human expertise and frontier models. Millions of domain experts on the platform are paid over $4 million per day to train frontier AI models. Mercor's APEX benchmark family measures AI's real-world impact on professional work. Mercor Enterprise brings this same infrastructure to Fortune 500 companies: helping companies capture how their best people actually work, translating that expertise directly back into agents. Mercor is creating a new category of work where expertise powers AI advancement. Achieving this requires an ambitious, fast-paced and deeply committed team. You’ll work alongside researchers, operators, and AI companies at the forefront of shaping the systems that are redefining society. Mercor is a profitable Series C company valued at $10 billion. We work in-person five days a week in our San Francisco, NYC, or London offices. ABOUT MERCOR Mercor is defining the future of work. We partner with leading AI labs and enterprises to provide the human intelligence essential to AI development. Our vast talent network trains frontier AI models in the same way teachers teach students: by sharing knowledge, experience, and context that can't be captured in code alone. Today, more than 30,000 experts in our network collectively earn over $2 million a day. Mercor is creating a new category of work where expertise powers AI advancement. Achieving this requires an ambitious, fast-paced and deeply committed team. You’ll work alongside researchers, operators, and AI companies at the forefront of shaping the systems that are redefining society. Mercor is a profitable Series C company valued at $10 billion. We work in-person five days a week in our new San Francisco headquarters. About the Role Frontier AI companies are increasingly bottlenecked on expert judgment and high-quality data workflows. This team builds the production systems that capture, coordinate, and validate that work at scale — directly between a customer request and the output that ships. These are long-running, stateful systems. A single job can stay live for days, interleaving automated steps, model inference, and expert review. A step marked \"done\" can be reopened, re-reviewed, and redone — so \"completed\" is not always final, state has to tolerate late mutation, and correctness has to survive humans and models disagreeing with each other. This is a backend systems and orchestration problem: distributed state machines, not pipelines. The architecture is not set. Early engineers will decide what it becomes, and the loop between \"I shipped this\" and \"this mattered\" is short. What You'll Do - Design services and state models for multi-stage workflows that fan out across automated processing and expert reviewers, then reconcile results into a coherent whole - Build orchestration primitives — retries, failure recovery, idempotency, auditable state transitions — for jobs that run far longer than a request and can be partially redone after the fact - Integrate model inference into production workflows without sacrificing debuggability or human oversight - Build the APIs and tooling that let product, operations, and ML teams operate, debug, and trust these systems at scale - Own reliability and observability for workflows where a silent failure means a corrupted result, not just a 500 What Makes This Role Different - You are building the core infrastructure that sits directly between customer requests and the outputs that ship — not internal tooling, not a support system - This product area is young and strategically central; early engineers are deciding the architecture, not inheriting it - The inputs are non-deterministic by nature — you are building durable orchestration over humans and models that can disagree with each other on hour 40 of a multi-stage job Day-to-Day - Moving fast on genuinely hard systems problems — ambiguity is the default, not the exception - Working closely with product, operations, and ML teams to translate a tangle of constraints into clean system design - Debugging complex stateful workflows where the failure surface spans automated steps, model calls, and human reviewers - Owning your systems end-to-end: design, ship, operate, improve What We're Looking For - Production backend experience with strong opinions about what ages well and why - Sharp instincts for system design, service boundaries, and where to put complexity — and where to refuse it - Fluency with the distributed systems toolkit: async workflows, queues, idempotency, retries, and long-running jobs as practice, not resume line items - Ability to take ambiguous product, operational, and ML constraints and turn them into a system that is clean and debuggable - Comfort working in Python on AWS with Postgres; experience with Temporal or similar workflow engines is a plus You're likely someone who: - Gets frustrated by systems that are hard to debug and takes that personally enough to fix it - Has strong opinions about where state should live and can defend them in a design review - Moves fast but doesn't treat reliability as someone else's problem - Wants your work to have a short, visible line to outcomes that actually matter to customers Benefits - Bi-annual performance bonus structure - Generous equity grant vested over 4 years - Up to $15k Relocation bonus - $10K housing bonus (if you live within 0.5 miles of our office) - $1.5K monthly stipend for meals - Free Equinox membership - $200 monthly laundry reimbursement - $200 monthly personal wellness reimbursement - Health, Dental, Vision insurance",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:04:08Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:04:08Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-08-07T17:12:46Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "published USD annual base maximum at least $200,000",
+        "role-specific AI or agent work",
+        "product, applications, or full-stack engineering fit"
+      ],
+      "source_id": "mercor-ashby",
+      "source_job_id": "ae344099-3fde-4027-bfde-f953db8b4728",
+      "stable_id": "job-5fb20610c4e40a7acd472a7e",
+      "status": "active",
+      "team": "Core Engineering",
+      "title": "Software Engineer, Frontier Data Products",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/mercor/d2c5061f-79d3-46bf-a2f5-44827d0772ac",
+      "company_id": "mercor",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 520000,
+        "minimum": 300000,
+        "period": "year",
+        "source_text": "$300K - $520K"
+      },
+      "compensation_text": "$300K - $520K",
+      "department": "Enterprise Agents",
+      "description_text": "ABOUT MERCOR Mercor's mission is to organize human intelligence to power the AI economy. We're a leading AI data company, building the layer between human expertise and frontier models. Millions of domain experts on the platform are paid over $4 million per day to train frontier AI models. Mercor's APEX benchmark family measures AI's real-world impact on professional work. Mercor Enterprise brings this same infrastructure to Fortune 500 companies: helping companies capture how their best people actually work, translating that expertise directly back into agents. Mercor is creating a new category of work where expertise powers AI advancement. Achieving this requires an ambitious, fast-paced and deeply committed team. You’ll work alongside researchers, operators, and AI companies at the forefront of shaping the systems that are redefining society. Mercor is a profitable Series C company valued at $10 billion. We work in-person five days a week in our San Francisco, NYC, or London offices. About the Role Within Mercor, our Enterprise AI organization builds the infrastructure enterprises need to deploy continuously improving production AI systems. Rather than relying on hand-written prompts and manual workflows, we help organizations translate how their best people work into agent behavior, evaluate outputs against measurable quality standards, and create feedback loops that make agents smarter over time. Our platform combines organizational context, evaluation systems, and quality guardrails into a stack that powers accelerated AI deployment in weeks instead of months. Proven at scale with the world’s leading frontier AI labs, our technology now powers AI deployments across Fortune 500 organizations. This full-time leadership role sits within Applied AI (the Forward Deployed Engineering team of our Enterprise AI organization) and operates separately from Mercor's expert network. We're hiring Applied AI Leads to build and scale the technical delivery team responsible for deploying Mercor's Enterprise AI platform for enterprise customers. This is a highly customer-facing engineering leadership role that is tightly integrated with our Sales/GTM and delivery teams. You’ll lead engineers in the end-to-end technical delivery of production-grade AI systems, working hand-in-hand with customer stakeholders to solve technically complex business problems and contributing to the overall commercial relationship with the customer. Success is measured by customer outcomes and overall commercial impact, not individual code output. You'll own technical delivery, coach engineers, remove blockers, and ensure deployments are reliable, scalable, and customer-ready. You have a deep understanding of customer workflows, use case requirements, and acceptance criteria. While you’re expected to be technically credible and capable of hands-on contribution, your primary responsibility is enabling your engineering team to execute. What You'll Do - Partner directly with customers to align technical requirements with business objectives, acting as the critical bridge between engineering and Sales, GTM, and delivery - Co-lead a Technical team with an Operations counterpart to deliver scalable, production-ready AI systems for enterprise customers - Translate ambiguous workflows into scalable AI-powered solutions, integrating across enterprise systems, APIs, internal tools, and data sources - Guide the deployment of AI workflows, agent orchestration, evaluation systems, and continual learning feedback loops - Hire, mentor, and develop exceptional engineers while establishing rigorous engineering and technical delivery practices as the organization scales - Work closely with Sales/GTM, Product, Research, and Platform Engineering to bring new AI capabilities into production What We're Looking For - 5+ years building production software systems, with strong software engineering fundamentals in Python, Go, Java, Rust, or similar languages - 2+ years directly managing technical teams - Proven track record leading customer-facing technical delivery for enterprise software, AI products, or developer platforms - Deep experience designing designing distributed systems and cloud-native applications - Highly comfortable communicating complex technical concepts to both engineers and executive-level customer stakeholders - Demonstrated ability to lead through ambiguity, coach others, make decisive technical calls, and maintain high execution velocity in unstructured environments Nice to Haves - AI agents or agent orchestration - LLM applications - Evaluation systems or benchmarking - Enterprise integrations - Workflow automation - Production ML systems Who Thrives Here You enjoy solving ambiguous technical problems with customers, building high-performing teams, and shipping production systems that create measurable business value. You are a technical delivery leader first, and an individual contributor second. Your instinct is to remove blockers, build deep trust with enterprise stakeholders, and partner closely with sales to ensure mutual success. Why Join Mercor - Build production AI systems deployed for some of the world's largest enterprises - Help define how organizations adopt agentic AI at scale - Lead a high-impact, forward-deployed engineering organization from its earliest stages - Work alongside elite engineers, researchers, and operators at the forefront of enterprise Benefits - Participation in the Enterprise revenue sharing pool - Generous equity grant vested over 4 years - Up to $15k Relocation bonus - $10K housing bonus (if you live within 0.5 miles of our office) - $1.5K monthly stipend for meals - Free Equinox membership - $200 monthly laundry reimbursement - $200 monthly personal wellness reimbursement - Health, Dental, Vision insurance",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:04:08Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:04:08Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States",
+        "New York City"
+      ],
+      "posted_at": "2026-07-18T01:30:21Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "published USD annual base maximum at least $200,000",
+        "role-specific AI or agent work",
+        "product, applications, or full-stack engineering fit"
+      ],
+      "source_id": "mercor-ashby",
+      "source_job_id": "d2c5061f-79d3-46bf-a2f5-44827d0772ac",
+      "stable_id": "job-9b39384ecfc1d781f78567e2",
+      "status": "active",
+      "team": "Enterprise Agents",
+      "title": "Enterprise Applied AI Leader",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/mercor/3750ee8a-64d1-46ac-b4f9-6a823f949034",
+      "company_id": "mercor",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 500000,
+        "minimum": 130000,
+        "period": "year",
+        "source_text": "$130K - $500K"
+      },
+      "compensation_text": "$130K - $500K",
+      "department": "Engineering",
+      "description_text": "ABOUT MERCOR Mercor's mission is to organize human intelligence to power the AI economy. We're a leading AI data company, building the layer between human expertise and frontier models. Millions of domain experts on the platform are paid over $4 million per day to train frontier AI models. Mercor's APEX benchmark family measures AI's real-world impact on professional work. Mercor Enterprise brings this same infrastructure to Fortune 500 companies: helping companies capture how their best people actually work, translating that expertise directly back into agents. Mercor is creating a new category of work where expertise powers AI advancement. Achieving this requires an ambitious, fast-paced and deeply committed team. You’ll work alongside researchers, operators, and AI companies at the forefront of shaping the systems that are redefining society. Mercor is a profitable Series C company valued at $10 billion. We work in-person five days a week in our San Francisco, NYC, or London offices. ABOUT THE ROLE Our agent platform is the core system Mercor uses to build, run, and showcase AI agents — the same platform our teams rely on internally every day and the one we demo live on customer calls. It is simultaneously our internal workbench and our external storefront. As a Full Stack Software Engineer on the Agent Platform team, you'll own these journeys end-to-end: the React frontend people interact with and the backend services that orchestrate agents, data, and integrations. You'll be directly responsible for the enablement of hundreds of internal users who depend on the platform daily, and dozens of enterprise clients who run on it in production. Because what you build is used in-house and demoed to customers, it has to be both genuinely powerful and demo-ready polished. This is a role for someone who cares equally about engineering craft and product impact: shipping scalable, reliable systems and intuitive interfaces that make everyone who touches the platform faster and more effective. YOU WILL - Own the agent platform across the full stack — from the internal- and client-facing React interfaces to the backend APIs and services orchestrating agents, workflows, and integrations. - Enable hundreds of internal users and dozens of enterprise clients — ship the features, reliability, and polish that make the platform their daily driver and a confident live demo. - Build the foundational layer other teams depend on to stand up new agent use cases, task formats, and client configurations quickly and without rework. - Ship high-leverage product features that raise both internal productivity and the customer-facing quality of the platform. - Translate ambiguous requirements into well-scoped technical solutions through close collaboration with Applied AI researchers, product, design, and operations. WHAT WE'RE LOOKING FOR - 2+ years of fullstack engineering experience building and shipping production software. - Deep proficiency in JavaScript/TypeScript (React + Next.js) and a strong grasp of frontend architecture, state management, and design patterns. - Solid backend experience in Python and/or Node.js — designing and building relational databases, REST APIs, and async task infrastructure. - Strong design sense and empathy for end-users; you hold a high bar for usability. - Experience with complex, high-throughput systems — pipelines, large data volumes, or multi-tenant architectures. - High ownership mindset; able to navigate ambiguity and drive projects from design through delivery. - Strong communication skills and ability to articulate technical and product tradeoffs clearly. NICE-TO-HAVES - Experience building agent frameworks, LLM-powered products, or human-in-the-loop AI workflows. - Background in design systems, developer-facing APIs, or internal platform engineering. - Exposure to AI tools, real-time data, or data visualization. - Experience at top-tier tech companies or fast-scaling startups. WHY THIS ROLE MATTERS - The platform you build is Mercor's core agent product — run internally and shown to every enterprise client. - The systems you ship will be used daily by hundreds of internal users and dozens of enterprise clients. - You'll help define how new agent use cases are built, delivered, and demonstrated at Mercor. - Your work directly shapes both how Mercor works and how customers experience us. BENEFITS - Bi-annual performance bonus structure - Generous equity grant vested over 4 years - Up to $15k Relocation bonus - $10K proximity bonus (if you live within 0.5 miles of our office) - $1.5K monthly stipend for meals - Free Equinox membership - $200 monthly laundry reimbursement - $200 monthly personal wellness reimbursement - Health, Dental, Vision insurance",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:04:08Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:04:08Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-08-11T21:58:07Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "published USD annual base maximum at least $200,000",
+        "role-specific AI or agent work",
+        "product, applications, or full-stack engineering fit"
+      ],
+      "source_id": "mercor-ashby",
+      "source_job_id": "3750ee8a-64d1-46ac-b4f9-6a823f949034",
+      "stable_id": "job-acfc00341f32aa62a84bace7",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Fullstack Software Engineer, Agent Platform",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/mercor/e106399e-d85e-4af2-9bc8-6a0e144f318f",
+      "company_id": "mercor",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 285000,
+        "minimum": 145000,
+        "period": "year",
+        "source_text": "$145K - $285K"
+      },
+      "compensation_text": "$145K - $285K",
+      "department": "Enterprise Agents",
+      "description_text": "ABOUT MERCOR Mercor's mission is to organize human intelligence to power the AI economy. We're a leading AI data company, building the layer between human expertise and frontier models. Millions of domain experts on the platform are paid over $4 million per day to train frontier AI models. Mercor's APEX benchmark family measures AI's real-world impact on professional work. Mercor Enterprise brings this same infrastructure to Fortune 500 companies: helping companies capture how their best people actually work, translating that expertise directly back into agents. Mercor is creating a new category of work where expertise powers AI advancement. Achieving this requires an ambitious, fast-paced and deeply committed team. You’ll work alongside researchers, operators, and AI companies at the forefront of shaping the systems that are redefining society. Mercor is a profitable Series C company valued at $10 billion. We work in-person five days a week in our San Francisco, NYC, or London offices. About the Role As a Software Engineer, Applied AI on Mercor's Enterprise team, you'll operate at the intersection of engineering, product, and customer success. Engineers on this team are builders first, embedding directly with enterprise clients to design and implement technical solutions that unlock the full value of Mercor's platform while applying strong systems and product thinking where it matters. The work spans everything from architecting integrations and writing production-grade code to deploying scalable solutions in production environments, always tied closely to measurable business outcomes. You'll collaborate with customer stakeholders and internal teams to deliver systems that directly shape how AI-powered human intelligence integrates into complex enterprises. You will: - Embed with enterprise customers to understand technical requirements and business goals. - Architect and implement custom integrations, APIs, and workflows on top of Mercor’s platform. - Deploy scalable solutions in client environments and drive successful launches and expansions. - Build internal tools and reusable components that accelerate future deployments. - Translate ambiguous enterprise needs into clear technical plans and shipped systems. What We’re Looking For - Strong software engineering fundamentals in at least one modern language (Python, Go, Rust, etc.). - Experience building and deploying production systems in cloud environments (AWS/GCP/Azure). - Comfort working directly with customers and explaining technical concepts to non-technical stakeholders. - High ownership mindset with the ability to navigate ambiguity and operate autonomously in high-stakes environments. Why Mercor - Impact: Your work defines how leading enterprises deploy AI-powered human intelligence systems. - Learning: Gain deep exposure to real-world applications of AI across industries and use cases. - Growth: Work across engineering and product with fast paths to ownership. Benefits - Bi-annual performance bonus structure - Generous equity grant vested over 4 years - Up to $15k Relocation bonus - $10K housing bonus (if you live within 0.5 miles of our office) - $1.5K monthly stipend for meals - Free Equinox membership - $200 monthly laundry reimbursement - $200 monthly personal wellness reimbursement - Health, Dental, Vision insurance",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:04:08Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:04:08Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States",
+        "New York City"
+      ],
+      "posted_at": "2026-06-10T02:24:42Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "published USD annual base maximum at least $200,000",
+        "role-specific AI or agent work",
+        "product, applications, or full-stack engineering fit"
+      ],
+      "source_id": "mercor-ashby",
+      "source_job_id": "e106399e-d85e-4af2-9bc8-6a0e144f318f",
+      "stable_id": "job-ad3c6d554e7d8022a2e1a9e2",
+      "status": "active",
+      "team": "Enterprise Agents",
+      "title": "Software Engineer, Enterprise Applied AI",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/mercor/4f4fc8c3-4056-47bb-9e00-1db6e5dd958f",
+      "company_id": "mercor",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 500000,
+        "minimum": 130000,
+        "period": "year",
+        "source_text": "$130K - $500K"
+      },
+      "compensation_text": "$130K - $500K",
+      "department": "Engineering",
+      "description_text": "ABOUT MERCOR Mercor's mission is to organize human intelligence to power the AI economy. We're a leading AI data company, building the layer between human expertise and frontier models. Millions of domain experts on the platform are paid over $4 million per day to train frontier AI models. Mercor's APEX benchmark family measures AI's real-world impact on professional work. Mercor Enterprise brings this same infrastructure to Fortune 500 companies: helping companies capture how their best people actually work, translating that expertise directly back into agents. Mercor is creating a new category of work where expertise powers AI advancement. Achieving this requires an ambitious, fast-paced and deeply committed team. You’ll work alongside researchers, operators, and AI companies at the forefront of shaping the systems that are redefining society. Mercor is a profitable Series C company valued at $10 billion. We work in-person five days a week in our San Francisco, NYC, or London offices. About the Role We're looking for a strong engineer who can build agentic products that scale. You will work with: - Backend: Python, FastAPI, Django, Pydantic - Frontend: Next.js, React, TypeScript, Tailwind - Data: PostgreSQL, MySQL, Snowflake, DuckDB, Redis - Orchestration/Infra: Kubernetes, Temporal, Modal, Woz - Agents/LLM: LangGraph, LangChain, FastMCP, Harbor, NemoGym - Observability: Datadog, PostHog, LangSmith At the end of the process, you’ll be team-matched to where you can have the most impact, on one of the following: - Automation – We build intelligent systems and agents that automate operational work at scale—handling talent management, decision-making insights, and knowledge access—so humans can focus on higher-level thinking.This is a newly formed, CEO-facing team focused on 0→1 product development, with a strong emphasis on business impact. The work is highly cross-functional, touching nearly every system across the company. - Studio – We own Mercor’s evaluation system & annotation platform for RL environments and tasks. We build harnesses, agents, verifiers, and the end-to-end infrastructure for producing frontier data. Our mission is to scale up high quality RL environments/tasks and expand their capabilities. We work closely with researchers at frontier AI labs to jointly shape the direction of next-generation models. What You’ll Do - Own agentic features end-to-end — from scoping with researchers/ops partners through implementation, launch, and iteration on real customer feedback. - Design and ship LLM agents, harnesses, and verifiers — including the tools, prompts, and policies that make them reliable. - Build the Python/FastAPI services and Temporal/Modal pipelines that orchestrate agent runs, human-in-the-loop review and iterations. - Build state of the art RL environments that expand the capabilities of frontier agents, with realistic enterprise apps, simulated coworkers, and rich company data rooms that support tasks spanning hours to days. - Build tooling that turns agent trajectories into insight, from statistical analysis to automated failure mode detection. - Build and refine the full-stack surfaces and data infrastructure — craft Next.js/React interfaces where operators and experts work with agents, evolve data models to give agents the structured context and audit trails they need. - Define agent quality and drive continuous improvement — build evals, instrument traces, analyze failure modes, and iterate on prompts, tools, and guardrails while raising the bar for reliability, cost, latency, and UX. - Partner cross-functionally to shape agent autonomy — work with Product, Design, Research and Ops to draw the lines between autonomous action, propose-and-approve flows, and human-in-the-loop decisions. Why Mercor - Impact: Your work powers how the world’s leading AI labs train and test their models. - Learning: Get early insights into frontier model capabilities months before the market. - Growth: Work on both infrastructure and research-adjacent projects with fast paths to ownership. Benefits - Bi-annual performance bonus structure - Generous equity grant vested over 4 years - Up to $15k Relocation bonus - $10K housing bonus (if you live within 0.5 miles of our office) - $1.5K monthly stipend for meals - Free Equinox membership - $200 monthly laundry reimbursement - $200 monthly personal wellness reimbursement - Health, Dental, Vision insurance",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:04:08Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:04:08Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-09-18T01:22:51Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "published USD annual base maximum at least $200,000",
+        "role-specific AI or agent work",
+        "product, applications, or full-stack engineering fit"
+      ],
+      "source_id": "mercor-ashby",
+      "source_job_id": "4f4fc8c3-4056-47bb-9e00-1db6e5dd958f",
+      "stable_id": "job-b1da2d2b91d99313123fb20e",
+      "status": "active",
+      "team": "Core Engineering",
+      "title": "Software Engineer, Agents",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/mercor/c6f9c6bd-68b8-49c5-aecb-b586616d7102",
+      "company_id": "mercor",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 500000,
+        "minimum": 130000,
+        "period": "year",
+        "source_text": "$130K - $500K"
+      },
+      "compensation_text": "$130K - $500K",
+      "department": "Engineering",
+      "description_text": "ABOUT MERCOR Mercor's mission is to organize human intelligence to power the AI economy. We're a leading AI data company, building the layer between human expertise and frontier models. Millions of domain experts on the platform are paid over $4 million per day to train frontier AI models. Mercor's APEX benchmark family measures AI's real-world impact on professional work. Mercor Enterprise brings this same infrastructure to Fortune 500 companies: helping companies capture how their best people actually work, translating that expertise directly back into agents. Mercor is creating a new category of work where expertise powers AI advancement. Achieving this requires an ambitious, fast-paced and deeply committed team. You’ll work alongside researchers, operators, and AI companies at the forefront of shaping the systems that are redefining society. Mercor is a profitable Series C company valued at $10 billion. We work in-person five days a week in our San Francisco, NYC, or London offices. About the Role The Mercor Enterprise Platform is what enterprise customers and our Applied AI engineers use to build and run complex agents. It is both deployed into customer environments and hosted by us. It is also the central platform for every internal agent at Mercor, scaling to several thousand agent runs per day, and still growing. You will work across the full stack: enterprise-grade security and the routing plane, isolated execution, and the intelligence plane that turns production runs into improvements. This is a pure platform and infrastructure engineering role, though you will work closely with the Applied AI engineers embedded with our customers. The quality of this platform bounds what the business can sell. Nobody has settled how agent platforms should be built, and this is one of the few places that question is being answered in production, with economically viable agents as the bar. Tech we use: Go, TypeScript, Postgres, Kubernetes, Harbor, and Terraform. Read more about how we think about this: The Three Planes of Enterprise Agent Systems https://www.mercor.com/blog/enterprise-agent-architecture/ RESPONSIBILITIES - Design, build, and operate the services the platform is made of: authn and authz, credential brokering, routing, sandboxing, and orchestration. - Design the interfaces other engineers build agents against, and keep the paved path the easiest one to follow. - Build the event-driven backbone so that ingestion stays idempotent when services scale horizontally. - Own the deployment model itself, from our hosted offering to customer VPCs and multi-cloud, so a new deployment needs no bespoke build. - Keep tenants isolated by construction, so one run cannot reach or spend beyond its own quota. - Own latency, throughput, and cost per run as volume grows, along with the production debugging that comes with them. - Set the direction for the parts of the platform you own, not just the implementation. - Partner closely with Applied AI engineers on the hardest problems coming out of deployments. They own the customer relationship, you own the platform. WHAT WE'RE LOOKING FOR - 5+ years of experience building high scale, complex software systems - You have built and operated a platform other engineers depended on, and owned the architectural calls on it rather than only the implementation. - Hands-on with several of these primitives: authn and authz, secrets, isolation, orchestration, egress, and durable state, in more than one cloud. - A drive to keep making systems faster and cheaper after they already work. - Demonstrated ability to work independently on ambiguous, loosely specified problems. - Bonus: experience with LLM applications, agent frameworks or harnesses, evals, or deployed software. WHY MERCOR - Impact: Every agent Mercor runs for an enterprise customer runs on the platform you build. - Learning: Depth in agent infrastructure, and the isolation problems that come with running other people's code. - Growth: Deep ownership of platform surface area, with fast paths to owning more of it. BENEFITS - Up to $15k relocation bonus - $10K housing bonus (if you live within 0.5 miles of our office) - $1.5K monthly stipend for meals - Generous equity grant vested over 4 years - Free Equinox membership - $200 monthly laundry reimbursement - $200 monthly personal wellness reimbursement - Health, Dental, Vision insurance",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:04:08Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:04:08Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-08-21T16:21:43Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "published USD annual base maximum at least $200,000",
+        "role-specific AI or agent work",
+        "product, applications, or full-stack engineering fit"
+      ],
+      "source_id": "mercor-ashby",
+      "source_job_id": "c6f9c6bd-68b8-49c5-aecb-b586616d7102",
+      "stable_id": "job-d18e3d584af89d6b06eebd3f",
+      "status": "active",
+      "team": "Core Engineering",
+      "title": "Member of Technical Staff, Mercor Enterprise Platform",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/mercor/fa580f7f-8752-428c-bb6b-439fa72c76e7",
+      "company_id": "mercor",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 500000,
+        "minimum": 130000,
+        "period": "year",
+        "source_text": "$130K - $500K"
+      },
+      "compensation_text": "$130K - $500K",
+      "department": "Engineering",
+      "description_text": "ABOUT MERCOR Mercor's mission is to organize human intelligence to power the AI economy. We're a leading AI data company, building the layer between human expertise and frontier models. Millions of domain experts on the platform are paid over $4 million per day to train frontier AI models. Mercor's APEX benchmark family measures AI's real-world impact on professional work. Mercor Enterprise brings this same infrastructure to Fortune 500 companies: helping companies capture how their best people actually work, translating that expertise directly back into agents. Mercor is creating a new category of work where expertise powers AI advancement. Achieving this requires an ambitious, fast-paced and deeply committed team. You’ll work alongside researchers, operators, and AI companies at the forefront of shaping the systems that are redefining society. Mercor is a profitable Series C company valued at $10 billion. We work in-person five days a week in our San Francisco, NYC, or London offices. ABOUT THE ROLE Studio is one of Mercor's highest-priority initiatives. It is the internal platform that powers every workflow our teams use to generate, manage, quality-review, and deliver data to the world's leading AI labs — and its quality directly shapes the frontier models that billions of people interact with. As a Senior Fullstack Software Engineer on the Studio Experience team, you'll own the Studio user journeys end-to-end: the React frontend used daily by thousands of expert contributors and internal Strategic Project Leads, and the backend services powering data pipelines and delivery of outputs to customers. You'll also build and maintain the foundational layer that Mercor depends on to rapidly deploy new data types and task formats across the company. Four distinct stakeholders — AI labs, SPLs, expert contributors, and engineers— rely on what you build. This is a role for someone who cares equally about engineering craft and product impact: shipping scalable, reliable systems and intuitive interfaces that make everyone who touches Studio faster and more effective. YOU WILL - Own the Studio platform across the full stack — from contributor-facing and operator-facing React interfaces to the backend APIs and pipelines driving data ingestion, QA review, and AI lab delivery. - Lead engineering best practices across the team, setting the bar for frontend architecture, component design, and performance, and establishing patterns that others can build on reliably. - Build the foundational layer that other teams depend on to support new data types, task formats, and customer configurations quickly and without rework. - Ship high-leverage product features that improve throughput and quality across our core data generation and delivery pipelines. - Translate ambiguous requirements into well-scoped technical solutions through close collaboration with Applied AI researchers, product, design, and operations. WHAT WE'RE LOOKING FOR - 5+ years of fullstack engineering experience building and shipping production software. - Deep proficiency in JavaScript/TypeScript (React + Next.js) and a strong grasp of frontend architecture, state management, and design patterns. - Solid backend experience in Python and/or Node.js — experience designing and building relational databases, REST APIs, and async task infrastructure. - Strong design sense and empathy for end-users; you hold a high bar for usability. - Experience with complex, high-throughput systems — pipelines, large data volumes, or multi-tenant architectures. - High ownership mindset; able to navigate ambiguity and drive projects from design through delivery. - Strong communication skills and ability to articulate technical and product tradeoffs clearly. NICE-TO-HAVES - Experience building tooling for data labeling, annotation, or human-in-the-loop AI workflows. - Background in design systems, developer-facing APIs, or internal platform engineering. - Exposure to AI tools, LLM-powered products, or real-time data and visualization. - Experience at top-tier tech companies or fast-scaling startups. WHY THIS ROLE MATTERS - Every improvement to Studio impacts the quality and speed of data delivered to leading AI labs. - The systems you build will be used daily by thousands of experts and operators. - You'll help define how new evaluation environments, RL tasks, and data products are created at Mercor. - Your work directly influences the training and evaluation of frontier AI models BENEFITS - Bi-annual performance bonus structure - Generous equity grant vested over 4 years - Up to $15k Relocation bonus - $10K proximity bonus (if you live within 0.5 miles of our office) - $1.5K monthly stipend for meals - Free Equinox membership - $200 monthly laundry reimbursement - $200 monthly personal wellness reimbursement - Health, Dental, Vision insurance",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:04:08Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:04:08Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States",
+        "New York City"
+      ],
+      "posted_at": "2026-08-18T00:06:24Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "published USD annual base maximum at least $200,000",
+        "role-specific AI or agent work",
+        "product, applications, or full-stack engineering fit"
+      ],
+      "source_id": "mercor-ashby",
+      "source_job_id": "fa580f7f-8752-428c-bb6b-439fa72c76e7",
+      "stable_id": "job-d5d079707e098188d11a9444",
+      "status": "active",
+      "team": "Core Engineering",
+      "title": "Fullstack Engineer, RL Environments",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:04:08Z",
+  "last_successful_scan_at": "2026-08-31T15:04:08Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 19,
+    "employment_temporary_excluded": 1,
+    "location_outside_target_city": 12,
+    "role_not_target_family": 37,
+    "title_explicitly_excluded": 1,
+    "title_explicitly_non_target_function": 23,
+    "total": 81,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "mercor-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

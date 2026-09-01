@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:41:48Z",
+      "attempt_id": "attempt:3c62f181-c03c-4fa7-8804-0b4f822f254b",
+      "result_digest": "7f8a69fb3b3484c3adf85560630b7b92b29c0906d5c3af7b45644c2e7b3bb5c8",
+      "task_id": "source:daydream-careers:luna:64006a591d600705",
+      "transaction_id": "txn:7f8a69fb3b3484c3adf85560"
+    }
+  ],
+  "company_id": "daydream",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:00:00Z",
+  "last_successful_scan_at": "2026-08-31T22:00:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "ai_product": 1,
+    "role": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "daydream-careers",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

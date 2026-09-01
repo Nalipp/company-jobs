@@ -1,0 +1,140 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:35:04Z",
+      "attempt_id": "attempt:ae846bc1-c8ae-4ecb-8b29-74b849e7130b",
+      "result_digest": "e93b0c37f81a756009212fe233aeb160d5b9e0f486f114acbe196fab062a1144",
+      "task_id": "source:wordware-primary:luna:6d9225b535fe3097",
+      "transaction_id": "txn:e93b0c37f81a756009212fe2"
+    }
+  ],
+  "company_id": "wordware",
+  "current_job_count": 11,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/sauna.ai/c2d14b3e-5b7c-4423-954b-ed5162e0872f",
+      "company_id": "wordware",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 240000,
+        "minimum": 180000,
+        "period": "year",
+        "source_text": "$180K - $240K"
+      },
+      "compensation_text": "$180K - $240K",
+      "department": "Engineering",
+      "description_text": "⚠️ PLEASE READ FIRST - This is a full-time, in-person role based in San Francisco (Presidio) - we work from the office 5 days a week. - You must be based in the Bay Area or willing to relocate before starting. - We require US work authorisation, but are open to O-1 or J-1 visa sponsorship for exceptional candidates. ABOUT SAUNA BY WORDWARE Most AI products hand you a coworker on day one and hope you trust it. Sauna is the coworker you raise: it starts by learning how you work, earns autonomy task by task, and ends up running hours of work on its own while you keep taste, review, and the final say. Wordware is the ~20-person team behind it, backed by Spark Capital, Felicis, and Y Combinator with a $30M seed, the largest in YC history. We build from a San Francisco office in the shadow of the Golden Gate Bridge, and we work absurdly hard because we can see and feel the outcome every day. ABOUT THE ROLE: You'll own the frontend of Sauna: shipping interfaces that feel instant, intuitive, and polished even when the underlying work is complex. What You'll Do: You'll need to make product and design calls yourself, prototype quickly, and execute without waiting for perfect specs. Sometimes you'll implement designs. Other times you'll create them. Stack: TypeScript, React, Tanstack, Zustand, TailwindCSS, IndexedDB, Cloudflare Workers. Who You Are: Minimum: - 4+ years of frontend engineering with a portfolio of complex web apps you've shipped. We want to see multiplayer experiences, apps handling large data with sophisticated fetching and caching, or work with server-sent events (SSE). - You love React and deeply understand state management. You know when to useMemo, how callbacks work, the component lifecycle, and you write beautiful, reusable components. You recognize when props are being drilled through multiple layers and should be lifted into context or Zustand instead. - You're comfortable owning a full-stack feature. You can do the DB migration, write the route in the backend, fetch on the frontend, and create the UI for it. - Product sense and design intuition: you can take a rough product direction, sketch an interaction, and ship something that feels right. - You care about performance. You know when to cache, when to refetch stale data, and how to optimistically update the UI. You notice duplicated network requests. You care about the app feeling snappy and responsive. - You make design decisions: you'll need to own some UX decisions, create simple designs when needed, and unblock yourself. - High autonomy, low ego: you don't wait for permission or perfect specs. You ship, gather feedback, and iterate. - You care about craft: details like loading states, empty states, error messages, keyboard shortcuts. The 1000 small decisions that make software feel good. Bonus (but not required): - Experience with multiplayer apps (Y.js, Automerge, CRDTs, or similar real-time collaboration frameworks). - Built interfaces for LLM-based tools (streaming responses, handling uncertainty, progressive disclosure). - Experience with local-first architectures (IndexedDB, service workers, sync strategies). - Design background or strong visual sense: you can make things look good without a designer. - Been a founding frontend engineer and established standards from scratch. Compensation & Benefits: Base salary: $180K–$240K + meaningful early-stage equity + health, dental, 401(k), considerable PTO, gym budget, lunch. THE PROCESS: We keep our process simple. Exceptional candidates go from first touch to offer within 2 weeks. 1. Application: Submit your resume and answer a few short questions. 2. 15-minute intro call: Align on location, motivation, and logistics. If it's a go, we move fast from here. 3. System design interview: A deep dive into how you think and architect systems. We'll walk through a real Wordware problem together. 4. Final conversation: We answer your questions and scope out the work trial. 5. Work trial: Paid, in person, usually a few days to two weeks. You work on a real project with us. See how we work, see if it fits, both sides.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:34:41Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:34:41Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-11-03T01:00:36Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "wordware-primary",
+      "source_job_id": "c2d14b3e-5b7c-4423-954b-ed5162e0872f",
+      "stable_id": "job-03f3a94745335c621d5202be",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Senior Frontend Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/sauna.ai/5d64bf9c-e367-4688-a0cf-d7f7d3c4e92c",
+      "company_id": "wordware",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 240000,
+        "minimum": 180000,
+        "period": "year",
+        "source_text": "$180K - $240K"
+      },
+      "compensation_text": "$180K - $240K",
+      "department": "Engineering",
+      "description_text": "⚠️ PLEASE READ FIRST - This is a full-time, in-person role based in San Francisco (Presidio) - we work from the office 5 days a week. - You must be based in the Bay Area or willing to relocate before starting. - We require US work authorisation, but are open to O-1 or J-1 visa sponsorship for exceptional candidates. ABOUT SAUNA BY WORDWARE Most AI products hand you a coworker on day one and hope you trust it. Sauna is the coworker you raise: it starts by learning how you work, earns autonomy task by task, and ends up running hours of work on its own while you keep taste, review, and the final say. Wordware is the ~20-person team behind it, backed by Spark Capital, Felicis, and Y Combinator with a $30M seed, the largest in YC history. We build from a San Francisco office in the shadow of the Golden Gate Bridge, and we work absurdly hard because we can see and feel the outcome every day. ABOUT THE ROLE: You'll write and ship full-stack features end to end, from the agent runtime and backend APIs, to the web and desktop UI that users interact with every day. We're still ~20 people and shipping to our first paying users. You won't just be building features, you'll be making the decisions that determine whether this system holds at 1000x the current load. What You'll Do: You'll work directly with our CTO. Here are a few examples of the kinds of things you might work on: - Build and operate the sandbox infrastructure where agents execute code, process isolation, resource limits, secure credential handling across thousands of concurrent sessions. - Design the deployment and migration pipeline for a Cloudflare Workers + Fly.io http://Fly.io http://Fly.io architecture, including blue-green rollouts and canary patterns. - Instrument real-time workloads end to end: SSE streaming, task queues, and multi-model LLM provider routing. - Ship new backend capabilities, tool integrations, scheduled task execution, memory indexing, and see them used by real people the same week. - Reduce operational toil for a small team: structured logging, tracing, monitoring, and incident response tooling that actually works at our scale. - Plus whatever you see that needs building. Stack: TypeScript, Cloudflare Workers, Durable Objects, Hono, Drizzle ORM, Postgres, Zod, SST, Vercel AI SDK, Docker, React, Vite Who You Are: Minimum: - You have 5+ years of engineering experience building and operating backend systems in production. You've been on-call. - You're fluent in TypeScript and comfortable working across the stack, but your instinct is to go deeper on the backend. - You've built real-time systems: WebSockets, SSE, event streaming, or message queues in production. - You have distributed systems intuition, you understand consistency tradeoffs and have opinions about them. - You've shipped infrastructure to real users, not just internal tooling. Bonus (but not required): - You've worked with Cloudflare Workers, Durable Objects, or serverless compute at the edge. - You've built agent systems, model routing layers, or tool-use architectures with LLMs. - You've been a founder or early-stage engineer and care deeply about product. Compensation & Benefits: Base salary: $180K–$240K + meaningful early-stage equity + health, dental, 401(k), considerable PTO, gym budget, lunch. x THE PROCESS: We keep our process simple. Exceptional candidates go from first touch to offer within 2 weeks. 1. Application: Submit your resume and answer a few short questions. 2. 15-minute intro call: Quick check to align on location, motivation, and logistics. If it's a go, we move fast from here. 3. 45-minute technical interview: You'll work through a real backend problem. We're looking for fluency, depth, and how you think about systems. 4. System design interview: A deep dive into how you architect systems. We'll walk through a real Wordware problem together. 5. Final conversation: We answer your questions and scope out the work trial. 6. Work trial: Paid trial to work on a real project in person with us, usually a few days to two weeks (flexible to do what works for you). See how we work and whether this feels like the right fit on both sides.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:34:41Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:34:41Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-03-09T22:45:41Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "wordware-primary",
+      "source_job_id": "5d64bf9c-e367-4688-a0cf-d7f7d3c4e92c",
+      "stable_id": "job-2de9cb9e9a60e59df0601cd7",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Senior Full Stack Engineer (Back-End)",
+      "updated_at": null,
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/sauna.ai/0fd1f134-6bba-4f88-a8a9-fc67c537a30e",
+      "company_id": "wordware",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 400000,
+        "minimum": 280000,
+        "period": "year",
+        "source_text": "$280K - $400K"
+      },
+      "compensation_text": "$280K - $400K",
+      "department": "Engineering",
+      "description_text": "⚠️ PLEASE READ FIRST - This is a full-time, in-person role based in San Francisco (Presidio) - we work from the office 5 days a week. - You must be based in the Bay Area or willing to relocate before starting. - We require US work authorisation, but are open to O-1 or J-1 visa sponsorship for exceptional candidates. ABOUT SAUNA BY WORDWARE Most AI products hand you a coworker on day one and hope you trust it. Sauna is the coworker you raise: it starts by learning how you work, earns autonomy task by task, and ends up running hours of work on its own while you keep taste, review, and the final say. Wordware is the ~20-person team behind it, backed by Spark Capital, Felicis, and Y Combinator with a $30M seed, the largest in YC history. We build from a San Francisco office in the shadow of the Golden Gate Bridge, and we work absurdly hard because we can see and feel the outcome every day. ABOUT THE ROLE: You've seen what happens when systems hit scale, and you know which parts to rebuild before they break. This isn't a management role. You're the most experienced builder on the team, and the CTO's partner on every architectural decision that matters. What You'll Do: Sauna's architecture works today. It won't be optimal at 1000x the current load with 50x the integration surface. You'll make the calls that shape what it becomes. Here are a few examples: - Make hard architectural tradeoffs and own the outcome: Durable Object SQLite vs. shared Postgres for session state. Cloudflare Workers CPU limits vs. longer-running workloads. Single-tenant sandboxes vs. multi-tenant pools. You decide, you migrate, you ship. - Design the system that handles concurrent agent sessions across integrations, an agent responding to an iMessage, checking Calendar, drafting a Slack reply, and updating Linear, all within one session with consistent state. - Define reliability and observability standards for a ~20-person team: SLOs, error budgets, tracing strategy, incident response patterns that actually work at our scale. - Review every significant PR. Set technical direction without blocking velocity. Your pattern recognition from prior scale experience is the product. - Ship code daily. Architectural leadership without output is a consulting engagement, not a job. - Plus whatever you see that needs building. Stack: TypeScript, Cloudflare Workers, Durable Objects, Hono, Drizzle ORM, Postgres, Zod, SST, Vercel AI SDK, Docker, React, Vite Who You Are: Minimum: - You have 8+ years as an IC engineer. You've been Staff or Principal at a company with real scale, but you left (or want to leave) because you want to build, not attend architecture review meetings. - You've built and operated systems that serve millions of users. You know the failure modes of distributed state, real-time streaming, and multi-tenant isolation, not from papers, from production. - You have recent, hands-on AI/LLM work. You've built agent systems, model routing layers, or tool-use architectures. You understand why tool execution in an agentic loop is fundamentally different from request-response. - You're fluent in TypeScript and productive in it on day one. The entire stack is TypeScript. - You've left a comfortable role because the work stopped being interesting. You want real ownership and real risk. Bonus (but not required): - You have strong opinions on agent runtimes (Durable Objects vs. actors vs. microservices) and deployment strategies for long-running processes. - You've worked with Cloudflare Workers at scale. - You've contributed to or maintained significant open source projects. Compensation & Benefits: Base salary: $280K–$400K + significant equity + health, dental, 401(k), considerable PTO, gym budget, lunch. THE PROCESS: We keep our process simple. Exceptional candidates go from first touch to offer within 2 weeks. 1. Application: Submit your resume and answer a few short questions. 2. 15-minute intro call: Quick check to align on location, motivation, and logistics. If it's a go, we move fast from here. 3. 45-minute technical interview: A deep conversation about systems you've built and decisions you've made. We're looking for depth, judgment, and architectural instinct. 4. System design interview: We'll walk through a real Wordware architecture problem together. We want to see how you think about tradeoffs at scale. 5. Final conversation: We answer your questions and scope out the work trial. 6. Work trial: Paid trial to work on a real project in person with us, usually a few days to two weeks (flexible to do what works for you). See how we work and whether this feels like the right fit on both sides.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:34:41Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:34:41Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-03-20T21:53:03Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "wordware-primary",
+      "source_job_id": "0fd1f134-6bba-4f88-a8a9-fc67c537a30e",
+      "stable_id": "job-b62326f6b28ff2c6fc1736b9",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Staff Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:34:41Z",
+  "last_successful_scan_at": "2026-08-31T15:34:41Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "title_explicitly_non_target_function": 8,
+    "total": 11
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "wordware-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

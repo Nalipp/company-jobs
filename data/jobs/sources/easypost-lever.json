@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:02:11Z",
+      "attempt_id": "attempt:f95126e9-1e2b-458e-9dcf-e6d473bbea12",
+      "result_digest": "77e5aea8b01aa058e71e7c10ed2e18c304ecc3f7869ca8a3a98c88aa2a120dc7",
+      "task_id": "source:easypost-lever:luna:3b3286f76d14cd71",
+      "transaction_id": "txn:77e5aea8b01aa058e71e7c10"
+    }
+  ],
+  "company_id": "easypost",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:02:10Z",
+  "last_successful_scan_at": "2026-08-31T04:02:10Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 4,
+    "location_outside_target_city": 2,
+    "title_explicitly_non_target_function": 1,
+    "total": 5,
+    "workplace_remote_excluded": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "easypost-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:55:22Z",
+      "attempt_id": "attempt:ef8c79d5-2b08-4725-bab6-2acd8dca641e",
+      "result_digest": "d71d67fa28e1fd5a4f0edc8f1ac883ac1db3ad831abb6cd836510cb43b05b94e",
+      "task_id": "source:zignal-labs-teamtailor:luna:15a8a594a2374210",
+      "transaction_id": "txn:d71d67fa28e1fd5a4f0edc8f"
+    }
+  ],
+  "company_id": "zignal-labs",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://zignallabs.na.teamtailor.com/jobs/689564-director-of-engineering",
+      "company_id": "zignal-labs",
+      "compensation": {
+        "currency": "USD",
+        "maximum": 235000,
+        "minimum": 215000,
+        "period": "year"
+      },
+      "compensation_text": "$215,000 - $235,000",
+      "department": "Engineering",
+      "description_text": "This website uses cookies to ensure you get the best experience.\n\nZignal Labs and our selected partners use cookies and similar technologies (together “cookies”) that are necessary to present this website, and to ensure you get the best experience of it. If you consent to it, we will also use cookies for analytics purposes.\n\nSee our Cookie Policy to read more about the cookies we set.\n\nYou can withdraw and manage your consent at any time, by clicking “Manage cookies” at the bottom of each website page.\n\nAccept all cookies\nDecline all non-necessary cookies\nCookie preferences\nSkip to main content\nCareer menu\nShare page\nENGINEERING · SAN FRANCISCO, DC, NY · FULLY REMOTE\nDirector of Engineering\nApply for this job\nAbout Zignal Labs\n\nZignal Labs is at the forefront of real-time media intelligence and AI analytics, supporting mission-critical defense and intelligence programs worldwide. Our platform ingests massive volumes of social media, news, forums, broadcast, and online content, transforming them into curated datasets and actionable insights for national security, defense, and commercial missions.\n\nFully remote, with Silicon Valley roots and team members in over 20 states, Zignal serves customers around the world. Learn more at zignallabs.com.\n\nAbout the Role\n\nWe are seeking a Director of Engineering to lead and scale our AI and Engineering teams. In this role, you will drive technical strategy, application architecture, and delivery across our frontend, backend, and AI feature teams. You will transform complex machine learning models and multi-source analytics into intuitive, enterprise-ready web applications for national security operations.\n\nKey Responsibilities\n\nLead, mentor, and scale software teams across full stack engineering, core application services, data engineering, and AI/ML integrations\n\nArchitect and drive the execution of user-facing web platforms, ensuring seamless integration between UI workflows, backend APIs, and real-time AI model inference\n\nCollaborate with Data Science and Product teams to operationalize and productize advanced AI capabilities (e.g., LLMs, computer vision, narrative detection) within high-performance, enterprise-ready features.\n\nDrive the transformation of our engineering lifecycle to an AI-first SDLC, leveraging AI-assisted coding, automated code review, and intelligent CI/CD pipelines to accelerate developer velocity.\n\nImplement an AI-driven automated QA strategy, utilizing generative testing and self-healing test suites to increase release confidence and reduce manual regression cycles.\n\nRequired Qualifications\n\n8+ years of software engineering experience, including 4+ years in engineering leadership managing full stack and software development teams; Bachelor’s degree in Computer Science, Engineering, or a related technical field.\n\nProven track record of shipping and scaling enterprise-grade full stack web applications that leverage production AI/ML services\n\nProven experience leading the implementation of AI-augmented development environments and CI/CD pipelines.\n\nStrong understanding of shifting quality left through AI-driven automated testing strategies.\n\nDemonstrated experience operationalizing AI-driven services and integrating machine learning models into robust, scalable full-stack web applications.\n\nDemonstrated success recruiting, hiring, and retaining top-tier remote engineering talent\n\nPreferred Qualifications\n\nExperience supporting software delivery for DoD, IC, or defense contractor environments\n\nWhy Join Zignal Labs?\n\nAt Zignal, you will work at the forefront of AI data intelligence, supporting mission-critical defense and intelligence programs worldwide. You will play a pivotal role in shaping our engineering culture, leading top-tier software talent, and building the intuitive full stack applications that power national security decisions.\n\nDepartment\nEngineering\nLocations\nSan Francisco, DC, NY\nRemote status\nFully Remote\nYearly salary\n$215,000 - $235,000\nEmployment type\nFull-time\nAbout Zignal Labs\n\nZignal Labs’ real-time intelligence technology helps the world’s largest organizations protect their people, places, and position. Analyzing billions of data points in real time, Zignal's AI-powered platform accelerates mission-critical decision making by empowering leaders with contextual situational awareness of the information environment.\n\nFully remote, with Silicon Valley roots and team members in over 20 states, Zignal serves customers around the world.\n\nFounded in 2011\nApply for this job\nENGINEERING · SAN FRANCISCO, DC, NY · FULLY REMOTE\nDirector of Engineering\n\nLoading application form\n\nCareer site\nCareers Home\nJobs\nData & privacy\nManage cookies\nzignallabs.com\nEmployee login\nCandidate Connect login\nAlready working at Zignal Labs?\n\nLet’s recruit together and find your next colleague.\n\nLog in\nApplicant tracking system by Teamtailor",
+      "employment_text": "Full-time",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-09-01T02:55:17.682Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-09-01T02:55:17.682Z",
+      "locations": [
+        "San Francisco, DC, NY"
+      ],
+      "posted_at": null,
+      "provider": "teamtailor",
+      "qualification_status": "qualifying",
+      "semantic_evidence": "Official posting explicitly connects the role to AI/ML integrations, AI model inference, LLMs, and user-facing full-stack web applications; San Francisco is listed, annual salary maximum is $235,000, and employment is full-time.",
+      "source_id": "zignal-labs-teamtailor",
+      "source_job_id": "689564",
+      "stable_id": "job-bcfad79c8fcc96dd6bd720bd",
+      "status": "active",
+      "team": null,
+      "title": "Director of Engineering",
+      "updated_at": null,
+      "workplace_arrangement": "remote",
+      "workplace_text": "Fully Remote"
+    }
+  ],
+  "last_attempt_at": "2026-09-01T02:55:17.682Z",
+  "last_successful_scan_at": "2026-09-01T02:55:17.682Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "teamtailor",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "zignal-labs-teamtailor",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:02:04Z",
+      "attempt_id": "attempt:31f17c8e-d5c0-4292-b2d0-35d0b539f02b",
+      "result_digest": "8bfe20dbf552542b33e3ceec9205791e75db3564994638dfcbc9276a3a08dff7",
+      "task_id": "source:doximity-primary:luna:a3faa966eca89b28",
+      "transaction_id": "txn:8bfe20dbf552542b33e3ceec"
+    }
+  ],
+  "company_id": "doximity",
+  "current_job_count": 10,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:01:52Z",
+  "last_successful_scan_at": "2026-08-31T04:01:52Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 4,
+    "location_outside_target_city": 1,
+    "title_explicitly_non_target_function": 6,
+    "total": 11
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "doximity-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

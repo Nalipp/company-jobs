@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:11:30Z",
+      "attempt_id": "attempt:ff774268-695a-49a8-8aa5-07a2738f300a",
+      "result_digest": "12c2b1ab11129589915159e42270753baf363e0667691126da49c04d22fd1d22",
+      "task_id": "source:hive-lever:luna:f4616dc53f85ad9e",
+      "transaction_id": "txn:12c2b1ab11129589915159e4"
+    }
+  ],
+  "company_id": "hive",
+  "current_job_count": 76,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:11:15Z",
+  "last_successful_scan_at": "2026-08-31T04:11:15Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_unknown": 30,
+    "location_outside_target_city": 19,
+    "title_explicitly_non_target_function": 31,
+    "total": 76
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "hive-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

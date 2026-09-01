@@ -1,0 +1,61 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:55:55Z",
+      "attempt_id": "attempt:efd40586-e732-47de-bd2b-8cd86d24c6f0",
+      "result_digest": "a64b8dbca30672117fc02805cffb2f13a1c56b8d3f43550733e5708d08a2b965",
+      "task_id": "source:contrario-primary:luna:48421f3840b47a4d",
+      "transaction_id": "txn:a64b8dbca30672117fc02805"
+    }
+  ],
+  "company_id": "contrario",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://www.ycombinator.com/companies/contrario/jobs/UXt8I3L-applied-ai-engineer",
+      "company_id": "contrario",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 220000,
+        "minimum": 140000,
+        "period": "year"
+      },
+      "compensation_text": "$140K - $220K",
+      "department": "Engineering, Full stack",
+      "description_text": "Build ML-driven marketplace systems, ranking and retrieval systems, AI-native workflows, and full-stack product features using Next.js, React, TypeScript, LLM APIs, embeddings, and vector search.",
+      "employment_text": "Full-time",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T21:00:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T21:00:00Z",
+      "locations": [
+        "San Francisco, CA, US"
+      ],
+      "provider": "ycombinator",
+      "qualification_status": "qualifying",
+      "review_notes": "San Francisco full-time Applied AI Engineer; explicit ML/LLM/embeddings work, full-stack React/Next.js product features, and published base maximum $220,000.",
+      "source_id": "contrario-primary",
+      "source_job_id": "UXt8I3L-applied-ai-engineer",
+      "stable_id": "job-bc356de1b77295c4efb2e0cc",
+      "status": "active",
+      "title": "Applied AI Engineer",
+      "workplace_arrangement": "on-site"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T21:00:00Z",
+  "last_successful_scan_at": "2026-08-31T21:00:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ycombinator",
+  "rejection_counts": {
+    "role_fit": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "contrario-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:09:00Z",
+      "attempt_id": "attempt:5669aa04-7c0d-48f0-899d-53f90e04c44b",
+      "result_digest": "f1a7301e86de1224dc33d4c986e3fbed657e5562587ae294af265ff229697696",
+      "task_id": "source:arcade-dev-careers:luna:34c01feeba1bd26a",
+      "transaction_id": "txn:f1a7301e86de1224dc33d4c9"
+    }
+  ],
+  "company_id": "arcade-dev",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T20:25:00Z",
+  "last_successful_scan_at": "2026-08-31T20:25:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_maximum_unknown": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "arcade-dev-careers",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

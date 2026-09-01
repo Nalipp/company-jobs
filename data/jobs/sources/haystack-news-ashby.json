@@ -1,0 +1,35 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:10:22Z",
+      "attempt_id": "attempt:7a4c3915-8efe-40f0-ad61-1bd85bbb8b96",
+      "result_digest": "89d0a7120c60d5d5512cc15e36b503fec9f546fead602f5663ea070e6387fd9a",
+      "task_id": "source:haystack-news-ashby:luna:a5ad376aabc98603",
+      "transaction_id": "txn:89d0a7120c60d5d5512cc15e"
+    }
+  ],
+  "company_id": "haystack-news",
+  "current_job_count": 19,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:10:08Z",
+  "last_successful_scan_at": "2026-08-31T04:10:08Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 1,
+    "employment_contract_excluded": 1,
+    "employment_part-time_excluded": 1,
+    "location_outside_target_city": 15,
+    "title_explicitly_non_target_function": 9,
+    "total": 19,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "haystack-news-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:57:24Z",
+      "attempt_id": "attempt:73676ecc-9856-446e-bce6-ddfd7bf97e32",
+      "result_digest": "40a5f3be5cc3a3ce95dacbbe62dbbb463c1b8477d8a97b973d2bb3c9b78926ed",
+      "task_id": "source:jampp-greenhouse:luna:4d4e90d5742a6fe8",
+      "transaction_id": "txn:40a5f3be5cc3a3ce95dacbbe"
+    }
+  ],
+  "company_id": "jampp",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:57:23Z",
+  "last_successful_scan_at": "2026-08-31T14:57:23Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 1,
+    "title_explicitly_non_target_function": 4,
+    "total": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "jampp-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

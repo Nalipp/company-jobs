@@ -1,4 +1,4 @@
 interface:
   display_name: "Find Jobs"
-  short_description: "Safely process a sequential job-source batch"
-  default_prompt: "Use $find-jobs --claim-next luna --batch-size 5 to sequentially complete a safe Luna job-source batch."
+  short_description: "Drain structured or manual job-source work"
+  default_prompt: "Use $find-jobs --run luna --lane structured to drain the safe structured Luna job-source lane."

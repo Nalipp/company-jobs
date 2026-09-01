@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://v4-daily-jobs.local/schemas/telemetry-event.schema.json",
+  "title": "V4 compact operation telemetry event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "timestamp", "duration_ms", "operation", "execution_status", "workflow", "task_id", "attempt_id", "worker_id", "model", "lane", "provider", "company_ids", "source_ids", "outcome", "queue_status", "reason_code", "failure_class", "retryable", "metrics", "changes_count", "warnings_count"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "duration_ms": {"type": "integer", "minimum": 0},
+    "operation": {"type": "string", "minLength": 1},
+    "execution_status": {"enum": ["completed", "no_task", "failed"]},
+    "workflow": {"oneOf": [{"enum": ["validate_companies", "find_jobs"]}, {"type": "null"}]},
+    "task_id": {"oneOf": [{"type": "string", "minLength": 1}, {"type": "null"}]},
+    "attempt_id": {"oneOf": [{"type": "string", "minLength": 1}, {"type": "null"}]},
+    "worker_id": {"oneOf": [{"type": "string", "minLength": 1}, {"type": "null"}]},
+    "model": {"oneOf": [{"enum": ["luna", "terra", "sol"]}, {"type": "null"}]},
+    "lane": {"oneOf": [{"enum": ["structured", "manual"]}, {"type": "null"}]},
+    "provider": {"oneOf": [{"type": "string", "minLength": 1}, {"type": "null"}]},
+    "company_ids": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "source_ids": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "outcome": {"oneOf": [{"type": "string", "minLength": 1}, {"type": "null"}]},
+    "queue_status": {"oneOf": [{"type": "string", "minLength": 1}, {"type": "null"}]},
+    "reason_code": {"oneOf": [{"type": "string", "minLength": 1}, {"type": "null"}]},
+    "failure_class": {"oneOf": [{"type": "string", "minLength": 1}, {"type": "null"}]},
+    "retryable": {"oneOf": [{"type": "boolean"}, {"type": "null"}]},
+    "metrics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["jobs_fetched", "qualifying_jobs", "unresolved_candidates", "item_results"],
+      "properties": {
+        "jobs_fetched": {"oneOf": [{"type": "integer", "minimum": 0}, {"type": "null"}]},
+        "qualifying_jobs": {"oneOf": [{"type": "integer", "minimum": 0}, {"type": "null"}]},
+        "unresolved_candidates": {"oneOf": [{"type": "integer", "minimum": 0}, {"type": "null"}]},
+        "item_results": {"type": "integer", "minimum": 0}
+      }
+    },
+    "changes_count": {"type": "integer", "minimum": 0},
+    "warnings_count": {"type": "integer", "minimum": 0}
+  }
+}

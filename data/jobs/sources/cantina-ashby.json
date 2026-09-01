@@ -1,0 +1,63 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:33:01Z",
+      "attempt_id": "attempt:ed4e9a7e-520f-44fd-a0f8-6e7dc7a07938",
+      "result_digest": "a82a27d2cc9080b1283bae8081ef0b9e5504bc7fc900a7f06e210db7ecde35a2",
+      "task_id": "source:cantina-ashby:luna:5f596229608d9245",
+      "transaction_id": "txn:a82a27d2cc9080b1283bae80"
+    }
+  ],
+  "company_id": "cantina",
+  "current_job_count": 20,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/cantina/01b8f45c-cb9b-4255-ad2d-c9ac1e5c4b2f",
+      "company_id": "cantina",
+      "compensation": null,
+      "compensation_text": null,
+      "department": "Engineering",
+      "description_text": "About Cantina: Cantina Labs is a social AI company, developing a suite of advanced real-time models that push the boundaries of expression, personality, and realism. We bring characters to life, transforming how people tell stories, connect, and create. We build and power ecosystems. Cantina, our flagship social AI platform, is just the beginning. If you're excited about the potential AI has to shape human creativity and social interactions, join us in building the future! About the Role: The Media Team at Cantina is building the real-time infrastructure powering live conversations between people and AI characters. Our goal is simple to express, but challenging to make real: enabling fast, natural, and truly conversational interaction with diverse and creative characters. We’re looking for a Software Engineer to help improve the speech, audio, and media systems at the heart of the Cantina experience. This team’s responsibilities cover low-level media processing pipelines, integration with internal and external models for speech recognition and synthesis, and globally distributed, WebRTC-based infrastructure supporting real-time voice and video interactions across iOS, Android, and web. If you’re excited by high-performance C++, real-time systems, speech technologies, and building the future of conversational AI, we’d love to talk. What You’ll Do: - Improve the real-time speech and media systems powering live AI conversations. - Reduce latency and optimize responsiveness across audio streaming and speech pipelines. - Build tools to enable the creation of AI models to support speech processing. - Develop new voice and video capabilities that enable more immersive interactions between users and AI bots. - Improve and extend our custom WebRTC infrastructure across iOS, Android, and web. What You’ll Bring: Minimum qualifications: - BS or MS in Computer Science, Computer Engineering, or a related field; or equivalent experience. - 3+ years of experience working as a software engineer. - Excellent communications skills. - Demonstrated ability to work independently to drive projects from requirements to completion. - Experience with C or C++ in a professional context. - Grounding in computer science fundamentals, including memory management, high-performance data structures, and concurrent / multithreaded systems. - Exposure to system programming concepts, including network protocol design, asynchronous I/O, and distributed system architectures.. - Object-oriented development and design skills. - Interest in solving subtle and challenging engineering problems. Preferred qualifications: - Previous experience with WebRTC, streaming protocols, or other media-adjacent technologies. - Familiarity with media processing techniques.. - Experience creating backend server infrastructure. - Experience developing software for iOS or Android. - Familiarity with building services using Node.js http://node.js or Go. - Familiarity with artificial intelligence and machine learning techniques, particularly in relation to speech recognition and synthesis. Compensation: The anticipated annual base salary range for this role is between $180,000-$270,000. When determining compensation, a number of factors will be considered, including skills, experience, job scope, location, and competitive compensation market data. Benefits: - Competitive salary and generous company equity - Medical, dental, and vision insurance – 99.99% of premiums covered by Cantina - 42 days of paid time off, including: - 15 PTO days - 10 sick days - 15 company holidays - 2 floating holidays - Generous parental leave & fertility support - 401(k) retirement savings plan - Lifestyle spending account – $500/month to use however you’d like - Complimentary lunch and snacks for in-office employees - One Medical membership, and more!",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T03:32:35Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T03:32:35Z",
+      "locations": [
+        "Sunnyvale",
+        "Sunnyvale, California, United States",
+        "San Francisco"
+      ],
+      "posted_at": "2026-08-18T19:27:10Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "cantina-ashby",
+      "source_job_id": "01b8f45c-cb9b-4255-ad2d-c9ac1e5c4b2f",
+      "stable_id": "job-9880ca0735fd20ea4eef4fc8",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Media Software Engineer, Speech (Senior-Staff Levels)",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T03:32:35Z",
+  "last_successful_scan_at": "2026-08-31T03:32:35Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "location_outside_target_city": 12,
+    "title_explicitly_non_target_function": 8,
+    "total": 19,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "cantina-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

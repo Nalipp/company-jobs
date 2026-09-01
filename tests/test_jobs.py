@@ -193,6 +193,38 @@ class DeterministicProfileTests(unittest.TestCase):
             "workplace_unknown_included_by_profile", decision.accepted_facts
         )
 
+    def test_explicit_non_target_job_families_are_rejected_without_model_work(self) -> None:
+        for title in (
+            "Senior Partner Marketing Manager",
+            "Commercial Counsel",
+            "Staff Product Manager, Growth",
+            "Senior Technical Recruiter",
+            "Enterprise Account Executive",
+        ):
+            job = deepcopy(self.job)
+            job["title"] = title
+            with self.subTest(title=title):
+                decision = evaluate_profile(job, profile())
+                self.assertIn(
+                    "title_explicitly_non_target_function",
+                    decision.rejection_reasons,
+                )
+                self.assertEqual(decision.semantic_requirements, ())
+
+    def test_engineering_titles_are_not_rejected_by_non_target_shortcut(self) -> None:
+        for title in (
+            "GTM Engineering Manager",
+            "Product Marketing Engineer",
+            "Developer Support Engineer",
+        ):
+            job = deepcopy(self.job)
+            job["title"] = title
+            with self.subTest(title=title):
+                self.assertNotIn(
+                    "title_explicitly_non_target_function",
+                    evaluate_profile(job, profile()).rejection_reasons,
+                )
+
     def test_unrecognized_explicit_employment_label_requires_review(self) -> None:
         job = deepcopy(self.job)
         job["employment_type"] = "regular"

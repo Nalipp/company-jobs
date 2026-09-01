@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:21:03Z",
+      "attempt_id": "attempt:da282958-8732-439e-ae43-9f40cce212bb",
+      "result_digest": "744a88ad17591fd42521efa0b7fedde7203fc7f54f049eea1059da68f2d94e11",
+      "task_id": "source:samara-aerospace-greenhouse:luna:cd679dfb651d5145",
+      "transaction_id": "txn:744a88ad17591fd42521efa0"
+    }
+  ],
+  "company_id": "samara-aerospace",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:20:54Z",
+  "last_successful_scan_at": "2026-08-31T15:20:54Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 6,
+    "total": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "samara-aerospace-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:35:50Z",
+      "attempt_id": "attempt:d0ed2571-5078-43ec-945d-d266c65bed88",
+      "result_digest": "ec0d8e47e2c705090dd2a25d3e99f5557ebabbf56b5fb09b0206b7d34e00c54d",
+      "task_id": "source:clicktime-lever:luna:ca2ce1dda37c0be3",
+      "transaction_id": "txn:ec0d8e47e2c705090dd2a25d"
+    }
+  ],
+  "company_id": "clicktime",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:35:46Z",
+  "last_successful_scan_at": "2026-08-31T03:35:46Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "location_outside_target_city": 2,
+    "total": 2,
+    "workplace_remote_excluded": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "clicktime-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

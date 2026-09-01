@@ -1,0 +1,69 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:06:09Z",
+      "attempt_id": "attempt:58e24ea3-416a-47d5-a2f1-87264c35b8df",
+      "result_digest": "3be5e1a32cae5439345446e99df9435d479bb69faeea8a6457d68c03aa4c4069",
+      "task_id": "source:fractional-ai-ashby:luna:eb3c6d48e5528677",
+      "transaction_id": "txn:3be5e1a32cae5439345446e9"
+    }
+  ],
+  "company_id": "fractional-ai",
+  "current_job_count": 10,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/odewithanthropic/22e6bcd3-b80d-462d-bd79-9deae131ee94",
+      "company_id": "fractional-ai",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 400000,
+        "minimum": 275000,
+        "period": "year",
+        "source_text": "$275K - $400K"
+      },
+      "compensation_text": "$275K - $400K",
+      "department": "Engineering",
+      "description_text": "ABOUT ODE WITH ANTHROPIC How do you turn a decades-old dataset into an industry-leading medical coding agent? Teach an AI receptionist to book appointments in Spanish? Automatically generate working data connectors from API docs? Build agents that write, test, and deploy their own software packages? Anthropic is defining frontier AI. Ode is the team bringing frontier AI into practice. We are a team of experienced builders who care deeply about getting complex AI systems into production, with strong conviction about what makes them succeed. As Anthropic’s services venture, we tackle the hardest, most consequential AI problems for companies with real stakes, working closely with their Applied AI and Product teams to turn frontier technology into real world impact. We're backed by Anthropic, Blackstone, Hellman & Friedman, Goldman Sachs, General Atlantic, Leonard Green & Partners, Apollo Global Management, GIC, and Sequoia Capital. We're headquartered in SF with offices in NYC, Raleigh-Durham, and Dubai. THE ROLE This role is designed for former engineering leaders (IC or EM) or founders who are comfortable owning end-to-end technical outcomes but specifically want to continue being impactful as individual contributors and spend more time in the code. You'll work on a small, high-caliber team (2–5 engineers and a PM) building AI products for our clients. You'll set technical direction, write code, and be the person the team looks to when something is hard. You'll spend roughly 75% of your time in code and 25% working directly with clients — often their CTOs — understanding problems, walking through tradeoffs, and making sure what we’re building meets their needs. Most engineers take a decade to see this range of hard problems across this many domains. Here, you'll do it in your first year. To make this possible, we are religious about being the best company in the world to learn Applied AI engineering practices. WHAT YOU BRING - 8+ years of engineering experience, with deep care for the craft. You've shipped multiple complete products end-to-end and write elegant, production-ready code across multiple disciplines. - Specific interest in applying software engineering fundamentals to AI systems. You care about balancing frontier model capabilities with good system design. - Comfort talking with senior technical stakeholders. You navigate conversations skillfully, and care about people using what you build. - High ownership mindset. You jump in without instruction, embrace a \"no job too big, no job too small\" mindset, and want to shape strategy and culture. - Low ego, high integrity. You help others and ask for help. You hold a high bar for honesty–with yourself and your team. OUR ENGINEERING PHILOSOPHY We have a distinct approach to building AI systems: applying standard software engineering discipline to the non-deterministic world of frontier AI. We design systems around testable hypotheses, curate durable data sets, and ensure what we ship keeps working long after we've handed it over. After shipping 30+ AI products, we have strong opinions on what makes AI products succeed and how to get them into production. We think you'll find it refreshing if you've seen how most companies approach AI. HOW ODE IS DIFFERENT A typical engineer here ships two to three products per year and learns from dozens more. You have outsized autonomy on each product — but you won't have a year to polish a single system. The upside is constant time on the frontier of models and tooling, and a muscle for AI product development that's hard to build anywhere else. Most engineers look back at this as the biggest growth period of their career. But it's possible you won't like it — we recommend using the interview process to hear what our engineers think. OUR VALUES - Overdeliver: We are writing the playbook on how to create enterprise value with LLMs, and building our reputation as the world’s best applied AI team. - Overuse AI: We obsessively explore and experiment with Claude to push the frontier of applied AI and share what we learn with our teammates. - Over”engineer” the Culture: We’re building a culture that attracts and retains top applied AI talent, and we stress test large decisions through the perspective of our world class builders. LOCATION San Francisco, CA New York, NY Work Arrangement: 4 days in-person, Fridays remote BENEFITS - 🏦 Competitive Compensation Package: Attractive salary aligned with your experience and skills. - 📈 401k with Matching: Invest in your future with our company-matched retirement plan. - 🌴 Unlimited PTO: Take the time you need to relax and rejuvenate. - 🏥 Exceptional Medical, Dental, and Vision Coverage: Comprehensive health benefits to keep you and your family healthy. - 🚑 Health FSA: Manage out-of-pocket health expenses effectively. - 🚌 Commuter Benefits: Make your travel to work easier and more affordable. - 🏥 Life Insurance: Providing peace of mind for you and your loved ones. - 🎉 Team Events and Activities: Regular events to build camaraderie and a strong team spirit. READY TO JOIN US?",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T04:05:41Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T04:05:41Z",
+      "locations": [
+        "San Francisco Office",
+        "San Francisco, California, United States",
+        "New York Office"
+      ],
+      "posted_at": "2026-04-28T23:41:10Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "fractional-ai-ashby",
+      "source_job_id": "22e6bcd3-b80d-462d-bd79-9deae131ee94",
+      "stable_id": "job-b70a7edb930ede79b6a9076d",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Staff Software Engineer (SF/NY)",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T04:05:41Z",
+  "last_successful_scan_at": "2026-08-31T04:05:41Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "location_outside_target_city": 1,
+    "title_explicitly_non_target_function": 8,
+    "total": 10
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "fractional-ai-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

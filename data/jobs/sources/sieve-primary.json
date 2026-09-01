@@ -1,0 +1,74 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:24:04Z",
+      "attempt_id": "attempt:b8dee56a-46f4-41f6-96a3-428eefb5da52",
+      "result_digest": "e91699b87dcff43bc496fc692720af9d32971ff17490b4078cba0732a05d8698",
+      "task_id": "source:sieve-primary:luna:e46505a5e33aad73",
+      "transaction_id": "txn:e91699b87dcff43bc496fc69"
+    }
+  ],
+  "company_id": "sieve",
+  "current_job_count": 10,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/sieve/dbff6c5e-341c-4daf-9563-16dbeb4b1fad",
+      "company_id": "sieve",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 350000,
+        "minimum": 150000,
+        "period": "year",
+        "source_text": "$150K - $350K"
+      },
+      "compensation_text": "$150K - $350K",
+      "department": "Engineering",
+      "description_text": "ABOUT US Sieve is an AI research lab building the world's highest-quality multimodal datasets — spanning video, audio, images, text, and 3D. We combine exabyte-scale data infrastructure, novel multimodal understanding techniques, and dozens of proprietary data sources to develop datasets that push the frontier of foundation models. Video alone makes up 80% of internet traffic, and across modalities, data has become the enabling medium powering creativity, communication, gaming, AR/VR, and robotics. Sieve exists to solve the biggest bottleneck in the growth of these applications: high-quality training data. We've partnered with the world's top AI labs and did $XXM last quarter alone, as a team of just ~25 people. We also raised our Series A from Tier 1 firms such as Matrix Partners, Swift Ventures, Y Combinator, and AI Grant. WHY NOW Sieve is one of the most capital-efficient teams in AI — roughly 25 people serving the world's leading AI labs across every major data modality. You'll join early, own problems end-to-end, and watch your work ship directly into the models defining the frontier. ABOUT THE ROLE As a Machine Learning Engineer at Sieve, you'll own the entire ML lifecycle — from understanding customer problems, to designing datasets, improving models, building evaluation systems, and shipping production pipelines that deliver measurable improvements in dataset quality. You'll work directly with frontier AI labs to understand difficult data problems, then build end-to-end systems that solve them. One week you might fine-tune a multimodal model to improve recall on a difficult edge case. The next you might engineer a VLM-based QA pipeline, design a new evaluation framework, or run a large-scale filtering pipeline on millions of hours of multimodal data. We're looking for engineers who enjoy owning problems end-to-end, from understanding customer requirements through shipping production ML systems that measurably improve dataset quality. WHAT YOU'LL DO - Own model quality for customer-facing video understanding problems - Fine-tune vision-language and multimodal foundation models for specialized tasks - Build automated evaluation and QA pipelines using frontier models like Gemini, GPT, Claude, and open-source VLMs - Design high-precision filtering, ranking, retrieval, and labeling systems over internet-scale video datasets - Create datasets, benchmarks, and evaluation frameworks that continuously improve model quality - Develop production ML pipelines spanning preprocessing, inference, post-processing, and quality validation - Work directly with frontier AI labs to translate ambiguous requirements into scalable ML systems - Ship improvements quickly, measure results, and iterate based on real-world performance REQUIREMENTS - Strong Python engineer with experience building production ML systems - Experience training, fine-tuning, or deploying modern deep learning models - Comfortable working with PyTorch and modern foundation models - Excellent intuition for evaluation, dataset quality, precision/recall tradeoffs, and edge cases - Enjoys rapidly prototyping with new AI models and APIs - Comfortable owning projects from customer problem to internal pipelines to deployed solution - Strong communicator who enjoys working directly with customers and cross-functional teams - Excited by video, multimodal AI, and frontier foundation models - In-person at our SF HQ *all roles at Sieve require you to be onsite in San Francisco 5 days per week",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:23:37Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:23:37Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-07-13T04:06:32Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "Title is Member of Technical Staff, Machine Learning, directly indicating a machine-learning engineering role.",
+        "The listing is in San Francisco, on-site, with a published maximum base compensation of USD 350,000/year."
+      ],
+      "source_id": "sieve-primary",
+      "source_job_id": "dbff6c5e-341c-4daf-9563-16dbeb4b1fad",
+      "stable_id": "job-1da9a482965a68c47e0abf11",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Member of Technical Staff, Machine Learning",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:23:37Z",
+  "last_successful_scan_at": "2026-08-31T15:23:37Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "location_outside_target_city": 1,
+    "semantic_non_target": 7,
+    "title_explicitly_non_target_function": 1,
+    "total": 9,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "sieve-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

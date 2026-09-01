@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import copy
 import json
-import math
 from collections import Counter
 from contextlib import ExitStack
 from datetime import datetime, timedelta, timezone
@@ -279,16 +278,16 @@ def status_snapshot(paths: RepoPaths, *, now: datetime | None = None) -> dict[st
 def next_commands_snapshot(
     paths: RepoPaths,
     *,
-    company_batch_size: int = 50,
-    job_batch_size: int = 5,
+    company_workers: int = 10,
+    job_workers: int = 10,
     now: datetime | None = None,
 ) -> dict[str, Any]:
     """Plan operator launches from one coherent, read-only status snapshot."""
 
-    if not 1 <= company_batch_size <= 75:
-        raise ValueError("company batch size must be between 1 and 75")
-    if not 1 <= job_batch_size <= 20:
-        raise ValueError("job batch size must be between 1 and 20")
+    if not 1 <= company_workers <= 50:
+        raise ValueError("company workers must be between 1 and 50")
+    if not 1 <= job_workers <= 50:
+        raise ValueError("job workers must be between 1 and 50")
     instant = now or datetime.now(timezone.utc)
     status = status_snapshot(paths, now=instant)
     from .audit import build_company_tasks, build_job_tasks
@@ -343,10 +342,9 @@ def next_commands_snapshot(
             "Company validation",
             "$validate-companies",
             "company",
-            company_batch_size,
-            False,
+            company_workers,
         ),
-        ("find_jobs", "Job finding", "$find-jobs", "jobs", job_batch_size, True),
+        ("find_jobs", "Job finding", "$find-jobs", "jobs", job_workers),
     )
     workflows: list[dict[str, Any]] = []
     total_launches = 0
@@ -355,8 +353,7 @@ def next_commands_snapshot(
         label,
         command,
         cli_workflow,
-        batch_size,
-        minimum_only,
+        worker_target,
     ) in workflow_config:
         queue = status["queues"][workflow]
         existing_keys = {
@@ -367,31 +364,73 @@ def next_commands_snapshot(
             for task in prospective[workflow]
             if task["dedupe_key"] not in existing_keys
         ]
-        pending_audit_by_model = Counter(
-            task["expected_model"] for task in missing_audit_tasks
+        pending_audit_by_model = Counter(task["expected_model"] for task in missing_audit_tasks)
+        pending_audit_by_lane = Counter(
+            (
+                task["expected_model"],
+                "structured"
+                if task.get("context", {}).get("structured_adapter_available") is True
+                else "manual",
+            )
+            for task in missing_audit_tasks
         )
         launches: list[dict[str, Any]] = []
         for model in ("luna", "terra", "sol"):
-            queued_due = queue["availability_by_model"][model]["due"]
-            pending_audit = pending_audit_by_model.get(model, 0)
-            due = queued_due + pending_audit
-            if not due:
-                continue
-            count = math.ceil(due / batch_size)
-            total_launches += count
-            launches.append(
-                {
-                    "model": model,
-                    "due_tasks": due,
-                    "queued_due_tasks": queued_due,
-                    "pending_audit_tasks": pending_audit,
-                    "batch_size": batch_size,
-                    "launch_count": count,
-                    "count_is_minimum": minimum_only,
-                    "last_batch_capacity": due - ((count - 1) * batch_size),
-                    "command": f"{command} --claim-next {model} --batch-size {batch_size}",
-                }
+            active_for_model = sum(
+                task["status"] == "running"
+                and task["expected_model"] == model
+                and parse_timestamp(task["claim"]["lease_expires_at"]) > instant
+                for task in queue_documents[workflow]["tasks"]
             )
+            remaining_capacity = max(0, worker_target - active_for_model)
+            candidate_lanes: tuple[str | None, ...] = (
+                ("manual", "structured") if workflow == "find_jobs" else (None,)
+            )
+            for lane in candidate_lanes:
+                if workflow == "find_jobs":
+                    assert lane is not None
+                    queued_due = sum(
+                        task["status"] == "open"
+                        and task["expected_model"] == model
+                        and parse_timestamp(task["available_at"]) <= instant
+                        and (
+                            "structured"
+                            if task.get("context", {}).get(
+                                "structured_adapter_available"
+                            )
+                            is True
+                            else "manual"
+                        )
+                        == lane
+                        for task in queue_documents[workflow]["tasks"]
+                    )
+                    pending_audit = pending_audit_by_lane.get((model, lane), 0)
+                else:
+                    queued_due = queue["availability_by_model"][model]["due"]
+                    pending_audit = pending_audit_by_model.get(model, 0)
+                due = queued_due + pending_audit
+                if not due or not remaining_capacity:
+                    continue
+                count = min(due, remaining_capacity)
+                remaining_capacity -= count
+                total_launches += count
+                launches.append(
+                    {
+                        "model": model,
+                        "due_tasks": due,
+                        "queued_due_tasks": queued_due,
+                        "pending_audit_tasks": pending_audit,
+                        "worker_target": worker_target,
+                        "active_workers": active_for_model,
+                        "launch_count": count,
+                        "lane": lane,
+                        "command": (
+                            f"{command} --run {model} --lane {lane}"
+                            if lane is not None
+                            else f"{command} --run {model}"
+                        ),
+                    }
+                )
         expired = queue["running"]["expired"]
         blocked = queue["by_status"]["blocked"]
         failed = queue["by_status"]["failed"]
@@ -441,14 +480,14 @@ def next_commands_snapshot(
     return {
         "schema_version": 1,
         "generated_at": status["generated_at"],
-        "company_batch_size": company_batch_size,
-        "job_batch_size": job_batch_size,
+        "company_workers": company_workers,
+        "job_workers": job_workers,
         "total_planned_launches": total_launches,
         "workflows": workflows,
         "notes": [
-            "Launch counts cover tasks that are open and due at this snapshot.",
-            "Job launch counts are minimum estimates because a batch stops after 25 semantic candidates.",
-            "Re-run this command after each wave; completions, retries, and model escalation change the plan.",
+            "Each launched worker keeps claiming exact tasks until its model lane has no due work.",
+            "Concurrent workers cannot overlap because every task is claimed atomically.",
+            "Re-run this command after a queue drains; retries and model escalation may create later work.",
         ],
     }
 
@@ -468,14 +507,14 @@ def render_next_commands(report: Mapping[str, Any]) -> str:
                 f"({workflow['audit_task_count']} task(s) not yet queued)"
             )
         for launch in workflow["launches"]:
-            qualifier = "at least " if launch["count_is_minimum"] else ""
             lines.append(
-                f"  Run {qualifier}{launch['launch_count']} time(s): "
+                f"  Open {launch['launch_count']} new agent(s), once each: "
                 f"{launch['command']}"
             )
             lines.append(
                 f"    {launch['due_tasks']} due {launch['model'].title()} task(s); "
-                f"last batch has up to {launch['last_batch_capacity']} item(s)."
+                f"target concurrency {launch['worker_target']}, "
+                f"{launch['active_workers']} already active."
             )
             if launch["pending_audit_tasks"]:
                 lines.append(

@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:23:56Z",
+      "attempt_id": "attempt:cc4b3213-3a40-4c05-8641-533a988cddd5",
+      "result_digest": "064afc89f5f0d42c727e539ac47020c7134b72080bb516c46af4cc745850d922",
+      "task_id": "source:sigma-computing-greenhouse:luna:764f1a38e7513463",
+      "transaction_id": "txn:064afc89f5f0d42c727e539a"
+    }
+  ],
+  "company_id": "sigma-computing",
+  "current_job_count": 70,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:23:43Z",
+  "last_successful_scan_at": "2026-08-31T15:23:43Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 35,
+    "location_outside_target_city": 19,
+    "title_explicitly_non_target_function": 23,
+    "total": 70
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "sigma-computing-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

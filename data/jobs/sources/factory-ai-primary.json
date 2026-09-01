@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:19:02Z",
+      "attempt_id": "attempt:32bc8f70-64c4-4743-b21b-a3c5b954554a",
+      "result_digest": "bc05e1432828dd4f148ef2e34e66075f4dbaf1ce2957c5b10dd1058b7c6411cf",
+      "task_id": "source:factory-ai-primary:luna:bbae326031c51242",
+      "transaction_id": "txn:bc05e1432828dd4f148ef2e3"
+    }
+  ],
+  "company_id": "factory-ai",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:38:00Z",
+  "last_successful_scan_at": "2026-08-31T22:38:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_unknown": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "factory-ai-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

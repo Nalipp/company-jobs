@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:31:23Z",
+      "attempt_id": "attempt:5f8fa47c-1a1f-4c36-bac7-c928b650cf8d",
+      "result_digest": "abcfbeab26a9e647f24dcb43ed797335b2df47e3122b64bff40b8e2d61097946",
+      "task_id": "source:hioperator-breezy:luna:7b402eb318c644fe",
+      "transaction_id": "txn:abcfbeab26a9e647f24dcb43"
+    }
+  ],
+  "company_id": "hioperator",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T23:58:00Z",
+  "last_successful_scan_at": "2026-08-31T23:58:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "location_or_role_or_compensation_mismatch": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "hioperator-breezy",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

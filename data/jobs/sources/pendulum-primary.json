@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:15:10Z",
+      "attempt_id": "attempt:5e292268-0019-42a8-b879-115eb8a2e28a",
+      "result_digest": "9af6c747a844c555a4cbcdd8b906e54ced843da45c09076c37f966041a02183a",
+      "task_id": "source:pendulum-primary:luna:ee76405e14c5f2b2",
+      "transaction_id": "txn:9af6c747a844c555a4cbcdd8"
+    }
+  ],
+  "company_id": "pendulum",
+  "current_job_count": 7,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:14:53Z",
+  "last_successful_scan_at": "2026-08-31T15:14:53Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "semantic_non_target": 5,
+    "title_explicitly_non_target_function": 2,
+    "total": 7,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "pendulum-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

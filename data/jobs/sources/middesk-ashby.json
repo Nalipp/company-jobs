@@ -1,0 +1,72 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:05:10Z",
+      "attempt_id": "attempt:c7e8da8a-2a6b-4e66-b94d-bae7def3356b",
+      "result_digest": "f66517c6d0996112962d66e214386a924fe4e9c7958fdfb95672f4d018372415",
+      "task_id": "source:middesk-ashby:luna:0f97408c2bb979a5",
+      "transaction_id": "txn:f66517c6d0996112962d66e2"
+    }
+  ],
+  "company_id": "middesk",
+  "current_job_count": 21,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/middesk/a72b1048-1001-49b1-92bd-9c44574f939b",
+      "company_id": "middesk",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 255000,
+        "minimum": 148000,
+        "period": "year",
+        "source_text": "$148K - $255K"
+      },
+      "compensation_text": "$148K - $255K",
+      "department": "Engineering",
+      "description_text": "ABOUT MIDDESK: Middesk is building the data and intelligence infrastructure that helps businesses work together with confidence. We started by creating a comprehensive platform for understanding businesses, bringing together authoritative and proprietary data to help customers verify business identities, onboard customers faster, and manage risk throughout the customer lifecycle. Today, Middesk is used by more than 700 banks and fintechs, and in 2025 we verified more than 7 million companies. We've also expanded beyond business verification to help companies form, register, manage, and maintain their businesses, supporting more than 50,000 companies in setting up over 100,000 accounts required to hire employees, run payroll, and stay compliant. Middesk came out of Y Combinator, and is backed by Sequoia Capital, Accel, Insight Partners, and Canapi. We're proud to be named on the Forbes Fintech 50 and Best Startup Employers lists. ABOUT THE ROLE: We're hiring a Forward Deployed Engineer (FDE): a deeply technical builder and technical leader who thrives at the intersection of engineering, product, and real customer problems. You'll work shoulder-to-shoulder with customers and internal product and engineering teams to design, ship, and iterate on mission-critical integrations and AI-driven systems that run in production. You'll write real code, own complex deployments end-to-end, and help shape how these systems are built across Middesk. Forward Deployed Engineers close the gap between product intent and real-world usage—acting as a tight feedback loop that shapes both how our product is used and what it becomes. You will act as a technical leader, helping set direction, influence architecture, and establish best practices for how we deploy and operate systems in the real world. This role is ideal for a recovering founder, a former core engineer who misses direct customer impact, or someone who thrives on ownership and wants to build real systems where the feedback loop is immediate. WHAT YOU’LL DO: Own Technical Direction for Deployments - Lead architecture and technical design for complex, customer-facing systems and integrations. - Make and communicate clear trade-offs across speed, reliability, and scalability. - Identify systemic risks and drive improvements across deployments, not just one-off solutions. - Establish patterns and standards that other engineers can build on—helping define what \"great\" looks like for Forward Deployed Engineering at Middesk. Build & Deploy Real Systems - Partner deeply with strategic customers to understand their architecture, workflows, and constraints. - Design, build, and deploy production-grade integrations using Middesk APIs, data pipelines, and AI workflows. - Own deployments end-to-end: from architecture and implementation to rollout, monitoring, and iteration. Deployment quality matters—we operate in the critical path of customer systems. - Solve ambiguous, high-impact problems that don't yet have established playbooks. AI, Agents & Evaluation - Build and operate LLM- and agent-based systems in real customer workflows. - Design and maintain evaluation frameworks (evals) to measure quality, reliability, and correctness of LLM outputs and agent behavior. - Create test harnesses, metrics, and feedback loops to continuously improve AI-driven systems. - Feel comfortable running multiple coding agents or automated workflows in parallel, debugging failures, and reasoning about system behavior. Influence Product & Engineering Direction - Translate deployment learnings into reusable abstractions, internal tooling, and product improvements. - Influence roadmap priorities by surfacing recurring patterns, technical gaps, and opportunities for leverage. - Participate in architecture discussions and contribute to org-wide technical decisions. - We believe engineering velocity is only valuable if it delivers customer value—your role is to make sure it does. Lead & Raise the Bar - Lead through influence, not authority—setting a high standard for engineering quality and pragmatism in a high-ownership, high-trust environment. - Guide engineers through design reviews, code reviews, and hands-on collaboration. - Enjoy real autonomy, direct influence on product direction, and deep technical problems with real-world impact. - Work with a team that values thoughtful engineering over performative process. WHAT WE’RE LOOKING FOR: Core Requirements - 6+ years of experience building and shipping software in production environments. - Demonstrated experience acting as a technical lead or domain owner for a team or major system. - Strong proficiency in Python and at least one additional language (TypeScript, Go, etc.). - Experience designing and operating distributed systems, APIs, and cloud-native infrastructure. - Comfort operating across the stack: backend systems, integrations, infrastructure, and tooling. - Strong debugging instincts and an ownership mindset—you care deeply about failure modes, not just happy paths. - Strong communication skills—able to articulate trade-offs clearly to engineers, product, and non-technical stakeholders. AI / LLM Experience (Strong Plus) - Hands-on experience building or deploying LLM-powered or agent-based systems. - Familiarity with LLM evaluation techniques (evals) and performance measurement. - Experience orchestrating automated workflows, agents, or developer tooling powered by AI. - Clear understanding of failure modes and tradeoffs in applied AI systems. Customer & Domain Experience - Experience working in startup environments with high ambiguity and rapid iteration. - Background in fintech, compliance, or regulated systems where correctness and data quality matter. - Comfortable working directly with customers on complex technical problems. NICE-TO-HAVE: - Former founder or early startup engineer. - Experience with identity systems, risk/fraud, or workflow automation. - Familiarity with observability, reliability engineering, or system safety practices.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:04:48Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:04:48Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, USA",
+        "New York"
+      ],
+      "posted_at": "2026-05-06T21:39:22Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "middesk-ashby",
+      "source_job_id": "a72b1048-1001-49b1-92bd-9c44574f939b",
+      "stable_id": "job-e1eba104cef7de5b6aad23c6",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Forward Deployed Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:04:48Z",
+  "last_successful_scan_at": "2026-08-31T15:04:48Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 4,
+    "compensation_period_mismatch": 1,
+    "employment_contract_excluded": 1,
+    "location_outside_target_city": 9,
+    "title_explicitly_non_target_function": 13,
+    "total": 21
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "middesk-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

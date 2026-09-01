@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:00:13Z",
+      "attempt_id": "attempt:c75c575e-8cbf-48be-a61f-13df894fb6c8",
+      "result_digest": "9bec193904cfc43a1dc34831ef28f1cf1edf8d16ac037d44552ae9c92ee680b3",
+      "task_id": "source:cuyana-primary:luna:b31117a117551a6b",
+      "transaction_id": "txn:9bec193904cfc43a1dc34831"
+    }
+  ],
+  "company_id": "cuyana",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:00:09Z",
+  "last_successful_scan_at": "2026-08-31T04:00:09Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "cuyana-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

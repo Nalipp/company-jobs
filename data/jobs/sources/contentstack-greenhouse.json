@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:59:16Z",
+      "attempt_id": "attempt:763489a2-856f-4f55-bdd4-855a912ec573",
+      "result_digest": "533599eec3557a35adf29b4f3c5cebe34cfe7942752bd018a811385e62c2baf8",
+      "task_id": "source:contentstack-greenhouse:luna:abe539bd8bfd07af",
+      "transaction_id": "txn:533599eec3557a35adf29b4f"
+    }
+  ],
+  "company_id": "contentstack",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:59:04Z",
+  "last_successful_scan_at": "2026-08-31T03:59:04Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_maximum_below_threshold": 2,
+    "location_outside_target_city": 3,
+    "title_explicitly_non_target_function": 3,
+    "total": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "contentstack-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

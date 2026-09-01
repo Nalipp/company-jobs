@@ -11,9 +11,21 @@ from typing import Any, Mapping
 
 from .companies import apply_company_patch, source_index, validate_integrity
 from .json_store import FileLock, JsonStore, canonical_json_bytes
-from .jobs import reconcile_snapshot
+from .jobs import (
+    evaluate_jobs,
+    reconcile_snapshot,
+    semantic_candidates,
+    validate_adapter_result,
+)
 from .paths import RepoPaths
-from .queue import ClaimRejected, QueueEngine, format_timestamp, parse_timestamp, utc_now
+from .queue import (
+    DEFAULT_ACCESS_RETRY_LIMIT,
+    ClaimRejected,
+    QueueEngine,
+    format_timestamp,
+    parse_timestamp,
+    utc_now,
+)
 from .reporting import operation_report, status_snapshot
 from .schemas import validate, validator
 
@@ -140,6 +152,11 @@ def _queue_resolution(
             resolution=common,
             attempt_id=result["attempt_id"],
             expected_model=result["model"],
+            retry_limit=(
+                0
+                if result.get("retryable") is False
+                else DEFAULT_ACCESS_RETRY_LIMIT
+            ),
             now=now,
             require_unexpired=require_unexpired,
         )
@@ -198,10 +215,79 @@ def _verify_result_scope(task: Mapping[str, Any], result: Mapping[str, Any]) -> 
                 raise FinalizationError("Job result profile ID does not match claimed profile")
             if snapshot.get("profile_digest") != context.get("profile_digest"):
                 raise FinalizationError("Job result profile digest does not match claimed profile")
+            if context.get("structured_adapter_available") is False:
+                adapter_result = snapshot.get("adapter_result")
+                jobs = adapter_result.get("jobs") if isinstance(adapter_result, Mapping) else None
+                if not isinstance(jobs, list):
+                    raise FinalizationError("Manual job result lacks normalized jobs")
+                evaluation = evaluate_jobs(jobs, expected_profile)
+                candidates = semantic_candidates(jobs, evaluation)
+                candidate_ids = {str(item["stable_id"]) for item in candidates}
+                decisions = snapshot.get("semantic_decisions")
+                if not isinstance(decisions, list):
+                    raise FinalizationError(
+                        "Manual job result requires semantic_decisions for every viable candidate"
+                    )
+                decision_ids = {
+                    str(item.get("stable_id"))
+                    for item in decisions
+                    if isinstance(item, Mapping)
+                }
+                if decision_ids != candidate_ids or len(decisions) != len(decision_ids):
+                    raise FinalizationError(
+                        "Manual semantic_decisions must cover every viable candidate exactly once"
+                    )
+                qualifying_ids = {
+                    str(item if isinstance(item, str) else item.get("stable_id"))
+                    for item in snapshot.get("qualifying_jobs", [])
+                    if isinstance(item, (str, Mapping))
+                }
+                unresolved_ids = {
+                    str(item if isinstance(item, str) else item.get("stable_id"))
+                    for item in snapshot.get("unresolved_candidates", [])
+                    if isinstance(item, (str, Mapping))
+                }
+                for decision in decisions:
+                    stable_id = str(decision["stable_id"])
+                    choice = decision["decision"]
+                    if choice == "qualifying" and stable_id not in qualifying_ids:
+                        raise FinalizationError(
+                            f"Manual qualifying decision {stable_id} is not selected"
+                        )
+                    if choice == "inconclusive" and stable_id not in unresolved_ids:
+                        raise FinalizationError(
+                            f"Manual inconclusive decision {stable_id} is not retained"
+                        )
+                    if choice == "rejected" and (
+                        stable_id in qualifying_ids or stable_id in unresolved_ids
+                    ):
+                        raise FinalizationError(
+                            f"Manual rejected decision {stable_id} remains selected"
+                        )
             if result["outcome"] == "resolved" and snapshot.get("unresolved_candidates"):
                 raise FinalizationError(
                     "Resolved job result cannot retain unresolved semantic candidates"
                 )
+            if result["outcome"] == "inconclusive":
+                unresolved = snapshot.get("unresolved_candidates")
+                if not isinstance(unresolved, list) or not unresolved:
+                    raise FinalizationError(
+                        "Inconclusive job result must retain at least one genuinely "
+                        "reviewed unresolved candidate"
+                    )
+                if result.get("reason_code") != "semantic_evidence_inconclusive":
+                    raise FinalizationError(
+                        "Only evidence-based semantic uncertainty can escalate models; "
+                        "unfinished, access-limited, or budget-limited work must remain "
+                        "at the same model"
+                    )
+                for candidate in unresolved:
+                    notes = candidate.get("review_notes") if isinstance(candidate, Mapping) else None
+                    if not isinstance(notes, str) or not notes.strip():
+                        raise FinalizationError(
+                            "Every inconclusive job candidate requires non-empty "
+                            "review_notes explaining the evidence gap"
+                        )
 
 
 def _attempt_has_result(task: Mapping[str, Any], attempt_id: str, digest: str) -> bool:
@@ -211,6 +297,139 @@ def _attempt_has_result(task: Mapping[str, Any], attempt_id: str, digest: str) -
         resolution = attempt.get("resolution")
         return isinstance(resolution, Mapping) and resolution.get("result_digest") == digest
     return False
+
+
+def _telemetry_task_fields(
+    task: Mapping[str, Any], result: Mapping[str, Any]
+) -> dict[str, Any]:
+    context = task.get("context") if isinstance(task.get("context"), Mapping) else {}
+    source = (
+        context.get("source_snapshot")
+        if isinstance(context.get("source_snapshot"), Mapping)
+        else {}
+    )
+    claim = task.get("claim") if isinstance(task.get("claim"), Mapping) else {}
+    worker_id = claim.get("claimed_by")
+    if worker_id is None:
+        worker_id = next(
+            (
+                attempt.get("claimed_by")
+                for attempt in task.get("attempts", [])
+                if isinstance(attempt, Mapping)
+                and attempt.get("attempt_id") == result.get("attempt_id")
+            ),
+            None,
+        )
+    snapshot = result.get("snapshot") if isinstance(result.get("snapshot"), Mapping) else {}
+    adapter = (
+        snapshot.get("adapter_result")
+        if isinstance(snapshot.get("adapter_result"), Mapping)
+        else {}
+    )
+    jobs = adapter.get("jobs") if isinstance(adapter.get("jobs"), list) else None
+    qualifying = snapshot.get("qualifying_jobs")
+    unresolved = snapshot.get("unresolved_candidates")
+    return {
+        "worker_id": worker_id,
+        "lane": (
+            "structured"
+            if context.get("structured_adapter_available") is True
+            else "manual"
+            if context.get("structured_adapter_available") is False
+            else None
+        ),
+        "provider": source.get("provider") or adapter.get("provider"),
+        "reason_code": result.get("reason_code"),
+        "failure_class": result.get("failure_class"),
+        "retryable": result.get("retryable"),
+        "metrics": {
+            "jobs_fetched": len(jobs) if jobs is not None else None,
+            "qualifying_jobs": len(qualifying) if isinstance(qualifying, list) else None,
+            "unresolved_candidates": len(unresolved) if isinstance(unresolved, list) else None,
+        },
+    }
+
+
+def preflight_result(paths: RepoPaths, result_path: Path) -> dict[str, Any]:
+    """Validate a claimed result without writing queue or canonical state."""
+
+    result = _read_json(result_path)
+    workflow = result.get("workflow")
+    if workflow not in {"find_jobs", "validate_companies"}:
+        raise FinalizationError("Result preflight requires a supported workflow")
+    validate(result, "job-result.schema.json" if workflow == "find_jobs" else "company-result.schema.json", str(result_path))
+    engine = _engine(paths, workflow)
+    with engine.transaction() as locked:
+        task = locked.require_claim(
+            result["task_id"],
+            result["claim_token"],
+            attempt_id=result["attempt_id"],
+            expected_model=result["model"],
+        )
+        snapshot = result.get("snapshot")
+        if workflow == "find_jobs" and isinstance(snapshot, Mapping):
+            adapter_result = snapshot.get("adapter_result")
+            if isinstance(adapter_result, Mapping):
+                validate_adapter_result(adapter_result)
+        _verify_result_scope(task, result)
+    if workflow == "validate_companies":
+        return operation_report(
+            "validate_companies.preflight-result",
+            task={
+                "task_id": result["task_id"],
+                "attempt_id": result["attempt_id"],
+                "model": result["model"],
+                "target": result["target"],
+                "outcome": result["outcome"],
+                "worker_id": task["claim"].get("claimed_by"),
+            },
+            item_results=result["item_results"],
+            message=(
+                f"Result {result_path} passed schema, claim-scope, and company patch preflight."
+            ),
+        )
+    snapshot = result.get("snapshot") if isinstance(result.get("snapshot"), Mapping) else {}
+    adapter = (
+        snapshot.get("adapter_result")
+        if isinstance(snapshot.get("adapter_result"), Mapping)
+        else {}
+    )
+    jobs = adapter.get("jobs") if isinstance(adapter.get("jobs"), list) else None
+    return operation_report(
+        "find_jobs.preflight-result",
+        task={
+            "task_id": result["task_id"],
+            "attempt_id": result["attempt_id"],
+            "model": result["model"],
+            "target": result["target"],
+            "outcome": result["outcome"],
+            "worker_id": task["claim"].get("claimed_by"),
+            "lane": (
+                "structured"
+                if task.get("context", {}).get("structured_adapter_available") is True
+                else "manual"
+            ),
+            "provider": adapter.get("provider"),
+            "metrics": {
+                "jobs_fetched": len(jobs) if jobs is not None else None,
+                "qualifying_jobs": len(snapshot.get("qualifying_jobs", []))
+                if isinstance(snapshot.get("qualifying_jobs"), list)
+                else None,
+                "unresolved_candidates": len(snapshot.get("unresolved_candidates", []))
+                if isinstance(snapshot.get("unresolved_candidates"), list)
+                else None,
+            },
+        },
+        message=(
+            f"Result {result_path} passed schema, claim-scope, adapter identity, "
+            "and manual candidate-accounting preflight."
+        ),
+    )
+
+
+def preflight_job_result(paths: RepoPaths, result_path: Path) -> dict[str, Any]:
+    """Backward-compatible job-only preflight entry point."""
+    return preflight_result(paths, result_path)
 
 
 def _apply_company_result(
@@ -517,6 +736,7 @@ def finalize_result(paths: RepoPaths, result_path: Path) -> dict[str, Any]:
                     "target": result["target"],
                     "outcome": result["outcome"],
                     "queue_status": existing_task["status"],
+                    **_telemetry_task_fields(existing_task, result),
                 },
                 queue_delta={
                     "final_status": existing_task["status"],
@@ -617,6 +837,21 @@ def finalize_result(paths: RepoPaths, result_path: Path) -> dict[str, Any]:
         "created_at": prepared_at,
     }
     _append_audit(paths, event)
+    source_routing: dict[str, Any] | None = None
+    post_commit_warnings: list[str] = []
+    if workflow == "find_jobs" and result.get("reason_code") in {
+        "structured_source_not_found",
+        "structured_source_configuration_invalid",
+        "manual_source_enumeration_unsupported",
+    }:
+        try:
+            from .maintenance import enqueue_job_source_revalidations
+
+            source_routing = enqueue_job_source_revalidations(paths)
+        except Exception as exc:
+            post_commit_warnings.append(
+                f"Job result committed, but source revalidation routing failed: {exc}"
+            )
     try:
         full_progress = status_snapshot(paths)
         progress = {
@@ -627,9 +862,12 @@ def finalize_result(paths: RepoPaths, result_path: Path) -> dict[str, Any]:
         }
     except Exception as exc:  # Reporting must not invalidate a committed result.
         progress = {}
-        reporting_warnings = [f"Result committed, but progress footer was unavailable: {exc}"]
+        reporting_warnings = [
+            *post_commit_warnings,
+            f"Result committed, but progress footer was unavailable: {exc}",
+        ]
     else:
-        reporting_warnings = []
+        reporting_warnings = post_commit_warnings
     queue_delta = {
         "final_status": task_after["status"],
         "follow_up_task_id": follow_up["task_id"] if follow_up else None,
@@ -637,7 +875,12 @@ def finalize_result(paths: RepoPaths, result_path: Path) -> dict[str, Any]:
         "queue_revision": transition.revision,
     }
     if result.get("failure_class") in ENVIRONMENT_FAILURE_CLASSES:
-        queue_delta.update({"stop_batch": True, "retry_budget_consumed": False})
+        queue_delta.update({"stop_worker": True, "retry_budget_consumed": False})
+    if source_routing is not None:
+        queue_delta["source_revalidation"] = {
+            "created": source_routing["created_count"],
+            "augmented": source_routing["augmented_count"],
+        }
     return operation_report(
         f"{workflow}.finalize",
         task={
@@ -647,6 +890,7 @@ def finalize_result(paths: RepoPaths, result_path: Path) -> dict[str, Any]:
             "target": result["target"],
             "outcome": result["outcome"],
             "queue_status": task_after["status"],
+            **_telemetry_task_fields(task_after, result),
         },
         item_results=copy.deepcopy(result.get("item_results", [])),
         changes=changes,

@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:01:39Z",
+      "attempt_id": "attempt:e76fcef9-9e4d-4cfe-a94c-e6ca7079e181",
+      "result_digest": "8b0dc8623d68a9dcefdf57d6b9dc0ae9c53064a14c88eeadcdf45ee4c4eb81eb",
+      "task_id": "source:databricks-primary:luna:44ebbddbd1ea88e0",
+      "transaction_id": "txn:8b0dc8623d68a9dcefdf57d6"
+    }
+  ],
+  "company_id": "databricks",
+  "current_job_count": 856,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:00:11Z",
+  "last_successful_scan_at": "2026-08-31T04:00:11Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 193,
+    "location_outside_target_city": 592,
+    "title_explicitly_non_target_function": 222,
+    "total": 1007
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "databricks-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

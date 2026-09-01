@@ -1,0 +1,79 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:09:47Z",
+      "attempt_id": "attempt:7e1b2372-8f06-4cae-a6da-a218b0fb138c",
+      "result_digest": "04fc842c2e719538cfd3083c06d096fb416300501c1959a353832cee054141f0",
+      "task_id": "source:harper-primary:luna:28ba154b5e79f0a1",
+      "transaction_id": "txn:04fc842c2e719538cfd3083c"
+    }
+  ],
+  "company_id": "harper",
+  "current_job_count": 24,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/harperinsure/7d678dba-885a-4432-94c7-a9c20852db35",
+      "company_id": "harper",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 280000,
+        "minimum": 140000,
+        "period": "year",
+        "source_text": "$140K - $280K"
+      },
+      "compensation_text": "$140K - $280K",
+      "department": "Engineering",
+      "description_text": "THE PROBLEM 36 million businesses in America need insurance—it's not optional. 77% are underinsured. 40% have no coverage at all. The distribution system failed them: too slow, too opaque, too confusing. Over 90% of commercial insurance is still human-led. We're building the inverse: 90%+ AI-led, pushing toward the higher 90s. Not by patching legacy workflows—by building AI that makes humans more effective, improves the customer experience, and eliminates friction at every step. We're adding ~1,000 customers per month. We've grown 100x since last year. We're looking to do even more this year—and that's why we're hiring. You'll ship AI-powered product features end-to-end. Real systems, real users, real revenue—the same week you write the code. THE THESIS Turning judgment into compute isn't a one-time project. It's a constant hunt for leverage. New models drop monthly. What was impossible in January is table stakes by June. Someone needs to be on the frontier—figuring out what's newly possible and applying it before anyone else does. The best product engineers here don't just write features. They embed with the operators who live inside the systems—sales, service, underwriting—find where things break, and build the AI-powered solution before anyone else notices the problem. Your code doesn't sit in a repo. It runs the business. THE ROLE You're a full-stack engineer with applied-AI fluency. Frontend, backend, agents, evals—you move across the stack because the problems don't respect stack boundaries. You optimize for user and business impact, not code elegance. You treat AI tooling as a core part of the workflow, not a novelty. You work directly with founders. No committee. No approval chain. You build it, you ship it, you own the outcome. Prototype Monday, ship Tuesday, measure Wednesday. If it works, push to production. If not, try something else. We are hiring product engineers across all levels, which we determine during the interview process. WHAT YOU'LL DO - Ship AI-powered features end-to-end — Frontend, backend, agents, and evals; you own the whole thing, not a slice - Embed with operators — Sit with sales, service, and underwriting; find what's broken before they tell you - Build systems that compound — Every decision gets traced; every outcome feeds back; the AI gets smarter with each interaction - Stay on the frontier — New model drops? You're testing it that day. New capability lands? You're the one who ships it - Move fast with AI tooling — Cursor, Claude Code, and whatever comes next; manage multiple coding sessions to compress weeks into days - Own the metric, not the feature — \"We increased conversion by 15%,\" not \"we shipped the thing\" - Prove impact — Set up metrics, track results, present what worked to the company YOU MIGHT BE A FIT IF... - You get energy from user and business impact, not code elegance - You write code with AI (Cursor, Claude Code, Windsurf) and can manage multiple coding sessions - You're full-stack by instinct—frontend, backend, and the AI layer that makes decisions - You've shipped AI to production—real systems serving real users, not demos - You ship fast and iterate—meaningful features in days that others take months on - You can present to non-technical people and explain why a metric moved REQUIREMENTS - Software engineering experience shipping production systems (level determined during interviews) - Proficiency in Python, TypeScript, or similar - Experience building and shipping AI-powered features—LLM applications, agent pipelines, or workflow automation - Ability to work across the stack: frontend, backend, and the AI layer - Based in San Francisco or willing to relocate NICE TO HAVE - Voice AI or real-time systems experience - RAG, agent frameworks, or evaluation systems - Background in operations tooling, sales tech, or workflow automation - Prior startup experience COMPENSATION & LOGISTICS - Salary: $140,000–$280,000 depending on experience + performance bonuses & equity - Location: San Francisco, in-office. Based in SF or willing to relocate. - Schedule: Monday–Friday, very early morning start, in-office five days a week. - Benefits: Uber commuter benefits; breakfast, lunch, and dinner provided; snacks, drinks, and coffee daily; free gym membership; health, dental, and vision insurance. THE PROCESS 1. Technical screen — 60 min remote: project deep dive + system design 2. Super Day on-site — meet the team, sit in on the operation, do real work alongside us. TO APPLY If you want to build AI capabilities against business problems you discover yourself, ship code that runs a real business, and work with people who show up with the same intensity every day—send your resume and a link to something you've built that had measurable business impact.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T04:09:28Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T04:09:28Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-07-24T00:04:06Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "full-time employment",
+        "published USD annual base maximum $280,000",
+        "Product Engineer role ships AI-powered product features end-to-end"
+      ],
+      "source_id": "harper-primary",
+      "source_job_id": "7d678dba-885a-4432-94c7-a9c20852db35",
+      "stable_id": "job-a4e3a3fcf2414787eece85b4",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Product Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T04:09:28Z",
+  "last_successful_scan_at": "2026-08-31T04:09:28Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 15,
+    "compensation_period_mismatch": 1,
+    "compensation_unknown": 1,
+    "title_explicitly_excluded": 1,
+    "title_explicitly_non_target_function": 9,
+    "total": 23,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "harper-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:24:37Z",
+      "attempt_id": "attempt:bf4865f7-ec9c-48ab-9583-d2c9724b0f50",
+      "result_digest": "b8d9bbc38151ca4665aa064e145d2cd5eed2dec99ded93e763916de609a36dc0",
+      "task_id": "source:sixth-street-primary:luna:544d1a61ed0a59fd",
+      "transaction_id": "txn:b8d9bbc38151ca4665aa064e"
+    }
+  ],
+  "company_id": "sixth-street",
+  "current_job_count": 20,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:24:23Z",
+  "last_successful_scan_at": "2026-08-31T15:24:23Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 17,
+    "semantic_non_target": 3,
+    "title_explicitly_non_target_function": 15,
+    "total": 20
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "sixth-street-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

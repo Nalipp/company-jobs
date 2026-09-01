@@ -14,20 +14,39 @@ Never directly edit canonical or queue JSON during operational work. All mutatio
 
 ## User workflows
 
-- `$validate-companies --claim-next luna|terra|sol`
-- `$validate-companies --claim-next luna|terra|sol --batch-size 1..75`
+- `$validate-companies --run luna|terra|sol`
+- `$validate-companies --claim-next luna|terra|sol` (single-task diagnostic)
 - `$validate-companies --audit-and-enqueue`
 - `$validate-companies --recover-stale`
-- `$find-jobs --claim-next luna|terra|sol`
-- `$find-jobs --claim-next luna|terra|sol --batch-size 1..20`
+- `$find-jobs --run luna|terra|sol --lane structured|manual`
+- `$find-jobs --claim-next luna|terra|sol --lane structured|manual` (single-task diagnostic)
 - `$find-jobs --audit-and-enqueue`
 - `$find-jobs --recover-stale`
 - `$daily-jobs-status`
 - `.venv/bin/v4-queue next-commands` (read-only terminal planner)
+- `.venv/bin/v4-queue telemetry` (read-only local worker-history summary)
 
 Each claimed task is an absolute scope boundary. A worker must possess the current claim token and target revision to finalize. Never copy work from another target into a result.
 
-Batch commands are sequential agent loops, not multi-target queue tasks. Finalize the current task before the next claim. Use one unique `claimed_by` batch label throughout the loop. A systemic or finalization error stops further claims; successfully finalized item-level outcomes may continue. Run structured `jobs prepare-result` calls with approved network access. `environment_network`/`stop_batch: true` is a mandatory circuit breaker and does not consume a source retry.
+Run commands are persistent workers, not multi-target queue tasks. Before the
+first claim, create a persisted Codex goal containing one unique worker label,
+workflow, model, and the requirement to continue until `queue_empty` or a
+documented systemic stop. Reuse that goal and label across automatic
+continuations. A rollout boundary is not worker completion.
+
+Finalize the current task before the next claim. Successfully finalized item
+outcomes must continue. Run structured `jobs prepare-result` calls with
+approved network access. `environment_network`/`stop_worker: true` is a
+mandatory circuit breaker and does not consume a source retry.
+
+Before every `jobs finalize`, run `jobs preflight-result --result RESULT_PATH`.
+It is read-only and validates the active claim, target/profile scope, normalized
+job ownership and stable IDs, and manual candidate accounting. If it fails,
+repair that exact result or stop; never submit the malformed result to finalize.
+
+Job workers must stay in their claimed lane. The structured helper must never
+be used for a manual source. Claim a task only when ready to process it in the
+same continuation; never pre-claim the next task before yielding.
 
 ## Safety invariants
 
@@ -39,6 +58,7 @@ Batch commands are sequential agent loops, not multi-target queue tasks. Finaliz
 - Luna/Terra/Sol escalation is only for `inconclusive`. Access failures retry or block at the same model.
 - Sol inconclusive requires human review and creates no further task.
 - Replayed enqueue, audit, and result operations must be idempotent.
+- Release a known stopped agent's unexpired claim only through the exact-task `abandon` command; use `recover-stale` after expiry.
 - Do not mutate `/Users/natelipp/ai-code/_v3_daily-jobs`; it is migration provenance only.
 
 ## Verification
@@ -56,3 +76,8 @@ cd /Users/natelipp/ai-code/_v4_daily-jobs
 ```
 
 Routine completion output must state per-item outcomes, canonical changes, queue transition/follow-up, warnings, and the deterministic progress footer. Do not perform extra research solely to prepare a summary.
+
+Queue-helper operations automatically write compact events under
+`data/telemetry/`. Do not put claim tokens, prompts, evidence, instructions, or
+job descriptions into telemetry. Telemetry is observability only and must never
+be used as canonical input or edited to affect workflow state.

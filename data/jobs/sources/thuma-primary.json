@@ -1,0 +1,35 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:29:38Z",
+      "attempt_id": "attempt:bd56ade6-6222-41c1-82da-d383422b5b46",
+      "result_digest": "1b9b3111786673879262b078171484352b483c37879d27323e8acb2448ba968c",
+      "task_id": "source:thuma-primary:luna:4f6f0a78f1d1f5ab",
+      "transaction_id": "txn:1b9b3111786673879262b078"
+    }
+  ],
+  "company_id": "thuma",
+  "current_job_count": 23,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:29:23Z",
+  "last_successful_scan_at": "2026-08-31T15:29:23Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 8,
+    "compensation_period_mismatch": 12,
+    "employment_part-time_excluded": 1,
+    "location_outside_target_city": 10,
+    "semantic_non_target": 3,
+    "total": 23,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "thuma-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

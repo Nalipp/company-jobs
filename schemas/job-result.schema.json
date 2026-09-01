@@ -20,6 +20,7 @@
     "snapshot": {"oneOf": [{"$ref": "#/$defs/snapshot"}, {"type": "null"}]},
     "item_results": {"type": "array", "items": {"type": "object"}},
     "failure_class": {"oneOf": [{"enum": ["network", "environment_network", "authentication", "rate_limit", "robots", "source_access", "timeout", "invalid_output", "conflict", "other"]}, {"type": "null"}]},
+    "retryable": {"type": "boolean"},
     "notes": {"oneOf": [{"type": "string"}, {"type": "null"}]}
   },
   "$defs": {
@@ -79,6 +80,19 @@
         },
         "unresolved_candidates": {"type": "array", "items": {"type": "object"}},
         "rejection_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "semantic_decisions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["stable_id", "decision", "review_notes"],
+            "properties": {
+              "stable_id": {"type": "string", "minLength": 1},
+              "decision": {"enum": ["qualifying", "rejected", "inconclusive"]},
+              "review_notes": {"type": "string", "minLength": 1}
+            }
+          }
+        },
         "warnings": {"type": "array", "items": {"type": "string"}}
       }
     }

@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:35:45Z",
+      "attempt_id": "attempt:cd59abe4-33f8-48f3-bc58-dff3ba3afd99",
+      "result_digest": "aa001207f2d81d61dff9410e207f92d1cad0776a32a99673005895ed701356ea",
+      "task_id": "source:clever-primary:luna:3daa1921b8885f57",
+      "transaction_id": "txn:aa001207f2d81d61dff9410e"
+    }
+  ],
+  "company_id": "clever",
+  "current_job_count": 7,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:35:29Z",
+  "last_successful_scan_at": "2026-08-31T03:35:29Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 1,
+    "role_fit_excluded": 3,
+    "title_explicitly_non_target_function": 3,
+    "total": 7
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "clever-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

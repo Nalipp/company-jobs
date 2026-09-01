@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:35:01Z",
+      "attempt_id": "attempt:b59c55dd-0a9f-4095-ae9c-a0bf9d9e44c6",
+      "result_digest": "5eafeefdeb4231ca4d55e998dd4561c3ed207ffff50015bc3c4a46b71d473e27",
+      "task_id": "source:clarify-health-lever:luna:e11e121bffbc9c1f",
+      "transaction_id": "txn:5eafeefdeb4231ca4d55e998"
+    }
+  ],
+  "company_id": "clarify-health-solutions",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:34:56Z",
+  "last_successful_scan_at": "2026-08-31T03:34:56Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 3,
+    "location_outside_target_city": 5,
+    "title_explicitly_non_target_function": 3,
+    "total": 5,
+    "workplace_remote_excluded": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "clarify-health-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:29:00Z",
+      "attempt_id": "attempt:8902bdbe-0318-42e3-a309-1ac11f977d16",
+      "result_digest": "f3317975a67a5955e230a694815d458889815e4bdd8507b613ec4e89ab607289",
+      "task_id": "source:astranis-primary:luna:6c5eb3941cc44e79",
+      "transaction_id": "txn:f3317975a67a5955e230a694"
+    }
+  ],
+  "company_id": "astranis",
+  "current_job_count": 91,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:28:34Z",
+  "last_successful_scan_at": "2026-08-31T03:28:34Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 80,
+    "title_explicitly_non_target_function": 11,
+    "total": 91
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "astranis-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

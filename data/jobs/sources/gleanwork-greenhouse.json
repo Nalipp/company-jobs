@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:07:52Z",
+      "attempt_id": "attempt:64e7f603-144c-4305-9e3b-12ee7629b0e1",
+      "result_digest": "da2dfeec0d3cb6163840dee59acbbdd9f0e441fd8e73580d964ad4e45b331eff",
+      "task_id": "source:gleanwork-greenhouse:luna:8e7bbab1197fa227",
+      "transaction_id": "txn:da2dfeec0d3cb6163840dee5"
+    }
+  ],
+  "company_id": "glean",
+  "current_job_count": 110,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:07:31Z",
+  "last_successful_scan_at": "2026-08-31T04:07:31Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 19,
+    "location_outside_target_city": 77,
+    "title_explicitly_non_target_function": 52,
+    "total": 148
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "gleanwork-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

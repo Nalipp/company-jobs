@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:14:08Z",
+      "attempt_id": "attempt:8febe838-0804-481d-ad84-4d26c62b0871",
+      "result_digest": "c6153898cb81b25f70ee24e8ceafb1604ce4838c9ba6d1a6c633a29fb94a1d2c",
+      "task_id": "source:pave-primary:luna:3509d11fd65e8748",
+      "transaction_id": "txn:c6153898cb81b25f70ee24e8"
+    }
+  ],
+  "company_id": "pave",
+  "current_job_count": 18,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:13:59Z",
+  "last_successful_scan_at": "2026-08-31T15:13:59Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 14,
+    "title_explicitly_non_target_function": 4,
+    "total": 18
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "pave-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

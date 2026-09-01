@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:07:31Z",
+      "attempt_id": "attempt:3f576b2c-5310-4efb-a5ef-ca4b7c26d4a1",
+      "result_digest": "e23e86012166d589c7e0febfc1ed85f7f76aefffb989c1cca0da9af0ee405368",
+      "task_id": "source:gladly-greenhouse:luna:291a4ac571c884c5",
+      "transaction_id": "txn:e23e86012166d589c7e0febf"
+    }
+  ],
+  "company_id": "gladly",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:07:28Z",
+  "last_successful_scan_at": "2026-08-31T04:07:28Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "gladly-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

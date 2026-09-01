@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T02:50:46Z",
+      "attempt_id": "attempt:c59e6aaf-82cb-4c25-8d42-b1353c405288",
+      "result_digest": "d7dab7ddabf433f96e7c3e28c81bf57630b65d06bd1e3cd05a7bd52ae1ae61fc",
+      "task_id": "source:artie-primary:luna:acc731d0b3888dbb",
+      "transaction_id": "txn:d7dab7ddabf433f96e7c3e28"
+    }
+  ],
+  "company_id": "artie",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T02:50:06Z",
+  "last_successful_scan_at": "2026-08-31T02:50:06Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "ai_involvement_insufficient": 2,
+    "compensation_below_profile_threshold": 1,
+    "role_not_in_profile": 2,
+    "total": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "artie-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

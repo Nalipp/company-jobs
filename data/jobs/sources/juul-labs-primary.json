@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:58:29Z",
+      "attempt_id": "attempt:3907d0f9-5be6-4eeb-992f-bf15de781abd",
+      "result_digest": "5d828357b00a48fcec37a3407ec04d4c47f4336cc0e95eb9d8770175aa9907da",
+      "task_id": "source:juul-labs-primary:luna:9062edff55177231",
+      "transaction_id": "txn:5d828357b00a48fcec37a340"
+    }
+  ],
+  "company_id": "juul-labs",
+  "current_job_count": 13,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:58:16Z",
+  "last_successful_scan_at": "2026-08-31T14:58:16Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 4,
+    "location_outside_target_city": 8,
+    "title_explicitly_non_target_function": 4,
+    "total": 13
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "juul-labs-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

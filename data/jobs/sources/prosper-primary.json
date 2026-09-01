@@ -1,0 +1,76 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:17:45Z",
+      "attempt_id": "attempt:63134ac8-114c-44c1-a0ed-abd2dae862f7",
+      "result_digest": "a7592bde5bf416b5f8bae5cecc75671dc58dd6d126e188645c3ce36021c03ab8",
+      "task_id": "source:prosper-primary:luna:4660397097340ce9",
+      "transaction_id": "txn:a7592bde5bf416b5f8bae5ce"
+    }
+  ],
+  "company_id": "prosper",
+  "current_job_count": 12,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.lever.co/prosper/81a671cd-2902-4b7d-9f18-064e06200b9f",
+      "company_id": "prosper",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 205000,
+        "minimum": 173000,
+        "period": "year",
+        "source_text": "USD 173000-205000 / year"
+      },
+      "compensation_text": "The salary for this position is $173,000 - $205,000 annually, plus bonus and generous benefits. In determining your salary, we will consider your location, experience, and other job-related factors.",
+      "department": "Technology",
+      "description_text": "Your role in our mission At Prosper, we're building the technology that makes borrowing simpler, faster, and more transparent. Our vision is to advance financial well-being by democratizing access to credit -- meeting people wherever they are, on any device. We're looking for exceptional talent to help us get there. As a Senior Frontend Engineer on the Personal Loans team, you will own the borrower-facing experiences that drive Prosper's core business -- from rate check through funding. Using modern web and mobile technologies, you will build and maintain the applications that guide borrowers through one of the most important financial decisions they'll make. Your work will directly impact conversion, borrower satisfaction, and Prosper's top-line growth. We are investing heavily in AI across our engineering organization -- from AI-assisted development workflows to intelligent borrower experiences. You'll be joining a team that actively embraces AI tools to accelerate delivery, improve code quality, and explore new ways to make the borrower journey smarter and more personalized. How you’ll make an impact Collaborate within a cross-functional team that includes product, design, backend engineering, and quality engineers to deliver seamless borrower experiences across web and mobile. Own projects end to end -- from technical design and architecture through launch, iteration, and measurement -- driving outcomes that move the business forward. Build and evolve our React and React Native applications within a pnpm/Turborepo monorepo, shipping features that work beautifully on every platform. Design and maintain shared component libraries and cross-platform modules that accelerate development across multiple product teams. Partner with backend and platform engineering teams to integrate with GraphQL and RESTful APIs in a performant, reliable, and secure manner. Identify and drive improvements in performance, testing, accessibility, and developer experience that make the entire team more effective. Uphold high standards of code quality and user experience while iterating rapidly in a regulated environment. Leverage AI-powered tools (coding assistants, automated testing, code review) to amplify your productivity and help establish best practices for AI-assisted development across the team. Contribute to a strong, inclusive engineering culture by mentoring peers, championing best practices, and participating in thoughtful code reviews. Skills that will help you thrive BS in EE/CS with 8+ years of experience or MS in EE/CS or other applicable disciplines with 6+ years of experience Deep proficiency in React , React Native , and TypeScript , with the versatility to move seamlessly between web and mobile platforms if applicable. Hands-on experience with GraphQL (Apollo) and RESTful APIs to power high-performance applications. Familiarity with monorepos (pnpm, Turborepo), bundlers (Vite), and CI/CD pipelines to maintain a high-velocity development environment. Disciplined approach to automated testing using tools like Jest, Playwright, or Detox to ensure systems are meticulous and trustworthy. Active use of AI coding assistants (Cursor, Copilot) and a commitment to exploring new AI developments to enhance team productivity and solve product problems. A sharp eye for UX/UI polish, ensuring high-stakes financial flows feel intuitive, professional, and reliable. A proactive, high-accountability approach to driving projects to completion and unblocking yourself to deliver outcomes, not just outputs. A deep focus on the \"borrower behind the screen,\" sweating the details to maintain trust in a domain where financial accuracy is paramount. Excellence in cross-functional communication and a dedication to elevating the team through clear mentorship and knowledge sharing. Extra credit Experience with Expo and mobile deployment workflows (App Store, Google Play). Familiarity with cross-platform styling systems (Tamagui, styled-components). Background in fintech, lending, or other regulated industries. Experience with feature flagging, A/B testing, and data-driven product development. Native mobile development experience (Swift/Kotlin). Resources to help you prosper A hybrid connection: We believe in the \"best of both worlds\" - a hybrid environment (2 days/week in our SF office) that balances high-touch collaboration with the flexibility of remote work. Invested in your future: A competitive salary and a 401(k) with a 5% company match to help you build long-term financial security. Holistic well-being: We provide the resources you need to thrive, from flexible time off and paid parental leave to an annual wellness allowance and comprehensive health coverage. Professional & personal growth: Take advantage of a suite of premium perks, including Udemy access, childcare assistance, pet insurance, and a bevy of additional savings through Beneplace. Interview Process Recruiter Call: A brief screening to discuss your experience and initial questions Technical Interview: Deeper dive into coding skills. Team Interview: Meet team members for collaborative discussions, problem-solving, or technical exercises. #LI-AW1 #IND1 About Our Technology Team We are growing our Technology team to support our various financial products. The ideal candidate is passionate about learning the Fintech domain and delivering cutting-edge, high-quality solutions to solve business problems. We utilize a progressive, test-driven, Agile development methodology that places a high premium on communication, teamwork, sound design and clean implementation. About Us Prosper introduced U.S. consumers to an innovative approach to personal finance as the first peer-to-peer lending platform in the country. Since 2005, Prosper has helped over 2 million customers achieve financial well-being through a comprehensive suite of digital personal finance products. Prosper’s flagship personal loan* marketplace continues to offer unique value for both borrowers and investors, while the Prosper® Card¹ provides essential access to credit and flexibility for those managing their financial journey. Guided by its mission to advance financial well-being, Prosper is dedicated to helping people thrive by meeting people where they are with simple, trusted, and affordable financial solutions. Learn more at www.prosper.com. We’re on a mission to hire the very best, and we are committed to creating exceptional employee experiences where everyone is respected and has access to equal opportunity. We realize that new ideas can come from everywhere. It is important to us that every hire connects with our vision, mission, and core values. Join a leading fintech company that’s democratizing finance for all! Our Values Diversity expands opportunities Collaboration creates better solutions Curiosity fuels our innovation Integrity defines all our relationships Excellence leads to longevity Simplicity guides our user experience Accountability at all levels drives results www.prosper.com Our Story & Team // Our Blog Applicants have rights under Federal Employment Laws. Family & Medical Leave Act (FMLA) Equal Employment Opportunity (EEO) Employee Polygraph Protection Act (EPPA) California applicants: please click here to view our California Consumer Privacy Act (“CCPA”) Notice for Applicants, which describes your rights under the CCPA. Illinois applicants: please click here to view our Artificial Intelligence Notice for Applicants. At Prosper, we're looking for people with passion, integrity, and a hunger to learn. We encourage you to apply even if your experience doesn't precisely match the job description. Your unique skill set and diverse perspective will stand out and set you apart from other candidates. Prosper thrives with people who think outside of the box and aren't afraid to challenge the status quo. We invite you to join us on our mission to advance financial well-being. Prosper is committed to an inclusive and diverse workplace. All aspects of employment including the decision to hire, promote, discipline, or discharge, will be based on merit, competence, performance, and business needs. We do not discriminate on the basis of race, color, religion, marital status, age, national origin, ancestry, physical or mental disability, medical​​​ condition, pregnancy, genetic information, gender, sexual orientation, gender identity or expression, veteran status, or any other status protected under federal, state, or local law, including the San Francisco Fair Chance Ordinance. Prosper will consider for employment qualified applicants who are non-US citizens and will provide green card sponsorship. *All personal loans are made by WebBank. ¹The Prosper® Card is an unsecured credit card issued by Coastal Community Bank, Member FDIC, pursuant to license by Mastercard® International.",
+      "employment_text": "Full-Time Employee",
+      "employment_type": "full-time employee",
+      "first_seen_at": "2026-08-31T15:17:26Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:17:26Z",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "posted_at": "2026-08-26T18:31:47Z",
+      "provider": "lever",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "hybrid workplace",
+        "full-time React/React Native frontend role",
+        "published USD annual base maximum $205,000",
+        "official posting describes intelligent borrower experiences and AI-powered engineering tools"
+      ],
+      "source_id": "prosper-primary",
+      "source_job_id": "81a671cd-2902-4b7d-9f18-064e06200b9f",
+      "stable_id": "job-e671995650ed624c678cbe80",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Sr. Software Engineer, React/ React Native",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:17:26Z",
+  "last_successful_scan_at": "2026-08-31T15:17:26Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 5,
+    "location_outside_target_city": 1,
+    "title_explicitly_non_target_function": 4,
+    "total": 12,
+    "workplace_remote_excluded": 7
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "prosper-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

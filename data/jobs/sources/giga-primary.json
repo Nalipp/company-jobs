@@ -1,0 +1,143 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:07:26Z",
+      "attempt_id": "attempt:71934a90-ef89-4b85-be40-9e12402b5bce",
+      "result_digest": "705709a13eea7f2ebc235cf58c2adb823e374fce1858f66fbc1c06e169bfa278",
+      "task_id": "source:giga-primary:luna:f4870410ada736f9",
+      "transaction_id": "txn:705709a13eea7f2ebc235cf5"
+    }
+  ],
+  "company_id": "giga",
+  "current_job_count": 30,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/gigaml/0bd3cb15-811f-4a6b-ac12-781f24735a86",
+      "company_id": "giga",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 400000,
+        "minimum": 180000,
+        "period": "year",
+        "source_text": "$180K - $400K"
+      },
+      "compensation_text": "$180K - $400K",
+      "department": "Engineering",
+      "description_text": "ABOUT GIGA Giga has recently raised a $61M Series A and is working with Fortune 500 customers to deploy the next generation of customer experience - real-time AI agents that can understand emotion, resolve issues instantly, and scale across the world's largest enterprises. Industry leaders like DoorDash trust Giga with their most complex support and operations workflows across voice, chat, and email, in high-stakes regulated environments where accuracy and compliance matter. We're at an exciting inflection point. While we've found real commercial success, our ambitions are larger: to become the go-to AI platform for all enterprise automation, powered by our voice superintelligence. The work affects millions of people every day, and our team has the autonomy to make true impact - with brilliant founders, a clear path forward, and the kind of momentum that defines generational companies. If being part of that resonates with you, we'd love to hear from you! - Voice AI startup Giga raises $61M Series A https://fortune.com/2025/11/05/voice-ai-giga-raise-61-million-customer-service-series-a/ - DoorDash and Giga Partnership https://www.linkedin.com/feed/update/urn:li:activity:7391576181009018883/ ABOUT THE ROLE We're seeking a Forward Deployed Engineer to join our San Francisco team. You'll serve as the technical interface and project leader between Giga and our customers, building and deploying sophisticated AI-driven solutions at scale. WHAT YOU’LL DO - Lead customer engagements from start to end: run discovery calls & demos, align business/technical stakeholders on milestones, oversee the deployment/maintenance of world class agents, and serve as the primary PoC who drives meetings and removes blockers. - Design & ship production-ready AI agents: work with large-scale data, write backend code, build integrations, and deploy to cloud infrastructure. - Own the full agent development life cycle: prototype quickly, set up CI/CD, monitor live usage, iterate to targets, and document best practices to speed up future projects. - Mentorship: Manage and mentor agent engineers to grow into project leaders, while maintaining an exceedingly high bar for excellence. Debug live issues in real-time, unlock business opportunities, and help win, retain, and grow customers. - Close the feedback loop with product & platform: capture unmet needs, prototype new features, and collaborate with core teams to strengthen the platform for all customers. WHO YOU ARE / MUST-HAVES - Know the Stack: Understanding of React, Python, tool calls, APIs, etc. - Interpersonally Acumen: Able to solve problems in a people-centric manner, communicate effectively, and operate with a low ego. Must have experience in customer-facing roles. - Strong Background: Computer science degree or industry-equivalent experience and customer facing experience (e.g. consulting); 4+ years of total managerial experience. - Entrepreneurial: Preference for candidates with experience at successful startups - former founders are especially valued; ability to context switch constantly and rapidly; high bar for quality work. - Gritty: Capable of working long productive hours; very high attention to detail; can own a project end-to-end with limited or no guidance. - Experienced: 4+ years customer facing experience; 4+ years of hands-on engineering experience. INTERVIEW PROCESS - Intro call with Sr/Staff FDE (20 mins) - Analytical & Behavioral Interview (1hr 45 mins) - In-office Interview (full day) PERKS & BENEFITS - Competitive base + bonus + equity - Catered lunch daily - Dinner stipend - $500/month wellness & commuter benefit (gym, fitness classes, mental health) - 401(k) plan - Medical, dental, and vision coverage --- Giga is an equal opportunity employer. We're committed to providing equal employment opportunities regardless of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other characteristic protected by law.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T04:07:04Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T04:07:04Z",
+      "locations": [
+        "San Francisco",
+        "California, San Francisco, United States",
+        "New York"
+      ],
+      "posted_at": "2025-07-03T06:26:29Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "giga-primary",
+      "source_job_id": "0bd3cb15-811f-4a6b-ac12-781f24735a86",
+      "stable_id": "job-003076473a53768b49335736",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Senior / Staff Forward Deployed Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/gigaml/96f0c2f8-3d97-4763-ab46-b6af6ad8b2e7",
+      "company_id": "giga",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 250000,
+        "minimum": 160000,
+        "period": "year",
+        "source_text": "$160K - $250K"
+      },
+      "compensation_text": "$160K - $250K",
+      "department": "Engineering",
+      "description_text": "ABOUT GIGA Giga has recently raised a $61M Series A and has several paying customers, including DoorDash. We’re building the next generation of customer experience — real-time AI agents that can understand emotion, resolve issues instantly, and scale across the world’s largest enterprises. It’s an exciting inflection point for the company. While we have been successful, we have larger ambitions. Our goal is to become the go-to AI platform for all enterprise automation, powered by our voice superintelligence. To achieve this, we need more great engineers. The work affects millions of people every day and our engineers have autonomy and make true impact. This opportunity is unique because we have brilliant founders, have found commercial success, and see a clear path to becoming a generational company. Some further info about us: - Voice AI startup Giga raises $61M Series A https://fortune.com/2025/11/05/voice-ai-giga-raise-61-million-customer-service-series-a/ - DoorDash and Giga Partnership https://www.linkedin.com/feed/update/urn:li:activity:7391576181009018883/ Giga builds AI agents trusted by the largest B2C companies in the world. Industry leaders like DoorDash trust Giga with their most complex support and operations workflows across voice, chat, and email. If being a part of this resonates with you, please apply! THE ROLE We're looking for software engineers to help build the systems that power our AI agents. You'll work across the backend, from data pipelines and integrations to agent infrastructure, shipping features alongside experienced engineers who will help you grow. This is a role where you'll contribute to real problems from day one. We expect you to ramp up quickly, take ownership of your work, and operate with increasing independence as you learn the codebase. WHAT YOU'LL WORK ON You'll contribute to projects across our stack. Some examples: - Atlas: Building features for our AI assistant: charts and alerts in Slack, natural language queries, and expanding Atlas to manage platform resources - Activity Stream: Log visualization with filters, timestamps, and frequency charts to give visibility into agent behavior - Dynamic knowledge: Adding time-based knowledge (like ongoing incidents) that auto-updates from sources like status pages - Agent memory: Conversation awareness and recent interaction lookups so agents remember context across sessions As an early-career engineer, you'll be paired with senior engineers on larger initiatives while also owning smaller projects end-to-end as you ramp up. YOU MIGHT BE A FIT IF YOU - Have 1-3 years of professional software engineering experience - Are curious and ask good questions—you want to understand why things work, not just how - Can take feedback well and iterate quickly - Prefer shipping over perfection but still care about quality - Want to grow at a startup where you'll have real responsibility early PERKS & BENEFITS - Competitive base + bonus + equity - Catered lunch daily - Dinner stipend - $500/month wellness & commuter benefit (gym, fitness classes, mental health) - 401(k) plan - Medical, dental, and vision coverage Giga is an equal opportunity employer. We're committed to providing equal employment opportunities regardless of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other characteristic protected by law.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T04:07:04Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T04:07:04Z",
+      "locations": [
+        "San Francisco",
+        "California, San Francisco, United States"
+      ],
+      "posted_at": "2025-05-14T12:09:37Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "giga-primary",
+      "source_job_id": "96f0c2f8-3d97-4763-ab46-b6af6ad8b2e7",
+      "stable_id": "job-0079c64083f32f6d382ffc08",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Software Engineer I / II",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/gigaml/0877d6bc-af0a-4fe4-8289-db2bd75c195d",
+      "company_id": "giga",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 280000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $280K"
+      },
+      "compensation_text": "$200K - $280K",
+      "department": "Engineering",
+      "description_text": "ABOUT GIGA Giga has recently raised a $61M Series A and has several paying customers, including DoorDash. We’re building the next generation of customer experience — real-time AI agents that can understand emotion, resolve issues instantly, and scale across the world’s largest enterprises. It’s an exciting inflection point for the company. While we have been successful, we have larger ambitions. Our goal is to become the go-to AI platform for all enterprise automation, powered by our voice superintelligence. To achieve this, we need more great engineers. The work affects millions of people every day and our engineers have autonomy and make true impact. This opportunity is unique because we have brilliant founders, have found commercial success, and see a clear path to becoming a generational company. Some further info about us: - Voice AI startup Giga raises $61M Series A https://fortune.com/2025/11/05/voice-ai-giga-raise-61-million-customer-service-series-a/ - DoorDash and Giga Partnership https://www.linkedin.com/feed/update/urn:li:activity:7391576181009018883/ If being a part of this resonates with you, please apply! WHY JOIN US IN THIS ROLE? - Momentum: Be a part of a team that has seen validation from both customers and investors alike - Ownership: Be a key contributor to cutting-edge projects transforming industries and influence the company’s technical & product direction - Growth: Develop yourself alongside top-tier engineers and founders MORE ABOUT THE ROLE We’re seeking a seasoned Senior Frontend Engineer with deep prior experience with building functional & visually appealing user experiences and features. You’ll lead the design & development of our frontend applications that customers interact with daily — working closely with product, design, and backend engineers. WHAT YOU’LL DO - Own the Frontend: Rapidly contribute to our products & lead development of design systems. - Craft Seamless UX: Build responsive, accessible, and high-performance interfaces for enterprise users. - Translate Vision into Launches: Partner with founders and cross-functional teams to turn big ideas into clear plans, drive sprints, and land high-impact releases. - Technical Leadership: Drive technical decisions and architecture design, shaping the foundation of our solutions. WHO YOU ARE / MUST-HAVES - Exceptional Frontend Engineer: 5-7 years of experience with Javascript/TypeScript, React, and Next.js - UI/Design System Skills: Comfortable implementing design systems & working closely with designers. - Entrepreneurial: Preference for candidates with experience at successful startups — former founders are especially valued - Strong Background: Degree from a top-tier engineering program - Ownership: You thrive in high-autonomy environments and take pride in shipping production-grade work. - Committed: Willing to be present in-office for all work days. No remote. Interview Process - Screening call w/ Recruiting Lead (20 min) - Intro call w/ Founding Engineer (15 min) - Live coding round w/ Founding Engineer (1 hr) - In-office interview (full day) PERKS & BENEFITS - Competitive base + bonus + equity - Catered lunch daily - Dinner stipend - $500/month wellness & commuter benefit (gym, fitness classes, mental health) - 401(k) plan - Medical, dental, and vision coverage --- Giga is an equal opportunity employer. We're committed to providing equal employment opportunities regardless of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other characteristic protected by law.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T04:07:04Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T04:07:04Z",
+      "locations": [
+        "San Francisco",
+        "California, San Francisco, United States"
+      ],
+      "posted_at": "2025-10-17T05:37:58Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "giga-primary",
+      "source_job_id": "0877d6bc-af0a-4fe4-8289-db2bd75c195d",
+      "stable_id": "job-2d52e23a8b75276166cf4f8b",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Senior Frontend Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T04:07:04Z",
+  "last_successful_scan_at": "2026-08-31T04:07:04Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "location_outside_target_city": 16,
+    "title_explicitly_non_target_function": 21,
+    "total": 30,
+    "workplace_remote_excluded": 10
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "giga-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:19:29Z",
+      "attempt_id": "attempt:fc4069c8-2123-4289-aaec-8b9908af119a",
+      "result_digest": "e139cb1ce6c565ec54a0a3993199dcca546443d4063fedc549f3292948025e39",
+      "task_id": "source:applied-compute-ashby:luna:daf4eefaa958edb9",
+      "transaction_id": "txn:e139cb1ce6c565ec54a0a399"
+    }
+  ],
+  "company_id": "applied-compute",
+  "current_job_count": 12,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:19:04Z",
+  "last_successful_scan_at": "2026-08-31T03:19:04Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "ai_involvement_not_job_specific": 9,
+    "compensation_below_threshold_or_unknown": 9,
+    "role_fit_not_product_engineering": 9,
+    "title_explicitly_non_target_function": 3,
+    "total": 30
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "applied-compute-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

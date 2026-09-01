@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:20:10Z",
+      "attempt_id": "attempt:83889777-25bc-4f4e-800c-9bf0c62ca605",
+      "result_digest": "760dfb43a97b0b7c8db40566772cdad1fdc90a97527fb307266f38c12b97f717",
+      "task_id": "source:opengov-primary:luna:0917938d339416b5",
+      "transaction_id": "txn:760dfb43a97b0b7c8db40566"
+    }
+  ],
+  "company_id": "opengov",
+  "current_job_count": 54,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:19:36Z",
+  "last_successful_scan_at": "2026-08-31T22:19:36Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "location_mismatch": 20,
+    "role_or_employment_mismatch": 34
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "opengov-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

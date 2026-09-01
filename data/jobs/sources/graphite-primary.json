@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:29:12Z",
+      "attempt_id": "attempt:5e52e8bb-1880-46a1-a9b5-810fbbecf265",
+      "result_digest": "d845a3282b0f4694b01f9bc539f1f814ad4c129a353153b85a8e57dd5a5d5bd9",
+      "task_id": "source:graphite-primary:luna:9a9dbd8e0fc21058",
+      "transaction_id": "txn:d845a3282b0f4694b01f9bc5"
+    }
+  ],
+  "company_id": "graphite",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T23:58:00Z",
+  "last_successful_scan_at": "2026-08-31T23:58:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "ai_or_compensation_or_role_mismatch": 7
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "graphite-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

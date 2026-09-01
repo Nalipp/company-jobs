@@ -69,16 +69,15 @@ def _enqueue_same(path_string: str) -> bool:
     return engine.enqueue(task, now=T0).changed
 
 
-def _process_sequential_batch(
+def _drain_worker(
     path_string: str,
-    limit: int,
     claimed_by: str,
 ) -> list[str]:
-    """Model the skill loop: claim one, finalize it, then claim another."""
+    """Model a persistent worker: claim/finalize until no due task remains."""
 
     engine = QueueEngine(path_string, "company", lock_timeout=15)
     completed: list[str] = []
-    for _index in range(limit):
+    for _index in range(1000):
         claim = engine.claim_next(
             "luna",
             claimed_by=claimed_by,
@@ -96,6 +95,8 @@ def _process_sequential_batch(
             now=T0 + timedelta(minutes=2),
         )
         completed.append(claim.task["task_id"])
+    else:
+        raise AssertionError("drain worker exceeded its test safety bound")
     return completed
 
 
@@ -173,6 +174,39 @@ def test_mixed_model_claims_never_cross_model_scope(tmp_path: Path) -> None:
         assert claim.task["target"]["company_ids"] == [f"{model}_company"]
 
 
+def test_job_lane_claims_are_atomic_and_do_not_cross_execution_modes(tmp_path: Path) -> None:
+    engine = QueueEngine(tmp_path / "job-queue.json", "find_jobs")
+    engine.initialize()
+    structured = engine.build_task(
+        company_id="structured-company",
+        source_id="structured-source",
+        reason_codes=["missing_snapshot"],
+        policy_version="job_search_v1",
+        target_revision=1,
+        context={"structured_adapter_available": True},
+        created_at=T0,
+    )
+    manual = engine.build_task(
+        company_id="manual-company",
+        source_id="manual-source",
+        reason_codes=["missing_snapshot"],
+        policy_version="job_search_v1",
+        target_revision=1,
+        context={"structured_adapter_available": False},
+        created_at=T0,
+    )
+    engine.enqueue_many((structured, manual), now=T0)
+
+    manual_claim = engine.claim_next("luna", lane="manual", now=T0)
+    structured_claim = engine.claim_next("luna", lane="structured", now=T0)
+
+    assert manual_claim.task["task_id"] == manual["task_id"]
+    assert structured_claim.task["task_id"] == structured["task_id"]
+    empty = engine.claim_next("luna", lane="manual", now=T0)
+    assert not empty.claimed
+    assert empty.reason == "manual_queue_empty"
+
+
 def test_twenty_concurrent_claimers_receive_distinct_tasks(tmp_path: Path) -> None:
     engine = _new_queue(tmp_path)
     engine.enqueue_many((_task(engine, f"cmp_{index:02d}") for index in range(25)), now=T0)
@@ -187,51 +221,51 @@ def test_twenty_concurrent_claimers_receive_distinct_tasks(tmp_path: Path) -> No
     assert sum(task["status"] == "open" for task in document["tasks"]) == 5
 
 
-def test_concurrent_sequential_batch_loops_never_overlap(tmp_path: Path) -> None:
+def test_concurrent_drain_workers_complete_queue_without_overlap(tmp_path: Path) -> None:
     engine = _new_queue(tmp_path)
     engine.enqueue_many((_task(engine, f"batch_{index:02d}") for index in range(32)), now=T0)
     context = get_context("spawn")
     with context.Pool(processes=4) as pool:
-        batches = pool.starmap(
-            _process_sequential_batch,
+        worker_results = pool.starmap(
+            _drain_worker,
             [
-                (str(engine.store.path), 7, f"company-batch:worker-{index}")
+                (str(engine.store.path), f"company-worker:{index}")
                 for index in range(4)
             ],
         )
 
-    completed = [task_id for batch in batches for task_id in batch]
-    assert all(len(batch) == 7 for batch in batches)
-    assert len(completed) == len(set(completed)) == 28
+    completed = [task_id for worker in worker_results for task_id in worker]
+    assert len(completed) == len(set(completed)) == 32
     document = engine.read()
-    assert sum(task["status"] == "completed" for task in document["tasks"]) == 28
-    assert sum(task["status"] == "open" for task in document["tasks"]) == 4
+    assert sum(task["status"] == "completed" for task in document["tasks"]) == 32
+    assert sum(task["status"] == "open" for task in document["tasks"]) == 0
     assert sum(task["status"] == "running" for task in document["tasks"]) == 0
 
 
-def test_interrupted_sequential_batch_strands_only_current_item(tmp_path: Path) -> None:
+def test_interrupted_worker_strands_only_current_item_while_healthy_worker_drains(
+    tmp_path: Path,
+) -> None:
     engine = _new_queue(tmp_path)
     engine.enqueue_many((_task(engine, f"interrupt_{index:02d}") for index in range(10)), now=T0)
 
     abandoned_agent = engine.claim_next(
         "luna",
-        claimed_by="company-batch:interrupted",
+        claimed_by="company-worker:interrupted",
         now=T0 + timedelta(minutes=1),
     )
     assert abandoned_agent.claimed
-    completed = _process_sequential_batch(
+    completed = _drain_worker(
         str(engine.store.path),
-        5,
-        "company-batch:healthy",
+        "company-worker:healthy",
     )
 
-    assert len(completed) == 5
+    assert len(completed) == 9
     document = engine.read()
     assert sum(task["status"] == "running" for task in document["tasks"]) == 1
-    assert sum(task["status"] == "completed" for task in document["tasks"]) == 5
-    assert sum(task["status"] == "open" for task in document["tasks"]) == 4
+    assert sum(task["status"] == "completed" for task in document["tasks"]) == 9
+    assert sum(task["status"] == "open" for task in document["tasks"]) == 0
     running = next(task for task in document["tasks"] if task["status"] == "running")
-    assert running["claim"]["claimed_by"] == "company-batch:interrupted"
+    assert running["claim"]["claimed_by"] == "company-worker:interrupted"
 
 
 def test_concurrent_enqueue_creates_exactly_one_task(tmp_path: Path) -> None:
@@ -290,6 +324,56 @@ def test_renew_recovery_and_old_token_rejection(tmp_path: Path) -> None:
     reclaimed = engine.claim_next("luna", now=T0 + timedelta(seconds=92))
     assert reclaimed.claim_token == "new-token"
     assert reclaimed.attempt_id == "new-attempt"
+
+
+def test_operator_abandon_reopens_unexpired_claim_and_preserves_history(
+    tmp_path: Path,
+) -> None:
+    engine = _new_queue(
+        tmp_path,
+        lease_seconds=3600,
+        token_factory=lambda: "stopped-token",
+        attempt_id_factory=lambda: "stopped-attempt",
+    )
+    task = _task(engine, "stopped-company")
+    engine.enqueue(task, now=T0)
+    engine.claim_next(
+        "luna",
+        claimed_by="company-worker:stopped",
+        now=T0 + timedelta(minutes=1),
+    )
+
+    result = engine.abandon(
+        task["task_id"],
+        reason="operator_stopped_agent",
+        now=T0 + timedelta(minutes=2),
+    )
+
+    assert result.recovered_task_ids == (task["task_id"],)
+    reopened = engine.read()["tasks"][0]
+    assert reopened["status"] == "open"
+    assert reopened["claim"] is None
+    assert reopened["attempts"][-1]["status"] == "abandoned"
+    assert reopened["attempts"][-1]["outcome"] == "operator_stopped_agent"
+    with pytest.raises(ClaimRejected, match="not currently running"):
+        engine.resolve(
+            task["task_id"],
+            "stopped-token",
+            "completed",
+            attempt_id="stopped-attempt",
+            now=T0 + timedelta(minutes=3),
+        )
+
+
+def test_operator_abandon_rejects_non_running_task_and_invalid_reason(tmp_path: Path) -> None:
+    engine = _new_queue(tmp_path)
+    task = _task(engine, "not-running")
+    engine.enqueue(task, now=T0)
+
+    with pytest.raises(InvalidTransition, match="requires running"):
+        engine.abandon(task["task_id"], now=T0 + timedelta(minutes=1))
+    with pytest.raises(QueueValidationError, match="snake_case"):
+        engine.abandon(task["task_id"], reason="bad reason")
 
 
 def test_expired_wrong_token_and_wrong_model_claims_are_rejected(tmp_path: Path) -> None:

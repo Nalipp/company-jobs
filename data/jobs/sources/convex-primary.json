@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:59:56Z",
+      "attempt_id": "attempt:1db35ccf-ab88-4ed0-8548-2b809372a249",
+      "result_digest": "d00dda2f435656faeee81694ea1e0e84339e723a3c9a28437a0545a9b2067ef5",
+      "task_id": "source:convex-primary:luna:06e022df84084e29",
+      "transaction_id": "txn:d00dda2f435656faeee81694"
+    }
+  ],
+  "company_id": "convex",
+  "current_job_count": 13,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:59:31Z",
+  "last_successful_scan_at": "2026-08-31T03:59:31Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 11,
+    "title_explicitly_non_target_function": 2,
+    "total": 13
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "convex-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

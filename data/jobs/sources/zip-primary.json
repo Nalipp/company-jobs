@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:56:50Z",
+      "attempt_id": "attempt:15761784-e6c5-463c-9f0e-7c74c4626495",
+      "result_digest": "6f505363f7ae0c9e7f25cea41ac4fabbdac9dd4438a8df3cbabf5d187e75ef9c",
+      "task_id": "source:zip-primary:luna:de941ed8421cce9b",
+      "transaction_id": "txn:6f505363f7ae0c9e7f25cea4"
+    }
+  ],
+  "company_id": "zip",
+  "current_job_count": 34,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T02:56:46.148Z",
+  "last_successful_scan_at": "2026-09-01T02:56:46.148Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_below_threshold": 34
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "zip-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

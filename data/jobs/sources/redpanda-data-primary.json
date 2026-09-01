@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:30:04Z",
+      "attempt_id": "attempt:d06565bb-d8bc-4625-b1bc-e6df44602459",
+      "result_digest": "fd74006e0e8d47a41baefa363f8de864bab2464709af9d8de2b05b5e9467f58f",
+      "task_id": "source:redpanda-data-primary:luna:e43170ec1489b2fa",
+      "transaction_id": "txn:fd74006e0e8d47a41baefa36"
+    }
+  ],
+  "company_id": "redpanda-data",
+  "current_job_count": 22,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:29:40Z",
+  "last_successful_scan_at": "2026-08-31T22:29:40Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_or_role_evidence_insufficient": 1,
+    "role_or_location_mismatch": 21
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "redpanda-data-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

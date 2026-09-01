@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:20:32Z",
+      "attempt_id": "attempt:d852e919-0c0d-4970-88a8-c671e903dce2",
+      "result_digest": "94f316a3a4ee35b0b9c5dbee2bd99cbc044f4c34c8966e209f1136124240dd9d",
+      "task_id": "source:arcade-ashby:luna:cab3357b1c0d5dd7",
+      "transaction_id": "txn:94f316a3a4ee35b0b9c5dbee"
+    }
+  ],
+  "company_id": "arcade",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:19:46Z",
+  "last_successful_scan_at": "2026-08-31T03:19:46Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 1,
+    "role_fit_excluded": 4,
+    "total": 6,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "arcade-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

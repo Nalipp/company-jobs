@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:45:18Z",
+      "attempt_id": "attempt:d99c0940-5cbc-4ab2-8e96-a52540620f9f",
+      "result_digest": "4b5ff3c61adc33abe263871b9d856b547cc7f9751387b1f8fc75ac9615462207",
+      "task_id": "source:irhythm-technologies-workday:luna:28f84885366aac78",
+      "transaction_id": "txn:4b5ff3c61adc33abe263871b"
+    }
+  ],
+  "company_id": "irhythm-technologies",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T00:00:00Z",
+  "last_successful_scan_at": "2026-08-31T00:00:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "ai_evidence": 0,
+    "compensation": 0,
+    "location": 4,
+    "role": 73
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "irhythm-technologies-workday",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

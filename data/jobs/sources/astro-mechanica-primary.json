@@ -1,0 +1,35 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:29:16Z",
+      "attempt_id": "attempt:a7760951-494b-4193-8e66-319737b9bf8d",
+      "result_digest": "95ce3b2d37216e4a6e44b123428cbc06bca8d17a196dfa7aaba68695589f9415",
+      "task_id": "source:astro-mechanica-primary:luna:c891979e27948063",
+      "transaction_id": "txn:95ce3b2d37216e4a6e44b123"
+    }
+  ],
+  "company_id": "astro-mechanica",
+  "current_job_count": 45,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:28:52Z",
+  "last_successful_scan_at": "2026-08-31T03:28:52Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "ai_involvement_not_job_specific": 25,
+    "compensation_below_profile_threshold": 17,
+    "compensation_period_mismatch": 2,
+    "role_fit_not_product_engineering": 25,
+    "title_explicitly_non_target_function": 1,
+    "total": 73,
+    "workplace_remote_excluded": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "astro-mechanica-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

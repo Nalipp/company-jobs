@@ -1,0 +1,59 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:37:16Z",
+      "attempt_id": "attempt:da95c862-98f9-4dcb-9795-3c25ca2f2c52",
+      "result_digest": "455658c725cee09862f89d6038b622f2a12cf7eeea35509e3eaaf1e8f54cb33e",
+      "task_id": "source:ripple-careers:luna:8cc35324650f85ec",
+      "transaction_id": "txn:455658c725cee09862f89d60"
+    }
+  ],
+  "company_id": "ripple",
+  "current_job_count": 129,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://ripple.com/careers/all-jobs/job/7786549",
+      "company_id": "ripple",
+      "compensation": null,
+      "compensation_text": null,
+      "department": "Engineering",
+      "description_text": "Official Ripple careers listing.",
+      "employment_text": "Full-time",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T22:33:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T22:33:00Z",
+      "locations": [
+        "San Francisco, CA, United States"
+      ],
+      "posted_at": null,
+      "provider": "custom",
+      "qualification_status": "qualifying",
+      "source_id": "ripple-careers",
+      "source_job_id": "7786549",
+      "stable_id": "job-d68081c14c78cef92c58e495",
+      "status": "active",
+      "team": null,
+      "title": "Senior Manager, Software Engineering – Payments Orchestration",
+      "updated_at": null,
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    }
+  ],
+  "last_attempt_at": "2026-08-31T22:33:00Z",
+  "last_successful_scan_at": "2026-08-31T22:33:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_or_role_evidence_insufficient": 9,
+    "role_or_location_mismatch": 119
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "ripple-careers",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,120 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:32:45Z",
+      "attempt_id": "attempt:8670d5ad-80c8-46c7-b1bd-fc61c3f069f7",
+      "result_digest": "6fe0c73fdaf5ed0d50de0511b09b63b1847b3937eadaf1ebb79492316e4b424b",
+      "task_id": "source:gem-primary:luna:599649671e26bf2b",
+      "transaction_id": "txn:6fe0c73fdaf5ed0d50de0511"
+    }
+  ],
+  "company_id": "gem",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.gem.com/gem/4965519002",
+      "company_id": "gem",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 260000,
+        "minimum": 190000,
+        "period": "year"
+      },
+      "compensation_text": "$190,000-$260,000",
+      "department": "Engineering",
+      "description_text": "Own product features end-to-end and work with product managers and designers on Gem's AI recruiting platform.",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T23:35:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T23:35:00Z",
+      "locations": [
+        "San Francisco"
+      ],
+      "provider": "custom",
+      "qualification_status": "qualifying",
+      "source_id": "gem-primary",
+      "source_job_id": "4965519002",
+      "stable_id": "job-122a4b65744cbbcf769c423d",
+      "status": "active",
+      "title": "Software Engineer",
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "3 days per week out of San Francisco HQ"
+    },
+    {
+      "canonical_url": "https://jobs.gem.com/gem/am9icG9zdDqTzmNGwXTdU65YRLOAU6ZL",
+      "company_id": "gem",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 260000,
+        "minimum": 190000,
+        "period": "year"
+      },
+      "compensation_text": "$190,000-$260,000",
+      "department": "Engineering",
+      "description_text": "Own product features end-to-end for an AI-powered ATS architecture.",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T23:35:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T23:35:00Z",
+      "locations": [
+        "San Francisco"
+      ],
+      "provider": "custom",
+      "qualification_status": "qualifying",
+      "source_id": "gem-primary",
+      "source_job_id": "am9icG9zdDqTzmNGwXTdU65YRLOAU6ZL",
+      "stable_id": "job-90fa537528aeda9d87fbd892",
+      "status": "active",
+      "title": "Senior Software Engineer - Core ATS",
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "San Francisco HQ"
+    },
+    {
+      "canonical_url": "https://jobs.gem.com/gem/am9icG9zdDoxt66pB6mvVDH0kCIS4bLF",
+      "company_id": "gem",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 262000,
+        "minimum": 242000,
+        "period": "year"
+      },
+      "compensation_text": "$242,000-$262,000",
+      "department": "Engineering",
+      "description_text": "Lead the AI Products engineering team building AI agents and intelligence for sourcing, application review, and outbound campaigns.",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T23:35:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T23:35:00Z",
+      "locations": [
+        "San Francisco"
+      ],
+      "provider": "custom",
+      "qualification_status": "qualifying",
+      "source_id": "gem-primary",
+      "source_job_id": "am9icG9zdDoxt66pB6mvVDH0kCIS4bLF",
+      "stable_id": "job-e39c5103a7023afcc5a790e1",
+      "status": "active",
+      "title": "Engineering Manager (AI Products)",
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "3 days per week out of San Francisco HQ"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T23:35:00Z",
+  "last_successful_scan_at": "2026-08-31T23:35:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "role_or_location_mismatch": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "gem-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

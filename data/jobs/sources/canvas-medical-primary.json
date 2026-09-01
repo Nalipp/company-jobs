@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:32:51Z",
+      "attempt_id": "attempt:8cf9be52-c215-47c8-8ee5-618e0224bde4",
+      "result_digest": "870b6a614c7e7ec094dacd8cc884e2c98fd1df7c45e513f494deb54690b6568a",
+      "task_id": "source:canvas-medical-primary:luna:2603a5c81b8ec32a",
+      "transaction_id": "txn:870b6a614c7e7ec094dacd8c"
+    }
+  ],
+  "company_id": "canvas-medical",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:32:36Z",
+  "last_successful_scan_at": "2026-08-31T03:32:36Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 4,
+    "compensation_unknown_or_below_threshold": 1,
+    "title_explicitly_non_target_function": 1,
+    "total": 6,
+    "workplace_remote_excluded": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "canvas-medical-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

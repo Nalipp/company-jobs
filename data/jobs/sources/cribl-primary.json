@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:59:48Z",
+      "attempt_id": "attempt:89e583eb-2bd3-432b-b99d-9afab8dc183a",
+      "result_digest": "57cb9d825b473cc216d04a8dc7610725190ce7e2a811cee39b96a8753d7eef26",
+      "task_id": "source:cribl-primary:luna:02d4fb13563eea04",
+      "transaction_id": "txn:57cb9d825b473cc216d04a8d"
+    }
+  ],
+  "company_id": "cribl",
+  "current_job_count": 62,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:59:34Z",
+  "last_successful_scan_at": "2026-08-31T03:59:34Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 3,
+    "location_outside_target_city": 58,
+    "title_explicitly_non_target_function": 27,
+    "total": 62
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "cribl-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

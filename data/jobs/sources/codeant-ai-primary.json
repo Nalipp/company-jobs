@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:43:08Z",
+      "attempt_id": "attempt:7b289a60-cda1-4cdf-a214-acc3d35994cd",
+      "result_digest": "75767adc6c677d19539eac0c9f4a6b6d2ff358187ebad31c061fee89cfb98a88",
+      "task_id": "source:codeant-ai-primary:luna:c5880eca91dfb3ce",
+      "transaction_id": "txn:75767adc6c677d19539eac0c"
+    }
+  ],
+  "company_id": "codeant-ai",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T20:42:00Z",
+  "last_successful_scan_at": "2026-08-31T20:42:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "ai_involvement": 0,
+    "compensation": 0,
+    "employment": 0,
+    "location": 6,
+    "role": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "codeant-ai-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

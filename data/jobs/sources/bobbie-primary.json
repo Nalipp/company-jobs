@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T02:51:33Z",
+      "attempt_id": "attempt:14f32bb4-fa11-42f0-ba9a-bebd68122661",
+      "result_digest": "11baff56c3a67fadaafd678b1efe6a6d6364a13dc7f2801227d7f55627463f95",
+      "task_id": "source:bobbie-primary:luna:53d714493e0df5cd",
+      "transaction_id": "txn:11baff56c3a67fadaafd678b"
+    }
+  ],
+  "company_id": "bobbie",
+  "current_job_count": 8,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T02:51:18Z",
+  "last_successful_scan_at": "2026-08-31T02:51:18Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 4,
+    "location_outside_target_city": 4,
+    "role_fit_excluded": 4,
+    "total": 8,
+    "workplace_remote_excluded": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "bobbie-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

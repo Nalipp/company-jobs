@@ -1,0 +1,34 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:07:27Z",
+      "attempt_id": "attempt:996f521c-865e-4bea-8480-d5e00eeedf1d",
+      "result_digest": "79bb584ffb5ed3876d4a0c9df4333c1d9be999524f22207895d8d7957eae38be",
+      "task_id": "source:nash-ashby:luna:75d5a66ac509a7ef",
+      "transaction_id": "txn:79bb584ffb5ed3876d4a0c9d"
+    }
+  ],
+  "company_id": "nash",
+  "current_job_count": 17,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:07:15Z",
+  "last_successful_scan_at": "2026-08-31T15:07:15Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_currency_mismatch": 2,
+    "compensation_unknown_excluded": 3,
+    "location_outside_target_city": 4,
+    "title_explicitly_non_target_function": 8,
+    "total": 17,
+    "workplace_remote_excluded": 13
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "nash-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

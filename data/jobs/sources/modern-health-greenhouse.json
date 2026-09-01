@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:07:53Z",
+      "attempt_id": "attempt:8c58f2fc-b528-47ac-97bc-9eafcd96ce6f",
+      "result_digest": "0d322e427f1e5cf74782ad3adf910226a0eb1fe3e10754026e61908b6b8c063c",
+      "task_id": "source:modern-health-greenhouse:luna:5483581704bcbf9e",
+      "transaction_id": "txn:0d322e427f1e5cf74782ad3a"
+    }
+  ],
+  "company_id": "modern-health",
+  "current_job_count": 15,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:06:33Z",
+  "last_successful_scan_at": "2026-08-31T15:06:33Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 14,
+    "semantic_non_target": 1,
+    "title_explicitly_non_target_function": 4,
+    "total": 14
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "modern-health-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

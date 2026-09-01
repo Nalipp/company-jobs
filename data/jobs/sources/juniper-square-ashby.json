@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:58:17Z",
+      "attempt_id": "attempt:823f5658-0ac6-4ac5-81a4-5a2e609f7731",
+      "result_digest": "83e89679a63c37127808a724d5181b1898aeb7f5cb532a69f3cae04355bb001d",
+      "task_id": "source:juniper-square-ashby:luna:e2e5bccf4385a332",
+      "transaction_id": "txn:83e89679a63c37127808a724"
+    }
+  ],
+  "company_id": "juniper-square",
+  "current_job_count": 41,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:58:07Z",
+  "last_successful_scan_at": "2026-08-31T14:58:07Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "location_outside_target_city": 6,
+    "title_explicitly_non_target_function": 19,
+    "total": 41,
+    "workplace_remote_excluded": 37
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "juniper-square-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

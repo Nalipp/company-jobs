@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:18:14Z",
+      "attempt_id": "attempt:53b9f0ff-e8b8-4201-b4b1-ba34d8ffa920",
+      "result_digest": "0169293e502e7598c20a62eafc1c4b862b6689e7f04b2fdf6acfcf4d7d58c984",
+      "task_id": "source:quantcast-lever:luna:56578666594bd309",
+      "transaction_id": "txn:0169293e502e7598c20a62ea"
+    }
+  ],
+  "company_id": "quantcast",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:18:11Z",
+  "last_successful_scan_at": "2026-08-31T15:18:11Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "location_outside_target_city": 1,
+    "total": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "quantcast-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

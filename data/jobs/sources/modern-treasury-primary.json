@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:06:53Z",
+      "attempt_id": "attempt:a9ea6ff7-44e4-4c33-9cad-68cb0a30ca60",
+      "result_digest": "2b4131262194c46a5a9f991b6041d472ba6b55c1f0c92556f9c8ebba01d9ca05",
+      "task_id": "source:modern-treasury-primary:luna:de2bafdd5ab75d0a",
+      "transaction_id": "txn:2b4131262194c46a5a9f991b"
+    }
+  ],
+  "company_id": "modern-treasury",
+  "current_job_count": 8,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:06:29Z",
+  "last_successful_scan_at": "2026-08-31T15:06:29Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "ai_involvement_insufficient": 1,
+    "compensation_below_profile_threshold": 3,
+    "title_explicitly_non_target_function": 4,
+    "total": 8,
+    "workplace_remote_excluded": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "modern-treasury-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,34 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:18:47Z",
+      "attempt_id": "attempt:15f03594-07a3-4ca9-ac51-02ee51b627fc",
+      "result_digest": "402e30429de6010dc3dd5127c845017da76b2f618b864f1e55a9878c865776ec",
+      "task_id": "source:anthropic-greenhouse:luna:33ba72baaf532f09",
+      "transaction_id": "txn:402e30429de6010dc3dd5127"
+    }
+  ],
+  "company_id": "anthropic",
+  "current_job_count": 571,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:18:12Z",
+  "last_successful_scan_at": "2026-08-31T03:18:12Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "ai_involvement_not_job_specific": 279,
+    "compensation_below_threshold_or_unknown": 279,
+    "location_outside_target_city": 156,
+    "role_fit_not_product_engineering": 279,
+    "title_explicitly_non_target_function": 195,
+    "total": 1188
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "anthropic-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

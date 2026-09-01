@@ -1,0 +1,141 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:17:51Z",
+      "attempt_id": "attempt:ccbb744b-f9eb-4766-b2be-75a65637becf",
+      "result_digest": "cda8ddf03ca4c631326bfb1605c7283935c90184e4d82137a502883784bae639",
+      "task_id": "source:pulse-primary:luna:bf1a84ea363c8d35",
+      "transaction_id": "txn:cda8ddf03ca4c631326bfb16"
+    }
+  ],
+  "company_id": "pulse",
+  "current_job_count": 9,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/pulse/b952467f-30db-4941-afaf-ae2b6d729b2d",
+      "company_id": "pulse",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 200000,
+        "minimum": 140000,
+        "period": "year",
+        "source_text": "$140K - $200K"
+      },
+      "compensation_text": "$140K - $200K",
+      "department": "Engineering",
+      "description_text": "Overview Pulse is tackling one of the most persistent challenges in data infrastructure: extracting accurate, structured information from complex documents at scale. We have a breakthrough approach to document understanding that combines intelligent schema mapping with fine-tuned extraction models where legacy OCR and other parsing tools consistently fail. We are a small, fast-growing team of engineers in San Francisco powering Fortune 100 enterprises, YC startups, public investment firms, and growth-stage companies. We are backed by tier 1 investors and growing quickly. What makes our tech special https://www.runpulse.com/blog/pulse-approach-to-document-intelligence is our multi-stage architecture: - Layout understanding with specialized component detection models - Low-latency OCR models for targeted extraction - Advanced reading-order algorithms for complex structures - Proprietary table structure recognition and parsing - Fine-tuned vision-language models for charts, tables, and figures If you are passionate about the intersection of computer vision, NLP, and data infrastructure, your work at Pulse will directly impact customers and shape the future of document intelligence. What we are looking for - 5 days in-office at our San Francisco office - Eager to learn and adapt quickly - Prior startup or founding experience is a plus About the Role Design, build, and operate features that power extraction, review, and analytics. Work across the stack and ship measurable product improvements. Responsibilities - Build backend services in Python and secure APIs - Ship front end features in React and TypeScript for our console and tools - Improve accuracy, latency, and reliability across the extraction pipeline - Write tests, own deployments, and monitor production health - Collaborate with design, ML, and customer-facing teams Requirements - 2+ years building production software, new grads considered - Proficiency in Python or TypeScript, plus SQL - Clear communication and bias to ship Nice to have - FastAPI, Postgres, Redis, React, AWS Sponsorship Sponsorship available. Compensation and benefits Competitive base salary plus equity, performance-based bonus, relocation assistance for Bay Area moves, daily meal stipend, medical, vision, and dental coverage.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:17:35Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:17:35Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-07-30T04:07:13Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "pulse-primary",
+      "source_job_id": "b952467f-30db-4941-afaf-ae2b6d729b2d",
+      "stable_id": "job-06ee42f96952da932a58d143",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Software Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/pulse/d316e466-7dfe-42f5-af73-215892a658b4",
+      "company_id": "pulse",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 230000,
+        "minimum": 150000,
+        "period": "year",
+        "source_text": "$150K - $230K"
+      },
+      "compensation_text": "$150K - $230K",
+      "department": "Engineering",
+      "description_text": "Overview Pulse is tackling one of the most persistent challenges in data infrastructure: extracting accurate, structured information from complex documents at scale. We have a breakthrough approach to document understanding that combines intelligent schema mapping with fine-tuned extraction models where legacy OCR and other parsing tools consistently fail. We are a small, fast-growing team of engineers in San Francisco powering Fortune 100 enterprises, YC startups, public investment firms, and growth-stage companies. We are backed by tier 1 investors and growing quickly. What makes our tech special https://www.runpulse.com/blog/pulse-approach-to-document-intelligence is our multi-stage architecture: - Layout understanding with specialized component detection models - Low-latency OCR models for targeted extraction - Advanced reading-order algorithms for complex structures - Proprietary table structure recognition and parsing - Fine-tuned vision-language models for charts, tables, and figures If you are passionate about the intersection of computer vision, NLP, and data infrastructure, your work at Pulse will directly impact customers and shape the future of document intelligence. What we are looking for - 5 days in-office at our San Francisco office - Eager to learn and adapt quickly - Prior startup or founding experience is a plus What we are looking for - 5 days in-office at our San Francisco office - Eager to learn and adapt quickly - Prior startup or founding experience is a plus About the Role Specialize in low-latency, high-throughput inference for OCR and multimodal models. Own profiling, batching, and autoscaling across single-tenant and multi-tenant environments. Responsibilities - Build inference services with smart batching and caching - Optimize kernels, tokenization, and model graphs - Evaluate vLLM, TensorRT LLM, and Triton tradeoffs - Implement autoscaling and admission control with clear SLOs - Own performance dashboards and capacity planning Requirements - 3+ years in performance engineering or ML systems - Strong Python, plus C++ or CUDA exposure - Experience with GPU profiling and model serving Nice to have - Experience reducing p95 and cost in production ML systems Sponsorship Sponsorship available. Compensation and benefits Competitive base salary plus equity, performance-based bonus, relocation assistance for Bay Area moves, daily meal stipend, medical, vision, and dental coverage.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:17:35Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:17:35Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-07-30T04:19:11Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "pulse-primary",
+      "source_job_id": "d316e466-7dfe-42f5-af73-215892a658b4",
+      "stable_id": "job-08d2308b7516066273e6976a",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Software Engineer, Inference",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/pulse/fbe20a0c-31a4-4c53-9734-7f2840e3336b",
+      "company_id": "pulse",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 200000,
+        "minimum": 140000,
+        "period": "year",
+        "source_text": "$140K - $200K"
+      },
+      "compensation_text": "$140K - $200K",
+      "department": "Engineering",
+      "description_text": "Overview Pulse is tackling one of the most persistent challenges in data infrastructure: extracting accurate, structured information from complex documents at scale. We have a breakthrough approach to document understanding that combines intelligent schema mapping with fine-tuned extraction models where legacy OCR and other parsing tools consistently fail. We are a small, fast-growing team of engineers in San Francisco powering Fortune 100 enterprises, YC startups, public investment firms, and growth-stage companies. We are backed by tier 1 investors and growing quickly. What makes our tech special https://www.runpulse.com/blog/pulse-approach-to-document-intelligence is our multi-stage architecture: - Layout understanding with specialized component detection models - Low-latency OCR models for targeted extraction - Advanced reading-order algorithms for complex structures - Proprietary table structure recognition and parsing - Fine-tuned vision-language models for charts, tables, and figures If you are passionate about the intersection of computer vision, NLP, and data infrastructure, your work at Pulse will directly impact customers and shape the future of document intelligence. What we are looking for - 5 days in-office at our San Francisco office - Eager to learn and adapt quickly - Prior startup or founding experience is a plus About the Role Work directly with strategic customers to deploy Pulse in secure environments and integrate with their systems. Define success criteria, design architectures, and take solutions into production. Responsibilities - Lead discovery, architecture, and implementation for VPC and on-prem rollouts - Build integrations with S3, Snowflake, Kafka, Databricks, and internal tools - Own performance, reliability, and security for single-tenant environments - Set up monitoring, alerting, and runbooks - Write documentation and train customer teams - Track usage, SLAs, and accuracy, and drive expansion Requirements - 4+ years in software, solutions, or platform engineering - Strong Python, APIs, SQL, and AWS - Experience with containers, Kubernetes, Terraform, and observability - Comfortable with networks, IAM, SSO, and enterprise security reviews - Clear communication; some travel as needed Nice to have - Deployments in regulated environments - Data pipeline experience Sponsorship Sponsorship available. Compensation and benefits Competitive base salary plus equity, performance-based bonus, relocation assistance for Bay Area moves, daily meal stipend, medical, vision, and dental coverage.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:17:35Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:17:35Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-07-30T03:39:41Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "pulse-primary",
+      "source_job_id": "fbe20a0c-31a4-4c53-9734-7f2840e3336b",
+      "stable_id": "job-b8acc1dcaa6d88899f9273aa",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Forward Deployed Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:17:35Z",
+  "last_successful_scan_at": "2026-08-31T15:17:35Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 3,
+    "title_explicitly_excluded": 1,
+    "title_explicitly_non_target_function": 5,
+    "total": 9
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "pulse-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

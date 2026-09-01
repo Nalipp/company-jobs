@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:zenysis:luna:dccb20d7b3bc2b19",
+  "attempt_id": "attempt:190ad0b3-de21-42b7-b2fb-f9eb84031834",
+  "claim_token": "1gNQ2fKn4EB2__TDNAmWV-9IM7o161eCBcCeB44vLaA",
+  "model": "luna",
+  "created_at": "2026-09-01T18:17:00Z",
+  "target": {"company_ids": ["zenysis"], "source_ids": ["zenysis-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [
+    {"url": "https://www.zenysis.com/careers/", "retrieved_at": "2026-09-01T18:17:00Z", "evidence_type": "official_careers_page", "finding": "Official Zenysis Careers page names open roles and directs applications to people@zenysis.com; it does not expose stable enumerable job-detail URLs."},
+    {"url": "https://www.zenysis.com/", "retrieved_at": "2026-09-01T18:17:00Z", "evidence_type": "official_company_site", "finding": "The official site identifies Zenysis and links to Careers."}
+  ],
+  "patch": {
+    "company_id": "zenysis",
+    "expected_record_revision": 1,
+    "company_changes": {},
+    "source_upserts": [{
+      "source_id": "zenysis-primary",
+      "company_id": "zenysis",
+      "expected_record_revision": 1,
+      "careers_url": "https://www.zenysis.com/careers/",
+      "listings_url": "https://www.zenysis.com/careers/",
+      "provider": "custom",
+      "board_id": null,
+      "access_mode": "html_listing",
+      "scope": "All Zenysis roles",
+      "instructions": "The official careers page names open roles but routes applications through email and does not expose stable enumerable job-detail URLs; refresh if its job portal becomes publicly enumerable.",
+      "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+      "status": "unsupported",
+      "official_relationship_url": "https://www.zenysis.com/careers/",
+      "checked_at": "2026-09-01T18:17:00Z",
+      "last_success_at": null,
+      "added_date": "2026-08-28T22:59:59Z",
+      "updated_date": "2026-09-01T18:17:00Z"
+    }]
+  },
+  "item_results": [{"item": "zenysis-primary", "status": "resolved", "summary": "Official careers page rechecked; remains unsupported because roles route to email without stable job endpoints."}],
+  "failure_class": null,
+  "notes": "Canonical source metadata refreshed; no company identity changes."
+}

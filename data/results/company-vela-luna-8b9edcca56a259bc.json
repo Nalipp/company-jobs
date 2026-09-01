@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:vela:luna:8b9edcca56a259bc",
+  "attempt_id": "attempt:5913e2bd-3da2-4dd2-bcf4-7ac700186620",
+  "claim_token": "36RJav5QXiFmHfExfakwOjl6etkzBthhlW2O7UoOo1w",
+  "model": "luna",
+  "created_at": "2026-09-01T18:08:30Z",
+  "target": {"company_ids": ["vela"], "source_ids": ["vela-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [
+    {"url": "https://hiring.tryvela.ai/", "retrieved_at": "2026-09-01T18:08:30Z", "evidence_type": "official_careers_page", "finding": "Official Vela hiring page is live and advertises a Founding AI Full-Stack Engineer role, but exposes no stable canonical role-detail endpoint suitable for automated enumeration."},
+    {"url": "https://tryvela.ai/careers", "retrieved_at": "2026-09-01T18:08:30Z", "evidence_type": "official_careers_page", "finding": "Official careers page lists four Vela roles and links the hiring effort to Vela."}
+  ],
+  "patch": {
+    "company_id": "vela",
+    "expected_record_revision": 1,
+    "company_changes": {},
+    "source_upserts": [{
+      "source_id": "vela-primary",
+      "company_id": "vela",
+      "expected_record_revision": 1,
+      "careers_url": "https://hiring.tryvela.ai/",
+      "listings_url": "https://hiring.tryvela.ai/",
+      "provider": "custom",
+      "board_id": null,
+      "access_mode": "browser_required",
+      "scope": "All Vela roles",
+      "instructions": "Official hiring page is accessible, but no stable canonical role-detail endpoint was found; recheck before enabling automated enumeration.",
+      "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+      "status": "unsupported",
+      "official_relationship_url": "https://hiring.tryvela.ai/",
+      "checked_at": "2026-09-01T18:08:30Z",
+      "last_success_at": null,
+      "added_date": "2026-08-28T22:34:46Z",
+      "updated_date": "2026-09-01T18:08:30Z"
+    }]
+  },
+  "item_results": [{"item": "vela-primary", "status": "resolved", "summary": "Official hiring source verified; remains unsupported for automated enumeration because stable role identity is unavailable."}],
+  "failure_class": null,
+  "notes": "Canonical source metadata refreshed; no company identity changes."
+}

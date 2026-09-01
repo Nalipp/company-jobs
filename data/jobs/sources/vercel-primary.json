@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:46:21Z",
+      "attempt_id": "attempt:4dd28d4f-1bb0-4a3d-948d-34f750757fd2",
+      "result_digest": "3b5187e947e7949918f0d9e34eafba5400d6cbe7e5f294cb0edd97980c5d6c2a",
+      "task_id": "source:vercel-primary:luna:aa51ab0a0fbd0d15",
+      "transaction_id": "txn:3b5187e947e7949918f0d9e3"
+    }
+  ],
+  "company_id": "vercel",
+  "current_job_count": 89,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T04:00:00Z",
+  "last_successful_scan_at": "2026-09-01T04:00:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_unknown": 89
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "vercel-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": [
+    "All listings were captured from the official Open Positions page; detail URLs are stable Vercel career slugs."
+  ]
+}

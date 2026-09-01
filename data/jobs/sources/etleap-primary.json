@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:17:24Z",
+      "attempt_id": "attempt:4e19b46d-bc31-48d5-933b-e2a98645636c",
+      "result_digest": "6bafe0752ab274bc14fda8f29b3235c9a2e4c05bd29036a47652e72e05188d8d",
+      "task_id": "source:etleap-primary:luna:9c41554eb2838563",
+      "transaction_id": "txn:6bafe0752ab274bc14fda8f2"
+    }
+  ],
+  "company_id": "etleap",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:22:00Z",
+  "last_successful_scan_at": "2026-08-31T22:22:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "ai_or_compensation_or_role_mismatch": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "etleap-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

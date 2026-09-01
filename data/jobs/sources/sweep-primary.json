@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:28:10Z",
+      "attempt_id": "attempt:adcf2e08-002d-45e6-b284-449f635bd8d4",
+      "result_digest": "3ed183e6b841325ec9facbe496f713e70c27ecddb5218efc586ff6b5180a1a27",
+      "task_id": "source:sweep-primary:luna:8daff8f2307dead7",
+      "transaction_id": "txn:3ed183e6b841325ec9facbe4"
+    }
+  ],
+  "company_id": "sweep",
+  "current_job_count": 7,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:28:05Z",
+  "last_successful_scan_at": "2026-08-31T15:28:05Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "location_outside_target_city": 5,
+    "title_explicitly_non_target_function": 4,
+    "total": 7,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "sweep-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

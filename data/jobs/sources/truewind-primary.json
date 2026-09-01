@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:39:12Z",
+      "attempt_id": "attempt:aedb1d6b-7fe0-40f1-b666-15dd3ff2a632",
+      "result_digest": "d054a5b343a7754c061aafcab96805e0b8a06b49c06145a496d8418f3386cd9a",
+      "task_id": "source:truewind-primary:luna:15824d0ca0edf1cd",
+      "transaction_id": "txn:d054a5b343a7754c061aafca"
+    }
+  ],
+  "company_id": "truewind",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T02:50:00Z",
+  "last_successful_scan_at": "2026-09-01T02:50:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_below_threshold": 1,
+    "compensation_unknown": 1,
+    "role_family_mismatch": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "truewind-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

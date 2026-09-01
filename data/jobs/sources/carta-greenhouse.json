@@ -1,0 +1,99 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:33:51Z",
+      "attempt_id": "attempt:2c473a1d-ce66-4e73-8ce7-063a30cb24c9",
+      "result_digest": "5ffcaf236afd25f8c1df226f167dc56cc4e6f46d5325a0c34864636bfe68272c",
+      "task_id": "source:carta-greenhouse:luna:0a661697e868f211",
+      "transaction_id": "txn:5ffcaf236afd25f8c1df226f"
+    }
+  ],
+  "company_id": "carta",
+  "current_job_count": 59,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://job-boards.greenhouse.io/carta/jobs/7713882003",
+      "company_id": "carta",
+      "compensation": null,
+      "compensation_text": null,
+      "department": "Engineering",
+      "description_text": "The Company You’ll Join Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund managers use to run administration and reporting, and legal teams use to close transactions. Trusted by 55,000 companies and 1.8M+ equity holders in 160+ countries, and 10,000 funds and SPVs representing $250B+ in assets under management, Carta is transforming how private capital operates. Recognized by Fortune, Forbes, Fast Company, Inc. and Great Places to Work. For more information about our offices and culture, check out our Carta careers page . The Team You’ll Work With You'll join our Developer Experience (DevEx) team, a lean \"Special Ops\" unit within Carta's Infrastructure organization. Our North Star: remove friction from every step of the software delivery lifecycle so Carta's engineers can do the best work of their careers. We own CI/CD infrastructure, GitHub governance across 500+ repos, the rollout of AI coding tools across our company, and the internal tooling layer that lets Carta move fast without breaking things. We are systems thinkers who measure everything, because you can't optimize what you don't understand. Carta is making a company-wide bet on AI-native development, and DevEx is the team defining how that happens. Six months from now, the playbook will be written. Now is when you get to write it. The Problems You’ll Solve As a Senior Software Engineer II on DevEx, you will: Build the MCP servers, agents, and plugin infrastructure that Carta's AI native development runs on, and define the patterns other engineers follow Design and ship agents purpose-built to solve specific developer problems across the software delivery lifecycle Architect and drive CI/CD pipelines that automate build, test, and deployment to accelerate delivery across R&D Build the infrastructure AI tooling runs on, so other engineers can build on top of it with confidence Mentor engineers and raise the technical bar through code reviews and architectural guidance About You Experience: 8+ years in platform, backend, or fullstack engineering AI Builder: You've shipped production LLM systems, whether that's MCP servers or clients, AI extensions, connectors, or agents designed to solve real problems, not just demos Platform Mindset: You build things other engineers build on top of and think about APIs and developer ergonomics as seriously as performance Tech Stack: Python or Java; CI/CD tooling (CircleCI, GitHub Actions, ArgoCD, Jenkins, Docker); cloud-native (AWS, Terraform, Kubernetes); familiarity with secrets management tooling (Vault, Cloudsmith) is a plus Security Aware : You think about least-privilege, token lifecycle, and supply chain risks when designing developer tooling, not just after an incident Execution: You break down ambiguous problems and deliver with minimal guidance, bringing data to debates and owning outcomes end-to-end Salary Carta’s compensation package includes a market competitive salary, equity for all full time roles, exceptional benefits, and, for applicable roles, commissions plans. Our minimum cash compensation (salary + commission if applicable) range for this role is: $212,500 - $250,000 in Santa Clara, CA; San Francisco, CA; New York, NY Final offers may vary from the amount listed based on geography, candidate experience and expertise, and other factors. Disclosures: We are an equal opportunity employer and are committed to providing a positive interview experience for every candidate. If accommodations due to a disability or medical condition are needed, please connect with the talent partner via email. Carta uses E-Verify in the United States for employment authorization. See the E-Verify and Department of Justice websites for more details. For information on our data privacy policies, see Privacy , CA Candidate Privacy , and Brazil Transparency Report . Please note that all official communications from us will come from an @carta.com or @carta-external.com domain. Report any contact from unapproved domains to security@carta.com.",
+      "employment_text": null,
+      "employment_type": null,
+      "first_seen_at": "2026-08-31T03:33:11Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T03:33:11Z",
+      "locations": [
+        "San Francisco, CA; Santa Clara, CA; New York, NY",
+        "New York, New York, United States",
+        "San Francisco, California, United States",
+        "Santa Clara, California, United States"
+      ],
+      "posted_at": "2026-04-24T22:19:29Z",
+      "provider": "greenhouse",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "Senior software engineer role builds MCP servers, agents, and AI plugin infrastructure; San Francisco listed; full-time; published salary maximum $250,000."
+      ],
+      "source_id": "carta-greenhouse",
+      "source_job_id": "7713882003",
+      "stable_id": "job-65115a9a7fd0990eb67053c4",
+      "status": "active",
+      "team": null,
+      "title": "Senior Software Engineer II, Developer Experience",
+      "updated_at": "2026-08-03T19:24:52Z",
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    },
+    {
+      "canonical_url": "https://job-boards.greenhouse.io/carta/jobs/7866977003",
+      "company_id": "carta",
+      "compensation": null,
+      "compensation_text": null,
+      "department": "Engineering",
+      "description_text": "The Company You’ll Join Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund managers use to run administration and reporting, and legal teams use to close transactions. Trusted by 55,000 companies and 1.8M+ equity holders in 160+ countries, and 10,000 funds and SPVs representing $250B+ in assets under management, Carta is transforming how private capital operates. Recognized by Fortune, Forbes, Fast Company, Inc. and Great Places to Work. For more information about our offices and culture, check out our Carta careers page . The Team You’ll Work With As a Staff Engineer at Carta, you are a technical anchor for our business. You don't just own features, you take long-term accountability for the technical health and strategic direction of different domains. Middle Office is where Carta's two client bases meet. Our cap table products serve companies; our fund administration products serve funds. Middle Office serves the investment firm sitting between them, and owns what happens after the check clears: collecting data from portfolio companies, valuing the holdings, modeling the fund's outcome, and reporting the result to LPs. You'll work across a connected suite of products for PE and VC firms, fund administrators, and institutional investors, with a primary focus today on private equity, AI-powered ingestion of portfolio company financials and KPIs, portfolio valuation and allocation models, waterfall and fund forecasting across complex multi-entity structures, and a unified view of a firm's holdings, including companies that don't use Carta for equity management. Sitting in the middle of Carta's ERP, most of what we build ships in partnership with other teams. The Problems You’ll Solve As a Staff Engineer within the Middle Office pillar, you are responsible for the long-term technical health and success of the business unit. You'll work to: Navigate Ambiguity: Tackle the most complex and poorly defined problems at Carta, breaking them down into navigable paths for the rest of the organization. Champion Systemic Improvement: Identify and eliminate failure patterns across multiple systems, driving architectural changes that improve scalability and reliability. Bridge Technical Gaps: Use your deep understanding of cross-functional domains to align multiple teams on major technical decisions. Define the AI Frontier: Lead the charge in transforming how we build by defining the context and building the rails that allow every person at Carta to leverage AI tools safely and effectively. You'll help move the organization toward a future where AI amplifies our collective engineering impact. Uphold Engineering Standards: Set the vision for operational excellence and mentor senior engineers to raise the collective craft of the organization. About You The Tech Stack: You are an expert in building distributed systems. While our primary stack is Python/Django, React, and Postgres, you should be comfortable guiding technical direction across JVM languages, gRPC, and cloud-native infrastructure (AWS). Leadership: You lead through influence rather than authority, acting as a role model for constructive communication and technical discipline. Vision: You don't just solve the problem in front of you; you anticipate future roadblocks and build systems that support long-term business growth. Experience: We recommend 10+ years of professional software engineering experience with a track record of high-level technical leadership. Salary Carta’s compensation package includes a market competitive salary, equity for all full time roles, exceptional benefits, and, for applicable roles, commissions plans. Our minimum cash compensation (salary + commission if applicable) range for this role is: $240,000 - $300,000 in San Francisco, CA Final offers may vary from the amount listed based on geography, candidate experience and expertise, and other factors. Disclosures: We are an equal opportunity employer and are committed to providing a positive interview experience for every candidate. If accommodations due to a disability or medical condition are needed, please connect with the talent partner via email. Carta uses E-Verify in the United States for employment authorization. See the E-Verify and Department of Justice websites for more details. For information on our data privacy policies, see Privacy , CA Candidate Privacy , and Brazil Transparency Report . Please note that all official communications from us will come from an @carta.com or @carta-external.com domain. Report any contact from unapproved domains to security@carta.com.",
+      "employment_text": null,
+      "employment_type": null,
+      "first_seen_at": "2026-08-31T03:33:11Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T03:33:11Z",
+      "locations": [
+        "San Francisco, California, United States",
+        "United States"
+      ],
+      "posted_at": "2026-08-18T23:56:02Z",
+      "provider": "greenhouse",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "Staff software engineer role owns AI-powered ingestion and defines AI tooling rails for a product domain; San Francisco listed; full-time; published salary maximum $300,000."
+      ],
+      "source_id": "carta-greenhouse",
+      "source_job_id": "7866977003",
+      "stable_id": "job-fcda64f06007b1503fe94a4e",
+      "status": "active",
+      "team": null,
+      "title": "Staff Software Engineer, Middle Office",
+      "updated_at": "2026-08-18T23:56:02Z",
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    }
+  ],
+  "last_attempt_at": "2026-08-31T03:33:11Z",
+  "last_successful_scan_at": "2026-08-31T03:33:11Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 37,
+    "role_fit_excluded": 4,
+    "title_explicitly_non_target_function": 31,
+    "total": 59
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "carta-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

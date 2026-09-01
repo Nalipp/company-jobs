@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:28:42Z",
+      "attempt_id": "attempt:603f62d4-b239-4244-b1a0-e5705612f292",
+      "result_digest": "357d50e6367992c8878bba06f4d6bd99f78dca5d14290190ad41b2dfd3cbc6e2",
+      "task_id": "source:teal-health-ashby:luna:755435b1721475fc",
+      "transaction_id": "txn:357d50e6367992c8878bba06"
+    }
+  ],
+  "company_id": "teal-health",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:28:38Z",
+  "last_successful_scan_at": "2026-08-31T15:28:38Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "title_explicitly_non_target_function": 3,
+    "total": 3,
+    "workplace_remote_excluded": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "teal-health-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,35 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:29:50Z",
+      "attempt_id": "attempt:cddcc8f7-bf22-4407-b1a7-bc005bfded90",
+      "result_digest": "7380c04434e8b8bf097a08953e7448505f076b4d03cb998d31f99b7c8ae15707",
+      "task_id": "source:bedrock-robotics-primary:luna:2c33b908fcc14586",
+      "transaction_id": "txn:7380c04434e8b8bf097a0895"
+    }
+  ],
+  "company_id": "bedrock-robotics",
+  "current_job_count": 35,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:29:36Z",
+  "last_successful_scan_at": "2026-08-31T03:29:36Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_threshold_or_unknown": 26,
+    "employment_contract_excluded": 1,
+    "location_outside_target_city": 6,
+    "role_fit_not_product_engineering": 26,
+    "title_explicitly_non_target_function": 3,
+    "total": 64,
+    "workplace_remote_excluded": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "bedrock-robotics-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

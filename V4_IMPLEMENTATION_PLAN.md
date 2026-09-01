@@ -1,7 +1,7 @@
 # V4 Daily Jobs — Deterministic Queue Implementation Plan
 
-Status: implemented; audited against the acceptance contracts on 2026-08-30  
-Migration source: `/Users/natelipp/ai-code/_v3_daily-jobs`  
+Status: implemented; audited against the acceptance contracts on 2026-08-31
+Migration source: `/Users/natelipp/ai-code/_v3_daily-jobs`
 Implementation target: `/Users/natelipp/ai-code/_v4_daily-jobs`
 
 ## 1. Outcome
@@ -9,27 +9,29 @@ Implementation target: `/Users/natelipp/ai-code/_v4_daily-jobs`
 V4 provides two repository skills and two reusable operator workflows:
 
 ```text
-$validate-companies --claim-next luna
-$validate-companies --claim-next terra
-$validate-companies --claim-next sol
+$validate-companies --run luna
+$validate-companies --run terra
+$validate-companies --run sol
 
-$find-jobs --claim-next luna
-$find-jobs --claim-next terra
-$find-jobs --claim-next sol
+$find-jobs --run luna --lane structured|manual
+$find-jobs --run terra --lane structured|manual
+$find-jobs --run sol --lane structured|manual
 ```
 
-The operator may start any number of Codex tasks and paste the same command into several of them. Each command atomically claims a different eligible task. The agent receives a self-contained scope, performs only that scope, and finalizes through a deterministic helper. Neither the operator nor an agent directly edits queue or canonical database JSON.
+The operator starts the desired number of persistent workers and pastes the same lane-specific command into each once. Every worker uses a persisted goal, atomically claims one exact task in its structured or manual lane, finalizes it, and repeats until that lane has no due work. Concurrent workers cannot overlap. Neither the operator nor an agent directly edits queue or canonical database JSON.
 
-For lower repeated-agent overhead, both work skills also accept sequential batching without changing the queue's one-target invariant:
+The job finalizer rejects untouched drafts, partial semantic reviews, and reason
+codes based on candidate or execution budgets. A one-time idempotent maintenance
+repair reopens historical Luna tasks that violated this rule and marks only
+their never-claimed Terra children `superseded`. Deterministic filtering also
+rejects explicit non-engineering occupational titles before model review while
+preserving titles with engineering/development signals for semantic judgment.
 
-```text
-$validate-companies --claim-next luna --batch-size 50
-$find-jobs --claim-next luna --batch-size 5
-```
+Automatic continuations reuse the same literal worker label. The agent emits a
+final report only after `queue_empty` or a documented systemic stop; rollout
+boundaries are never reported as worker completion.
 
-The batch loop claims and finalizes one item at a time. It never reserves a multi-target transaction. Concurrent batch agents can interleave but cannot overlap, and interruption strands at most the currently claimed task. Company batches are capped at 75. Job batches are capped at 20 and stop after 25 semantic candidates because job-source work size is not proportional to source count. A partial batch is safe, but its report must name an explicit stop reason so normal execution-budget limits are distinguishable from queue, network, or finalization failures.
-
-The read-only terminal planner `.venv/bin/v4-queue next-commands` converts current due queue counts into exact work commands and required run counts using configurable company/job batch sizes. It performs a dry audit calculation so newly eligible work is included without changing the queues, and prints local deterministic audit/recovery/inspection commands where needed. Like `status`, the planner itself performs no research or mutation.
+The read-only terminal planner `.venv/bin/v4-queue next-commands` recommends new workers from due counts, current active workers, and configurable concurrency targets. It performs a dry audit calculation and prints deterministic audit/recovery/inspection commands where needed.
 
 The initial implementation must favor a small, auditable Python system over a service, database server, daemon, terminal UI, or distributed scheduler.
 
@@ -46,7 +48,9 @@ The initial implementation must favor a small, auditable Python system over a se
 9. Writes reload current state after locking, validate before and after mutation, write a same-directory temporary file, flush and `fsync`, use `os.replace`, and `fsync` the parent directory where supported.
 10. Repeating an audit, enqueue, claim response, or result submission cannot create duplicate work or duplicate canonical records.
 11. Model escalation happens only for a genuine evidence-based `inconclusive` result: Luna to Terra, Terra to Sol. Sol never auto-escalates.
-12. Network, authentication, rate-limit, robots, and source-access failures remain at the same model. Local sandbox/DNS failures are environment failures: release the current claim without consuming a source retry and stop the batch.
+12. Network, authentication, rate-limit, robots, and source-access failures remain at the same model. Local sandbox/DNS failures release the current claim without consuming a source retry and stop the worker.
+13. Job claims are lane-scoped. Structured helpers reject manual sources without charging retries; confirmed provider 404/410 responses block once and route the source to company revalidation.
+14. Workers claim only when ready to process immediately and never reserve the next task across a continuation boundary.
 13. An empty eligible queue is a successful no-op and must not rewrite a file.
 14. V3 is migration input only. Migration must not mutate it.
 
@@ -58,6 +62,7 @@ Implement now:
 - a single queue/finalization library and thin CLI;
 - repository skills for the two user-facing commands;
 - deterministic audits and deterministic parsing/filtering where rules are known;
+- compact locked JSONL telemetry plus a read-only local summary command;
 - one-company and one-source task scopes;
 - local file locks, leases, explicit stale recovery, schemas, and tests;
 - Ashby, Greenhouse, and Lever structured adapters first;
@@ -67,6 +72,7 @@ Defer until evidence shows it is needed:
 
 - SQLite, a server, background workers, a web UI, or terminal integration;
 - automatic process/model discovery;
+- external telemetry services, databases, dashboards, or background collectors;
 - task batching with multiple companies or sources;
 - generalized workflow engines or plugin systems;
 - broad location gazetteers, elaborate title taxonomies, four-layer content hashing, or repair daemons;
@@ -98,6 +104,7 @@ _v4_daily-jobs/
 │   ├── migration.py
 │   ├── companies.py
 │   ├── jobs.py
+│   ├── telemetry.py
 │   └── adapters/
 │       ├── ashby.py
 │       ├── greenhouse.py
@@ -108,6 +115,7 @@ _v4_daily-jobs/
 │   ├── company-result.schema.json
 │   ├── job-queue.schema.json
 │   ├── job-result.schema.json
+│   ├── telemetry-event.schema.json
 │   └── search-profile.schema.json
 ├── data/
 │   ├── companies.json
@@ -117,6 +125,7 @@ _v4_daily-jobs/
 │   ├── results/companies/
 │   ├── results/jobs/
 │   ├── jobs/sources/
+│   ├── telemetry/YYYY-MM-DD.jsonl
 │   └── audit/events.jsonl
 ├── archive/v3/
 │   ├── migration-manifest.json
@@ -195,7 +204,7 @@ running -> completed
 running -> inconclusive
 running -> blocked
 running -> failed
-running -> open          only through explicit stale recovery or retry scheduling
+running -> open          only through stale recovery, exact-task operator abandon, or retry scheduling
 blocked -> open          only through an explicit retry/recovery operation
 failed -> open           only through an explicit retry operation
 ```
@@ -244,6 +253,8 @@ $find-jobs --recover-stale
 ```
 
 Recovery runs under the queue lock, records an abandoned attempt, clears the old token, and returns the task to `open` at the same model. The old agent can no longer finalize because its token is invalid.
+
+When the operator intentionally stops an agent before its lease expires, the local `company|jobs abandon --task-id ...` command performs the same locked invalidation for that exact known task without waiting. It must reject non-running tasks and never release work by worker label or broad pattern.
 
 ## 8. Result and safe finalization protocol
 
@@ -295,6 +306,7 @@ scripts/v4-queue company inspect --status open --model luna --json
 
 scripts/v4-queue jobs claim-next --model luna --json
 scripts/v4-queue jobs renew --task-id ID --claim-token TOKEN --json
+scripts/v4-queue jobs preflight-result --result PATH --json
 scripts/v4-queue jobs finalize --result PATH --json
 scripts/v4-queue jobs audit-and-enqueue --json
 scripts/v4-queue jobs recover-stale --json
@@ -310,7 +322,10 @@ Exit behavior:
 - nonzero: invalid arguments, schema/invariant failure, lock timeout, stale token, conflict, or unrecoverable I/O failure;
 - stdout: requested JSON result only when `--json` is used;
 - stderr: concise diagnostics;
-- no mutation on validation failure or empty selection.
+- no mutation on validation failure or empty selection. `jobs preflight-result`
+  is explicitly read-only: it validates current claim ownership, result scope,
+  normalized-job ownership/stable identities, and manual candidate accounting
+  before any finalization transaction.
 
 Use bounded lock timeouts and report which lock could not be obtained.
 
@@ -320,18 +335,19 @@ Every mutating command returns a structured operation report as part of its norm
 
 Create `.agents/skills/validate-companies/SKILL.md` and `.agents/skills/find-jobs/SKILL.md`. They are the user-facing `$validate-companies` and `$find-jobs` workflows.
 
-Each `--claim-next MODEL` skill must instruct the agent to:
+Each `--run MODEL` worker must repeat these steps until `queue_empty`:
 
 1. Validate the model argument.
-2. Call the internal claim command exactly once.
+2. Call the internal claim command once per iteration.
 3. Stop successfully if no eligible task exists.
 4. Treat returned IDs as an absolute scope boundary.
 5. Read only supplied context and additional evidence needed for those IDs.
 6. Prefer deterministic adapters/checks before semantic research.
 7. Renew before the lease deadline when necessary.
 8. Produce the exact result schema at a unique path.
-9. Run the finalizer; never patch queue or canonical JSON itself.
-10. Report task ID, outcome, canonical changes, follow-up task/model, and evidence summary.
+9. Run the read-only result preflight; repair that same result if it fails.
+10. Run the finalizer only after preflight passes; never patch queue or canonical JSON itself.
+11. Report task ID, outcome, canonical changes, follow-up task/model, and evidence summary.
 
 `--audit-and-enqueue` performs only deterministic inspection and enqueueing. It does not claim or execute research.
 
@@ -343,7 +359,7 @@ Reporting is an output layer over the queue and canonical database. It must not 
 
 ### Per-command completion report
 
-Every `$validate-companies --claim-next MODEL` and `$find-jobs --claim-next MODEL` run ends with a concise report generated from the claim, result envelope, and finalizer response. It must distinguish command execution from research outcome: a correctly completed command whose evidence is inconclusive is an execution success but not a resolved research result.
+Every `$validate-companies --run MODEL` and `$find-jobs --run MODEL` worker ends with a concise aggregate report from its operation reports. It distinguishes execution success from research outcomes.
 
 Present the most specific results first.
 
@@ -612,7 +628,7 @@ Gate: expected checkpoints pass and repeat migrations are byte-identical except 
 
 1. Implement deterministic company audit reasons and consolidation.
 2. Implement company result schema and patch allow-list.
-3. Create `$validate-companies` skill for `--claim-next`, `--audit-and-enqueue`, and `--recover-stale`.
+3. Create `$validate-companies` skill for `--run`, diagnostic `--claim-next`, `--audit-and-enqueue`, and `--recover-stale`.
 4. Port only the useful research guidance from V3's separate company commands into this single skill.
 
 Gate: audit twice yields no new tasks/revision on the second run; concurrent claims are disjoint; representative resolved/inconclusive/access-failure paths finalize correctly.
@@ -641,9 +657,11 @@ Gate: multiple same-model agents claim different sources; a repeated source resu
 2. Make both work skills render item results first and the run-level summary last using only the CLI response and evidence already gathered.
 3. Implement the read-only status aggregator with explicit canonical-status label mappings and stable ordering.
 4. Create `.agents/skills/daily-jobs-status/SKILL.md` and document `$daily-jobs-status`.
-5. Add golden-output fixtures for company resolution, job search with zero matches, inconclusive escalation, access block, failed finalization, empty queue, and full status.
+5. Append one compact, schema-validated event for every queue-helper operation to a locked daily JSONL file. Reduce structured reports to an explicit allowlist so claim tokens, prompts, evidence, source instructions, and job descriptions can never enter telemetry.
+6. Add a read-only `v4-queue telemetry` command with time, workflow, worker, and tail filters plus deterministic aggregate counts. Telemetry is diagnostic history only and never feeds queue or canonical decisions.
+7. Add golden-output fixtures for company resolution, job search with zero matches, inconclusive escalation, access block, failed finalization, empty queue, full status, and telemetry aggregation.
 
-Gate: completion reports require no extra research or full-data scan; status totals reconcile to their source records; repeated status runs make no file changes; invalid input cannot produce a deceptively successful partial report.
+Gate: completion reports require no extra research or full-data scan; status totals reconcile to their source records; repeated status and telemetry-summary runs make no file changes; concurrent telemetry appends produce complete schema-valid lines; invalid input cannot produce a deceptively successful partial report.
 
 ### Phase 10 — End-to-end rehearsal
 
@@ -709,6 +727,7 @@ The implementation is complete only when:
 12. README contains the fresh-install, migration, audit, work, recovery, inspection, and troubleshooting runbook.
 13. Every completed work command reports per-item outcomes first and a concise run summary last without additional research.
 14. `$daily-jobs-status` reports queue, company, source, job coverage, attention, and recent-activity totals without mutating any data.
+15. Every queue-helper operation emits compact secret-free telemetry, and the local telemetry summary remains read-only and independent of canonical workflow state.
 
 ## 18. Operator runbook to document in README
 
@@ -726,13 +745,13 @@ $find-jobs --audit-and-enqueue
 Daily work:
 
 ```text
-$validate-companies --claim-next luna
-$validate-companies --claim-next terra
-$validate-companies --claim-next sol
+$validate-companies --run luna
+$validate-companies --run terra
+$validate-companies --run sol
 
-$find-jobs --claim-next luna
-$find-jobs --claim-next terra
-$find-jobs --claim-next sol
+$find-jobs --run luna --lane structured|manual
+$find-jobs --run terra --lane structured|manual
+$find-jobs --run sol --lane structured|manual
 ```
 
 Overall progress:

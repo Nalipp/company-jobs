@@ -8,27 +8,9 @@
     "schema_version": {"const": 1},
     "revision": {"type": "integer", "minimum": 0},
     "updated_at": {"oneOf": [{"type": "string", "format": "date-time"}, {"type": "null"}]},
-    "batches": {"type": "array", "items": {"$ref": "#/$defs/batch"}},
     "tasks": {"type": "array", "items": {"$ref": "#/$defs/task"}}
   },
   "$defs": {
-    "batch": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["batch_id", "workflow", "model", "limit", "claimed_count", "task_ids", "status", "close_reason", "created_at", "updated_at"],
-      "properties": {
-        "batch_id": {"type": "string", "pattern": "^batch:(validate_companies|find_jobs):.+$"},
-        "workflow": {"enum": ["validate_companies", "find_jobs"]},
-        "model": {"enum": ["luna", "terra", "sol"]},
-        "limit": {"type": "integer", "minimum": 1, "maximum": 75},
-        "claimed_count": {"type": "integer", "minimum": 0},
-        "task_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
-        "status": {"enum": ["active", "limit_reached", "closed"]},
-        "close_reason": {"oneOf": [{"enum": ["completed", "queue_empty", "candidate_budget", "stopped", "system_error"]}, {"type": "null"}]},
-        "created_at": {"type": "string", "format": "date-time"},
-        "updated_at": {"type": "string", "format": "date-time"}
-      }
-    },
     "task": {
       "type": "object",
       "additionalProperties": false,
@@ -37,7 +19,7 @@
         "task_id": {"type": "string", "minLength": 1},
         "dedupe_key": {"type": "string", "minLength": 1},
         "workflow": {"enum": ["validate_companies", "find_jobs"]},
-        "status": {"enum": ["open", "running", "completed", "inconclusive", "blocked", "failed"]},
+        "status": {"enum": ["open", "running", "completed", "inconclusive", "blocked", "failed", "superseded"]},
         "expected_model": {"enum": ["luna", "terra", "sol"]},
         "priority": {"type": "integer"},
         "available_at": {"type": "string", "format": "date-time"},

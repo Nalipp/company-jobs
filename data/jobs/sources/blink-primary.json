@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:15:36Z",
+      "attempt_id": "attempt:47e27cbf-4d7b-4607-9a95-73ed92ad77c1",
+      "result_digest": "12f3aa98e02c9559341462d3eff79c47d47f56762ac78cf1a3d566c12beabda6",
+      "task_id": "source:blink-primary:luna:bc94b0e2ae32bb18",
+      "transaction_id": "txn:12f3aa98e02c9559341462d3"
+    }
+  ],
+  "company_id": "blink",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:30:00Z",
+  "last_successful_scan_at": "2026-08-31T21:30:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "location_not_exact_san_francisco": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "blink-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

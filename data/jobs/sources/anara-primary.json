@@ -1,0 +1,60 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:18:24Z",
+      "attempt_id": "attempt:2432ff81-7e35-46a8-8999-3b240ed0894e",
+      "result_digest": "44025d784a7a7ecddf9c7929bfe3fd3d4b4e8f32fbea93c54cf423aa5e5206b9",
+      "task_id": "source:anara-primary:luna:2fd99132d058fc8d",
+      "transaction_id": "txn:44025d784a7a7ecddf9c7929"
+    }
+  ],
+  "company_id": "anara",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/anara/de0b55fb-8317-4041-9b12-14b582a6b904",
+      "company_id": "anara",
+      "compensation": null,
+      "compensation_text": null,
+      "department": "Engineering",
+      "description_text": "$150K - $200K // 0.50% - 1.00% // San Francisco or Remote (North America, Europe) ROLE We’re looking for a software engineer to join us in inventing a new, better way to do science. You’ll build novel research tools that will transform how scientific discoveries are made for decades to come. YOUR WORK MIGHT INCLUDE: - Designing and building scalable features and infrastructure for AI-powered research tools. - Engaging directly with customers to gather insights and improve user experience. - Monitoring and optimizing system performance and costs, making pragmatic tradeoffs to keep us lean and moving fast. - Establishing best practices for prompt engineering and deployment of new models and workflows. - Owning the design and automation of eval pipelines to continuously measure, benchmark and improve AI agent quality and reliability. YOU’RE LIKELY A GOOD FIT IF: - You are quick, scrappy and first and foremost a builder. Product at Anara moves lightning fast. We typically take features from idea to production in days, not weeks or months. - You blend excellent engineering with a taste for models and design. - You’ve worked on full stack agent behaviors and have hands-on experience with LLMs, RAG, and agent architectures. - Have independently built and scaled a product to at least a few thousand users (e.g. a side project or open-source project). - Have worked in a high-growth, fast-paced environment (ideally another startup) and can drive things forward with relatively little oversight. ANARA Our goal is to achieve 100 years of scientific progress in the next 10 years. The first step in our journey is to build the best tool for industry researchers and graduate students, using a combination of inventive research, design and engineering. In two years, we’ve grown to millions of users across the world’s most ambitious academic labs and R&D teams, we are fast approaching $10M in yearly revenue, and we raised $3M from Y Combinator and the founders of GitHub and Reddit. We're a small, tight-knit team of 10 people with huge ambitions. As a founding member, you'll be instrumental in helping us scale revenue from $10M to $100M and then $100M to $1B+. If you’re excited by the idea of being a part of that, definitely apply. We are remote-first with space in San Francisco where some team members work. If you'd like to move to the US, we’re more than happy to sponsor visas. If we make you an offer, we'll work with an immigration attorney to make sure everything goes smoothly. We offer premium healthcare (medical, dental, etc.), flexible working hours and office space with a beautiful view of the San Francisco marina and Golden Gate bridge..",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T03:16:56Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T03:16:56Z",
+      "locations": [
+        "San Francisco or Remote (North America, Europe)",
+        "San Francisco , California, United States"
+      ],
+      "posted_at": "2026-01-07T04:33:04Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "anara-primary",
+      "source_job_id": "de0b55fb-8317-4041-9b12-14b582a6b904",
+      "stable_id": "job-de972f8ef5d9abc84496f73f",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Software Engineer, Product",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T03:16:56Z",
+  "last_successful_scan_at": "2026-08-31T03:16:56Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "title_explicitly_non_target_function": 3,
+    "total": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "anara-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}
