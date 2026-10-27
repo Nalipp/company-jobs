@@ -166,9 +166,12 @@ Do not apply the handoff. Finish with:
 
 ```bash
 cd /Users/natelipp/ai-code/_v3_daily-jobs
-.venv/bin/python scripts/apply_handoff.py "/Users/natelipp/ai-code/_v3_daily-jobs/imports/ACTUAL-FILENAME.json" --dry-run
-.venv/bin/python scripts/apply_handoff.py "/Users/natelipp/ai-code/_v3_daily-jobs/imports/ACTUAL-FILENAME.json"
+.venv/bin/python scripts/apply_handoff.py imports/20260828T200727Z-company-ingest.json
 ```
+
+Replace the example filename with the actual handoff filename created in this
+run. Never leave a placeholder in the response. An optional dry-run may be
+provided separately, but it does not replace this apply command.
 
 Codex should review the dry-run output and apply only when schema validation and
 identity conflict checks succeed. Reapplying the same handoff must remain a

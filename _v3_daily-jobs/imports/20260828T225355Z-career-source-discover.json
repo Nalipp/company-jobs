@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "operation": "career-source-discover",
+  "created_at": "2026-08-28T22:53:55Z",
+  "changes": [
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "connect-primary",
+        "company_id": "connect",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "All Connect roles",
+        "instructions": "A bounded search found no employer-controlled careers destination; recheck the official site before the next source refresh.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "no_careers_found",
+        "official_relationship_url": "https://connect.com/",
+        "checked_at": "2026-08-28T22:53:55Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T22:53:55Z",
+        "updated_date": "2026-08-28T22:53:55Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "farmstead-primary",
+        "company_id": "farmstead",
+        "careers_url": "https://farmstead.rippling-ats.com/",
+        "listings_url": "https://farmstead.rippling-ats.com/",
+        "provider": "hiringthing",
+        "board_id": "farmstead",
+        "access_mode": "html_listing",
+        "scope": "All Farmstead roles",
+        "instructions": "Load the public HiringThing job board, enumerate every /job/<numeric-id>/<slug> listing, and open each stable job-detail URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": false
+        },
+        "status": "ready",
+        "official_relationship_url": "https://farmstead.rippling-ats.com/",
+        "checked_at": "2026-08-28T22:53:55Z",
+        "last_success_at": "2026-08-28T22:53:55Z",
+        "added_date": "2026-08-28T22:53:55Z",
+        "updated_date": "2026-08-28T22:53:55Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "shop-ware-primary",
+        "company_id": "shop-ware",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "All Shop-Ware roles",
+        "instructions": "A bounded search found no Shop-Ware-specific employer-controlled careers destination; recheck the official site before the next source refresh.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "no_careers_found",
+        "official_relationship_url": "https://shop-ware.com/",
+        "checked_at": "2026-08-28T22:53:55Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T22:53:55Z",
+        "updated_date": "2026-08-28T22:53:55Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "lytmus-primary",
+        "company_id": "lytmus",
+        "careers_url": "https://www.lytmus.io/careers/",
+        "listings_url": "https://www.lytmus.io/careers/",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Lytmus roles",
+        "instructions": "Load the official careers page and review the listed roles; stable role-detail URLs and a complete enumerable job-to-detail mapping are not currently exposed, so keep this source unsupported until verified.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://www.lytmus.io/about/",
+        "checked_at": "2026-08-28T22:53:55Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T22:53:55Z",
+        "updated_date": "2026-08-28T22:53:55Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "parabola-primary",
+        "company_id": "parabola",
+        "careers_url": "https://parabola.io/careers",
+        "listings_url": "https://jobs.ashbyhq.com/parabola-io",
+        "provider": "ashby",
+        "board_id": "parabola-io",
+        "access_mode": "structured_feed",
+        "scope": "All Parabola roles",
+        "instructions": "Enumerate the public Ashby board through all result pages and open every stable job-detail URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://parabola.io/careers",
+        "checked_at": "2026-08-28T22:53:55Z",
+        "last_success_at": "2026-08-28T22:53:55Z",
+        "added_date": "2026-08-28T22:53:55Z",
+        "updated_date": "2026-08-28T22:53:55Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "nitrous-primary",
+        "company_id": "nitrous",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "All Nitrous roles",
+        "instructions": "A bounded search found no current employer-controlled careers destination; recheck the official site before the next source refresh.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "no_careers_found",
+        "official_relationship_url": "https://nitrous.io/",
+        "checked_at": "2026-08-28T22:53:55Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T22:53:55Z",
+        "updated_date": "2026-08-28T22:53:55Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "leapfin-primary",
+        "company_id": "leapfin",
+        "careers_url": "https://www.leapfin.com/careers",
+        "listings_url": "https://www.leapfin.com/careers",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "html_listing",
+        "scope": "All Leapfin roles",
+        "instructions": "Load the official careers page and enumerate each role route under the same domain, opening every stable job-detail URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": false
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.leapfin.com/careers",
+        "checked_at": "2026-08-28T22:53:55Z",
+        "last_success_at": "2026-08-28T22:53:55Z",
+        "added_date": "2026-08-28T22:53:55Z",
+        "updated_date": "2026-08-28T22:53:55Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "homeshare-primary",
+        "company_id": "homeshare",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "All HomeShare roles",
+        "instructions": "A bounded search found no employer-controlled careers destination; recheck the official site before the next source refresh.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "no_careers_found",
+        "official_relationship_url": "https://homeshare.com/",
+        "checked_at": "2026-08-28T22:53:55Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T22:53:55Z",
+        "updated_date": "2026-08-28T22:53:55Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "cor-primary",
+        "company_id": "cor",
+        "careers_url": "https://live.projectcor.com/es/unete",
+        "listings_url": "https://live.projectcor.com/es/unete",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "html_listing",
+        "scope": "All COR roles",
+        "instructions": "Load the official COR hiring page, enumerate each current role route under /es/unete/<slug>, and open every stable role-detail URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": false
+        },
+        "status": "ready",
+        "official_relationship_url": "https://live.projectcor.com/es/unete",
+        "checked_at": "2026-08-28T22:53:55Z",
+        "last_success_at": "2026-08-28T22:53:55Z",
+        "added_date": "2026-08-28T22:53:55Z",
+        "updated_date": "2026-08-28T22:53:55Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "sinai-technologies-primary",
+        "company_id": "sinai-technologies",
+        "careers_url": "https://www.sinai.com/",
+        "listings_url": "https://sinai.breezy.hr/",
+        "provider": "breezy",
+        "board_id": "sinai",
+        "access_mode": "html_listing",
+        "scope": "All SINAI Technologies roles",
+        "instructions": "Follow the Careers link on the official SINAI site to the Breezy board; enumerate all current roles at the board root and open each stable /p/<id>-<slug> detail URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": false
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.sinai.com/",
+        "checked_at": "2026-08-28T22:53:55Z",
+        "last_success_at": "2026-08-28T22:53:55Z",
+        "added_date": "2026-08-28T22:53:55Z",
+        "updated_date": "2026-08-28T22:53:55Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "hemlane-primary",
+        "company_id": "hemlane",
+        "careers_url": "https://www.hemlane.com/about-us/",
+        "listings_url": "https://www.hemlane.com/about-us/",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Hemlane roles",
+        "instructions": "Load the official careers section on the About Us page and review each listed role; the page currently exposes no stable role-detail directory, so verify the application mapping before enabling automated enumeration.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://www.hemlane.com/about-us/",
+        "checked_at": "2026-08-28T22:53:55Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T22:53:55Z",
+        "updated_date": "2026-08-28T22:53:55Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "no_official_careers_found",
+      "company_id": "connect",
+      "subject": "No current Connect careers destination found",
+      "source_url": "https://connect.com/",
+      "details": "The current official domain resolves to YouSpot, a HubSpot Labs product page with no careers or jobs destination; third-party job profiles were excluded."
+    },
+    {
+      "code": "ambiguous_employer_source",
+      "company_id": "shop-ware",
+      "subject": "Shop-Ware careers are not separated from Vehlo",
+      "source_url": "https://shop-ware.com/about",
+      "details": "The official Shop-Ware site says Shop-Ware is a Vehlo solution, but no Shop-Ware-specific careers or enumerable job board was exposed; broader Vehlo openings were excluded because employer-brand ownership was ambiguous."
+    },
+    {
+      "code": "company_inactive",
+      "company_id": "nitrous",
+      "subject": "Nitrous has no current careers source",
+      "source_url": "https://nitrous.io/",
+      "details": "The official domain was unavailable, and bounded sources report that Nitrous.IO shut down its service in 2016. Historical job pages were excluded as not current."
+    },
+    {
+      "code": "stable_identity_unverified",
+      "company_id": "lytmus",
+      "subject": "Lytmus careers page lacks stable role-detail URLs",
+      "source_url": "https://www.lytmus.io/careers/",
+      "details": "The official page lists three roles and an email application path but exposes no stable role-detail URLs or complete role-to-detail mapping; the source remains unsupported."
+    },
+    {
+      "code": "no_official_careers_found",
+      "company_id": "homeshare",
+      "subject": "No current HomeShare careers destination found",
+      "source_url": "https://homeshare.com/",
+      "details": "The current official domain is a housing marketplace and exposes no careers or jobs destination; third-party listings were excluded."
+    },
+    {
+      "code": "stable_identity_unverified",
+      "company_id": "hemlane",
+      "subject": "Hemlane careers section lacks stable role-detail URLs",
+      "source_url": "https://www.hemlane.com/about-us/",
+      "details": "The official careers section lists roles on the About Us page, but the current page does not expose stable canonical role-detail URLs; the source remains unsupported."
+    }
+  ]
+}

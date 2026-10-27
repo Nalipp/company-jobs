@@ -1,0 +1,1220 @@
+{
+  "schema_version": 1,
+  "operation": "career-source-discover",
+  "created_at": "2026-08-28T23:02:15Z",
+  "changes": [
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "grove-collaborative-greenhouse",
+        "company_id": "grove-collaborative",
+        "careers_url": "https://www.grove.co/pages/careers",
+        "listings_url": "https://job-boards.greenhouse.io/grovecollaborative",
+        "provider": "greenhouse",
+        "board_id": "grovecollaborative",
+        "access_mode": "structured_feed",
+        "scope": "All Grove Collaborative roles",
+        "instructions": "Enumerate the public Greenhouse board API for this board, then open each canonical job URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://www.grove.co/pages/careers",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "onelogin-primary",
+        "company_id": "onelogin",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "No reusable official careers source found",
+        "instructions": "A bounded search found no employer-controlled current careers destination; recheck the official site before the next source refresh.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "no_careers_found",
+        "official_relationship_url": "https://www.onelogin.com",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "scality-lever",
+        "company_id": "scality",
+        "careers_url": "https://www.scality.com/careers/",
+        "listings_url": "https://jobs.lever.co/scality",
+        "provider": "lever",
+        "board_id": "scality",
+        "access_mode": "structured_feed",
+        "scope": "All Scality roles",
+        "instructions": "Enumerate the public Lever board, then open each canonical job URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://www.scality.com/careers/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "sauce-labs-greenhouse",
+        "company_id": "sauce-labs",
+        "careers_url": "https://saucelabs.com/careers",
+        "listings_url": "https://job-boards.greenhouse.io/saucelabs",
+        "provider": "greenhouse",
+        "board_id": "saucelabs",
+        "access_mode": "structured_feed",
+        "scope": "All Sauce Labs roles",
+        "instructions": "Enumerate the public Greenhouse board API for this board, then open each canonical job URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://saucelabs.com/careers",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "gooddata-ashby",
+        "company_id": "gooddata",
+        "careers_url": "https://www.gooddata.ai/company/careers/",
+        "listings_url": "https://jobs.ashbyhq.com/gooddata",
+        "provider": "ashby",
+        "board_id": "gooddata",
+        "access_mode": "structured_feed",
+        "scope": "All GoodData roles",
+        "instructions": "Enumerate the public Ashby board API for the exact board ID, then open each canonical job URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://www.gooddata.ai/company/careers/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "newfront-ashby",
+        "company_id": "newfront-insurance",
+        "careers_url": "https://www.newfront.com/careers",
+        "listings_url": "https://jobs.ashbyhq.com/newfront",
+        "provider": "ashby",
+        "board_id": "newfront",
+        "access_mode": "structured_feed",
+        "scope": "All Newfront Insurance roles",
+        "instructions": "Enumerate the public Ashby board API for the exact board ID, then open each canonical job URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://www.newfront.com/careers",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "zenreach-primary",
+        "company_id": "zenreach",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "No reusable official careers source found",
+        "instructions": "A bounded search found no employer-controlled current careers destination; recheck the official site before the next source refresh.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "no_careers_found",
+        "official_relationship_url": "https://zenreach.com",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "rocket-lawyer-greenhouse",
+        "company_id": "rocket-lawyer",
+        "careers_url": "https://www.rocketlawyer.com/about-us/careers",
+        "listings_url": "https://job-boards.greenhouse.io/rocketlawyer",
+        "provider": "greenhouse",
+        "board_id": "rocketlawyer",
+        "access_mode": "structured_feed",
+        "scope": "All Rocket Lawyer roles",
+        "instructions": "Enumerate the public Greenhouse board API for this board, then open each canonical job URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://www.rocketlawyer.com/about-us/careers",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "recurly-primary",
+        "company_id": "recurly",
+        "careers_url": "https://recurly.com/careers/",
+        "listings_url": "https://recurly.com/careers/",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Recurly roles",
+        "instructions": "Load the official Recurly careers page in a browser and resolve its dynamic open-positions section and stable role-detail URLs before enabling automated enumeration.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "unsupported",
+        "official_relationship_url": "https://recurly.com/careers/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "kiva-primary",
+        "company_id": "kiva",
+        "careers_url": "https://www.careers.kiva.org/",
+        "listings_url": "https://www.careers.kiva.org/",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Kiva roles",
+        "instructions": "Load the official Kiva careers page in a browser and resolve its dynamic job feed and stable role-detail URLs before enabling automated enumeration.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "unsupported",
+        "official_relationship_url": "https://www.careers.kiva.org/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "zedo-primary",
+        "company_id": "zedo",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "No reusable official careers source found",
+        "instructions": "A bounded search found no employer-controlled current careers destination; recheck the official site before the next source refresh.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "no_careers_found",
+        "official_relationship_url": "https://www.zedo.com",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "avenue-code-primary",
+        "company_id": "avenue-code",
+        "careers_url": "https://www.avenuecode.com/content/avenuecode/en/careers.html",
+        "listings_url": "https://www.avenuecode.com/content/avenuecode/en/careers.html",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Avenue Code roles",
+        "instructions": "Load the official Avenue Code careers page and resolve its open-roles iframe and stable job-detail URLs before enabling automated enumeration.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "unsupported",
+        "official_relationship_url": "https://www.avenuecode.com/content/avenuecode/en/careers.html",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "gladly-greenhouse",
+        "company_id": "gladly",
+        "careers_url": "https://www.gladly.ai/careers/",
+        "listings_url": "https://job-boards.greenhouse.io/sagansystems",
+        "provider": "greenhouse",
+        "board_id": "sagansystems",
+        "access_mode": "structured_feed",
+        "scope": "All Gladly roles",
+        "instructions": "Enumerate the public Greenhouse board API for this board, then open each canonical job URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://www.gladly.ai/careers/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "honeybook-greenhouse",
+        "company_id": "honeybook",
+        "careers_url": "https://www.honeybook.com/company/careers",
+        "listings_url": "https://job-boards.greenhouse.io/honeybook",
+        "provider": "greenhouse",
+        "board_id": "honeybook",
+        "access_mode": "structured_feed",
+        "scope": "All HoneyBook roles",
+        "instructions": "Enumerate the public Greenhouse board API for this board, then open each canonical job URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://www.honeybook.com/company/careers",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "kentik-greenhouse",
+        "company_id": "kentik",
+        "careers_url": "https://www.kentik.com/careers/",
+        "listings_url": "https://job-boards.greenhouse.io/kentik",
+        "provider": "greenhouse",
+        "board_id": "kentik",
+        "access_mode": "structured_feed",
+        "scope": "All Kentik roles",
+        "instructions": "Enumerate the public Greenhouse board API for this board, then open each canonical job URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://www.kentik.com/careers/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "zignal-labs-teamtailor",
+        "company_id": "zignal-labs",
+        "careers_url": "https://zignallabs.com/company/careers/",
+        "listings_url": "https://zignallabs.na.teamtailor.com/",
+        "provider": "teamtailor",
+        "board_id": "zignallabs.na",
+        "access_mode": "html_listing",
+        "scope": "All Zignal Labs roles",
+        "instructions": "Load the official Teamtailor tenant, enumerate all current openings, and open each stable role URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": false},
+        "status": "ready",
+        "official_relationship_url": "https://zignallabs.com/company/careers/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "zendrive-primary",
+        "company_id": "zendrive",
+        "careers_url": "https://zendrive-61307a49c5661e6e-d1a87a856581d.webflow.io/company",
+        "listings_url": "https://zendrive-61307a49c5661e6e-d1a87a856581d.webflow.io/company",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Zendrive roles",
+        "instructions": "Load the current Zendrive company page in a browser and resolve its open-position links and stable role-detail URLs before enabling automated enumeration.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "unsupported",
+        "official_relationship_url": "https://zendrive-61307a49c5661e6e-d1a87a856581d.webflow.io/company",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "indiegogo-primary",
+        "company_id": "indiegogo",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "No reusable official careers source found",
+        "instructions": "A bounded search found no employer-controlled current careers destination; recheck the official site before the next source refresh.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "no_careers_found",
+        "official_relationship_url": "https://www.indiegogo.com",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "hustle-primary",
+        "company_id": "hustle",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "No reusable official careers source found",
+        "instructions": "A bounded search found no employer-controlled current careers destination; recheck the official site before the next source refresh.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "no_careers_found",
+        "official_relationship_url": "https://hustle.com",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "expensify-primary",
+        "company_id": "expensify",
+        "careers_url": "https://we.are.expensify.com/",
+        "listings_url": "https://weareexpensify.squarespace.com/apply",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Expensify roles",
+        "instructions": "Load the official Expensify careers page in a browser and resolve the linked Squarespace role directory and stable job-detail URLs before enabling automated enumeration.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "unsupported",
+        "official_relationship_url": "https://we.are.expensify.com/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "bluecrew-primary",
+        "company_id": "bluecrew",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "No reusable official corporate careers source found",
+        "instructions": "A bounded search found only the worker assignment marketplace; recheck the official site for a corporate careers destination and do not ingest marketplace assignments as company roles.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "no_careers_found",
+        "official_relationship_url": "https://bluecrewjobs.com",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "easypost-lever",
+        "company_id": "easypost",
+        "careers_url": "https://www.easypost.com/careers/",
+        "listings_url": "https://jobs.lever.co/easypost-2/",
+        "provider": "lever",
+        "board_id": "easypost-2",
+        "access_mode": "structured_feed",
+        "scope": "All EasyPost roles",
+        "instructions": "Enumerate the public Lever board, then open each canonical job URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://www.easypost.com/careers/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "duncan-channon-primary",
+        "company_id": "duncan-channon",
+        "careers_url": "https://duncanchannon.com/",
+        "listings_url": "https://duncanchannon.com/",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Duncan Channon roles",
+        "instructions": "Load the official Duncan Channon site and resolve its Jobs contact into a current role directory with stable job-detail URLs before enabling automated enumeration.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "unsupported",
+        "official_relationship_url": "https://duncanchannon.com/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "lightbend-primary",
+        "company_id": "lightbend",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "No reusable official careers source found",
+        "instructions": "A bounded search found no employer-controlled current careers destination; recheck the official site before the next source refresh.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "no_careers_found",
+        "official_relationship_url": "https://www.lightbend.com",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "irhythm-technologies-workday",
+        "company_id": "irhythm-technologies",
+        "careers_url": "https://www.irhythmtech.com/us/en/who-we-are/careers",
+        "listings_url": "https://irhythmtech.wd5.myworkdayjobs.com/irhythm",
+        "provider": "workday",
+        "board_id": "irhythm",
+        "access_mode": "primary_platform",
+        "scope": "All iRhythm Technologies roles",
+        "instructions": "Enumerate the public Workday career site, exhaust all result pages, and open each canonical job-detail URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://www.irhythmtech.com/us/en/who-we-are/careers",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "kintone-primary",
+        "company_id": "kintone",
+        "careers_url": "https://www.kintone.com/en-us/company/careers/",
+        "listings_url": "https://www.kintone.com/en-us/company/careers/",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Kintone roles",
+        "instructions": "Load the official Kintone careers page in a browser and resolve its Open Positions destination and stable role-detail URLs before enabling automated enumeration.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "unsupported",
+        "official_relationship_url": "https://www.kintone.com/en-us/company/careers/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "smartrecruiters-primary",
+        "company_id": "smartrecruiters",
+        "careers_url": "https://www.smartrecruiters.com/about-us/",
+        "listings_url": "https://careers.smartrecruiters.com/smartrecruiters",
+        "provider": "smartrecruiters",
+        "board_id": "smartrecruiters",
+        "access_mode": "structured_feed",
+        "scope": "All SmartRecruiters roles",
+        "instructions": "Enumerate the public SmartRecruiters career site, exhaust all result pages, and open each canonical job URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://www.smartrecruiters.com/about-us/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "sparkpost-primary",
+        "company_id": "sparkpost",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "No reusable official independent careers source found",
+        "instructions": "A bounded search found no current SparkPost employer careers destination; the official product page identifies SparkPost as Bird Email, so recheck ownership before the next source refresh.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "no_careers_found",
+        "official_relationship_url": "https://sparkpost.com",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "tempo-automation-primary",
+        "company_id": "tempo-automation",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "No reusable official careers source found",
+        "instructions": "A bounded search found no employer-controlled current careers destination; recheck the official site before the next source refresh.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "no_careers_found",
+        "official_relationship_url": "https://tempoautomation.com",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "noodle-ai-primary",
+        "company_id": "noodle-ai",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "No reusable official careers source found",
+        "instructions": "A bounded search found no employer-controlled Noodle.ai careers destination; do not use the unrelated Noodle education Lever board.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "no_careers_found",
+        "official_relationship_url": "https://noodle.ai",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "sendoso-jazzhr",
+        "company_id": "sendoso",
+        "careers_url": "https://www.sendoso.com/sendoso-careers",
+        "listings_url": "https://sendoso.applytojob.com/apply",
+        "provider": "jazzhr",
+        "board_id": "sendoso",
+        "access_mode": "html_listing",
+        "scope": "All Sendoso roles",
+        "instructions": "Load the official JazzHR career page, enumerate all current openings, and open each stable role URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": false},
+        "status": "ready",
+        "official_relationship_url": "https://www.sendoso.com/sendoso-careers",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "mindjet-primary",
+        "company_id": "mindjet",
+        "careers_url": "https://www.mindmanager.com/en/careers/",
+        "listings_url": "https://www.mindmanager.com/en/careers/",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Mindjet roles",
+        "instructions": "Load the current MindManager/Corel careers page in a browser and resolve whether it contains Mindjet-owned roles with stable job-detail URLs before enabling automated enumeration.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "unsupported",
+        "official_relationship_url": "https://www.mindmanager.com/en/company/about/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "hive-lever",
+        "company_id": "hive",
+        "careers_url": "https://thehive.ai/careers",
+        "listings_url": "https://jobs.lever.co/hive/",
+        "provider": "lever",
+        "board_id": "hive",
+        "access_mode": "structured_feed",
+        "scope": "All Hive roles",
+        "instructions": "Enumerate the public Lever board, then open each canonical job URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://thehive.ai/careers",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "good-and-primary",
+        "company_id": "good-and",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "No reusable official careers source found",
+        "instructions": "A bounded search found no employer-controlled current careers destination; recheck the official site before the next source refresh.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "no_careers_found",
+        "official_relationship_url": "https://good.co",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "demandforce-primary",
+        "company_id": "demandforce",
+        "careers_url": "https://www.demandforce.com/careers/",
+        "listings_url": "https://go.demandforce.com/careers-sales",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Demandforce roles",
+        "instructions": "Load the official Demandforce careers pages and resolve the static role text into stable canonical job-detail and application URLs before enabling automated enumeration.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "unsupported",
+        "official_relationship_url": "https://www.demandforce.com/careers/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "xertica-primary",
+        "company_id": "xertica",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "No reusable official careers source found",
+        "instructions": "A bounded search found no employer-controlled current careers destination; recheck the official site before the next source refresh.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "no_careers_found",
+        "official_relationship_url": "https://xertica.com",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "planisware-primary",
+        "company_id": "planisware",
+        "careers_url": "https://careers.planisware.com/en/",
+        "listings_url": "https://careers.planisware.com/en/",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "html_listing",
+        "scope": "All Planisware roles",
+        "instructions": "Load the official Planisware career directory, exhaust all current openings, and open each stable role-detail URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": false},
+        "status": "ready",
+        "official_relationship_url": "https://careers.planisware.com/en/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "nitro-primary",
+        "company_id": "nitro",
+        "careers_url": "https://www.gonitro.com/about/careers",
+        "listings_url": "https://www.gonitro.com/about/careers",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "html_listing",
+        "scope": "All Nitro roles",
+        "instructions": "Load the official Nitro career directory, exhaust all current openings, and open each stable role-detail URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": false},
+        "status": "ready",
+        "official_relationship_url": "https://www.gonitro.com/about/careers",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "clarify-health-lever",
+        "company_id": "clarify-health-solutions",
+        "careers_url": "https://clarifyhealth.com/careers",
+        "listings_url": "https://jobs.lever.co/clarifyhealth",
+        "provider": "lever",
+        "board_id": "clarifyhealth",
+        "access_mode": "structured_feed",
+        "scope": "All Clarify Health Solutions roles",
+        "instructions": "Enumerate the public Lever board, then open each canonical job URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://clarifyhealth.com/careers",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "premise-primary",
+        "company_id": "premise",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "No reusable official careers source found",
+        "instructions": "A bounded search found no employer-controlled current careers destination; recheck the official site before the next source refresh.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "no_careers_found",
+        "official_relationship_url": "https://premise.com",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "landing-jazzhr",
+        "company_id": "landing",
+        "careers_url": "https://www.hellolanding.com/p/careers/",
+        "listings_url": "https://landing.applytojob.com/apply",
+        "provider": "jazzhr",
+        "board_id": "landing",
+        "access_mode": "html_listing",
+        "scope": "All Landing roles",
+        "instructions": "Load the official JazzHR career page, enumerate all current openings, and open each stable role URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": false},
+        "status": "ready",
+        "official_relationship_url": "https://www.hellolanding.com/p/careers/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "veem-jazzhr",
+        "company_id": "veem",
+        "careers_url": "https://www.veem.com/careers/",
+        "listings_url": "https://veem.applytojob.com/apply",
+        "provider": "jazzhr",
+        "board_id": "veem",
+        "access_mode": "html_listing",
+        "scope": "All Veem roles",
+        "instructions": "Load the official JazzHR career page, enumerate all current openings, and open each stable role URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": false},
+        "status": "ready",
+        "official_relationship_url": "https://www.veem.com/careers/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "scoop-primary",
+        "company_id": "scoop",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "No reusable official careers source found",
+        "instructions": "A bounded search found no employer-controlled current careers destination; recheck the official site before the next source refresh.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "no_careers_found",
+        "official_relationship_url": "https://takescoop.com",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "clearslide-primary",
+        "company_id": "clearslide",
+        "careers_url": "https://www.clearslide.com/careers/",
+        "listings_url": "https://www.clearslide.com/careers/",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All ClearSlide roles",
+        "instructions": "Load the legacy ClearSlide careers page and resolve whether it has a current canonical role directory and stable job-detail URLs before enabling automated enumeration.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "unsupported",
+        "official_relationship_url": "https://www.clearslide.com/careers/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "cobalt-greenhouse",
+        "company_id": "cobalt",
+        "careers_url": "https://www.cobalt.io/life",
+        "listings_url": "https://job-boards.greenhouse.io/cobaltio",
+        "provider": "greenhouse",
+        "board_id": "cobaltio",
+        "access_mode": "structured_feed",
+        "scope": "All Cobalt roles",
+        "instructions": "Enumerate the public Greenhouse board API for this board, then open each canonical job URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://www.cobalt.io/life",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "contentstack-greenhouse",
+        "company_id": "contentstack",
+        "careers_url": "https://www.contentstack.com/company/careers",
+        "listings_url": "https://job-boards.greenhouse.io/contentstack",
+        "provider": "greenhouse",
+        "board_id": "contentstack",
+        "access_mode": "structured_feed",
+        "scope": "All Contentstack roles",
+        "instructions": "Enumerate the public Greenhouse board API for this board, then open each canonical job URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://www.contentstack.com/company/careers",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "ease-jazzhr",
+        "company_id": "ease",
+        "careers_url": "https://www.ease.io/careers/",
+        "listings_url": "https://careers.easeinc.com/apply",
+        "provider": "jazzhr",
+        "board_id": "ease",
+        "access_mode": "html_listing",
+        "scope": "All Ease roles",
+        "instructions": "Load the official JazzHR career page, enumerate all current openings, and open each stable role URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": false},
+        "status": "ready",
+        "official_relationship_url": "https://www.ease.io/careers/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "cover-primary",
+        "company_id": "cover",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "No reusable official careers source found",
+        "instructions": "A bounded search found no current employer-controlled careers destination for cover.com; do not mix in the separate Cover AI company or the unrelated Covers.com site.",
+        "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+        "status": "no_careers_found",
+        "official_relationship_url": "https://cover.com",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "tubi-greenhouse",
+        "company_id": "tubi",
+        "careers_url": "https://corporate.tubitv.com/careers/",
+        "listings_url": "https://job-boards.greenhouse.io/tubitv",
+        "provider": "greenhouse",
+        "board_id": "tubitv",
+        "access_mode": "structured_feed",
+        "scope": "All Tubi roles",
+        "instructions": "Enumerate the public Greenhouse board API for this board, then open each canonical job URL.",
+        "capabilities": {"complete_enumeration": true, "stable_job_identity": true, "structured_data": true},
+        "status": "ready",
+        "official_relationship_url": "https://corporate.tubitv.com/careers/",
+        "checked_at": "2026-08-28T23:02:15Z",
+        "last_success_at": "2026-08-28T23:02:15Z",
+        "added_date": "2026-08-28T23:02:15Z",
+        "updated_date": "2026-08-28T23:02:15Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "source_identity_conflict",
+      "company_id": "ujet",
+      "subject": "greenhouse/ujet",
+      "source_url": "https://job-boards.greenhouse.io/ujet",
+      "details": "The requested ujet company is currently a separate verified catalog record, but Greenhouse board ujet is already assigned to existing source ujet-cx-greenhouse for company ujet-cx. No new source was submitted and no existing source was reassigned. Resolve the catalog identity conflict before retrying."
+    },
+    {
+      "code": "no_careers_found",
+      "company_id": "onelogin",
+      "subject": "careers",
+      "source_url": "https://www.onelogin.com",
+      "details": "The official OneLogin site exposed a sitemap entry but no current employer-controlled careers destination or enumerable job source was verified."
+    },
+    {
+      "code": "no_careers_found",
+      "company_id": "zenreach",
+      "subject": "careers",
+      "source_url": "https://zenreach.com",
+      "details": "No current employer-controlled Zenreach careers destination or enumerable job source was verified; search results for ZenHR were a different company."
+    },
+    {
+      "code": "no_careers_found",
+      "company_id": "zedo",
+      "subject": "careers",
+      "source_url": "https://www.zedo.com",
+      "details": "No current employer-controlled ZEDO careers destination or enumerable job source was verified."
+    },
+    {
+      "code": "unsupported_source",
+      "company_id": "recurly",
+      "subject": "careers",
+      "source_url": "https://recurly.com/careers/",
+      "details": "The official page advertises open positions, but the current role directory and provider endpoint were not exposed reliably enough to record a reusable enumerator."
+    },
+    {
+      "code": "unsupported_source",
+      "company_id": "kiva",
+      "subject": "careers",
+      "source_url": "https://www.careers.kiva.org/",
+      "details": "The official page exposes a dynamic loading Jobs section, but no stable provider or role-detail enumeration endpoint was verified."
+    },
+    {
+      "code": "unsupported_source",
+      "company_id": "avenue-code",
+      "subject": "careers",
+      "source_url": "https://www.avenuecode.com/content/avenuecode/en/careers.html",
+      "details": "The official page exposes an open-roles iframe, but the current underlying provider and stable canonical role URLs were not verifiable."
+    },
+    {
+      "code": "unsupported_source",
+      "company_id": "zendrive",
+      "subject": "careers",
+      "source_url": "https://zendrive-61307a49c5661e6e-d1a87a856581d.webflow.io/company",
+      "details": "A Zendrive-hosted page exposes positions, but the current company-domain relationship and a stable enumerable job source could not be verified."
+    },
+    {
+      "code": "no_careers_found",
+      "company_id": "indiegogo",
+      "subject": "careers",
+      "source_url": "https://www.indiegogo.com",
+      "details": "No current employer-controlled Indiegogo careers destination or enumerable job source was verified."
+    },
+    {
+      "code": "no_careers_found",
+      "company_id": "hustle",
+      "subject": "careers",
+      "source_url": "https://hustle.com",
+      "details": "No current employer-controlled Hustle careers destination was verified; similarly named Teamtailor and other results were not established as the catalog company."
+    },
+    {
+      "code": "unsupported_source",
+      "company_id": "expensify",
+      "subject": "careers",
+      "source_url": "https://we.are.expensify.com/",
+      "details": "The official page links to a Squarespace application page, but the current role directory and stable canonical job URLs were not exposed reliably enough for automated enumeration."
+    },
+    {
+      "code": "no_careers_found",
+      "company_id": "bluecrew",
+      "subject": "careers",
+      "source_url": "https://bluecrewjobs.com",
+      "details": "Only the worker assignment marketplace was found; no corporate employment careers source was verified, and marketplace assignments were excluded."
+    },
+    {
+      "code": "unsupported_source",
+      "company_id": "duncan-channon",
+      "subject": "careers",
+      "source_url": "https://duncanchannon.com/",
+      "details": "The official site exposes a Jobs contact but no enumerable role directory or stable job-detail URLs."
+    },
+    {
+      "code": "no_careers_found",
+      "company_id": "lightbend",
+      "subject": "careers",
+      "source_url": "https://www.lightbend.com",
+      "details": "No current employer-controlled Lightbend careers destination or enumerable job source was verified."
+    },
+    {
+      "code": "unsupported_source",
+      "company_id": "kintone",
+      "subject": "careers",
+      "source_url": "https://www.kintone.com/en-us/company/careers/",
+      "details": "The official page advertises Open Positions, but the current destination and stable provider-backed role URLs could not be verified."
+    },
+    {
+      "code": "unsupported_source",
+      "company_id": "mindjet",
+      "subject": "careers",
+      "source_url": "https://www.mindmanager.com/en/careers/",
+      "details": "The official MindManager careers page is a custom application surface, but current Mindjet/MindManager ownership and a stable enumerable role source could not be verified."
+    },
+    {
+      "code": "no_careers_found",
+      "company_id": "sparkpost",
+      "subject": "careers",
+      "source_url": "https://sparkpost.com",
+      "details": "The current official product page identifies SparkPost as Bird Email; no current independent SparkPost employer careers source was verified."
+    },
+    {
+      "code": "no_careers_found",
+      "company_id": "tempo-automation",
+      "subject": "careers",
+      "source_url": "https://tempoautomation.com",
+      "details": "No current employer-controlled Tempo Automation careers destination or enumerable job source was verified; similarly named Tempo companies were excluded."
+    },
+    {
+      "code": "no_careers_found",
+      "company_id": "noodle-ai",
+      "subject": "careers",
+      "source_url": "https://noodle.ai",
+      "details": "No current employer-controlled Noodle.ai careers destination was verified; the Noodle Lever board was a different education company and was excluded."
+    },
+    {
+      "code": "no_careers_found",
+      "company_id": "good-and",
+      "subject": "careers",
+      "source_url": "https://good.co",
+      "details": "No current employer-controlled Good&Co careers destination or enumerable job source was verified."
+    },
+    {
+      "code": "unsupported_source",
+      "company_id": "demandforce",
+      "subject": "careers",
+      "source_url": "https://www.demandforce.com/careers/",
+      "details": "Official careers pages expose role text, but no stable canonical role-detail or application enumeration endpoint was verified."
+    },
+    {
+      "code": "no_careers_found",
+      "company_id": "xertica",
+      "subject": "careers",
+      "source_url": "https://xertica.com",
+      "details": "No current employer-controlled Xertica careers destination or enumerable job source was verified."
+    },
+    {
+      "code": "no_careers_found",
+      "company_id": "premise",
+      "subject": "careers",
+      "source_url": "https://premise.com",
+      "details": "No current employer-controlled Premise Data careers destination or enumerable job source was verified; Premise Health results were a different company."
+    },
+    {
+      "code": "no_careers_found",
+      "company_id": "scoop",
+      "subject": "careers",
+      "source_url": "https://takescoop.com",
+      "details": "No current employer-controlled Scoop careers destination or enumerable job source was verified; similarly named Scoop results were different companies."
+    },
+    {
+      "code": "unsupported_source",
+      "company_id": "clearslide",
+      "subject": "careers",
+      "source_url": "https://www.clearslide.com/careers/",
+      "details": "The legacy official careers page exists, but no current canonical role directory or stable job-detail source was verified and the page points to a BigTinCan-era contact."
+    },
+    {
+      "code": "no_careers_found",
+      "company_id": "cover",
+      "subject": "careers",
+      "source_url": "https://cover.com",
+      "details": "No current employer-controlled careers destination was verified for cover.com; Cover AI and Covers.com were separate identities and were excluded."
+    }
+  ]
+}

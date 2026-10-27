@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T19:47:38Z",
+  "changes": [
+    {
+      "company_id": "binti",
+      "expected_status": "pending",
+      "website_url": "https://binti.com/",
+      "address_result": {
+        "address": {
+          "street": "144 2nd St Suite 200",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "United States"
+        },
+        "latitude": 37.787285627698,
+        "longitude": -122.399122334271,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/binti",
+        "address_source_label": "Current LinkedIn company page",
+        "verified_date": "2026-08-28T19:47:38Z"
+      }
+    },
+    {
+      "company_id": "code-metal",
+      "expected_status": "pending",
+      "website_url": "https://www.codemetal.ai/",
+      "address_result": {
+        "address": {
+          "street": "201 Washington St Suite 1700",
+          "city": "Boston",
+          "region": "MA",
+          "postal_code": "02108",
+          "country": "United States"
+        },
+        "latitude": 42.358519636262,
+        "longitude": -71.058455636286,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.codemetal.ai/privacy",
+        "address_source_label": "Official privacy policy",
+        "verified_date": "2026-08-28T19:47:38Z"
+      }
+    },
+    {
+      "company_id": "heartflow",
+      "expected_status": "pending",
+      "website_url": "https://www.heartflow.com/",
+      "address_result": {
+        "address": {
+          "street": "135 Main St Suite 1000",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "United States"
+        },
+        "latitude": 37.791459103018,
+        "longitude": -122.3942408815,
+        "address_status": "verified",
+        "address_source_url": "https://ir.heartflow.com/ir-resources/investor-faqs",
+        "address_source_label": "Official investor FAQ",
+        "verified_date": "2026-08-28T19:47:38Z"
+      }
+    },
+    {
+      "company_id": "latchbio",
+      "expected_status": "pending",
+      "website_url": "https://latch.bio/",
+      "address_result": {
+        "address": {
+          "street": "1800 Owens St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94158",
+          "country": "United States"
+        },
+        "latitude": 37.765150991159,
+        "longitude": -122.392595010992,
+        "address_status": "verified",
+        "address_source_url": "https://wiki.latch.bio/resources/terms-of-service",
+        "address_source_label": "Official Terms of Service",
+        "verified_date": "2026-08-28T19:47:38Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "concurrent_catalog_update",
+      "company_id": null,
+      "subject": "71 selected companies",
+      "source_url": null,
+      "details": "The catalog changed during research: 71 of the 75 selected records were no longer pending at handoff preparation. Their newer catalog values were preserved and are not included as incoming changes in this conflict-free handoff."
+    },
+    {
+      "code": "identity_ambiguous",
+      "company_id": "atg",
+      "subject": "ATG",
+      "source_url": null,
+      "details": "Bounded searches returned several unrelated ATG entities and no unambiguous official technology-company identity or complete physical address."
+    },
+    {
+      "code": "identity_ambiguous",
+      "company_id": "freehand",
+      "subject": "Freehand",
+      "source_url": null,
+      "details": "Bounded searches returned unrelated Freehand Gallery and Adobe/Macromedia FreeHand results without an unambiguous current technology-company identity or complete physical address."
+    },
+    {
+      "code": "identity_ambiguous",
+      "company_id": "omni",
+      "subject": "Omni",
+      "source_url": null,
+      "details": "The name maps to multiple companies; the strongest Omni Health result supplied only a San Francisco PMB, not a defensible physical office address."
+    },
+    {
+      "code": "identity_ambiguous",
+      "company_id": "orbital",
+      "subject": "Orbital",
+      "source_url": null,
+      "details": "The name maps to multiple unrelated companies; the strongest candidate supplied only a San Francisco PMB or city-only result, not a defensible physical office address."
+    },
+    {
+      "code": "identity_ambiguous",
+      "company_id": "rockstar",
+      "subject": "Rockstar",
+      "source_url": null,
+      "details": "Bounded searches returned unrelated Rockstar Games, Rockstar Consortium, and other entities without an unambiguous current technology-company identity or complete physical address."
+    }
+  ]
+}

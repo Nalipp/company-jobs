@@ -1,0 +1,1127 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T18:36:23Z",
+  "changes": [
+    {
+      "company_id": "theseus",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "third-chair",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "thunder-compute",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "toothy-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "traceroot-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "trellis-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "trueclaim",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "ubicloud",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "450 Townsend St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "United States"
+        },
+        "latitude": 37.7744943,
+        "longitude": -122.3984135,
+        "address_status": "verified",
+        "address_source_url": "https://www.ubicloud.com/about-ubicloud",
+        "address_source_label": "Official About Ubicloud",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "unbound",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "605 Market St, Ste 507",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "United States"
+        },
+        "latitude": 37.7889421,
+        "longitude": -122.4013149,
+        "address_status": "verified",
+        "address_source_url": "https://getunbound.ai/terms-and-conditions",
+        "address_source_label": "Official Terms and Conditions",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "units",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "unsloth-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "untether-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "250 King Street, Unit 900",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "United States"
+        },
+        "latitude": 37.777341,
+        "longitude": -122.3931163,
+        "address_status": "verified",
+        "address_source_url": "https://www.untetherlabs.com/terms",
+        "address_source_label": "Official Terms",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "unusual",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "uplift-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "usul",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "variance",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "variant",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "660 Mission St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "United States"
+        },
+        "latitude": 37.7870989,
+        "longitude": -122.4013658,
+        "address_status": "verified",
+        "address_source_url": "https://variant.com/terms-and-privacy",
+        "address_source_label": "Official Terms and Privacy",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "vendra",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "veritus",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "verne-robotics",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "videogen",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "voiceos",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "vooma",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "wavelength",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "wayline",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "weave",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "717 California St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "United States"
+        },
+        "latitude": 37.7922102,
+        "longitude": -122.4061642,
+        "address_status": "verified",
+        "address_source_url": "https://weaveos.com/privacy",
+        "address_source_label": "Official Privacy Policy",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "weave-robotics",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "wedge",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "wildcard",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "willow",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "wordware",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1185B Old Mason Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94129",
+          "country": "United States"
+        },
+        "latitude": 37.80457770475,
+        "longitude": -122.450987751222,
+        "address_status": "verified",
+        "address_source_url": "https://www.wordware.ai/story",
+        "address_source_label": "Official Story",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "woz",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "x1",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "y-n",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "zep-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "zettascale",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "zudo-work",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "aeqium",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "afresh",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "564 Market Street, Suite 525",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "United States"
+        },
+        "latitude": 37.7897371,
+        "longitude": -122.4011356,
+        "address_status": "verified",
+        "address_source_url": "https://www.afresh.com/company/contact-us",
+        "address_source_label": "Official Contact Page",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "agent-iq",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "7000 North Mopac Expwy, 2nd Floor",
+          "city": "Austin",
+          "region": "TX",
+          "postal_code": "78731",
+          "country": "United States"
+        },
+        "latitude": 30.3536429,
+        "longitude": -97.7494739,
+        "address_status": "outside_sf",
+        "address_source_url": "https://agentiq.com/company/about-us",
+        "address_source_label": "Official About Us",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "alhena-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "4900 Hopyard Road, Suite 100",
+          "city": "Pleasanton",
+          "region": "CA",
+          "postal_code": "94588",
+          "country": "United States"
+        },
+        "latitude": 37.6934768,
+        "longitude": -121.9047269,
+        "address_status": "outside_sf",
+        "address_source_url": "https://alhena.ai/security-statement",
+        "address_source_label": "Official Security Statement",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "allspice-io",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "444 Somerville Avenue",
+          "city": "Somerville",
+          "region": "MA",
+          "postal_code": "02143",
+          "country": "United States"
+        },
+        "latitude": 42.3817538,
+        "longitude": -71.102752,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.allspice.io/terms",
+        "address_source_label": "Official Terms",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "apothecary",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "arcade",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "595 Market Street, Floor 10",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "United States"
+        },
+        "latitude": 37.7892292,
+        "longitude": -122.4007916,
+        "address_status": "verified",
+        "address_source_url": "https://www.arcade.software/dpa",
+        "address_source_label": "Official Data Processing Addendum",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "astra",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "atomus",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "550 California St, Suite 203",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "United States"
+        },
+        "latitude": 37.7931569,
+        "longitude": -122.4036635,
+        "address_status": "verified",
+        "address_source_url": "https://www.atomuscyber.com/about",
+        "address_source_label": "Official About Page",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "attivo-partners",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "aura-frames",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "autocomplete",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "basis-one",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "bizwise",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "44 Tehama St, 4th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "United States"
+        },
+        "latitude": 37.7874837,
+        "longitude": -122.3963974,
+        "address_status": "verified",
+        "address_source_url": "https://bizwise.com/about/index.html",
+        "address_source_label": "Official About Page",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "bounce",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "braze",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "114 Sansome Street, Suite 500",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "United States"
+        },
+        "latitude": 37.7914708,
+        "longitude": -122.4006714,
+        "address_status": "verified",
+        "address_source_url": "https://www.braze.com/company/contact",
+        "address_source_label": "Official Contact Page",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "builder-io",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "95 3rd Street, 2nd Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "United States"
+        },
+        "latitude": 37.7865954,
+        "longitude": -122.4021108,
+        "address_status": "verified",
+        "address_source_url": "https://www.builder.io/legal/edpa",
+        "address_source_label": "Official Data Processing Addendum",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "channelmeter",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "code-for-america",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2323 Broadway",
+          "city": "Oakland",
+          "region": "CA",
+          "postal_code": "94612",
+          "country": "United States"
+        },
+        "latitude": 37.8126132,
+        "longitude": -122.266391,
+        "address_status": "outside_sf",
+        "address_source_url": "https://codeforamerica.org/privacy/",
+        "address_source_label": "Official Privacy Policy",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "compa",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2211 Michelson Dr., Suite 900",
+          "city": "Irvine",
+          "region": "CA",
+          "postal_code": "92612",
+          "country": "United States"
+        },
+        "latitude": 33.677524003981,
+        "longitude": -117.855388847112,
+        "address_status": "outside_sf",
+        "address_source_url": "https://go.compa.ai/hubfs/2025%20DPA/Compa%20-%20Data%20Processing%20Addendum%20June%2017%202025.docx.pdf",
+        "address_source_label": "Official 2025 Data Processing Addendum",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "contentful",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "cortex-biosciences",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "corvee",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "decisionnext",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "doorvest",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "564 Market St, Suite 150",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "United States"
+        },
+        "latitude": 37.7897371,
+        "longitude": -122.4011356,
+        "address_status": "verified",
+        "address_source_url": "https://doorvest.com/manage",
+        "address_source_label": "Official Office Locations",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "doss",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "everlane",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2170 Folsom Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94110",
+          "country": "United States"
+        },
+        "latitude": 37.7626023,
+        "longitude": -122.4151517,
+        "address_status": "verified",
+        "address_source_url": "https://www.everlane.com/pages/privacy",
+        "address_source_label": "Official Privacy Policy",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "exponent",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "firecrawl",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "first-round-capital",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "921 Front Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "United States"
+        },
+        "latitude": 37.7999292,
+        "longitude": -122.4002206,
+        "address_status": "verified",
+        "address_source_url": "https://www.firstround.com/?directory=true",
+        "address_source_label": "Official Office Locations",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "fractional-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "600 California Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "United States"
+        },
+        "latitude": 37.7929829,
+        "longitude": -122.4047906,
+        "address_status": "verified",
+        "address_source_url": "https://www.fractional.ai/terms-of-use",
+        "address_source_label": "Official Terms of Use",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "frame",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "grey-rhino",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "gvos",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "4370 Contractors Common",
+          "city": "Livermore",
+          "region": "CA",
+          "postal_code": "94551",
+          "country": "United States"
+        },
+        "latitude": 37.692497618353,
+        "longitude": -121.743312003903,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.gvos.io/",
+        "address_source_label": "Official GVOS Website",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "haystack-news",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "95 3rd St, 2nd Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "United States"
+        },
+        "latitude": 37.7865954,
+        "longitude": -122.4021108,
+        "address_status": "verified",
+        "address_source_url": "https://www.haystack.tv/contact-us",
+        "address_source_label": "Official Contact Page",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "influur",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "501 Brickell Key Drive, Suite 509",
+          "city": "Miami",
+          "region": "FL",
+          "postal_code": "33131",
+          "country": "United States"
+        },
+        "latitude": 25.7664325,
+        "longitude": -80.185764,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.influur.com/privacy-policy",
+        "address_source_label": "Official Privacy Policy",
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "insightrx",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    },
+    {
+      "company_id": "insummary",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T18:36:23Z"
+      }
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,1484 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T22:01:35Z",
+  "changes": [
+    {
+      "company_id": "quid",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "qulture-rocks",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "Rua James Joule, 65, Sala 82",
+          "city": "São Paulo",
+          "region": "SP",
+          "postal_code": "04576-080",
+          "country": "BR"
+        },
+        "latitude": -23.5887,
+        "longitude": -46.685,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.qulture.rocks/termos-condicoes-gerais",
+        "address_source_label": "Official Qulture.Rocks terms and conditions",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "qwil",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "radius",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "Radius Campus, Emperor Way, Crewe Business Park",
+          "city": "Crewe",
+          "region": "Cheshire",
+          "postal_code": "CW1 6BD",
+          "country": "GB"
+        },
+        "latitude": 53.1028,
+        "longitude": -2.4455,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.radius.com/en-gb/our-offices/",
+        "address_source_label": "Official Radius offices page",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "rainforest-qa",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "rainmakers",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "raise-me",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "rally-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "rally-org",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "rallyteam",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "rapleaf",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "rasa",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1 Embarcadero Center, Suite 1200",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.7956,
+        "longitude": -122.3972,
+        "address_status": "verified",
+        "address_source_url": "https://rasa.com/about",
+        "address_source_label": "Official Rasa about page",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "raydiant",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1 Letterman Drive, Suite C3500",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94129",
+          "country": "US"
+        },
+        "latitude": 37.7992,
+        "longitude": -122.4475,
+        "address_status": "verified",
+        "address_source_url": "https://www.bizprofile.net/ca/san-francisco/raydiant-inc",
+        "address_source_label": "Current California filing extraction for Raydiant, Inc.",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "reach",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "readyforzero",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "realm",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "recharge-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "reciprocity",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "recurly",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "201 Spear Street, Suite 1100",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7911,
+        "longitude": -122.3902,
+        "address_status": "verified",
+        "address_source_url": "https://recurly.com/legal/privacy/",
+        "address_source_label": "Official Recurly privacy policy",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "redacted",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "redbubble",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "170 Grant Avenue, Suite 600",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.7887,
+        "longitude": -122.4051,
+        "address_status": "verified",
+        "address_source_url": "https://www.redbubble.com/contact",
+        "address_source_label": "Official Redbubble contact page",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "redfin",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1099 Stewart Street, Suite 600",
+          "city": "Seattle",
+          "region": "WA",
+          "postal_code": "98101",
+          "country": "US"
+        },
+        "latitude": 47.6117,
+        "longitude": -122.334,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.redfin.com/about/contact-us?inquirySource=315",
+        "address_source_label": "Official Redfin contact page",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "referralexchange",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "425 Bush Street, Suite 200",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.79,
+        "longitude": -122.4049,
+        "address_status": "verified",
+        "address_source_url": "https://www.bbb.org/us/ca/san-francisco/profile/marketing-programs/referralexchange-inc-1116-458879",
+        "address_source_label": "Current BBB business profile for ReferralExchange",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "reflektive",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "reforge",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "remind",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "rentberry",
+      "expected_status": "pending",
+      "website_url": "https://rentberry.com"
+    },
+    {
+      "company_id": "rentjuice",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "rentlytics",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "replica",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "3610 W. 95th Street",
+          "city": "Leawood",
+          "region": "KS",
+          "postal_code": "66206",
+          "country": "US"
+        },
+        "latitude": 38.9566,
+        "longitude": -94.6704,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/replicahq",
+        "address_source_label": "Current Replica company profile",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "replicant",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1 Letterman Drive #3500",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94129",
+          "country": "US"
+        },
+        "latitude": 37.799,
+        "longitude": -122.4475,
+        "address_status": "verified",
+        "address_source_url": "https://www.replicant.com/legal/privacy-policy",
+        "address_source_label": "Official Replicant privacy policy",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "resilience",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "55 2nd Street, Suite 1950",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7887,
+        "longitude": -122.3998,
+        "address_status": "verified",
+        "address_source_url": "https://cyberresilience.com/about-us",
+        "address_source_label": "Official Resilience about page",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "resilio",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "4900 Hopyard Road, Suite 100",
+          "city": "Pleasanton",
+          "region": "CA",
+          "postal_code": "94588",
+          "country": "US"
+        },
+        "latitude": 37.6908,
+        "longitude": -121.9288,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.resilio.com/legal/terms-of-sale/",
+        "address_source_label": "Official Resilio terms of sale",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "restless-bandit",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "33 New Montgomery Street, Suite 1500",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7893,
+        "longitude": -122.4004,
+        "address_status": "verified",
+        "address_source_url": "https://bizfileonline.sos.ca.gov/api/report/GetImageByNum/098113070243147088019220135231247023139127114181",
+        "address_source_label": "California Secretary of State filing for Restless Bandit",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "rev",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1717 W 6th Street, Suite 310",
+          "city": "Austin",
+          "region": "TX",
+          "postal_code": "78703",
+          "country": "US"
+        },
+        "latitude": 30.2814,
+        "longitude": -97.7665,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.rev.com/legal/privacy",
+        "address_source_label": "Official Rev privacy policy",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "revenue-grid",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "950 East Paces Ferry Road NE, Suite 2150, Salesforce Tower",
+          "city": "Atlanta",
+          "region": "GA",
+          "postal_code": "30326",
+          "country": "US"
+        },
+        "latitude": 33.844,
+        "longitude": -84.3612,
+        "address_status": "outside_sf",
+        "address_source_url": "https://revenuegrid.com/contact-us/",
+        "address_source_label": "Official Revenue Grid contact page",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "revive-solutions",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "rewatch",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "rga-associates",
+      "expected_status": "pending",
+      "website_url": "https://www.rgatech.com"
+    },
+    {
+      "company_id": "rhumbix",
+      "expected_status": "pending",
+      "website_url": "https://rhumbix.com"
+    },
+    {
+      "company_id": "rithm-school",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "rocket-lawyer",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "182 Howard Street #830",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.788,
+        "longitude": -122.3978,
+        "address_status": "verified",
+        "address_source_url": "https://www.bbb.org/us/ca/san-francisco/profile/legal-forms/rocket-lawyer-1116-143904",
+        "address_source_label": "Current BBB business profile for Rocket Lawyer",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "rolepoint",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "rollbar",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "routable",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "710 Lakeway Drive, Suite 200",
+          "city": "Sunnyvale",
+          "region": "CA",
+          "postal_code": "94085",
+          "country": "US"
+        },
+        "latitude": 37.3759,
+        "longitude": -122.0326,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.routable.com/legal/privacy/",
+        "address_source_label": "Official Routable privacy policy",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "runnable",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "runscope",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "rylo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "safegraph",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "sales-hacker",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "salon-media-group",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "saltmine",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "601 California Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.7927,
+        "longitude": -122.4054,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/trysaltmine",
+        "address_source_label": "Current Saltmine company profile",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "sano",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "sapling",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "sauce-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "450 Sansome Street, 9th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.796,
+        "longitude": -122.4015,
+        "address_status": "verified",
+        "address_source_url": "https://saucelabs.com/contact-us",
+        "address_source_label": "Official Sauce Labs contact page",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "say-media",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "scal-io",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "548 Market Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.7894,
+        "longitude": -122.3997,
+        "address_status": "verified",
+        "address_source_url": "https://scal.io/contact",
+        "address_source_label": "Official Scal.io contact page",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "scalable-press",
+      "expected_status": "pending",
+      "website_url": "https://scalablepress.com"
+    },
+    {
+      "company_id": "scality",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "149 New Montgomery Street, Suite 607",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7896,
+        "longitude": -122.4005,
+        "address_status": "verified",
+        "address_source_url": "https://www.scality.com/privacy-policy/",
+        "address_source_label": "Official Scality privacy policy",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "scalr",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "scalus",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "schoolmint",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "319 Monroe Street",
+          "city": "Lafayette",
+          "region": "LA",
+          "postal_code": "70501",
+          "country": "US"
+        },
+        "latitude": 30.2241,
+        "longitude": -92.0198,
+        "address_status": "outside_sf",
+        "address_source_url": "https://schoolmint.com/contact-us/",
+        "address_source_label": "Official SchoolMint contact page",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "scoop",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "4 Embarcadero Center, Suite 1400",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.795,
+        "longitude": -122.3976,
+        "address_status": "verified",
+        "address_source_url": "https://assets-global.website-files.com/625e21fcee6d4244afb355f5/641b01438f1ef82ed163d464_GDPR%20DPA%20Scoop-%202023%20-%20Web%20based.pdf",
+        "address_source_label": "Scoop Technologies data processing addendum",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "scout-rfp",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "scripted",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "seasoned",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "secfi",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "25 Broadway, 10th Floor",
+          "city": "New York",
+          "region": "NY",
+          "postal_code": "10004",
+          "country": "US"
+        },
+        "latitude": 40.706,
+        "longitude": -74.0133,
+        "address_status": "outside_sf",
+        "address_source_url": "https://secfi.com/contact",
+        "address_source_label": "Official Secfi contact page",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "securitize",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "78 SW 7th Street, Suite 500",
+          "city": "Miami",
+          "region": "FL",
+          "postal_code": "33130",
+          "country": "US"
+        },
+        "latitude": 25.766,
+        "longitude": -80.1918,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/1762096/000095010326006468/0000950103-26-006468-index.htm",
+        "address_source_label": "Current SEC filing for Securitize, Inc.",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "seed",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2100 Abbot Kinney Boulevard, Suite G",
+          "city": "Venice",
+          "region": "CA",
+          "postal_code": "90291",
+          "country": "US"
+        },
+        "latitude": 33.993,
+        "longitude": -118.455,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.seedhealth.com/terms",
+        "address_source_label": "Official Seed Health website terms",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "seesmic",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "sendoso",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "655 Montgomery Street, Suite 1500",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.795,
+        "longitude": -122.403,
+        "address_status": "verified",
+        "address_source_url": "https://www.sendoso.com/2024-dpa",
+        "address_source_label": "Official Sendoso 2024 data processing addendum",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "sendwithus",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "548 Market Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.7894,
+        "longitude": -122.3997,
+        "address_status": "verified",
+        "address_source_url": "https://www.dyspatch.io/about/contact-us/",
+        "address_source_label": "Official Dyspatch contact page for the Sendwithus brand",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "sense",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1875 Mission Street, Suite 103",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.7668,
+        "longitude": -122.4195,
+        "address_status": "verified",
+        "address_source_url": "https://www.sensehq.com/company",
+        "address_source_label": "Official Sense company page",
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    },
+    {
+      "company_id": "sensor-tower",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:35Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "mailbox_only",
+      "company_id": "quid",
+      "subject": "quid",
+      "source_url": "https://www.quid.com/contact-us",
+      "details": "The current official contact page provides only a San Diego PMB/mailing address; no current physical office was confirmed."
+    },
+    {
+      "code": "conflicting_address_sources",
+      "company_id": "qwil",
+      "subject": "qwil",
+      "source_url": "https://www.bbb.org/us/ca/san-francisco/profile/financial-services/qwil-1116-895143",
+      "details": "BBB lists 599 3rd Street, San Francisco, while other records list a Carmel Valley address; the company website is unavailable and no current official physical office could be confirmed."
+    },
+    {
+      "code": "identity_ambiguity",
+      "company_id": "radius",
+      "subject": "radius",
+      "source_url": "https://www.radius.com/en-gb/our-offices/",
+      "details": "The catalog domain radius.com matches the UK-headquartered fleet-mobility company; separate San Francisco Radius Agent records were not treated as the same entity."
+    },
+    {
+      "code": "remote_only_no_office",
+      "company_id": "rainforest-qa",
+      "subject": "rainforest-qa",
+      "source_url": "https://www.linkedin.com/company/rainforestqa",
+      "details": "The current company profile describes a fully remote, globally distributed team and does not provide a current street office; the older Embarcadero address appears historical."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "rainmakers",
+      "subject": "rainmakers",
+      "source_url": "https://www.linkedin.com/company/rainmakers-inc",
+      "details": "The current profile says Rainmakers is part of Hirewell; the old official Rainmakers address is historical and no current exact Rainmakers office was confirmed."
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "raise-me",
+      "subject": "raise-me",
+      "source_url": "https://help.raise.me/hc/en-us/sections/115000639228-Company",
+      "details": "The current official help center has no physical office address and no current street-level office could be confirmed."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "rally-health",
+      "subject": "rally-health",
+      "source_url": "https://www.rallyhealth.com/offices",
+      "details": "Rally Health is now part of Optum Engage; the current offices page names San Francisco but supplies no street address, so no current exact physical office was confirmed."
+    },
+    {
+      "code": "identity_inactive",
+      "company_id": "rally-org",
+      "subject": "rally-org",
+      "source_url": "https://rally.org/",
+      "details": "The catalog domain is currently parked and no operating company or physical office could be confirmed."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "rallyteam",
+      "subject": "rallyteam",
+      "source_url": "https://www.cbinsights.com/company/rallyteam",
+      "details": "The San Francisco startup was acquired by Workday in 2018; no current Rallyteam physical office was confirmed."
+    },
+    {
+      "code": "acquired_legacy",
+      "company_id": "rapleaf",
+      "subject": "rapleaf",
+      "source_url": "https://www.crunchbase.com/organization/rapleaf",
+      "details": "Rapleaf is reported as acquired by TowerData and closed; the available San Francisco address is historical."
+    },
+    {
+      "code": "address_source_conflict",
+      "company_id": "raydiant",
+      "subject": "raydiant",
+      "source_url": "https://www.bizprofile.net/ca/san-francisco/raydiant-inc",
+      "details": "Older LinkedIn records list 35 Stillman Street, while the current California filing lists 1 Letterman Drive, Suite C3500; the current filing address was selected."
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "reach",
+      "subject": "reach",
+      "source_url": "https://reachhq.com/",
+      "details": "Searches for the catalog identity did not produce a current, reliable street-level office address tied to ReachHQ."
+    },
+    {
+      "code": "acquired_legacy",
+      "company_id": "readyforzero",
+      "subject": "readyforzero",
+      "source_url": "https://www.ycombinator.com/companies/ready-for-zero",
+      "details": "ReadyForZero was acquired by Avant and is listed as inactive; no current physical office was confirmed."
+    },
+    {
+      "code": "acquired_or_rebranded",
+      "company_id": "realm",
+      "subject": "realm",
+      "source_url": "https://realm.netlify.app/legal/",
+      "details": "The available Realm legal page gives a registered/legal address, while the mobile-database business was acquired by MongoDB; no current physical office was confirmed."
+    },
+    {
+      "code": "company_inactive",
+      "company_id": "recharge-labs",
+      "subject": "recharge-labs",
+      "source_url": "https://www.crunchbase.com/organization/recharge",
+      "details": "The catalog identity is reported as permanently closed; current Recharge Lab search results refer to a different company."
+    },
+    {
+      "code": "identity_ambiguity",
+      "company_id": "reciprocity",
+      "subject": "reciprocity",
+      "source_url": "https://xplorexit.com/reciprocity/",
+      "details": "Current search results identify multiple unrelated Reciprocity businesses and do not provide a reliable exact physical address for the catalog identity."
+    },
+    {
+      "code": "identity_ambiguity",
+      "company_id": "redacted",
+      "subject": "redacted",
+      "source_url": "https://redacted.com/",
+      "details": "The catalog identity could not be reconciled with conflicting Austin, San Francisco, and international Redacted records; no credible current physical office was tied to this domain."
+    },
+    {
+      "code": "address_source_conflict",
+      "company_id": "referralexchange",
+      "subject": "referralexchange",
+      "source_url": "https://www.referralexchange.com/about/contact-us/",
+      "details": "The official contact page lists a Dallas PO box, while the current BBB profile lists 425 Bush Street, Suite 200, San Francisco; the current physical listing was selected."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "reflektive",
+      "subject": "reflektive",
+      "source_url": "https://www.linkedin.com/company/reflektive",
+      "details": "Reflektive is now part of PeopleFluent/Lightspeed; current PeopleFluent locations do not list a San Francisco office and the old Townsend Street address is historical."
+    },
+    {
+      "code": "insufficient_exact_address",
+      "company_id": "reforge",
+      "subject": "reforge",
+      "source_url": "https://www.reforge.com/",
+      "details": "Current official Reforge pages did not provide a reliable street-level physical office address."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "remind",
+      "subject": "remind",
+      "source_url": "https://www.remind.com/parentsquare",
+      "details": "Remind joined ParentSquare in 2023; the current official contact information does not confirm a current physical San Francisco office."
+    },
+    {
+      "code": "conflicting_current_addresses",
+      "company_id": "rentberry",
+      "subject": "rentberry",
+      "source_url": "https://rentberry.com/about",
+      "details": "The current official site lists 315 Montgomery Street, Suite 900, while the 2024 SEC filing and current app listing use 201 Spear Street, Suite 1100; no address was selected."
+    },
+    {
+      "code": "acquired_legacy",
+      "company_id": "rentjuice",
+      "subject": "rentjuice",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1334814/000119312512257022/d361729dex991.htm",
+      "details": "Zillow completed its acquisition of RentJuice in 2012 and folded the business into Zillow Rentals; the available San Francisco address is historical."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "rentlytics",
+      "subject": "rentlytics",
+      "source_url": "https://www.cbinsights.com/company/rentlytics",
+      "details": "Rentlytics was acquired by RealPage; available San Francisco addresses are historical and no current Rentlytics office was confirmed."
+    },
+    {
+      "code": "address_evidence_limited",
+      "company_id": "replica",
+      "subject": "replica",
+      "source_url": "https://www.linkedin.com/company/replicahq",
+      "details": "Replica lists offices in the Bay Area and New York, but the current exact address available is its Leawood headquarters; that headquarters was selected."
+    },
+    {
+      "code": "identity_ambiguity",
+      "company_id": "revive-solutions",
+      "subject": "revive-solutions",
+      "source_url": "https://revive.life/",
+      "details": "The catalog domain did not yield a credible current company profile or exact physical office tied to Revive Solutions."
+    },
+    {
+      "code": "insufficient_exact_address",
+      "company_id": "rewatch",
+      "subject": "rewatch",
+      "source_url": "https://www.builtinsf.com/company/rewatch",
+      "details": "Current company listings identify San Francisco only and do not provide a reliable street-level office address."
+    },
+    {
+      "code": "identity_ambiguity",
+      "company_id": "rga-associates",
+      "subject": "rga-associates",
+      "source_url": "https://www.rga.com/offices/us",
+      "details": "The catalog website rgatech.com conflicts with the unrelated current R/GA agency site; third-party RGA Associates listings are not sufficient to select a current physical office."
+    },
+    {
+      "code": "entity_transition",
+      "company_id": "rhumbix",
+      "subject": "rhumbix",
+      "source_url": "https://www.rhumbix.com/blog/a-new-chapter-autodesk-has-signed-rhumbix",
+      "details": "Autodesk has announced a definitive acquisition, with Rhumbix operating separately until closing; current sources identify San Francisco but provide no exact street address."
+    },
+    {
+      "code": "closed_stale_address",
+      "company_id": "rithm-school",
+      "subject": "rithm-school",
+      "source_url": "https://www.rithmschool.com/apply/",
+      "details": "The official site says the school is closed and will not run future cohorts; its San Francisco address is historical."
+    },
+    {
+      "code": "address_source_conflict",
+      "company_id": "rocket-lawyer",
+      "subject": "rocket-lawyer",
+      "source_url": "https://www.rocketlawyer.com/legal-services-terms-of-service",
+      "details": "The current official terms give a San Francisco PMB/legal address, while the current BBB profile identifies 182 Howard Street #830 as the physical address; the physical listing was selected."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "rolepoint",
+      "subject": "rolepoint",
+      "source_url": "https://www.corumgroup.com/sites/default/files/2019%20Q1%20Report%20-%20FINAL.pdf",
+      "details": "RolePoint was sold/acquired and the available San Francisco address is historical; no current RolePoint physical office was confirmed."
+    },
+    {
+      "code": "mailbox_only",
+      "company_id": "rollbar",
+      "subject": "rollbar",
+      "source_url": "https://rollbar.com/contact-us",
+      "details": "Current exact address evidence is a Market Street PMB/legal address or an uncorroborated profile listing; no current physical office was confirmed."
+    },
+    {
+      "code": "address_source_conflict",
+      "company_id": "routable",
+      "subject": "routable",
+      "source_url": "https://www.routable.com/legal/privacy/",
+      "details": "The official current contact address is in Sunnyvale, while older LinkedIn and legal records list San Francisco or Foster City; the current official contact address was selected."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "runnable",
+      "subject": "runnable",
+      "source_url": "https://www.linkedin.com/company/runnable",
+      "details": "Runnable was acquired by MuleSoft; its San Francisco address is historical and no current Runnable office was confirmed."
+    },
+    {
+      "code": "acquired_legacy",
+      "company_id": "runscope",
+      "subject": "runscope",
+      "source_url": "https://www.runscope.com/terms",
+      "details": "Runscope is a CA Technologies/Broadcom legacy product and the official terms provide only a PMB/legal address; no current physical office was confirmed."
+    },
+    {
+      "code": "identity_mismatch",
+      "company_id": "rylo",
+      "subject": "rylo",
+      "source_url": "https://rylo.com/legal/privacy",
+      "details": "The current rylo.com business is Nagish d/b/a Rylo, while the catalog identity matches the former camera company acquired by VSCO; no current physical office for the catalog identity was confirmed."
+    },
+    {
+      "code": "remote_only_no_office",
+      "company_id": "safegraph",
+      "subject": "safegraph",
+      "source_url": "https://www.safegraph.com/blog/why-safegraph-moved-its-hq-from-san-francisco-to-denver/",
+      "details": "SafeGraph's official announcement says it moved its headquarters to Denver and became fully distributed; the current contact address is a Denver PMB rather than a confirmed physical office."
+    },
+    {
+      "code": "insufficient_exact_address",
+      "company_id": "sales-hacker",
+      "subject": "sales-hacker",
+      "source_url": "https://www.builtinsf.com/company/sales-hacker",
+      "details": "Current listings identify San Francisco but do not provide a reliable street-level physical office address."
+    },
+    {
+      "code": "historical_address_only",
+      "company_id": "salon-media-group",
+      "subject": "salon-media-group",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1084332/000143774919013775/slnm20190331b_10k.htm",
+      "details": "The SEC filing documents an old Market Street lease that ended in 2019; no current Salon Media Group physical office was confirmed."
+    },
+    {
+      "code": "acquired_legacy",
+      "company_id": "sano",
+      "subject": "sano",
+      "source_url": "https://www.cbinsights.com/company/sano",
+      "details": "Sano Intelligence was acquired by One Drop in 2020; the available Bryant Street address is historical."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "sapling",
+      "subject": "sapling",
+      "source_url": "https://www.sapling.ai/",
+      "details": "The Sapling HR product is associated with an acquisition/transition and current sources do not confirm a current exact physical office; older San Francisco listings are historical."
+    },
+    {
+      "code": "acquired_legacy",
+      "company_id": "say-media",
+      "subject": "say-media",
+      "source_url": "https://www.cbinsights.com/company/say-media",
+      "details": "Say Media was acquired/restructured and the available Townsend Street address is historical; no current Say Media office was confirmed."
+    },
+    {
+      "code": "insufficient_exact_address",
+      "company_id": "scalable-press",
+      "subject": "scalable-press",
+      "source_url": "https://scalablepress.com/company/about",
+      "details": "The current official site confirms a San Francisco office, but does not publish its street address; the older Fremont mailing address was not treated as current physical-office evidence."
+    },
+    {
+      "code": "mailbox_only",
+      "company_id": "scalr",
+      "subject": "scalr",
+      "source_url": "https://scalr.com/legal/terms-and-conditions",
+      "details": "The current official terms list a Walnut Creek PMB/legal address and no current physical office was confirmed."
+    },
+    {
+      "code": "company_inactive",
+      "company_id": "scalus",
+      "subject": "scalus",
+      "source_url": "https://www.prweb.com/releases/award_winning_developer_scalus_launches_workflow_automation_software_for_accountants/prweb14305092.htm",
+      "details": "The available Scalus evidence is a 2017 launch announcement with no current company or street-level physical office confirmed."
+    },
+    {
+      "code": "acquired_or_rebranded",
+      "company_id": "scout-rfp",
+      "subject": "scout-rfp",
+      "source_url": "https://newsroom.workday.com/2019-11-04-Workday-Announces-Intent-to-Acquire-Scout-RFP",
+      "details": "Workday completed the acquisition and later rebranded Scout RFP as Workday Strategic Sourcing; no current Scout RFP physical office was confirmed."
+    },
+    {
+      "code": "mailbox_only",
+      "company_id": "scripted",
+      "subject": "scripted",
+      "source_url": "https://www.scripted.com/terms",
+      "details": "The current official terms provide a San Antonio PMB/legal address and no current physical office was confirmed."
+    },
+    {
+      "code": "mailbox_only",
+      "company_id": "seasoned",
+      "subject": "seasoned",
+      "source_url": "https://www.seasoned.co/privacypolicy.html",
+      "details": "The current official privacy policy provides a San Francisco PMB/mailing address; no current physical office was confirmed."
+    },
+    {
+      "code": "acquired_legacy",
+      "company_id": "seesmic",
+      "subject": "seesmic",
+      "source_url": "https://en.wikipedia.org/wiki/Seesmic",
+      "details": "Seesmic was acquired by Hootsuite in 2012; no current Seesmic physical office was confirmed."
+    },
+    {
+      "code": "address_source_conflict",
+      "company_id": "sendoso",
+      "subject": "sendoso",
+      "source_url": "https://www.sendoso.com/2024-dpa",
+      "details": "The current official DPA lists 655 Montgomery Street, while the current LinkedIn profile lists 447 Battery Street; the official DPA address was selected."
+    },
+    {
+      "code": "acquired_or_rebranded",
+      "company_id": "sendwithus",
+      "subject": "sendwithus",
+      "source_url": "https://www.dyspatch.io/press/",
+      "details": "Sendwithus announced a name change to Dyspatch; the current Dyspatch physical San Francisco address was applied to the legacy catalog record."
+    },
+    {
+      "code": "mailbox_only",
+      "company_id": "sensor-tower",
+      "subject": "sensor-tower",
+      "source_url": "https://sensortower.com/about",
+      "details": "The current official page labels 2261 Market Street #4331 as headquarters, but the unit-style address is mailbox-like and no separately confirmed physical office address was found."
+    }
+  ]
+}

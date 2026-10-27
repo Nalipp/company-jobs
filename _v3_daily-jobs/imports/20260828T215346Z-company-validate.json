@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T21:53:46Z",
+  "changes": [
+    {
+      "company_id": "zenplace",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "940 Stewart Dr",
+          "city": "Sunnyvale",
+          "region": "CA",
+          "postal_code": "94085",
+          "country": "US"
+        },
+        "latitude": 37.383345075596,
+        "longitude": -122.004426895643,
+        "address_status": "outside_sf",
+        "address_source_url": "https://craft.co/zenplace/locations",
+        "address_source_label": "Craft location profile (Sunnyvale HQ)",
+        "verified_date": "2026-08-28T21:53:46Z"
+      }
+    },
+    {
+      "company_id": "zenput",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "120 Causeway Street, Suite 306",
+          "city": "Boston",
+          "region": "MA",
+          "postal_code": "02114",
+          "country": "US"
+        },
+        "latitude": 42.365941518157,
+        "longitude": -71.061004237766,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.zenput.com/",
+        "address_source_label": "Official Zenput site (now Crunchtime Ops Execution)",
+        "verified_date": "2026-08-28T21:53:46Z"
+      }
+    },
+    {
+      "company_id": "zenreach",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1 Letterman Drive, Building C, Suite 3500",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94129",
+          "country": "US"
+        },
+        "latitude": 37.798838237207,
+        "longitude": -122.449319121637,
+        "address_status": "verified",
+        "address_source_url": "https://adentro.com/",
+        "address_source_label": "Official Adentro site (Zenreach rebrand)",
+        "verified_date": "2026-08-28T21:53:46Z"
+      }
+    },
+    {
+      "company_id": "zensoft-io",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:53:46Z"
+      }
+    },
+    {
+      "company_id": "zero",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:53:46Z"
+      }
+    },
+    {
+      "company_id": "zignal-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "995 Market St, 16th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.782254767503,
+        "longitude": -122.409955273573,
+        "address_status": "verified",
+        "address_source_url": "https://zignallabs.com/terms-and-conditions/",
+        "address_source_label": "Official Zignal Labs terms and conditions",
+        "verified_date": "2026-08-28T21:53:46Z"
+      }
+    },
+    {
+      "company_id": "zinc",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:53:46Z"
+      }
+    },
+    {
+      "company_id": "zoosk",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "10808 S River Front Pkwy, Suite 398",
+          "city": "South Jordan",
+          "region": "UT",
+          "postal_code": "84095",
+          "country": "US"
+        },
+        "latitude": 40.555522055624,
+        "longitude": -111.913793213625,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.dnb.com/business-directory/company-profiles.zoosk_inc.70467126fed2d5526c2d4e30f98200d1.html",
+        "address_source_label": "Current D&B company profile",
+        "verified_date": "2026-08-28T21:53:46Z"
+      }
+    },
+    {
+      "company_id": "zozi",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:53:46Z"
+      }
+    }
+  ],
+  "issues": []
+}

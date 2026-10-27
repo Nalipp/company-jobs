@@ -1,0 +1,1532 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T21:32:32Z",
+  "changes": [
+    {
+      "company_id": "devonway",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "digit",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "directly",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "disqus",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "717 Market Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.787015185592,
+        "longitude": -122.403941006588,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/disqus",
+        "address_source_label": "Disqus LinkedIn company page",
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "dito",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "divvy",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "diy",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "do",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "docker",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "docsend",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "doki-doki",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "dote",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "drop",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "duetto",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "duncan-channon",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "22 Battery Street, Floor 10",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.7915757372,
+        "longitude": -122.399363397807,
+        "address_status": "verified",
+        "address_source_url": "https://duncanchannon.com/contact/",
+        "address_source_label": "Duncan Channon official contact page",
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "earli",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "earnup",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2370 Market Street, Suite 203",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94114",
+          "country": "US"
+        },
+        "latitude": 37.763321054058,
+        "longitude": -122.434742489101,
+        "address_status": "verified",
+        "address_source_url": "https://myearnup.com/company/",
+        "address_source_label": "EarnUp official company page",
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "ease",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "500 Treat Avenue, Suite 200",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94110",
+          "country": "US"
+        },
+        "latitude": 37.761892149114,
+        "longitude": -122.414412518225,
+        "address_status": "verified",
+        "address_source_url": "https://www.ease.com/about/",
+        "address_source_label": "Ease official about page",
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "easypost",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "345 California Street, Floor 10",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.793009461739,
+        "longitude": -122.400521273911,
+        "address_status": "verified",
+        "address_source_url": "https://assets.easypost.com/assets/pdfs/future_of_shopping.c6b4bf44dbdc24379467ea7530b0a03d.pdf",
+        "address_source_label": "EasyPost company PDF",
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "eatsa",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "eaze",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "ecoflow",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "eden",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "elasticbox",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "elastra",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "elegant-themes",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "element-analytics",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "emotive-communications",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "encover",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "endpoint-clinical",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "enigma",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "enlitic",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "ensilo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "entelo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "enview",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "epropose",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "equitysim",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "euclid-analytics",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "everlance",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "evolv",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "exo-platform",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "expensify",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "88 Kearny Street, Suite 1600",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.788630043058,
+        "longitude": -122.403331726046,
+        "address_status": "verified",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/1476840/000147684026000009/0001476840-26-000009-index-headers.html",
+        "address_source_label": "Expensify 2026 SEC filing",
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "extole",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "fandom",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "farmstead",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2121 Harrison Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94110",
+          "country": "US"
+        },
+        "latitude": 37.763440705726,
+        "longitude": -122.412772934145,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/farmstead",
+        "address_source_label": "Farmstead LinkedIn company page",
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "farmwise",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1037 Abbott Street",
+          "city": "Salinas",
+          "region": "CA",
+          "postal_code": "93901",
+          "country": "US"
+        },
+        "latitude": 36.657795802065,
+        "longitude": -121.633919031189,
+        "address_status": "outside_sf",
+        "address_source_url": "https://farmwise.io/careers",
+        "address_source_label": "FarmWise official careers page",
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "fauna",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "fieldwire",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "fielo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "fig",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "figur8-cloud-solutions",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "figure",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "650 California Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.79293666491,
+        "longitude": -122.405207260701,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/figuretechnologies",
+        "address_source_label": "Figure LinkedIn company page",
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "fin",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "financialforce",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "fingerprint",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "fleetsmith",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "flo-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "flock",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "fluxx",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "followanalytics",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "forecross",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "forgerock",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "forkable",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "formation",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "forte",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "fortressiq",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "fossa",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "595 Market Street, Floor 10",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.789252608916,
+        "longitude": -122.400810114295,
+        "address_status": "verified",
+        "address_source_url": "https://docs.fossa.com/docs/terms-of-service",
+        "address_source_label": "FOSSA official terms of service",
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "founders-fund",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1 Letterman Drive, Building D",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94129",
+          "country": "US"
+        },
+        "latitude": 37.798082273359,
+        "longitude": -122.449701587879,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/the-founders-fund",
+        "address_source_label": "Founders Fund LinkedIn company page",
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "fr8star",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "framehawk",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "fundersclub",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "future",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "fuzzy-pet-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "galvanize",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "44 Tehama Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.787596009573,
+        "longitude": -122.396628969534,
+        "address_status": "verified",
+        "address_source_url": "https://assets.ctfassets.net/hu62i9v1xxtm/5yNJyF7aJRhetLZbltkfoT/c712488755fbf7f763bdb5574a96c0bb/SPFS_-_Software_Engineering_Online.pdf",
+        "address_source_label": "Galvanize official enrollment document",
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    },
+    {
+      "company_id": "genbook",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:32:32Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "address_evidence_limited",
+      "company_id": "disqus",
+      "subject": "Exact current San Francisco address is from a current LinkedIn company listing rather than an official contact or legal page.",
+      "source_url": "https://www.linkedin.com/company/disqus",
+      "details": "Accepted 717 Market Street as the current physical San Francisco office. Retry: /company-validate company disqus"
+    },
+    {
+      "code": "address_evidence_limited",
+      "company_id": "easypost",
+      "subject": "Exact San Francisco office address comes from a current company PDF rather than the main contact page.",
+      "source_url": "https://assets.easypost.com/assets/pdfs/future_of_shopping.c6b4bf44dbdc24379467ea7530b0a03d.pdf",
+      "details": "Accepted 345 California Street as the current physical San Francisco office. Retry: /company-validate company easypost"
+    },
+    {
+      "code": "address_conflict",
+      "company_id": "figure",
+      "subject": "Current LinkedIn lists a San Francisco office while the company profile identifies New York as headquarters.",
+      "source_url": "https://www.linkedin.com/company/figuretechnologies",
+      "details": "Retained the San Francisco office at 650 California Street as a physical office. Retry: /company-validate company figure"
+    },
+    {
+      "code": "address_conflict",
+      "company_id": "farmstead",
+      "subject": "The current LinkedIn listing gives a San Francisco address but shows an inconsistent postal code; the street address geocodes inside San Francisco.",
+      "source_url": "https://www.linkedin.com/company/farmstead",
+      "details": "Retained 2121 Harrison Street with postal code 94110 based on the physical street location. Retry: /company-validate company farmstead"
+    },
+    {
+      "code": "address_evidence_limited",
+      "company_id": "galvanize",
+      "subject": "Exact address is from a current official enrollment document; no newer official contact-page street address was found.",
+      "source_url": "https://assets.ctfassets.net/hu62i9v1xxtm/5yNJyF7aJRhetLZbltkfoT/c712488755fbf7f763bdb5574a96c0bb/SPFS_-_Software_Engineering_Online.pdf",
+      "details": "Accepted 44 Tehama Street as the current physical San Francisco office. Retry: /company-validate company galvanize"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "devonway",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company devonway"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "digit",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company digit"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "directly",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company directly"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "dito",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company dito"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "divvy",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company divvy"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "diy",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company diy"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "do",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company do"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "docker",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company docker"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "docsend",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company docsend"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "doki-doki",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company doki-doki"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "dote",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company dote"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "drop",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company drop"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "duetto",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company duetto"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "earli",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company earli"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "eatsa",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company eatsa"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "eaze",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company eaze"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "ecoflow",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company ecoflow"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "eden",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company eden"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "elasticbox",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company elasticbox"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "elastra",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company elastra"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "elegant-themes",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company elegant-themes"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "element-analytics",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company element-analytics"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "emotive-communications",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company emotive-communications"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "encover",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company encover"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "endpoint-clinical",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company endpoint-clinical"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "enigma",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company enigma"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "enlitic",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company enlitic"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "ensilo",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company ensilo"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "entelo",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company entelo"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "enview",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company enview"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "epropose",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company epropose"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "equitysim",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company equitysim"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "euclid-analytics",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company euclid-analytics"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "everlance",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company everlance"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "evolv",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company evolv"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "exo-platform",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company exo-platform"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "extole",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company extole"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "fandom",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company fandom"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "fauna",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company fauna"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "fieldwire",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company fieldwire"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "fielo",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company fielo"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "fig",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company fig"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "figur8-cloud-solutions",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company figur8-cloud-solutions"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "fin",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company fin"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "financialforce",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company financialforce"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "fingerprint",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company fingerprint"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "fleetsmith",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company fleetsmith"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "flo-health",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company flo-health"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "flock",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company flock"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "fluxx",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company fluxx"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "followanalytics",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company followanalytics"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "forecross",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company forecross"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "forgerock",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company forgerock"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "forkable",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company forkable"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "formation",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company formation"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "forte",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company forte"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "fortressiq",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company fortressiq"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "fr8star",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company fr8star"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "framehawk",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company framehawk"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "fundersclub",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company fundersclub"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "future",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company future"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "fuzzy-pet-health",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company fuzzy-pet-health"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "genbook",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company genbook"
+    }
+  ]
+}

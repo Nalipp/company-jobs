@@ -1,0 +1,1514 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T21:52:46Z",
+  "changes": [
+    {
+      "company_id": "stessa",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "stitch",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "stitch-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "stitcher",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "storenvy",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "stratifi",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "stratim",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "strive",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "stubhub",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "sv-angel",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "swiftype",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "switchfly",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "swoop",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "swrve",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "syapse",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "synapse",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "synchrony",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "systum",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tagove",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "talentsky",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "talix",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "talkable",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "talkdesk",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "535 Mission Street, 12th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.788870855136,
+        "longitude": -122.39812606126,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/talkdesk",
+        "address_source_label": "Talkdesk LinkedIn company page",
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "talkiq",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tally",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "taptera",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "taulia",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tealeaf",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "teamable",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "teamflow",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "techsoup-global",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "teespring",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "teleport",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tellus",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tempo-automation",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2460 Alameda Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.768387243975,
+        "longitude": -122.409597869222,
+        "address_status": "verified",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/1813658/000110465922129562/tmpo-20220930xs1.htm",
+        "address_source_label": "Tempo Automation SEC filing",
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tempoiq",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tenxer",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "terafina",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "terminal",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "terminal-com",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "terminus-software",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "testlio",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tetra",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "the-league",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "the-sourcery",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "thing-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "thinksmart",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "thismoment",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "threads",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "thredup",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "thunder",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tickr",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tierion",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tigera",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "time-by-ping",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tivix",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tonic",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tonkean",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tookan",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "topfunnel",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tophatter",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "topia",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "topology-eyewear",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "toptal",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "torch-leadership-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "touchjet",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "townsquared",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "traceable",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "trackin",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "traction",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tradecraft",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "tradeshift",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "transcend",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "transposit",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    },
+    {
+      "company_id": "travelbank",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:52:46Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "address_evidence_limited",
+      "company_id": "talkdesk",
+      "subject": "Exact current address is from a current LinkedIn company listing; the official privacy notice exposes a mailing address instead.",
+      "source_url": "https://www.linkedin.com/company/talkdesk",
+      "details": "Accepted 535 Mission Street as the current physical San Francisco office. Retry: /company-validate company talkdesk"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "stessa",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company stessa"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "stitch",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company stitch"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "stitch-labs",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company stitch-labs"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "stitcher",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company stitcher"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "storenvy",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company storenvy"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "stratifi",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company stratifi"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "stratim",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company stratim"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "strive",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company strive"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "stubhub",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company stubhub"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "sv-angel",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company sv-angel"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "swiftype",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company swiftype"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "switchfly",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company switchfly"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "swoop",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company swoop"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "swrve",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company swrve"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "syapse",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company syapse"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "synapse",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company synapse"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "synchrony",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company synchrony"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "systum",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company systum"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tagove",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tagove"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "talentsky",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company talentsky"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "talix",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company talix"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "talkable",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company talkable"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "talkiq",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company talkiq"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tally",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tally"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "taptera",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company taptera"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "taulia",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company taulia"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tealeaf",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tealeaf"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "teamable",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company teamable"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "teamflow",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company teamflow"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "techsoup-global",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company techsoup-global"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "teespring",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company teespring"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "teleport",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company teleport"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tellus",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tellus"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tempoiq",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tempoiq"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tenxer",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tenxer"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "terafina",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company terafina"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "terminal",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company terminal"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "terminal-com",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company terminal-com"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "terminus-software",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company terminus-software"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "testlio",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company testlio"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tetra",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tetra"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "the-league",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company the-league"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "the-sourcery",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company the-sourcery"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "thing-labs",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company thing-labs"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "thinksmart",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company thinksmart"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "thismoment",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company thismoment"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "threads",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company threads"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "thredup",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company thredup"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "thunder",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company thunder"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tickr",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tickr"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tierion",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tierion"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tigera",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tigera"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "time-by-ping",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company time-by-ping"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tivix",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tivix"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tonic",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tonic"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tonkean",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tonkean"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tookan",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tookan"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "topfunnel",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company topfunnel"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tophatter",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tophatter"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "topia",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company topia"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "topology-eyewear",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company topology-eyewear"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "toptal",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company toptal"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "torch-leadership-labs",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company torch-leadership-labs"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "touchjet",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company touchjet"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "townsquared",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company townsquared"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "traceable",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company traceable"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "trackin",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company trackin"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "traction",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company traction"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tradecraft",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tradecraft"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tradeshift",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tradeshift"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "transcend",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company transcend"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "transposit",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company transposit"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "travelbank",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company travelbank"
+    }
+  ]
+}

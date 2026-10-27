@@ -61,13 +61,13 @@ Write it to this exact repository using an absolute path with this filename patt
 
 `/Users/natelipp/ai-code/_v3_daily-jobs/imports/<UTC compact timestamp>-company-ingest.json`
 
-Do not apply it yourself. Finish by giving the human these commands with the
-actual absolute handoff path:
+Do not apply it yourself. Finish by giving the human a fenced bash block with
+these two lines, replacing the example filename with the actual handoff file
+created in this run (never leave a placeholder):
 
 ```bash
 cd /Users/natelipp/ai-code/_v3_daily-jobs
-.venv/bin/python scripts/apply_handoff.py "/Users/natelipp/ai-code/_v3_daily-jobs/imports/<filename>-company-ingest.json" --dry-run
-.venv/bin/python scripts/apply_handoff.py "/Users/natelipp/ai-code/_v3_daily-jobs/imports/<filename>-company-ingest.json"
+.venv/bin/python scripts/apply_handoff.py imports/20260828T200727Z-company-ingest.json
 ```
 
 If `.venv/bin/python` is unavailable, still write the handoff and print those exact commands; do not mutate canonical data directly.
@@ -80,4 +80,4 @@ End with a short, human-readable summary containing:
 - source records examined, candidates written, records skipped, and conflicts/issues;
 - the absolute handoff path;
 - that it was not applied by the research agent; and
-- the exact copy-pastable dry-run and apply commands.
+- the exact copy-pastable two-line apply command using the actual handoff filename (an optional dry-run may be provided separately).

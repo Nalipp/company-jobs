@@ -1,0 +1,411 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T19:49:51Z",
+  "changes": [
+    {
+      "company_id": "adapt-api",
+      "expected_status": "not_found",
+      "website_url": "https://adaptinsurance.com/"
+    },
+    {
+      "company_id": "allen-control-systems",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.allencontrolsystems.com/"
+    },
+    {
+      "company_id": "anaplan",
+      "expected_status": "verified",
+      "website_url": "https://www.anaplan.com/"
+    },
+    {
+      "company_id": "antithesis",
+      "expected_status": "verified",
+      "website_url": "https://antithesis.com/"
+    },
+    {
+      "company_id": "aurelius-systems",
+      "expected_status": "verified",
+      "website_url": "https://www.aureliussystems.com/"
+    },
+    {
+      "company_id": "autodesk",
+      "expected_status": "verified",
+      "website_url": "https://www.autodesk.com/"
+    },
+    {
+      "company_id": "axon",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.axon.com/"
+    },
+    {
+      "company_id": "binti",
+      "expected_status": "pending",
+      "website_url": "https://binti.com/",
+      "address_result": {
+        "address": {
+          "street": "144 2nd St Suite 200",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "United States"
+        },
+        "latitude": 37.787285627698,
+        "longitude": -122.399122334271,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/binti",
+        "address_source_label": "Current LinkedIn company page",
+        "verified_date": "2026-08-28T19:35:36Z"
+      }
+    },
+    {
+      "company_id": "buildkite",
+      "expected_status": "outside_sf",
+      "website_url": "https://buildkite.com/"
+    },
+    {
+      "company_id": "cerity-partners-management",
+      "expected_status": "verified",
+      "website_url": "https://ceritypartners.com/"
+    },
+    {
+      "company_id": "chalk",
+      "expected_status": "verified",
+      "website_url": "https://chalk.ai/"
+    },
+    {
+      "company_id": "code-metal",
+      "expected_status": "pending",
+      "website_url": "https://www.codemetal.ai/",
+      "address_result": {
+        "address": {
+          "street": "201 Washington St Suite 1700",
+          "city": "Boston",
+          "region": "MA",
+          "postal_code": "02108",
+          "country": "United States"
+        },
+        "latitude": 42.358519636262,
+        "longitude": -71.058455636286,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.codemetal.ai/privacy",
+        "address_source_label": "Official privacy policy",
+        "verified_date": "2026-08-28T19:35:36Z"
+      }
+    },
+    {
+      "company_id": "coreweave",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.coreweave.com/"
+    },
+    {
+      "company_id": "culture-amp",
+      "expected_status": "verified",
+      "website_url": "https://www.cultureamp.com/"
+    },
+    {
+      "company_id": "cyberhaven",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.cyberhaven.com/"
+    },
+    {
+      "company_id": "datasite",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.datasite.com/"
+    },
+    {
+      "company_id": "delphi",
+      "expected_status": "verified",
+      "website_url": "https://www.delphi.ai/"
+    },
+    {
+      "company_id": "distyl-ai",
+      "expected_status": "verified",
+      "website_url": "https://distyl.ai/"
+    },
+    {
+      "company_id": "encoded-therapeutics",
+      "expected_status": "outside_sf",
+      "website_url": "https://encoded.com/"
+    },
+    {
+      "company_id": "ent-security",
+      "expected_status": "not_found",
+      "website_url": "https://ent.ai/"
+    },
+    {
+      "company_id": "five9",
+      "expected_status": "verified",
+      "website_url": "https://www.five9.com/"
+    },
+    {
+      "company_id": "forge-global",
+      "expected_status": "verified",
+      "website_url": "https://forgeglobal.com/"
+    },
+    {
+      "company_id": "genscript-probio",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.genscriptprobio.com/"
+    },
+    {
+      "company_id": "heartflow",
+      "expected_status": "pending",
+      "website_url": "https://www.heartflow.com/",
+      "address_result": {
+        "address": {
+          "street": "135 Main St Suite 1000",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "United States"
+        },
+        "latitude": 37.791459103018,
+        "longitude": -122.3942408815,
+        "address_status": "verified",
+        "address_source_url": "https://ir.heartflow.com/ir-resources/investor-faqs",
+        "address_source_label": "Official investor FAQ",
+        "verified_date": "2026-08-28T19:35:36Z"
+      }
+    },
+    {
+      "company_id": "industrious",
+      "expected_status": "verified",
+      "website_url": "https://www.industriousoffice.com/"
+    },
+    {
+      "company_id": "ionq",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.ionq.com/"
+    },
+    {
+      "company_id": "jam-city",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.jamcity.com/"
+    },
+    {
+      "company_id": "julius-ai",
+      "expected_status": "verified",
+      "website_url": "https://julius.ai/"
+    },
+    {
+      "company_id": "kernel",
+      "expected_status": "not_found",
+      "website_url": "https://www.kernel.com/"
+    },
+    {
+      "company_id": "kickmaker",
+      "expected_status": "outside_sf",
+      "website_url": "https://kickmaker.io/"
+    },
+    {
+      "company_id": "kira",
+      "expected_status": "not_found",
+      "website_url": "https://www.kira.ai/"
+    },
+    {
+      "company_id": "latchbio",
+      "expected_status": "pending",
+      "website_url": "https://latch.bio/",
+      "address_result": {
+        "address": {
+          "street": "1800 Owens St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94158",
+          "country": "United States"
+        },
+        "latitude": 37.765150991159,
+        "longitude": -122.392595010992,
+        "address_status": "verified",
+        "address_source_url": "https://wiki.latch.bio/resources/terms-of-service",
+        "address_source_label": "Official Terms of Service",
+        "verified_date": "2026-08-28T19:35:36Z"
+      }
+    },
+    {
+      "company_id": "lavendo",
+      "expected_status": "not_found",
+      "website_url": "https://www.lavendo.io/"
+    },
+    {
+      "company_id": "lending-club",
+      "expected_status": "verified",
+      "website_url": "https://www.lendingclub.com/"
+    },
+    {
+      "company_id": "listen-labs",
+      "expected_status": "verified",
+      "website_url": "https://listenlabs.ai/"
+    },
+    {
+      "company_id": "lyft",
+      "expected_status": "verified",
+      "website_url": "https://www.lyft.com/"
+    },
+    {
+      "company_id": "midi-health",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.joinmidi.com/"
+    },
+    {
+      "company_id": "monaco",
+      "expected_status": "not_found",
+      "website_url": "https://www.monaco.com/"
+    },
+    {
+      "company_id": "mrbeast",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.mrbeastyoutube.com/"
+    },
+    {
+      "company_id": "nimble-robotics",
+      "expected_status": "verified",
+      "website_url": "https://nimble.ai/"
+    },
+    {
+      "company_id": "notability",
+      "expected_status": "not_found",
+      "website_url": "https://notability.com/"
+    },
+    {
+      "company_id": "on",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.on.com/"
+    },
+    {
+      "company_id": "opengov",
+      "expected_status": "verified",
+      "website_url": "https://opengov.com/"
+    },
+    {
+      "company_id": "otter-ai",
+      "expected_status": "verified",
+      "website_url": "https://otter.ai/"
+    },
+    {
+      "company_id": "oura",
+      "expected_status": "verified",
+      "website_url": "https://ouraring.com/"
+    },
+    {
+      "company_id": "overland-ai",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.overland.ai/"
+    },
+    {
+      "company_id": "palo-alto-networks",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.paloaltonetworks.com/"
+    },
+    {
+      "company_id": "pendulum",
+      "expected_status": "verified",
+      "website_url": "https://pendulum.co/"
+    },
+    {
+      "company_id": "rox-data",
+      "expected_status": "not_found",
+      "website_url": "https://www.rox.com/"
+    },
+    {
+      "company_id": "rzr-global",
+      "expected_status": "not_found",
+      "website_url": "https://www.rzr.com/"
+    },
+    {
+      "company_id": "saviynt",
+      "expected_status": "outside_sf",
+      "website_url": "https://saviynt.com/"
+    },
+    {
+      "company_id": "sofar-ocean",
+      "expected_status": "verified",
+      "website_url": "https://www.sofarocean.com/"
+    },
+    {
+      "company_id": "specs",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.specs.com/"
+    },
+    {
+      "company_id": "squaretrade",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.squaretrade.com/"
+    },
+    {
+      "company_id": "stiiizy",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.stiiizy.com/"
+    },
+    {
+      "company_id": "talentpluto",
+      "expected_status": "not_found",
+      "website_url": "https://talentpluto.com/"
+    },
+    {
+      "company_id": "the-realreal",
+      "expected_status": "verified",
+      "website_url": "https://www.therealreal.com/"
+    },
+    {
+      "company_id": "the-trade-desk",
+      "expected_status": "outside_sf",
+      "website_url": "https://www.thetradedesk.com/"
+    },
+    {
+      "company_id": "vir-biotechnology",
+      "expected_status": "verified",
+      "website_url": "https://www.vir.bio/"
+    },
+    {
+      "company_id": "vuori",
+      "expected_status": "outside_sf",
+      "website_url": "https://vuoriclothing.com/"
+    }
+  ],
+  "issues": [
+    {
+      "code": "concurrent_catalog_update",
+      "company_id": null,
+      "subject": "71 selected companies",
+      "source_url": null,
+      "details": "The catalog changed during research: 71 of the 75 selected records were no longer pending at reconciliation. Their newer address and status values were preserved; this handoff adds only missing websites for those records and validates the four records that remain pending."
+    },
+    {
+      "code": "identity_ambiguous",
+      "company_id": "atg",
+      "subject": "ATG",
+      "source_url": null,
+      "details": "Bounded searches returned several unrelated ATG entities and no unambiguous official technology-company identity or complete physical address."
+    },
+    {
+      "code": "identity_ambiguous",
+      "company_id": "freehand",
+      "subject": "Freehand",
+      "source_url": null,
+      "details": "Bounded searches returned unrelated Freehand Gallery and Adobe/Macromedia FreeHand results without an unambiguous current technology-company identity or complete physical address."
+    },
+    {
+      "code": "identity_ambiguous",
+      "company_id": "omni",
+      "subject": "Omni",
+      "source_url": null,
+      "details": "The name maps to multiple companies; the strongest Omni Health result supplied only a San Francisco PMB, not a defensible physical office address."
+    },
+    {
+      "code": "identity_ambiguous",
+      "company_id": "orbital",
+      "subject": "Orbital",
+      "source_url": null,
+      "details": "The name maps to multiple unrelated companies; the strongest candidate supplied only a San Francisco PMB or city-only result, not a defensible physical office address."
+    },
+    {
+      "code": "identity_ambiguous",
+      "company_id": "rockstar",
+      "subject": "Rockstar",
+      "source_url": null,
+      "details": "Bounded searches returned unrelated Rockstar Games, Rockstar Consortium, and other entities without an unambiguous current technology-company identity or complete physical address."
+    }
+  ]
+}

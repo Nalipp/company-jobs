@@ -29,7 +29,9 @@
       "WebFetch(domain:investors.bxp.com)",
       "WebFetch(domain:www.businesswire.com)",
       "WebFetch(domain:hoodline.com)",
-      "WebFetch(domain:www.citybiz.co)"
+      "WebFetch(domain:www.citybiz.co)",
+      "WebFetch(domain:www.welcometothejungle.com)",
+      "mcp__puppeteer__puppeteer_screenshot"
     ]
   }
 }

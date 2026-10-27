@@ -15,12 +15,14 @@ research runs write one schema-valid JSON handoff to `imports/` and stop. Codex
 reviews and applies it with:
 
 ```bash
-.venv/bin/python scripts/apply_handoff.py /absolute/path/to/handoff.json
+cd /Users/natelipp/ai-code/_v3_daily-jobs
+.venv/bin/python scripts/apply_handoff.py imports/20260828T200727Z-company-validate.json
 ```
 
-Every command must end with a brief status, what was found, the absolute handoff
-path, and exact copy-pastable dry-run and apply commands. Do not apply the
-handoff yourself.
+Every command that writes a handoff must end with a brief status, what was found,
+the absolute handoff path, and a fenced bash block containing the two literal
+apply lines with the actual generated filename substituted. Do not leave
+placeholders, and do not apply the handoff yourself.
 
 Keep routine success output concise. For every access failure, unsupported source,
 ambiguous identity, unresolved record, or partial result:

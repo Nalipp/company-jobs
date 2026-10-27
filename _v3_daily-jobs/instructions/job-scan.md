@@ -40,9 +40,12 @@ fail, give one literal copy-pastable command per affected company.
   schema.
 - Missing employment type follows the profile's `missing_type_policy`; an explicit
   disallowed type never becomes full-time by assumption.
-- AI evidence must come from the official job posting and meet the profile's
-  `minimum_evidence`. Employer branding alone is insufficient when the profile
-  says so.
+- When `role.ai_involvement.required` is true, AI evidence must come from the
+  official job posting and meet the profile's `minimum_evidence`; employer
+  branding alone is insufficient when the profile says so. When it is false,
+  retain a concise AI-evidence observation when available; otherwise record
+  that no role-specific AI evidence was observed and that it was not required
+  by the profile. Do not exclude that role for lacking AI evidence.
 
 ## Complete-enumeration handoff
 

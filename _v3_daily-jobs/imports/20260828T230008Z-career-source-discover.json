@@ -1,0 +1,1095 @@
+{
+  "schema_version": 1,
+  "operation": "career-source-discover",
+  "created_at": "2026-08-28T23:00:08Z",
+  "changes": [
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "collective-health-careers",
+        "company_id": "collective-health",
+        "careers_url": "https://jobs.collectivehealth.com/",
+        "listings_url": "https://jobs.collectivehealth.com/listings/",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "html_listing",
+        "scope": "All Collective Health roles",
+        "instructions": "Enumerate all roles on the official Collective Health listings page, then open each canonical role-detail URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": false
+        },
+        "status": "ready",
+        "official_relationship_url": "https://jobs.collectivehealth.com/",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "virta-health-ashby",
+        "company_id": "virta-health",
+        "careers_url": "https://www.virtahealth.com/careers",
+        "listings_url": "https://jobs.ashbyhq.com/virtahealth",
+        "provider": "ashby",
+        "board_id": "virtahealth",
+        "access_mode": "structured_feed",
+        "scope": "All Virta Health roles",
+        "instructions": "Enumerate the public Ashby board for the exact board ID, then open each canonical Ashby job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.virtahealth.com/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "turing-careers",
+        "company_id": "turing",
+        "careers_url": "https://careers.turing.com/",
+        "listings_url": "https://careers.turing.com/roles",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "html_listing",
+        "scope": "All Turing roles",
+        "instructions": "Load the official Turing roles page, enumerate every current role, and open each stable role-detail URL. The current page explicitly reports zero open roles when empty.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": false
+        },
+        "status": "ready",
+        "official_relationship_url": "https://careers.turing.com/",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "hashicorp-careers",
+        "company_id": "hashicorp",
+        "careers_url": "https://www.hashicorp.com/en/careers",
+        "listings_url": "https://www.ibm.com/careers/search?q=hashicorp",
+        "provider": "ibm",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "HashiCorp roles in the IBM careers search",
+        "instructions": "Use the official HashiCorp careers page to reach IBM's HashiCorp-filtered search, then verify the dynamic result set and canonical IBM detail URLs before scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://www.hashicorp.com/en/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "hinge-health-ashby",
+        "company_id": "hinge-health",
+        "careers_url": "https://careers.hingehealth.com/careers-home",
+        "listings_url": "https://jobs.ashbyhq.com/hinge-health",
+        "provider": "ashby",
+        "board_id": "hinge-health",
+        "access_mode": "structured_feed",
+        "scope": "All Hinge Health roles",
+        "instructions": "Enumerate the public Ashby board for the exact board ID, then open each canonical Ashby job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://careers.hingehealth.com/careers-home",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "maintainx-ashby",
+        "company_id": "maintainx",
+        "careers_url": "https://webflow.getmaintainx.com/careers",
+        "listings_url": "https://jobs.ashbyhq.com/maintainx",
+        "provider": "ashby",
+        "board_id": "maintainx",
+        "access_mode": "structured_feed",
+        "scope": "All MaintainX roles",
+        "instructions": "Enumerate the public Ashby board for the exact board ID, then open each canonical Ashby job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://webflow.getmaintainx.com/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "discord-careers",
+        "company_id": "discord",
+        "careers_url": "https://discord.com/careers",
+        "listings_url": "https://discord.com/careers",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Discord roles",
+        "instructions": "Use the official Discord careers page only after its See All Jobs control exposes a complete listing set and stable role-detail URLs.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://discord.com/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "atreo-io-deel",
+        "company_id": "atreo-io",
+        "careers_url": "https://atreo.io/careers/",
+        "listings_url": "https://jobs.deel.com/atreo",
+        "provider": "deel",
+        "board_id": "atreo",
+        "access_mode": "browser_required",
+        "scope": "All Atreo roles",
+        "instructions": "Follow the explicit Deel link from Atreo's official careers page and verify that the board returns a live enumerable result set before scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "blocked",
+        "official_relationship_url": "https://atreo.io/careers/",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "onecrew-greenhouse",
+        "company_id": "onecrew",
+        "careers_url": null,
+        "listings_url": "https://job-boards.greenhouse.io/applytoonecrew",
+        "provider": "greenhouse",
+        "board_id": "applytoonecrew",
+        "access_mode": "structured_feed",
+        "scope": "All OneCrew roles",
+        "instructions": "The Greenhouse board enumerates OneCrew roles, but the current employer website does not expose a careers relationship link; do not use until that official relationship is confirmed.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "blocked",
+        "official_relationship_url": null,
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "abacus-ai-careers",
+        "company_id": "abacus-ai",
+        "careers_url": "https://abacus.ai/jobs",
+        "listings_url": "https://abacus.ai/jobs",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Abacus.AI roles",
+        "instructions": "Review the official Abacus.AI jobs page and add a source only when each displayed role has a stable canonical detail URL or structured listing identity.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://abacus.ai/jobs",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "onos-health-ashby",
+        "company_id": "onos-health",
+        "careers_url": "https://onoshealth.com/company/careers/",
+        "listings_url": "https://jobs.ashbyhq.com/onoshealth",
+        "provider": "ashby",
+        "board_id": "onoshealth",
+        "access_mode": "structured_feed",
+        "scope": "All Onos Health roles",
+        "instructions": "Enumerate the public Ashby board for the exact board ID, then open each canonical Ashby job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://onoshealth.com/company/careers/",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "daydream-careers",
+        "company_id": "daydream",
+        "careers_url": "https://www.withdaydream.com/careers",
+        "listings_url": "https://www.withdaydream.com/careers",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "html_listing",
+        "scope": "All Daydream roles",
+        "instructions": "Enumerate every role on the official Daydream careers page and open each stable role-detail URL before retaining its posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": false
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.withdaydream.com/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "cheesecake-labs-trakstar",
+        "company_id": "cheesecake-labs",
+        "careers_url": "https://cheesecakelabs.com/careers",
+        "listings_url": "https://cheesecakelabs.hire.trakstar.com/",
+        "provider": "trakstar",
+        "board_id": "cheesecakelabs",
+        "access_mode": "structured_feed",
+        "scope": "All Cheesecake Labs roles",
+        "instructions": "The Trakstar board is enumerable, but first confirm that Cheesecake Labs' current official careers page links to this exact tenant before using it.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "unsupported",
+        "official_relationship_url": null,
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "anon-ashby",
+        "company_id": "anon",
+        "careers_url": "https://www.anon.com/careers",
+        "listings_url": "https://jobs.ashbyhq.com/Anon",
+        "provider": "ashby",
+        "board_id": "Anon",
+        "access_mode": "structured_feed",
+        "scope": "All Anon roles",
+        "instructions": "Use the exact-case Anon Ashby board only after the employer careers URL is restored or another employer-controlled page confirms the relationship.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "blocked",
+        "official_relationship_url": null,
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "bobyard-careers",
+        "company_id": "bobyard",
+        "careers_url": "https://www.bobyard.co/careers",
+        "listings_url": "https://www.bobyard.co/careers.html",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "html_listing",
+        "scope": "All Bobyard roles",
+        "instructions": "Enumerate every role on the official Bobyard careers listing and open each stable position-detail URL before retaining its posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": false
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.bobyard.co/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "arcade-dev-careers",
+        "company_id": "arcade-dev",
+        "careers_url": "https://www.arcade.dev/careers",
+        "listings_url": "https://jobs.arcade.dev/mcp",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "structured_feed",
+        "scope": "All Arcade roles",
+        "instructions": "Use the jobs.arcade.dev MCP listing endpoint linked from Arcade's official careers page, enumerate all roles, and retain each canonical job-detail URL and stable identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.arcade.dev/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "ivo-careers",
+        "company_id": "ivo",
+        "careers_url": "https://www.ivo.ai/careers",
+        "listings_url": "https://www.ivo.ai/careers",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Ivo roles",
+        "instructions": "Review the official Ivo careers page and add a source only after its role cards resolve to stable canonical detail URLs and the full listing set can be enumerated.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://www.ivo.ai/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "apiphany-ai-ashby",
+        "company_id": "apiphany-ai",
+        "careers_url": "https://apiphany.ai/careers",
+        "listings_url": "https://jobs.ashbyhq.com/apiphany",
+        "provider": "ashby",
+        "board_id": "apiphany",
+        "access_mode": "structured_feed",
+        "scope": "All Apiphany AI roles",
+        "instructions": "Enumerate the public Ashby board for the exact board ID, then open each canonical Ashby job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://apiphany.ai/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "orion-sleep-ashby",
+        "company_id": "orion-sleep",
+        "careers_url": "https://orionsleep.com/pages/careers",
+        "listings_url": "https://jobs.ashbyhq.com/orionsleep",
+        "provider": "ashby",
+        "board_id": "orionsleep",
+        "access_mode": "structured_feed",
+        "scope": "All Orion Sleep roles",
+        "instructions": "Enumerate the public Ashby board for the exact board ID, then open each canonical Ashby job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://orionsleep.com/pages/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "on-me-gifting-ashby",
+        "company_id": "on-me-gifting",
+        "careers_url": "https://onme.com/careers",
+        "listings_url": "https://jobs.ashbyhq.com/onme",
+        "provider": "ashby",
+        "board_id": "onme",
+        "access_mode": "structured_feed",
+        "scope": "All OnMe roles",
+        "instructions": "Enumerate the public Ashby board for the exact board ID, then open each canonical Ashby job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://onme.com/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "dracoinlabs-careers",
+        "company_id": "dracoinlabs",
+        "careers_url": "https://www.dracoinlabs.com/careers.html",
+        "listings_url": "https://www.dracoinlabs.com/careers.html",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "html_listing",
+        "scope": "All DracoinLabs roles",
+        "instructions": "Enumerate every current opportunity on the official DracoinLabs careers page and open each stable View role URL before retaining its posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": false
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.dracoinlabs.com/careers.html",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "pylon-ashby",
+        "company_id": "pylon",
+        "careers_url": "https://www.usepylon.com/",
+        "listings_url": "https://jobs.ashbyhq.com/pylon-labs",
+        "provider": "ashby",
+        "board_id": "pylon-labs",
+        "access_mode": "structured_feed",
+        "scope": "All Pylon agentic-support-platform roles",
+        "instructions": "Enumerate the public Ashby board for the exact Pylon Labs board ID, then open each canonical Ashby job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.usepylon.com/",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "samara-aerospace-greenhouse",
+        "company_id": "samara-aerospace",
+        "careers_url": "https://samara.space/careers",
+        "listings_url": "https://job-boards.greenhouse.io/samaraaerospace",
+        "provider": "greenhouse",
+        "board_id": "samaraaerospace",
+        "access_mode": "structured_feed",
+        "scope": "All Samara Aerospace roles",
+        "instructions": "Enumerate the public Greenhouse board for the exact board ID, then open each canonical Greenhouse job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://samara.space/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "corgi-careers",
+        "company_id": "corgi",
+        "careers_url": "https://www.corgi.insure/careers",
+        "listings_url": "https://www.corgi.insure/careers",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "html_listing",
+        "scope": "All Corgi roles",
+        "instructions": "Enumerate every role on the official Corgi careers page and open each stable application/detail URL, retaining the linked posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": false
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.corgi.insure/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "gridware-careers",
+        "company_id": "gridware",
+        "careers_url": "https://www.gridware.io/careers",
+        "listings_url": "https://www.gridware.io/careers",
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Gridware roles",
+        "instructions": "Review the official Gridware careers page; it currently exposes an Open Positions section and contact path but no complete enumerable role directory or stable job-detail endpoint.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://www.gridware.io/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "fambot-ai-careers",
+        "company_id": "fambot-ai",
+        "careers_url": "https://fambot.com/careers",
+        "listings_url": "https://fambot.com/careers",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Fambot AI roles",
+        "instructions": "Review the official Fambot careers page, but do not scan until its application cards expose stable canonical role-detail identities or a structured listing endpoint.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://fambot.com/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "auriko-ai-careers",
+        "company_id": "auriko-ai",
+        "careers_url": "https://www.auriko.ai/join-us",
+        "listings_url": "https://www.auriko.ai/join-us",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Auriko roles",
+        "instructions": "Review the official Auriko Join Us page and add a source only after the role links expose stable canonical detail URLs or a structured listing endpoint.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://www.auriko.ai/join-us",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "evenup-ashby",
+        "company_id": "evenup",
+        "careers_url": "https://www.evenuplaw.com/careers/",
+        "listings_url": "https://jobs.ashbyhq.com/evenup",
+        "provider": "ashby",
+        "board_id": "evenup",
+        "access_mode": "structured_feed",
+        "scope": "All EvenUp roles",
+        "instructions": "Enumerate the public Ashby board for the exact board ID, then open each canonical Ashby job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.evenuplaw.com/careers/",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "sesame-ai-ashby",
+        "company_id": "sesame-ai",
+        "careers_url": "https://www.sesame.com/team",
+        "listings_url": "https://jobs.ashbyhq.com/sesame",
+        "provider": "ashby",
+        "board_id": "sesame",
+        "access_mode": "structured_feed",
+        "scope": "All Sesame AI roles",
+        "instructions": "Enumerate the public Ashby board for the exact board ID linked from Sesame's team page, then open each canonical Ashby job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.sesame.com/team",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "resolve-ai-ashby",
+        "company_id": "resolve-ai",
+        "careers_url": "https://resolve.ai/careers",
+        "listings_url": "https://jobs.ashbyhq.com/Resolve%20AI",
+        "provider": "ashby",
+        "board_id": "Resolve AI",
+        "access_mode": "structured_feed",
+        "scope": "All Resolve AI roles",
+        "instructions": "Enumerate the public Ashby board for the exact case-sensitive board ID, then open each canonical Ashby job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://resolve.ai/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "blacksmith-ashby",
+        "company_id": "blacksmith",
+        "careers_url": "https://www.blacksmith.sh/careers",
+        "listings_url": "https://jobs.ashbyhq.com/Blacksmith",
+        "provider": "ashby",
+        "board_id": "Blacksmith",
+        "access_mode": "structured_feed",
+        "scope": "All Blacksmith roles",
+        "instructions": "Enumerate the public Ashby board for the exact case-sensitive board ID, then open each canonical Ashby job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.blacksmith.sh/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "ripple-careers",
+        "company_id": "ripple",
+        "careers_url": "https://ripple.com/careers/",
+        "listings_url": "https://ripple.com/careers/all-jobs/",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "html_listing",
+        "scope": "All Ripple roles",
+        "instructions": "Enumerate the complete official Ripple open-roles page without applying job-profile filters, then open each stable role-detail URL and retain its posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": false
+        },
+        "status": "ready",
+        "official_relationship_url": "https://ripple.com/careers/",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "brex-greenhouse",
+        "company_id": "brex",
+        "careers_url": "https://www.brex.com/careers",
+        "listings_url": "https://job-boards.greenhouse.io/brex",
+        "provider": "greenhouse",
+        "board_id": "brex",
+        "access_mode": "structured_feed",
+        "scope": "All Brex roles",
+        "instructions": "Enumerate the public Greenhouse board for the exact board ID, then open each canonical Greenhouse job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.brex.com/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "chief-ashby",
+        "company_id": "chief",
+        "careers_url": "https://chief.com/careers",
+        "listings_url": "https://jobs.ashbyhq.com/Chief",
+        "provider": "ashby",
+        "board_id": "Chief",
+        "access_mode": "structured_feed",
+        "scope": "All Chief roles",
+        "instructions": "Enumerate the public Ashby board for the exact case-sensitive board ID, then open each canonical Ashby job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://chief.com/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "nuna-ashby",
+        "company_id": "nuna",
+        "careers_url": "https://www.nuna.com/careers/",
+        "listings_url": "https://jobs.ashbyhq.com/nuna",
+        "provider": "ashby",
+        "board_id": "nuna",
+        "access_mode": "structured_feed",
+        "scope": "All Nuna roles",
+        "instructions": "Enumerate the public Ashby board for the exact board ID linked from Nuna's careers page, then open each canonical Ashby job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.nuna.com/careers/",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "exa-labs-ashby",
+        "company_id": "exa-labs",
+        "careers_url": "https://exa.ai/careers",
+        "listings_url": "https://jobs.ashbyhq.com/exa",
+        "provider": "ashby",
+        "board_id": "exa",
+        "access_mode": "structured_feed",
+        "scope": "All Exa Labs roles",
+        "instructions": "Enumerate the public Ashby board for the exact board ID linked from Exa's careers page, then open each canonical Ashby job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://exa.ai/careers",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "applied-compute-ashby",
+        "company_id": "applied-compute",
+        "careers_url": "https://www.appliedcompute.com/",
+        "listings_url": "https://jobs.ashbyhq.com/Applied%20Compute",
+        "provider": "ashby",
+        "board_id": "Applied Compute",
+        "access_mode": "structured_feed",
+        "scope": "All Applied Compute roles",
+        "instructions": "Enumerate the public Ashby board for the exact case-sensitive board ID linked from Applied Compute's official site, then open each canonical Ashby job URL and retain its stable posting identity.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "status": "ready",
+        "official_relationship_url": "https://www.appliedcompute.com/",
+        "checked_at": "2026-08-28T23:00:08Z",
+        "last_success_at": "2026-08-28T23:00:08Z",
+        "added_date": "2026-08-28T23:00:08Z",
+        "updated_date": "2026-08-28T23:00:08Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "no_official_careers_found",
+      "company_id": "curtsy",
+      "subject": "No employer-controlled Curtsy careers destination found",
+      "source_url": "https://www.curtsyapp.com/",
+      "details": "A bounded review found no employer-controlled careers or jobs destination; third-party startup listings were excluded."
+    },
+    {
+      "code": "official_endpoint_moved",
+      "company_id": "hashicorp",
+      "subject": "HashiCorp careers now routes open positions to IBM",
+      "source_url": "https://www.hashicorp.com/en/careers",
+      "details": "The official HashiCorp careers page links its open-positions control to IBM's HashiCorp-filtered search. The dynamic IBM result set could not be verified as a complete, stable enumeration source, so the source remains unsupported."
+    },
+    {
+      "code": "no_enumerable_endpoint",
+      "company_id": "discord",
+      "subject": "Discord careers page does not expose the complete job directory",
+      "source_url": "https://discord.com/careers",
+      "details": "The official page shows a featured role and a See All Jobs control, but the complete destination and stable role-detail mapping could not be evaluated in this pass."
+    },
+    {
+      "code": "official_listing_unavailable",
+      "company_id": "atreo-io",
+      "subject": "Atreo's official Deel board returns 404",
+      "source_url": "https://jobs.deel.com/atreo",
+      "details": "Atreo's official careers page explicitly links to this Deel board, but the board currently returns Job Board Not Found. The source is blocked and no ready source was added."
+    },
+    {
+      "code": "official_relationship_unverified",
+      "company_id": "onecrew",
+      "subject": "OneCrew Greenhouse board lacks an employer-site relationship link",
+      "source_url": "https://www.getonecrew.com/",
+      "details": "The Greenhouse tenant enumerates current OneCrew roles, but the current employer website does not expose a careers link or other employer-controlled relationship page. The board remains blocked rather than being assigned from search alone."
+    },
+    {
+      "code": "no_enumerable_endpoint",
+      "company_id": "abacus-ai",
+      "subject": "Abacus.AI jobs page lacks stable role-detail mapping",
+      "source_url": "https://abacus.ai/jobs",
+      "details": "The official page displays role information and application paths, but a complete enumerable endpoint and canonical job-detail mapping were not verified."
+    },
+    {
+      "code": "official_relationship_unverified",
+      "company_id": "cheesecake-labs",
+      "subject": "Cheesecake Labs Trakstar tenant is not linked from the current careers page",
+      "source_url": "https://cheesecakelabs.com/careers",
+      "details": "A Trakstar tenant enumerates Cheesecake Labs roles, but the current official careers page does not expose a live link to that tenant. The candidate source remains unsupported pending confirmation."
+    },
+    {
+      "code": "parent_company_board_not_scoped",
+      "company_id": "shopstyle",
+      "subject": "Rakuten careers source is not scoped to ShopStyle",
+      "source_url": "https://global.rakuten.com/corp/careers/overseas/",
+      "details": "Rakuten's official careers material identifies ShopStyle as a business, but the available parent-company jobs source does not provide a ShopStyle-specific enumerable board. Parent-company roles were not assigned to ShopStyle."
+    },
+    {
+      "code": "no_official_careers_found",
+      "company_id": "founders-embassy",
+      "subject": "No employer-controlled Founders Embassy careers destination found",
+      "source_url": "https://www.foundersembassy.com/",
+      "details": "The official site exposes accelerator programs and applications, but no employee careers or job-listing destination was found."
+    },
+    {
+      "code": "official_careers_unavailable",
+      "company_id": "anon",
+      "subject": "Anon careers URL is unavailable",
+      "source_url": "https://www.anon.com/careers",
+      "details": "An Ashby tenant with current Anon postings was found, but the employer careers URL referenced by the postings currently returns 404. The board remains blocked until an employer-controlled relationship page is restored."
+    },
+    {
+      "code": "no_official_careers_found",
+      "company_id": "circle",
+      "subject": "No official Circle+ careers destination found",
+      "source_url": "https://www.circleplus.io/",
+      "details": "The catalog company is Circle+ at circleplus.io. Third-party Circle, Circle.so, and Wellfound results were excluded because they identify different employers or non-employer sources."
+    },
+    {
+      "code": "stable_identity_unverified",
+      "company_id": "ivo",
+      "subject": "Ivo careers page has incomplete listing markup",
+      "source_url": "https://www.ivo.ai/careers",
+      "details": "The official careers page exposes a role-card region, but the current markup did not provide a complete stable role-detail mapping suitable for automated enumeration."
+    },
+    {
+      "code": "no_official_careers_found",
+      "company_id": "robylon-ai",
+      "subject": "No employer-controlled Robylon AI careers destination found",
+      "source_url": "https://www.robylon.ai/",
+      "details": "The official site did not expose a careers or jobs destination; third-party listings were excluded."
+    },
+    {
+      "code": "no_official_careers_found",
+      "company_id": "kos-ai",
+      "subject": "No employer-controlled KOS AI careers destination found",
+      "source_url": "https://www.kos.ai/",
+      "details": "The official site did not expose a careers or jobs destination; third-party listings were excluded."
+    },
+    {
+      "code": "no_official_careers_found",
+      "company_id": "mos-health",
+      "subject": "No employer-controlled Mos Health careers destination found",
+      "source_url": "https://moshealth.com/",
+      "details": "A hiring announcement and third-party listings were found, but no current employer-controlled careers directory or stable official listing endpoint was verified."
+    },
+    {
+      "code": "no_official_careers_found",
+      "company_id": "sidekick",
+      "subject": "No employer-controlled Sidekick careers destination found",
+      "source_url": "https://www.sidekickdata.io/",
+      "details": "The official Sidekick site did not expose a careers or jobs destination; third-party results for unrelated Sidekick employers were excluded."
+    },
+    {
+      "code": "third_party_only_source",
+      "company_id": "sprites-ai",
+      "subject": "Sprites careers link points to a third-party startup board",
+      "source_url": "https://www.sprites.ai/",
+      "details": "The official site links its Careers label to Work at a Startup rather than an employer-controlled listing endpoint. The third-party board was not accepted as a reusable official source."
+    },
+    {
+      "code": "no_official_careers_found",
+      "company_id": "lans",
+      "subject": "No employer-controlled LANS careers destination found",
+      "source_url": "https://lans.app/",
+      "details": "The official site did not expose a careers or jobs destination; third-party listings were excluded."
+    },
+    {
+      "code": "no_official_careers_found",
+      "company_id": "oraclaim",
+      "subject": "No employer-controlled Oraclaim careers destination found",
+      "source_url": "https://oraclaim.com/",
+      "details": "The official site did not expose a careers or jobs destination; third-party listings were excluded."
+    },
+    {
+      "code": "no_official_careers_found",
+      "company_id": "hyperfocus-tech",
+      "subject": "No employer-controlled Hyperfocus Tech careers destination found",
+      "source_url": "https://hyperfocus.tech/",
+      "details": "The official site did not expose a careers or jobs destination; third-party listings were excluded."
+    },
+    {
+      "code": "no_enumerable_endpoint",
+      "company_id": "fambot-ai",
+      "subject": "Fambot careers page lacks an enumerable endpoint",
+      "source_url": "https://fambot.com/careers",
+      "details": "The official page exposes current roles and application controls, but no stable canonical role-detail directory or structured listings endpoint was verified."
+    },
+    {
+      "code": "no_enumerable_endpoint",
+      "company_id": "auriko-ai",
+      "subject": "Auriko Join Us page lacks canonical job details",
+      "source_url": "https://www.auriko.ai/join-us",
+      "details": "The official Join Us page names current opportunities and provides a contact path, but it does not expose an enumerable role directory with stable canonical job-detail identities."
+    },
+    {
+      "code": "no_official_careers_found",
+      "company_id": "composio",
+      "subject": "No employer-controlled Composio careers destination found",
+      "source_url": "https://composio.dev/",
+      "details": "The official Composio site and bounded search did not expose a careers or jobs destination; third-party listings were excluded."
+    }
+  ]
+}

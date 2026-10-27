@@ -1,0 +1,405 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T20:34:32Z",
+  "changes": [
+    {
+      "company_id": "blg",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "835 Fifth Avenue", "city": "San Rafael", "region": "CA", "postal_code": "94901", "country": "US"},
+        "latitude": 37.973411026398,
+        "longitude": -122.52511692351,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.babylovegrowth.ai/en/terms-and-conditions",
+        "address_source_label": "BabyLoveGrowth official terms",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "bobyard",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "101 2nd St", "city": "San Francisco", "region": "CA", "postal_code": "94105", "country": "US"},
+        "latitude": 37.787874791672,
+        "longitude": -122.399400781095,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/bobyard",
+        "address_source_label": "Bobyard official LinkedIn company location",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "business-class-global",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "235 11th St", "city": "Lakewood", "region": "NJ", "postal_code": "08701", "country": "US"},
+        "latitude": 40.101287821355,
+        "longitude": -74.215189588356,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/businessclassg",
+        "address_source_label": "Business Class Global official LinkedIn company location",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "cardoza-law",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "cheesecake-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "391 Sutter St, Suite 704", "city": "San Francisco", "region": "CA", "postal_code": "94108", "country": "US"},
+        "latitude": 37.789356795973,
+        "longitude": -122.406682894755,
+        "address_status": "verified",
+        "address_source_url": "https://cheesecakelabs.com/about",
+        "address_source_label": "Cheesecake Labs official about page",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "circle",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "44 Tehama St", "city": "San Francisco", "region": "CA", "postal_code": "94105", "country": "US"},
+        "latitude": 37.787596009573,
+        "longitude": -122.396628969534,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/circle-plus",
+        "address_source_label": "Circle+ official LinkedIn company location",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "cloudnuro",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "1755 Park St, Suite 207", "city": "Naperville", "region": "IL", "postal_code": "60563", "country": "US"},
+        "latitude": 41.800340331067,
+        "longitude": -88.149433149094,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.cloudnuro.ai/contact-us",
+        "address_source_label": "CloudNuro official contact page",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "cloudzero",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "coder",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "9901 Brodie Lane, Suite 160 #1212", "city": "Austin", "region": "TX", "postal_code": "78748", "country": "US"},
+        "latitude": 30.184947056782,
+        "longitude": -97.847315239649,
+        "address_status": "outside_sf",
+        "address_source_url": "https://cdn.coder.com/Coder%20Enterprise%20License%20Agreement_Online_Final.pdf",
+        "address_source_label": "Coder official enterprise license agreement",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "corgi",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "425 Bush St, Floor 5", "city": "San Francisco", "region": "CA", "postal_code": "94108", "country": "US"},
+        "latitude": 37.790429805308,
+        "longitude": -122.404511143642,
+        "address_status": "verified",
+        "address_source_url": "https://www.corgi.insure/disclaimers",
+        "address_source_label": "Corgi official disclaimers page",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "crema-social",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "daydream",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "165 Page St", "city": "San Francisco", "region": "CA", "postal_code": "94102", "country": "US"},
+        "latitude": 37.77369428788,
+        "longitude": -122.423489364993,
+        "address_status": "verified",
+        "address_source_url": "https://www.cbinsights.com/company/daydream",
+        "address_source_label": "CB Insights company profile; official careers page confirms San Francisco",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "decisionly",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "dlogos",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "dracoinlabs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "101 Mission Street, Suite 900", "city": "San Francisco", "region": "CA", "postal_code": "94105", "country": "US"},
+        "latitude": 37.792275458478,
+        "longitude": -122.394156559554,
+        "address_status": "verified",
+        "address_source_url": "https://www.dracoinlabs.com/",
+        "address_source_label": "DracoinLabs official website",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "edit-on-the-spot",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "eliseai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "33 E 33rd St", "city": "New York", "region": "NY", "postal_code": "10016", "country": "US"},
+        "latitude": 40.746897082192,
+        "longitude": -73.98269369918,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/eliseai",
+        "address_source_label": "EliseAI official LinkedIn company location",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "ezcare-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "fambot-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "95 3rd St, 2nd Floor", "city": "San Francisco", "region": "CA", "postal_code": "94103", "country": "US"},
+        "latitude": 37.78655397137,
+        "longitude": -122.402030100302,
+        "address_status": "verified",
+        "address_source_url": "https://fambot.ai/contact",
+        "address_source_label": "Fambot official contact page",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "flocker",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "8 The Green, Suite A", "city": "Dover", "region": "DE", "postal_code": "19901", "country": "US"},
+        "latitude": 39.156612171399,
+        "longitude": -75.524175733106,
+        "address_status": "outside_sf",
+        "address_source_url": "https://flocker.ai/contact/",
+        "address_source_label": "Flocker official contact page",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "founders-embassy",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "2398 Pacific Ave", "city": "San Francisco", "region": "CA", "postal_code": "94115", "country": "US"},
+        "latitude": 37.793646109194,
+        "longitude": -122.434533360617,
+        "address_status": "verified",
+        "address_source_url": "https://www.foundersembassy.com/terms-of-use",
+        "address_source_label": "Founders Embassy official terms of use",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "freed",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "garage-stories",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "218 Lafayette St", "city": "New York", "region": "NY", "postal_code": "10012", "country": "US"},
+        "latitude": 40.721997255796,
+        "longitude": -73.997796799055,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.garagestories.org/",
+        "address_source_label": "Garage Stories official website footer",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "getproven-com",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "120 Hebard St", "city": "Santa Cruz", "region": "CA", "postal_code": "95060", "country": "US"},
+        "latitude": 36.957998400069,
+        "longitude": -122.044210174142,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.getproven.com/privacy",
+        "address_source_label": "GetProven official privacy notice",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "humanity-founders",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    },
+    {
+      "company_id": "hyperfocus-tech",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "28 Geary St, Suite 650", "city": "San Francisco", "region": "CA", "postal_code": "94108", "country": "US"},
+        "latitude": 37.787992054498,
+        "longitude": -122.404098418729,
+        "address_status": "verified",
+        "address_source_url": "https://hyperfocus.tech/privacy",
+        "address_source_label": "hyperfocus.tech official privacy policy",
+        "verified_date": "2026-08-28T20:34:32Z"
+      }
+    }
+  ],
+  "issues": [
+    {"code": "insufficient_exact_address", "company_id": "bensure", "subject": "Bensure", "source_url": "https://bensure.co/", "details": "Official site identifies the company but does not publish a reliable exact street address."},
+    {"code": "insufficient_exact_address", "company_id": "bitesize", "subject": "Bitesize", "source_url": "https://www.bitesize.ventures/", "details": "Official Bitesize Ventures site does not publish a reliable exact street address."},
+    {"code": "insufficient_exact_address", "company_id": "bitscale", "subject": "Bitscale", "source_url": "https://www.linkedin.com/company/bit-scale", "details": "San Francisco is stated, but no exact street address was substantiated."},
+    {"code": "identity_or_address_unresolved", "company_id": "black-bird-capital", "subject": "Black Bird Capital", "source_url": "https://www.black-bird-capital.com/", "details": "The catalog identity could not be matched to a reliable exact physical address; search results included unrelated Blackbird entities."},
+    {"code": "insufficient_exact_address", "company_id": "bti", "subject": "BTI", "source_url": "https://www.btimmp.com/", "details": "No reliable exact physical address was substantiated for the catalog BTI identity."},
+    {"code": "insufficient_exact_address", "company_id": "btlabs", "subject": "BTlabs", "source_url": "https://btlabs.ai/", "details": "Official site does not publish a reliable exact street address."},
+    {"code": "insufficient_exact_address", "company_id": "c5r", "subject": "C5R", "source_url": "https://c5r.net/", "details": "Official site references a San Francisco prototype facility but does not publish a street number or exact address."},
+    {"code": "identity_or_address_unresolved", "company_id": "calvis", "subject": "Calvis", "source_url": "https://calvis.com/careers", "details": "Current materials point to Austin, while a separate legal notice gives a Miami address; no current exact staffed office was substantiated."},
+    {"code": "identity_or_address_unresolved", "company_id": "casa", "subject": "Casa", "source_url": "https://my.casa/", "details": "The catalog identity could not be matched to a reliable exact physical address."},
+    {"code": "insufficient_exact_address", "company_id": "caspr", "subject": "CASPR", "source_url": "https://www.caspr.org/approach", "details": "Official materials state San Francisco and Providence but do not publish an exact street address."},
+    {"code": "insufficient_exact_address", "company_id": "cedana-ai", "subject": "Cedana AI", "source_url": "https://cedana.com/", "details": "Official Cedana materials do not publish a reliable exact street address."},
+    {"code": "identity_or_address_unresolved", "company_id": "chronicle", "subject": "Chronicle", "source_url": "https://www.linkedin.com/company/chroniclestudios", "details": "The catalog chronicle.studio identity has only a city-level San Francisco signal; similarly named results were not safely interchangeable."},
+    {"code": "identity_or_address_unresolved", "company_id": "cipherness", "subject": "Cipherness", "source_url": "https://www.cipherness.com/", "details": "The official site does not publish an exact address and the company identity is too generic to resolve safely."},
+    {"code": "identity_or_address_unresolved", "company_id": "clearfirm", "subject": "Clearfirm", "source_url": "https://getclearfirm.com/", "details": "No reliable exact physical address was substantiated for the catalog identity."},
+    {"code": "insufficient_exact_address", "company_id": "clearstone-analytics", "subject": "Clearstone Analytics", "source_url": "https://clearstoneanalytics.com/privacy", "details": "Official privacy materials do not publish a physical street address."},
+    {"code": "identity_or_address_unresolved", "company_id": "coastal-carbon", "subject": "Coastal Carbon", "source_url": "https://coastalcarbon.ai/", "details": "Search results primarily matched unrelated Coastal Carbonic; no reliable exact address for coastalcarbon.ai was substantiated."},
+    {"code": "insufficient_exact_address", "company_id": "contextqa", "subject": "ContextQA", "source_url": "https://contextqa.com/contact-us/", "details": "Official contact page states San Francisco, while a separate legal notice gives Round Rock; no current exact staffed office was substantiated."},
+    {"code": "identity_or_address_unresolved", "company_id": "coverwatch", "subject": "Coverwatch", "source_url": "https://coverwatch.com/", "details": "The official site does not publish an exact address and similarly named UK entities create identity ambiguity."},
+    {"code": "insufficient_exact_address", "company_id": "cruitical", "subject": "Cruitical", "source_url": "https://www.cruitical.com/privacy-policy/", "details": "Official privacy policy does not publish a reliable exact physical address."},
+    {"code": "identity_or_address_unresolved", "company_id": "curium", "subject": "Curium", "source_url": "https://www.curium.ai/about", "details": "The catalog identity is the GEO AI company at curium.ai; no exact address was published, and Curium Pharma was not treated as the same company."},
+    {"code": "insufficient_exact_address", "company_id": "daemo-ai", "subject": "Daemo AI", "source_url": "https://www.hydra-innovations.com/", "details": "Sources identify San Francisco and Mission Street but do not provide a complete street number and address."},
+    {"code": "identity_or_address_unresolved", "company_id": "daily-lowdown", "subject": "Daily Lowdown", "source_url": "https://mydailylowdown.com/", "details": "No reliable exact physical address was substantiated for the catalog identity."},
+    {"code": "insufficient_exact_address", "company_id": "dearhiringmanager-io", "subject": "Dear Hiring Manager", "source_url": "https://www.dearhiringmanager.io/", "details": "Official site and pricing page do not publish a reliable exact street address."},
+    {"code": "insufficient_exact_address", "company_id": "deepchatbi", "subject": "DeepChatBI", "source_url": "https://www.deepchatbi.com/en/company", "details": "San Francisco is stated at city level, but no exact street address was substantiated; a separate Colorado legal signal was not treated as a current office."},
+    {"code": "identity_or_address_unresolved", "company_id": "deeply", "subject": "Deeply", "source_url": "https://lovedeeply.com/", "details": "No reliable exact physical address was substantiated for the catalog identity."},
+    {"code": "insufficient_exact_address", "company_id": "deepsigns", "subject": "DeepSigns", "source_url": "https://www.deepsigns.com/", "details": "Official site does not publish a reliable exact street address."},
+    {"code": "identity_or_address_unresolved", "company_id": "ditto-ai", "subject": "Ditto.ai", "source_url": "https://ditto.ai/legal/privacy", "details": "Current Ditto legal materials identify a Berkeley mailing location, while other Ditto identities conflict; no exact staffed address for this catalog identity was substantiated."},
+    {"code": "insufficient_exact_address", "company_id": "drafted", "subject": "Drafted", "source_url": "https://www.drafted.ai/learn/faq", "details": "The current drafted.ai site does not publish a reliable exact street address."},
+    {"code": "insufficient_exact_address", "company_id": "drooid", "subject": "Drooid", "source_url": "https://drooid.org/contact.html", "details": "Drooid describes a remote/global operation but does not publish an exact physical address."},
+    {"code": "insufficient_exact_address", "company_id": "evonaire", "subject": "Evonaire", "source_url": "https://evonaire.ai/", "details": "Official materials mention being born in San Francisco but do not publish an exact street address."},
+    {"code": "identity_or_address_unresolved", "company_id": "exponential-defi", "subject": "Exponential DeFi", "source_url": "https://expx.fi/", "details": "No reliable exact physical address was substantiated for the catalog identity."},
+    {"code": "insufficient_exact_address", "company_id": "fairwai", "subject": "FairwAI", "source_url": "https://gofairwai.com/", "details": "Official site does not publish a reliable exact street address."},
+    {"code": "insufficient_exact_address", "company_id": "finthos", "subject": "Finthos", "source_url": "https://finthos.ai/privacy", "details": "Sources mention Boston and Berlin at city level but do not publish a current exact staffed office address."},
+    {"code": "insufficient_exact_address", "company_id": "floe-labs", "subject": "Floe Labs", "source_url": "https://www.linkedin.com/company/floe-labs", "details": "San Francisco is stated at city level, but no exact street address was substantiated."},
+    {"code": "insufficient_exact_address", "company_id": "flowgen-labs", "subject": "FlowGen Labs", "source_url": "https://flowgenlabs.com/contact", "details": "Official contact page provides a form but no reliable exact street address."},
+    {"code": "identity_or_address_unresolved", "company_id": "fluent-labs", "subject": "Fluent Labs", "source_url": "https://fluentlabs.xyz/", "details": "The catalog domain and similarly named Fluent blockchain results do not yield a reliable exact physical address for this identity."},
+    {"code": "insufficient_exact_address", "company_id": "general-medicine", "subject": "General Medicine", "source_url": "https://generalmedicine.co/company/about/", "details": "Official company page describes nationwide care but does not publish a reliable exact street address."},
+    {"code": "insufficient_exact_address", "company_id": "global-pathways-ai", "subject": "Global Pathways AI", "source_url": "https://www.linkedin.com/company/global-pathways-ai-inc", "details": "San Francisco and ZIP 94103 are stated, but no exact street address was substantiated."},
+    {"code": "identity_or_address_unresolved", "company_id": "gravadee-com", "subject": "Gravadee.com", "source_url": "http://www.gravadee.com/", "details": "No reliable current company or exact physical address was substantiated for the catalog domain."},
+    {"code": "insufficient_exact_address", "company_id": "green", "subject": "Green", "source_url": "https://green.com/", "details": "Official site provides a waitlist and contact email but no reliable exact street address."},
+    {"code": "insufficient_exact_address", "company_id": "guide-labs", "subject": "Guide Labs", "source_url": "https://www.linkedin.com/company/guide-labs", "details": "San Francisco and ZIP 94108 are stated at city/ZIP level, but no exact street address was substantiated."},
+    {"code": "insufficient_exact_address", "company_id": "hatchitat", "subject": "Hatchitat", "source_url": "https://wellfound.com/company/hatchitat-1", "details": "Reliable sources state San Francisco, but no exact street address was substantiated."},
+    {"code": "insufficient_exact_address", "company_id": "helpboost", "subject": "Helpboost", "source_url": "https://helpboost.org/", "details": "No reliable exact physical address was substantiated for the catalog identity."},
+    {"code": "insufficient_exact_address", "company_id": "hero-safety", "subject": "Hero Safety", "source_url": "https://gethero.com/", "details": "The official site redirects to Hero Safety but does not publish a physical street address."},
+    {"code": "insufficient_exact_address", "company_id": "https-effectiveailabs-com", "subject": "Effective AI", "source_url": "https://effectiveailabs.com/", "details": "San Francisco is stated at city level, but no exact street address was substantiated."},
+    {"code": "insufficient_exact_address", "company_id": "i-8-portfolios", "subject": "I-8 Portfolios", "source_url": "https://www.i-8portfolios.com/", "details": "No reliable exact physical address was substantiated for the catalog identity."},
+    {"code": "insufficient_exact_address", "company_id": "influxion", "subject": "Influxion", "source_url": "https://www.influxion.io/contact", "details": "Official contact page provides a form but no reliable exact street address; similarly named domains were not treated as the same company."},
+    {"code": "insufficient_exact_address", "company_id": "inkah", "subject": "Inkah", "source_url": "https://www.inkah.com/", "details": "Official site describes the product but does not publish a reliable exact street address."},
+    {"code": "insufficient_exact_address", "company_id": "invexora-tech", "subject": "InveXora Tech", "source_url": "https://www.linkedin.com/company/invexora-tech", "details": "San Francisco is stated at city level, but no exact physical address was substantiated on the official site or company profile."},
+    {"code": "mailbox_only_address", "company_id": "cardoza-law", "subject": "Cardoza Law", "source_url": "https://apps.calbar.ca.gov/attorney/Licensee/Detail/194065", "details": "The substantiated San Francisco address is a PMB/mailbox address, so no staffed physical office was verified."},
+    {"code": "mailbox_only_address", "company_id": "cloudzero", "subject": "CloudZero", "source_url": "https://www.cloudzero.com/privacy-policy/", "details": "The official Boston address is a PMB address, so no staffed physical office was verified."},
+    {"code": "private_residence_or_legal_only", "company_id": "crema-social", "subject": "Crema Social", "source_url": "https://cremasocial.com/eula", "details": "The official New York address is an apartment/legal address, not evidence of a staffed office."},
+    {"code": "mailbox_or_legal_only", "company_id": "decisionly", "subject": "Decisionly", "source_url": "https://www.decisionly.com/privacy", "details": "The official New York address is a STE legal/mailing address without evidence of a staffed office."},
+    {"code": "mailbox_only_address", "company_id": "dlogos", "subject": "dLogos", "source_url": "https://www.linkedin.com/company/dlogos", "details": "The listed San Francisco address is a mailbox-style STE address, so no staffed physical office was verified."},
+    {"code": "mailing_address_only", "company_id": "edit-on-the-spot", "subject": "Edit on the Spot", "source_url": "https://www.dev.editonthespot.com/privacy-policy", "details": "The substantiated official address is a PO Box in Australia, not a physical staffed office."},
+    {"code": "legal_or_private_residence_only", "company_id": "ezcare-ai", "subject": "EZCARE AI", "source_url": "https://play.google.com/store/apps/details?hl=en&id=com.ezcareaiolder", "details": "App-store business details provide a legal/residential Wyoming address, with no evidence of a staffed San Francisco office."},
+    {"code": "mailbox_only_address", "company_id": "freed", "subject": "Freed", "source_url": "https://www.getfreed.ai/contact-us", "details": "The official San Francisco address is a PMB address, so no staffed physical office was verified."},
+    {"code": "mailbox_only_address", "company_id": "humanity-founders", "subject": "Humanity Founders", "source_url": "https://in.linkedin.com/company/humanityfounders", "details": "The San Francisco location is listed with PMB 5278, so no staffed physical office was verified."}
+  ]
+}

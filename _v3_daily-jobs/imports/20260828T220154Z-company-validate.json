@@ -1,0 +1,1424 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T22:01:54Z",
+  "changes": [
+    {
+      "company_id": "treelab",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "tribal-credit",
+      "expected_status": "pending",
+      "website_url": "https://tribal.credit"
+    },
+    {
+      "company_id": "trigger-io",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "triplebyte",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "true-north",
+      "expected_status": "pending",
+      "website_url": "https://truenorth.co"
+    },
+    {
+      "company_id": "truly",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "trustarc",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2121 N. California Blvd., Suite 290",
+          "city": "Walnut Creek",
+          "region": "CA",
+          "postal_code": "94596",
+          "country": "US"
+        },
+        "latitude": 37.9086854,
+        "longitude": -122.0662929,
+        "address_status": "outside_sf",
+        "address_source_url": "https://trustarc.com/contact/",
+        "address_source_label": "TrustArc official contact page",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "tubi",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "201 3rd Street, Floor 12",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.7850747,
+        "longitude": -122.3998734,
+        "address_status": "verified",
+        "address_source_url": "https://tubitv.com/help-center/Accessibility/articles/15056366740763",
+        "address_source_label": "Tubi official accessibility page",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "tundra",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "tunein",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "twentythree",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "Sortedam Dossering 7E",
+          "city": "Copenhagen N",
+          "region": "Capital Region",
+          "postal_code": "2200",
+          "country": "DK"
+        },
+        "latitude": 55.688227,
+        "longitude": 12.562461,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.twentythree.com/about",
+        "address_source_label": "TwentyThree official about page",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "twitter",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "ubiquity-retirement-savings",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "44 Montgomery Street, Suite 300",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.7896307,
+        "longitude": -122.4018876,
+        "address_status": "verified",
+        "address_source_url": "https://files.brokercheck.finra.org/firm/firm_112525.pdf",
+        "address_source_label": "FINRA BrokerCheck firm report",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "ubiquity6",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "ujet",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "535 Mission Street, 14th Floor, WeWork",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7888591,
+        "longitude": -122.3981311,
+        "address_status": "verified",
+        "address_source_url": "https://ujet.cx/arbitration-procedures",
+        "address_source_label": "UJET official arbitration procedures",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "upcall",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "upsight",
+      "expected_status": "pending",
+      "website_url": "https://www.upsight.com"
+    },
+    {
+      "company_id": "upwork",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "530 Lytton Avenue, Suite 301",
+          "city": "Palo Alto",
+          "region": "CA",
+          "postal_code": "94301",
+          "country": "US"
+        },
+        "latitude": 37.4490187,
+        "longitude": -122.1600169,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/1627475/000162747526000012/upwk-20251231.htm",
+        "address_source_label": "Upwork 2025 Form 10-K principal executive office",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "urbansitter",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "userleap",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "uservoice",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "121 2nd St, Floor 4",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7878355,
+        "longitude": -122.3992015,
+        "address_status": "verified",
+        "address_source_url": "https://craft.co/uservoice/locations",
+        "address_source_label": "Craft current headquarters and office listing",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "valimail",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "veem",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1160 Battery Street, Suite 100",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.8022952,
+        "longitude": -122.4016638,
+        "address_status": "verified",
+        "address_source_url": "https://www.veem.com/contact/",
+        "address_source_label": "Veem official contact page",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "vero",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "very-good-security",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "207 Powell Street, Suite 200",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94102",
+          "country": "US"
+        },
+        "latitude": 37.780315,
+        "longitude": -122.4159922,
+        "address_status": "verified",
+        "address_source_url": "https://www.verygoodsecurity.com/about-us",
+        "address_source_label": "Very Good Security official company page",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "vida-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "viglink",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "vineti",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "virtual-ark",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "visage-mobile",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "visby",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "3010 North First Street",
+          "city": "San Jose",
+          "region": "CA",
+          "postal_code": "95134",
+          "country": "US"
+        },
+        "latitude": 37.3950824,
+        "longitude": -121.9334008,
+        "address_status": "outside_sf",
+        "address_source_url": "https://visby.com/pages/contact-us",
+        "address_source_label": "Visby Medical official contact page",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "vitagene",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "vivian-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "vivio",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "voicebase",
+      "expected_status": "pending",
+      "website_url": "https://www.voicebase.com"
+    },
+    {
+      "company_id": "voiq",
+      "expected_status": "pending",
+      "website_url": "https://voiq.com"
+    },
+    {
+      "company_id": "volta-charging",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "vonnda",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "475 Coloma Street, Suite 285",
+          "city": "Sausalito",
+          "region": "CA",
+          "postal_code": "94965",
+          "country": "US"
+        },
+        "latitude": 37.8675367,
+        "longitude": -122.5039434,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.vonnda.com/",
+        "address_source_label": "Vonnda official company site",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "vungle",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "vymo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "440 N Wolfe Road",
+          "city": "Sunnyvale",
+          "region": "CA",
+          "postal_code": "94085",
+          "country": "US"
+        },
+        "latitude": 37.3835417,
+        "longitude": -122.013194,
+        "address_status": "outside_sf",
+        "address_source_url": "https://getvymo.com/contactus",
+        "address_source_label": "Vymo official contact page",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "wake",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "wandera",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "wanelo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "650 Delancey Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.7848997,
+        "longitude": -122.3906111,
+        "address_status": "verified",
+        "address_source_url": "https://www.bizprofile.net/ca/san-francisco/wanelo-inc",
+        "address_source_label": "Current California business profile principal address",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "watersmart-software",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "watsi",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "webgility",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1111 6th Avenue, Suite 550",
+          "city": "San Diego",
+          "region": "CA",
+          "postal_code": "92101",
+          "country": "US"
+        },
+        "latitude": 32.7169083,
+        "longitude": -117.1590711,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.webgility.com/company/contact",
+        "address_source_label": "Webgility official contact page",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "wellio",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "wellnessfx",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "wheelwell",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2513 Van Ness Avenue",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94109",
+          "country": "US"
+        },
+        "latitude": 37.7917574,
+        "longitude": -122.4225087,
+        "address_status": "verified",
+        "address_source_url": "https://www.cbinsights.com/company/wheelwell",
+        "address_source_label": "CB Insights headquarters listing",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "whisper",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "260 8th Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.775356,
+        "longitude": -122.4109844,
+        "address_status": "verified",
+        "address_source_url": "https://www.dnb.com/business-directory/company-profiles.whisperai_inc.1e58d762710e1438e3d877ee7b4e8479.html",
+        "address_source_label": "D&B company address listing",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "wikimedia-foundation",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "windfall-data",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "430 Pacific Avenue",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94133",
+          "country": "US"
+        },
+        "latitude": 37.7963752,
+        "longitude": -122.4102939,
+        "address_status": "verified",
+        "address_source_url": "https://oag.ca.gov/data-broker/registration/186703",
+        "address_source_label": "California Attorney General physical-address registration",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "winmore",
+      "expected_status": "pending",
+      "website_url": "https://winmore.app"
+    },
+    {
+      "company_id": "wizeline",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "50 California Street, Suite 1500",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.7940648,
+        "longitude": -122.3973798,
+        "address_status": "verified",
+        "address_source_url": "https://www.wizeline.ai/legal/terms-and-conditions/",
+        "address_source_label": "Wizeline official terms",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "womply",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "wonderware",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "woo-io",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "600 California Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.792867,
+        "longitude": -122.4052192,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/woo-io",
+        "address_source_label": "Woo.io current LinkedIn office listing",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "woopra",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "600 California Street, Floor 11",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.7929829,
+        "longitude": -122.4047906,
+        "address_status": "verified",
+        "address_source_url": "https://keystone.woopra.com/privacy",
+        "address_source_label": "Woopra official privacy policy",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "wootric",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "workforcegrowth",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "worklete",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "worthix",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "3460 Preston Ridge Road, Suite 575",
+          "city": "Alpharetta",
+          "region": "GA",
+          "postal_code": "30009",
+          "country": "US"
+        },
+        "latitude": 34.072719,
+        "longitude": -84.2603314,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/worthix",
+        "address_source_label": "Worthix current LinkedIn office listing",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "xero",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1875 South Grant Street, Suite 640",
+          "city": "San Mateo",
+          "region": "CA",
+          "postal_code": "94402",
+          "country": "US"
+        },
+        "latitude": 37.5533792,
+        "longitude": -122.3002519,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.xero.com/us/about/offices/",
+        "address_source_label": "Xero official global offices page",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "xertica",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "181 3rd Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.785463,
+        "longitude": -122.4004422,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/xertica",
+        "address_source_label": "Xertica current LinkedIn office listing",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "xola",
+      "expected_status": "pending",
+      "website_url": "https://xola.com"
+    },
+    {
+      "company_id": "xpansiv-cbl-holding-group",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "500 Fifth Avenue, 26th Floor",
+          "city": "New York",
+          "region": "NY",
+          "postal_code": "10110",
+          "country": "US"
+        },
+        "latitude": 40.7539205,
+        "longitude": -73.9811817,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.xpansiv.com/contact",
+        "address_source_label": "Xpansiv official office locations",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "xplenty",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "yalochat",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "Paseo de la Reforma 265, Colonia Cuauhtémoc",
+          "city": "Ciudad de México",
+          "region": "CDMX",
+          "postal_code": "06500",
+          "country": "MX"
+        },
+        "latitude": 19.4294861,
+        "longitude": -99.1644706,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.yalo.ai/politica-de-privacidad",
+        "address_source_label": "Yalo official privacy policy office address",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "yaypay",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "yext",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "61 Ninth Avenue",
+          "city": "New York",
+          "region": "NY",
+          "postal_code": "10011",
+          "country": "US"
+        },
+        "latitude": 40.7377025,
+        "longitude": -73.9965885,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.yext.com/locations",
+        "address_source_label": "Yext official office locations",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "your-fare",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "204 Brewster Street",
+          "city": "Austin",
+          "region": "TX",
+          "postal_code": "78704",
+          "country": "US"
+        },
+        "latitude": 30.2344635,
+        "longitude": -97.7594995,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.employbl.com/companies/Your-Fare-Inc/office-locations",
+        "address_source_label": "Employbl company office listing",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "yup",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "zedo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "850 Montgomery Street, Suite 150",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94133",
+          "country": "US"
+        },
+        "latitude": 37.7970564,
+        "longitude": -122.4034628,
+        "address_status": "verified",
+        "address_source_url": "https://craft.co/zedo/locations",
+        "address_source_label": "Craft current headquarters listing",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "zendrive",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "201 Spear Street, Suite 1100",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7912408,
+        "longitude": -122.3919786,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/zendrive",
+        "address_source_label": "Zendrive current LinkedIn office listing",
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    },
+    {
+      "company_id": "zenefits",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T22:01:54Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "virtual_or_registered_address_only",
+      "company_id": "treelab",
+      "subject": "Current address is a registered address, not a verified physical office",
+      "source_url": "https://pitchhub.36kr.com/project/1678224000300032",
+      "details": "The available exact Shanghai address is identified as a registered address rather than a clearly verified staffed physical office; no current physical office could be established." 
+    },
+    {
+      "code": "address_conflict",
+      "company_id": "tribal-credit",
+      "subject": "Conflicting current headquarters evidence",
+      "source_url": "https://www.linkedin.com/company/tribal-credit",
+      "details": "LinkedIn identifies Tribal Credit in San Francisco while CB Insights reports 75 East Santa Clara Street, San Jose; no single current exact physical office could be reconciled. Retry: /company-validate company tribal-credit"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "trigger-io",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://app.dealroom.co/companies/trigger_io",
+      "details": "Dealroom identifies Trigger.io as acquired and does not establish a current standalone physical office for the catalog company. Retry: /company-validate company trigger-io"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "triplebyte",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.crunchbase.com/organization/triplebyte",
+      "details": "Crunchbase reports Triplebyte as closed and acquired by Karat; no current standalone Triplebyte physical office was established. Retry: /company-validate company triplebyte"
+    },
+    {
+      "code": "address_conflict",
+      "company_id": "true-north",
+      "subject": "Conflicting exact San Francisco addresses",
+      "source_url": "https://www.dnb.com/business-directory/company-profiles.truenorth_technologies_inc.de99824bec6d7b45c4e4f9f50dfa496b.html",
+      "details": "D&B reports 3001 19th St, San Francisco, while CB Insights reports 1 Saint Francis Place, San Francisco; the conflicting exact addresses were left pending. Retry: /company-validate company true-north"
+    },
+    {
+      "code": "insufficient_exact_address",
+      "company_id": "truly",
+      "subject": "Current exact physical office not established",
+      "source_url": "https://www.linkedin.com/company/trulyco",
+      "details": "Current sources identify Truly in San Francisco but provide no exact physical street address. Retry: /company-validate company truly"
+    },
+    {
+      "code": "identity_ambiguous",
+      "company_id": "tundra",
+      "subject": "Current company identity and physical office could not be reconciled",
+      "source_url": "https://tundra.com",
+      "details": "Search results for the catalog domain do not establish a single current technology-company identity and exact physical office. Retry: /company-validate company tundra"
+    },
+    {
+      "code": "mailbox_only_address",
+      "company_id": "tunein",
+      "subject": "Current address is a mailbox-only contact address",
+      "source_url": "https://cms.tunein.com/contact/",
+      "details": "TuneIn publishes 1875 Mission St Suite 103, #397; the #397 format is a mailbox/PMB-style contact and does not establish a staffed physical office. Retry: /company-validate company tunein"
+    },
+    {
+      "code": "company_rebranded_no_current_physical_office",
+      "company_id": "twitter",
+      "subject": "Company rebranded; no current standalone physical office established",
+      "source_url": "https://www.intelligize.com/wp-content/uploads/2022/04/TwitterInc_20220418_8-K.pdf",
+      "details": "Historical Twitter filings identify San Francisco offices, but the company has since operated as X and no current standalone Twitter physical office was established. Retry: /company-validate company twitter"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "ubiquity6",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.linkedin.com/company/ubiquity6",
+      "details": "Ubiquity6 is identified as acquired by Discord; its historical terms address does not establish a current standalone Ubiquity6 office. Retry: /company-validate company ubiquity6"
+    },
+    {
+      "code": "insufficient_exact_address",
+      "company_id": "upcall",
+      "subject": "Current exact physical office not established",
+      "source_url": "https://www.upcall.com/terms-of-conduct",
+      "details": "Upcall’s current official terms do not publish an exact physical office address. Retry: /company-validate company upcall"
+    },
+    {
+      "code": "address_conflict",
+      "company_id": "upsight",
+      "subject": "Conflicting exact San Francisco addresses",
+      "source_url": "https://www.dnb.com/business-directory/company-profiles.upsight_inc.efadb92854a6ae349e1ef6f2a21561e1.html",
+      "details": "D&B reports 156 2nd St Suite 400, while other business records report 501 Folsom St; the conflicting exact addresses were left pending. Retry: /company-validate company upsight"
+    },
+    {
+      "code": "mailbox_only_address",
+      "company_id": "urbansitter",
+      "subject": "Current address is a mailbox-only contact address",
+      "source_url": "https://www.bbb.org/us/ca/san-francisco/profile/nanny-services/urbansitter-1116-440089",
+      "details": "UrbanSitter’s current BBB listing uses 268 Bush St PMB 3944; its official site confirms San Francisco but no staffed physical office was established. Retry: /company-validate company urbansitter"
+    },
+    {
+      "code": "insufficient_exact_address",
+      "company_id": "userleap",
+      "subject": "Current exact physical office not established",
+      "source_url": "https://userleap.com",
+      "details": "Available current sources for UserLeap do not establish an exact physical street address. Retry: /company-validate company userleap"
+    },
+    {
+      "code": "virtual_or_registered_address_only",
+      "company_id": "valimail",
+      "subject": "Current address is a mailing address, not a verified physical office",
+      "source_url": "https://www.valimail.com/contact-us/",
+      "details": "Valimail’s current contact page provides a Mail Us address at 1942 Broadway Ste 314C, Boulder, but does not establish a staffed physical office. Retry: /company-validate company valimail"
+    },
+    {
+      "code": "virtual_or_registered_address_only",
+      "company_id": "vero",
+      "subject": "Current address is a registered address, not a verified physical office",
+      "source_url": "https://vero.co/privacy-policy/",
+      "details": "VERO’s current privacy policy publishes 228 Park Avenue S, Suite 131065, New York, a registered-address format; no staffed physical office was established. Retry: /company-validate company vero"
+    },
+    {
+      "code": "mailbox_only_address",
+      "company_id": "vida-health",
+      "subject": "Current address is a mailbox-style contact address",
+      "source_url": "https://www.vida.com/terms-of-use/",
+      "details": "Vida Health’s current terms publish 20500 Belshaw Ave, DPT# EXCA1377, Carson; the DPT# contact format does not establish a staffed physical office. Retry: /company-validate company vida-health"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "viglink",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.sovrn.com/blog/sovrn-acquires-viglink/",
+      "details": "Sovrn announced its acquisition of VigLink; no current standalone VigLink physical office was established. Retry: /company-validate company viglink"
+    },
+    {
+      "code": "insufficient_exact_address",
+      "company_id": "vineti",
+      "subject": "Current exact physical office not established",
+      "source_url": "https://www.linkedin.com/company/vineti",
+      "details": "Current sources identify Vineti in San Francisco but do not provide an exact physical street address. Retry: /company-validate company vineti"
+    },
+    {
+      "code": "address_evidence_limited",
+      "company_id": "virtual-ark",
+      "subject": "Current exact physical office not established",
+      "source_url": "https://www.virtualark.com/",
+      "details": "Virtual Ark’s current site gives no street address; an older third-party listing reported 101 California Street in San Francisco, while current Australian registry information provides only a postcode. Retry: /company-validate company virtual-ark"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "visage-mobile",
+      "subject": "Company merged into Brightfin; no current standalone physical office established",
+      "source_url": "https://www.alantra.com/ib-transaction/periscope-equity-buy-side-advisory-visage-mobile/",
+      "details": "Visage Mobile was acquired by Periscope Equity and merged with other companies into Brightfin; no current standalone Visage Mobile office was established. Retry: /company-validate company visage-mobile"
+    },
+    {
+      "code": "company_rebranded_no_current_physical_office",
+      "company_id": "vitagene",
+      "subject": "Company rebranded; no current standalone physical office established",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/complaint.pdf?trk=public_post_comment-text",
+      "details": "The FTC complaint records Vitagene’s name change to 1Health.io; the historical San Francisco address therefore does not establish a current standalone Vitagene office. Retry: /company-validate company vitagene"
+    },
+    {
+      "code": "mailbox_only_address",
+      "company_id": "vivian-health",
+      "subject": "Current address is a mailbox-only contact address",
+      "source_url": "https://www.vivian.com/privacy-policy/",
+      "details": "Vivian Health’s current privacy policy publishes 100 Pine Street, Suite 1250, PMB A140, a mailbox-style contact address rather than a verified staffed office. Retry: /company-validate company vivian-health"
+    },
+    {
+      "code": "identity_ambiguous",
+      "company_id": "vivio",
+      "subject": "Current company identity and physical office could not be reconciled",
+      "source_url": "https://vivio.tv",
+      "details": "The catalog domain does not yield a single unambiguous technology-company identity or current exact physical office. Retry: /company-validate company vivio"
+    },
+    {
+      "code": "address_conflict",
+      "company_id": "voicebase",
+      "subject": "Conflicting exact address evidence",
+      "source_url": "https://www.voicebase.com/terms-of-use/",
+      "details": "VoiceBase’s current legal notices reference Berkeley, while an older VoiceBase whitepaper reports a San Francisco address; no single current exact physical office could be reconciled. Retry: /company-validate company voicebase"
+    },
+    {
+      "code": "address_conflict",
+      "company_id": "voiq",
+      "subject": "Conflicting exact San Francisco addresses",
+      "source_url": "https://www.cbinsights.com/company/voiq",
+      "details": "CB Insights reports 825 Marshall Street while Craft reports 88 Howard Street; no single current exact physical office could be reconciled. Retry: /company-validate company voiq"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "volta-charging",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.shell.us/about-us/news-and-insights/media/2023-media-releases/shell-usa-inc-finalizes-acquisition-of-volta-inc.html",
+      "details": "Shell USA completed its acquisition of Volta; no current standalone Volta Charging physical office was established. Retry: /company-validate company volta-charging"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "vungle",
+      "subject": "Company merged into Liftoff; no current standalone physical office established",
+      "source_url": "https://vungle.com/tag/vungle/",
+      "details": "Vungle’s official site says its products and services are available through Liftoff after the merger; no current standalone Vungle physical office was established. Retry: /company-validate company vungle"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "wake",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.crunchbase.com/organization/wake",
+      "details": "Crunchbase identifies Wake as closed and acquired by InVision; no current standalone Wake physical office was established. Retry: /company-validate company wake"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "wandera",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1721947/000162828021013365/jamf-20210701.htm",
+      "details": "Jamf completed its acquisition of Wandera; no current standalone Wandera physical office was established. Retry: /company-validate company wandera"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "watersmart-software",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.vertexone.ai/news/vertexone-acquires-watersmart",
+      "details": "VertexOne completed its acquisition of WaterSmart Software; no current standalone WaterSmart physical office was established. Retry: /company-validate company watersmart-software"
+    },
+    {
+      "code": "mailbox_only_address",
+      "company_id": "watsi",
+      "subject": "Current address is a mailbox-only contact address",
+      "source_url": "https://watsi.org/contact.html",
+      "details": "Watsi’s current contact page publishes 548 Market Street, #75903; the #75903 format is a mailbox-style contact and does not establish a staffed physical office. Retry: /company-validate company watsi"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "wellio",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.cbinsights.com/company/wellio",
+      "details": "CB Insights reports wellio was acquired by Kraft Heinz; the catalog domain now resolves to an unrelated site and no standalone wellio office was established. Retry: /company-validate company wellio"
+    },
+    {
+      "code": "company_closed_no_current_physical_address",
+      "company_id": "wellnessfx",
+      "subject": "Company closed; no current physical office established",
+      "source_url": "https://www.scanura.com/blog/what-happened-to-wellnessfx-blood-testing",
+      "details": "Current reporting indicates WellnessFX shut down operations in September 2023; no current standalone physical office was established. Retry: /company-validate company wellnessfx"
+    },
+    {
+      "code": "mailing_address_only",
+      "company_id": "wikimedia-foundation",
+      "subject": "Current address is published as a postal address, not a verified physical office",
+      "source_url": "https://wikimediafoundation.org/contact/",
+      "details": "The current Wikimedia Foundation contact page labels 1 Sansome Street Suite 1895 as a postal address and does not clearly establish it as a staffed physical office. Retry: /company-validate company wikimedia-foundation"
+    },
+    {
+      "code": "address_conflict",
+      "company_id": "winmore",
+      "subject": "Conflicting current exact San Francisco addresses",
+      "source_url": "https://www.winmore.io/about",
+      "details": "Winmore’s official site reports 1390 Market Street Suite 200, while its current LinkedIn page reports 600 California Street Suite 1100; the conflicting exact addresses were left pending. Retry: /company-validate company winmore"
+    },
+    {
+      "code": "company_sold_no_current_physical_address",
+      "company_id": "womply",
+      "subject": "Company sold; no current standalone physical office established",
+      "source_url": "https://www.womply.com/",
+      "details": "Womply’s current site says the company was sold in 2021; no current standalone Womply physical office was established. Retry: /company-validate company womply"
+    },
+    {
+      "code": "company_rebranded_no_current_physical_office",
+      "company_id": "wonderware",
+      "subject": "Company rebranded into AVEVA; no current standalone physical office established",
+      "source_url": "https://www.aveva.com/en/solutions/operations/wonderware/",
+      "details": "AVEVA states that Wonderware products are now AVEVA solutions; no current standalone Wonderware physical office was established. Retry: /company-validate company wonderware"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "wootric",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://inmoment.com/en-sg/news/inmoment-acquires-wootric-to-accelerate-pursuit-of-experience-improvement-for-worlds-leading-brands/",
+      "details": "InMoment announced its acquisition of Wootric; no current standalone Wootric physical office was established. Retry: /company-validate company wootric"
+    },
+    {
+      "code": "insufficient_exact_address",
+      "company_id": "workforcegrowth",
+      "subject": "Current exact physical office not established",
+      "source_url": "https://builtin.com/company/workforcegrowth",
+      "details": "Current listings identify WorkforceGrowth in San Francisco but do not provide an exact physical street address. Retry: /company-validate company workforcegrowth"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "worklete",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.prnewswire.com/news-releases/stage-fund-acquires-worklete-an-ai-based-data-platform-for-injury-prevention-301468802.html",
+      "details": "Stage Fund announced its acquisition of Worklete; no current standalone Worklete physical office was established. Retry: /company-validate company worklete"
+    },
+    {
+      "code": "address_conflict",
+      "company_id": "xola",
+      "subject": "Conflicting current legal and office addresses",
+      "source_url": "https://www.xola.com/terms/",
+      "details": "Xola’s official terms publish a Houston address, while current state records list a Florida principal address and older San Francisco listings remain; no single current physical office could be reconciled. Retry: /company-validate company xola"
+    },
+    {
+      "code": "insufficient_exact_address",
+      "company_id": "xplenty",
+      "subject": "Current exact physical office not established",
+      "source_url": "https://xplenty.com",
+      "details": "Current Xplenty sources identify the product/company but do not establish a current exact physical office address. Retry: /company-validate company xplenty"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "yaypay",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.quadient.com/en-us/blog/quadient-announces-acquisition-leading-fintech-company-yaypay-specialized-accounts-receivable-automation",
+      "details": "Quadient announced its acquisition of YayPay; the product now operates as Quadient Accounts Receivable by YayPay and no standalone YayPay office was established. Retry: /company-validate company yaypay"
+    },
+    {
+      "code": "company_closed_no_current_physical_address",
+      "company_id": "yup",
+      "subject": "Company closed; no current physical office established",
+      "source_url": "https://en.wikipedia.org/wiki/Yup_Technologies",
+      "details": "The catalog domain corresponds to Yup Technologies, the math-tutoring company reported as shut down; no current standalone physical office was established. Retry: /company-validate company yup"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "zenefits",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.trinet.com/about-us/news-press/press-releases/trinet-completes-acquisition-of-zenefits",
+      "details": "TriNet completed its acquisition of Zenefits and renamed the product TriNet Zenefits; no current standalone Zenefits physical office was established. Retry: /company-validate company zenefits"
+    }
+  ]
+}

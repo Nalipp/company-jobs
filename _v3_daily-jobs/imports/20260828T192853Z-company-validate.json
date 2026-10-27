@@ -1,0 +1,1097 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T19:28:53Z",
+  "changes": [
+    {
+      "company_id": "loop-genomics",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "loopfour",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "lootrush",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "lowkey",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "luminai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "311 7th Avenue, Suite 2",
+          "city": "San Mateo",
+          "region": "CA",
+          "postal_code": "94401",
+          "country": "United States"
+        },
+        "latitude": 37.563404197601,
+        "longitude": -122.319343463666,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.luminai.com/privacy-policy",
+        "address_source_label": "Official Privacy Policy",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "mach9",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "magic-patterns",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "malama-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "mashgin",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "849 East Charleston Road",
+          "city": "Palo Alto",
+          "region": "CA",
+          "postal_code": "94303",
+          "country": "United States"
+        },
+        "latitude": 37.422259360283,
+        "longitude": -122.103513144936,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.mashgin.com/data-processing-addendum",
+        "address_source_label": "Official Data Processing Addendum",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "matter",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "mayhem",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "medicare-vox-fka-fair-square",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "medplum",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "mentum",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "mercoa",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "meridian-industries",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "meru-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "metis",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "middleware",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "133 Kearny Street, Suite 400",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "United States"
+        },
+        "latitude": 37.789234587825,
+        "longitude": -122.404042176159,
+        "address_status": "verified",
+        "address_source_url": "https://middleware.io/contact-us/",
+        "address_source_label": "Official Contact Us",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "midship",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "mindbase",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "mino-games",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "modern-fertility",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "modernloop",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "momence",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "monterey-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "7087 Utica Court",
+          "city": "Dublin",
+          "region": "CA",
+          "postal_code": "94568",
+          "country": "United States"
+        },
+        "latitude": 37.712743393012,
+        "longitude": -121.92165694289,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.monterey.ai/terms-of-service",
+        "address_source_label": "Official Terms of Service",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "motion",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "mux",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "88 Stevenson Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "United States"
+        },
+        "latitude": 37.789263924486,
+        "longitude": -122.400367214531,
+        "address_status": "verified",
+        "address_source_url": "https://www.mux.com/sales-contact",
+        "address_source_label": "Official Sales Contact",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "nango",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "nanonets",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "nestor",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "netomi",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "notable-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "noya-software",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "numeral",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "527 Howard Street, Floor 3",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "United States"
+        },
+        "latitude": 37.787830409495,
+        "longitude": -122.396526794134,
+        "address_status": "verified",
+        "address_source_url": "https://www.numeral.com/legal/terms-of-service",
+        "address_source_label": "Official Terms of Service",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "ofone",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "156 2nd Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "United States"
+        },
+        "latitude": 37.787221338501,
+        "longitude": -122.399042454734,
+        "address_status": "verified",
+        "address_source_url": "https://www.of.one/terms-of-use",
+        "address_source_label": "Official Terms of Use",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "ohm",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "22 Battery Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "United States"
+        },
+        "latitude": 37.7915757372,
+        "longitude": -122.399363397807,
+        "address_status": "verified",
+        "address_source_url": "https://www.ohm.ai/terms-of-service",
+        "address_source_label": "Official Terms of Service",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "okay",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "onesignal",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "201 S. B Street, Suite 200",
+          "city": "San Mateo",
+          "region": "CA",
+          "postal_code": "94401",
+          "country": "United States"
+        },
+        "latitude": 37.566324871763,
+        "longitude": -122.322832598501,
+        "address_status": "outside_sf",
+        "address_source_url": "https://onesignal.com/dpa",
+        "address_source_label": "Official Data Processing Addendum",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "openinvest",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "orangewood-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2 Marina Boulevard, Building B, 2nd floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94123",
+          "country": "United States"
+        },
+        "latitude": 37.805505915454,
+        "longitude": -122.431938993946,
+        "address_status": "verified",
+        "address_source_url": "https://www.orangewood.co/about-us",
+        "address_source_label": "Official About Us",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "overview",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1700 Montgomery Street, Suite 221",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "United States"
+        },
+        "latitude": 37.805272227994,
+        "longitude": -122.404583395647,
+        "address_status": "verified",
+        "address_source_url": "https://www.overview.ai/contact/",
+        "address_source_label": "Official Contact",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "owny",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "oxygen",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "pair-team",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "parallel-bio",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1000 Marina Blvd., Suite 105",
+          "city": "Brisbane",
+          "region": "CA",
+          "postal_code": "94005",
+          "country": "United States"
+        },
+        "latitude": 37.674377997254,
+        "longitude": -122.38769897371,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.parallel.bio/contact",
+        "address_source_label": "Official Contact",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "peer5",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "people-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "percept-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "persana-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "pesto",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "phonic",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "pier",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "pillar",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2255 Van Ness Avenue",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94109",
+          "country": "United States"
+        },
+        "latitude": 37.796435355114,
+        "longitude": -122.424004013848,
+        "address_status": "verified",
+        "address_source_url": "https://pillar.io/docs/community-privacy.html",
+        "address_source_label": "Official Privacy and Community Standards",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "pine-park-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1901 4th Street, Suite 201",
+          "city": "Berkeley",
+          "region": "CA",
+          "postal_code": "94710",
+          "country": "United States"
+        },
+        "latitude": 37.868724953322,
+        "longitude": -122.299719751952,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.pineparkhealth.com/contact",
+        "address_source_label": "Official Contact",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "platejoy",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "plato",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "playai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "poly",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "polymath-robotics",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "posthog",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "prelim",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "primevault",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "probably-genetic",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "665 Third Street, Unit 150",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "United States"
+        },
+        "latitude": 37.779555249857,
+        "longitude": -122.393014692884,
+        "address_status": "verified",
+        "address_source_url": "https://www.probablygenetic.com/legal/terms-of-service",
+        "address_source_label": "Official Terms of Service",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "proven-group",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "quartzy",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "28321 Industrial Boulevard",
+          "city": "Hayward",
+          "region": "CA",
+          "postal_code": "94545",
+          "country": "United States"
+        },
+        "latitude": 37.617448278525,
+        "longitude": -122.096236479513,
+        "address_status": "outside_sf",
+        "address_source_url": "https://support.quartzy.com/hc/en-us/articles/229152807-Quartzy-Contact-Info",
+        "address_source_label": "Official Contact Info",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "quill",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "quinn",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "ready",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1717 K Street NW",
+          "city": "Washington",
+          "region": "DC",
+          "postal_code": "20006",
+          "country": "United States"
+        },
+        "latitude": 38.902898164886,
+        "longitude": -77.040292870738,
+        "address_status": "outside_sf",
+        "address_source_url": "https://ready.net/privacy",
+        "address_source_label": "Official Privacy Policy",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "recall-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "recurrency",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "reflex",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "188 King Street, PH6",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "United States"
+        },
+        "latitude": 37.778581985169,
+        "longitude": -122.391769980263,
+        "address_status": "verified",
+        "address_source_url": "https://build.reflex.dev/privacy-policy/",
+        "address_source_label": "Official Privacy Policy",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "rejoy-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "600 California Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "United States"
+        },
+        "latitude": 37.79313137652,
+        "longitude": -122.404910708966,
+        "address_status": "verified",
+        "address_source_url": "https://www.rejoyhealth.com/privacy-policy",
+        "address_source_label": "Official Privacy Policy",
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "remix",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    },
+    {
+      "company_id": "replenish",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:28:53Z"
+      }
+    }
+  ],
+  "issues": []
+}

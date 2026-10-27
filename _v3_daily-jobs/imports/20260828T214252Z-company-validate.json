@@ -1,0 +1,1194 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T21:42:52Z",
+  "changes": [
+    {
+      "company_id": "instacraft",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "instaleap",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2310 Columbia Street",
+          "city": "Palo Alto",
+          "region": "CA",
+          "postal_code": "94306",
+          "country": "US"
+        },
+        "latitude": 37.418009609644,
+        "longitude": -122.152929493297,
+        "address_status": "outside_sf",
+        "address_source_url": "https://instaleap.io/about-v2/",
+        "address_source_label": "Official Instaleap about page (California office)",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "instapage",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "17 Station Street, Suite 203",
+          "city": "Brookline",
+          "region": "MA",
+          "postal_code": "02445",
+          "country": "US"
+        },
+        "latitude": 42.332764352827,
+        "longitude": -71.11767730262,
+        "address_status": "outside_sf",
+        "address_source_url": "https://legal.instapage.com/privacy-notice",
+        "address_source_label": "Official Instapage privacy notice",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "interviewing-io",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "755 Tennessee St #11",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.762336180435,
+        "longitude": -122.389354483406,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/interviewing-io",
+        "address_source_label": "Current LinkedIn company profile",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "intricately",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "invitae",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1400 16th St.",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.766819031801,
+        "longitude": -122.401301042364,
+        "address_status": "verified",
+        "address_source_url": "https://www.invitae.com/privacy/privacy-policy",
+        "address_source_label": "Official Invitae privacy policy",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "irhythm-technologies",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "699 8th Street, Suite 600",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.771022011419,
+        "longitude": -122.403546218948,
+        "address_status": "verified",
+        "address_source_url": "https://www.irhythmtech.com/us/en/who-we-are",
+        "address_source_label": "Official iRhythm who-we-are page",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "iris-automation",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "450 Sinclair Street",
+          "city": "Reno",
+          "region": "NV",
+          "postal_code": "89501",
+          "country": "US"
+        },
+        "latitude": 39.522130791807,
+        "longitude": -119.808111023068,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.cbinsights.com/company/iris-automation",
+        "address_source_label": "CB Insights company profile (Reno HQ; acquired 2023)",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "irl-social-calendar",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "iron-io",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "iron-ox",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "955 Terminal Way",
+          "city": "San Carlos",
+          "region": "CA",
+          "postal_code": "94070",
+          "country": "US"
+        },
+        "latitude": 37.507499376083,
+        "longitude": -122.254372817583,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.epo.org/bulletin/downloads/2024/bulletin2445.pdf",
+        "address_source_label": "European Patent Bulletin company address",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "iterative-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "450 Townsend St #100",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.774667929753,
+        "longitude": -122.39827668406,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/dvc-ai/",
+        "address_source_label": "Current LinkedIn company profile",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "jirav",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1632 South 1st Street, Suite 201",
+          "city": "Austin",
+          "region": "TX",
+          "postal_code": "78704",
+          "country": "US"
+        },
+        "latitude": 30.248454515938,
+        "longitude": -97.755671868918,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.jirav.com/privacy-policy",
+        "address_source_label": "Official Jirav privacy policy",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "jobscience",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "160 Spear Street, Suite 1220",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.791573432177,
+        "longitude": -122.393340329823,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/jobscience",
+        "address_source_label": "Current Bullhorn Jobscience LinkedIn profile",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "join",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "jotform",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "4 Embarcadero Ctr, Ste 780",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.794923134053,
+        "longitude": -122.396081882713,
+        "address_status": "verified",
+        "address_source_url": "https://www.jotform.com/about/",
+        "address_source_label": "Official Jotform about page",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "juni-learning",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "justanswer",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "justuno",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "773 Center Blvd, Suite 1165",
+          "city": "Fairfax",
+          "region": "CA",
+          "postal_code": "94930",
+          "country": "US"
+        },
+        "latitude": 37.986201475368,
+        "longitude": -122.585106372174,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/justuno-com",
+        "address_source_label": "Current LinkedIn company profile",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "juvo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "98 Battery Street, Suite 400",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.792057193719,
+        "longitude": -122.399585266784,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/juvo",
+        "address_source_label": "Current LinkedIn company profile",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "kabam",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "575 Market Street, Suite 2725",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.789694963856,
+        "longitude": -122.400512556732,
+        "address_status": "verified",
+        "address_source_url": "https://www.bizprofile.net/ca/san-francisco/kabam-inc-2",
+        "address_source_label": "California business-profile record (updated 2026-03-25)",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "karuna-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "kaybus",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "kentik",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "625 2nd Street, Suite 100",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.781696742299,
+        "longitude": -122.391051567342,
+        "address_status": "verified",
+        "address_source_url": "https://www.google.com/maps/search/625%2BSecond%2BStreet%2BSan%2BFrancisco%2C%2BCA%2B94107?entry=gmail",
+        "address_source_label": "Current Google Maps business listing",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "kiddom",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "77 Geary St, Floor 5",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.787687623774,
+        "longitude": -122.404752290996,
+        "address_status": "verified",
+        "address_source_url": "https://meetings.boardbook.org/Documents/DownloadPDF/e10c5fd8-49a5-4e50-b9e3-ac3fd64c27e1?org=758",
+        "address_source_label": "2025–2027 public Kiddom service order",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "kiip",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "kimono-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "kinetica",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "8219 Leesburg Pike, Suite 650",
+          "city": "Vienna",
+          "region": "VA",
+          "postal_code": "22182",
+          "country": "US"
+        },
+        "latitude": 38.916962998415,
+        "longitude": -77.230450174413,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.kinetica.com/contact/",
+        "address_source_label": "Official Kinetica contact page",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "kintone",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "44 Montgomery St, 3rd Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.789807658545,
+        "longitude": -122.401766908542,
+        "address_status": "verified",
+        "address_source_url": "https://www.kintone.com/en-us/company/",
+        "address_source_label": "Official kintone company page",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "kissmetrics",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "847 Sansome Street, Lower Level",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.798017229791,
+        "longitude": -122.402518010886,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/kissmetrics",
+        "address_source_label": "Current LinkedIn company profile",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "kite",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "kittyhawk",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "kiva",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "986 Missions Street, 4th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.781362010996,
+        "longitude": -122.408511742208,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/kiva-org",
+        "address_source_label": "Current LinkedIn company profile",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "koding",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "358 Brannan Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.78092703213,
+        "longitude": -122.393640401956,
+        "address_status": "verified",
+        "address_source_url": "https://www.koding.com/legal/copyright",
+        "address_source_label": "Official Koding copyright page",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "kountable",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "321 Pacific Ave, Floor 3",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.797485900949,
+        "longitude": -122.401384190843,
+        "address_status": "verified",
+        "address_source_url": "https://www.dnb.com/business-directory/company-profiles.kountable_inc.1ac6e5cda51b475ac2bf98d6fcbe93ec.html",
+        "address_source_label": "D&B company profile",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "kubric",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "lambda-school",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "lambdatest",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1 Sutter Street, Suite 500",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.790056601069,
+        "longitude": -122.400783124566,
+        "address_status": "verified",
+        "address_source_url": "https://www.testmuai.com/",
+        "address_source_label": "Official TestMu AI (formerly LambdaTest) site",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "landing",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "180 Montgomery St, Suite 2000",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.790735828593,
+        "longitude": -122.401968996228,
+        "address_status": "verified",
+        "address_source_url": "https://craft.co/landing",
+        "address_source_label": "Craft company location profile",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "lanetix",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "leadspace",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "445 Bush St, Suite 900",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.790396068148,
+        "longitude": -122.404812640699,
+        "address_status": "verified",
+        "address_source_url": "https://oag.ca.gov/data-broker/registration/186623",
+        "address_source_label": "California Attorney General data-broker registration",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "leapfin",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "188 Spear Street, Floor 9",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.791353952042,
+        "longitude": -122.393103708696,
+        "address_status": "verified",
+        "address_source_url": "https://www.leapfin.com/about-us",
+        "address_source_label": "Official Leapfin about page",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "leapyear-technologies",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "learnsprout",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "leaseable",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "lendinghome",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "librato",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "liftopia",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "470 Ramona St.",
+          "city": "Palo Alto",
+          "region": "CA",
+          "postal_code": "94301",
+          "country": "US"
+        },
+        "latitude": 37.445512436072,
+        "longitude": -122.162783426308,
+        "address_status": "outside_sf",
+        "address_source_url": "https://holidaymountain.com.ltibooking.com/contact-us",
+        "address_source_label": "Official Liftopia contact page",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "lightbend",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "625 Market Street, Suite 1000",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.78864542385,
+        "longitude": -122.401668924094,
+        "address_status": "verified",
+        "address_source_url": "https://www.lightbend.com/assets-noversion/legal/LightbendSubscriptionAgreement.html",
+        "address_source_label": "Official Lightbend subscription agreement",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "lightstep",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "linkedin",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1000 W Maude Ave",
+          "city": "Sunnyvale",
+          "region": "CA",
+          "postal_code": "94085",
+          "country": "US"
+        },
+        "latitude": 37.392775051944,
+        "longitude": -122.041936918181,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/linkedin",
+        "address_source_label": "Current LinkedIn company profile",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "lithium-technologies",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "liveramp-holdings",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "225 Bush Street, 17th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.790937078088,
+        "longitude": -122.401337084547,
+        "address_status": "verified",
+        "address_source_url": "https://investors.liveramp.com/investor-resources/investor-faqs",
+        "address_source_label": "Official LiveRamp investor FAQ",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "livevox",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "locaid",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "925 South Federal Highway, Suite 325",
+          "city": "Boca Raton",
+          "region": "FL",
+          "postal_code": "33432",
+          "country": "US"
+        },
+        "latitude": 26.341517682346,
+        "longitude": -80.086806304793,
+        "address_status": "outside_sf",
+        "address_source_url": "https://mergr.com/company/locaid",
+        "address_source_label": "Mergr company profile (post-acquisition address)",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "locket",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "locuslabs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "loggly",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "logikcull",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "145 S Wells St, Suite 600",
+          "city": "Chicago",
+          "region": "IL",
+          "postal_code": "60606",
+          "country": "US"
+        },
+        "latitude": 41.879949761499,
+        "longitude": -87.633295332842,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.logikcull.com/company/contact-us",
+        "address_source_label": "Official Logikcull contact page",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "lookout",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "275 Battery Street, Suite 200",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.79386286521,
+        "longitude": -122.400373752415,
+        "address_status": "verified",
+        "address_source_url": "https://www.lookout.com/legal/law-enforcement-guide",
+        "address_source_label": "Official Lookout law-enforcement guide",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "loom",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "140 2nd Street, 3rd Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.787376529438,
+        "longitude": -122.399232723936,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/useloom",
+        "address_source_label": "Current LinkedIn company profile",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "loyalty-lab",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "lucasfilm",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1 Letterman Drive",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94129",
+          "country": "US"
+        },
+        "latitude": 37.798082273359,
+        "longitude": -122.449701587879,
+        "address_status": "verified",
+        "address_source_url": "https://www.lucasfilm.com/campuses/san-francisco/",
+        "address_source_label": "Official Lucasfilm San Francisco campus page",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "lucidlink",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "luma-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "3 East 3rd Ave, Suite 307",
+          "city": "San Mateo",
+          "region": "CA",
+          "postal_code": "94401",
+          "country": "US"
+        },
+        "latitude": 37.563435336372,
+        "longitude": -122.325920323993,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.lumahealth.io/about-us/",
+        "address_source_label": "Official Luma Health about page",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "lyte",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "lytmus",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "225 Bush St., Suite 1820",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.790937078088,
+        "longitude": -122.401337084547,
+        "address_status": "verified",
+        "address_source_url": "https://www.lytmus.io/about/",
+        "address_source_label": "Official Lytmus about page",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "macy-s",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "151 West 34th Street",
+          "city": "New York",
+          "region": "NY",
+          "postal_code": "10001",
+          "country": "US"
+        },
+        "latitude": 40.751054422348,
+        "longitude": -73.990331876087,
+        "address_status": "outside_sf",
+        "address_source_url": "https://investors.macysinc.com/investors/investor-resources/investor-faqs/default.aspx",
+        "address_source_label": "Official Macy’s investor FAQ",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "mailgun",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "mapbox",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "50 Beale St, Floor 9",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.791240419164,
+        "longitude": -122.396457559614,
+        "address_status": "verified",
+        "address_source_url": "https://opengovus.com/san-francisco-business/1243630-01-201",
+        "address_source_label": "San Francisco business-registry listing",
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    },
+    {
+      "company_id": "mapsense",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:52Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "address_not_physical",
+      "company_id": "internal-io",
+      "subject": "Internal",
+      "source_url": "https://www.linkedin.com/company/internal",
+      "details": "Current public profiles identify San Francisco ZIP 94111 but provide no street-level office address. Two focused searches found no credible physical location; catalog state remains pending."
+    },
+    {
+      "code": "conflicting_official_addresses",
+      "company_id": "june",
+      "subject": "June",
+      "source_url": "https://juneoven.com/policies/terms-of-service",
+      "details": "Official June pages conflict: the current terms page lists 649 Front Street, San Francisco, CA 94111, while the official privacy page lists 1620-1622 Folsom Street, San Francisco, CA 94103. No address was selected; catalog state remains pending."
+    },
+    {
+      "code": "conflicting_current_addresses",
+      "company_id": "loansnap",
+      "subject": "LoanSnap",
+      "source_url": "https://www.linkedin.com/company/loansnap",
+      "details": "Current public records conflict: LinkedIn lists 370 Brannan St, San Francisco, while BBB lists 556 Sutter St and a Costa Mesa headquarters; the California DRE record is expired and reports no current main office address. No address was selected; catalog state remains pending."
+    },
+    {
+      "code": "company_identity_conflict",
+      "company_id": "localize",
+      "subject": "Localize",
+      "source_url": "https://www.bizprofile.net/ca/westlake-village/localize-inc",
+      "details": "The current California corporation record for Localize, Inc. is at 950 Hampshire Rd, Westlake Village, while the current localizejs site lists Kingston, NY and older technology-company profiles list 552 Ashbury St, San Francisco. Identity and current physical office could not be resolved; catalog state remains pending."
+    }
+  ]
+}

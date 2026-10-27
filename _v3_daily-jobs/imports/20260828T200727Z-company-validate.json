@@ -1,0 +1,1355 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T20:07:27Z",
+  "changes": [
+    {
+      "company_id": "aechelon-technology",
+      "expected_status": "pending",
+      "website_url": "https://aechelon.com/",
+      "address_result": {
+        "address": {
+          "street": "611 Gateway Blvd, Suite 300",
+          "city": "South San Francisco",
+          "region": "CA",
+          "postal_code": "94080",
+          "country": "US"
+        },
+        "latitude": 37.658801445579,
+        "longitude": -122.400104441866,
+        "address_status": "outside_sf",
+        "address_source_url": "https://aechelon.com/contact/",
+        "address_source_label": "Official contact page",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "akash-network",
+      "expected_status": "pending",
+      "website_url": "https://akash.network/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "anomalo",
+      "expected_status": "pending",
+      "website_url": "https://www.anomalo.com/",
+      "address_result": {
+        "address": {
+          "street": "855 El Camino Real, Suite 405",
+          "city": "Palo Alto",
+          "region": "CA",
+          "postal_code": "94301",
+          "country": "US"
+        },
+        "latitude": 37.439229361452,
+        "longitude": -122.158728261552,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.anomalo.com/legal/privacy/",
+        "address_source_label": "Official privacy policy",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "armis-security",
+      "expected_status": "pending",
+      "website_url": "https://www.armis.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "arqu",
+      "expected_status": "pending",
+      "website_url": "https://arqu.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "assemblyai",
+      "expected_status": "pending",
+      "website_url": "https://www.assemblyai.com/",
+      "address_result": {
+        "address": {
+          "street": "320 Judah St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94122",
+          "country": "US"
+        },
+        "latitude": 37.76245168306,
+        "longitude": -122.465626030446,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/assemblyai",
+        "address_source_label": "LinkedIn company listing",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "authorium",
+      "expected_status": "pending",
+      "website_url": "https://authorium.com/",
+      "address_result": {
+        "address": {
+          "street": "425 California Street, Suite 1350",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.792840650209,
+        "longitude": -122.401373881102,
+        "address_status": "verified",
+        "address_source_url": "https://authorium.com/contact-us/",
+        "address_source_label": "Official contact page",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "bitwave",
+      "expected_status": "pending",
+      "website_url": "https://www.bitwave.io/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "blueshift",
+      "expected_status": "pending",
+      "website_url": "https://blueshift.com/",
+      "address_result": {
+        "address": {
+          "street": "433 California St, Suite 800",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.792858964667,
+        "longitude": -122.401702870802,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/blueshift-labs-inc",
+        "address_source_label": "LinkedIn company listing",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "bobbie",
+      "expected_status": "pending",
+      "website_url": "https://www.hibobbie.com/",
+      "address_result": {
+        "address": {
+          "street": "1500 Castro Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94114",
+          "country": "US"
+        },
+        "latitude": 37.749549964326,
+        "longitude": -122.434195402281,
+        "address_status": "verified",
+        "address_source_url": "https://www.hibobbie.com/pages/california-privacy-notice",
+        "address_source_label": "Official California privacy notice",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "brilliant-earth",
+      "expected_status": "pending",
+      "website_url": "https://www.brilliantearth.com/",
+      "address_result": {
+        "address": {
+          "street": "300 Grant Avenue, 3rd Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.789913899167,
+        "longitude": -122.405232909324,
+        "address_status": "verified",
+        "address_source_url": "https://www.brilliantearth.com/en-au/stores/san-francisco-ca-94108/",
+        "address_source_label": "Official San Francisco store",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "burq",
+      "expected_status": "pending",
+      "website_url": "https://www.burqup.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "canvas-medical",
+      "expected_status": "pending",
+      "website_url": "https://www.canvasmedical.com/",
+      "address_result": {
+        "address": {
+          "street": "220 Montgomery Street, Suite 991",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.791320089154,
+        "longitude": -122.401994058118,
+        "address_status": "verified",
+        "address_source_url": "https://www.canvasmedical.com/about",
+        "address_source_label": "Official about page",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "centrifuge",
+      "expected_status": "pending",
+      "website_url": "https://centrifuge.io/",
+      "address_result": {
+        "address": {
+          "street": "548 Market St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.790056601069,
+        "longitude": -122.400783124566,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/centrifugehq/",
+        "address_source_label": "LinkedIn company listing",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "chef-robotics",
+      "expected_status": "pending",
+      "website_url": "https://www.chefrobotics.ai/",
+      "address_result": {
+        "address": {
+          "street": "200 Kansas Street, Suite 204",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.766730518903,
+        "longitude": -122.404214424269,
+        "address_status": "verified",
+        "address_source_url": "https://www.chefrobotics.ai/privacy-policy",
+        "address_source_label": "Official privacy policy",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "chromatic",
+      "expected_status": "pending",
+      "website_url": "https://www.chromatic.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "clerkie",
+      "expected_status": "pending",
+      "website_url": "https://www.clerkie.io/",
+      "address_result": {
+        "address": {
+          "street": "619 7th Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.77278962907,
+        "longitude": -122.402464031429,
+        "address_status": "verified",
+        "address_source_url": "https://www.getfiber.ai/legal/websitetermsofservice",
+        "address_source_label": "Official website terms",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "cribl",
+      "expected_status": "pending",
+      "website_url": "https://cribl.io/",
+      "address_result": {
+        "address": {
+          "street": "22 4th Street, Suite 1300",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.784990285423,
+        "longitude": -122.405676647278,
+        "address_status": "verified",
+        "address_source_url": "https://cribl.io/legal/privacy-notice/",
+        "address_source_label": "Official privacy notice",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "doma",
+      "expected_status": "pending",
+      "website_url": "https://www.doma.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "domino-data-lab",
+      "expected_status": "pending",
+      "website_url": "https://domino.ai/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "elastic",
+      "expected_status": "pending",
+      "website_url": "https://www.elastic.co/",
+      "address_result": {
+        "address": {
+          "street": "33 New Montgomery Street, Floor 9",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7885069129,
+        "longitude": -122.401603796706,
+        "address_status": "verified",
+        "address_source_url": "https://www.elastic.co/contact/",
+        "address_source_label": "Official contact page",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "eppo",
+      "expected_status": "pending",
+      "website_url": "https://www.geteppo.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "ergeon",
+      "expected_status": "pending",
+      "website_url": "https://ergeon.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "essential-ai",
+      "expected_status": "pending",
+      "website_url": "https://www.essential.ai/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "fastly",
+      "expected_status": "pending",
+      "website_url": "https://www.fastly.com/",
+      "address_result": {
+        "address": {
+          "street": "475 Brannan Street, Suite 300",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.778611908564,
+        "longitude": -122.395284260807,
+        "address_status": "verified",
+        "address_source_url": "https://www.fastly.com/contact-us",
+        "address_source_label": "Official contact page",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "fermat-commerce",
+      "expected_status": "pending",
+      "website_url": "https://www.fermatcommerce.com/",
+      "address_result": {
+        "address": {
+          "street": "300 Brannan St., Suite 304",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.781735089506,
+        "longitude": -122.392437263575,
+        "address_status": "verified",
+        "address_source_url": "https://www.fermatcommerce.com/privacy",
+        "address_source_label": "Official privacy policy",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "firebolt",
+      "expected_status": "pending",
+      "website_url": "https://www.firebolt.io/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "flyr",
+      "expected_status": "pending",
+      "website_url": "https://flyr.com/",
+      "address_result": {
+        "address": {
+          "street": "160 Spear St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.791573432177,
+        "longitude": -122.393340329823,
+        "address_status": "verified",
+        "address_source_url": "https://flyr.com/get-in-touch/",
+        "address_source_label": "Official contact page",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "forethought",
+      "expected_status": "pending",
+      "website_url": "https://forethought.ai/",
+      "address_result": {
+        "address": {
+          "street": "345 California Street, Suite 600",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.793009461739,
+        "longitude": -122.400521273911,
+        "address_status": "verified",
+        "address_source_url": "https://forethought.ai/dpa",
+        "address_source_label": "Official data processing addendum",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "gameplay-galaxy",
+      "expected_status": "pending",
+      "website_url": "https://www.gameplaygalaxy.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "github",
+      "expected_status": "pending",
+      "website_url": "https://github.com/",
+      "address_result": {
+        "address": {
+          "street": "88 Colin P. Kelly Jr. St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.782286115821,
+        "longitude": -122.391172266747,
+        "address_status": "verified",
+        "address_source_url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement?review=true",
+        "address_source_label": "Official privacy statement",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "gradient-comfort",
+      "expected_status": "pending",
+      "website_url": "https://www.gradientcomfort.com/",
+      "address_result": {
+        "address": {
+          "street": "375 Alabama St., Suite 220",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94110",
+          "country": "US"
+        },
+        "latitude": 37.764571675921,
+        "longitude": -122.411845225101,
+        "address_status": "verified",
+        "address_source_url": "https://www.gradientcomfort.com/policies/contact-information",
+        "address_source_label": "Official contact information",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "grammarly",
+      "expected_status": "pending",
+      "website_url": "https://www.grammarly.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "harmonic-security",
+      "expected_status": "pending",
+      "website_url": "https://www.harmonic.security/",
+      "address_result": {
+        "address": {
+          "street": "465 California St, Suite 700",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.792798405417,
+        "longitude": -122.402178208531,
+        "address_status": "verified",
+        "address_source_url": "https://www.harmonic.security/contact-us",
+        "address_source_label": "Official contact page",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "horizon3",
+      "expected_status": "pending",
+      "website_url": "https://horizon3.ai/",
+      "address_result": {
+        "address": {
+          "street": "683 Spruce Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94118",
+          "country": "US"
+        },
+        "latitude": 37.782247391428,
+        "longitude": -122.453513761262,
+        "address_status": "verified",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/1801975/000180197525000001/0001801975-25-000001-index.html",
+        "address_source_label": "SEC Form D filing",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "included-health",
+      "expected_status": "pending",
+      "website_url": "https://includedhealth.com/",
+      "address_result": {
+        "address": {
+          "street": "1 California Street, Suite 2300",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.793213770629,
+        "longitude": -122.397043035551,
+        "address_status": "verified",
+        "address_source_url": "https://includedhealth.com/contact-us/",
+        "address_source_label": "Official contact page",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "incode-technologies",
+      "expected_status": "pending",
+      "website_url": "https://www.incode.com/",
+      "address_result": {
+        "address": {
+          "street": "101 Mission St, Suite 900",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.792275458478,
+        "longitude": -122.394156559554,
+        "address_status": "verified",
+        "address_source_url": "https://www.incode.com/contact-us/",
+        "address_source_label": "Official contact page",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "keyo",
+      "expected_status": "pending",
+      "website_url": "https://keyo.co/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "lakera",
+      "expected_status": "pending",
+      "website_url": "https://www.lakera.ai/",
+      "address_result": {
+        "address": {
+          "street": "282 2nd Street, Suite 100",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7856155754,
+        "longitude": -122.397023421897,
+        "address_status": "verified",
+        "address_source_url": "https://www.lakera.ai/contact",
+        "address_source_label": "Official contact page",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "makersights",
+      "expected_status": "pending",
+      "website_url": "https://www.makersights.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "medrio",
+      "expected_status": "pending",
+      "website_url": "https://medrio.com/",
+      "address_result": {
+        "address": {
+          "street": "345 California Street, Suite 600",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.793009461739,
+        "longitude": -122.400521273911,
+        "address_status": "verified",
+        "address_source_url": "https://medrio.com/sitemap/",
+        "address_source_label": "Official site",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "mindtickle",
+      "expected_status": "pending",
+      "website_url": "https://www.mindtickle.com/",
+      "address_result": {
+        "address": {
+          "street": "535 Mission St, 14th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.788870855136,
+        "longitude": -122.39812606126,
+        "address_status": "verified",
+        "address_source_url": "https://www.mindtickle.com/contact-us/",
+        "address_source_label": "Official contact page",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "mixmax",
+      "expected_status": "pending",
+      "website_url": "https://www.mixmax.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "mosey",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "mursion",
+      "expected_status": "pending",
+      "website_url": "https://www.mursion.com/",
+      "address_result": {
+        "address": {
+          "street": "2443 Fillmore Street, Suite 515",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94115",
+          "country": "US"
+        },
+        "latitude": 37.79219298055,
+        "longitude": -122.434806107746,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/mursion",
+        "address_source_label": "LinkedIn company listing",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "nightfall-ai",
+      "expected_status": "pending",
+      "website_url": "https://www.nightfall.ai/",
+      "address_result": {
+        "address": {
+          "street": "425 California St, Suite 1200",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.792795765117,
+        "longitude": -122.40135326162,
+        "address_status": "verified",
+        "address_source_url": "https://craft.co/nightfall/locations",
+        "address_source_label": "Business office listing",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "nirvana-insurance",
+      "expected_status": "pending",
+      "website_url": "https://www.nirvanatech.com/",
+      "address_result": {
+        "address": {
+          "street": "201 Spear St, Ste 220",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.791185098603,
+        "longitude": -122.391790935021,
+        "address_status": "verified",
+        "address_source_url": "https://www.nirvanatech.com/job-privacy-policy",
+        "address_source_label": "Official applicant privacy policy",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "nylas",
+      "expected_status": "pending",
+      "website_url": "https://www.nylas.com/",
+      "address_result": {
+        "address": {
+          "street": "944 Market St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94102",
+          "country": "US"
+        },
+        "latitude": 37.783709949713,
+        "longitude": -122.408964113523,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/nylas",
+        "address_source_label": "LinkedIn company listing",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "o-labs",
+      "expected_status": "pending",
+      "website_url": "https://www.o1labs.org/",
+      "address_result": {
+        "address": {
+          "street": "95 Third Street, 2nd Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.78655397137,
+        "longitude": -122.402030100302,
+        "address_status": "verified",
+        "address_source_url": "https://www.o1labs.org/terms-of-use",
+        "address_source_label": "Official terms of use",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "okta",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "100 First Street, 6th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.789359855368,
+        "longitude": -122.397529269754,
+        "address_status": "verified",
+        "address_source_url": "https://www.okta.com/contact/",
+        "address_source_label": "Official contact page",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "ottimate",
+      "expected_status": "pending",
+      "website_url": "https://ottimate.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "pachama",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "pantheon",
+      "expected_status": "pending",
+      "website_url": "https://pantheon.io/",
+      "address_result": {
+        "address": {
+          "street": "717 California St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.792289204799,
+        "longitude": -122.406157014149,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/getpantheon",
+        "address_source_label": "LinkedIn company listing",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "panther",
+      "expected_status": "pending",
+      "website_url": "https://panther.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "peerspace",
+      "expected_status": "pending",
+      "website_url": "https://www.peerspace.com/",
+      "address_result": {
+        "address": {
+          "street": "114 Sansome St, Suite 1100",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.791503988109,
+        "longitude": -122.400464025513,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/peerspace",
+        "address_source_label": "LinkedIn company listing",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "philo",
+      "expected_status": "pending",
+      "website_url": "https://www.philo.com/",
+      "address_result": {
+        "address": {
+          "street": "225 Green Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.79979800703,
+        "longitude": -122.402865021677,
+        "address_status": "verified",
+        "address_source_url": "https://www.philo.com/about/terms/",
+        "address_source_label": "Official terms of service",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "poggio-labs",
+      "expected_status": "pending",
+      "website_url": "https://poggio.io/",
+      "address_result": {
+        "address": {
+          "street": "100 Pine Street, Suite 1250",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.792640741818,
+        "longitude": -122.398970370367,
+        "address_status": "verified",
+        "address_source_url": "https://poggio.io/docs/legal/terms-of-service",
+        "address_source_label": "Official terms of service",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "power-factors",
+      "expected_status": "pending",
+      "website_url": "https://www.powerfactors.com/",
+      "address_result": {
+        "address": {
+          "street": "135 Main Street, Unit 1750",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.791459103018,
+        "longitude": -122.3942408815,
+        "address_status": "verified",
+        "address_source_url": "https://www.enfsolar.com/power-factors",
+        "address_source_label": "Business office listing",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "printify",
+      "expected_status": "pending",
+      "website_url": "https://printify.com/",
+      "address_result": {
+        "address": {
+          "street": "814 Mission St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.78442010646,
+        "longitude": -122.404964269327,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/printify/",
+        "address_source_label": "LinkedIn company listing",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "projectdiscovery-io",
+      "expected_status": "pending",
+      "website_url": "https://projectdiscovery.io/",
+      "address_result": {
+        "address": {
+          "street": "548 Market St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.790056601069,
+        "longitude": -122.400783124566,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/projectdiscovery",
+        "address_source_label": "LinkedIn company listing",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "pubnub",
+      "expected_status": "pending",
+      "website_url": "https://www.pubnub.com/",
+      "address_result": {
+        "address": {
+          "street": "95 Third Street, 2nd Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.78655397137,
+        "longitude": -122.402030100302,
+        "address_status": "verified",
+        "address_source_url": "https://www.pubnub.com/trust/legal/privacy-policy/",
+        "address_source_label": "Official privacy policy",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "qualio",
+      "expected_status": "pending",
+      "website_url": "https://www.qualio.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "quizlet",
+      "expected_status": "pending",
+      "website_url": "https://quizlet.com/",
+      "address_result": {
+        "address": {
+          "street": "123 Townsend St, Suite 600",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.78009429005,
+        "longitude": -122.390953331436,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/quizlet",
+        "address_source_label": "LinkedIn company listing",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "readme",
+      "expected_status": "pending",
+      "website_url": "https://readme.com/",
+      "address_result": {
+        "address": {
+          "street": "14 Geary St, Floor 2",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.788023989549,
+        "longitude": -122.403886859493,
+        "address_status": "verified",
+        "address_source_url": "https://readme.com/privacy",
+        "address_source_label": "Official privacy policy",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "reddit",
+      "expected_status": "pending",
+      "website_url": "https://www.redditinc.com/",
+      "address_result": {
+        "address": {
+          "street": "303 2nd Street, South Tower, 5th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.785476016712,
+        "longitude": -122.39550998546,
+        "address_status": "verified",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000061/0001713445-26-000061-index.htm",
+        "address_source_label": "SEC filing (2026)",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "runway",
+      "expected_status": "pending",
+      "website_url": "https://runway.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "sandbox-vr",
+      "expected_status": "pending",
+      "website_url": "https://sandboxvr.com/",
+      "address_result": {
+        "address": {
+          "street": "767B Market Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.786295599205,
+        "longitude": -122.4047311686,
+        "address_status": "verified",
+        "address_source_url": "https://sandboxvr.com/bay-area/san-francisco",
+        "address_source_label": "Official San Francisco location",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "siena",
+      "expected_status": "pending",
+      "website_url": "https://www.siena.cx/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "simbe",
+      "expected_status": "pending",
+      "website_url": "https://www.simberobotics.com/",
+      "address_result": {
+        "address": {
+          "street": "385 Oyster Point Blvd, Suite 2",
+          "city": "South San Francisco",
+          "region": "CA",
+          "postal_code": "94080",
+          "country": "US"
+        },
+        "latitude": 37.665494479083,
+        "longitude": -122.384925988682,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/1787654/000178765423000001/0001787654-23-000001-index.html",
+        "address_source_label": "SEC Form D filing",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "sirona-medical",
+      "expected_status": "pending",
+      "website_url": "https://sironamedical.com/",
+      "address_result": {
+        "address": {
+          "street": "703 Market Street, Suite 1900",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.78717548949,
+        "longitude": -122.403573627772,
+        "address_status": "verified",
+        "address_source_url": "https://sironamedical.com/privacy-policy",
+        "address_source_label": "Official privacy policy",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "skai",
+      "expected_status": "pending",
+      "website_url": "https://skai.io/",
+      "address_result": {
+        "address": {
+          "street": "301 Howard St, Suite 910",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.789638763196,
+        "longitude": -122.394431821254,
+        "address_status": "verified",
+        "address_source_url": "https://skai.io/company/",
+        "address_source_label": "Official company page",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "slope",
+      "expected_status": "pending",
+      "website_url": "https://slopepay.com/",
+      "address_result": {
+        "address": {
+          "street": "600 Harrison Street, Suite 250",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.784131643262,
+        "longitude": -122.39591340646,
+        "address_status": "verified",
+        "address_source_url": "https://slopepay.com/card-agreement",
+        "address_source_label": "Official card agreement",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "sonder",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "sourcegraph",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    },
+    {
+      "company_id": "super",
+      "expected_status": "pending",
+      "website_url": "https://www.super.com/",
+      "address_result": {
+        "address": {
+          "street": "447 Sutter Street, Suite 506",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.789031033306,
+        "longitude": -122.407858540494,
+        "address_status": "verified",
+        "address_source_url": "https://www.super.com/legal",
+        "address_source_label": "Official legal page",
+        "verified_date": "2026-08-28T20:07:27Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "address_source_conflict",
+      "company_id": "o-labs",
+      "subject": "address.postal_code",
+      "source_url": "https://www.o1labs.org/terms-of-use",
+      "details": "The official terms display 95 Third Street, 2nd Floor, San Francisco, CA 95103, but 95103 is not a San Francisco postal code. The street address geocodes to 94103; the handoff uses 94103 and records this source-data discrepancy."
+    }
+  ]
+}

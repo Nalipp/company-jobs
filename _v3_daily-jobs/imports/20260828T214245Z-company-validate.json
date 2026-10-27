@@ -1,0 +1,1452 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T21:42:45Z",
+  "changes": [
+    {
+      "company_id": "mashery",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "mati",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2001 Gateway Pl, Suite 151E",
+          "city": "San Jose",
+          "region": "CA",
+          "postal_code": "95110",
+          "country": "US"
+        },
+        "latitude": 37.369923804593,
+        "longitude": -121.922954880597,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.metamap.com/global-privacy-policy/",
+        "address_source_label": "MetaMap global privacy policy (Mati successor)",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "mattermark",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "61 Moraga Way, Suite 6",
+          "city": "Orinda",
+          "region": "CA",
+          "postal_code": "94563",
+          "country": "US"
+        },
+        "latitude": 37.878554159719,
+        "longitude": -122.180863359096,
+        "address_status": "outside_sf",
+        "address_source_url": "https://mattermark.com/jobs/",
+        "address_source_label": "Mattermark work-at page",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "matterport",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "352 East Java Drive",
+          "city": "Sunnyvale",
+          "region": "CA",
+          "postal_code": "94089",
+          "country": "US"
+        },
+        "latitude": 37.410125046694,
+        "longitude": -122.013526876463,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/1819394/000181939425000007/mttr-20241231.htm",
+        "address_source_label": "Matterport 2024 Form 10-K",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "maverick-ventures",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1 Letterman Drive, Building D",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94129",
+          "country": "US"
+        },
+        "latitude": 37.798082273359,
+        "longitude": -122.449701587879,
+        "address_status": "verified",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/2005988/000110465924025605-index.htm",
+        "address_source_label": "SEC Form D business address for Maverick Ventures Cycle 4",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "maxthon",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "350 Sansome Street, Suite 815",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.793764922672,
+        "longitude": -122.401141953841,
+        "address_status": "verified",
+        "address_source_url": "https://www.maxthon.com/en/docs/contact/",
+        "address_source_label": "Maxthon USA office contact page",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "mckesson",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "6555 State Highway 161",
+          "city": "Irving",
+          "region": "TX",
+          "postal_code": "75039",
+          "country": "US"
+        },
+        "latitude": 32.897831491613,
+        "longitude": -96.973448021791,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/927653/000092765326000069/mck-20260331.htm",
+        "address_source_label": "McKesson 2026 Form 10-K",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "medallia",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "7900 Tysons One Place, 11th Floor",
+          "city": "McLean",
+          "region": "VA",
+          "postal_code": "22102",
+          "country": "US"
+        },
+        "latitude": 38.919394798074,
+        "longitude": -77.219652606742,
+        "address_status": "outside_sf",
+        "address_source_url": "https://investor.medallia.com/contact-us/",
+        "address_source_label": "Medallia investor contact office",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "meltwater",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "225 Bush Street, Suite 1000",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.790937078088,
+        "longitude": -122.401337084547,
+        "address_status": "verified",
+        "address_source_url": "https://www.meltwater.cn/about/contact-us",
+        "address_source_label": "Meltwater global headquarters contact page",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "memebox",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "6600 Sunset Boulevard, Suite 504",
+          "city": "Hollywood",
+          "region": "CA",
+          "postal_code": "90028",
+          "country": "US"
+        },
+        "latitude": 34.097823055507,
+        "longitude": -118.333349022238,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/memebox-corp",
+        "address_source_label": "Memebox current LinkedIn headquarters",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "memsql",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "388 Market Street, Suite 860",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.792194112107,
+        "longitude": -122.398072836175,
+        "address_status": "verified",
+        "address_source_url": "https://www.singlestore.com/careers/",
+        "address_source_label": "SingleStore careers office locations (formerly MemSQL)",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "mesosphere",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "225 Bush Street, Floor 7",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.790937078088,
+        "longitude": -122.401337084547,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/mesosphere",
+        "address_source_label": "Mesosphere/D2iQ current LinkedIn office location",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "messagebird",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "4701 Sangamore Road, Suite 100N-139",
+          "city": "Bethesda",
+          "region": "MD",
+          "postal_code": "20816",
+          "country": "US"
+        },
+        "latitude": 38.950027930061,
+        "longitude": -77.119280070588,
+        "address_status": "outside_sf",
+        "address_source_url": "https://dotcom.bird.com/content/Bird%20General%20Terms%20and%20Conditions.pdf",
+        "address_source_label": "Bird general terms (MessageBird USA Inc.)",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "metallicus",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "metamarkets",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "method",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2535 Augustine Drive, Suite 500",
+          "city": "Santa Clara",
+          "region": "CA",
+          "postal_code": "95054",
+          "country": "US"
+        },
+        "latitude": 37.382938804749,
+        "longitude": -121.971403454417,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.globallogic.com/about/locations/usa/",
+        "address_source_label": "GlobalLogic US headquarters serving Method",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "metric-insights",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "535 Mission Street, 14th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.788870855136,
+        "longitude": -122.39812606126,
+        "address_status": "verified",
+        "address_source_url": "https://www.metricinsights.com/",
+        "address_source_label": "Metric Insights official website footer",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "metromile",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "mightysignal",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "mindjet",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1160 Battery Street, 4th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.8019162816,
+        "longitude": -122.40111957416,
+        "address_status": "verified",
+        "address_source_url": "https://secure.mindjet.com/legal/default.aspx?host=mmweb&lang=de",
+        "address_source_label": "Mindjet official legal page",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "mindk",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1630 Clay Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94109",
+          "country": "US"
+        },
+        "latitude": 37.792749832288,
+        "longitude": -122.420014814669,
+        "address_status": "verified",
+        "address_source_url": "https://www.mindk.com/contact-us/",
+        "address_source_label": "MindK official USA office contact page",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "mission-lane",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1504 Belleville Street",
+          "city": "Richmond",
+          "region": "VA",
+          "postal_code": "23230",
+          "country": "US"
+        },
+        "latitude": 37.571383182691,
+        "longitude": -77.475515900867,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/1763677/000120919122037242/xslFormDX01/primary_doc.xml",
+        "address_source_label": "Mission Lane Holdings SEC Form D principal address",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "missionu",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "mlab",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "mmhmm",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "mobiledgex",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "mode-net",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "14 Jessop Square, Heron Quays, Canary Wharf",
+          "city": "London",
+          "region": "England",
+          "postal_code": "E14 4JB",
+          "country": "GB"
+        },
+        "latitude": 51.503628204346,
+        "longitude": -0.023313048307,
+        "address_status": "outside_sf",
+        "address_source_url": "https://uk.linkedin.com/company/mode-media-international",
+        "address_source_label": "Mode Media current LinkedIn headquarters",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "molekule",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "monkeylearn",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "moov",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "4009 Banister Lane, Suite 412",
+          "city": "Austin",
+          "region": "TX",
+          "postal_code": "78704",
+          "country": "US"
+        },
+        "latitude": 30.228979080091,
+        "longitude": -97.776793091454,
+        "address_status": "outside_sf",
+        "address_source_url": "https://moov.co/careers",
+        "address_source_label": "Moov official careers headquarters page",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "motionloft",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "movewith",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "mulesoft",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "mural",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "650 California Street, Suite 150",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.79293666491,
+        "longitude": -122.405207260701,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/mural.co",
+        "address_source_label": "Mural current LinkedIn office location",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "mya-systems",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "351 California Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.792870741241,
+        "longitude": -122.400747501478,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/myasystems",
+        "address_source_label": "Mya Systems current LinkedIn office location",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "myfitnesspal",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "100 Congress Avenue, Suite 400",
+          "city": "Austin",
+          "region": "TX",
+          "postal_code": "78701",
+          "country": "US"
+        },
+        "latitude": 30.264045442577,
+        "longitude": -97.744766426154,
+        "address_status": "outside_sf",
+        "address_source_url": "https://content.myfitnesspal.com/privacy-policy",
+        "address_source_label": "MyFitnessPal official privacy policy",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "mykonos-software",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "myvr",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "namely",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1475 South Price Road",
+          "city": "Chandler",
+          "region": "AZ",
+          "postal_code": "85286",
+          "country": "US"
+        },
+        "latitude": 33.284169921318,
+        "longitude": -111.890127664381,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/namely",
+        "address_source_label": "Namely current LinkedIn headquarters",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "naytev",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "near",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "535 Mission Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.788870855136,
+        "longitude": -122.39812606126,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/near-ai",
+        "address_source_label": "Near current LinkedIn office location",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "neptune-financial-inc-nepfin",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "netbooks",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "netdata",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "netsil",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "neuromation",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "77 Geary Street, Suite 615",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.787687623774,
+        "longitude": -122.404752290996,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/neuromation-technologies",
+        "address_source_label": "Neuromation current LinkedIn office location",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "newfront-insurance",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "550 California Street, Suite 840",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.792873591088,
+        "longitude": -122.403595001625,
+        "address_status": "verified",
+        "address_source_url": "https://www.newfront.com/contact",
+        "address_source_label": "Newfront official contact page",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "newton-software",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "505 Montgomery Street, Suite 2300",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.793987923206,
+        "longitude": -122.403142714129,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/newton-software",
+        "address_source_label": "Newton Software current LinkedIn office location",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "nexmo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "nextgen-america",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "nextravel",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "nextuser",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "154 West 14th Street",
+          "city": "New York",
+          "region": "NY",
+          "postal_code": "10011",
+          "country": "US"
+        },
+        "latitude": 40.738160792151,
+        "longitude": -73.999542162753,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/nextuser",
+        "address_source_label": "Scaliance (formerly NextUser) current LinkedIn office location",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "ninjarmm",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "301 Congress Avenue, 4th Floor",
+          "city": "Austin",
+          "region": "TX",
+          "postal_code": "78701",
+          "country": "US"
+        },
+        "latitude": 30.26538269141,
+        "longitude": -97.743537890605,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.ninjaone.com/it/contatti/",
+        "address_source_label": "NinjaOne official contact page (formerly NinjaRMM)",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "nitro",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "150 Spear Street, Suite 1500",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.791770448811,
+        "longitude": -122.393523809683,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/go-nitro",
+        "address_source_label": "Nitro current LinkedIn office location",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "nitrous",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "650 Townsend Street, Suite 310",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.77071033035,
+        "longitude": -122.403318231182,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/nitrous-io",
+        "address_source_label": "Nitrous current LinkedIn office location",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "no-means-no-worldwide",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1765 Greensboro Station Place, Suite 900",
+          "city": "McLean",
+          "region": "VA",
+          "postal_code": "22102",
+          "country": "US"
+        },
+        "latitude": 38.922209357341,
+        "longitude": -77.233564973452,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.nomeansnoworldwide.org/privacy-policy",
+        "address_source_label": "No Means No Worldwide official privacy policy",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "nodeprime",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "noodle-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "115 Sansome Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.791492337264,
+        "longitude": -122.40097582452,
+        "address_status": "verified",
+        "address_source_url": "https://craft.co/noodle-analytics/locations",
+        "address_source_label": "Noodle.ai office locations",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "noredink",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "numerator",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "24 East Washington Street, Suite 1200",
+          "city": "Chicago",
+          "region": "IL",
+          "postal_code": "60602",
+          "country": "US"
+        },
+        "latitude": 41.883680127507,
+        "longitude": -87.627078726714,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.numerator.com/contact-us/",
+        "address_source_label": "Numerator official contact page",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "oasis-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1 Sansome Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.790485167778,
+        "longitude": -122.400940452889,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/oasis-labs",
+        "address_source_label": "Oasis Labs current LinkedIn office location",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "observable",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "525 Market Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.790404659598,
+        "longitude": -122.399265413358,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/observable",
+        "address_source_label": "Observable current LinkedIn office location",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "observe-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "275 Shoreline Drive, Suite 450",
+          "city": "Redwood City",
+          "region": "CA",
+          "postal_code": "94065",
+          "country": "US"
+        },
+        "latitude": 37.525008543173,
+        "longitude": -122.257018984415,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.observe.ai/ccpa-privacy-notice",
+        "address_source_label": "Observe.AI official privacy notice",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "octane-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1266 Harrison Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.773097161098,
+        "longitude": -122.409682945539,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/octane-ai",
+        "address_source_label": "Octane AI current LinkedIn office location",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "odaseva",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "160 Spear Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.791573432177,
+        "longitude": -122.393340329823,
+        "address_status": "verified",
+        "address_source_url": "https://www.odaseva.com/offices",
+        "address_source_label": "Odaseva official offices page",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "odopod",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "okera",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "omniata",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "onclusive",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "19 West 44th Street, Suite 300",
+          "city": "New York",
+          "region": "NY",
+          "postal_code": "10036",
+          "country": "US"
+        },
+        "latitude": 40.755384345891,
+        "longitude": -73.981099628835,
+        "address_status": "outside_sf",
+        "address_source_url": "https://onclusive.com/en-gb/our-company/contact-us/",
+        "address_source_label": "Onclusive official contact page",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "onelogin",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "848 Battery Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.79921973953,
+        "longitude": -122.401038102061,
+        "address_status": "verified",
+        "address_source_url": "https://www.dnb.com/business-directory/company-profiles.onelogin_inc.19f375c0ac5de383e2953bcb91728390.html",
+        "address_source_label": "D&B current OneLogin company profile",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "onfleet",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "717 California Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.792289204799,
+        "longitude": -122.406157014149,
+        "address_status": "verified",
+        "address_source_url": "https://www.bizprofile.net/ca/san-francisco/onfleet-inc",
+        "address_source_label": "Current California business profile principal address",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "oomnitza",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "oorwin",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "995 Market Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.782254767503,
+        "longitude": -122.409955273573,
+        "address_status": "verified",
+        "address_source_url": "https://oorwin.us/contact.html",
+        "address_source_label": "Oorwin official contact page",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    },
+    {
+      "company_id": "opencare",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "180 Dundas Street West, 10th Floor",
+          "city": "Toronto",
+          "region": "ON",
+          "postal_code": "M5G 1Z8",
+          "country": "CA"
+        },
+        "latitude": 43.655269920346,
+        "longitude": -79.3866458998,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.opencare.com/about/?matchtype=p",
+        "address_source_label": "OpenCare official about page Canadian office",
+        "verified_date": "2026-08-28T21:42:45Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "acquired_or_rebranded",
+      "company_id": "mashery",
+      "subject": "mashery",
+      "source_url": "https://support.mashery.com/",
+      "details": "The current Mashery portal identifies itself as Boomi Cloud API Management. The historic San Francisco address found in an older directory was rejected as stale, so the catalog is set to not_found rather than assigned to Boomi."
+    },
+    {
+      "code": "mailbox_or_no_current_office",
+      "company_id": "metallicus",
+      "subject": "metallicus",
+      "source_url": "https://www.newmandocket.com/wp-content/uploads/2022/04/5-metallicus-sf.pdf",
+      "details": "The available 660 4th Street record was identified as a UPS Store/post-box address, and a court filing states Metallicus no longer had a San Francisco office. No current physical office was confirmed."
+    },
+    {
+      "code": "acquired_or_rebranded",
+      "company_id": "metamarkets",
+      "subject": "metamarkets",
+      "source_url": "https://cdn.featuredcustomers.com/CustomerCaseStudy.document/metamarkets_beeswax_None.pdf",
+      "details": "Only legacy 625 Second Street evidence was found; MetaMarkets was treated as an acquired/legacy entity and no current independent physical office was confirmed."
+    },
+    {
+      "code": "acquired_or_subleased",
+      "company_id": "metromile",
+      "subject": "metromile",
+      "source_url": "https://marketing-edge-assets.lemonade.com/investor/reports/LMND-2024-Annual-Report-Final-4-23-25.pdf",
+      "details": "Metromile was acquired by Lemonade, and the current Lemonade annual report describes the former San Francisco office as subleased. No current independent Metromile physical office was confirmed."
+    },
+    {
+      "code": "acquired_or_mailbox_only",
+      "company_id": "mightysignal",
+      "subject": "mightysignal",
+      "source_url": "https://www.cbinsights.com/company/mightysignal",
+      "details": "MightySignal was acquired by Airnow; the current listing provides only a Las Vegas mailbox-style address, not a confirmed physical office."
+    },
+    {
+      "code": "acquired_or_shuttered",
+      "company_id": "missionu",
+      "subject": "missionu",
+      "source_url": "https://www.bppe.ca.gov/enforcement/actions/missionu_appealcit.pdf",
+      "details": "The 466 Geary Street address is historical, and available current evidence indicates MissionU was acquired/shuttered. No current independent physical office was confirmed."
+    },
+    {
+      "code": "acquired_or_rebranded",
+      "company_id": "mlab",
+      "subject": "mlab",
+      "source_url": "https://investors.mongodb.com/news-releases/news-release-details/mongodb-strengthens-global-cloud-database-acquisition-mlab",
+      "details": "MongoDB acquired mLab in 2018. No current independent mLab physical office was confirmed, so MongoDB's address was not substituted."
+    },
+    {
+      "code": "rebranded_no_current_office",
+      "company_id": "mmhmm",
+      "subject": "mmhmm",
+      "source_url": "https://www.airtime.com/blog/ask-phil-anything",
+      "details": "mmhmm is now Airtime. Current rebranded materials did not provide a credible current physical office for the catalog entity; mailbox-only evidence was rejected."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "mobiledgex",
+      "subject": "mobiledgex",
+      "source_url": "https://www.cbinsights.com/company/mobiledgex",
+      "details": "MobiledgeX was acquired by Google Cloud. The old San Francisco address was not treated as a current independent office."
+    },
+    {
+      "code": "bankrupt_stale_address",
+      "company_id": "molekule",
+      "subject": "molekule",
+      "source_url": "https://www.cbinsights.com/company/molekule",
+      "details": "Molekule is reported as bankrupt/admin; available 1301 Folsom Street records are legacy directory and bankruptcy-era evidence rather than a confirmed current operating office."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "monkeylearn",
+      "subject": "monkeylearn",
+      "source_url": null,
+      "details": "MonkeyLearn was treated as an acquired/legacy entity, and the bounded search found no credible current independent physical office."
+    },
+    {
+      "code": "closed_stale_address",
+      "company_id": "motionloft",
+      "subject": "motionloft",
+      "source_url": "https://www.crunchbase.com/organization/motionloft",
+      "details": "MotionLoft is listed as closed; the 550 15th Street address was historical and was rejected as stale."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "movewith",
+      "subject": "movewith",
+      "source_url": null,
+      "details": "The bounded search found unrelated MoveWith results but no credible current physical office for the catalog company."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "mulesoft",
+      "subject": "mulesoft",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312518125938/d552163ds4a.htm",
+      "details": "MuleSoft was acquired by Salesforce. The historical 77 Geary Street address was not carried forward as a current independent MuleSoft office, and Salesforce's address was not substituted."
+    },
+    {
+      "code": "stale_address",
+      "company_id": "mykonos-software",
+      "subject": "mykonos-software",
+      "source_url": null,
+      "details": "Only very old directory evidence for 370 Brannan Street was found; no current official or otherwise credible physical address was confirmed."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "myvr",
+      "subject": "myvr",
+      "source_url": "https://softwareequity.com/transactions/myvr-acquired-by-guesty",
+      "details": "MyVR was acquired by Guesty. No current independent MyVR physical office was confirmed."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "naytev",
+      "subject": "naytev",
+      "source_url": "https://www.builtinsf.com/company/naytev",
+      "details": "Current evidence indicates San Francisco generally but does not provide a credible exact physical office address."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "neptune-financial-inc-nepfin",
+      "subject": "neptune-financial-inc-nepfin",
+      "source_url": "https://www.cbinsights.com/company/neptune-financial",
+      "details": "Neptune Financial was acquired by Zilch. The historic 600 Montgomery Street address was not treated as a current independent office."
+    },
+    {
+      "code": "legacy_or_rebranded",
+      "company_id": "netbooks",
+      "subject": "netbooks",
+      "source_url": "https://www.employbl.com/companies/Netbooks/office-locations",
+      "details": "Netbooks appears to be a legacy/rebranded entity; the old 475 Sansome Street listing was not confirmed as a current independent office."
+    },
+    {
+      "code": "mailbox_only",
+      "company_id": "netdata",
+      "subject": "netdata",
+      "source_url": "https://www.netdata.cloud/terms/",
+      "details": "Netdata's current legal address is 548 Market Street #31942, which is a mailbox/PMB. No current physical office was confirmed."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "netsil",
+      "subject": "netsil",
+      "source_url": "https://www.momentventures.com/portfolio/netsil/",
+      "details": "Netsil was acquired by Nutanix. No current independent Netsil physical office was confirmed."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "nexmo",
+      "subject": "nexmo",
+      "source_url": "https://www.vonage.com/about-us/newsroom/press-releases/Vonage-Completes-the-Acquisition-of-Nexmo-Advancing-Vonages-Mission-to-Become-the-Global-Cloud-Communications-Leader-06-06-2016/209a33c3-be1f-4f81-8fec-05209e8165fa/",
+      "details": "Nexmo was acquired by Vonage and is now a Vonage brand; no current independent Nexmo physical office was confirmed."
+    },
+    {
+      "code": "mailbox_or_no_current_office",
+      "company_id": "nextgen-america",
+      "subject": "nextgen-america",
+      "source_url": "https://nextgenamerica.org/privacy-policy/",
+      "details": "Current evidence gives San Francisco only at city level, while third-party records use 548 Market Street mailbox numbering. No current physical office was confirmed."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "nextravel",
+      "subject": "nextravel",
+      "source_url": "https://www.cbinsights.com/company/nextravel",
+      "details": "NexTravel was acquired by TravelPerk. No current independent NexTravel physical office was confirmed."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "nodeprime",
+      "subject": "nodeprime",
+      "source_url": "https://www.cbinsights.com/company/nodeprime",
+      "details": "NodePrime was acquired by Ericsson. The historic 835 Howard Street address was not treated as a current independent office."
+    },
+    {
+      "code": "mailbox_only",
+      "company_id": "noredink",
+      "subject": "noredink",
+      "source_url": "https://www.cacompanyregistry.com/companies/noredink-corp/",
+      "details": "The current registry-derived address is 548 Market Street Number 66984, a mailbox/PMB-style address. No current physical office was confirmed."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "odopod",
+      "subject": "odopod",
+      "source_url": "https://www.clearlyrated.com/marketing-services/ca-usa/san-francisco-ca/odopod-san-francisco-ca",
+      "details": "Only an older directory listing for 350 Bush Street was found; no current official or credible operating-office evidence was confirmed."
+    },
+    {
+      "code": "acquired_no_current_office",
+      "company_id": "okera",
+      "subject": "okera",
+      "source_url": "https://www.cbinsights.com/company/okera",
+      "details": "Okera was acquired by Databricks and is listed as closed in current company records. Historic San Francisco addresses were not treated as current independent offices."
+    },
+    {
+      "code": "stale_address",
+      "company_id": "omniata",
+      "subject": "omniata",
+      "source_url": "https://www.twoinstitute.com/ent/omniata/",
+      "details": "Only stale third-party addresses were found; no current official or credible physical office was confirmed."
+    },
+    {
+      "code": "mailbox_only",
+      "company_id": "oomnitza",
+      "subject": "oomnitza",
+      "source_url": "https://www.oomnitza.com/contact-us/",
+      "details": "Oomnitza's current contact address is 548 Market Street PMB 18912, a mailbox/PMB. No current physical office was confirmed."
+    },
+    {
+      "code": "address_conflict",
+      "company_id": "octane-ai",
+      "subject": "octane-ai",
+      "source_url": "https://octaneai.com/privacy",
+      "details": "Octane AI's official legal page uses a San Francisco PO Box, while its current LinkedIn company listing provides 1266 Harrison Street. The physical LinkedIn office was accepted and the mailbox-only legal address was not used."
+    }
+  ]
+}

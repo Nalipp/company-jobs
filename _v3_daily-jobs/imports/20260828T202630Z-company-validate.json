@@ -1,0 +1,1508 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T20:26:30Z",
+  "changes": [
+    {
+      "company_id": "startup-foundry",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "stealth-sports-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "stelo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "straia",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "succinct",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "suger",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "sumble",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "super-quick-delivery",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "superlinked",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "swara",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "synhawk",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "takt",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "tenera",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "tenor",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "thalmaar",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "the-trade",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "them-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "torsei-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "trial-library",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "tribe-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "triumph-arcade",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "two-dots",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "unlearn-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "untapped-ventures",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "uptake-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "vals-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "valthos",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "vectera-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "veedma",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "veyos",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "viewlocked",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "virio",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "voltry",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "watney-robotics",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "web3viper",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "winible",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "wizard",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "wondr",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "wrth",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "xcelero-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "zoomlogi",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "abby-care",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "activate-games",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "airwallex",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "188 Spear Street, Floor 9",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.791353952042,
+        "longitude": -122.393103708696,
+        "address_status": "verified",
+        "address_source_url": "https://help.airwallex.com/hc/en-gb/requests/new?ticket_form_id=6677192150543",
+        "address_source_label": "Airwallex official office locations",
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "bridgebio-pharma",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "fonzi",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "inferact",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "ingenio",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "judgment-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "miru-fintech",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "salesforce",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "415 Mission Street, 3rd Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.789934183373,
+        "longitude": -122.397097517921,
+        "address_status": "verified",
+        "address_source_url": "https://www.salesforce.com/company/locations.html?bc=OTH",
+        "address_source_label": "Salesforce official global offices",
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "front",
+      "expected_status": "pending",
+      "website_url": "https://front.com/",
+      "website_url": "https://front.com/",
+      "address_result": {
+        "address": {
+          "street": "1 Montgomery Street, Floor 13",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.789249549522,
+        "longitude": -122.402418601514,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/fronthq",
+        "address_source_label": "Front LinkedIn company page",
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "mistral-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "15 Rue des Halles",
+          "city": "Paris",
+          "region": "Île-de-France",
+          "postal_code": "75001",
+          "country": "FR"
+        },
+        "latitude": 48.860147017455,
+        "longitude": 2.346209027966,
+        "address_status": "outside_sf",
+        "address_source_url": "https://legal.mistral.ai/terms/commercial-terms-of-service",
+        "address_source_label": "Mistral AI official commercial terms",
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "assured",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "glowops",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "https-martini-art",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "lotuspetal-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "mozio",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "nero",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "peloras",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "promise-kept",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "vyvora",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "zero-rfi",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "alembic",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "earlywarning",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "elevenlabs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "fab2",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "fluidstack",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "kikoff",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "livekit",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "4285 Payne Avenue, #9154",
+          "city": "San Jose",
+          "region": "CA",
+          "postal_code": "95157",
+          "country": "US"
+        },
+        "latitude": 37.30144973253,
+        "longitude": -121.97820570412,
+        "address_status": "outside_sf",
+        "address_source_url": "https://livekit.com/legal/terms-of-service",
+        "address_source_label": "LiveKit official terms of service",
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "mercury",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "ramp",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "sygaldry-technologies",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "abridge",
+      "expected_status": "pending",
+      "website_url": "https://www.abridge.com/",
+      "website_url": "https://www.abridge.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    },
+    {
+      "company_id": "airops",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:26:30Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "startup-foundry",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company startup-foundry"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "stealth-sports-ai",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company stealth-sports-ai"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "stelo",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company stelo"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "straia",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company straia"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "succinct",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company succinct"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "suger",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company suger"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "sumble",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company sumble"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "super-quick-delivery",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company super-quick-delivery"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "superlinked",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company superlinked"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "swara",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company swara"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "synhawk",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company synhawk"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "takt",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company takt"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tenera",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tenera"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tenor",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tenor"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "thalmaar",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company thalmaar"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "the-trade",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company the-trade"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "them-ai",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company them-ai"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "torsei-ai",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company torsei-ai"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "trial-library",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company trial-library"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "tribe-ai",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company tribe-ai"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "triumph-arcade",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company triumph-arcade"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "two-dots",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company two-dots"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "unlearn-ai",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company unlearn-ai"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "untapped-ventures",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company untapped-ventures"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "uptake-ai",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company uptake-ai"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "vals-ai",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company vals-ai"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "valthos",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company valthos"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "vectera-ai",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company vectera-ai"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "veedma",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company veedma"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "veyos",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company veyos"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "viewlocked",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company viewlocked"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "virio",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company virio"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "voltry",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company voltry"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "watney-robotics",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company watney-robotics"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "web3viper",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company web3viper"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "winible",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company winible"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "wizard",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company wizard"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "wondr",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company wondr"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "wrth",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company wrth"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "xcelero-labs",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company xcelero-labs"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "zoomlogi",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company zoomlogi"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "abby-care",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company abby-care"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "activate-games",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company activate-games"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "bridgebio-pharma",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company bridgebio-pharma"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "fonzi",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company fonzi"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "inferact",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company inferact"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "ingenio",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company ingenio"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "judgment-labs",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company judgment-labs"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "miru-fintech",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company miru-fintech"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "assured",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company assured"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "glowops",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company glowops"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "https-martini-art",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company https-martini-art"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "lotuspetal-ai",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company lotuspetal-ai"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "mozio",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company mozio"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "nero",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company nero"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "peloras",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company peloras"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "promise-kept",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company promise-kept"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "vyvora",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company vyvora"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "zero-rfi",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company zero-rfi"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "alembic",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company alembic"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "earlywarning",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company earlywarning"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "elevenlabs",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company elevenlabs"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "fab2",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company fab2"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "fluidstack",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company fluidstack"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "kikoff",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company kikoff"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "mercury",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company mercury"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "ramp",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company ramp"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "sygaldry-technologies",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company sygaldry-technologies"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "abridge",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company abridge"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "airops",
+      "subject": "No credible current exact physical office was established in this bounded validation pass.",
+      "source_url": null,
+      "details": "Address left unresolved; no physical-office result was recorded. Retry: /company-validate company airops"
+    }
+  ]
+}

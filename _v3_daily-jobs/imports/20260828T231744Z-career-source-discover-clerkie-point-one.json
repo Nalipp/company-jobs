@@ -1,0 +1,1413 @@
+{
+  "schema_version": 1,
+  "operation": "career-source-discover",
+  "created_at": "2026-08-28T23:17:44Z",
+  "changes": [
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "clerkie-primary",
+        "company_id": "clerkie",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "All clerkie roles",
+        "instructions": "Recheck the official Clerkie site for an employer-controlled careers destination before the next source refresh.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "no_careers_found",
+        "official_relationship_url": "https://www.clerkie.io/",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "bobbie-primary",
+        "company_id": "bobbie",
+        "careers_url": "https://www.hibobbie.com/pages/careers",
+        "listings_url": "https://job-boards.greenhouse.io/bobbie",
+        "provider": "greenhouse",
+        "board_id": "bobbie",
+        "access_mode": "structured_feed",
+        "scope": "All Bobbie roles",
+        "instructions": "Enumerate the public Greenhouse board for exact board ID \"bobbie\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://www.hibobbie.com/pages/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "nightfall-ai-primary",
+        "company_id": "nightfall-ai",
+        "careers_url": "https://www.nightfall.ai/careers",
+        "listings_url": "https://jobs.ashbyhq.com/nightfall-ai",
+        "provider": "ashby",
+        "board_id": "nightfall-ai",
+        "access_mode": "structured_feed",
+        "scope": "All Nightfall AI roles",
+        "instructions": "Enumerate the public Ashby board for exact board ID \"nightfall-ai\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://www.nightfall.ai/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "blueshift-primary",
+        "company_id": "blueshift",
+        "careers_url": "https://blueshift.com/jobs/",
+        "listings_url": "https://blueshift.com/jobs/",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Blueshift roles",
+        "instructions": "Recheck the official Blueshift jobs page in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://blueshift.com/jobs/",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "horizon3-primary",
+        "company_id": "horizon3",
+        "careers_url": "https://horizon3.ai/join-our-team/",
+        "listings_url": "https://jobs.ashbyhq.com/horizon3ai",
+        "provider": "ashby",
+        "board_id": "horizon3ai",
+        "access_mode": "structured_feed",
+        "scope": "All Horizon3 roles",
+        "instructions": "Enumerate the public Ashby board for exact board ID \"horizon3ai\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://horizon3.ai/join-our-team/",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "fermat-commerce-primary",
+        "company_id": "fermat-commerce",
+        "careers_url": "https://www.fermatcommerce.com/careers",
+        "listings_url": "https://job-boards.greenhouse.io/fermat",
+        "provider": "greenhouse",
+        "board_id": "fermat",
+        "access_mode": "structured_feed",
+        "scope": "All FERMÀT roles",
+        "instructions": "Enumerate the public Greenhouse board for exact board ID \"fermat\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://www.fermatcommerce.com/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "quizlet-primary",
+        "company_id": "quizlet",
+        "careers_url": "https://quizlet.com/careers",
+        "listings_url": "https://jobs.lever.co/quizlet-2",
+        "provider": "lever",
+        "board_id": "quizlet-2",
+        "access_mode": "structured_feed",
+        "scope": "All Quizlet roles",
+        "instructions": "Enumerate the public Lever board for exact board ID \"quizlet-2\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://quizlet.com/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "peerspace-primary",
+        "company_id": "peerspace",
+        "careers_url": "https://book.peerspace.com/about",
+        "listings_url": "https://jobs.lever.co/peerspace",
+        "provider": "lever",
+        "board_id": "peerspace",
+        "access_mode": "structured_feed",
+        "scope": "All Peerspace roles",
+        "instructions": "Enumerate the public Lever board for exact board ID \"peerspace\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://book.peerspace.com/about",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "medrio-primary",
+        "company_id": "medrio",
+        "careers_url": "https://medrio.com/careers/",
+        "listings_url": "https://job-boards.greenhouse.io/medrio",
+        "provider": "greenhouse",
+        "board_id": "medrio",
+        "access_mode": "structured_feed",
+        "scope": "All Medrio roles",
+        "instructions": "Enumerate the public Greenhouse board for exact board ID \"medrio\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://medrio.com/careers/",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "super-primary",
+        "company_id": "super",
+        "careers_url": "https://www.super.com/careers",
+        "listings_url": "https://www.super.com/careers",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Super.com roles",
+        "instructions": "Recheck the official Super.com careers page in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://www.super.com/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "nirvana-insurance-primary",
+        "company_id": "nirvana-insurance",
+        "careers_url": "https://careers.nirvanatech.com/",
+        "listings_url": "https://jobs.ashbyhq.com/nirvana",
+        "provider": "ashby",
+        "board_id": "nirvana",
+        "access_mode": "structured_feed",
+        "scope": "All Nirvana roles",
+        "instructions": "Enumerate the public Ashby board for exact board ID \"nirvana\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://careers.nirvanatech.com/",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "authorium-primary",
+        "company_id": "authorium",
+        "careers_url": "https://authorium.com/careers/",
+        "listings_url": "https://jobs.ashbyhq.com/Authorium",
+        "provider": "ashby",
+        "board_id": "Authorium",
+        "access_mode": "structured_feed",
+        "scope": "All Authorium roles",
+        "instructions": "Enumerate the public Ashby board for exact board ID \"Authorium\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://authorium.com/careers/",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "transcarent-primary",
+        "company_id": "transcarent",
+        "careers_url": "https://transcarent.com/careers",
+        "listings_url": "https://job-boards.greenhouse.io/transcarent",
+        "provider": "greenhouse",
+        "board_id": "transcarent",
+        "access_mode": "structured_feed",
+        "scope": "All Transcarent roles",
+        "instructions": "Enumerate the public Greenhouse board for exact board ID \"transcarent\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://transcarent.com/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "skai-primary",
+        "company_id": "skai",
+        "careers_url": "https://skai.io/company/careers/usa/",
+        "listings_url": "https://skai.teamme.link/",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Skai roles",
+        "instructions": "Recheck the official Skai careers page and linked Teamme board in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://skai.io/company/careers/usa/",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "thirdlove-primary",
+        "company_id": "thirdlove",
+        "careers_url": "https://www.thirdlove.com/pages/careers",
+        "listings_url": "https://job-boards.greenhouse.io/thirdlove",
+        "provider": "greenhouse",
+        "board_id": "thirdlove",
+        "access_mode": "structured_feed",
+        "scope": "All ThirdLove roles",
+        "instructions": "Enumerate the public Greenhouse board for exact board ID \"thirdlove\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://www.thirdlove.com/pages/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "power-factors-primary",
+        "company_id": "power-factors",
+        "careers_url": "https://www.powerfactors.com/fr/careers",
+        "listings_url": "https://www.powerfactors.com/fr/careers",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Power Factors roles",
+        "instructions": "Recheck the official Power Factors careers page and its dynamic jobs table in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://www.powerfactors.com/fr/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "mursion-primary",
+        "company_id": "mursion",
+        "careers_url": "https://www.mursion.com/careers/",
+        "listings_url": "https://www.mursion.com/careers/",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Mursion roles",
+        "instructions": "Recheck the official Mursion careers page and its Explore Open Positions control in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://www.mursion.com/careers/",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "chef-robotics-primary",
+        "company_id": "chef-robotics",
+        "careers_url": "https://www.chefrobotics.ai/careers",
+        "listings_url": "https://jobs.gem.com/chef-robotics",
+        "provider": "gem",
+        "board_id": "chef-robotics",
+        "access_mode": "primary_platform",
+        "scope": "All Chef Robotics roles",
+        "instructions": "Recheck the official Chef Robotics careers page and linked Gem board in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://www.chefrobotics.ai/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "tonal-primary",
+        "company_id": "tonal",
+        "careers_url": "https://tonal.com/pages/careers",
+        "listings_url": "https://tonal.com/pages/careers",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Tonal roles",
+        "instructions": "Recheck the official Tonal careers page in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://tonal.com/pages/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "gradient-comfort-primary",
+        "company_id": "gradient-comfort",
+        "careers_url": "https://www.gradientcomfort.com/pages/careers",
+        "listings_url": "https://job-boards.greenhouse.io/gradientcomfort",
+        "provider": "greenhouse",
+        "board_id": "gradientcomfort",
+        "access_mode": "structured_feed",
+        "scope": "All Gradient roles",
+        "instructions": "Enumerate the public Greenhouse board for exact board ID \"gradientcomfort\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://www.gradientcomfort.com/pages/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "cribl-primary",
+        "company_id": "cribl",
+        "careers_url": "https://cribl.io/careers/",
+        "listings_url": "https://job-boards.greenhouse.io/cribl",
+        "provider": "greenhouse",
+        "board_id": "cribl",
+        "access_mode": "structured_feed",
+        "scope": "All Cribl roles",
+        "instructions": "Enumerate the public Greenhouse board for exact board ID \"cribl\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://cribl.io/careers/",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "pantheon-primary",
+        "company_id": "pantheon",
+        "careers_url": "https://pantheon.io/about/careers",
+        "listings_url": "https://pantheon.io/about/careers",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Pantheon.io roles",
+        "instructions": "Recheck the official Pantheon careers page and its Explore Open Roles control in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://pantheon.io/about/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "sandbox-vr-primary",
+        "company_id": "sandbox-vr",
+        "careers_url": "https://sandboxvr.com/careers",
+        "listings_url": "https://jobs.lever.co/sandboxvr",
+        "provider": "lever",
+        "board_id": "sandboxvr",
+        "access_mode": "structured_feed",
+        "scope": "All Sandbox VR roles",
+        "instructions": "Enumerate the public Lever board for exact board ID \"sandboxvr\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://sandboxvr.com/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "harmonic-security-primary",
+        "company_id": "harmonic-security",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "All harmonic-security roles",
+        "instructions": "Recheck the official Harmonic Security site for an employer-controlled careers destination before the next source refresh.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "no_careers_found",
+        "official_relationship_url": "https://www.harmonic.security/",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "centrifuge-primary",
+        "company_id": "centrifuge",
+        "careers_url": "https://www.centrifuge.io/about",
+        "listings_url": "https://www.centrifuge.io/about",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Centrifuge roles",
+        "instructions": "Recheck the official Centrifuge About page and its Current Openings section in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://www.centrifuge.io/about",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "lakera-primary",
+        "company_id": "lakera",
+        "careers_url": "https://www.lakera.ai/careers",
+        "listings_url": "https://jobs.ashbyhq.com/lakera.ai",
+        "provider": "ashby",
+        "board_id": "lakera.ai",
+        "access_mode": "structured_feed",
+        "scope": "All Lakera roles",
+        "instructions": "Enumerate the public Ashby board for exact board ID \"lakera.ai\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://www.lakera.ai/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "mindtickle-primary",
+        "company_id": "mindtickle",
+        "careers_url": "https://www.mindtickle.com/about-us/",
+        "listings_url": "https://careers.smartrecruiters.com/MindTickle",
+        "provider": "smartrecruiters",
+        "board_id": "MindTickle",
+        "access_mode": "structured_feed",
+        "scope": "All MindTickle roles",
+        "instructions": "Enumerate the public SmartRecruiters board for exact board ID \"MindTickle\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://www.mindtickle.com/about-us/",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "fastly-primary",
+        "company_id": "fastly",
+        "careers_url": "https://www.fastly.com/about/careers",
+        "listings_url": "https://job-boards.greenhouse.io/fastly",
+        "provider": "greenhouse",
+        "board_id": "fastly",
+        "access_mode": "structured_feed",
+        "scope": "All Fastly roles",
+        "instructions": "Enumerate the public Greenhouse board for exact board ID \"fastly\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://www.fastly.com/about/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "thumbtack-primary",
+        "company_id": "thumbtack",
+        "careers_url": "https://careers.thumbtack.com/jobs",
+        "listings_url": "https://careers.thumbtack.com/jobs",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Thumbtack roles",
+        "instructions": "Recheck the official Thumbtack jobs page; the current crawl returned no stable role details and only a talent-community link in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://careers.thumbtack.com/jobs",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "incode-technologies-primary",
+        "company_id": "incode-technologies",
+        "careers_url": "https://www.incode.com/careers/",
+        "listings_url": "https://job-boards.greenhouse.io/incode",
+        "provider": "greenhouse",
+        "board_id": "incode",
+        "access_mode": "structured_feed",
+        "scope": "All Incode Technologies roles",
+        "instructions": "Enumerate the public Greenhouse board for exact board ID \"incode\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://www.incode.com/careers/",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "flyr-primary",
+        "company_id": "flyr",
+        "careers_url": "https://flyr.com/careers/",
+        "listings_url": "https://flyr.com/careers/",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All FLYR roles",
+        "instructions": "Recheck the official FLYR careers page and its Explore All Open Opportunities control in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://flyr.com/careers/",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "reddit-primary",
+        "company_id": "reddit",
+        "careers_url": "https://redditinc.com/careers",
+        "listings_url": "https://job-boards.greenhouse.io/reddit",
+        "provider": "greenhouse",
+        "board_id": "reddit",
+        "access_mode": "structured_feed",
+        "scope": "All Reddit roles",
+        "instructions": "Enumerate the public Greenhouse board for exact board ID \"reddit\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://redditinc.com/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "pubnub-primary",
+        "company_id": "pubnub",
+        "careers_url": "https://www.pubnub.com/company/careers/",
+        "listings_url": "https://careers.smartrecruiters.com/PubNub",
+        "provider": "smartrecruiters",
+        "board_id": "PubNub",
+        "access_mode": "structured_feed",
+        "scope": "All PubNub roles",
+        "instructions": "Recheck the official PubNub careers page and reconciling it with the SmartRecruiters board in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://www.pubnub.com/company/careers/",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "canvas-medical-primary",
+        "company_id": "canvas-medical",
+        "careers_url": "https://www.canvasmedical.com/careers/",
+        "listings_url": "https://jobs.lever.co/canvasmedical",
+        "provider": "lever",
+        "board_id": "canvasmedical",
+        "access_mode": "structured_feed",
+        "scope": "All Canvas Medical roles",
+        "instructions": "Enumerate the public Lever board for exact board ID \"canvasmedical\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://www.canvasmedical.com/careers/",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "github-primary",
+        "company_id": "github",
+        "careers_url": "https://www.github.careers/careers-home",
+        "listings_url": "https://www.github.careers/careers-home",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All GitHub roles",
+        "instructions": "Recheck the official GitHub careers portal and verifying complete pagination plus stable role URLs in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://github.com/about/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "slope-primary",
+        "company_id": "slope",
+        "careers_url": "https://slopepay.com/company",
+        "listings_url": "https://jobs.ashbyhq.com/slope",
+        "provider": "ashby",
+        "board_id": "slope",
+        "access_mode": "structured_feed",
+        "scope": "All Slope roles",
+        "instructions": "Enumerate the public Ashby board for exact board ID \"slope\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://slopepay.com/company",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "twilio-primary",
+        "company_id": "twilio",
+        "careers_url": "https://jobs.twilio.com/careers",
+        "listings_url": "https://jobs.twilio.com/careers",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Twilio roles",
+        "instructions": "Load the official Twilio careers portal, exhaust its filters and pagination, and open every stable canonical job-detail URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://jobs.twilio.com/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "sirona-medical-primary",
+        "company_id": "sirona-medical",
+        "careers_url": "https://sironamedical.com/company/careers",
+        "listings_url": "https://job-boards.greenhouse.io/sironamedical",
+        "provider": "greenhouse",
+        "board_id": "sironamedical",
+        "access_mode": "structured_feed",
+        "scope": "All Sirona Medical roles",
+        "instructions": "Enumerate the public Greenhouse board for exact board ID \"sironamedical\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://sironamedical.com/company/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "omni-analytics-primary",
+        "company_id": "omni-analytics",
+        "careers_url": "https://omni.co/about",
+        "listings_url": "https://jobs.ashbyhq.com/omni",
+        "provider": "ashby",
+        "board_id": "omni",
+        "access_mode": "structured_feed",
+        "scope": "All Omni Analytics roles",
+        "instructions": "Enumerate the public Ashby board for exact board ID \"omni\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://omni.co/about",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "collective-primary",
+        "company_id": "collective",
+        "careers_url": "https://www.collective.com/careers",
+        "listings_url": "https://www.collective.com/careers",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Collective roles",
+        "instructions": "Recheck the official Collective careers page and its View Open Roles control in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://www.collective.com/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "armada-primary",
+        "company_id": "armada",
+        "careers_url": "https://www.armada.ai/careers",
+        "listings_url": "https://www.armada.ai/careers",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Armada roles",
+        "instructions": "Recheck the official Armada careers page and its dynamic Open Roles listing in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://www.armada.ai/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "paceline-primary",
+        "company_id": "paceline",
+        "careers_url": "https://paceline.fit/pages/careers",
+        "listings_url": "https://www.linkedin.com/company/paceline-fit/jobs/",
+        "provider": "linkedin",
+        "board_id": "paceline-fit",
+        "access_mode": "browser_required",
+        "scope": "All Paceline roles",
+        "instructions": "Recheck the official Paceline careers page and replacing its LinkedIn-only destination with an employer-controlled enumerable source in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://paceline.fit/pages/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "parafin-primary",
+        "company_id": "parafin",
+        "careers_url": "https://www.parafin.com/careers",
+        "listings_url": "https://jobs.ashbyhq.com/parafin",
+        "provider": "ashby",
+        "board_id": "parafin",
+        "access_mode": "structured_feed",
+        "scope": "All Parafin roles",
+        "instructions": "Enumerate the public Ashby board for exact board ID \"parafin\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://www.parafin.com/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "stuut-primary",
+        "company_id": "stuut",
+        "careers_url": null,
+        "listings_url": null,
+        "provider": "unknown",
+        "board_id": null,
+        "access_mode": null,
+        "scope": "All stuut roles",
+        "instructions": "Recheck the official company website or an employer-controlled careers page before creating a source; the discovered Ashby board is linked only from a third-party social profile.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "no_careers_found",
+        "official_relationship_url": null,
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "world-primary",
+        "company_id": "world",
+        "careers_url": "https://world.org/careers",
+        "listings_url": "https://world.org/careers",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All World roles",
+        "instructions": "Recheck the official World careers page and its client-rendered open-roles section in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://world.org/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "charta-health-primary",
+        "company_id": "charta-health",
+        "careers_url": "https://www.chartahealth.com/about",
+        "listings_url": "https://jobs.ashbyhq.com/chartahealth",
+        "provider": "ashby",
+        "board_id": "chartahealth",
+        "access_mode": "structured_feed",
+        "scope": "All Charta Health roles",
+        "instructions": "Enumerate the public Ashby board for exact board ID \"chartahealth\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://www.chartahealth.com/about",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "fabric-primary",
+        "company_id": "fabric",
+        "careers_url": "https://fabric.inc/careers",
+        "listings_url": "https://ats.rippling.com/fabric-inc/jobs",
+        "provider": "rippling",
+        "board_id": "fabric-inc",
+        "access_mode": "structured_feed",
+        "scope": "All Fabric roles",
+        "instructions": "Enumerate the public Rippling jobs page for exact tenant \"fabric-inc\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://fabric.inc/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "mercury-technologies-primary",
+        "company_id": "mercury-technologies",
+        "careers_url": "https://mercury.com/jobs",
+        "listings_url": "https://mercury.com/jobs",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Mercury Technologies roles",
+        "instructions": "Recheck the official Mercury jobs page and verifying complete pagination plus stable role URLs in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://mercury.com/jobs",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "descript-primary",
+        "company_id": "descript",
+        "careers_url": "https://www.descript.com/careers",
+        "listings_url": "https://www.descript.com/careers",
+        "provider": "custom",
+        "board_id": null,
+        "access_mode": "browser_required",
+        "scope": "All Descript roles",
+        "instructions": "Recheck the official Descript careers page and its client-rendered Open Positions section in a browser and verify complete enumeration plus stable canonical job-detail URLs before enabling scanning.",
+        "capabilities": {
+          "complete_enumeration": false,
+          "stable_job_identity": false,
+          "structured_data": false
+        },
+        "status": "unsupported",
+        "official_relationship_url": "https://www.descript.com/careers",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": null,
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z"
+      }
+    },
+    {
+      "expected_updated_date": null,
+      "source": {
+        "source_id": "point-one-navigation-primary",
+        "company_id": "point-one-navigation",
+        "careers_url": "https://pointonenav.com/company/",
+        "listings_url": "https://jobs.ashbyhq.com/point-one-navigation",
+        "provider": "ashby",
+        "board_id": "point-one-navigation",
+        "access_mode": "structured_feed",
+        "scope": "All Point One Navigation roles",
+        "instructions": "Enumerate the public Ashby board for exact board ID \"point-one-navigation\"; exhaust result pages, then open each canonical job URL.",
+        "capabilities": {
+          "complete_enumeration": true,
+          "stable_job_identity": true,
+          "structured_data": true
+        },
+        "official_relationship_url": "https://pointonenav.com/company/",
+        "checked_at": "2026-08-28T23:17:44Z",
+        "last_success_at": "2026-08-28T23:17:44Z",
+        "added_date": "2026-08-28T23:17:44Z",
+        "updated_date": "2026-08-28T23:17:44Z",
+        "status": "ready"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "no_official_careers_found",
+      "company_id": "clerkie",
+      "subject": "No official Clerkie careers destination found",
+      "source_url": "https://www.clerkie.io/",
+      "details": "A bounded review of the official site and targeted careers searches found no employer-controlled careers or job-listing destination. The source remains no_careers_found."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "blueshift",
+      "subject": "Blueshift jobs page is not reliably enumerable",
+      "source_url": "https://blueshift.com/jobs/",
+      "details": "The official jobs page exposes current opportunities, but no stable enumerable endpoint and canonical role-detail URLs were verified. The source remains unsupported."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "super",
+      "subject": "Super.com careers endpoint is not reliably enumerable",
+      "source_url": "https://www.super.com/careers",
+      "details": "The official careers page exposes an Explore open roles control, but the underlying current listing endpoint and stable job identities were not verified. The source remains unsupported."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "skai",
+      "subject": "Skai Teamme board needs browser verification",
+      "source_url": "https://skai.teamme.link/",
+      "details": "Skai links to a current Teamme board, but the crawl exposed only partial results and no stable role-detail URLs. The source remains unsupported."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "power-factors",
+      "subject": "Power Factors jobs table needs browser verification",
+      "source_url": "https://www.powerfactors.com/fr/careers",
+      "details": "The official page exposes a dynamic jobs table and controls, but complete enumeration and stable role-detail URLs were not verified. The source remains unsupported."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "mursion",
+      "subject": "Mursion open-positions control needs browser verification",
+      "source_url": "https://www.mursion.com/careers/",
+      "details": "The official careers page exposes an Explore Open Positions control, but no current enumerable endpoint or stable role-detail URLs were verified. The source remains unsupported."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "chef-robotics",
+      "subject": "Chef Robotics Gem board needs browser verification",
+      "source_url": "https://jobs.gem.com/chef-robotics",
+      "details": "Chef Robotics links to the Gem board from its official careers page, but the board could not be enumerated in the current crawl. The source remains unsupported."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "tonal",
+      "subject": "Tonal careers endpoint is not reliably enumerable",
+      "source_url": "https://tonal.com/pages/careers",
+      "details": "The official careers page exposes open-roles content, but no stable enumerable endpoint and canonical role-detail URLs were verified. The source remains unsupported."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "pantheon",
+      "subject": "Pantheon careers endpoint is not reliably enumerable",
+      "source_url": "https://pantheon.io/about/careers",
+      "details": "The official careers page exposes an Explore Open Roles control, but no stable enumerable endpoint and canonical role-detail URLs were verified. The source remains unsupported."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "harmonic-security",
+      "subject": "No official Harmonic Security careers destination found",
+      "source_url": "https://www.harmonic.security/",
+      "details": "Targeted searches returned other companies named Harmonic, but no employer-controlled careers destination for Harmonic Security was verified. The source remains no_careers_found."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "centrifuge",
+      "subject": "Centrifuge openings need browser verification",
+      "source_url": "https://www.centrifuge.io/about",
+      "details": "The official About page shows a Current openings section and an open-application path, but no stable enumerable role endpoint was verified. The source remains unsupported."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "thumbtack",
+      "subject": "Thumbtack jobs page needs browser verification",
+      "source_url": "https://careers.thumbtack.com/jobs",
+      "details": "The official page currently returned no stable role details and linked to a talent community. A complete role enumeration could not be verified. The source remains unsupported."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "flyr",
+      "subject": "FLYR careers endpoint is not reliably enumerable",
+      "source_url": "https://flyr.com/careers/",
+      "details": "The official careers page shows featured roles and an Explore all open opportunities control, but no stable enumerable endpoint was verified. The source remains unsupported."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "github",
+      "subject": "GitHub careers portal needs browser verification",
+      "source_url": "https://www.github.careers/careers-home",
+      "details": "The official GitHub careers portal exposes current roles and stable detail pages, but complete pagination and enumeration were not verified. The source remains unsupported."
+    },
+    {
+      "code": "conflicting_official_state",
+      "company_id": "pubnub",
+      "subject": "PubNub careers page conflicts with SmartRecruiters board",
+      "source_url": "https://www.pubnub.com/company/careers/",
+      "details": "The official PubNub careers page reported no current openings while the linked-candidate SmartRecruiters board exposed a current role. The source remains unsupported pending reconciliation."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "collective",
+      "subject": "Collective careers endpoint is not reliably enumerable",
+      "source_url": "https://www.collective.com/careers",
+      "details": "The official careers page exposes View open roles content, but no stable enumerable endpoint and canonical role-detail URLs were verified. The source remains unsupported."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "armada",
+      "subject": "Armada careers endpoint needs browser verification",
+      "source_url": "https://www.armada.ai/careers",
+      "details": "The official page exposes a dynamic Open Roles listing, but complete enumeration and stable role-detail URLs were not verified. The source remains unsupported."
+    },
+    {
+      "code": "official_source_unverified",
+      "company_id": "paceline",
+      "subject": "Paceline careers points only to LinkedIn",
+      "source_url": "https://paceline.fit/pages/careers",
+      "details": "The employer-controlled careers page links to LinkedIn jobs but no employer-controlled enumerable source was verified. The source remains unsupported."
+    },
+    {
+      "code": "no_official_careers_found",
+      "company_id": "stuut",
+      "subject": "No official Stuut careers destination found",
+      "source_url": null,
+      "details": "The catalog has no company website and the discovered Ashby board was linked only from a third-party social profile. No employer-controlled careers relationship was verified. The source remains no_careers_found."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "world",
+      "subject": "World careers endpoint is not reliably enumerable",
+      "source_url": "https://world.org/careers",
+      "details": "The official careers page exposes an open-roles section, but the current crawl did not expose a stable enumerable endpoint or canonical role-detail URLs. The source remains unsupported."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "mercury-technologies",
+      "subject": "Mercury jobs endpoint needs browser verification",
+      "source_url": "https://mercury.com/jobs",
+      "details": "The official jobs page exposes current roles, but complete pagination and stable canonical role URLs were not verified. The source remains unsupported."
+    },
+    {
+      "code": "no_enumerable_official_endpoint",
+      "company_id": "descript",
+      "subject": "Descript careers endpoint is not reliably enumerable",
+      "source_url": "https://www.descript.com/careers",
+      "details": "The official careers page exposes a client-rendered Open Positions section, but no stable enumerable endpoint and canonical role-detail URLs were verified. The source remains unsupported."
+    }
+  ]
+}

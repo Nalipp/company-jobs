@@ -15,8 +15,11 @@ companies or rewrite career-source instructions.
 2. Read `AGENTS.md`, `instructions/job-scan.md`, `data/companies.json`,
    `data/career_sources.json`, `schemas/job-results.schema.json`,
    `schemas/handoff.schema.json`, and the requested profile and job-result files.
-3. Require an exact `profile_id` that has a matching file in both
-   `config/search-profiles/` and `data/job-results/`.
+3. Require an exact `profile_id` that has a matching file in
+   `config/search-profiles/`. If `data/job-results/<profile_id>.json` does not
+   yet exist, treat its prior state as empty: use `null` for every
+   `expected_last_successful_scan_at`. The importer creates the profile-specific
+   result file only when the handoff is applied.
 4. By default, process every `ready` career source. Optional `company`, `source`,
    or `access-mode` selectors narrow the run without changing its semantics.
 5. Never scan `no_careers_found`, `blocked`, `unsupported`, or `stale` sources as
@@ -167,12 +170,13 @@ Write it to:
 
 Report sources selected and completed; all four outcome counts; current postings
 enumerated; qualifying jobs found; source failures with company and source IDs;
-the absolute handoff path; and these commands with the actual path:
+the absolute handoff path; and end with this exact two-line copy-pastable apply
+command, replacing the example filename with the actual file created in this
+run:
 
 ```bash
 cd /Users/natelipp/ai-code/_v3_daily-jobs
-.venv/bin/python scripts/apply_handoff.py "<actual-handoff-path>" --dry-run
-.venv/bin/python scripts/apply_handoff.py "<actual-handoff-path>"
+.venv/bin/python scripts/apply_handoff.py imports/20260828T200727Z-job-scan-ai-product-frontend-v1.json
 ```
 
 For every failed source, also print the literal refresh command with its real ID:

@@ -9,6 +9,7 @@ This repository maintains a reusable catalog of San Francisco technology compani
 - Files under `config/search-profiles/` are versioned job-search inputs; agents must not silently relax them.
 - Files under `data/job-results/` are canonical profile-specific job state. Preserve inactive jobs as history.
 - Agents must not edit canonical data directly. Write a handoff in `imports/`, then apply it with `scripts/apply_handoff.py`.
+- Any command that writes a handoff must end its completion response with a literal, copy-pastable apply command containing these two lines, using the actual filename created in that run (never a placeholder): `cd /Users/natelipp/ai-code/_v3_daily-jobs` followed by `.venv/bin/python scripts/apply_handoff.py imports/<actual-file>.json`. A dry-run command is optional and never replaces the apply command.
 - Keep discovery of companies separate from validation of physical addresses.
 - Only `/company-validate` may mark an address `verified`, `outside_sf`, or `not_found`.
 - `/company-ingest` may preserve supplied address details, but they remain `pending` until validation.
@@ -21,6 +22,6 @@ This repository maintains a reusable catalog of San Francisco technology compani
 ## Commands
 
 - `/company-ingest` — ingest supplied technology-company sources or data.
-- `/company-validate` — validate physical addresses and coordinates, 10 pending companies by default.
+- `/company-validate` — validate physical addresses and coordinates, 50 pending companies by default.
 - `/career-source-discover` — discover and verify reusable official job-listing sources for verified companies.
 - `/job-scan` — enumerate ready sources and apply one exact versioned search profile.

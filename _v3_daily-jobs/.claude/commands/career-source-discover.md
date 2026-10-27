@@ -19,7 +19,7 @@ change company address state.
 3. Process only companies with `address_status: "verified"`.
 4. By default select the first 10 verified companies without a career-source
    record, ordered by the catalog's existing company order. Honor a limit from 1
-   through 25.
+   through 50.
 5. With `company <company_id>`, process only the named verified companies, in
    the given order. Report unknown or ineligible IDs as issues.
 6. `--refresh` is required to recheck a company that already has source records.
@@ -96,12 +96,12 @@ Write the handoff to:
 
 Report companies reviewed; `ready`, `no_careers_found`, `blocked`, and
 `unsupported` counts; source failures and affected company IDs; the absolute
-handoff path; and these exact copy-pastable commands with the real path:
+handoff path; and end with this exact two-line copy-pastable apply command,
+replacing the example filename with the actual file created in this run:
 
 ```bash
 cd /Users/natelipp/ai-code/_v3_daily-jobs
-.venv/bin/python scripts/apply_handoff.py "<actual-handoff-path>" --dry-run
-.venv/bin/python scripts/apply_handoff.py "<actual-handoff-path>"
+.venv/bin/python scripts/apply_handoff.py imports/20260828T200727Z-career-source-discover.json
 ```
 
 Do not apply the handoff yourself.

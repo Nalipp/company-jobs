@@ -19,6 +19,45 @@ Do not ingest companies, inspect jobs, apply job constraints, or research ATS pr
 7. When `$ARGUMENTS` contains one or more `company <company_id>` selectors, process only those eligible company IDs and honor their given order. Report an issue for an unknown or ineligible ID rather than silently selecting another company.
 8. If no companies are eligible, write an empty handoff and report that no work was needed. Do not apply it.
 
+## Progress reporting
+
+Before researching, record a baseline from the current catalog:
+
+- total catalog companies;
+- counts of `pending`, `verified`, `outside_sf`, and `not_found`;
+- count of records with both numeric latitude and longitude; and
+- count of pending companies eligible for this run.
+
+The completion response must show the baseline and a run summary. For an
+address-validation run, report all of the following:
+
+- selected and actually examined company counts;
+- `verified`, `outside_sf`, `not_found`, and issue counts for this handoff;
+- coordinate successes (`verified` plus `outside_sf` with numeric latitude and
+  longitude);
+- coordinate-success percentage: coordinate successes divided by companies
+  examined;
+- SF map yield percentage: `verified` divided by companies examined;
+- projected catalog counts after applying this handoff; and
+- projected catalog completion percentage, calculated as
+  `(total companies - projected pending) / total companies`, plus projected
+  pending percentage.
+
+For runs with more than 50 selected companies, emit concise progress
+checkpoints at approximately 25%, 50%, 75%, and 100% of the selected workload.
+Each checkpoint must show `examined / selected`, run outcome counts so far, and
+the run coordinate-success percentage so far. Do not emit a full company-by-
+company log unless an issue needs attention.
+
+Use `N/A` for a percentage whose denominator is zero. For a partial or blocked
+run, calculate percentages using the companies actually examined, state the
+unexamined selected IDs, and do not describe the handoff as complete.
+
+Label projected figures explicitly: the research agent writes a handoff and
+does not apply it, so projected counts are not the same as confirmed catalog
+counts until the human runs `scripts/apply_handoff.py`. Never count a website-
+only enrichment as address validation progress.
+
 ## Official website enrichment
 
 For each selected company whose `website_url` is null, make a bounded attempt to
@@ -116,24 +155,48 @@ Write it to:
 `/Users/natelipp/ai-code/_v3_daily-jobs/imports/<UTC compact timestamp>-company-validate.json`
 
 Do not apply it yourself. Finish by giving the human these commands with the
-actual absolute handoff path:
+actual absolute handoff path. The completion response must end with a fenced
+bash block using the actual filename created in this run; never leave a
+placeholder:
 
 ```bash
 cd /Users/natelipp/ai-code/_v3_daily-jobs
-.venv/bin/python scripts/apply_handoff.py "/Users/natelipp/ai-code/_v3_daily-jobs/imports/<filename>-company-validate.json" --dry-run
-.venv/bin/python scripts/apply_handoff.py "/Users/natelipp/ai-code/_v3_daily-jobs/imports/<filename>-company-validate.json"
+.venv/bin/python scripts/apply_handoff.py imports/20260828T200727Z-company-validate.json
 ```
 
 If `.venv/bin/python` is unavailable, still write the handoff and print those exact commands; do not mutate canonical data directly.
+
+### Mandatory copy-pastable apply command
+
+Whenever a handoff is written, the final response MUST end with a fenced `bash`
+block containing the actual apply command in this exact two-line form (the
+example filename must be replaced with the real filename before responding):
+
+```bash
+cd /Users/natelipp/ai-code/_v3_daily-jobs
+.venv/bin/python scripts/apply_handoff.py imports/20260828T200727Z-company-validate.json
+```
+
+Replace the example filename with the real filename before responding. Do not
+leave angle-bracket placeholders, omit the `cd` line, substitute a generic
+path, or provide only a dry-run command. A dry-run command may be included as a
+separate optional block, but it never replaces the required apply command. If
+the virtual-environment executable is unavailable, still print this required
+command and then state the literal fallback command that applies in the
+current environment.
 
 ## Completion response
 
 End with a concise summary containing:
 
 - `Status: complete`, `partial`, or `blocked`;
+- the catalog baseline and projected-after-apply counts and percentages required
+  by the Progress reporting section;
 - companies examined and counts for `verified`, `outside_sf`, `not_found`, and issues;
+- coordinate successes, coordinate-success percentage, and SF map-yield percentage;
 - missing official websites found and catalog website fields filled;
 - the absolute handoff path;
 - that it was not applied by the research agent;
-- the exact copy-pastable dry-run and apply commands;
+- the exact copy-pastable apply command from Mandatory copy-pastable apply
+  command (and an optional dry-run command);
 - for every company left unchanged because of access, tooling, identity, or source failure, explain what failed and provide the literal copy-pastable retry command `/company-validate company <actual-company-id>` with the real ID substituted.

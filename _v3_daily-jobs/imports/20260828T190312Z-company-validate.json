@@ -1,0 +1,1241 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T19:03:12Z",
+  "changes": [
+    {
+      "company_id": "universalagi",
+      "expected_status": "pending",
+      "website_url": "https://www.universalagi.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "unlearn",
+      "expected_status": "pending",
+      "website_url": "https://www.unlearn.ai/",
+      "address_result": {
+        "address": {
+          "street": "303 2nd St, Suite N460",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.785476016712,
+        "longitude": -122.39550998546,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/unlearn-ai",
+        "address_source_label": "Current LinkedIn company location; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "valdera",
+      "expected_status": "pending",
+      "website_url": "https://valdera.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "verse",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "waabi",
+      "expected_status": "pending",
+      "website_url": "https://waabi.ai/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "waymo",
+      "expected_status": "pending",
+      "website_url": "https://waymo.com/",
+      "address_result": {
+        "address": {
+          "street": "100 Mayfield Avenue",
+          "city": "Mountain View",
+          "region": "CA",
+          "postal_code": "94043",
+          "country": "US"
+        },
+        "latitude": 37.408158107385,
+        "longitude": -122.10556101152,
+        "address_status": "outside_sf",
+        "address_source_url": "https://docs.cpuc.ca.gov/PublishedDocs/Efile/G000/M586/K143/586143290.PDF",
+        "address_source_label": "Current Waymo LLC office in CPUC filing; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "windsurf",
+      "expected_status": "pending",
+      "website_url": "https://windsurf.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "zip",
+      "expected_status": "pending",
+      "website_url": "https://zip.co/us/",
+      "address_result": {
+        "address": {
+          "street": "680 Folsom Street, 13th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.784627013739,
+        "longitude": -122.398457984626,
+        "address_status": "verified",
+        "address_source_url": "https://zip.com/zip-privacy-notice",
+        "address_source_label": "Current official Zip privacy notice; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "artificial-intelligence-underwriting-company",
+      "expected_status": "pending",
+      "website_url": "https://aiuc.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "cambium",
+      "expected_status": "pending",
+      "website_url": "https://www.cambium.com/",
+      "address_result": {
+        "address": {
+          "street": "1000 O'Reilly Ave",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94129",
+          "country": "US"
+        },
+        "latitude": 37.799808442499,
+        "longitude": -122.451313930774,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/cambium-carbon",
+        "address_source_label": "Current LinkedIn company location for Cambium Carbon / cambium.com; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "clera",
+      "expected_status": "pending",
+      "website_url": "https://www.getclera.com/",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "dimensional",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "454 Natoma St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.781007791767,
+        "longitude": -122.406935609135,
+        "address_status": "verified",
+        "address_source_url": "https://opengovus.com/san-francisco-business/1378475-01-251",
+        "address_source_label": "Current San Francisco business registration location; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "plaid",
+      "expected_status": "pending",
+      "website_url": "https://plaid.com/",
+      "address_result": {
+        "address": {
+          "street": "1098 Harrison Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.775953085057,
+        "longitude": -122.405972779918,
+        "address_status": "verified",
+        "address_source_url": "https://jobs.ashbyhq.com/plaid/5d8abedc-018a-4b42-ae1f-0e70b34f2007",
+        "address_source_label": "Current Plaid careers listing office location; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "planet",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "645 Harrison St, Floor 4",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.783505515095,
+        "longitude": -122.395901085062,
+        "address_status": "verified",
+        "address_source_url": "https://www.planet.com/locations/",
+        "address_source_label": "Official Planet locations page; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "procore-technologies-construction",
+      "expected_status": "pending",
+      "website_url": "https://www.procore.com/",
+      "address_result": {
+        "address": {
+          "street": "6309 Carpinteria Avenue",
+          "city": "Carpinteria",
+          "region": "CA",
+          "postal_code": "93013",
+          "country": "US"
+        },
+        "latitude": 34.383659993477,
+        "longitude": -119.491514973106,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.procore.com/en/company",
+        "address_source_label": "Current official Procore company page US headquarters; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "strava",
+      "expected_status": "pending",
+      "website_url": "https://www.strava.com/",
+      "address_result": {
+        "address": {
+          "street": "181 Fremont Street, Floor 27",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.789525984688,
+        "longitude": -122.39535500407,
+        "address_status": "verified",
+        "address_source_url": "https://www.strava.com/legal/privacy",
+        "address_source_label": "Current official Strava privacy notice; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "sunrun",
+      "expected_status": "pending",
+      "website_url": "https://www.sunrun.com/",
+      "address_result": {
+        "address": {
+          "street": "225 Bush Street, Suite 1400",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.790937078088,
+        "longitude": -122.401337084547,
+        "address_status": "verified",
+        "address_source_url": "https://investors.sunrun.com/filings-financials/sec-filings/content/0001469367-24-000024/run-20231231.htm",
+        "address_source_label": "Current Sunrun SEC filing principal office; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "1stcollab",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "able-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "accord",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "acely",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "activeloop",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "196 Castro St",
+          "city": "Mountain View",
+          "region": "CA",
+          "postal_code": "94041",
+          "country": "US"
+        },
+        "latitude": 37.39405924333,
+        "longitude": -122.079061037898,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.activeloop.ai/contact/",
+        "address_source_label": "Official Activeloop contact page; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "aden",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "afriex",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "agave",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "101 New Montgomery St, Suite 500",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.787361483922,
+        "longitude": -122.400183818489,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/agave-api",
+        "address_source_label": "Current LinkedIn company location; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "agilemd",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "aiprise",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2880 Zanker Rd, Suite 203",
+          "city": "San Jose",
+          "region": "CA",
+          "postal_code": "95134",
+          "country": "US"
+        },
+        "latitude": 37.395923252868,
+        "longitude": -121.928287028302,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/aiprise",
+        "address_source_label": "Current LinkedIn headquarters and location; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "airmyne",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "alpaca",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "3 E 3rd Ave, Suite 200",
+          "city": "San Mateo",
+          "region": "CA",
+          "postal_code": "94401",
+          "country": "US"
+        },
+        "latitude": 37.563377249783,
+        "longitude": -122.325741957093,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/alpacamarkets",
+        "address_source_label": "Current LinkedIn headquarters and location; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "alphawatch-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "ambient-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "555 Twin Dolphin Dr, Suite 610",
+          "city": "Redwood City",
+          "region": "CA",
+          "postal_code": "94065",
+          "country": "US"
+        },
+        "latitude": 37.520695006252,
+        "longitude": -122.255931013383,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.ambient.ai/terms-of-service",
+        "address_source_label": "Current official Ambient AI terms; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "apero-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "112 S Park St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.781635093401,
+        "longitude": -122.394522513447,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/apero-health",
+        "address_source_label": "Current LinkedIn company location; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "apollo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "apptimize",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "armory",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "arnata",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "4930 Directors Place, Suite 120",
+          "city": "San Diego",
+          "region": "CA",
+          "postal_code": "92121",
+          "country": "US"
+        },
+        "latitude": 32.895651651963,
+        "longitude": -117.209953049761,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.arnatar.com/contact",
+        "address_source_label": "Official Arnata contact page; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "athelas",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1300 Terra Bella Ave, Suite 200",
+          "city": "Mountain View",
+          "region": "CA",
+          "postal_code": "94043",
+          "country": "US"
+        },
+        "latitude": 37.410388238453,
+        "longitude": -122.080722582564,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.athelas.com/legal/privacy-policy-current",
+        "address_source_label": "Current official Athelas privacy policy; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "atlas",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "333 Bush St, 4th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.790591995134,
+        "longitude": -122.403056883441,
+        "address_status": "verified",
+        "address_source_url": "https://atlascard.com/legal/terms/",
+        "address_source_label": "Official Atlas Card terms; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "atob",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "atomic",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "attain",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "auctomatic",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "aviator",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "backerkit",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "bego",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "Cda. San Isidro 44, Piso 5",
+          "city": "Miguel Hidalgo",
+          "region": "CDMX",
+          "postal_code": "11650",
+          "country": "MX"
+        },
+        "latitude": 19.433625028205,
+        "longitude": -99.21226316095,
+        "address_status": "outside_sf",
+        "address_source_url": "https://bego.ai/en/about",
+        "address_source_label": "Official BEGO about page; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "berry",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "bik",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "bitmovin",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1900 N Grant St, Suite 610",
+          "city": "Denver",
+          "region": "CO",
+          "postal_code": "80203",
+          "country": "US"
+        },
+        "latitude": 39.746434879371,
+        "longitude": -104.983378176104,
+        "address_status": "outside_sf",
+        "address_source_url": "https://legal.bitmovin.com/legal/privacy?lang=en-GB",
+        "address_source_label": "Current official Bitmovin privacy notice; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "bitnami",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "900 Kearny St, 5th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94133",
+          "country": "US"
+        },
+        "latitude": 37.796396337355,
+        "longitude": -122.404925209659,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/bitnami",
+        "address_source_label": "Current LinkedIn company location; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "blink",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "555 California St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.792151154853,
+        "longitude": -122.403020254524,
+        "address_status": "verified",
+        "address_source_url": "https://dev.blink.new/privacy",
+        "address_source_label": "Official Blink privacy policy; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "blitz-esports",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "bluelight",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "bluumbio",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "211 Koshland Hall, UC Berkeley",
+          "city": "Berkeley",
+          "region": "CA",
+          "postal_code": "94720",
+          "country": "US"
+        },
+        "latitude": 37.873903418832,
+        "longitude": -122.264902415809,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.bluumbio.com/home-1-1-4",
+        "address_source_label": "Official BluumBio site; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "bountiful",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "broccoli-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "300 Brannan St, Suite 405",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.781735089506,
+        "longitude": -122.392437263575,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/broccoli-com",
+        "address_source_label": "Current LinkedIn company location; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "buildbuddy",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "canix",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "charge-robotics",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "chima",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "447 Sutter St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.789031033306,
+        "longitude": -122.407858540494,
+        "address_status": "verified",
+        "address_source_url": "https://www.chima.email/terms",
+        "address_source_label": "Official Chima terms; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "ciro",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "14 Mint Plaza, Suite 500",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.782708312284,
+        "longitude": -122.407979658995,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/ciro-io",
+        "address_source_label": "Current LinkedIn company location; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "classdojo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "735 Tehama Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.775250849209,
+        "longitude": -122.411526880419,
+        "address_status": "verified",
+        "address_source_url": "https://external.classdojo.com/privacy/",
+        "address_source_label": "Current official ClassDojo privacy notice; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "clear-genetics",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "clearbrain",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "cocoon",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "codecanary",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "cognito",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "collectly",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "44 Montgomery St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.789807658545,
+        "longitude": -122.401766908542,
+        "address_status": "verified",
+        "address_source_url": "https://www.bizprofile.net/ca/san-francisco/collectly-inc",
+        "address_source_label": "Current California corporate principal address, corroborated by business directory listings; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "community-phone-company",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "complete",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "copia",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "coris",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "cozmo-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "cron",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "cyble",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "10080 North Wolfe Road, Suite SW3-200",
+          "city": "Cupertino",
+          "region": "CA",
+          "postal_code": "95014",
+          "country": "US"
+        },
+        "latitude": 37.32397211591,
+        "longitude": -122.012982136576,
+        "address_status": "outside_sf",
+        "address_source_url": "https://cyble.com/privacy-policy/",
+        "address_source_label": "Official Cyble privacy policy headquarters; coordinates from ArcGIS World Geocoding Service",
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    },
+    {
+      "company_id": "dart",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T19:03:12Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "ambiguous_company_identity",
+      "company_id": "verse",
+      "subject": "Verse",
+      "source_url": null,
+      "details": "The generic selector matched multiple unrelated companies, including energy, social, and interactive-video businesses. No unambiguous current physical office could be assigned. Retry with a more specific company identifier or website: /company-validate company verse"
+    },
+    {
+      "code": "stale_address_conflict",
+      "company_id": "agilemd",
+      "subject": "AgileMD",
+      "source_url": "https://www.agilemd.com/contact-us",
+      "details": "The current official contact page lists a 2261 Market Street PMB, while an older terms page and current LinkedIn location list 301 Howard Street. The conflicting evidence did not establish a current physical office, so the address remains not_found. Retry after obtaining a current physical-office source: /company-validate company agilemd"
+    },
+    {
+      "code": "address_conflict",
+      "company_id": "dimensional",
+      "subject": "Dimensional Inc.",
+      "source_url": "https://www.bizprofile.net/ca/san-francisco/dimensional-inc",
+      "details": "Current records conflict between a 1475 Folsom Street principal/mailing address and a San Francisco business-registration location at 454 Natoma Street. The handoff uses the operating-location record at 454 Natoma Street; recheck if a primary company source becomes available: /company-validate company dimensional"
+    },
+    {
+      "code": "ambiguous_company_identity",
+      "company_id": "able-health",
+      "subject": "Able Health",
+      "source_url": "http://ablehealth.com",
+      "details": "The catalog domain did not yield a current physical address, while search results resolved to multiple unrelated Able Health entities. No unambiguous current office could be assigned. Retry with a current company website or exact legal identity: /company-validate company able-health"
+    },
+    {
+      "code": "ambiguous_company_identity",
+      "company_id": "blitz-esports",
+      "subject": "Blitz Esports",
+      "source_url": "https://www.blitzesports.gg/locations",
+      "details": "The catalog website and search results resolved to different Blitz Esports identities, including a company with Indian centers. No unambiguous current physical office could be assigned. Retry with the exact company website or legal identity: /company-validate company blitz-esports"
+    },
+    {
+      "code": "ambiguous_company_identity",
+      "company_id": "charge-robotics",
+      "subject": "Charge Robotics",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1459188/000121390026002030/ea0271734-s1a3_charging.htm",
+      "details": "The catalog domain chargerobotics.com did not match the public chargingrobotics.com company found in current filings. No unambiguous current physical office could be assigned. Retry with the exact company website or legal identity: /company-validate company charge-robotics"
+    },
+    {
+      "code": "company_acquired",
+      "company_id": "clear-genetics",
+      "subject": "Clear Genetics",
+      "source_url": "https://www.ycombinator.com/companies/clear-genetics",
+      "details": "Y Combinator records that Clear Genetics was acquired by Invitae in 2019; no current independent Clear Genetics office was found. Retry if a current successor identity or office is supplied: /company-validate company clear-genetics"
+    },
+    {
+      "code": "company_acquired",
+      "company_id": "clearbrain",
+      "subject": "ClearBrain",
+      "source_url": "https://www.ycombinator.com/companies/clearbrain",
+      "details": "Y Combinator records that ClearBrain was acquired; the only exact street address found was an older third-party listing. No current independent ClearBrain office was found. Retry if a current successor identity or office is supplied: /company-validate company clearbrain"
+    },
+    {
+      "code": "company_integrated",
+      "company_id": "cron",
+      "subject": "Cron",
+      "source_url": "https://www.linkedin.com/company/cronhq",
+      "details": "Cron is now Notion Calendar, and no current independent Cron physical office was found. Retry if a current successor identity or office is supplied: /company-validate company cron"
+    }
+  ]
+}

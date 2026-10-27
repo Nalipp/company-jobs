@@ -1,0 +1,735 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T21:41:26Z",
+  "changes": [
+    {
+      "company_id": "atspoke",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "augmedix",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "1300 Terra Bella Avenue, Suite 200", "city": "Mountain View", "region": "CA", "postal_code": "94043", "country": "US"},
+        "latitude": 37.410388238453,
+        "longitude": -122.080722582564,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.augmedix.com/terms-of-agreement/current",
+        "address_source_label": "Augmedix current terms of agreement",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "autocode-standard-library",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "automattic",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "2601 Mission Street", "city": "San Francisco", "region": "CA", "postal_code": "94110", "country": "US"},
+        "latitude": 37.755258417574,
+        "longitude": -122.418466006601,
+        "address_status": "verified",
+        "address_source_url": "https://automattic.com/spaces/",
+        "address_source_label": "Automattic Mission Space",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "avenue-code",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "26 O'Farrell, Suite 600", "city": "San Francisco", "region": "CA", "postal_code": "94108", "country": "US"},
+        "latitude": 37.786993392644,
+        "longitude": -122.405579249563,
+        "address_status": "verified",
+        "address_source_url": "https://www.avenuecode.com/content/avenuecode/en/careers.html",
+        "address_source_label": "Avenue Code careers page",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "avochato",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "203 Flamingo Road, Suite 501", "city": "Mill Valley", "region": "CA", "postal_code": "94941", "country": "US"},
+        "latitude": 37.880555883926,
+        "longitude": -122.525597206562,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.avochato.com/privacy",
+        "address_source_label": "Avochato privacy policy",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "azumo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "40 Mesa Street, Suite 114", "city": "San Francisco", "region": "CA", "postal_code": "94129", "country": "US"},
+        "latitude": 37.797835300582,
+        "longitude": -122.458038312596,
+        "address_status": "verified",
+        "address_source_url": "https://azumo.com/resources/san-francisco",
+        "address_source_label": "Azumo San Francisco office page",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "badger-maps",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "banksight-systems",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "baseventure",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "bay1",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "beam",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "bebo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "beezy",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "benchmark",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "140 New Montgomery Street", "city": "San Francisco", "region": "CA", "postal_code": "94105", "country": "US"},
+        "latitude": 37.78661201605,
+        "longitude": -122.400005535409,
+        "address_status": "verified",
+        "address_source_url": "https://info.benchmark.com/",
+        "address_source_label": "Benchmark contact page",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "bento-for-business",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "beyond-pricing",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "452 2nd Street, Suite 602", "city": "San Francisco", "region": "CA", "postal_code": "94107", "country": "US"},
+        "latitude": 37.783468760449,
+        "longitude": -122.394957198945,
+        "address_status": "verified",
+        "address_source_url": "https://beyondpricing.com/it/legal/privacy",
+        "address_source_label": "Beyond Pricing privacy policy",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "bigcommerce",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "11920 Alterra Parkway, D11 / Suite 100, 8th Floor", "city": "Austin", "region": "TX", "postal_code": "78758", "country": "US"},
+        "latitude": 30.405048332366,
+        "longitude": -97.719915005248,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/1626450/000205310926000002/0002053109-26-000002-index-headers.html",
+        "address_source_label": "SEC current business address filing",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "bigeye",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "32 Mandalay Place", "city": "South San Francisco", "region": "CA", "postal_code": "94080", "country": "US"},
+        "latitude": 37.666625407369,
+        "longitude": -122.401647885517,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.bigeye.com/terms-of-service",
+        "address_source_label": "Bigeye terms of service",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "bigscreen",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "binc",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "bloc",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "bloom-farms",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "bloomthat",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "blue-cedar",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "325 Pacific Avenue", "city": "San Francisco", "region": "CA", "postal_code": "94111", "country": "US"},
+        "latitude": 37.797400447446,
+        "longitude": -122.401338341833,
+        "address_status": "verified",
+        "address_source_url": "https://www.bluecedar.com/hubfs/BC2020/resources/Solution%20Brief%20-%20The%20Blue_Cedar%20Platform.pdf",
+        "address_source_label": "Blue Cedar official solution brief",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "bluecrew",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "645 7th Street", "city": "San Francisco", "region": "CA", "postal_code": "94103", "country": "US"},
+        "latitude": 37.772664822532,
+        "longitude": -122.402329082788,
+        "address_status": "verified",
+        "address_source_url": "https://app.bluecrewjobs.com/terms_of_service.pdf",
+        "address_source_label": "Bluecrew terms of service",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "bluedot-innovation",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "blurb",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "3325 S 116th Street", "city": "Tukwila", "region": "WA", "postal_code": "98168", "country": "US"},
+        "latitude": 47.498379441676,
+        "longitude": -122.291869512895,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.blurb.com/contact",
+        "address_source_label": "Blurb contact page",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "booksy",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "515 N State Street, Suite 460", "city": "Chicago", "region": "IL", "postal_code": "60654", "country": "US"},
+        "latitude": 41.891409918615,
+        "longitude": -87.627326160496,
+        "address_status": "outside_sf",
+        "address_source_url": "https://biz.booksy.com/contact",
+        "address_source_label": "Booksy US contact page",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "boomtrain",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "bradfield-school-of-computer-science",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "brightseed",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "310 Utah Avenue, Suite 100", "city": "South San Francisco", "region": "CA", "postal_code": "94080", "country": "US"},
+        "latitude": 37.646748897455,
+        "longitude": -122.393508638439,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.brightseedbio.com/terms-of-use/",
+        "address_source_label": "Brightseed terms of use",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "brighttalk",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "275 Grove Street", "city": "Newton", "region": "MA", "postal_code": "02466", "country": "US"},
+        "latitude": 42.339451141814,
+        "longitude": -71.254169555034,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.brighttalk.com/business/company/user-agreement-copy",
+        "address_source_label": "BrightTALK user agreement",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "buffer",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "bugsnag",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "built-io",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "bungalow",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "215 NW 24th Street, Suite 401", "city": "Miami", "region": "FL", "postal_code": "33127", "country": "US"},
+        "latitude": 25.800323340017,
+        "longitude": -80.199398398492,
+        "address_status": "outside_sf",
+        "address_source_url": "https://bungalow.com/contact",
+        "address_source_label": "Bungalow contact page",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "buoyant",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "buzzboard",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "123 Mission Street, Suite 1612", "city": "San Francisco", "region": "CA", "postal_code": "94105", "country": "US"},
+        "latitude": 37.791860051356,
+        "longitude": -122.39435864724,
+        "address_status": "verified",
+        "address_source_url": "https://www.buzzboard.com/online-signup/SMBStreams.php?plan=Pro",
+        "address_source_label": "BuzzBoard official signup page",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "calm",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "555 Bryant Street, Suite 262", "city": "Palo Alto", "region": "CA", "postal_code": "94301", "country": "US"},
+        "latitude": 37.445417552928,
+        "longitude": -122.160493490361,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.calm.com/terms",
+        "address_source_label": "Calm terms of service",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "candu",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "340 S Lemon Avenue, #7720", "city": "Walnut", "region": "CA", "postal_code": "91789", "country": "US"},
+        "latitude": 34.013574267849,
+        "longitude": -117.862127941605,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.candu.ai/contact-us",
+        "address_source_label": "Candu contact page",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "cape",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "capgemini",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "1011 3rd Street, Suite 300", "city": "San Francisco", "region": "CA", "postal_code": "94158", "country": "US"},
+        "latitude": 37.77574420803,
+        "longitude": -122.38976528048,
+        "address_status": "verified",
+        "address_source_url": "https://www.capgemini.com/ca-en/about-us/locations/",
+        "address_source_label": "Capgemini locations page",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "capsilon",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "cardspring",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "carbon-five",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "cbs-interactive",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "career-karma",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "6543 S Las Vegas Boulevard, Suite 02B137", "city": "Las Vegas", "region": "NV", "postal_code": "89119", "country": "US"},
+        "latitude": 36.068240476804,
+        "longitude": -115.176509961102,
+        "address_status": "outside_sf",
+        "address_source_url": "https://careerkarma.com/company/",
+        "address_source_label": "Career Karma current company page",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "castle",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "60 Rausch Street, #205", "city": "San Francisco", "region": "CA", "postal_code": "94103", "country": "US"},
+        "latitude": 37.776139456675,
+        "longitude": -122.409667774294,
+        "address_status": "verified",
+        "address_source_url": "https://pub.castle.io/castle-cybersecurity-policy.pdf",
+        "address_source_label": "Castle cybersecurity policy",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "cellares",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "341 Allerton Avenue", "city": "South San Francisco", "region": "CA", "postal_code": "94080", "country": "US"},
+        "latitude": 37.653260337027,
+        "longitude": -122.391870144006,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.cellares.com/company/",
+        "address_source_label": "Cellares visitor smart factory address",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "chargebee",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "909 Rose Avenue, Suite 950", "city": "North Bethesda", "region": "MD", "postal_code": "20852-8765", "country": "US"},
+        "latitude": 39.051306298492,
+        "longitude": -77.117452899514,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.chargebee.com/careers/how-we-work/",
+        "address_source_label": "Chargebee offices page",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    },
+    {
+      "company_id": "chartboost",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "1 Sansome Street, Floor 21", "city": "San Francisco", "region": "CA", "postal_code": "94104", "country": "US"},
+        "latitude": 37.790485167778,
+        "longitude": -122.400940452889,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/chartboost",
+        "address_source_label": "Chartboost current company profile",
+        "verified_date": "2026-08-28T21:41:26Z"
+      }
+    }
+  ],
+  "issues": [
+    {"code": "identity_acquired", "company_id": "atspoke", "subject": "atSpoke", "source_url": "https://www.linkedin.com/company/atspoke", "details": "atSpoke is identified as acquired by Okta and no longer presents as an independent company with a current physical office address."},
+    {"code": "service_shut_down", "company_id": "autocode-standard-library", "subject": "Autocode Standard Library", "source_url": "https://rogerstringer.com/blog/autocode-shutting-down", "details": "The founder's shutdown notice says Autocode and its Standard Library service ended on April 26, 2024; no current physical office could be validated."},
+    {"code": "insufficient_exact_address", "company_id": "autopilot", "subject": "Autopilot", "source_url": "https://autopilothq.com", "details": "Current product and developer pages were found, but no current exact street address for the catalog company was substantiated."},
+    {"code": "historical_address_only", "company_id": "averon", "subject": "Averon", "source_url": "https://www.sec.gov/Archives/edgar/data/1715006/000171500617000001/xslFormDX08/primary_doc.xml", "details": "Historical filings identify a San Francisco address, while current search results do not substantiate that it remains a staffed physical office; the available current contact result is for a different Averon entity."},
+    {"code": "insufficient_exact_address", "company_id": "babycenter", "subject": "Babycenter", "source_url": "https://www.everydayhealthgroup.com/in-the-news/babycenter", "details": "The current owner confirms a San Francisco-based team but provides no exact San Francisco street address, so the entry remains pending."},
+    {"code": "mailbox_only_address", "company_id": "badger-maps", "subject": "Badger Maps", "source_url": "https://www.badgermapping.com/contact-us/", "details": "The official contact address is 1 Sansome Street, Suite 1400, PMB #2618, San Francisco; it is a mailbox/PMB address rather than substantiated physical office space."},
+    {"code": "identity_acquired", "company_id": "banksight-systems", "subject": "BankSight Systems, Inc", "source_url": "https://www.bottomline.com/cdn/4717/2235/6720/Aite-Matrix-Leading-Cash-Management-Providers-DGP-US-SRR-2005-070.pdf", "details": "BankSight was acquired by Bottomline in 2019 and is described as integrated into Bottomline's Insights product; no current standalone office was validated."},
+    {"code": "mailbox_only_address", "company_id": "baseventure", "subject": "BaseVenture", "source_url": "https://www.baseventure.com/terms-of-use/", "details": "The official terms list 2443 Fillmore St #380-3877, San Francisco, a PMB/mailing address without substantiated staffed office space."},
+    {"code": "identity_replaced", "company_id": "bay1", "subject": "Bay1", "source_url": "https://www.sec.gov/Archives/edgar/data/1829089/000205310926000001/xslFormDX08/primary_doc.xml", "details": "The current SEC filing identifies Highnote Platform, Inc. as the issuer and Bay1, Inc. as a previous name; the catalog identity is no longer current as a standalone company."},
+    {"code": "identity_acquired", "company_id": "beam", "subject": "Beam", "source_url": "https://www.jumio.com/about/press-releases/jumio-acquires-beam-solutions-aml-platform/", "details": "Jumio acquired Beam Solutions' AML platform in 2020; no current standalone Beam office was validated."},
+    {"code": "no_current_physical_office", "company_id": "bebo", "subject": "Bebo", "source_url": "https://bebo.com/", "details": "The current site announces that Bebo is closing on September 1, 2026 and provides no current physical office address."},
+    {"code": "mailbox_only_address", "company_id": "beezy", "subject": "Beezy", "source_url": "https://go.beezy.net/hubfs/Webpage%20-%20Resources/terms-and-conditions/Beezy-Mobile-App-End-User-License-Agreement.pdf?hsLang=en", "details": "The official EULA lists 548 Market St #76279, San Francisco, a mailbox-style address without substantiated staffed office space."},
+    {"code": "identity_acquired", "company_id": "bento-for-business", "subject": "Bento for Business", "source_url": "https://www.usbank.com/about-us-bank/company-blog/article-library/us-bank-to-acquire-small-business-payments-software-company-Bento-Technologies.html", "details": "U.S. Bank announced the acquisition of Bento Technologies, known as Bento for Business; the catalog website now redirects to U.S. Bank and no standalone office was validated."},
+    {"code": "mailbox_only_address", "company_id": "bigscreen", "subject": "Bigscreen", "source_url": "https://bigscreenvr.com/privacy/", "details": "The official privacy policy lists 340 S Lemon Ave #9667, Walnut, a mailbox-style address without substantiated staffed office space."},
+    {"code": "no_current_physical_office", "company_id": "binc", "subject": "BINC", "source_url": "https://www.linkedin.com/company/binc", "details": "The current company profile says Binc is no longer available to provide recruiting services; no current physical office was validated."},
+    {"code": "identity_acquired", "company_id": "bloc", "subject": "Bloc", "source_url": "https://www.bloc.io/", "details": "The catalog domain redirects to Chegg Skills, so Bloc is no longer operating as a standalone company with a separately verifiable office."},
+    {"code": "identity_mismatch", "company_id": "bloom-farms", "subject": "Bloom Farms", "source_url": "https://getbloomfarms.com/about-us/", "details": "The catalog domain currently presents a different crypto/casino-review identity and does not substantiate the historical San Francisco cannabis technology company or a current physical office."},
+    {"code": "identity_acquired", "company_id": "bloomthat", "subject": "BloomThat", "source_url": "https://www.linkedin.com/company/bloomthat", "details": "BloomThat is identified as acquired by FTD; available San Francisco addresses are historical and no current standalone office was validated."},
+    {"code": "identity_acquired", "company_id": "bluedot-innovation", "subject": "Bluedot Innovation", "source_url": "https://www.sec.gov/Archives/edgar/data/1920294/000119312525199264/rzlv-20250909.htm", "details": "Bluedot Innovation Pty. Ltd. was acquired in 2025; no current standalone San Francisco office was validated for the catalog identity."},
+    {"code": "insufficient_exact_address", "company_id": "blue-owl", "subject": "Blue Owl", "source_url": "https://old.blueowl.xyz/", "details": "The available company page identifies only Financial District, San Francisco, without a complete street address."},
+    {"code": "insufficient_exact_address", "company_id": "blueboard", "subject": "BLUEBOARD INC", "source_url": "https://www.linkedin.com/company/blueboard-inc", "details": "Current results provide only a city/ZIP-level location and the catalog website has no usable address content; an exact current physical address remains unresolved."},
+    {"code": "historical_address_only", "company_id": "bluenose-analytics", "subject": "Bluenose Analytics", "source_url": "https://www.ithistory.org/companies/bluenose-analytics-inc", "details": "Historical sources provide San Francisco street addresses, but no current official company page or current staffed office was substantiated."},
+    {"code": "identity_acquired", "company_id": "boomtrain", "subject": "boomtrain", "source_url": "https://boomtrain.com/", "details": "The catalog domain redirects to Zeta Global, consistent with the reported acquisition; no current standalone Boomtrain office was validated."},
+    {"code": "no_current_physical_office", "company_id": "bradfield-school-of-computer-science", "subject": "Bradfield School of Computer Science", "source_url": "https://bradfieldcs.com/", "details": "The official site states the school is on indefinite hiatus and provides no current physical office address."},
+    {"code": "identity_acquired", "company_id": "buffer", "subject": "Buffer", "source_url": "https://buffer.com/resources/coffee-shop-working/", "details": "Buffer's official materials state there is no office or headquarters; its San Francisco address is a mailing address, so no physical office was validated."},
+    {"code": "identity_acquired", "company_id": "bugsnag", "subject": "Bugsnag", "source_url": "https://smartbear.com/news/news-releases/smartbear-adds-enterprise-grade-stability/", "details": "SmartBear acquired Bugsnag and later described it as SmartBear Insight Hub; no current standalone Bugsnag office was validated."},
+    {"code": "identity_acquired", "company_id": "built-io", "subject": "Built.io", "source_url": "https://build.io/blog/2026/04/build-joins-aiand", "details": "Built.io was acquired by Software AG and the current domain is associated with the acquiring business; no current standalone office was validated."},
+    {"code": "mailbox_only_address", "company_id": "buoyant", "subject": "BUOYANT INC", "source_url": "https://www.buoyant.io/privacy-policy", "details": "The official privacy policy lists 548 Market St, PMB 43038, San Francisco; this is a PMB/mailing address, not substantiated physical office space."},
+    {"code": "historical_address_only", "company_id": "buzzsaw-com", "subject": "Buzzsaw.com", "source_url": "https://www.uspto.gov/web/trademarks/tmog/20020618_OG.pdf", "details": "Available address evidence is historical trademark/industry material and does not substantiate a current staffed physical office."},
+    {"code": "mailbox_only_address", "company_id": "campsyte", "subject": "Campsyte", "source_url": "https://campsyte.io/", "details": "The current site lists 777 Brickell Ave #500-95346, Miami, but the suite/mail identifier does not substantiate a staffed physical office for the catalog identity."},
+    {"code": "identity_acquired", "company_id": "cape", "subject": "Cape", "source_url": "https://www.linkedin.com/company/cape-networks", "details": "Cape Networks is identified as acquired by Aruba/HPE; no current standalone Cape office was validated."},
+    {"code": "identity_acquired", "company_id": "capsilon", "subject": "Capsilon", "source_url": "https://www.crunchbase.com/organization/capsilon-corporation", "details": "Capsilon is identified as acquired by ICE Mortgage Technology and closed as a standalone company; no current standalone office was validated."},
+    {"code": "identity_acquired", "company_id": "carbon-five", "subject": "Carbon Five", "source_url": "https://carbonfive.com/", "details": "The catalog domain redirects to West Monroe; the former Carbon Five San Francisco address is historical and no current standalone office was validated."},
+    {"code": "insufficient_exact_address", "company_id": "card-io", "subject": "card.io", "source_url": "https://card.io/", "details": "Current results do not substantiate a current exact physical address for the card.io catalog identity."},
+    {"code": "insufficient_exact_address", "company_id": "cardinalhire", "subject": "CardinalHire", "source_url": "https://www.linkedin.com/company/cardinalhire", "details": "Current results identify San Francisco only and do not provide an exact street address."},
+    {"code": "identity_acquired", "company_id": "cardspring", "subject": "CardSpring", "source_url": "https://ftpartners.com/transactions/cardspring", "details": "CardSpring was sold to Twitter in 2014; no current standalone CardSpring office was validated."},
+    {"code": "identity_replaced", "company_id": "cbs-interactive", "subject": "CBS Interactive", "source_url": "https://www.cbsinteractive.com", "details": "CBS Interactive is a legacy identity within Paramount/CBS streaming operations; available contact records are historical and no current standalone office was validated."},
+    {"code": "insufficient_exact_address", "company_id": "beyond-games", "subject": "Beyond Games", "source_url": "https://www.beyondgames.co/", "details": "The current site describes the team and products but provides no exact physical address."},
+    {"code": "insufficient_exact_address", "company_id": "bidalgo", "subject": "bidalgo", "source_url": "https://bidalgo.com/", "details": "Current search results identify the brand but do not substantiate an exact current physical address."},
+    {"code": "insufficient_exact_address", "company_id": "blackbird", "subject": "Blackbird", "source_url": "https://flyblackbird.com/", "details": "Current search results do not substantiate an exact physical address for the catalog company."},
+    {"code": "insufficient_exact_address", "company_id": "brigade", "subject": "Brigade", "source_url": "https://www.brigade.com/", "details": "Current results do not substantiate an exact current physical address for the catalog company."},
+    {"code": "insufficient_exact_address", "company_id": "brightback", "subject": "Brightback", "source_url": "https://cdn.brightback.com/assets/Brightback_StateofCustomerRetention_vf.pdf", "details": "Official historical material confirms San Francisco headquarters but does not provide an exact street address or current office confirmation."},
+    {"code": "insufficient_exact_address", "company_id": "brightbytes", "subject": "BrightBytes", "source_url": "https://www.brightbytes.net", "details": "Current results do not substantiate an exact current physical address."},
+    {"code": "address_conflict", "company_id": "brightpearl", "subject": "Brightpearl", "source_url": "https://www.brightpearl.com/contact-us", "details": "Current official contact material lists 211 E 7th Street, Suite 800, Austin, while the official privacy policy lists Suite 110 at the same street; the conflicting suite values were not guessed or overwritten."},
+    {"code": "insufficient_exact_address", "company_id": "brightside", "subject": "Brightside", "source_url": "https://www.gobrightside.com/terms-of-service/", "details": "Current official pages confirm the service but do not provide an exact current physical address; historical material only says San Francisco."},
+    {"code": "insufficient_exact_address", "company_id": "cantaloupe-systems", "subject": "Cantaloupe Systems", "source_url": "https://cantaloupesys.com/", "details": "Current results do not substantiate an exact current physical address."},
+    {"code": "identity_or_address_unresolved", "company_id": "canvas", "subject": "Canvas", "source_url": "https://canvas.com/", "details": "The catalog domain and historical Canvas Technologies materials do not provide a reliable current physical address for the catalog identity."},
+    {"code": "address_conflict", "company_id": "canvas-construction", "subject": "Canvas Construction", "source_url": "https://canvas.build/terms-of-use/", "details": "Available records conflict between 1960 Folsom Street and 376 Utah Street, San Francisco; no current official page resolves which address is the staffed physical location."},
+    {"code": "insufficient_exact_address", "company_id": "cayuga-wireless", "subject": "Cayuga Wireless", "source_url": "https://cayugawireless.com/", "details": "The current official site provides an email contact but no exact physical address."},
+    {"code": "insufficient_exact_address", "company_id": "certain", "subject": "Certain Inc", "source_url": "https://www.certain.com/privacy-policy/", "details": "Current official results provide no exact current physical address; older material identifies San Francisco only."}
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T20:35:34Z",
+  "changes": [
+    {
+      "company_id": "trm-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "450 Townsend St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.7744943,
+        "longitude": -122.3984135,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/trmlabs/",
+        "address_source_label": "LinkedIn company location",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "truewind",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "577 2nd St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.7822741,
+        "longitude": -122.3921474,
+        "address_status": "verified",
+        "address_source_url": "https://truewind.cc/blog/our-new-sf-office-and-in-person-vs-remote.html",
+        "address_source_label": "Official Truewind office announcement",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "turing-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "440 N Wolfe Rd",
+          "city": "Sunnyvale",
+          "region": "CA",
+          "postal_code": "94085",
+          "country": "US"
+        },
+        "latitude": 37.3835417,
+        "longitude": -122.013194,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/turing-labs-inc/",
+        "address_source_label": "LinkedIn company location",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "vastrm",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1731 Adrian Rd Ste 2",
+          "city": "Burlingame",
+          "region": "CA",
+          "postal_code": "94010",
+          "country": "US"
+        },
+        "latitude": 37.598435314185,
+        "longitude": -122.37605466618,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.appsruntheworld.com/customers-database/customers/view/vastrm-united-states",
+        "address_source_label": "Company directory profile",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "velt",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "650 California St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.792867,
+        "longitude": -122.4052192,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/veltjs/",
+        "address_source_label": "LinkedIn company location",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "venu-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "722 Messina Gardens Ln",
+          "city": "San Jose",
+          "region": "CA",
+          "postal_code": "95133",
+          "country": "US"
+        },
+        "latitude": 37.3771506,
+        "longitude": -121.8519539,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.venu3d.com/privacy",
+        "address_source_label": "Official privacy policy",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "veryfi",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "210 S B St",
+          "city": "San Mateo",
+          "region": "CA",
+          "postal_code": "94401",
+          "country": "US"
+        },
+        "latitude": 37.5660683,
+        "longitude": -122.3231555,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.veryfi.com/contact/",
+        "address_source_label": "Official contact page",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "vinci-games",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1849 Shattuck Avenue Apartment 404",
+          "city": "Berkeley",
+          "region": "CA",
+          "postal_code": "94709",
+          "country": "US"
+        },
+        "latitude": 37.8741308,
+        "longitude": -122.2683866,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.cbinsights.com/company/vinci-games",
+        "address_source_label": "CB Insights company profile",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "vitalize",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "832 Sansome St Lower Level",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.7978036,
+        "longitude": -122.4019963,
+        "address_status": "verified",
+        "address_source_url": "https://vitalize.care/legal/terms-of-use",
+        "address_source_label": "Official terms of use",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "vogent",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "vorticity",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1775 Woodside Rd Ste 302",
+          "city": "Redwood City",
+          "region": "CA",
+          "postal_code": "94061",
+          "country": "US"
+        },
+        "latitude": 37.45374522519,
+        "longitude": -122.228609445611,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.dnb.com/business-directory/company-profiles.vorticity_inc.cd0c7603b63a55b717a3f56f4e14a520.html",
+        "address_source_label": "D&B company profile",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "wasmer",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "25 Taylor St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94102",
+          "country": "US"
+        },
+        "latitude": 37.782761,
+        "longitude": -122.410779,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/wasmerio/",
+        "address_source_label": "LinkedIn company location",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "weekend-fmr-volley",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "760 Market St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.7863711,
+        "longitude": -122.4054895,
+        "address_status": "verified",
+        "address_source_url": "https://sfstandard.com/2024/09/30/ai-gaming-company-finds-a-new-home-in-union-square/",
+        "address_source_label": "San Francisco Standard office report",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "wefunder",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1885 Mission St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.7669964,
+        "longitude": -122.4197529,
+        "address_status": "verified",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/1641389/000164138924000008/xslC_X01/primary_doc.xml",
+        "address_source_label": "SEC physical-address filing",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "wildfire",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "workbase",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "transcarent",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2 South Park St Suite 100",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.782366456363,
+        "longitude": -122.393164561313,
+        "address_status": "verified",
+        "address_source_url": "https://medcitynews.com/wp-content/uploads/sites/7/2025/02/PitchBook_Transcarent_2025_02_07_19_47_32-2.pdf",
+        "address_source_label": "PitchBook company profile",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "armada",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "11 Funston Ave Suite A",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94129",
+          "country": "US"
+        },
+        "latitude": 37.7865235,
+        "longitude": -122.4723023,
+        "address_status": "verified",
+        "address_source_url": "https://wp.presidio.gov/wp-content/uploads/2024/07/PresidioTenantDirectory_July2024_02_Accessible.pdf",
+        "address_source_label": "Presidio tenant directory",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "eon",
+      "expected_status": "pending",
+      "website_url": "https://www.eon.systems/"
+    },
+    {
+      "company_id": "fabric",
+      "expected_status": "pending",
+      "website_url": "https://fabric.inc/",
+      "address_result": {
+        "address": {
+          "street": "415 Jackson St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.7964479,
+        "longitude": -122.4025885,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/teamfabric/",
+        "address_source_label": "LinkedIn company location",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "flux",
+      "expected_status": "pending",
+      "website_url": "https://flux.ai/",
+      "address_result": {
+        "address": {
+          "street": "340 Bryant St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.7835012,
+        "longitude": -122.3929361,
+        "address_status": "verified",
+        "address_source_url": "https://hoodline.com/2026/03/soma-ghost-office-snagged-by-ai-upstart-flux-for-new-sf-hq/",
+        "address_source_label": "Hoodline office report",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "frontera",
+      "expected_status": "pending",
+      "website_url": "https://frontera-ai.com/"
+    },
+    {
+      "company_id": "horizon3-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "447 Battery St Floor 3",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.7956061,
+        "longitude": -122.400545,
+        "address_status": "verified",
+        "address_source_url": "https://horizon3.ai/event/hacking-genai-horizon3-ais-san-fran-office/",
+        "address_source_label": "Official SF office event page",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "nudge",
+      "expected_status": "pending",
+      "website_url": "https://nudge.com/"
+    },
+    {
+      "company_id": "paceline",
+      "expected_status": "pending",
+      "website_url": "https://paceline.fit/",
+      "address_result": {
+        "address": {
+          "street": "595 Pacific Ave 4th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94133",
+          "country": "US"
+        },
+        "latitude": 37.79704861706,
+        "longitude": -122.405078263211,
+        "address_status": "verified",
+        "address_source_url": "https://paceline.fit/pages/terms",
+        "address_source_label": "Official terms of service",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "spiral",
+      "expected_status": "pending",
+      "website_url": "https://spiral.xyz/"
+    },
+    {
+      "company_id": "spur",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "95 Third St 2nd Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.78655397137,
+        "longitude": -122.402030100302,
+        "address_status": "verified",
+        "address_source_url": "https://www.bizprofile.net/ca/san-francisco/spur-dev-inc",
+        "address_source_label": "California business profile",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "suno-studio",
+      "expected_status": "pending",
+      "website_url": "https://suno.com/"
+    },
+    {
+      "company_id": "teal-health",
+      "expected_status": "pending",
+      "website_url": "https://www.getteal.com/",
+      "address_result": {
+        "address": {
+          "street": "1012 Torney Ave",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94129",
+          "country": "US"
+        },
+        "latitude": 37.799952,
+        "longitude": -122.4519129,
+        "address_status": "verified",
+        "address_source_url": "https://www.getteal.com/terms-of-use",
+        "address_source_label": "Official terms of use",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "titan",
+      "expected_status": "pending",
+      "website_url": "https://titancre.ai/",
+      "address_result": {
+        "address": {
+          "street": "1875 Mission St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.7671346,
+        "longitude": -122.4197663,
+        "address_status": "verified",
+        "address_source_url": "https://titancre.ai/contact",
+        "address_source_label": "Official contact page",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "unusual-circumstances",
+      "expected_status": "pending",
+      "website_url": "https://unusual.inc/"
+    },
+    {
+      "company_id": "valerie-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "3184 Lucas Dr",
+          "city": "Lafayette",
+          "region": "CA",
+          "postal_code": "94549",
+          "country": "US"
+        },
+        "latitude": 37.8700355,
+        "longitude": -122.0890321,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.bizprofile.net/ca/lafayette/valerie-health-inc",
+        "address_source_label": "California business profile",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "vizcom",
+      "expected_status": "pending",
+      "website_url": "https://vizcom.com/",
+      "address_result": {
+        "address": {
+          "street": "488 Bryant St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.781756714816,
+        "longitude": -122.395697991548,
+        "address_status": "verified",
+        "address_source_url": "https://vizcom.com/legal/terms-of-service",
+        "address_source_label": "Official terms of service",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "world",
+      "expected_status": "pending",
+      "website_url": "https://world.org/",
+      "address_result": {
+        "address": {
+          "street": "600 Townsend St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.771705890899,
+        "longitude": -122.402682882921,
+        "address_status": "verified",
+        "address_source_url": "https://www.sfchronicle.com/realestate/article/sam-altman-startup-world-signs-lease-20244011.php",
+        "address_source_label": "San Francisco Chronicle office report",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    },
+    {
+      "company_id": "you-com",
+      "expected_status": "pending",
+      "website_url": "https://you.com/",
+      "address_result": {
+        "address": {
+          "street": "417 Montgomery St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.793388910495,
+        "longitude": -122.403253103794,
+        "address_status": "verified",
+        "address_source_url": "https://you.com/msa",
+        "address_source_label": "Official master services agreement",
+        "verified_date": "2026-08-28T20:35:34Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "physical_address_unconfirmed",
+      "company_id": "truss",
+      "subject": "physical_address",
+      "source_url": "https://trusspayments.com/legal/terms-of-service-01-25-2024",
+      "details": "The only address located was 2261 Market St #4415, presented as a notice address; bounded research did not establish a current physical office distinct from a mail or unit address, so the record remains pending."
+    },
+    {
+      "code": "physical_address_not_found",
+      "company_id": "varos",
+      "subject": "physical_address",
+      "source_url": "https://www.linkedin.com/company/varos-com",
+      "details": "Current company listings identify San Francisco only and do not provide a credible street address for a physical office."
+    },
+    {
+      "code": "identity_ambiguous",
+      "company_id": "versable",
+      "subject": "company_identity",
+      "source_url": "https://versableai.com/privacy/",
+      "details": "Bounded results did not provide an unambiguous current physical address tied to the catalog company; similarly named results were rejected."
+    },
+    {
+      "code": "company_acquired",
+      "company_id": "vogent",
+      "subject": "physical_address",
+      "source_url": "https://www.ycombinator.com/companies/vogent/jobs",
+      "details": "The current YC company profile marks Vogent as acquired, and no current independent street address was found; the address was recorded as not_found."
+    },
+    {
+      "code": "company_acquired",
+      "company_id": "wildfire",
+      "subject": "physical_address",
+      "source_url": "https://www.ycombinator.com/companies/wildfire",
+      "details": "Wildfire is marked acquired by Opendoor; its historical San Francisco address was not accepted as a current independent office, so the address was recorded as not_found."
+    },
+    {
+      "code": "company_acquired",
+      "company_id": "workbase",
+      "subject": "company_identity",
+      "source_url": "https://www.cbinsights.com/company/workbase",
+      "details": "The catalog WorkBase was acquired by Hightouch in 2022, while the current workbase.com entity is a different company with a New York address; no current independent San Francisco office was accepted, so the address was recorded as not_found."
+    },
+    {
+      "code": "physical_address_not_found",
+      "company_id": "eon",
+      "subject": "physical_address",
+      "source_url": "https://www.linkedin.com/company/eon-systems",
+      "details": "The matching Eon Systems profile identifies San Francisco only and does not publish a credible street address for a physical office."
+    },
+    {
+      "code": "physical_address_not_found",
+      "company_id": "frontera",
+      "subject": "physical_address",
+      "source_url": "https://www.linkedin.com/company/fronteraai",
+      "details": "The matching Frontera profile provided an official website but no credible current physical street address; the record remains pending."
+    },
+    {
+      "code": "mailbox_address_rejected",
+      "company_id": "nudge",
+      "subject": "physical_address",
+      "source_url": "https://www.nudge.com/terms-of-service/",
+      "details": "The available San Francisco address is 548 Market Street #78809, a mailbox-style unit address; no credible physical office address was found, so the record remains pending."
+    },
+    {
+      "code": "physical_address_incomplete",
+      "company_id": "spiral",
+      "subject": "physical_address",
+      "source_url": "https://www.linkedin.com/company/spiralxyz",
+      "details": "Current sources identify Spiral with San Francisco activity but do not provide a credible current San Francisco street address; the record remains pending."
+    },
+    {
+      "code": "physical_address_incomplete",
+      "company_id": "suno-studio",
+      "subject": "physical_address",
+      "source_url": "https://about.suno.com/",
+      "details": "Suno's current official site confirms a San Francisco office but publishes no street address, and bounded reporting only places it near Mission and 2nd; no exact geocodable address was accepted."
+    },
+    {
+      "code": "physical_address_not_found",
+      "company_id": "unusual-circumstances",
+      "subject": "physical_address",
+      "source_url": "https://www.linkedin.com/company/unusual-inc",
+      "details": "The matching company profile identifies the company and official website but does not provide a credible current physical office address."
+    }
+  ]
+}

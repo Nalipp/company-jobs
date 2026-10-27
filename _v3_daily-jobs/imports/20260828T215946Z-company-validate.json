@@ -1,0 +1,1528 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T21:59:46Z",
+  "changes": [
+    {
+      "company_id": "openland",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "optimizely",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "119 Fifth Ave, 7th Floor",
+          "city": "New York",
+          "region": "NY",
+          "postal_code": "10003",
+          "country": "US"
+        },
+        "latitude": 40.739061469556,
+        "longitude": -73.990908970121,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.optimizely.com/company/offices",
+        "address_source_label": "Optimizely official offices page — global headquarters",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "oqton",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "25601 Hercules St.",
+          "city": "Valencia",
+          "region": "CA",
+          "postal_code": "91355",
+          "country": "US"
+        },
+        "latitude": 34.454242114189,
+        "longitude": -118.578276112014,
+        "address_status": "outside_sf",
+        "address_source_url": "https://oqton.com/terms-and-conditions/",
+        "address_source_label": "Oqton official terms — company address",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "orangekloud",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1510 Fashion Island Blvd, Suite 200",
+          "city": "San Mateo",
+          "region": "CA",
+          "postal_code": "94404",
+          "country": "US"
+        },
+        "latitude": 37.557671520653,
+        "longitude": -122.285505133814,
+        "address_status": "outside_sf",
+        "address_source_url": "https://orangekloud.com/contact-us/",
+        "address_source_label": "OrangeKloud official contact page — US office",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "orchid",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "organizer",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "origin-protocol",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "osso-vr",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "outboundworks",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "outco",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "outline",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "outlyer",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "outpace-systems",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1990 North California Boulevard, 8th Floor",
+          "city": "Walnut Creek",
+          "region": "CA",
+          "postal_code": "94596",
+          "country": "US"
+        },
+        "latitude": 37.906610678373,
+        "longitude": -122.065480191756,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.outpace.com/team",
+        "address_source_label": "Outpace official team page — company address",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "outreach",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "333 Elliott Ave W, Suite 500",
+          "city": "Seattle",
+          "region": "WA",
+          "postal_code": "98119",
+          "country": "US"
+        },
+        "latitude": 47.621010331261,
+        "longitude": -122.361884053034,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.outreach.io/company/contact",
+        "address_source_label": "Outreach official contact page — headquarters",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "pachyderm",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "panoply",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "parabola",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "228 Grant Avenue, Fl 4",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.789120803489,
+        "longitude": -122.405010956528,
+        "address_status": "verified",
+        "address_source_url": "https://parabola.io/legal/privacy",
+        "address_source_label": "Parabola official privacy policy — company address",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "paradiso-solutions",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "pared",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "parsable",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "passare",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "6550 Directors Pkwy",
+          "city": "Abilene",
+          "region": "TX",
+          "postal_code": "79606",
+          "country": "US"
+        },
+        "latitude": 32.36959498486,
+        "longitude": -99.745961986364,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.passare.com/terms",
+        "address_source_label": "Passare official terms — company address",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "patagonia",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "259 W Santa Clara St",
+          "city": "Ventura",
+          "region": "CA",
+          "postal_code": "93001",
+          "country": "US"
+        },
+        "latitude": 34.280618575532,
+        "longitude": -119.30487236907,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.patagonia.com/terms-of-use.html?modal=none",
+        "address_source_label": "Patagonia official terms — company address",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "path",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "pathlight",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "pathrise",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "pathstream",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "peach",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "peerlogic",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "15059 N Scottsdale Rd, Suite M3-350",
+          "city": "Scottsdale",
+          "region": "AZ",
+          "postal_code": "85254",
+          "country": "US"
+        },
+        "latitude": 33.623543248337,
+        "longitude": -111.923277001792,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.peerlogic.com/about",
+        "address_source_label": "Peerlogic official about page — physical address",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "peoplegrove",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1 Coastway Blvd, Suite 101",
+          "city": "Warwick",
+          "region": "RI",
+          "postal_code": "02886",
+          "country": "US"
+        },
+        "latitude": 41.722337040921,
+        "longitude": -71.455402705565,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.peoplegrove.com/about/contact/",
+        "address_source_label": "PeopleGrove official contact page — mailing address",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "perkville",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "phigital",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "phil",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "14500 N Northsight Blvd, Suite 307",
+          "city": "Scottsdale",
+          "region": "AZ",
+          "postal_code": "85260",
+          "country": "US"
+        },
+        "latitude": 33.616997233414,
+        "longitude": -111.898592632217,
+        "address_status": "outside_sf",
+        "address_source_url": "https://web.phil.us/company/",
+        "address_source_label": "Phil official company page — corporate headquarters",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "picnichealth",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "850 Folsom Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.781347007389,
+        "longitude": -122.402613983677,
+        "address_status": "verified",
+        "address_source_url": "https://picnichealth.com/terms-of-use",
+        "address_source_label": "PicnicHealth official terms — company address",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "pico-interactive",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "pipefy",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "pique-tea",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "piston-cloud-computing",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "pix-system",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "pixlee",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "planet-soho",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "planisware",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "555 Montgomery St, Suite 1300",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.794393313953,
+        "longitude": -122.403438343854,
+        "address_status": "verified",
+        "address_source_url": "https://planisware.com/contact-us",
+        "address_source_label": "Planisware official contact page — US office",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "plenty",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "570 Eccles Avenue",
+          "city": "South San Francisco",
+          "region": "CA",
+          "postal_code": "94080",
+          "country": "US"
+        },
+        "latitude": 37.661223983234,
+        "longitude": -122.388255280623,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.plenty.ag/plenty-terms-and-conditions/",
+        "address_source_label": "Plenty official terms — service address",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "plivo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "6001 W Parmer Ln, Suite 370",
+          "city": "Austin",
+          "region": "TX",
+          "postal_code": "78727",
+          "country": "US"
+        },
+        "latitude": 30.441459026393,
+        "longitude": -97.742541030861,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.plivo.com/about/",
+        "address_source_label": "Plivo official about page — headquarters",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "pluma",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "pogoplug",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "poll-everywhere",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "pollyex",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "popsugar",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "postscript",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "3370 N Hayden Road, Suite 123-251",
+          "city": "Scottsdale",
+          "region": "AZ",
+          "postal_code": "85251",
+          "country": "US"
+        },
+        "latitude": 33.486849620699,
+        "longitude": -111.910255547571,
+        "address_status": "outside_sf",
+        "address_source_url": "https://postscript.io/partners-terms-of-service",
+        "address_source_label": "Postscript official partner terms — legal notice address",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "powr",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "4460 Redwood Hwy, Suite 16-659",
+          "city": "San Rafael",
+          "region": "CA",
+          "postal_code": "94903",
+          "country": "US"
+        },
+        "latitude": 38.018710435377,
+        "longitude": -122.538760482584,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.powr.io/about",
+        "address_source_label": "POWR official about page — headquarters",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "practice-fusion",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "305 Church at North Hills St",
+          "city": "Raleigh",
+          "region": "NC",
+          "postal_code": "27609",
+          "country": "US"
+        },
+        "latitude": 35.835202320402,
+        "longitude": -78.636302705219,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.practicefusion.com/assets/misc/Compliance-Certificate_Practice-Fusion-EHR-3.7_2025Sep05.pdf",
+        "address_source_label": "Practice Fusion official 2025 compliance certificate — current address",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "pramp",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "preact",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "premise",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "535 Mission Street, Suite 1200",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.788870855136,
+        "longitude": -122.39812606126,
+        "address_status": "verified",
+        "address_source_url": "https://premise.com/wp-content/uploads/Premise_Modern_Slavery_Human_Trafficking_Statement.pdf",
+        "address_source_label": "Premise official statement — company address",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "prezi",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "primer-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "prisma",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "privacera",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "39300 Civic Center Drive #140",
+          "city": "Fremont",
+          "region": "CA",
+          "postal_code": "94538",
+          "country": "US"
+        },
+        "latitude": 37.555348560007,
+        "longitude": -121.976823779744,
+        "address_status": "outside_sf",
+        "address_source_url": "https://privacera.com/termsandconditions/",
+        "address_source_label": "Privacera official terms — company address",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "process-street",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "prodigy",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "product-school",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "projector",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "properly",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "propertyware",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "proseeder-technologies",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "proto-io",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "44 Montgomery St, Suite 300",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.789807658545,
+        "longitude": -122.401766908542,
+        "address_status": "verified",
+        "address_source_url": "https://proto.io/en/privacy-policy/",
+        "address_source_label": "Proto.io official privacy policy — company address",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "proven",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "proxy",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "pusher",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "3 More London Riverside, 4th Floor",
+          "city": "London",
+          "region": "England",
+          "postal_code": "SE1 2AQ",
+          "country": "GB"
+        },
+        "latitude": 51.504978488085,
+        "longitude": -0.080503454411,
+        "address_status": "outside_sf",
+        "address_source_url": "https://pusher.com/legal-archived/our-promise/",
+        "address_source_label": "Pusher official legal page — registered office",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "pussy",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "q9-elements",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "qordoba",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "quantcast",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "795 Folsom St",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.782277859646,
+        "longitude": -122.400599141792,
+        "address_status": "verified",
+        "address_source_url": "https://www.quantcast.com/about-us",
+        "address_source_label": "Quantcast official about page — San Francisco office",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    },
+    {
+      "company_id": "quantstamp",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "850 New Burton Road, Suite 201",
+          "city": "Dover",
+          "region": "DE",
+          "postal_code": "19904",
+          "country": "US"
+        },
+        "latitude": 39.148640939569,
+        "longitude": -75.53046366923,
+        "address_status": "outside_sf",
+        "address_source_url": "https://quantstamp.com/legal/terms",
+        "address_source_label": "Quantstamp official terms — company address",
+        "verified_date": "2026-08-28T21:59:46Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "no_current_physical_address",
+      "company_id": "openland",
+      "subject": "physical_address",
+      "source_url": "https://openland.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "virtual_or_mailbox_address",
+      "company_id": "orchid",
+      "subject": "physical_address",
+      "source_url": "https://www.orchid.com/about/",
+      "details": "The official address is explicitly a mailing address with a numbered unit; no staffed physical office was confirmed."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "organizer",
+      "subject": "physical_address",
+      "source_url": "https://organizer.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "registered_address_only",
+      "company_id": "origin-protocol",
+      "subject": "physical_address",
+      "source_url": "https://www.originprotocol.com/privacy",
+      "details": "An official Cayman legal address was found, but it is a registered/legal location and could not be reliably geocoded to a street-level office; no operating office was confirmed."
+    },
+    {
+      "code": "virtual_or_mailbox_address",
+      "company_id": "osso-vr",
+      "subject": "physical_address",
+      "source_url": "https://www.ossovr.com/terms",
+      "details": "The official primary-place-of-business address uses a PMB mailbox designation; no staffed physical office was confirmed."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "outboundworks",
+      "subject": "physical_address",
+      "source_url": "https://outboundworks.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "outco",
+      "subject": "physical_address",
+      "source_url": "https://www.outco.io/",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "outline",
+      "subject": "physical_address",
+      "source_url": "https://outline.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "outlyer",
+      "subject": "physical_address",
+      "source_url": "https://outlyer.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "entity_transition",
+      "company_id": "pachyderm",
+      "subject": "physical_address",
+      "source_url": "https://www.pachyderm.com/events/",
+      "details": "The current official site says Pachyderm was acquired by Hewlett Packard Enterprise; no current standalone physical office was confirmed."
+    },
+    {
+      "code": "entity_transition",
+      "company_id": "panoply",
+      "subject": "physical_address",
+      "source_url": "https://panoply.io/company/",
+      "details": "The current official site says Panoply is now part of SQream; available exact addresses are stale and no current standalone office was confirmed."
+    },
+    {
+      "code": "virtual_or_mailbox_address",
+      "company_id": "paradiso-solutions",
+      "subject": "physical_address",
+      "source_url": "https://continuing-education-website.paradisosolutions.com/privacy-policy-2/",
+      "details": "The current official address is a numbered unit/mailbox-style address; no staffed physical office was confirmed."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "pared",
+      "subject": "physical_address",
+      "source_url": "https://pared.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "entity_transition",
+      "company_id": "parsable",
+      "subject": "physical_address",
+      "source_url": "https://parsable.com/news/cai-software-llc-acquires-parsable-inc-a-leading-connected-worker-platform-for-manufacturers/",
+      "details": "Parsable was acquired by CAI; an older official San Francisco address exists, but no current standalone physical office was confirmed."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "path",
+      "subject": "physical_address",
+      "source_url": "https://path.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "pathlight",
+      "subject": "physical_address",
+      "source_url": "https://pathlight.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "remote_no_physical_office",
+      "company_id": "pathrise",
+      "subject": "physical_address",
+      "source_url": "https://www.pathrise.com/careers",
+      "details": "The official careers page describes a fully distributed team and gives no physical office address."
+    },
+    {
+      "code": "address_source_conflict",
+      "company_id": "pathstream",
+      "subject": "physical_address",
+      "source_url": "https://pathstream.com/privacy-policy",
+      "details": "Current official pages provide multiple San Francisco mailing/legal addresses and do not establish a staffed physical office."
+    },
+    {
+      "code": "entity_transition",
+      "company_id": "peach",
+      "subject": "physical_address",
+      "source_url": "https://www.peachfinance.com/about",
+      "details": "The official site says Peach joined SoFi in May 2026; no current standalone physical office was confirmed."
+    },
+    {
+      "code": "virtual_or_mailbox_address",
+      "company_id": "perkville",
+      "subject": "physical_address",
+      "source_url": "https://info.perkville.com/privacy",
+      "details": "The official address uses a numbered Market Street unit consistent with a mailbox; no staffed physical office was confirmed."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "phigital",
+      "subject": "physical_address",
+      "source_url": "https://gophigital.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "pico-interactive",
+      "subject": "physical_address",
+      "source_url": "https://pico-interactive.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "virtual_or_mailbox_address",
+      "company_id": "pipefy",
+      "subject": "physical_address",
+      "source_url": "https://www.pipefy.com/legal-portal/terms-and-conditions/",
+      "details": "The current official address uses a PMB mailbox designation; no staffed physical office was confirmed."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "pique-tea",
+      "subject": "physical_address",
+      "source_url": "https://www.piquetea.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "piston-cloud-computing",
+      "subject": "physical_address",
+      "source_url": "https://pistoncloud.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "pix-system",
+      "subject": "physical_address",
+      "source_url": "https://pixsystem.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "entity_transition",
+      "company_id": "pixlee",
+      "subject": "physical_address",
+      "source_url": "https://assets.pixlee.com/website/hubspot/pdf/Use-Case-Guides/Social-Contests-Pixlee-Use-Case-Guide.pdf",
+      "details": "Older official Pixlee collateral lists a San Francisco address, but current Pixlee operations are under Emplifi and no current standalone office was confirmed."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "planet-soho",
+      "subject": "physical_address",
+      "source_url": "https://www.planetsoho.com/",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "pluma",
+      "subject": "physical_address",
+      "source_url": "https://pluma.co",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "pogoplug",
+      "subject": "physical_address",
+      "source_url": "https://pogoplug.com",
+      "details": "No current official standalone physical street address was found."
+    },
+    {
+      "code": "virtual_or_mailbox_address",
+      "company_id": "poll-everywhere",
+      "subject": "physical_address",
+      "source_url": "https://www.polleverywhere.com/2024-ISO27701-Certificate.pdf",
+      "details": "The current official address uses a PMB mailbox designation and remote-work language; no staffed physical office was confirmed."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "pollyex",
+      "subject": "physical_address",
+      "source_url": "https://pollyex.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "entity_transition",
+      "company_id": "popsugar",
+      "subject": "physical_address",
+      "source_url": "https://www.voxmedia.com/2026/06/18/penske-media-corporation-acquires-vox-media-brands-including-eater-the-verge-sb-nation-popsugar-and-the-dodo-creating-the-worlds-largest-digital-media-publisher/",
+      "details": "POPSUGAR is a media brand moving through Vox Media/PMC corporate transitions; no current standalone physical office was confirmed."
+    },
+    {
+      "code": "entity_transition",
+      "company_id": "pramp",
+      "subject": "physical_address",
+      "source_url": "https://www.pramp.com/about",
+      "details": "Pramp is presented as a product by Exponent; older San Francisco office references were not treated as a current standalone office."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "preact",
+      "subject": "physical_address",
+      "source_url": "https://preact.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "virtual_or_mailbox_address",
+      "company_id": "prezi",
+      "subject": "physical_address",
+      "source_url": "https://prezi.com/contact/",
+      "details": "The current official address is a PMB mailbox in Concord; no staffed physical office was confirmed."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "primer-ai",
+      "subject": "physical_address",
+      "source_url": "https://www.primer.ai/company/careers",
+      "details": "The current official site confirms a San Francisco office but does not publish a current street address; older exact addresses were not treated as current."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "prisma",
+      "subject": "physical_address",
+      "source_url": "https://www.prisma.io/legal/privacy",
+      "details": "The current official privacy policy covers graph.cool but does not publish a physical company address."
+    },
+    {
+      "code": "virtual_or_mailbox_address",
+      "company_id": "process-street",
+      "subject": "physical_address",
+      "source_url": "https://www.process.st/privacy/",
+      "details": "The current official address includes a PMB mailbox designation; no staffed physical office was confirmed."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "prodigy",
+      "subject": "physical_address",
+      "source_url": "https://getprodigy.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "product-school",
+      "subject": "physical_address",
+      "source_url": "https://productschool.com/contact-us",
+      "details": "The current official contact page provides contact forms and hours but no physical street address."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "projector",
+      "subject": "physical_address",
+      "source_url": "https://projector.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "properly",
+      "subject": "physical_address",
+      "source_url": "https://getproperly.com",
+      "details": "The current official site and help center provide product information but no company physical street address."
+    },
+    {
+      "code": "entity_transition",
+      "company_id": "propertyware",
+      "subject": "physical_address",
+      "source_url": "https://www.propertyware.com/about-us/",
+      "details": "Propertyware is presented as part of RealPage; no current standalone Propertyware physical office was confirmed."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "proseeder-technologies",
+      "subject": "physical_address",
+      "source_url": "https://proseeder.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "proven",
+      "subject": "physical_address",
+      "source_url": "https://proven.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "proxy",
+      "subject": "physical_address",
+      "source_url": "https://www.proxy.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "pussy",
+      "subject": "physical_address",
+      "source_url": "https://pussyproject.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "q9-elements",
+      "subject": "physical_address",
+      "source_url": "https://elements.cloud/contact-us/",
+      "details": "The current official contact page identifies San Francisco headquarters but does not publish a street address."
+    },
+    {
+      "code": "no_current_physical_address",
+      "company_id": "qordoba",
+      "subject": "physical_address",
+      "source_url": "https://qordoba.com",
+      "details": "No current official physical street address was found."
+    },
+    {
+      "code": "address_source_conflict",
+      "company_id": "oqton",
+      "subject": "physical_address",
+      "source_url": "https://oqton.com/contact-us/",
+      "details": "The current official contact page lists a Novi, Michigan office under 3DXpert US Corp, while Oqton's current legal terms list Valencia, California; the legal Oqton address was used for outside-SF validation."
+    },
+    {
+      "code": "address_source_conflict",
+      "company_id": "orangekloud",
+      "subject": "physical_address",
+      "source_url": "https://orangekloud.com/wp-content/uploads/2025/05/ORANGEKLOUD-TECHNOLOGY-INC-04-15-2025-Form-20-F-Filed-Version.pdf",
+      "details": "The official contact page lists the San Mateo US office, while the 2025 Form 20-F identifies Singapore as the principal executive office; the San Mateo office was used for outside-SF validation."
+    },
+    {
+      "code": "mailing_address_only",
+      "company_id": "peoplegrove",
+      "subject": "physical_address",
+      "source_url": "https://www.peoplegrove.com/about/contact/",
+      "details": "The current official page labels the Warwick address as a mailing address; it was recorded as outside-SF, but staffed-office status is not confirmed."
+    },
+    {
+      "code": "address_source_conflict",
+      "company_id": "pathstream",
+      "subject": "physical_address",
+      "source_url": "https://pathstream.com/terms-of-use-enterprise",
+      "details": "Current official pages conflict between 5447 Sutter St Suite 405 and 447 Sutter St Suite 405 in San Francisco, and both are presented as legal/mailing addresses; no validation change was made."
+    },
+    {
+      "code": "address_source_conflict",
+      "company_id": "practice-fusion",
+      "subject": "physical_address",
+      "source_url": "https://www.practicefusion.com/pages/user-agreement.html",
+      "details": "An older official user agreement lists a San Francisco address, while the current 2025 compliance certificate lists Raleigh, North Carolina; the current Raleigh address was used for outside-SF validation."
+    },
+    {
+      "code": "mailing_address_only",
+      "company_id": "postscript",
+      "subject": "physical_address",
+      "source_url": "https://postscript.io/partners-terms-of-service",
+      "details": "The current official terms provide the Scottsdale address for legal notices; staffed-office status is not confirmed."
+    },
+    {
+      "code": "registered_address_only",
+      "company_id": "privacera",
+      "subject": "physical_address",
+      "source_url": "https://privacera.com/termsandconditions/",
+      "details": "The current official terms provide a Fremont legal address; the record is outside-SF, but the page does not establish whether it is a staffed operating office."
+    },
+    {
+      "code": "registered_address_only",
+      "company_id": "pusher",
+      "subject": "physical_address",
+      "source_url": "https://pusher.com/legal-archived/our-promise/",
+      "details": "The current official legal page identifies a registered office at a MessageBird address in London; it is outside-SF, but operating-office status is not confirmed."
+    },
+    {
+      "code": "unknown_company_id",
+      "company_id": "qualified",
+      "subject": "company_id",
+      "source_url": null,
+      "details": "Requested company ID is not present in data/companies.json; no validation change was made."
+    }
+  ]
+}

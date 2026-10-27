@@ -1,0 +1,1392 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-28T21:41:36Z",
+  "changes": [
+    {
+      "company_id": "general-assembly",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "225 Bush Street, 5th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.7908034,
+        "longitude": -122.4013027,
+        "address_status": "verified",
+        "address_source_url": "https://www.generalassemb.ly/education/coaching-coffee-talks-take-that-next-step-in-your-career/san-francisco",
+        "address_source_label": "General Assembly official San Francisco campus listing",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "getaccept",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "getfeedback",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "gigster",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "gigwalk",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "539 Bryant Street, Suite 404",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.7803268,
+        "longitude": -122.3967867,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/gigwalk",
+        "address_source_label": "Gigwalk current LinkedIn office listing",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "giveffect",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "630 8th Street, Suite 10",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.7719884,
+        "longitude": -122.4064761,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/giveffect",
+        "address_source_label": "Giveffect current LinkedIn office listing",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "gladly",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "60 29th Street, Suite 125",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94110",
+          "country": "US"
+        },
+        "latitude": 37.7441307,
+        "longitude": -122.421563,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/gladly-inc/?via=neal",
+        "address_source_label": "Gladly current LinkedIn office listing",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "gliffy",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "glu-mobile",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "gobalto",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "godaddy",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "100 S. Mill Avenue, Suite 1600",
+          "city": "Tempe",
+          "region": "AZ",
+          "postal_code": "85281",
+          "country": "US"
+        },
+        "latitude": 33.4293402,
+        "longitude": -111.9402828,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/1609711/000160971125000062/0001609711-25-000062-index.html",
+        "address_source_label": "GoDaddy current SEC business address",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "gogrid",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "gonimbly",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1550 Bryant Street, Suite 770",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.7675516,
+        "longitude": -122.4111749,
+        "address_status": "verified",
+        "address_source_url": "https://www.bizprofile.net/ca/san-francisco/go-nimbly-inc",
+        "address_source_label": "Go Nimbly current public corporate filing address",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "good-and",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "74 Langton Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.7765174,
+        "longitude": -122.4089216,
+        "address_status": "verified",
+        "address_source_url": "https://gt.linkedin.com/company/good.co",
+        "address_source_label": "Good.co current LinkedIn office listing",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "gooddata",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "135 Main Street, Suite 550",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7915667,
+        "longitude": -122.3941325,
+        "address_status": "verified",
+        "address_source_url": "https://www.gooddata.ai/contact/",
+        "address_source_label": "GoodData official contact page",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "goodtime",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "grabr",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "201 Spear Street, Suite 1100",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7912408,
+        "longitude": -122.3919786,
+        "address_status": "verified",
+        "address_source_url": "https://grabr.io/en/terms",
+        "address_source_label": "Grabr official terms",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "gradle",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "grand-rounds",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "graphite",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "95 3rd Street, 2nd Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.7865553,
+        "longitude": -122.4020759,
+        "address_status": "verified",
+        "address_source_url": "https://www.graphite.com/about-us",
+        "address_source_label": "Graphite official company page",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "greenhouse-software",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "575 Market Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7893464,
+        "longitude": -122.4008605,
+        "address_status": "verified",
+        "address_source_url": "https://www.glassdoor.com/Location/Greenhouse-Software-San-Francisco-Location-EI_IE657749.0%2C19_IL.20%2C33_IC1147401.htm",
+        "address_source_label": "Greenhouse Software current San Francisco office listing",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "groove",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "grove-collaborative",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1301 Sansome Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.7980106,
+        "longitude": -122.4021535,
+        "address_status": "verified",
+        "address_source_url": "https://investors.grove.co/company-information",
+        "address_source_label": "Grove Collaborative official investor page",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "growlabs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "growthx",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hack-reactor",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hall",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "haven",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hearsay-systems",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "heirloom-computing",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "3000 Danville Boulevard, Suite 148",
+          "city": "Alamo",
+          "region": "CA",
+          "postal_code": "94507",
+          "country": "US"
+        },
+        "latitude": 37.8524043,
+        "longitude": -122.0333444,
+        "address_status": "outside_sf",
+        "address_source_url": "https://heirloomcomputing.com/contact/",
+        "address_source_label": "Heirloom Computing official offices page",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hellomd",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "125 E Sir Francis Drake Boulevard, Suite 200",
+          "city": "Larkspur",
+          "region": "CA",
+          "postal_code": "94939",
+          "country": "US"
+        },
+        "latitude": 37.9460275,
+        "longitude": -122.510788,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.hellomd.com/terms-of-use-2/",
+        "address_source_label": "HelloMD official terms",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hellooffice",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "helpshift",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "helpware",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hemlane",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "218 9th Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.774607,
+        "longitude": -122.4129296,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/hemlane",
+        "address_source_label": "Hemlane current LinkedIn office listing",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hevo-data",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1390 Market Street, Suite 200",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94102",
+          "country": "US"
+        },
+        "latitude": 37.7771724,
+        "longitude": -122.4176881,
+        "address_status": "verified",
+        "address_source_url": "https://hevodata.com/contact/",
+        "address_source_label": "Hevo Data official contact page",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hireathena",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hired",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hive",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "100 1st Street, 11th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.789207,
+        "longitude": -122.397587,
+        "address_status": "verified",
+        "address_source_url": "https://thehive.ai/terms-of-use",
+        "address_source_label": "Hive official terms",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "holberton-school",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "holobuilder",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "homeshare",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "98 Battery Street, Suite 220",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.7920553,
+        "longitude": -122.3995768,
+        "address_status": "verified",
+        "address_source_url": "https://www.bbb.org/us/ca/san-francisco/profile/internet-service/homeshare-inc-1116-897007",
+        "address_source_label": "HomeShare current BBB business profile",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "honeybook",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "539 Bryant Street, Suite 200",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.7803268,
+        "longitude": -122.3967867,
+        "address_status": "verified",
+        "address_source_url": "https://www.honeybook.com/legal/terms-of-service",
+        "address_source_label": "HoneyBook official terms and notice address",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hoodline",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hotpads",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hotwire",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hubilo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "humanity",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hummingbird",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hyp3r",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hustle",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "251 Kearny Street, Suite 300",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.795144,
+        "longitude": -122.404306,
+        "address_status": "verified",
+        "address_source_url": "https://www.cbinsights.com/company/hustle",
+        "address_source_label": "Hustle current company profile office listing",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "hyperfair",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "Avenue Gustave Demey 57",
+          "city": "Auderghem",
+          "region": "Brussels-Capital Region",
+          "postal_code": "1160",
+          "country": "BE"
+        },
+        "latitude": 50.8130802,
+        "longitude": 4.424839,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.hyperfair.com/privacy-policy.html",
+        "address_source_label": "Hyperfair official privacy policy address",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "ideate",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "44 Montgomery Street, Suite 1000",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.7896307,
+        "longitude": -122.4018876,
+        "address_status": "verified",
+        "address_source_url": "https://www.ideateinc.com/assets/success-ya-studio.pdf",
+        "address_source_label": "Ideate official company material",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "ign-entertainment",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "ignition-design-labs",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "imgur",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "415 Jackson Street, Suite 200",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.7963187,
+        "longitude": -122.4023469,
+        "address_status": "verified",
+        "address_source_url": "https://www.bbb.org/us/ca/san-francisco/profile/internet-service/imgur-1116-462619",
+        "address_source_label": "Imgur current BBB business profile",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "imperfect-foods",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "impira",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "incloudcounsel",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "indiegogo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "965 Mission Street, 6th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.7737812,
+        "longitude": -122.4155787,
+        "address_status": "verified",
+        "address_source_url": "https://learn.indiegogo.com/privacy-policy-en/?r=igg_www_xx_0000_igg00004_0000000_002_0000_",
+        "address_source_label": "Indiegogo official privacy policy",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "indiez",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "indinero",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "industrial-light-and-magic",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "inference",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "influxdata",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "innovaccer",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "201 Mission Street, Suite 2900",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7911641,
+        "longitude": -122.3950412,
+        "address_status": "verified",
+        "address_source_url": "https://innovaccer.com/contact-us",
+        "address_source_label": "Innovaccer official contact page",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "insightly",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    },
+    {
+      "company_id": "insitro",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "279 East Grand Avenue",
+          "city": "South San Francisco",
+          "region": "CA",
+          "postal_code": "94080",
+          "country": "US"
+        },
+        "latitude": 37.655025,
+        "longitude": -122.4049506,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.insitro.com/",
+        "address_source_label": "insitro official company site and lab address",
+        "verified_date": "2026-08-28T21:41:36Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "mailbox_only_address",
+      "company_id": "getaccept",
+      "subject": "Current address is a mailbox-only contact address",
+      "source_url": "https://www.getaccept.com/contact-us",
+      "details": "The official contact page publishes 2261 Market Street #4358, a mailbox-style address rather than a verified staffed office. Retry: /company-validate company getaccept"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "getfeedback",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.surveymonkey.com/newsroom/surveymonkey-completes-acquisition-of-getfeedback/",
+      "details": "SurveyMonkey announced its acquisition of GetFeedback; no current standalone GetFeedback physical office was established. Retry: /company-validate company getfeedback"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "gigster",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.inknowvation.com/sbir/companies/gigster-inc",
+      "details": "Gigster is reported as acquired and no current standalone physical office was established; historical San Francisco addresses were not treated as current. Retry: /company-validate company gigster"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "gliffy",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.gliffy.com/security",
+      "details": "Gliffy is owned by Perforce; no current standalone Gliffy physical office was established. Retry: /company-validate company gliffy"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "glu-mobile",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/712515/000071252521000033/ea-20210429.htm",
+      "details": "Electronic Arts completed its acquisition of Glu Mobile; no current standalone Glu Mobile physical office was established. Retry: /company-validate company glu-mobile"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "gobalto",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.oracle.com/corporate/pressrelease/oracle-buys-gobalto-101718.html",
+      "details": "Oracle announced its acquisition of goBalto; no current standalone goBalto physical office was established. Retry: /company-validate company gobalto"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "gogrid",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.rackspace.com/en-nz/datapipe",
+      "details": "Rackspace states that its Datapipe acquisition included GoGrid; no current standalone GoGrid physical office was established. Retry: /company-validate company gogrid"
+    },
+    {
+      "code": "insufficient_exact_address",
+      "company_id": "goodtime",
+      "subject": "Current exact physical office not established",
+      "source_url": "https://goodtime.io/contact-us-main/",
+      "details": "The official contact page does not publish an exact street address; available current company material establishes the company but not a current physical office. Retry: /company-validate company goodtime"
+    },
+    {
+      "code": "mailbox_only_address",
+      "company_id": "gradle",
+      "subject": "Current address is a mailbox-only contact address",
+      "source_url": "https://gradle.com/legal/gradle-technologies-inc.-terms-of-use",
+      "details": "The official terms publish 2261 Market Street #4081, a mailbox-style address rather than a verified staffed office. Retry: /company-validate company gradle"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "grand-rounds",
+      "subject": "Company merged; no current standalone physical office established",
+      "source_url": "https://includedhealth.com/announcements/grand-rounds-and-doctor-on-demand-complete-merger-to-form-the-only-virtual-care-company-of-its-kind/",
+      "details": "Grand Rounds merged into Included Health; no current standalone Grand Rounds physical office was established. Retry: /company-validate company grand-rounds"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "groove",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://mergr.com/company/groove-labs",
+      "details": "Groove was acquired by Clari; the historical 660 4th Street address was not treated as a current standalone Groove office. Retry: /company-validate company groove"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "growlabs",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://mergr.com/transaction/adroll-acquires-growlabs-com",
+      "details": "AdRoll acquired Growlabs; no current standalone Growlabs physical office was established. Retry: /company-validate company growlabs"
+    },
+    {
+      "code": "mailbox_only_address",
+      "company_id": "growthx",
+      "subject": "Current address is a mailbox-only contact address",
+      "source_url": "https://growthx.ai/legal/privacy-policy",
+      "details": "The official privacy policy publishes 2261 Market Street #86308, a mailbox-style address rather than a verified staffed office. Retry: /company-validate company growthx"
+    },
+    {
+      "code": "address_conflict",
+      "company_id": "gumroad",
+      "subject": "Current physical address evidence conflicts",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1532978/000153297824000002/000153297824000002-index.htm",
+      "details": "The SEC filing lists 548 Market Street #41309, while current LinkedIn lists 1640 17th Street, San Francisco. The conflicting evidence was not reconciled; address remains pending. Retry: /company-validate company gumroad"
+    },
+    {
+      "code": "address_conflict",
+      "company_id": "gyant",
+      "subject": "Current physical address evidence conflicts",
+      "source_url": "https://www.linkedin.com/company/gyant",
+      "details": "Current LinkedIn lists 353 Sacramento Street, while current public business-directory evidence lists 315 Montgomery Street. The conflicting evidence was not reconciled; address remains pending. Retry: /company-validate company gyant"
+    },
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "hack-reactor",
+      "subject": "No credible current physical office established",
+      "source_url": "https://www.hackreactor.com/",
+      "details": "Current Hack Reactor material does not establish a staffed San Francisco campus; public 944 Market Street and 44 Tehama Street listings are historical. Retry: /company-validate company hack-reactor"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "hall",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.blackbird.vc/blog/when-two-portfolio-companies-join-forces-tracksuit-acquires-hall",
+      "details": "Tracksuit acquired Hall; no current standalone Hall physical office was established. Retry: /company-validate company hall"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "haven",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.cbinsights.com/company/haven",
+      "details": "Haven was acquired by FourKites; no current standalone Haven physical office was established. Retry: /company-validate company haven"
+    },
+    {
+      "code": "mailbox_only_address",
+      "company_id": "hearsay-systems",
+      "subject": "Current address is a mailbox-only contact address",
+      "source_url": "https://www.bizprofile.net/principal-address/2261-market-street-ste-5397-san-francisco-ca-94114",
+      "details": "Current public corporate-address evidence points to a 2261 Market Street mailbox-style address; the older 600 Harrison Street address was not treated as current. Retry: /company-validate company hearsay-systems"
+    },
+    {
+      "code": "company_acquired_or_inactive",
+      "company_id": "hellooffice",
+      "subject": "No current physical office established",
+      "source_url": "https://casedocs.omniagentsolutions.com/cmsvol2/pub_47408/876393_320.pdf",
+      "details": "The available insolvency record identifies HelloOffice at 26 O'Farrell Street, but no current operating physical office was established. Retry: /company-validate company hellooffice"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "helpshift",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.keywordsstudios.com/en/about-us/news-events/news/keywords-enters-conditional-agreement-to-acquire-helpshiftenhancing-existing-player-support-and-engagement-capability/",
+      "details": "Keywords Studios announced its acquisition of Helpshift; no current standalone Helpshift physical office was established. Retry: /company-validate company helpshift"
+    },
+    {
+      "code": "mailbox_only_address",
+      "company_id": "helpware",
+      "subject": "Current address is a mailbox-only contact address",
+      "source_url": "https://www.merchantcircle.com/helpware-san-francisco-ca",
+      "details": "The available current listing identifies 548 Market Street #99737, a mailbox-style address rather than a verified staffed office. Retry: /company-validate company helpware"
+    },
+    {
+      "code": "mailbox_only_address",
+      "company_id": "hireathena",
+      "subject": "Current address is a mailbox-only contact address",
+      "source_url": "https://www.hireathena.com/contact/",
+      "details": "The official contact page publishes 548 Market Street #97694, a mailbox-style address rather than a verified staffed office. Retry: /company-validate company hireathena"
+    },
+    {
+      "code": "address_conflict",
+      "company_id": "hireclub",
+      "subject": "Current physical address evidence conflicts",
+      "source_url": "https://www.linkedin.com/company/hireclub",
+      "details": "Current LinkedIn establishes San Francisco but not a street address and conflicts with the older SEC address at 385 29th Street, San Francisco 94131. The evidence was not reconciled; address remains pending. Retry: /company-validate company hireclub"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "hired",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.linkedin.com/posts/willalexandernyc_introducing-hired-the-future-of-activity-6736782969505124352-ni7s",
+      "details": "Hired was acquired by Vettery/Adecco; no current standalone Hired physical office was established. Retry: /company-validate company hired"
+    },
+    {
+      "code": "company_rebranded_no_current_physical_office",
+      "company_id": "holberton-school",
+      "subject": "Former San Francisco campus is closed",
+      "source_url": "https://blog.holbertonschool.com/the-future-of-holberton/",
+      "details": "Holberton’s official announcement says it exited operation of its school campuses and did not reopen the San Francisco campus; no current staffed physical office was established. Retry: /company-validate company holberton-school"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "holobuilder",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.faro.com/News-Library/2021/FARO-Expands-Digital-Twin-Product-Suite-Acquires-HoloBuilder-Inc",
+      "details": "FARO acquired HoloBuilder; no current standalone HoloBuilder physical office was established. Retry: /company-validate company holobuilder"
+    },
+    {
+      "code": "mailbox_only_address",
+      "company_id": "hoodline",
+      "subject": "Current address is a mailbox-only contact address",
+      "source_url": "https://hoodline.com/contact-us/",
+      "details": "The official contact page publishes 3145 Geary Boulevard #141, a mailbox-style address rather than a verified staffed office. Retry: /company-validate company hoodline"
+    },
+    {
+      "code": "identity_ambiguous",
+      "company_id": "horizons-school-of-technology",
+      "subject": "Current company identity and physical office could not be reconciled",
+      "source_url": "https://www.linkedin.com/school/horizons-/",
+      "details": "The historical Horizons School of Technology identity and its former San Francisco address do not reconcile with the current joinhorizons.com domain and current Horizons business identity. Address remains pending. Retry: /company-validate company horizons-school-of-technology"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "hotpads",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.zillow.com/news/zillow-group/",
+      "details": "HotPads is part of Zillow Group; no current standalone HotPads physical office was established. Retry: /company-validate company hotpads"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "hotwire",
+      "subject": "Company-owned brand; no current standalone physical office established",
+      "source_url": "https://www.hotwire.com/en/content/terms-use?cc=us",
+      "details": "Hotwire’s official terms identify Expedia and its affiliates as the Hotwire companies; no current standalone Hotwire physical office was established. Retry: /company-validate company hotwire"
+    },
+    {
+      "code": "insufficient_exact_address",
+      "company_id": "hubilo",
+      "subject": "Current exact physical office not established",
+      "source_url": "https://hubilo-36ff36-a43c18ef977b983f221aaf4d3.webflow.io/about-us/contact-us",
+      "details": "Current Hubilo material establishes San Francisco 94111 but does not publish an exact street address. Retry: /company-validate company hubilo"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "humanity",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://tcpsoftware.com/blog/tcp-acquires-humanity/",
+      "details": "TCP Software announced its acquisition of Humanity; no current standalone Humanity physical office was established. Retry: /company-validate company humanity"
+    },
+    {
+      "code": "mailbox_only_address",
+      "company_id": "hummingbird",
+      "subject": "Current address is a mailbox-only contact address",
+      "source_url": "https://www.hummingbird.co/privacy-policy",
+      "details": "The official privacy policy publishes 440 North Barranca Avenue #4151, Covina, a mailbox-style address; LinkedIn’s San Francisco-only listing does not establish a street address. Retry: /company-validate company hummingbird"
+    },
+    {
+      "code": "company_acquired_or_inactive",
+      "company_id": "hyp3r",
+      "subject": "No current physical office established",
+      "source_url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_22-cv-04413/pdf/USCOURTS-cand-3_22-cv-04413-0.pdf",
+      "details": "Available court and business records are historical or indicate registration problems; no current staffed physical office was established. Retry: /company-validate company hyp3r"
+    },
+    {
+      "code": "identity_ambiguous",
+      "company_id": "hyphen",
+      "subject": "Current company identity and physical office could not be reconciled",
+      "source_url": "https://hyphenprotocol.com",
+      "details": "The catalog domain does not resolve to a current, verifiable company identity or exact physical office; multiple unrelated Hyphen companies appear in current results. Address remains pending. Retry: /company-validate company hyphen"
+    },
+    {
+      "code": "insufficient_exact_address",
+      "company_id": "ign-entertainment",
+      "subject": "Current exact physical office not established",
+      "source_url": "https://corp.ign.com",
+      "details": "IGN Entertainment is active under its current parent structure, but current official material did not establish an exact San Francisco physical office; the historical Brisbane address was not treated as current. Retry: /company-validate company ign-entertainment"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "ignition-design-labs",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.cbinsights.com/company/ignition-design-labs",
+      "details": "Ignition Design Labs is reported as acquired and its historical San Jose address was not treated as a current standalone physical office. Retry: /company-validate company ignition-design-labs"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "imperfect-foods",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.imperfectfoods.com/privacy",
+      "details": "Imperfect Foods is part of the Misfits Market family of companies; the current official policy gives a non-SF c/o address and no standalone San Francisco office. Retry: /company-validate company imperfect-foods"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "impira",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.linkedin.com/company/impira",
+      "details": "Impira is identified as acquired by Figma; no current standalone Impira physical office was established. Retry: /company-validate company impira"
+    },
+    {
+      "code": "company_rebranded_no_current_physical_office",
+      "company_id": "incloudcounsel",
+      "subject": "Company rebranded; no current standalone physical office established",
+      "source_url": "https://www.ontra.ai/about-us/",
+      "details": "InCloudCounsel rebranded as Ontra; current Ontra addresses are outside San Francisco and no standalone InCloudCounsel physical office was established. Retry: /company-validate company incloudcounsel"
+    },
+    {
+      "code": "identity_ambiguous",
+      "company_id": "index",
+      "subject": "Current company identity and physical office could not be reconciled",
+      "source_url": "https://index.com",
+      "details": "The catalog domain identifies a company named Index, but current search results point to multiple unrelated Index entities and do not establish a single current exact physical office for this catalog record. Address remains pending. Retry: /company-validate company index"
+    },
+    {
+      "code": "virtual_or_registered_address_only",
+      "company_id": "indiez",
+      "subject": "Current address is a registered office, not a verified physical office",
+      "source_url": "https://indiez.io/terms-of-use/",
+      "details": "The official terms publish a Newark, Delaware registered office and do not establish a current staffed San Francisco office. Retry: /company-validate company indiez"
+    },
+    {
+      "code": "mailbox_only_address",
+      "company_id": "indinero",
+      "subject": "Current address is a mailbox-only contact address",
+      "source_url": "https://www.indinero.com/about/",
+      "details": "The official current about page identifies 440 N Barranca Avenue #4637, Covina, a mailbox-style address; no San Francisco physical office was established. Retry: /company-validate company indinero"
+    },
+    {
+      "code": "mailbox_only_address",
+      "company_id": "industrial-light-and-magic",
+      "subject": "Current address is a mailbox-only contact address",
+      "source_url": "https://www.ilm.com/locations/san-francisco/",
+      "details": "ILM’s official San Francisco location page publishes a P.O. Box rather than an exact physical street address. Retry: /company-validate company industrial-light-and-magic"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "inference",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.five9.com/blog/five9-completes-acquisition-of-inference",
+      "details": "Five9 completed its acquisition of Inference Solutions; no current standalone Inference physical office was established. Retry: /company-validate company inference"
+    },
+    {
+      "code": "mailbox_only_address",
+      "company_id": "influxdata",
+      "subject": "Current address is a mailbox-only contact address",
+      "source_url": "https://www.influxdata.com/about/",
+      "details": "The official current about page publishes 548 Market Street PMB 77953, a mailbox-style address rather than a verified staffed office. Retry: /company-validate company influxdata"
+    },
+    {
+      "code": "company_acquired_no_current_physical_address",
+      "company_id": "insightly",
+      "subject": "Company acquired; no current standalone physical office established",
+      "source_url": "https://www.linkedin.com/company/insightly",
+      "details": "Insightly is identified as acquired by Unbounce; current legal terms do not establish a current standalone San Francisco physical office. Retry: /company-validate company insightly"
+    },
+    {
+      "code": "insufficient_exact_address",
+      "company_id": "insikt",
+      "subject": "Current exact physical office not established",
+      "source_url": "https://www.insikt.com/#",
+      "details": "Available results establish the historical Insikt identity and San Francisco-area records but not a current exact physical office tied unambiguously to this catalog record. Address remains pending. Retry: /company-validate company insikt"
+    }
+  ]
+}
