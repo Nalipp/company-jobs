@@ -1,0 +1,8 @@
+{
+  "name": "v5-mermaid-renderer",
+  "private": true,
+  "description": "Local Mermaid renderer for V5 database maps",
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "latest"
+  }
+}

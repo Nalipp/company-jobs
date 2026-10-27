@@ -1,0 +1,20 @@
+{
+  "generated": "2026-09-20T16:22:52+00:00",
+  "tables": {
+    "career_sources": 905,
+    "companies": 3036,
+    "company_location_evidence": 1385,
+    "company_locations": 1385,
+    "company_research_records": 2280,
+    "import_runs": 1,
+    "job_scans": 606,
+    "jobs": 16816,
+    "schema_migrations": 3,
+    "source_collection_recipes": 50
+  },
+  "views": {
+    "collectible_sources": 581,
+    "eligible_companies": 947,
+    "eligible_company_locations": 947
+  }
+}

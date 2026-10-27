@@ -1,0 +1,376 @@
+#!/usr/bin/env python3
+"""Build a self-contained static HTML page from the first 1,000 active jobs."""
+
+from __future__ import annotations
+
+import argparse
+from datetime import datetime, timezone
+import json
+from pathlib import Path
+import sqlite3
+
+
+ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_DATABASE = ROOT / "data" / "v5.sqlite"
+DEFAULT_OUTPUT = ROOT / "html" / "active-jobs-sol.html"
+PAGE_SIZE = 30
+JOB_LIMIT = 1_000
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--database", type=Path, default=DEFAULT_DATABASE)
+    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    return parser.parse_args()
+
+
+def read_jobs(database: Path) -> list[dict[str, str]]:
+    uri = f"file:{database.resolve()}?mode=ro"
+    connection = sqlite3.connect(uri, uri=True)
+    connection.row_factory = sqlite3.Row
+    try:
+        rows = connection.execute(
+            """
+            SELECT j.job_id,
+                   j.title,
+                   c.company_name,
+                   j.canonical_url,
+                   j.posting_locations_json,
+                   j.workplace_text,
+                   j.employment_text,
+                   j.compensation_text,
+                   j.published_at,
+                   j.last_seen_at
+              FROM jobs AS j
+              JOIN career_sources AS s ON s.source_id = j.source_id
+              JOIN companies AS c ON c.company_id = s.company_id
+             WHERE j.status = 'active'
+             ORDER BY j.last_seen_at DESC, j.job_id
+             LIMIT ?
+            """,
+            (JOB_LIMIT,),
+        ).fetchall()
+    finally:
+        connection.close()
+
+    jobs: list[dict[str, str]] = []
+    for row in rows:
+        try:
+            locations = json.loads(row["posting_locations_json"] or "[]")
+        except json.JSONDecodeError:
+            locations = []
+        jobs.append(
+            {
+                "id": row["job_id"],
+                "title": row["title"],
+                "company": row["company_name"],
+                "location": ", ".join(str(value) for value in locations if value),
+                "workplace": row["workplace_text"] or "",
+                "employment": row["employment_text"] or "",
+                "compensation": row["compensation_text"] or "",
+                "published": row["published_at"] or "",
+                "seen": row["last_seen_at"] or "",
+                "url": row["canonical_url"],
+            }
+        )
+    return jobs
+
+
+def safe_json(value: object) -> str:
+    return (
+        json.dumps(value, ensure_ascii=False, separators=(",", ":"))
+        .replace("<", "\\u003c")
+        .replace(">", "\\u003e")
+        .replace("&", "\\u0026")
+    )
+
+
+def render_page(jobs: list[dict[str, str]]) -> str:
+    generated_at = datetime.now(timezone.utc).isoformat(timespec="seconds").replace(
+        "+00:00", "Z"
+    )
+    jobs_json = safe_json(jobs)
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>V5 Active Jobs</title>
+  <style>
+    :root {{
+      --white: #ffffff;
+      --dark-gray: #181818;
+      --light-gray: #e8e8e8;
+      --dodger-blue: #1e90ff;
+    }}
+    * {{ box-sizing: border-box; }}
+    html, body {{
+      margin: 0;
+      min-width: 980px;
+      background: var(--white);
+      color: var(--dark-gray);
+      font: 12px/1.15 Arial, Helvetica, sans-serif;
+    }}
+    body {{ padding: 4px 6px; }}
+    .toolbar {{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      min-height: 27px;
+      margin-bottom: 3px;
+      white-space: nowrap;
+    }}
+    h1 {{ margin: 0 7px 0 0; font-size: 16px; line-height: 22px; }}
+    input, button {{
+      height: 23px;
+      border: 1px solid var(--light-gray);
+      border-radius: 2px;
+      font: inherit;
+    }}
+    input {{
+      width: 250px;
+      padding: 2px 6px;
+      background: var(--white);
+      color: var(--dark-gray);
+      outline: none;
+    }}
+    input:focus {{ border-color: var(--dodger-blue); }}
+    button {{
+      min-width: 27px;
+      padding: 2px 7px;
+      background: var(--dodger-blue);
+      color: var(--white);
+      cursor: pointer;
+    }}
+    button:disabled {{
+      background: var(--light-gray);
+      color: var(--dark-gray);
+      cursor: default;
+    }}
+    .summary {{ margin-left: auto; }}
+    .table-wrap {{
+      width: 100%;
+      overflow-x: auto;
+      border: 1px solid var(--light-gray);
+    }}
+    table {{ width: 100%; border-collapse: collapse; table-layout: fixed; }}
+    th, td {{
+      height: 22px;
+      padding: 2px 5px;
+      border-right: 1px solid var(--light-gray);
+      border-bottom: 1px solid var(--light-gray);
+      overflow: hidden;
+      text-align: left;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }}
+    th:last-child, td:last-child {{ border-right: 0; }}
+    tbody tr:last-child td {{ border-bottom: 0; }}
+    th {{
+      height: 24px;
+      background: var(--light-gray);
+      font-weight: 700;
+      cursor: pointer;
+      user-select: none;
+    }}
+    th:focus {{ outline: 1px solid var(--dodger-blue); outline-offset: -1px; }}
+    tbody tr:nth-child(even) {{ background: var(--light-gray); }}
+    a {{ color: var(--dodger-blue); text-decoration: none; }}
+    a:hover, a:focus {{ text-decoration: underline; }}
+    .job {{ width: 27%; }}
+    .company {{ width: 15%; }}
+    .location {{ width: 18%; }}
+    .workplace {{ width: 8%; }}
+    .employment {{ width: 9%; }}
+    .compensation {{ width: 12%; }}
+    .published {{ width: 11%; }}
+    .empty {{ height: 30px; text-align: center; }}
+    .meta {{ margin-left: 5px; }}
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <h1>Active jobs</h1>
+    <label for="search">Search</label>
+    <input id="search" type="search" placeholder="Title, company, location…" autocomplete="off">
+    <button id="first" type="button" aria-label="First page">«</button>
+    <button id="previous" type="button" aria-label="Previous page">‹</button>
+    <span id="page-label">Page 1</span>
+    <button id="next" type="button" aria-label="Next page">›</button>
+    <button id="last" type="button" aria-label="Last page">»</button>
+    <span class="summary" id="summary"></span>
+    <span class="meta">Built {generated_at}</span>
+  </div>
+
+  <div class="table-wrap">
+    <table aria-label="Active jobs">
+      <thead>
+        <tr>
+          <th class="job" data-key="title" tabindex="0">Job</th>
+          <th class="company" data-key="company" tabindex="0">Company</th>
+          <th class="location" data-key="location" tabindex="0">Location</th>
+          <th class="workplace" data-key="workplace" tabindex="0">Workplace</th>
+          <th class="employment" data-key="employment" tabindex="0">Type</th>
+          <th class="compensation" data-key="compensation" tabindex="0">Compensation</th>
+          <th class="published" data-key="published" tabindex="0">Posted</th>
+        </tr>
+      </thead>
+      <tbody id="jobs-body"></tbody>
+    </table>
+  </div>
+
+  <script>
+    const JOBS = {jobs_json};
+    const PAGE_SIZE = {PAGE_SIZE};
+    const state = {{ page: 1, query: "", sortKey: "seen", sortDirection: "desc" }};
+    const body = document.getElementById("jobs-body");
+    const search = document.getElementById("search");
+    const summary = document.getElementById("summary");
+    const pageLabel = document.getElementById("page-label");
+    const first = document.getElementById("first");
+    const previous = document.getElementById("previous");
+    const next = document.getElementById("next");
+    const last = document.getElementById("last");
+    const headers = [...document.querySelectorAll("th[data-key]")];
+
+    function compare(left, right) {{
+      const a = String(left[state.sortKey] || "").toLocaleLowerCase();
+      const b = String(right[state.sortKey] || "").toLocaleLowerCase();
+      if (!a && b) return 1;
+      if (a && !b) return -1;
+      const result = a.localeCompare(b, undefined, {{ numeric: true }});
+      return state.sortDirection === "asc" ? result : -result;
+    }}
+
+    function filteredJobs() {{
+      const query = state.query.trim().toLocaleLowerCase();
+      const filtered = query
+        ? JOBS.filter((job) => [
+            job.title, job.company, job.location, job.workplace,
+            job.employment, job.compensation
+          ].some((value) => String(value || "").toLocaleLowerCase().includes(query)))
+        : [...JOBS];
+      return filtered.sort(compare);
+    }}
+
+    function addCell(row, value, className) {{
+      const cell = document.createElement("td");
+      cell.className = className;
+      cell.textContent = value || "—";
+      cell.title = value || "";
+      row.appendChild(cell);
+      return cell;
+    }}
+
+    function render() {{
+      const jobs = filteredJobs();
+      const pages = Math.max(1, Math.ceil(jobs.length / PAGE_SIZE));
+      state.page = Math.min(state.page, pages);
+      const start = (state.page - 1) * PAGE_SIZE;
+      const visible = jobs.slice(start, start + PAGE_SIZE);
+      body.replaceChildren();
+
+      if (!visible.length) {{
+        const row = document.createElement("tr");
+        const cell = document.createElement("td");
+        cell.className = "empty";
+        cell.colSpan = 7;
+        cell.textContent = "No matching jobs";
+        row.appendChild(cell);
+        body.appendChild(row);
+      }} else {{
+        visible.forEach((job) => {{
+          const row = document.createElement("tr");
+          const titleCell = addCell(row, "", "job");
+          const link = document.createElement("a");
+          link.href = job.url;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.textContent = job.title;
+          link.title = job.title;
+          titleCell.replaceChildren(link);
+          addCell(row, job.company, "company");
+          addCell(row, job.location, "location");
+          addCell(row, job.workplace, "workplace");
+          addCell(row, job.employment, "employment");
+          addCell(row, job.compensation, "compensation");
+          addCell(row, job.published, "published");
+          body.appendChild(row);
+        }});
+      }}
+
+      const shownStart = jobs.length ? start + 1 : 0;
+      const shownEnd = Math.min(start + PAGE_SIZE, jobs.length);
+      summary.textContent = `${{shownStart}}–${{shownEnd}} of ${{jobs.length}} (first ${{JOBS.length}} active jobs)`;
+      pageLabel.textContent = `Page ${{state.page}} / ${{pages}}`;
+      first.disabled = previous.disabled = state.page === 1;
+      next.disabled = last.disabled = state.page === pages;
+
+      headers.forEach((header) => {{
+        const active = header.dataset.key === state.sortKey;
+        header.textContent = header.textContent.replace(/ [▲▼]$/, "") +
+          (active ? (state.sortDirection === "asc" ? " ▲" : " ▼") : "");
+        header.setAttribute("aria-sort", active
+          ? (state.sortDirection === "asc" ? "ascending" : "descending")
+          : "none");
+      }});
+    }}
+
+    function sortBy(key) {{
+      if (state.sortKey === key) {{
+        state.sortDirection = state.sortDirection === "asc" ? "desc" : "asc";
+      }} else {{
+        state.sortKey = key;
+        state.sortDirection = "asc";
+      }}
+      state.page = 1;
+      render();
+    }}
+
+    headers.forEach((header) => {{
+      header.addEventListener("click", () => sortBy(header.dataset.key));
+      header.addEventListener("keydown", (event) => {{
+        if (event.key === "Enter" || event.key === " ") {{
+          event.preventDefault();
+          sortBy(header.dataset.key);
+        }}
+      }});
+    }});
+    search.addEventListener("input", () => {{
+      state.query = search.value;
+      state.page = 1;
+      render();
+    }});
+    first.addEventListener("click", () => {{ state.page = 1; render(); }});
+    previous.addEventListener("click", () => {{ state.page -= 1; render(); }});
+    next.addEventListener("click", () => {{ state.page += 1; render(); }});
+    last.addEventListener("click", () => {{
+      state.page = Math.max(1, Math.ceil(filteredJobs().length / PAGE_SIZE));
+      render();
+    }});
+    document.addEventListener("keydown", (event) => {{
+      if (document.activeElement === search) return;
+      if (event.key === "ArrowLeft" && !previous.disabled) {{ state.page -= 1; render(); }}
+      if (event.key === "ArrowRight" && !next.disabled) {{ state.page += 1; render(); }}
+    }});
+
+    render();
+  </script>
+</body>
+</html>
+"""
+
+
+def main() -> int:
+    args = parse_args()
+    jobs = read_jobs(args.database)
+    if not jobs:
+        raise SystemExit("No active jobs were found; page was not generated.")
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(render_page(jobs), encoding="utf-8")
+    print(f"Wrote {len(jobs)} active jobs to {args.output.resolve()}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

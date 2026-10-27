@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+mermaid/node_modules/
+
+# The working database is a local generated artifact. Distribution packaging is
+# a later product decision; schema and import code remain version controlled.
+data/*.sqlite
+data/*.sqlite-shm
+data/*.sqlite-wal
+data/manual-results/

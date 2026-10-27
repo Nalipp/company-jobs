@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Active jobs | V5</title>
+  <link rel="stylesheet" href="vendor/maplibre-gl-5.24.0/maplibre-gl.css">
+  <style>__LUNA_CSS__</style>
+</head>
+<body>
+  <header class="toolbar">
+    <button id="reset" class="reset" type="button">Reset</button>
+    <div class="brand"><h1>Active jobs<span class="city-label"> / SF</span></h1><p id="summary" role="status" aria-live="polite"></p></div>
+    <div id="jev-filters" class="global-filter-wrap" role="group" aria-label="Global Jev filters"></div>
+    <label class="search-wrap"><span class="sr-only">Search companies or job titles</span><input id="search" type="search" placeholder="Search companies or job titles…" autocomplete="off"></label>
+  </header>
+  <main class="workspace">
+    <section class="map-panel" aria-label="Verified company offices">
+      <div id="jobs-map" class="jobs-map" aria-label="Map of verified San Francisco company offices"></div>
+      <p id="map-error" class="map-error" role="status" hidden></p>
+    </section>
+    <section id="company-list" class="list-panel" aria-label="Companies and jobs" tabindex="-1">
+      <div id="company-browser">
+        <div class="list-heading" role="group" aria-label="Sort companies">
+          <button type="button" data-sort="name">Companies <span class="sort-arrow" aria-hidden="true">↑</span></button>
+          <button type="button" data-sort="street">Street address <span class="sort-arrow" aria-hidden="true"></span></button>
+          <button type="button" data-sort="workplace">Workplace <span class="sort-arrow" aria-hidden="true"></span></button>
+        </div>
+        <div id="companies"></div>
+        <p id="empty" class="empty" hidden>No matching companies or jobs. Try another search or reset the view.</p>
+      </div>
+      <section id="company-detail" class="company-detail" aria-label="Company details" hidden></section>
+    </section>
+  </main>
+  <script id="jobs-data" type="application/json">__JOBS_JSON__</script>
+  <script src="vendor/maplibre-gl-5.24.0/maplibre-gl.js"></script>
+  <script>__LUNA_JS__</script>
+</body>
+</html>
