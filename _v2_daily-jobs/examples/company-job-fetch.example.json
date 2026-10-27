@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "operation": "company-job-fetch",
+  "created_at": "2026-08-06T19:25:00Z",
+  "changes": [
+    {
+      "company_id": "example-ai",
+      "new_jobs": [
+        {
+          "job_id": "example-job-456",
+          "title": "Lead AI Product Engineer",
+          "url": "https://jobs.ashbyhq.com/example-ai/example-job-456",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "lead",
+          "compensation": {
+            "minimum": 195000,
+            "maximum": 240000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$195,000-$240,000 base salary"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-06T19:25:00Z",
+          "evidence": {
+            "active_status": "The role appears on the company's current official ATS board.",
+            "location": "The official posting identifies San Francisco, California.",
+            "workplace_arrangement": "The official posting identifies an on-site role.",
+            "compensation": "The official posting publishes a $195,000-$240,000 base salary range.",
+            "employment_type": "The official posting identifies the role as full-time.",
+            "seniority": "The official title supports lead level.",
+            "role_fit": "The role builds AI product experiences and agent workflows."
+          }
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "code": "shared_job_url",
+      "company_id": "example-ai",
+      "subject": "Senior Product Engineer",
+      "source_url": "https://example.com/careers",
+      "details": "Multiple roles without source IDs share the same generic careers-page URL."
+    }
+  ]
+}

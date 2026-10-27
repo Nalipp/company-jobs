@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-08T08:30:00Z",
+  "changes": [],
+  "issues": [
+    {
+      "code": "salary_not_published",
+      "company_id": null,
+      "subject": "Snorkel AI — multiple engineering roles",
+      "source_url": "https://job-boards.greenhouse.io/snorkelai",
+      "details": "Active Greenhouse board. Roles 5419160004, 5462093004, 5473289004, 5480524004, 5543463004, 5544787004 confirmed active in SF/hybrid. None publish a numeric salary range. All excluded per unknown_policy: \"exclude\"."
+    },
+    {
+      "code": "salary_not_published",
+      "company_id": null,
+      "subject": "Goodfire — Product Engineer",
+      "source_url": "https://job-boards.greenhouse.io/goodfire/jobs/5253335008",
+      "details": "Posting is active. Compensation reads 'Market competitive salary, equity, and competitive benefits' only. No numeric range published. Excluded per unknown_policy: \"exclude\"."
+    },
+    {
+      "code": "salary_not_published",
+      "company_id": null,
+      "subject": "FERMÀT — Senior Software Engineer",
+      "source_url": "https://job-boards.greenhouse.io/fermat/jobs/4115754009",
+      "details": "Active posting in San Francisco, CA. Compensation is 'Competitive salary + equity package' with no numeric range. Excluded per unknown_policy: \"exclude\". Note: AI responsibilities described as using LLMs as coding tools/productivity aids, not building AI-powered product features; would also fail require_role_specific_ai_work even if salary were published."
+    },
+    {
+      "code": "salary_not_published",
+      "company_id": null,
+      "subject": "Financial Technology Partners — Software Engineer (Full Stack)",
+      "source_url": "https://job-boards.greenhouse.io/financialtechnologypartners/jobs/8535618002",
+      "details": "Active posting, SF hybrid 3 days/week. No salary range published on canonical Greenhouse posting. Excluded per unknown_policy: \"exclude\"."
+    },
+    {
+      "code": "salary_not_published",
+      "company_id": null,
+      "subject": "InstaLILY.AI — Software Engineer II, General",
+      "source_url": "https://job-boards.greenhouse.io/instalilyai/jobs/4296649009",
+      "details": "Active posting, SF on-site. Published salary $120,000–$140,000 per year. Maximum $140K falls below the $200K threshold. Excluded."
+    },
+    {
+      "code": "workplace_ambiguous",
+      "company_id": null,
+      "subject": "Figma — Software Engineer, Growth & Monetization and Software Engineer, Full Stack",
+      "source_url": "https://job-boards.greenhouse.io/figma/jobs/5552560004",
+      "details": "Figma Greenhouse board (slug: figma) is active with individual job postings. Both roles 5552560004 and 5691911004 state 'full-time role that can be held from one of our US hubs or remotely in the United States.' Fully remote is an option; neither posting specifies any required in-office days. Excluded on workplace arrangement. Additionally, AI responsibilities for both roles are limited to using AI-assisted coding tools (e.g., Copilot, ChatGPT) as a productivity plus — not role-specific AI product work. Would also fail require_role_specific_ai_work."
+    },
+    {
+      "code": "workplace_ambiguous",
+      "company_id": null,
+      "subject": "Hightouch — Software Engineer, AI Agents",
+      "source_url": "https://job-boards.greenhouse.io/hightouch/jobs/5542602004",
+      "details": "Remote (North America) position explicitly. Salary $180,000–$400,000 (max ≥ $200K) and AI agent responsibilities both qualify, but workplace arrangement is remote-first. Excluded."
+    },
+    {
+      "code": "workplace_ambiguous",
+      "company_id": null,
+      "subject": "Calendly — Senior Full Stack Engineer, AI Scheduling",
+      "source_url": "https://job-boards.greenhouse.io/calendly/jobs/8464846002",
+      "details": "Remote-US position. Tier 1 salary $224,400–$271,920 meets compensation gate. Excluded on workplace arrangement."
+    },
+    {
+      "code": "workplace_ambiguous",
+      "company_id": null,
+      "subject": "Attentive — Senior Software Engineer, ML/AI Platform",
+      "source_url": "https://job-boards.greenhouse.io/attentive/jobs/4252255009",
+      "details": "Distributed global workforce; office not required. Salary $180,000–$250,000 meets compensation gate. Excluded on workplace arrangement. Also an ML infrastructure role (platform engineering), not product-facing AI work."
+    },
+    {
+      "code": "workplace_ambiguous",
+      "company_id": null,
+      "subject": "Mercury — Senior Software Engineer, Frontend Developer Experience",
+      "source_url": "https://job-boards.greenhouse.io/mercury/jobs/6116808004",
+      "details": "Fully flexible remote. Salary $200,700–$250,900 meets compensation gate. Excluded on workplace arrangement. AI responsibilities are limited to using LLM coding tools (Copilot, etc.) — not role-specific AI product work."
+    },
+    {
+      "code": "workplace_ambiguous",
+      "company_id": null,
+      "subject": "ClickHouse — Senior Software Engineer (TypeScript/FrontEnd) - AI/ML",
+      "source_url": "https://job-boards.greenhouse.io/clickhouse/jobs/5996876004",
+      "details": "Remote-first, globally distributed. US premium market salary up to $232,000. Excluded on workplace arrangement."
+    },
+    {
+      "code": "location_mismatch",
+      "company_id": null,
+      "subject": "Augment Code — multiple AI engineering roles",
+      "source_url": "https://job-boards.greenhouse.io/augmentcomputing",
+      "details": "Greenhouse board 'augmentcomputing' is active. All engineering roles list Palo Alto, CA. San Francisco not listed. Excluded per broader_region_only_is_eligible: false."
+    },
+    {
+      "code": "location_mismatch",
+      "company_id": null,
+      "subject": "Glean — engineering roles",
+      "source_url": "https://job-boards.greenhouse.io/gleanwork",
+      "details": "Greenhouse board 'gleanwork' is active with 20+ roles. All qualifying engineering titles (Frontend, Fullstack, AI, ML) list Mountain View, CA. The handful of SF roles are cloud infrastructure (excluded role type) or Tech Lead Manager (excluded seniority). No SF product/frontend/full-stack engineering roles with qualifying titles."
+    },
+    {
+      "code": "location_mismatch",
+      "company_id": null,
+      "subject": "Gradial — Senior Software Engineer",
+      "source_url": "https://job-boards.greenhouse.io/gradial/jobs/4338071009",
+      "details": "Active posting with strong AI responsibilities (LLM agent for real-time inference, NL to workflow systems). Salary $130,000–$220,000 (max $220K meets threshold). Location is Seattle, WA — not San Francisco. Excluded."
+    },
+    {
+      "code": "location_mismatch",
+      "company_id": null,
+      "subject": "Typeface — engineering roles",
+      "source_url": "https://job-boards.greenhouse.io/typeface",
+      "details": "Greenhouse board 'typeface' is active. All engineering roles list Palo Alto, CA or Bellevue, WA. No San Francisco roles. Excluded per broader_region_only_is_eligible: false."
+    },
+    {
+      "code": "seniority_mismatch",
+      "company_id": null,
+      "subject": "Gusto — Staff Software Engineer, AI Developer Tools",
+      "source_url": "https://job-boards.greenhouse.io/gusto/jobs/7947684",
+      "details": "Active SF hybrid role. Salary $220,000–$245,000 meets compensation gate. AI responsibilities qualify. Title is 'Staff Software Engineer' — seniority 'staff' is not in allowed_seniority [mid-level, senior, lead]. All other Gusto SF engineering roles are also Staff, Principal, or Senior Staff level. Excluded."
+    },
+    {
+      "code": "seniority_mismatch",
+      "company_id": null,
+      "subject": "Midi Health — Staff Software Engineer, Full Stack",
+      "source_url": "https://job-boards.greenhouse.io/midihealth/jobs/4659913005",
+      "details": "Active Greenhouse posting. Workplace is hybrid (Palo Alto or San Francisco, Monday/Thursday in-office). Salary $210,000–$250,000 meets compensation gate. Title is 'Staff Software Engineer' — seniority 'staff' is not in allowed_seniority [mid-level, senior, lead]. Also, 'Palo Alto or San Francisco' is location-ambiguous; if the office could be Palo Alto only, location gate would also fail. Excluded on seniority."
+    },
+    {
+      "code": "role_type_excluded",
+      "company_id": null,
+      "subject": "Lightning AI — Senior Software Engineer, Training & Experimentation",
+      "source_url": "https://job-boards.greenhouse.io/lightningai/jobs/7837299003",
+      "details": "Active SF/NYC/London hybrid posting (minimum 2 in-office days). Salary $180,000–$250,000 meets compensation gate. Seniority is Senior. Role builds distributed training infrastructure and ML platform services — closer to platform/infrastructure engineering than product engineering. Excluded as role type does not fit target role families."
+    },
+    {
+      "code": "role_type_excluded",
+      "company_id": null,
+      "subject": "Ever — Software Engineer",
+      "source_url": "https://job-boards.greenhouse.io/ever/jobs/5064724008",
+      "details": "Active SF on-site/hybrid posting. Salary $140,000–$300,000 (max ≥ $200K). Company describes itself as 'AI-native auto retail platform' but the Software Engineer job description lists only generic full-stack responsibilities (build marketplace/operations features, participate in design reviews, shape roadmap) with no LLM/AI integration or AI-powered feature work. Excluded: employer AI focus does not substitute for role-specific AI work."
+    },
+    {
+      "code": "canonical_source_blocked",
+      "company_id": null,
+      "subject": "Sigma Computing — Senior Software Engineer, Frontend",
+      "source_url": "https://job-boards.greenhouse.io/sigmacomputing/jobs/7630704003",
+      "details": "Job ID 7630704003 found in web search results but every fetch attempt (3 total) returns the board overview (70 jobs) rather than the specific posting. The posting may be closed or the ID may no longer be active. Cannot verify salary, workplace arrangement, or AI responsibilities from canonical source. Excluded."
+    },
+    {
+      "code": "canonical_source_blocked",
+      "company_id": null,
+      "subject": "Workato — Software Engineer, Developer Products (AI)",
+      "source_url": "https://job-boards.greenhouse.io/workato/jobs/8112909002",
+      "details": "Greenhouse job URL redirects to workato.com/careers (self-hosted). Cannot verify details from canonical Greenhouse posting per source-lane restriction. Excluded."
+    },
+    {
+      "code": "canonical_source_blocked",
+      "company_id": null,
+      "subject": "Multiple SF boards — redirects or missing",
+      "source_url": "https://job-boards.greenhouse.io",
+      "details": "The following SF companies either returned 404 or redirect to self-hosted careers pages: Asana (redirects to asana.com/jobs), Samsara (redirects to samsara.com/careers), Webflow (all roles remote), Vanta (404), Persona (404), Moveworks (404), Cognition (404), Writer (404), Ironclad (404), Qualified (404), Sierra (404), Notion (404), Anysphere/Cursor (404), WandB (404), Cohere (404)."
+    }
+  ]
+}

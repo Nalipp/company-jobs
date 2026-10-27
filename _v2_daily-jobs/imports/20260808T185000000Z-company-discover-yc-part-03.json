@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-08T18:50:00Z",
+  "changes": [
+    {
+      "company_id": "litellm",
+      "name": "LiteLLM",
+      "website_url": "https://www.litellm.ai/",
+      "primary_domain": "litellm.ai",
+      "jobs_url": "https://www.ycombinator.com/companies/litellm/jobs",
+      "ats": {
+        "provider": "unknown",
+        "board_id": null
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "Senior Backend Engineer",
+          "url": "https://www.ycombinator.com/companies/litellm/jobs/qwvhKQ3-senior-backend-engineer",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 200000,
+            "maximum": 260000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$200K - $260K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T18:50:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/litellm/jobs); direct application available.",
+            "location": "San Francisco, CA per official YC WaaS posting.",
+            "workplace_arrangement": "On-site per official YC WaaS jobs listing for this role.",
+            "compensation": "$200K - $260K",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "5+ years of experience required per official YC WaaS posting; title 'Senior' and $200K floor confirm senior level.",
+            "role_fit": "Build and design guardrails to address common attacks on LLM APIs, MCP servers, and AI agents; implement logging and traceability for guardrail and policy enforcement across AI systems; maintain monitoring and observability for an AI Gateway platform processing 1B+ requests per month; work directly on infrastructure enabling developers to call 100+ LLM APIs with a unified interface."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T18:50:00Z",
+      "last_verified_at": "2026-08-08T18:50:00Z"
+    }
+  ],
+  "issues": []
+}

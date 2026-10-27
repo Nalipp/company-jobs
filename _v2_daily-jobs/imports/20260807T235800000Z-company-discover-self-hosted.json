@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-07T23:58:00Z",
+  "changes": [
+    {
+      "company_id": "vercel",
+      "name": "Vercel",
+      "website_url": "https://vercel.com/",
+      "primary_domain": "vercel.com",
+      "jobs_url": "https://vercel.com/careers",
+      "ats": {
+        "provider": "custom",
+        "board_id": "vercel"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "5474915004",
+          "title": "Software Engineer, AI SDK",
+          "url": "https://vercel.com/careers/software-engineer-ai-sdk-5474915004",
+          "location_text": "New York City, San Francisco",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 196000,
+            "maximum": 294000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$196,000–$294,000"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:58:00Z",
+          "evidence": {
+            "active_status": "Posting live at vercel.com/careers/software-engineer-ai-sdk-5474915004 with embedded application form on vercel.com.",
+            "location": "New York City, San Francisco per official Vercel careers page.",
+            "workplace_arrangement": "Hybrid — anchor days Monday, Tuesday, Friday for those within commuting distance of SF, NY, London, or Berlin offices.",
+            "compensation": "$196,000–$294,000 San Francisco base salary per official Vercel careers page.",
+            "employment_type": "Full-time per official Vercel careers page.",
+            "seniority": "Senior — at least 5+ years of relevant experience required per official posting.",
+            "role_fit": "Develop and enhance TypeScript toolkit for building AI-native products and agents; ensure high-performance standards and seamless integration with Vercel’s deployment platform; engage with developers to drive continuous improvement and innovation in the AI SDK."
+          }
+        },
+        {
+          "job_id": "5798406004",
+          "title": "Software Engineer, AI Gateway",
+          "url": "https://vercel.com/careers/software-engineer-ai-gateway-5798406004",
+          "location_text": "New York City, San Francisco",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 196000,
+            "maximum": 294000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$196,000–$294,000"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:58:00Z",
+          "evidence": {
+            "active_status": "Posting live at vercel.com/careers/software-engineer-ai-gateway-5798406004 with embedded application form on vercel.com.",
+            "location": "New York City, San Francisco per official Vercel careers page.",
+            "workplace_arrangement": "Hybrid — company-wide anchor days policy (Monday, Tuesday, Friday in-office) confirmed in simultaneously listed AI SDK role; both roles list identical SF and NYC locations.",
+            "compensation": "$196,000–$294,000 San Francisco base salary per official Vercel careers page.",
+            "employment_type": "Full-time per official Vercel careers page.",
+            "seniority": "Senior — 5+ years of experience required per official posting.",
+            "role_fit": "Develop and maintain unified API platform providing access to hundreds of AI models across multiple providers; build rate-limit management and intelligent failover mechanisms for AI inference; integrate new AI providers while addressing high-throughput scalability challenges."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T23:58:00Z",
+      "last_verified_at": "2026-08-07T23:58:00Z"
+    }
+  ],
+  "issues": [
+    {
+      "code": "access_blocked",
+      "company_id": null,
+      "subject": "OpenAI Product Engineer Full Stack — OpenAI for Finance",
+      "source_url": "https://openai.com/careers/product-engineer-full-stack-openai-for-finance-san-francisco/",
+      "details": "openai.com/careers returned HTTP 403 Forbidden on fetch. Canonical page could not be evaluated. The role 'Product Engineer, Full Stack - OpenAI for Finance' appears in web search results as a self-hosted posting on openai.com in San Francisco; a follow-up invocation should retry fetching the canonical URL."
+    },
+    {
+      "code": "access_blocked",
+      "company_id": null,
+      "subject": "Perplexity AI careers hub — San Francisco",
+      "source_url": "https://www.perplexity.ai/hub/careers/san-francisco",
+      "details": "perplexity.ai/hub/careers and /hub/careers/san-francisco both returned HTTP 403 Forbidden on fetch. Canonical pages could not be evaluated. Perplexity self-hosts careers on their domain; a follow-up invocation should retry access, as qualifying roles may exist."
+    }
+  ]
+}

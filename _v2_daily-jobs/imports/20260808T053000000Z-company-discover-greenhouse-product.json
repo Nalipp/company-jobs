@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-08T05:30:00Z",
+  "changes": [],
+  "issues": [
+    {
+      "code": "salary_not_published",
+      "company_id": null,
+      "subject": "Goodfire — Product Engineer",
+      "source_url": "https://job-boards.greenhouse.io/goodfire/jobs/5253335008",
+      "details": "Posting is active but compensation reads only 'Market competitive salary, equity, and competitive benefits'. No numeric range published on the canonical Greenhouse posting. Excluded per unknown_policy: \"exclude\"."
+    },
+    {
+      "code": "salary_not_published",
+      "company_id": null,
+      "subject": "Snorkel AI — multiple Product Engineer roles",
+      "source_url": "https://job-boards.greenhouse.io/snorkelai",
+      "details": "Greenhouse board slug 'snorkelai' is active with multiple engineering roles (5419160004, 5462093004, 5480524004, 5543463004, 5544787004). None publish a numeric salary range on canonical Greenhouse postings. All excluded per unknown_policy: \"exclude\"."
+    },
+    {
+      "code": "workplace_ambiguous",
+      "company_id": null,
+      "subject": "Arize AI — Senior AI Product Engineer, Fullstack",
+      "source_url": "https://job-boards.greenhouse.io/arizeai/jobs/5396420004",
+      "details": "Posting describes a remote-first company with offices in San Francisco Bay Area as optional. No required in-office days. Salary $125,000–$225,000 meets compensation gate (max ≥ $200K) but workplace arrangement is remote-primary, not hybrid or on-site. Excluded."
+    },
+    {
+      "code": "location_mismatch",
+      "company_id": null,
+      "subject": "Augment Code — AI Product Engineer roles",
+      "source_url": "https://job-boards.greenhouse.io/augmentcomputing",
+      "details": "Greenhouse board slug 'augmentcomputing' is active with multiple AI Product Engineer roles (4501781008, 4613876008, 4639805008, 4646904008, 4746714008). All list Palo Alto, California as location. San Francisco is not listed for any engineering posting. Excluded per broader_region_only_is_eligible: false."
+    },
+    {
+      "code": "workplace_ambiguous",
+      "company_id": null,
+      "subject": "Calendly — Senior Full Stack Engineer, AI Scheduling",
+      "source_url": "https://job-boards.greenhouse.io/calendly/jobs/8464846002",
+      "details": "Listing is 'Remote - US' with only occasional travel. Salary $224,400–$271,920 (Tier 1) meets compensation gate but workplace is fully remote. Excluded."
+    },
+    {
+      "code": "canonical_source_blocked",
+      "company_id": null,
+      "subject": "ClickHouse — AI Product Engineer, ClickStack",
+      "source_url": "https://job-boards.greenhouse.io/clickhouse/jobs/6014113004",
+      "details": "Posting lists United Kingdom as location; workplace is remote. Salary range is not published on the page. Both location gate and salary gate fail. Excluded."
+    },
+    {
+      "code": "canonical_source_blocked",
+      "company_id": null,
+      "subject": "Foundry Technologies",
+      "source_url": "https://job-boards.greenhouse.io/foundrytechnologiesinc/jobs/4649558007",
+      "details": "Posting returns 404. Confirmed closed."
+    },
+    {
+      "code": "canonical_source_blocked",
+      "company_id": null,
+      "subject": "Unified Vision — AI Product Engineer",
+      "source_url": "https://job-boards.greenhouse.io/joinunifiedvision/jobs/4343496008",
+      "details": "Posting returns 404. Confirmed closed on multiple fetch attempts across sessions."
+    },
+    {
+      "code": "canonical_source_blocked",
+      "company_id": null,
+      "subject": "Multiple SF AI companies — Greenhouse boards absent",
+      "source_url": "https://job-boards.greenhouse.io",
+      "details": "The following SF-based AI companies either returned 404 on Greenhouse or redirect to self-hosted careers pages (excluded as non-canonical): Sierra (404), Notion (404), Anysphere/Cursor (404), Cohere (404), Weights & Biases/wandb (404), Hex (404), Coda (404), Replit (404), Luma AI (404); Brex, Stripe, Databricks, Descript redirect to company-hosted careers pages."
+    }
+  ]
+}

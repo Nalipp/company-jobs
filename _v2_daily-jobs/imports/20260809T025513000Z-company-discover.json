@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-09T02:55:13Z",
+  "changes": [
+    {
+      "company_id": "ampersand",
+      "name": "Ampersand",
+      "website_url": "https://www.withampersand.com/",
+      "primary_domain": "withampersand.com",
+      "jobs_url": "https://jobs.ashbyhq.com/Ampersand",
+      "ats": { "provider": "ashby", "board_id": "Ampersand" },
+      "map_location": {
+        "city": "San Francisco", "region": "CA", "country": "US",
+        "address": null, "postal_code": null, "latitude": null, "longitude": null,
+        "status": "pending", "location_type": null, "source_label": null,
+        "source_url": null, "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "02cbb849-f38d-4061-81f0-c54a287d024c",
+          "title": "Product Engineer, Frontend",
+          "url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 125000, "maximum": 288000, "currency": "USD",
+            "basis": "base", "period": "year", "source_text": "$125K - $288K"
+          },
+          "posted_date": "2026-06-18",
+          "status": "active",
+          "verified_at": "2026-08-09T02:55:13Z",
+          "evidence": {
+            "active_status": "Current official Ashby board feed lists the posting as active (isListed true).",
+            "location": "Official Ashby posting lists San Francisco.",
+            "workplace_arrangement": "Official Ashby posting classifies the role as Hybrid; the description identifies Monday, Tuesday, and Thursday as in-office days.",
+            "compensation": "Official posting publishes a $125K-$288K annual base range.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Mid-level: the posting requires 4+ years engineering and designing digital products.",
+            "role_fit": "Owns the dashboard, embeddable React UI library, and full-stack product features for Ampersand's integration platform, whose core function is delivering real-time context to AI agents."
+          }
+        },
+        {
+          "job_id": "ffa4a2b4-7b64-4b82-9e46-edb45144fca2",
+          "title": "Forward Deployed Engineer",
+          "url": "https://jobs.ashbyhq.com/Ampersand/ffa4a2b4-7b64-4b82-9e46-edb45144fca2",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 89000, "maximum": 205000, "currency": "USD",
+            "basis": "base", "period": "year", "source_text": "$89K - $205K"
+          },
+          "posted_date": "2026-06-18",
+          "status": "active",
+          "verified_at": "2026-08-09T02:55:13Z",
+          "evidence": {
+            "active_status": "Current official Ashby board feed lists the posting as active (isListed true).",
+            "location": "Official Ashby posting lists San Francisco.",
+            "workplace_arrangement": "Official Ashby posting classifies the role as Hybrid; the description identifies Monday, Tuesday, and Thursday as in-office days.",
+            "compensation": "Official posting publishes an $89K-$205K annual base range.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Mid-level: the posting requires 4+ years of software engineering, solutions engineering, or customer-facing technical experience.",
+            "role_fit": "Implements and extends Ampersand's AI-agent integration product inside customer environments, writes production code, and feeds deployment patterns into the core product."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-03T18:33:00Z",
+      "last_verified_at": "2026-08-09T02:55:13Z"
+    },
+    {
+      "company_id": "edison-scientific",
+      "name": "Edison Scientific",
+      "website_url": "https://edisonscientific.com/",
+      "primary_domain": "edisonscientific.com",
+      "jobs_url": "https://jobs.ashbyhq.com/Edison%20Scientific",
+      "ats": { "provider": "ashby", "board_id": "Edison Scientific" },
+      "map_location": {
+        "city": "San Francisco", "region": "CA", "country": "US",
+        "address": null, "postal_code": null, "latitude": null, "longitude": null,
+        "status": "pending", "location_type": null, "source_label": null,
+        "source_url": null, "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "69572d5c-36ff-4a38-a1da-e1130d14b031",
+          "title": "Forward Deployed AI Engineer",
+          "url": "https://jobs.ashbyhq.com/Edison%20Scientific/69572d5c-36ff-4a38-a1da-e1130d14b031",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 200000, "maximum": 350000, "currency": "USD",
+            "basis": "base", "period": "year", "source_text": "$200K - $350K"
+          },
+          "posted_date": "2026-07-01",
+          "status": "active",
+          "verified_at": "2026-08-09T02:55:13Z",
+          "evidence": {
+            "active_status": "Current official Ashby board feed lists the posting as active (isListed true).",
+            "location": "Official posting lists San Francisco.",
+            "workplace_arrangement": "Official Ashby posting classifies the role as OnSite and describes embedded customer work.",
+            "compensation": "Official posting publishes a $200K-$350K annual base range.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Mid-level: the posting requires 2+ years of professional software engineering experience.",
+            "role_fit": "Owns production deployments of Edison AI scientist agents, identifies agent use cases, and builds LLM/agentic systems using prompting, RAG, evaluation, and orchestration."
+          }
+        },
+        {
+          "job_id": "19f9e74a-0bff-4ef4-9e4b-d5a44092e086",
+          "title": "Member of Technical Staff, Full-stack Engineer",
+          "url": "https://jobs.ashbyhq.com/Edison%20Scientific/19f9e74a-0bff-4ef4-9e4b-d5a44092e086",
+          "location_text": "San Francisco | New York",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 175000, "maximum": 240000, "currency": "USD",
+            "basis": "base", "period": "year", "source_text": "$175K - $240K"
+          },
+          "posted_date": "2026-08-05",
+          "status": "active",
+          "verified_at": "2026-08-09T02:55:13Z",
+          "evidence": {
+            "active_status": "Current official Ashby board feed lists the posting as active (isListed true).",
+            "location": "Posting lists San Francisco | New York and explicitly says the role is on-site at the San Francisco Dogpatch office.",
+            "workplace_arrangement": "Official description explicitly says the role is on-site at the San Francisco office.",
+            "compensation": "Official posting publishes a $175K-$240K annual base range.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Senior: the posting typically requires 5+ years of software engineering experience.",
+            "role_fit": "Builds backend services, user-facing workflows, tools, interfaces, and data pipelines that power an AI scientist and support AI agents and scientific research workflows."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-05T21:50:00Z",
+      "last_verified_at": "2026-08-09T02:55:13Z"
+    },
+    {
+      "company_id": "mercor",
+      "name": "Mercor",
+      "website_url": "https://www.mercor.com/",
+      "primary_domain": "mercor.com",
+      "jobs_url": "https://jobs.ashbyhq.com/mercor",
+      "ats": { "provider": "ashby", "board_id": "mercor" },
+      "map_location": {
+        "city": "San Francisco", "region": "CA", "country": "US",
+        "address": null, "postal_code": null, "latitude": null, "longitude": null,
+        "status": "pending", "location_type": null, "source_label": null,
+        "source_url": null, "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+          "title": "Product Engineer, Talent Experience",
+          "url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 130000, "maximum": 500000, "currency": "USD",
+            "basis": "base", "period": "year", "source_text": "$130K - $500K"
+          },
+          "posted_date": "2026-07-16",
+          "status": "active",
+          "verified_at": "2026-08-09T02:55:13Z",
+          "evidence": {
+            "active_status": "Current official Ashby board feed lists the posting as active (isListed true).",
+            "location": "Official posting lists San Francisco.",
+            "workplace_arrangement": "Official posting classifies the role as OnSite and states that Mercor works in person five days a week.",
+            "compensation": "Official posting publishes a $130K-$500K annual base range.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Mid-level: the posting requires 3+ years of professional software engineering experience.",
+            "role_fit": "Owns backend-heavy full-stack assessment products, including services for AI-assisted interviews, AI-powered scoring, skill verification, and candidate-facing product surfaces."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-03T18:42:00Z",
+      "last_verified_at": "2026-08-09T02:55:13Z"
+    },
+    {
+      "company_id": "openai",
+      "name": "OpenAI",
+      "website_url": "https://openai.com/",
+      "primary_domain": "openai.com",
+      "jobs_url": "https://jobs.ashbyhq.com/openai",
+      "ats": { "provider": "ashby", "board_id": "openai" },
+      "map_location": {
+        "city": "San Francisco", "region": "CA", "country": "US",
+        "address": null, "postal_code": null, "latitude": null, "longitude": null,
+        "status": "pending", "location_type": null, "source_label": null,
+        "source_url": null, "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "1bb1f351-41a2-43a5-bac1-259859886cb3",
+          "title": "Software Engineer, GTM Growth Engineering",
+          "url": "https://jobs.ashbyhq.com/openai/1bb1f351-41a2-43a5-bac1-259859886cb3",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 230000, "maximum": 385000, "currency": "USD",
+            "basis": "base", "period": "year", "source_text": "$230K - $385K plus equity"
+          },
+          "posted_date": "2026-07-25",
+          "status": "active",
+          "verified_at": "2026-08-09T02:55:13Z",
+          "evidence": {
+            "active_status": "Current official OpenAI Ashby feed lists the posting as active (isListed true).",
+            "location": "Official OpenAI Ashby posting lists San Francisco.",
+            "workplace_arrangement": "Official Ashby feed classifies this posting as OnSite.",
+            "compensation": "Official posting publishes a $230K-$385K annual base range plus equity.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Mid-level: the posting requires 4+ years as a software, product, or full-stack engineer.",
+            "role_fit": "Builds AI-powered products and full-stack GTM experiences, including user interfaces, APIs, integrations, data models, and human-review surfaces for AI-assisted workflows."
+          }
+        },
+        {
+          "job_id": "38e3c4bf-a632-405e-9619-b87382ca2472",
+          "title": "Applied AI Software Engineer, GTM Growth Engineering",
+          "url": "https://jobs.ashbyhq.com/openai/38e3c4bf-a632-405e-9619-b87382ca2472",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "mid-level",
+          "compensation": {
+            "minimum": 230000, "maximum": 385000, "currency": "USD",
+            "basis": "base", "period": "year", "source_text": "$230K - $385K plus equity"
+          },
+          "posted_date": "2026-07-25",
+          "status": "active",
+          "verified_at": "2026-08-09T02:55:13Z",
+          "evidence": {
+            "active_status": "Current official OpenAI Ashby feed lists the posting as active (isListed true).",
+            "location": "Official OpenAI posting lists San Francisco.",
+            "workplace_arrangement": "OpenAI's official San Francisco role policy states a hybrid model of three in-office days per week.",
+            "compensation": "Official posting publishes a $230K-$385K annual base range plus equity.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Mid-level: the posting requires 4+ years of software, backend, applied-AI, or product-engineering experience.",
+            "role_fit": "Owns production agent improvement loops across feedback, evaluation, experimentation, prompting, context construction, tool use, human review, and backend services."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-03T18:33:00Z",
+      "last_verified_at": "2026-08-09T02:55:13Z"
+    },
+    {
+      "company_id": "thorin",
+      "name": "Thorin",
+      "website_url": null,
+      "primary_domain": null,
+      "jobs_url": "https://jobs.ashbyhq.com/thorin",
+      "ats": { "provider": "ashby", "board_id": "thorin" },
+      "map_location": {
+        "city": "San Francisco", "region": "CA", "country": "US",
+        "address": null, "postal_code": null, "latitude": null, "longitude": null,
+        "status": "pending", "location_type": null, "source_label": null,
+        "source_url": null, "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "a2044814-4058-4022-b647-5008933ae17f",
+          "title": "Founding Senior AI Product Engineer",
+          "url": "https://jobs.ashbyhq.com/thorin/a2044814-4058-4022-b647-5008933ae17f",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 200000, "maximum": 350000, "currency": "USD",
+            "basis": "base", "period": "year", "source_text": "$200,000-$350,000 expected base salary plus equity and benefits"
+          },
+          "posted_date": "2026-06-25",
+          "status": "active",
+          "verified_at": "2026-08-09T02:55:13Z",
+          "evidence": {
+            "active_status": "Current official Ashby board lists the posting as active (isListed true).",
+            "location": "Official posting lists San Francisco, CA.",
+            "workplace_arrangement": "Official Ashby posting classifies the role as OnSite.",
+            "compensation": "The official job description publishes an expected $200,000-$350,000 base range plus equity and benefits.",
+            "employment_type": "Official Ashby posting lists FullTime.",
+            "seniority": "Senior: the title is Founding Senior AI Product Engineer and the role includes mentoring engineers and player-coach scope.",
+            "role_fit": "Builds proactive, long-horizon AI-agent products end to end and partners directly with founders and customers on product experiences."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-03T17:57:10Z",
+      "last_verified_at": "2026-08-09T02:55:13Z"
+    }
+  ],
+  "issues": [
+    {
+      "code": "inactive_legacy_job", "company_id": "edison-scientific",
+      "subject": "Frontend Engineer",
+      "source_url": "https://jobs.ashbyhq.com/Edison%20Scientific/52900167-cbb3-4957-8944-48ab86555bea",
+      "details": "The v1 job is absent from the current official Ashby board and was not migrated."
+    },
+    {
+      "code": "missing_stable_identity", "company_id": null,
+      "subject": "Confident AI — Founding Product Engineer (Frontend)",
+      "source_url": "https://www.confident-ai.com/careers",
+      "details": "The current role passes the content constraints but shares a generic careers-page URL and exposes no stable source job ID, so it cannot satisfy the v2 identity rule."
+    },
+    {
+      "code": "seniority_ambiguous", "company_id": null,
+      "subject": "Samba TV — AI Product Engineer",
+      "source_url": "https://jobs.lever.co/samba-tv/a0a1f3cc-9b2e-4440-b5c1-45ea050cf0b1",
+      "details": "The current posting does not establish one of the configured allowed seniority levels, so it was not migrated."
+    },
+    {
+      "code": "seniority_excluded", "company_id": null,
+      "subject": "Tasklet — Product Engineer",
+      "source_url": "https://www.ycombinator.com/companies/tasklet-2/jobs/8WgDV4q-product-engineer",
+      "details": "The current posting explicitly accepts any experience level and new graduates, so it does not establish the configured mid-level, senior, or lead gate."
+    },
+    {
+      "code": "seniority_ambiguous", "company_id": null,
+      "subject": "Town.com — AI Product Engineer",
+      "source_url": "https://jobs.ashbyhq.com/town/0b261662-60c4-49e2-b351-118e57e5714b",
+      "details": "The current posting does not provide an unambiguous allowed seniority level, so it was not migrated despite passing the other hard constraints."
+    },
+    {
+      "code": "inactive_legacy_job", "company_id": "openai",
+      "subject": "Product Engineer, Growth & AI Learning Experiences",
+      "source_url": "https://openai.com/careers/product-engineer-growth-and-ai-learning-experiences-san-francisco/",
+      "details": "The v1 posting is no longer present in the current official careers feed and was not migrated."
+    }
+  ]
+}

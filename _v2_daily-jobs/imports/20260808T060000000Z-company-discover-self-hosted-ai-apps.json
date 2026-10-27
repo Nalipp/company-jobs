@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-08T06:00:00Z",
+  "changes": [
+    {
+      "company_id": "hex",
+      "name": "Hex",
+      "website_url": "https://hex.tech/",
+      "primary_domain": "hex.tech",
+      "jobs_url": "https://hex.tech/careers/",
+      "ats": {
+        "provider": "greenhouse",
+        "board_id": "hex"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "5808072004",
+          "title": "Software Engineer, AI Agent",
+          "url": "https://hex.tech/careers/software-engineer-ai-agent/?gh_jid=5808072004",
+          "location_text": "San Francisco, CA or New York, NY",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 160000,
+            "maximum": 265000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$160,000 - $265,000"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T06:00:00Z",
+          "evidence": {
+            "active_status": "Posting live at hex.tech/careers/software-engineer-ai-agent/ with schema markup dated April 29, 2026; official Hex careers page lists this as a current opening.",
+            "location": "San Francisco, CA or New York, NY per official Hex careers page; SF headquarters specifically listed.",
+            "workplace_arrangement": "Hybrid — 1-2 days per week in office at SF headquarters or NYC office per official posting.",
+            "compensation": "$160,000 - $265,000 per official Hex careers page.",
+            "employment_type": "Full-time implied by senior-level compensation range ($160K-$265K base), equity grants, and senior engineering role structure; no part-time indication in official posting.",
+            "seniority": "Senior — at least 4+ years of software engineering experience required per official posting; role targets senior and staff-level engineers.",
+            "role_fit": "Build AI-powered features into the Hex platform; own scalable agent infrastructure powering leading data agents; partner with Research team on context and model prompting; develop cutting-edge experimentation tooling for rapid AI feature delivery; build Magic AI features including the Notebook Agent."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T06:00:00Z",
+      "last_verified_at": "2026-08-08T06:00:00Z"
+    }
+  ],
+  "issues": [
+    {
+      "code": "access_blocked",
+      "company_id": null,
+      "subject": "OpenAI Product Engineer Enterprise AI Platform",
+      "source_url": "https://openai.com/careers/product-engineer-enterprise-ai-platform-san-francisco",
+      "details": "openai.com/careers returned HTTP 403 Forbidden on fetch. The role 'Product Engineer, Enterprise AI Platform' is indexed by search engines as a self-hosted posting on openai.com in San Francisco; cannot verify active status, salary, or workplace arrangement from canonical source. A follow-up invocation should retry access."
+    },
+    {
+      "code": "access_blocked",
+      "company_id": null,
+      "subject": "OpenAI Product Engineer GTM Innovation",
+      "source_url": "https://openai.com/careers/product-engineer-gtm-innovation-san-francisco/",
+      "details": "openai.com/careers returned HTTP 403 Forbidden on fetch. The role 'Product Engineer, GTM Innovation' is indexed by search engines as a self-hosted posting on openai.com in San Francisco; cannot verify active status, salary, or workplace arrangement from canonical source. A follow-up invocation should retry access."
+    },
+    {
+      "code": "access_blocked",
+      "company_id": null,
+      "subject": "Perplexity AI engineering roles — San Francisco",
+      "source_url": "https://www.perplexity.ai/hub/careers/san-francisco",
+      "details": "perplexity.ai/hub/careers/san-francisco returned HTTP 403 Forbidden on both this and the prior invocation. Perplexity self-hosts careers on their domain; search results confirm SF-based roles exist. A follow-up invocation should retry access — bot-blocking may be intermittent."
+    }
+  ]
+}

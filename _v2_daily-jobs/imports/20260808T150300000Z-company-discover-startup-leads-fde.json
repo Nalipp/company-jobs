@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-08T15:03:00Z",
+  "changes": [],
+  "issues": [
+    {
+      "code": "posting_expired",
+      "company_id": null,
+      "subject": "ServiceNow / Moveworks — Senior AI Implementation Engineer",
+      "source_url": "https://jobs.smartrecruiters.com/ServiceNow/744000117751397-senior-ai-implementation-engineer-moveworks",
+      "details": "Senior AI Implementation Engineer at Moveworks (ServiceNow) in San Francisco, CA (221 Main St, Suite 780) listed on SmartRecruiters with explicit LLM-based systems design, prompt engineering, and context engineering responsibilities. Posting is expired and no longer accepting applications. A future re-listing at this allowed ATS would qualify."
+    },
+    {
+      "code": "canonical_access_failed",
+      "company_id": null,
+      "subject": "OpenAI — Forward Deployed Engineer (FDE) - SF",
+      "source_url": "https://openai.com/careers/forward-deployed-engineer-(fde)-sf-san-francisco/",
+      "details": "OpenAI FDE role in San Francisco ($220k–$280k, hybrid 3 days/week, explicit AI model deployment responsibilities) confirmed as expired via a third-party mirror (removed August 5, 2025). Careers page at openai.com returns HTTP 403 for automated access, and historical listing data indicates the ATS routes through Greenhouse, which is excluded from this lane. Not admitted."
+    },
+    {
+      "code": "required_fact_missing",
+      "company_id": null,
+      "subject": "Juicebox (PeopleGPT) — Forward Deployed Engineer",
+      "source_url": "https://juicebox.ai/careers",
+      "details": "Forward Deployed Engineer at Juicebox in San Francisco listed on the employer's self-hosted careers page (juicebox.ai/careers) as full-time, $160k–$250k + equity. Workplace arrangement is not stated on the listing and the job-specific URL (juicebox.ai/careers/forward-deployed-engineer) redirected to the company homepage, preventing confirmation of workplace arrangement and AI-specific responsibilities. Cannot qualify without those required facts."
+    },
+    {
+      "code": "location_mismatch",
+      "company_id": null,
+      "subject": "ChapsVision US — Forward Deployed Engineer, Applied AI & Search",
+      "source_url": "https://chapsvision-1740578005-chapsvision-usa.teamtailor.com/jobs/7888918-forward-deployed-engineer-applied-ai-search",
+      "details": "Active Forward Deployed Engineer role on Teamtailor with explicit AI/agent responsibilities (MCP servers, multi-agent orchestration, LLM prompt engineering, vector search). Role is on-site at company headquarters in Columbus, Indiana — not San Francisco. Excluded on location."
+    }
+  ]
+}

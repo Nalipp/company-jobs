@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-07T23:16:00Z",
+  "changes": [
+    {
+      "company_id": "airtable",
+      "name": "Airtable",
+      "website_url": "https://www.airtable.com/",
+      "primary_domain": "airtable.com",
+      "jobs_url": "https://job-boards.greenhouse.io/airtable",
+      "ats": {
+        "provider": "greenhouse",
+        "board_id": "airtable"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "8397228002",
+          "title": "Software Engineer, Product Frontend (8+ YOE)",
+          "url": "https://job-boards.greenhouse.io/airtable/jobs/8397228002",
+          "location_text": "San Francisco, CA; New York, NY",
+          "workplace_arrangement": "hybrid",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 213000,
+            "maximum": 339900,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$213,000 - $339,900 USD"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:16:00Z",
+          "evidence": {
+            "active_status": "Live application form on job-boards.greenhouse.io/airtable/jobs/8397228002.",
+            "location": "San Francisco, CA listed as location; New York, NY also listed as alternative.",
+            "workplace_arrangement": "Hybrid — 'based in the San Francisco Bay Area and are open to coming into our office (Embarcadero) at least ~2-3 times/week'.",
+            "compensation": "$213,000 - $339,900 USD",
+            "employment_type": "Full-time.",
+            "seniority": "Senior — '8+ years of industry experience required'.",
+            "role_fit": "Build modern onboarding experiences 'by taking advantage of frontier AI capabilities' within Airtable's Self Serve Funnel team; required application question asks how candidate uses AI in their current role; bridges frontier AI capabilities with user-facing product activation."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T23:16:00Z",
+      "last_verified_at": "2026-08-07T23:16:00Z"
+    }
+  ],
+  "issues": [
+    {
+      "code": "canonical_fetch_error",
+      "company_id": null,
+      "subject": "Evolutionary Scale — Software Engineer, Full Stack (Frontend Focus)",
+      "source_url": "https://job-boards.greenhouse.io/evolutionaryscale/jobs/4030276008",
+      "details": "Canonical Greenhouse posting returned HTTP 500 on two separate fetch attempts. Search snippets indicate SF location and $150,000–$350,000 salary but these could not be verified from the canonical source. Omitted pending access."
+    },
+    {
+      "code": "canonical_fetch_error",
+      "company_id": null,
+      "subject": "Thinking Machines Lab — Software Engineer, Full Stack",
+      "source_url": "https://job-boards.greenhouse.io/thinkingmachines/jobs/5013911008",
+      "details": "Canonical Greenhouse posting returned HTTP 404 on two separate fetch attempts. Search snippets indicated SF location and $350,000–$475,000 salary; 404 suggests the role is no longer active. Omitted."
+    }
+  ]
+}

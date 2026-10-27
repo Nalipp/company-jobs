@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "operation": "validate-company-address",
+  "created_at": "2026-08-09T02:55:15Z",
+  "changes": [
+    {
+      "company_id": "mercor",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "181 Fremont Street, San Francisco, CA 94105, USA",
+        "postal_code": "94105",
+        "latitude": 37.7898002,
+        "longitude": -122.3953496,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Mercor official careers page",
+        "source_url": "https://www.mercor.com/careers/",
+        "checked_at": "2026-08-03T19:52:00Z"
+      }
+    },
+    {
+      "company_id": "openai",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "1455 3rd Street, San Francisco, CA 94158, USA",
+        "postal_code": "94158",
+        "latitude": 37.7700459,
+        "longitude": -122.3887896,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "OpenAI official Terms of Use",
+        "source_url": "https://openai.com/policies/terms-of-use/",
+        "checked_at": "2026-08-03T19:56:00Z"
+      }
+    },
+    {
+      "company_id": "rippling",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "430 California Street, 11th Floor, San Francisco, CA 94104, USA",
+        "postal_code": "94104",
+        "latitude": 37.79325,
+        "longitude": -122.4018041,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Rippling official company office directory",
+        "source_url": "https://www.rippling.com/company/about",
+        "checked_at": "2026-08-03T19:25:00Z"
+      }
+    },
+    {
+      "company_id": "speak",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "360 Spear Street, 4th Floor, San Francisco, CA 94105, USA",
+        "postal_code": "94105",
+        "latitude": 37.7889917,
+        "longitude": -122.3901367,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Speak official privacy notice",
+        "source_url": "https://www.speak.com/privacy",
+        "checked_at": "2026-08-03T19:50:00Z"
+      }
+    }
+  ],
+  "issues": []
+}

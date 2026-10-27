@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "operation": "validate-company-address",
+  "created_at": "2026-08-07T22:00:00Z",
+  "changes": [
+    {
+      "company_id": "gem",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "525 Market Street, 6th Floor, San Francisco, CA 94105",
+        "postal_code": "94105",
+        "latitude": 37.7906,
+        "longitude": -122.3979,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Gem official contact page",
+        "source_url": "https://www.gem.com/contact",
+        "checked_at": "2026-08-07T22:00:00Z"
+      }
+    },
+    {
+      "company_id": "harvey-ai",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "201 3rd Street, Suite 500, San Francisco, CA 94103",
+        "postal_code": "94103",
+        "latitude": 37.7848,
+        "longitude": -122.3998,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Traded – Harvey AI lease at 201 3rd Street",
+        "source_url": "https://traded.co/deals/california/office/lease/201-3rd-street-1/",
+        "checked_at": "2026-08-07T22:00:00Z"
+      }
+    },
+    {
+      "company_id": "anthropic",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "500 Howard Street, San Francisco, CA 94105",
+        "postal_code": "94105",
+        "latitude": 37.7864,
+        "longitude": -122.3958,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "SF Standard – Anthropic San Francisco office expansion",
+        "source_url": "https://sfstandard.com/2025/09/23/anthropic-san-francisco-office-lease/",
+        "checked_at": "2026-08-07T22:00:00Z"
+      }
+    },
+    {
+      "company_id": "scale-ai",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "303 2nd Street, 5th Floor, San Francisco, CA 94107",
+        "postal_code": "94107",
+        "latitude": 37.7854,
+        "longitude": -122.3944,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Clay – Scale AI headquarters office locations",
+        "source_url": "https://www.clay.com/dossier/scale-ai-headquarters-office-locations",
+        "checked_at": "2026-08-07T22:00:00Z"
+      }
+    },
+    {
+      "company_id": "together-ai",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "2 Henry Adams Street, San Francisco, CA 94103",
+        "postal_code": "94103",
+        "latitude": 37.7673,
+        "longitude": -122.4063,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "The Real Deal – Together AI new headquarters at 2 Henry Adams Street",
+        "source_url": "https://therealdeal.com/san-francisco/2026/04/20/together-ai-moves-drastically-increases-headquarters-size/",
+        "checked_at": "2026-08-07T22:00:00Z"
+      }
+    }
+  ],
+  "issues": []
+}

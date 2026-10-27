@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validate Company Address"
+  short_description: "Locate map-ready addresses for pending companies"
+  default_prompt: "Use $validate-company-address to locate the next pending company addresses through a replay-safe handoff."

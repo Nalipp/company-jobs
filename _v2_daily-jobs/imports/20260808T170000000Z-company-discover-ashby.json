@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-08T17:00:00Z",
+  "changes": [],
+  "issues": [
+    {
+      "code": "compensation_not_disclosed",
+      "company_id": null,
+      "subject": "Convex — Software Engineer, Infra/Systems (SF hybrid, >$200K min)",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/convex-dev",
+      "details": "Convex's Ashby board lists SF hybrid full-time engineering roles with disclosed salary minimums ('>$200,000' and '>$240,000'), but no upper bound is published. The published_maximum_at_least constraint requires a disclosed maximum ≥ $200K; a floor-only disclosure leaves the maximum unknown and triggers unknown_policy: exclude. Additionally, the qualifying-salary roles ('Software Engineer, Infra/Systems', 'Senior Software Engineer, Infra/Systems') are distributed-database infrastructure roles that do not satisfy require_role_specific_ai_work. The 'Software Engineer, AI' role (ID dae7eefa) has explicit AI product work but only a >$170K floor, below threshold."
+    },
+    {
+      "code": "compensation_not_disclosed",
+      "company_id": null,
+      "subject": "FurtherAI — Staff AI Engineer - Agent Team / Forward Deployed Engineer (SF on-site)",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/furtherai",
+      "details": "FurtherAI's Ashby board lists SF on-site roles with strong AI agent work. 'Staff AI Engineer - Agent Team' (8+ years, agent-building) and 'Forward Deployed Engineer' (2+ years, mid-level) have clear AI role fit. No compensationTierSummary is present for any posting; excluded per unknown_policy: exclude. A future run could admit this company if salary is disclosed on the canonical Ashby source. Note also that Staff-level seniority is excluded per allowed_seniority."
+    },
+    {
+      "code": "compensation_not_disclosed",
+      "company_id": null,
+      "subject": "Greptile — Research Engineer (SF on-site, agents/LMs work)",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/greptile",
+      "details": "Greptile's Ashby board lists SF on-site full-time 'Research Engineer' and 'Growth Engineer' roles. Research Engineer explicitly focuses on agents and language models. No salary is disclosed in any posting; excluded per unknown_policy: exclude."
+    },
+    {
+      "code": "compensation_not_disclosed",
+      "company_id": null,
+      "subject": "Sim — Software Engineer, Agents / Software Engineer, Frontend (SF on-site)",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/sim",
+      "details": "Sim's Ashby board lists multiple SF on-site full-time engineering roles with clear AI agent work: 'Software Engineer, Agents' (workflow engine & Copilot), 'Software Engineer, Frontend' (agent-building canvas), 'Software Engineer, Platform' (visual agent builder). All roles state only 'Competitive salary + meaningful equity' with no numeric ranges; excluded per unknown_policy: exclude."
+    },
+    {
+      "code": "compensation_not_disclosed",
+      "company_id": null,
+      "subject": "AfterQuery — Software Engineer - Platform/Applied AI (SF on-site)",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/AfterQuery",
+      "details": "AfterQuery's Ashby board lists SF on-site roles including 'Software Engineer - Platform/Applied AI' and 'Senior Software Engineer' with AI work, but no salary information is disclosed in any posting. Excluded per unknown_policy: exclude."
+    }
+  ]
+}

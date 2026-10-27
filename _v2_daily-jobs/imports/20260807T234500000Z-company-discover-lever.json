@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-07T23:45:00Z",
+  "changes": [],
+  "issues": [
+    {
+      "code": "canonical_fetch_error",
+      "company_id": null,
+      "subject": "Aircall — Full-Stack Software Engineer, AI",
+      "source_url": "https://jobs.lever.co/aircall/38f0617f-7a28-4381-9377-cae4827a3cd1",
+      "details": "Direct Lever URL returns HTTP 403. Public Lever API (api.lever.co/v0/postings/aircall) returns an empty array, indicating no postings are exposed via the API. Cannot verify active status, salary, location, or workplace arrangement from any canonical Lever source. Omitted pending access. Search snippets suggest SF location and AI full-stack work, but third-party snippets are insufficient per source policy."
+    },
+    {
+      "code": "role_fit_ambiguous",
+      "company_id": null,
+      "subject": "Collate — Full-Stack Software Engineer (Backend-Leaning)",
+      "source_url": "https://jobs.lever.co/collate/bc4a840c-71f1-4190-8826-6b42d236e375",
+      "details": "Canonical Lever API posting verified: SF on-site, senior salary $188K–$250K (Tier 1), full-time. Role-specific AI work is ambiguous: canonical text describes working with 'AI & ML services, LLMs, and other AI models' in the infrastructure layer, but the posting's stated focus is backend systems and APIs for the document automation platform with no distinct AI-powered user-facing feature responsibilities listed. Excluded under require_role_specific_ai_work=true; employer AI focus alone is not sufficient."
+    }
+  ]
+}

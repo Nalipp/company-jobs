@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-07T23:59:00Z",
+  "changes": [
+    {
+      "company_id": "collate",
+      "name": "Collate",
+      "website_url": null,
+      "primary_domain": null,
+      "jobs_url": "https://jobs.lever.co/collate",
+      "ats": {
+        "provider": "lever",
+        "board_id": "collate"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "ddb57f92-0391-43a6-bd90-10fc2abd23fb",
+          "title": "Frontend Software Engineer",
+          "url": "https://jobs.lever.co/collate/ddb57f92-0391-43a6-bd90-10fc2abd23fb",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 158000,
+            "maximum": 325000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "SWE: $158-200K; Senior SWE: $188-250K; Staff SWE: $228-296K; Principal $275-325K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:59:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Collate's public Lever board via api.lever.co/v0/postings/collate with a direct application link.",
+            "location": "San Francisco per Lever API posting.",
+            "workplace_arrangement": "On-site — commitment field is 'onsite' per Lever API.",
+            "compensation": "SWE: $158-200K; Senior SWE: $188-250K; Staff SWE: $228-296K; Principal $275-325K (Tier 1, San Francisco)",
+            "employment_type": "Full-time — annual salary range and senior professional role at a venture-backed startup; no part-time indication in posting.",
+            "seniority": "Senior — role spans SWE through Principal levels; qualifying Senior SWE band is $188–250K.",
+            "role_fit": "Build responsive web applications that 'make complex AI-driven healthcare data simple'; partner with ML teams to 'integrate APIs and models into smooth and information rich interfaces'; translate 'cutting-edge AI into tools that feel simple, reliable, and human'; AI-native application described as similar to Cursor."
+          }
+        },
+        {
+          "job_id": "31c0b6b3-3a59-4fd4-8ca9-63ff2740780a",
+          "title": "Forward Deployed Engineer",
+          "url": "https://jobs.lever.co/collate/31c0b6b3-3a59-4fd4-8ca9-63ff2740780a",
+          "location_text": "San Francisco",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 150000,
+            "maximum": 300000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$150,000–$300,000 USD annually, depending on experience and level (Tier 1, San Francisco)"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T23:59:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Collate's public Lever board via api.lever.co/v0/postings/collate with a direct application link.",
+            "location": "San Francisco per Lever API posting.",
+            "workplace_arrangement": "On-site — commitment field is 'onsite' per Lever API.",
+            "compensation": "$150,000–$300,000 USD annually, depending on experience and level (Tier 1, San Francisco)",
+            "employment_type": "Full-time — annual salary range and senior-engineer-level professional role; no part-time indication in posting.",
+            "seniority": "Senior — posting requires 'senior engineer or tech lead level decision-making authority'.",
+            "role_fit": "Design and ship production AI systems including document generation agents, agentic workflows, and data pipelines; define and run eval loops measuring system quality against workflow-specific benchmarks; hands-on prompt engineering, agent development, evaluation frameworks, and deployment at scale."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T23:59:00Z",
+      "last_verified_at": "2026-08-07T23:59:00Z"
+    }
+  ],
+  "issues": [
+    {
+      "code": "canonical_fetch_error",
+      "company_id": null,
+      "subject": "Aircall — Full-Stack Software Engineer, AI and Staff Software Engineer Backend/AI",
+      "source_url": "https://jobs.lever.co/aircall/38f0617f-7a28-4381-9377-cae4827a3cd1",
+      "details": "Aircall's Lever company board (api.lever.co/v0/postings/aircall) returns an empty array across two separate invocations, indicating no jobs are exposed via the public API. Direct jobs.lever.co URLs return HTTP 403. Cannot verify active status, salary, location, or workplace arrangement for any Aircall Lever posting. Omitted."
+    }
+  ]
+}

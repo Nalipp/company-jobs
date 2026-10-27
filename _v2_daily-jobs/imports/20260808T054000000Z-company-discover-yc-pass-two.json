@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-08T05:40:00Z",
+  "changes": [
+    {
+      "company_id": "speak",
+      "name": "Speak",
+      "website_url": "https://speak.com/",
+      "primary_domain": "speak.com",
+      "jobs_url": "https://www.ycombinator.com/companies/speak/jobs",
+      "ats": {
+        "provider": "unknown",
+        "board_id": null
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "AI Product Engineer",
+          "url": "https://www.ycombinator.com/companies/speak/jobs/eRRWv50-ai-product-engineer",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 140000,
+            "maximum": 250000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$140K - $250K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T05:40:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/speak/jobs); direct application available with signup_job_id=65068.",
+            "location": "San Francisco, CA per official YC WaaS posting.",
+            "workplace_arrangement": "On-site per official YC WaaS posting.",
+            "compensation": "$140K - $250K",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "Senior — 6+ years of experience required per official YC WaaS posting.",
+            "role_fit": "Develop and deploy LLM-powered language learning products across the full stack; evaluate models and test prompts for conversational tutoring; build conversational onboarding, lesson experiences, grammatical assessment and feedback, and personalized lessons; refine practices for prompting, experimentation/evaluation, LLM Ops, measuring quality and performance. Real-world experience developing and deploying LLM apps is a hard requirement."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T05:40:00Z",
+      "last_verified_at": "2026-08-08T05:40:00Z"
+    },
+    {
+      "company_id": "amplitude",
+      "name": "Amplitude",
+      "website_url": "https://amplitude.com/",
+      "primary_domain": "amplitude.com",
+      "jobs_url": "https://www.ycombinator.com/companies/amplitude/jobs",
+      "ats": {
+        "provider": "unknown",
+        "board_id": null
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": null,
+          "title": "Senior AI Product Engineer",
+          "url": "https://www.ycombinator.com/companies/amplitude/jobs/vixZiNb-senior-ai-product-engineer",
+          "location_text": "San Francisco, CA",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 177000,
+            "maximum": 220000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "$177K - $220K"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-08T05:40:00Z",
+          "evidence": {
+            "active_status": "Listed as active on Y Combinator Work at a Startup (ycombinator.com/companies/amplitude/jobs); direct application available with signup_job_id=86939.",
+            "location": "San Francisco, CA per official YC WaaS posting.",
+            "workplace_arrangement": "On-site in San Francisco with no remote or hybrid options per official YC WaaS posting.",
+            "compensation": "$177K - $220K",
+            "employment_type": "Full-time per official YC WaaS posting.",
+            "seniority": "Senior per title; 3+ years of experience required per official YC WaaS posting.",
+            "role_fit": "Build and own full-stack features for Amplitude's AI-powered personal chaperone product embedded into websites and apps; collaborate with AI Engineering Lead to debug agent failures and design retrieval-based solutions; build automated pipelines to identify and address knowledge base gaps; experiment with frontier models and libraries and present findings to the team; participate in customer debugging sessions when AI agents fail in production."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-08T05:40:00Z",
+      "last_verified_at": "2026-08-08T05:40:00Z"
+    }
+  ],
+  "issues": []
+}

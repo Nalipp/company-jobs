@@ -1,0 +1,156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://daily-jobs.local/schemas/handoff.schema.json",
+  "title": "Daily Jobs v2 External Agent Handoff",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "operation", "created_at", "changes", "issues"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "operation": {
+      "enum": [
+        "company-discover",
+        "validate-company-address",
+        "company-job-fetch"
+      ]
+    },
+    "created_at": { "type": "string", "format": "date-time" },
+    "changes": { "type": "array" },
+    "issues": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/issue" }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "operation": { "const": "company-discover" } },
+        "required": ["operation"]
+      },
+      "then": {
+        "properties": {
+          "changes": {
+            "items": { "$ref": "#/$defs/discoveredCompany" }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "operation": { "const": "validate-company-address" } },
+        "required": ["operation"]
+      },
+      "then": {
+        "properties": {
+          "changes": {
+            "items": { "$ref": "#/$defs/addressChange" }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "operation": { "const": "company-job-fetch" } },
+        "required": ["operation"]
+      },
+      "then": {
+        "properties": {
+          "changes": {
+            "items": { "$ref": "#/$defs/jobChange" }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "company_id", "subject", "source_url", "details"],
+      "properties": {
+        "code": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+        },
+        "company_id": {
+          "type": ["string", "null"],
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "subject": { "type": ["string", "null"], "minLength": 1 },
+        "source_url": {
+          "oneOf": [
+            { "type": "string", "format": "uri" },
+            { "type": "null" }
+          ]
+        },
+        "details": { "type": "string", "minLength": 1 }
+      }
+    },
+    "discoveredCompany": {
+      "allOf": [
+        {
+          "$ref": "https://daily-jobs.local/schemas/companies.schema.json#/$defs/company"
+        },
+        {
+          "properties": {
+            "map_location": {
+              "properties": { "status": { "const": "pending" } },
+              "required": ["status"]
+            }
+          }
+        }
+      ]
+    },
+    "addressChange": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["company_id", "expected_status", "map_location"],
+      "properties": {
+        "company_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "expected_status": { "enum": ["pending", "not_found"] },
+        "map_location": {
+          "allOf": [
+            {
+              "$ref": "https://daily-jobs.local/schemas/companies.schema.json#/$defs/mapLocation"
+            },
+            {
+              "properties": {
+                "status": { "enum": ["located", "not_found"] }
+              },
+              "required": ["status"]
+            }
+          ]
+        }
+      }
+    },
+    "jobChange": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["company_id", "new_jobs"],
+      "properties": {
+        "company_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "new_jobs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "allOf": [
+              {
+                "$ref": "https://daily-jobs.local/schemas/companies.schema.json#/$defs/job"
+              },
+              {
+                "properties": { "status": { "const": "active" } },
+                "required": ["status"]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

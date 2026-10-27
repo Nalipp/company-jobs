@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "operation": "company-job-fetch",
+  "created_at": "2026-08-09T02:55:14Z",
+  "changes": [],
+  "issues": [
+    {
+      "code": "inactive_legacy_job",
+      "company_id": "rippling",
+      "subject": "Software Engineer - AI Products",
+      "source_url": "https://ats.rippling.com/rippling/jobs/4ce56db9-bc9a-486a-b31f-e6664b8d3a69",
+      "details": "The v1 job-specific URL now redirects to Rippling's general open-roles page, so the old job was not appended to the existing v2 company."
+    },
+    {
+      "code": "cross_source_duplicate",
+      "company_id": "speak",
+      "subject": "AI Product Engineer",
+      "source_url": "https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+      "details": "The Ashby posting remains active, but it represents the same Speak AI Product Engineer role previously stored from YC Work at a Startup. It was not appended as a second logical job; the existing catalog record and company source were normalized to the employer's Ashby identity during this migration."
+    },
+    {
+      "code": "inactive_legacy_job",
+      "company_id": "within-ai",
+      "subject": "Klarity — Senior AI Product Engineer",
+      "source_url": "https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273",
+      "details": "The former Klarity posting is no longer present on the current official board and was not appended to the renamed Within company."
+    },
+    {
+      "code": "exact_duplicate",
+      "company_id": "gem",
+      "subject": "AI Product Engineer",
+      "source_url": "https://www.ycombinator.com/companies/gem/jobs/4Uathaz-ai-product-engineer-san-francisco",
+      "details": "The v1 Gem record exactly matches the job already stored in v2, so no change was required."
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "operation": "validate-company-address",
+  "created_at": "2026-08-08T06:05:00Z",
+  "changes": [
+    {
+      "company_id": "magic",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "580 California Street, Floor 12, San Francisco, CA 94104",
+        "postal_code": "94104",
+        "latitude": 37.7929,
+        "longitude": -122.4042,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Magic headquarters per Craft.co company profile",
+        "source_url": "https://craft.co/magic-ai",
+        "checked_at": "2026-08-08T06:05:00Z"
+      }
+    },
+    {
+      "company_id": "retool",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "1550 Bryant Street, San Francisco, CA 94103",
+        "postal_code": "94103",
+        "latitude": 37.7695,
+        "longitude": -122.4105,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Retool official announcement – Hamm's Building headquarters",
+        "source_url": "https://x.com/retool/status/1535313377924222982",
+        "checked_at": "2026-08-08T06:05:00Z"
+      }
+    },
+    {
+      "company_id": "within-ai",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "not_found",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": "2026-08-08T06:05:00Z"
+      }
+    },
+    {
+      "company_id": "airtable",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "1 Front Street, Suite 2800, San Francisco, CA 94111",
+        "postal_code": "94111",
+        "latitude": 37.7918,
+        "longitude": -122.3988,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Airtable California business filing – Formagrid Inc at 1 Front Street",
+        "source_url": "https://opengovus.com/los-angeles-business/0002978614-0001-1",
+        "checked_at": "2026-08-08T06:05:00Z"
+      }
+    },
+    {
+      "company_id": "cardinal",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "not_found",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": "2026-08-08T06:05:00Z"
+      }
+    },
+    {
+      "company_id": "floot",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "not_found",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": "2026-08-08T06:05:00Z"
+      }
+    },
+    {
+      "company_id": "f2-ai",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "not_found",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": "2026-08-08T06:05:00Z"
+      }
+    },
+    {
+      "company_id": "vercel",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "650 California Street, Floor 7, San Francisco, CA 94108",
+        "postal_code": "94108",
+        "latitude": 37.7928,
+        "longitude": -122.4052,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "Vercel San Francisco business registry filing",
+        "source_url": "https://opengovus.com/san-francisco-business/1263459-11-201",
+        "checked_at": "2026-08-08T06:05:00Z"
+      }
+    },
+    {
+      "company_id": "collate",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "not_found",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": "2026-08-08T06:05:00Z"
+      }
+    },
+    {
+      "company_id": "angellist",
+      "expected_status": "pending",
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": "90 Gold Street, Floor 3, San Francisco, CA 94133",
+        "postal_code": "94133",
+        "latitude": 37.7959,
+        "longitude": -122.4026,
+        "status": "located",
+        "location_type": "company_office_proxy",
+        "source_label": "AngelList headquarters per ZoomInfo and Craft.co",
+        "source_url": "https://craft.co/angellist/locations",
+        "checked_at": "2026-08-08T06:05:00Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "address_rejected_virtual_office",
+      "company_id": "floot",
+      "subject": "945 Taraval Street is a commercial virtual office provider",
+      "source_url": "https://www.opusvirtualoffices.com/virtual-office/california/san-francisco/location-680/",
+      "details": "The only address found for Floot (945 Taraval St #534, SF 94116) is a commercial virtual office operated by Opus Virtual Offices. Rejected per policy — not a physical company office. Marking not_found."
+    },
+    {
+      "code": "address_not_found",
+      "company_id": "within-ai",
+      "subject": "No physical office address found for Within",
+      "source_url": null,
+      "details": "Searched within.ai website, LinkedIn, and web directories. No street address published. City anchor confirmed via saved YC job posting."
+    },
+    {
+      "code": "address_not_found",
+      "company_id": "cardinal",
+      "subject": "No physical office address found for Cardinal",
+      "source_url": "https://www.ycombinator.com/companies/trycardinal-ai",
+      "details": "YC W26 startup. City anchor confirmed via saved YC job posting. No street address published on trycardinal.com, Crunchbase, or web directories."
+    },
+    {
+      "code": "address_not_found",
+      "company_id": "f2-ai",
+      "subject": "No San Francisco office address confirmed for F2",
+      "source_url": "https://www.crunchbase.com/organization/f2-ai",
+      "details": "F2 (f2.ai) appears headquartered in New York City per Crunchbase and press releases. Saved job lists San Francisco but no physical SF office address found."
+    },
+    {
+      "code": "address_not_found",
+      "company_id": "collate",
+      "subject": "No street address found for Collate in San Francisco",
+      "source_url": "https://www.builtinsf.com/company/collate",
+      "details": "Collate (healthcare AI, jobs.lever.co/collate) is confirmed in SF via two on-site Lever job postings. No street address found via website, Crunchbase, or directories."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-08T16:00:00Z",
+  "changes": [],
+  "issues": [
+    {
+      "code": "compensation_not_disclosed",
+      "company_id": null,
+      "subject": "Cursor — Software Engineer, Product / Growth / Agent Harness (multiple SF roles)",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/cursor",
+      "details": "Cursor's Ashby board lists 15+ San Francisco on-site full-time engineering roles with strong AI fit (Software Engineer - Product, Growth, Agent Harness, Bugbot, Generalist, etc.), but no compensation is disclosed on any posting. Excluded per unknown_policy: exclude. A future run could admit this company if salary becomes disclosed on the Ashby board, or if the run sources from a California pay-range disclosure mechanism."
+    },
+    {
+      "code": "compensation_not_disclosed",
+      "company_id": null,
+      "subject": "Browserbase — Software Engineer (Dashboard)",
+      "source_url": "https://api.ashbyhq.com/posting-api/job-board/browserbase",
+      "details": "Browserbase's Ashby board lists a San Francisco on-site 'Software Engineer (Dashboard)' role that is strongly frontend-focused (browser/web UI), plus a 'Design Engineer' role. No compensation is disclosed for any posting. Excluded per unknown_policy: exclude. A future run could admit this company if salary is disclosed on the canonical Ashby source."
+    }
+  ]
+}

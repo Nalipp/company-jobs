@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://daily-jobs.local/schemas/search.schema.json",
+  "title": "Daily Jobs v2 Search Configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "hard_constraints", "discovery"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "hard_constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["location", "workplace_arrangements", "compensation", "employment_types", "role"],
+      "properties": {
+        "location": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["mode", "city", "region", "country", "broader_region_only_is_eligible"],
+          "properties": {
+            "mode": { "const": "city" },
+            "city": { "type": "string", "minLength": 1 },
+            "region": { "type": "string", "minLength": 1 },
+            "country": { "type": "string", "minLength": 2 },
+            "broader_region_only_is_eligible": { "type": "boolean" }
+          }
+        },
+        "workplace_arrangements": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "enum": ["remote", "hybrid", "on-site"] }
+        },
+        "compensation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["threshold", "comparison", "currency", "basis", "period", "unknown_policy"],
+          "properties": {
+            "threshold": { "type": "number", "minimum": 0 },
+            "comparison": { "const": "published_maximum_at_least" },
+            "currency": { "type": "string", "minLength": 3 },
+            "basis": { "enum": ["base", "total"] },
+            "period": { "enum": ["hour", "month", "year"] },
+            "unknown_policy": { "const": "exclude" }
+          }
+        },
+        "employment_types": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "role": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["primary_titles", "adjacent_titles", "role_families", "excluded_titles", "allowed_seniority", "require_role_specific_ai_work", "employer_ai_focus_alone_is_sufficient", "responsibility_signals"],
+          "properties": {
+            "primary_titles": { "$ref": "#/$defs/nonEmptyUniqueStrings" },
+            "adjacent_titles": { "$ref": "#/$defs/nonEmptyUniqueStrings" },
+            "role_families": { "$ref": "#/$defs/nonEmptyUniqueStrings" },
+            "excluded_titles": { "$ref": "#/$defs/uniqueStrings" },
+            "allowed_seniority": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": { "enum": ["entry-level", "mid-level", "senior", "staff", "principal", "lead", "manager", "director", "executive"] }
+            },
+            "require_role_specific_ai_work": { "type": "boolean" },
+            "employer_ai_focus_alone_is_sufficient": { "type": "boolean" },
+            "responsibility_signals": { "$ref": "#/$defs/nonEmptyUniqueStrings" }
+          }
+        }
+      }
+    },
+    "discovery": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["target_new_companies", "canonical_source_required", "preferred_ats_providers", "lead_sources"],
+      "properties": {
+        "target_new_companies": { "type": "integer", "minimum": 1, "maximum": 100 },
+        "canonical_source_required": { "const": true },
+        "preferred_ats_providers": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "enum": ["ashby", "greenhouse", "lever", "workday", "custom", "unknown"] }
+        },
+        "lead_sources": { "$ref": "#/$defs/nonEmptyUniqueStrings" }
+      }
+    }
+  },
+  "$defs": {
+    "uniqueStrings": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "nonEmptyUniqueStrings": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    }
+  }
+}

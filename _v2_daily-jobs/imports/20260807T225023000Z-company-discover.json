@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "operation": "company-discover",
+  "created_at": "2026-08-07T22:50:23Z",
+  "changes": [
+    {
+      "company_id": "magic",
+      "name": "Magic",
+      "website_url": "https://magic.dev/",
+      "primary_domain": "magic.dev",
+      "jobs_url": "https://jobs.ashbyhq.com/magic.dev",
+      "ats": {
+        "provider": "ashby",
+        "board_id": "magic.dev"
+      },
+      "map_location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "address": null,
+        "postal_code": null,
+        "latitude": null,
+        "longitude": null,
+        "status": "pending",
+        "location_type": null,
+        "source_label": null,
+        "source_url": null,
+        "checked_at": null
+      },
+      "jobs": [
+        {
+          "job_id": "e6bfccff-afd4-464b-a434-b5d22002d8e1",
+          "title": "Member of Technical Staff, Product",
+          "url": "https://jobs.ashbyhq.com/magic.dev/e6bfccff-afd4-464b-a434-b5d22002d8e1",
+          "location_text": "San Francisco, California",
+          "workplace_arrangement": "on-site",
+          "employment_type": "full-time",
+          "seniority": "senior",
+          "compensation": {
+            "minimum": 200000,
+            "maximum": 550000,
+            "currency": "USD",
+            "basis": "base",
+            "period": "year",
+            "source_text": "Annual salary ranges between $200K - $550K depending on experience"
+          },
+          "posted_date": null,
+          "status": "active",
+          "verified_at": "2026-08-07T22:50:23Z",
+          "evidence": {
+            "active_status": "Listed as active on Ashby board API (api.ashbyhq.com/posting-api/job-board/magic.dev) and magic.dev/careers.",
+            "location": "San Francisco, California per Ashby board API and magic.dev/careers.",
+            "workplace_arrangement": "OnSite per Ashby board API; magic.dev/careers confirms on-site arrangement with no remote flexibility stated.",
+            "compensation": "Annual salary ranges between $200K - $550K depending on experience; equity is additional to salary per Ashby board API.",
+            "employment_type": "FullTime per Ashby board API.",
+            "seniority": "Expects track record of owning product work end-to-end and strong software engineering fundamentals; salary floor of $200K confirms senior level.",
+            "role_fit": "Build web applications powered by long-context models; integrate model capabilities into usable product workflows; collaborate with RL and research teams to translate capability gains into customer-facing products and workflows."
+          }
+        }
+      ],
+      "discovered_at": "2026-08-07T22:50:23Z",
+      "last_verified_at": "2026-08-07T22:50:23Z"
+    }
+  ],
+  "issues": [
+    {
+      "code": "canonical_source_blocked",
+      "company_id": null,
+      "subject": "OpenAI",
+      "source_url": "https://jobs.ashbyhq.com/openai/6f96f977-edf7-4782-a3d8-c1cefde7e541",
+      "details": "openai.com/careers returns 403 Forbidden. Ashby board API exceeds max content size. Individual Ashby job pages render only a 'Jobs' heading (SPA). Salary for Full Stack Software Engineer and Full Stack Software Engineer, Research Team could not be confirmed from a canonical source; both excluded."
+    },
+    {
+      "code": "canonical_source_blocked",
+      "company_id": null,
+      "subject": "Perplexity AI",
+      "source_url": "https://job-boards.greenhouse.io/perplexityai",
+      "details": "Greenhouse board returns 404; Perplexity may have changed ATS. Previously open Frontend Software Engineer posting (4834681007) also returns 404. Cannot verify any current qualifying role."
+    },
+    {
+      "code": "workplace_ambiguous",
+      "company_id": null,
+      "subject": "You.com — Senior AI Engineer, Product Engineering",
+      "source_url": "https://job-boards.greenhouse.io/youcom/jobs/5231873008",
+      "details": "Greenhouse posting describes 'hubs in San Francisco and New York City offering regular in-person gatherings' with remote flexibility. Location field reads 'San Francisco (Remote)'. Arrangement is ambiguous between remote-primary and hybrid; excluded per unknown_policy."
+    }
+  ]
+}
