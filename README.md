@@ -1,6 +1,10 @@
 # Daily Jobs
 
-Daily Jobs helps you find San Francisco jobs that fit your goals. A constraints file sets your role, pay, location, and work style, so AI can narrow the search to jobs worth your time.
+Daily Jobs collects San Francisco job openings and narrows them to a small, personal shortlist. A constraints file captures your role, pay, location, work style, and interests so you can focus on jobs that fit the life you want.
+
+![Daily Jobs browser showing San Francisco company locations, personal filters, and matching Anthropic roles](docs/images/jobs-browser.png)
+
+*A saved search narrowed the results to 42 companies and 72 matching jobs. Selecting a company shows its sources and matching roles.*
 
 ## Technologies
 
@@ -15,6 +19,15 @@ Daily Jobs helps you find San Francisco jobs that fit your goals. A constraints 
 - **[v3](_v3_daily-jobs/):** Separated company facts, career sources, and search profiles for reuse.
 - **[v4](_v4_daily-jobs/):** Scaled research with parallel workers, shared queues, and an HTML browser.
 - **[v5](_v5_daily-jobs/):** Moved postings into SQLite, then added cached JEV scores and map filters.
+
+## From a city of companies to your shortlist
+
+The goal is city-wide coverage: build a company catalog, find each company's official job sources, and collect its open roles before filtering.
+
+1. **Find and verify companies.** Combine company directories and supplied lists. LLM research checks physical San Francisco offices, map coordinates, and official career pages, keeping evidence for each decision.
+2. **Collect from the source.** Read Ashby, Greenhouse, and Lever feeds directly; use browser research for other sites. Follow pagination and save full posting text, original links, and job details in SQLite.
+3. **Track what was covered.** Shared queues let workers research in parallel. Stable IDs prevent duplicates. Complete scans can mark vanished jobs inactive; partial scans preserve earlier jobs until coverage is complete.
+4. **Apply personal rules.** Saved constraints guide the LLM workflows. JEV scores questions about role, location, work style, and interests. Cached scores and chosen thresholds produce a shortlist, JSON results, and an HTML map with links to apply.
 
 ## Run locally
 
