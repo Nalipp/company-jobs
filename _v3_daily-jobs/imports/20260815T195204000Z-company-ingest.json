@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "operation": "company-ingest",
+  "created_at": "2026-08-15T19:52:04Z",
+  "changes": [
+    {
+      "company_id": "brave",
+      "company_name": "Brave",
+      "website_url": "https://www.brave.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T19:52:04Z",
+      "updated_date": "2026-08-15T19:52:04Z"
+    },
+    {
+      "company_id": "scribd",
+      "company_name": "Scribd",
+      "website_url": "http://www.scribd.com",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T19:52:04Z",
+      "updated_date": "2026-08-15T19:52:04Z"
+    },
+    {
+      "company_id": "deel",
+      "company_name": "Deel",
+      "website_url": "https://www.deel.com",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T19:52:04Z",
+      "updated_date": "2026-08-15T19:52:04Z"
+    },
+    {
+      "company_id": "narvar",
+      "company_name": "Narvar",
+      "website_url": "https://corp.narvar.com",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T19:52:04Z",
+      "updated_date": "2026-08-15T19:52:04Z"
+    },
+    {
+      "company_id": "healthline-media",
+      "company_name": "Healthline Media",
+      "website_url": "http://www.healthline.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T19:52:04Z",
+      "updated_date": "2026-08-15T19:52:04Z"
+    },
+    {
+      "company_id": "change-org",
+      "company_name": "Change.org",
+      "website_url": "http://www.change.org",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T19:52:04Z",
+      "updated_date": "2026-08-15T19:52:04Z"
+    },
+    {
+      "company_id": "realpage",
+      "company_name": "RealPage",
+      "website_url": "http://www.realpage.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T19:52:04Z",
+      "updated_date": "2026-08-15T19:52:04Z"
+    },
+    {
+      "company_id": "usertesting",
+      "company_name": "UserTesting",
+      "website_url": "http://www.usertesting.com",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T19:52:04Z",
+      "updated_date": "2026-08-15T19:52:04Z"
+    }
+  ],
+  "issues": [
+    {
+      "code": "source_access_limited",
+      "company_id": null,
+      "subject": "StartupBlink San Francisco Best Startups ranks 12 through 100",
+      "source_url": "https://www.startupblink.com/top-startups/san-francisco-ca-us",
+      "details": "Only ranks 1 through 11 were visible without StartupBlink Pro access. The directory presented the remaining companies behind a Load more Pro gate, so ranks 12 through 100 were not reviewed or inferred."
+    }
+  ]
+}

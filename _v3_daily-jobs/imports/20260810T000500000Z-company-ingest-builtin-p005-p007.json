@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "operation": "company-ingest",
+  "created_at": "2026-08-10T00:05:00Z",
+  "changes": [],
+  "issues": [
+    {
+      "code": "access_blocked",
+      "company_id": null,
+      "subject": "Built In pages 5-7 blocked by HTTP 429 rate limiting",
+      "source_url": "https://builtin.com/companies/location/san-francisco?country=USA&page=5",
+      "details": "Repeated HTTP 429 (Too Many Requests) responses received when attempting to fetch company profiles from Built In pages 5, 6, and 7. All profile URLs returned 429 after listing page scraping completed. Access restriction is in place. Recommend retry after 24 hours or with different access pattern."
+    }
+  ]
+}

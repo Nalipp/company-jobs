@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-09T23:55:00Z",
+  "changes": [
+    {
+      "company_id": "together-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2 Henry Adams Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.7673,
+        "longitude": -122.4063,
+        "address_status": "verified",
+        "address_source_url": "https://therealdeal.com/san-francisco/2026/04/20/together-ai-moves-drastically-increases-headquarters-size/",
+        "address_source_label": "The Real Deal – Together AI new HQ at 2 Henry Adams Street",
+        "verified_date": "2026-08-09T23:55:00Z"
+      }
+    },
+    {
+      "company_id": "town-com",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "222 Kearny Street, Suite 650",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.7902026,
+        "longitude": -122.4035351,
+        "address_status": "verified",
+        "address_source_url": "https://www.town.com/terms-of-service",
+        "address_source_label": "Town.com official terms of service",
+        "verified_date": "2026-08-09T23:55:00Z"
+      }
+    },
+    {
+      "company_id": "vercel",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "650 California Street, Floor 7",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.7928,
+        "longitude": -122.4052,
+        "address_status": "verified",
+        "address_source_url": "https://www.builtinsf.com/company/vercel/offices",
+        "address_source_label": "Built In San Francisco – Vercel offices",
+        "verified_date": "2026-08-09T23:55:00Z"
+      }
+    },
+    {
+      "company_id": "within-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-09T23:55:00Z"
+      }
+    },
+    {
+      "company_id": "attio",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "345 California Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.7925,
+        "longitude": -122.4005,
+        "address_status": "verified",
+        "address_source_url": "https://builtin.com/company/attio/offices",
+        "address_source_label": "Built In – Attio offices page",
+        "verified_date": "2026-08-09T23:55:00Z"
+      }
+    },
+    {
+      "company_id": "benchling",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "680 Folsom Street, 8th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.784558,
+        "longitude": -122.398564,
+        "address_status": "verified",
+        "address_source_url": "https://opengovus.com/sam-entity/UWAHPBL1VJA6",
+        "address_source_label": "SAM.gov entity – Benchling Inc. corporate HQ",
+        "verified_date": "2026-08-09T23:55:00Z"
+      }
+    },
+    {
+      "company_id": "cash-app",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1455 Market Street, Suite 600",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.775593,
+        "longitude": -122.418137,
+        "address_status": "verified",
+        "address_source_url": "https://www.getstealery.com/blog/hq-locations/square-headquarters-office-locations",
+        "address_source_label": "Block Inc. headquarters and office locations directory",
+        "verified_date": "2026-08-09T23:55:00Z"
+      }
+    },
+    {
+      "company_id": "deepgram",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-09T23:55:00Z"
+      }
+    },
+    {
+      "company_id": "gitlab",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-09T23:55:00Z"
+      }
+    },
+    {
+      "company_id": "klaviyo",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "181 Fremont Street, Floor 21",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7898002,
+        "longitude": -122.3953496,
+        "address_status": "verified",
+        "address_source_url": "https://www.builtinsf.com/company/klaviyo/offices",
+        "address_source_label": "Built In San Francisco – Klaviyo offices",
+        "verified_date": "2026-08-09T23:55:00Z"
+      }
+    }
+  ],
+  "issues": []
+}

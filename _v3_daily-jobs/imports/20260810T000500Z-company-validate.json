@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-10T00:05:00Z",
+  "changes": [
+    {
+      "company_id": "motive",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1355 Market Street, 11th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.77639,
+        "longitude": -122.41694,
+        "address_status": "verified",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/1646681/000162828025058773/motive-sx1.htm",
+        "address_source_label": "Motive Technologies S-1 SEC filing – principal executive offices",
+        "verified_date": "2026-08-10T00:05:00Z"
+      }
+    },
+    {
+      "company_id": "runpod",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "77 Geary Street, Floor 5, Unit 520",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94108",
+          "country": "US"
+        },
+        "latitude": 37.787676,
+        "longitude": -122.4047387,
+        "address_status": "verified",
+        "address_source_url": "https://luma.com/1xyyxt7y",
+        "address_source_label": "Luma – Co-Work at the RunPod Office event listing",
+        "verified_date": "2026-08-10T00:05:00Z"
+      }
+    },
+    {
+      "company_id": "smartly",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "580 Market Street, 2nd Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94104",
+          "country": "US"
+        },
+        "latitude": 37.7896438,
+        "longitude": -122.4014635,
+        "address_status": "verified",
+        "address_source_url": "https://opencorporates.com/companies/us_ca/C3992928",
+        "address_source_label": "OpenCorporates – Smartly.io Solutions Inc. California registration",
+        "verified_date": "2026-08-10T00:05:00Z"
+      }
+    },
+    {
+      "company_id": "square",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1455 Market Street, Suite 600",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.775593,
+        "longitude": -122.418137,
+        "address_status": "verified",
+        "address_source_url": "https://squareup.com/us/en/press/square-opens-new-headquarters",
+        "address_source_label": "Square official press release – new SF headquarters",
+        "verified_date": "2026-08-10T00:05:00Z"
+      }
+    },
+    {
+      "company_id": "webflow",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "398 11th Street, 2nd Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.7706918,
+        "longitude": -122.412901,
+        "address_status": "verified",
+        "address_source_url": "https://www.bbb.org/us/ca/san-francisco/profile/project-management-software/webflow-1116-946623",
+        "address_source_label": "BBB San Francisco – Webflow Inc. business profile",
+        "verified_date": "2026-08-10T00:05:00Z"
+      }
+    }
+  ],
+  "issues": []
+}

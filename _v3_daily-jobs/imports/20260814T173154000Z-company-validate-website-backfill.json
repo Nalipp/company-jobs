@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-14T17:31:54.000Z",
+  "changes": [
+    {
+      "company_id": "thorin",
+      "expected_status": "verified",
+      "website_url": "https://www.thorin.com/"
+    },
+    {
+      "company_id": "klarity",
+      "expected_status": "verified",
+      "website_url": "https://www.klarity.ai/"
+    },
+    {
+      "company_id": "samba-tv",
+      "expected_status": "verified",
+      "website_url": "https://samba.tv/"
+    },
+    {
+      "company_id": "glg",
+      "expected_status": "verified",
+      "website_url": "https://glg.com/"
+    },
+    {
+      "company_id": "zendesk",
+      "expected_status": "verified",
+      "website_url": "https://www.zendesk.com/"
+    },
+    {
+      "company_id": "dc-advisory",
+      "expected_status": "verified",
+      "website_url": "https://www.dcadvisory.com/"
+    },
+    {
+      "company_id": "ware-malcomb",
+      "expected_status": "verified",
+      "website_url": "https://waremalcomb.com/"
+    },
+    {
+      "company_id": "waterworks",
+      "expected_status": "verified",
+      "website_url": "https://www.waterworks.com/"
+    },
+    {
+      "company_id": "alpha-fmc",
+      "expected_status": "verified",
+      "website_url": "https://alphafmc.com/"
+    },
+    {
+      "company_id": "san-francisco-marin-food-bank",
+      "expected_status": "verified",
+      "website_url": "https://www.sfmfoodbank.org/"
+    },
+    {
+      "company_id": "ujet-cx",
+      "expected_status": "verified",
+      "website_url": "https://ujet.cx/"
+    },
+    {
+      "company_id": "labelbox",
+      "expected_status": "verified",
+      "website_url": "https://labelbox.com/"
+    },
+    {
+      "company_id": "mithrl",
+      "expected_status": "verified",
+      "website_url": "https://www.mithrl.com/"
+    },
+    {
+      "company_id": "botrista",
+      "expected_status": "verified",
+      "website_url": "https://botrista.com/"
+    },
+    {
+      "company_id": "hub-international",
+      "expected_status": "verified",
+      "website_url": "https://www.hubinternational.com/"
+    },
+    {
+      "company_id": "redpanda-data",
+      "expected_status": "verified",
+      "website_url": "https://www.redpanda.com/"
+    },
+    {
+      "company_id": "wine-com",
+      "expected_status": "verified",
+      "website_url": "https://www.wine.com/"
+    },
+    {
+      "company_id": "kimpton-hotels-and-restaurants",
+      "expected_status": "verified",
+      "website_url": "https://www.ihg.com/kimptonhotels/hotels/us/en/reservation"
+    },
+    {
+      "company_id": "datarobot",
+      "expected_status": "verified",
+      "website_url": "https://www.datarobot.com/"
+    },
+    {
+      "company_id": "braintrust",
+      "expected_status": "verified",
+      "website_url": "https://www.usebraintrust.com/"
+    },
+    {
+      "company_id": "hubspot",
+      "expected_status": "verified",
+      "website_url": "https://www.hubspot.com/"
+    },
+    {
+      "company_id": "verana-health",
+      "expected_status": "verified",
+      "website_url": "https://veranahealth.com/"
+    },
+    {
+      "company_id": "llamaindex",
+      "expected_status": "verified",
+      "website_url": "https://www.llamaindex.ai/"
+    },
+    {
+      "company_id": "generate-capital",
+      "expected_status": "verified",
+      "website_url": "https://generatecapital.com/"
+    },
+    {
+      "company_id": "upwind-security",
+      "expected_status": "verified",
+      "website_url": "https://www.upwind.io/"
+    },
+    {
+      "company_id": "lightfield",
+      "expected_status": "verified",
+      "website_url": "https://lightfield.app/"
+    },
+    {
+      "company_id": "tilt",
+      "expected_status": "verified",
+      "website_url": "https://tilt.com/"
+    },
+    {
+      "company_id": "sauron",
+      "expected_status": "verified",
+      "website_url": "https://www.sauron.systems/"
+    },
+    {
+      "company_id": "literably",
+      "expected_status": "verified",
+      "website_url": "https://literably.com/"
+    },
+    {
+      "company_id": "beefree",
+      "expected_status": "verified",
+      "website_url": "https://beefree.io/"
+    },
+    {
+      "company_id": "modern-health",
+      "expected_status": "verified",
+      "website_url": "https://www.modernhealth.com/"
+    },
+    {
+      "company_id": "side",
+      "expected_status": "verified",
+      "website_url": "https://www.side.com/"
+    },
+    {
+      "company_id": "plenful",
+      "expected_status": "verified",
+      "website_url": "https://www.plenful.com/"
+    },
+    {
+      "company_id": "kwh-analytics",
+      "expected_status": "verified",
+      "website_url": "https://kwhanalytics.com/"
+    },
+    {
+      "company_id": "pax-labs",
+      "expected_status": "verified",
+      "website_url": "https://www.pax.com/"
+    },
+    {
+      "company_id": "uncountable",
+      "expected_status": "verified",
+      "website_url": "https://www.uncountable.com/"
+    },
+    {
+      "company_id": "cobalt-ai",
+      "expected_status": "verified",
+      "website_url": "https://www.cobaltai.com/"
+    },
+    {
+      "company_id": "vcluster",
+      "expected_status": "verified",
+      "website_url": "https://www.vcluster.com/"
+    },
+    {
+      "company_id": "orbital-sidekick",
+      "expected_status": "verified",
+      "website_url": "https://www.orbitalsidekick.com/"
+    },
+    {
+      "company_id": "tia",
+      "expected_status": "verified",
+      "website_url": "https://asktia.com/"
+    },
+    {
+      "company_id": "oneskin",
+      "expected_status": "verified",
+      "website_url": "https://www.oneskin.co/"
+    }
+  ],
+  "issues": []
+}

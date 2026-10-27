@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-09T23:55:31Z",
+  "changes": [
+    {
+      "company_id": "drivetrain",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "440 North Wolfe Road", "city": "Sunnyvale", "region": "CA", "postal_code": "94085", "country": "US"},
+        "latitude": 37.3835417,
+        "longitude": -122.013194,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.drivetrain.ai/contact",
+        "address_source_label": "Drivetrain official contact page",
+        "verified_date": "2026-08-09T23:55:31Z"
+      }
+    },
+    {"company_id": "erickson-immigration-group", "expected_status": "pending", "address_result": {"address": null, "latitude": null, "longitude": null, "address_status": "not_found", "address_source_url": null, "address_source_label": null, "verified_date": "2026-08-09T23:55:31Z"}},
+    {"company_id": "flashpoint", "expected_status": "pending", "address_result": {"address": null, "latitude": null, "longitude": null, "address_status": "not_found", "address_source_url": null, "address_source_label": null, "verified_date": "2026-08-09T23:55:31Z"}},
+    {"company_id": "gauntlet", "expected_status": "pending", "address_result": {"address": null, "latitude": null, "longitude": null, "address_status": "not_found", "address_source_url": null, "address_source_label": null, "verified_date": "2026-08-09T23:55:31Z"}},
+    {"company_id": "getlabs", "expected_status": "pending", "address_result": {"address": null, "latitude": null, "longitude": null, "address_status": "not_found", "address_source_url": null, "address_source_label": null, "verified_date": "2026-08-09T23:55:31Z"}},
+    {
+      "company_id": "glg",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "595 Market Street, Suite 1001, 10th Floor", "city": "San Francisco", "region": "CA", "postal_code": "94105", "country": "US"},
+        "latitude": 37.7892292,
+        "longitude": -122.4007916,
+        "address_status": "verified",
+        "address_source_url": "https://glg.com/about/contact-locations",
+        "address_source_label": "GLG official contact locations page",
+        "verified_date": "2026-08-09T23:55:31Z"
+      }
+    },
+    {
+      "company_id": "hub-international",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "201 Mission Street, Suite 1900", "city": "San Francisco", "region": "CA", "postal_code": "94105", "country": "US"},
+        "latitude": 37.7911641,
+        "longitude": -122.3950412,
+        "address_status": "verified",
+        "address_source_url": "https://www.hubinternational.com/offices/us/california/san-francisco/",
+        "address_source_label": "HUB International official San Francisco office page",
+        "verified_date": "2026-08-09T23:55:31Z"
+      }
+    },
+    {
+      "company_id": "hubspot",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "343 Sansome Street, Floor 16", "city": "San Francisco", "region": "CA", "postal_code": "94104", "country": "US"},
+        "latitude": 37.7936263,
+        "longitude": -122.4016063,
+        "address_status": "verified",
+        "address_source_url": "https://www.hubspot.com/company/contact?ver=1734563621",
+        "address_source_label": "HubSpot official contact page",
+        "verified_date": "2026-08-09T23:55:31Z"
+      }
+    },
+    {"company_id": "hud", "expected_status": "pending", "address_result": {"address": null, "latitude": null, "longitude": null, "address_status": "not_found", "address_source_url": null, "address_source_label": null, "verified_date": "2026-08-09T23:55:31Z"}},
+    {
+      "company_id": "ixl-learning",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "777 Mariners Island Boulevard, Suite 600", "city": "San Mateo", "region": "CA", "postal_code": "94404", "country": "US"},
+        "latitude": 37.5632536,
+        "longitude": -122.2859317,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.ixl.com/company/contact",
+        "address_source_label": "IXL Learning official contact page",
+        "verified_date": "2026-08-09T23:55:31Z"
+      }
+    }
+  ],
+  "issues": []
+}

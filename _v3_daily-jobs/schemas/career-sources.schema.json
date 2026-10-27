@@ -1,0 +1,160 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://v3-daily-jobs.local/schemas/career-sources.schema.json",
+  "title": "V3 career-source registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "updated_at", "sources"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "updated_at": {
+      "oneOf": [
+        { "type": "string", "format": "date-time" },
+        { "type": "null" }
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/careerSource" }
+    }
+  },
+  "$defs": {
+    "nullableUri": {
+      "oneOf": [
+        { "type": "string", "format": "uri" },
+        { "type": "null" }
+      ]
+    },
+    "nullableString": {
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        { "type": "null" }
+      ]
+    },
+    "capabilities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "complete_enumeration",
+        "stable_job_identity",
+        "structured_data"
+      ],
+      "properties": {
+        "complete_enumeration": { "type": "boolean" },
+        "stable_job_identity": { "type": "boolean" },
+        "structured_data": { "type": "boolean" }
+      }
+    },
+    "careerSource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "company_id",
+        "careers_url",
+        "listings_url",
+        "provider",
+        "board_id",
+        "access_mode",
+        "scope",
+        "instructions",
+        "capabilities",
+        "status",
+        "official_relationship_url",
+        "checked_at",
+        "last_success_at",
+        "added_date",
+        "updated_date"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "company_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "careers_url": { "$ref": "#/$defs/nullableUri" },
+        "listings_url": { "$ref": "#/$defs/nullableUri" },
+        "provider": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "board_id": { "$ref": "#/$defs/nullableString" },
+        "access_mode": {
+          "oneOf": [
+            {
+              "enum": [
+                "structured_feed",
+                "html_listing",
+                "browser_required",
+                "primary_platform"
+              ]
+            },
+            { "type": "null" }
+          ]
+        },
+        "scope": { "type": "string", "minLength": 1 },
+        "instructions": { "type": "string", "minLength": 1 },
+        "capabilities": { "$ref": "#/$defs/capabilities" },
+        "status": {
+          "enum": [
+            "ready",
+            "no_careers_found",
+            "blocked",
+            "unsupported",
+            "stale"
+          ]
+        },
+        "official_relationship_url": { "$ref": "#/$defs/nullableUri" },
+        "checked_at": { "type": "string", "format": "date-time" },
+        "last_success_at": {
+          "oneOf": [
+            { "type": "string", "format": "date-time" },
+            { "type": "null" }
+          ]
+        },
+        "added_date": { "type": "string", "format": "date-time" },
+        "updated_date": { "type": "string", "format": "date-time" }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "status": { "const": "ready" } },
+            "required": ["status"]
+          },
+          "then": {
+            "properties": {
+              "careers_url": { "type": "string", "format": "uri" },
+              "listings_url": { "type": "string", "format": "uri" },
+              "access_mode": {
+                "enum": [
+                  "structured_feed",
+                  "html_listing",
+                  "browser_required",
+                  "primary_platform"
+                ]
+              },
+              "official_relationship_url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "last_success_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "capabilities": {
+                "type": "object",
+                "properties": {
+                  "complete_enumeration": { "const": true },
+                  "stable_job_identity": { "const": true }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-09T23:53:40Z",
+  "changes": [
+    {
+      "company_id": "aspirion",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "1506 6th Avenue", "city": "Columbus", "region": "GA", "postal_code": "31901", "country": "US"},
+        "latitude": 32.4739055,
+        "longitude": -84.9842227,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/aspirion-health-resources-llc",
+        "address_source_label": "Aspirion LinkedIn company profile",
+        "verified_date": "2026-08-09T23:53:40Z"
+      }
+    },
+    {"company_id": "baton", "expected_status": "pending", "address_result": {"address": null, "latitude": null, "longitude": null, "address_status": "not_found", "address_source_url": null, "address_source_label": null, "verified_date": "2026-08-09T23:53:40Z"}},
+    {
+      "company_id": "biocytogen",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "611 Gateway Boulevard, Suite 120", "city": "South San Francisco", "region": "CA", "postal_code": "94080", "country": "US"},
+        "latitude": 37.6562785,
+        "longitude": -122.4014727,
+        "address_status": "outside_sf",
+        "address_source_url": "https://biocytogen.com/contact-us/",
+        "address_source_label": "Biocytogen official contact page",
+        "verified_date": "2026-08-09T23:53:40Z"
+      }
+    },
+    {
+      "company_id": "botrista",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "55 Hawthorne Street, Floor 11", "city": "San Francisco", "region": "CA", "postal_code": "94105", "country": "US"},
+        "latitude": 37.7856244,
+        "longitude": -122.398453,
+        "address_status": "verified",
+        "address_source_url": "https://botrista.com/",
+        "address_source_label": "Botrista official website",
+        "verified_date": "2026-08-09T23:53:40Z"
+      }
+    },
+    {
+      "company_id": "braintrust",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "665 3rd Street, Suite 320", "city": "San Francisco", "region": "CA", "postal_code": "94107", "country": "US"},
+        "latitude": 37.7794076,
+        "longitude": -122.3932619,
+        "address_status": "verified",
+        "address_source_url": "https://www.bbb.org/us/ca/san-francisco/profile/human-resources/braintrust-1116-948626",
+        "address_source_label": "Better Business Bureau Braintrust profile",
+        "verified_date": "2026-08-09T23:53:40Z"
+      }
+    },
+    {"company_id": "brightside-health", "expected_status": "pending", "address_result": {"address": null, "latitude": null, "longitude": null, "address_status": "not_found", "address_source_url": null, "address_source_label": null, "verified_date": "2026-08-09T23:53:40Z"}},
+    {
+      "company_id": "cprime",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "5700 Granite Parkway, Suite 670", "city": "Plano", "region": "TX", "postal_code": "75024", "country": "US"},
+        "latitude": 33.087048,
+        "longitude": -96.818649,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.cprime.com/locations/",
+        "address_source_label": "Cprime official locations page",
+        "verified_date": "2026-08-09T23:53:40Z"
+      }
+    },
+    {
+      "company_id": "datarobot",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "140 New Montgomery Street", "city": "San Francisco", "region": "CA", "postal_code": "94105", "country": "US"},
+        "latitude": 37.786686,
+        "longitude": -122.3998909,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/datarobot",
+        "address_source_label": "DataRobot LinkedIn company profile",
+        "verified_date": "2026-08-09T23:53:40Z"
+      }
+    },
+    {
+      "company_id": "dc-advisory",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "425 California Street, Suite 1900", "city": "San Francisco", "region": "CA", "postal_code": "94104", "country": "US"},
+        "latitude": 37.792796,
+        "longitude": -122.401353,
+        "address_status": "verified",
+        "address_source_url": "https://www.dcadvisory.com/media/uu1pfjci/dc-discusses-a-revitalized-outlook-for-global-healthcare-m-a.pdf",
+        "address_source_label": "DC Advisory official office listing",
+        "verified_date": "2026-08-09T23:53:40Z"
+      }
+    },
+    {"company_id": "doit", "expected_status": "pending", "address_result": {"address": null, "latitude": null, "longitude": null, "address_status": "not_found", "address_source_url": null, "address_source_label": null, "verified_date": "2026-08-09T23:53:40Z"}}
+  ],
+  "issues": []
+}

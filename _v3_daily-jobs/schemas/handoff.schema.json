@@ -1,0 +1,358 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://v3-daily-jobs.local/schemas/handoff.schema.json",
+  "title": "V3 state handoff",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "operation", "created_at", "changes", "issues"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "operation": {
+      "enum": [
+        "company-ingest",
+        "company-validate",
+        "career-source-discover",
+        "job-scan"
+      ]
+    },
+    "profile_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*-v[1-9][0-9]*$"
+    },
+    "created_at": { "type": "string", "format": "date-time" },
+    "changes": { "type": "array" },
+    "issues": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/issue" }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "operation": { "const": "company-ingest" } } },
+      "then": {
+        "properties": {
+          "changes": {
+            "items": { "$ref": "#/$defs/ingestCompany" }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "operation": { "const": "company-validate" } } },
+      "then": {
+        "properties": {
+          "changes": {
+            "items": { "$ref": "#/$defs/validationChange" }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "operation": { "const": "career-source-discover" } } },
+      "then": {
+        "properties": {
+          "changes": {
+            "items": { "$ref": "#/$defs/careerSourceChange" }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "operation": { "const": "job-scan" } } },
+      "then": {
+        "required": ["profile_id"],
+        "properties": {
+          "changes": {
+            "items": { "$ref": "#/$defs/jobSourceScan" }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "company_id", "subject", "source_url", "details"],
+      "properties": {
+        "code": { "type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$" },
+        "company_id": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "null" }
+          ]
+        },
+        "subject": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "null" }
+          ]
+        },
+        "source_url": {
+          "oneOf": [
+            { "type": "string", "format": "uri" },
+            { "type": "null" }
+          ]
+        },
+        "details": { "type": "string", "minLength": 1 }
+      }
+    },
+    "ingestCompany": {
+      "allOf": [
+        { "$ref": "companies.schema.json#/$defs/company" },
+        {
+          "properties": {
+            "address_status": { "const": "pending" },
+            "verified_date": { "type": "null" }
+          }
+        }
+      ]
+    },
+    "validationChange": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["company_id", "expected_status"],
+      "properties": {
+        "company_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "expected_status": {
+          "enum": ["pending", "verified", "outside_sf", "not_found"]
+        },
+        "website_url": { "type": "string", "format": "uri" },
+        "address_result": { "$ref": "#/$defs/addressResult" }
+      },
+      "anyOf": [
+        { "required": ["website_url"] },
+        { "required": ["address_result"] }
+      ]
+    },
+    "careerSourceChange": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["expected_updated_date", "source"],
+      "properties": {
+        "expected_updated_date": {
+          "oneOf": [
+            { "type": "string", "format": "date-time" },
+            { "type": "null" }
+          ]
+        },
+        "source": { "$ref": "career-sources.schema.json#/$defs/careerSource" }
+      }
+    },
+    "jobSourceScan": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "company_id",
+        "source_id",
+        "expected_source_updated_date",
+        "expected_last_successful_scan_at",
+        "outcome",
+        "scanned_at",
+        "current_job_count",
+        "active_job_identities",
+        "matching_jobs",
+        "failure_details"
+      ],
+      "properties": {
+        "company_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "source_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "expected_source_updated_date": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "expected_last_successful_scan_at": {
+          "oneOf": [
+            { "type": "string", "format": "date-time" },
+            { "type": "null" }
+          ]
+        },
+        "outcome": {
+          "enum": [
+            "success_matches",
+            "success_no_matches",
+            "success_zero_jobs",
+            "failed"
+          ]
+        },
+        "scanned_at": { "type": "string", "format": "date-time" },
+        "current_job_count": {
+          "oneOf": [
+            { "type": "integer", "minimum": 0 },
+            { "type": "null" }
+          ]
+        },
+        "active_job_identities": {
+          "type": "array",
+          "items": {
+            "$ref": "job-results.schema.json#/$defs/sourceJobIdentity"
+          }
+        },
+        "matching_jobs": {
+          "type": "array",
+          "items": {
+            "$ref": "job-results.schema.json#/$defs/jobObservation"
+          }
+        },
+        "failure_details": {
+          "oneOf": [
+            { "type": "string", "minLength": 1 },
+            { "type": "null" }
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "outcome": { "const": "success_matches" } },
+            "required": ["outcome"]
+          },
+          "then": {
+            "properties": {
+              "current_job_count": { "type": "integer", "minimum": 1 },
+              "active_job_identities": { "minItems": 1 },
+              "matching_jobs": { "minItems": 1 },
+              "failure_details": { "type": "null" }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "outcome": { "const": "success_no_matches" } },
+            "required": ["outcome"]
+          },
+          "then": {
+            "properties": {
+              "current_job_count": { "type": "integer", "minimum": 1 },
+              "active_job_identities": { "minItems": 1 },
+              "matching_jobs": { "maxItems": 0 },
+              "failure_details": { "type": "null" }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "outcome": { "const": "success_zero_jobs" } },
+            "required": ["outcome"]
+          },
+          "then": {
+            "properties": {
+              "current_job_count": { "const": 0 },
+              "active_job_identities": { "maxItems": 0 },
+              "matching_jobs": { "maxItems": 0 },
+              "failure_details": { "type": "null" }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "outcome": { "const": "failed" } },
+            "required": ["outcome"]
+          },
+          "then": {
+            "properties": {
+              "current_job_count": { "type": "null" },
+              "active_job_identities": { "maxItems": 0 },
+              "matching_jobs": { "maxItems": 0 },
+              "failure_details": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      ]
+    },
+    "addressResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "address",
+        "latitude",
+        "longitude",
+        "address_status",
+        "address_source_url",
+        "address_source_label",
+        "verified_date"
+      ],
+      "properties": {
+        "address": {
+          "oneOf": [
+            { "$ref": "companies.schema.json#/$defs/address" },
+            { "type": "null" }
+          ]
+        },
+        "latitude": {
+          "oneOf": [
+            { "type": "number", "minimum": -90, "maximum": 90 },
+            { "type": "null" }
+          ]
+        },
+        "longitude": {
+          "oneOf": [
+            { "type": "number", "minimum": -180, "maximum": 180 },
+            { "type": "null" }
+          ]
+        },
+        "address_status": { "enum": ["verified", "not_found", "outside_sf"] },
+        "address_source_url": {
+          "oneOf": [
+            { "type": "string", "format": "uri" },
+            { "type": "null" }
+          ]
+        },
+        "address_source_label": {
+          "oneOf": [
+            { "type": "string", "minLength": 1 },
+            { "type": "null" }
+          ]
+        },
+        "verified_date": { "type": "string", "format": "date-time" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "address_status": { "const": "not_found" } } },
+          "then": {
+            "properties": {
+              "address": { "type": "null" },
+              "latitude": { "type": "null" },
+              "longitude": { "type": "null" },
+              "address_source_url": { "type": "null" },
+              "address_source_label": { "type": "null" }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "address_status": { "enum": ["verified", "outside_sf"] }
+            }
+          },
+          "then": {
+            "properties": {
+              "address": {
+                "type": "object",
+                "properties": {
+                  "street": { "type": "string", "minLength": 1 },
+                  "city": { "type": "string", "minLength": 1 },
+                  "region": { "type": "string", "minLength": 1 },
+                  "country": { "type": "string", "minLength": 1 }
+                }
+              },
+              "latitude": { "type": "number" },
+              "longitude": { "type": "number" },
+              "address_source_url": { "type": "string", "format": "uri" },
+              "address_source_label": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "operation": "company-ingest",
+  "created_at": "2026-08-15T20:27:42Z",
+  "changes": [
+    {
+      "company_id": "substack",
+      "company_name": "Substack",
+      "website_url": "https://substack.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T20:27:42Z",
+      "updated_date": "2026-08-15T20:27:42Z"
+    },
+    {
+      "company_id": "chaos-industries",
+      "company_name": "CHAOS Industries",
+      "website_url": "https://chaosinc.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T20:27:42Z",
+      "updated_date": "2026-08-15T20:27:42Z"
+    },
+    {
+      "company_id": "anodize",
+      "company_name": "Anodize",
+      "website_url": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T20:27:42Z",
+      "updated_date": "2026-08-15T20:27:42Z"
+    },
+    {
+      "company_id": "okta",
+      "company_name": "Okta",
+      "website_url": "https://okta.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T20:27:42Z",
+      "updated_date": "2026-08-15T20:27:42Z"
+    },
+    {
+      "company_id": "lightning-ai",
+      "company_name": "Lightning AI",
+      "website_url": "https://lightning.ai/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T20:27:42Z",
+      "updated_date": "2026-08-15T20:27:42Z"
+    },
+    {
+      "company_id": "beacon-software",
+      "company_name": "Beacon Software",
+      "website_url": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T20:27:42Z",
+      "updated_date": "2026-08-15T20:27:42Z"
+    },
+    {
+      "company_id": "nexhealth",
+      "company_name": "NexHealth",
+      "website_url": "https://nexhealth.com/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T20:27:42Z",
+      "updated_date": "2026-08-15T20:27:42Z"
+    },
+    {
+      "company_id": "harness",
+      "company_name": "Harness",
+      "website_url": "https://harness.io/",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T20:27:42Z",
+      "updated_date": "2026-08-15T20:27:42Z"
+    },
+    {
+      "company_id": "corridor",
+      "company_name": "Corridor",
+      "website_url": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_status": "pending",
+      "address_source_url": null,
+      "address_source_label": null,
+      "verified_date": null,
+      "added_date": "2026-08-15T20:27:42Z",
+      "updated_date": "2026-08-15T20:27:42Z"
+    }
+  ],
+  "issues": [
+    {
+      "code": "ambiguous_website",
+      "company_id": "beacon-software",
+      "subject": "Beacon Software",
+      "source_url": "https://hiringcafe.com/jobs/it-san-francisco-ca?page=7",
+      "details": "HiringCafe classified Beacon Software as software development, but its company-website field was null and its separate enriched homepage field was snailworks.com. No official website was retained because the supplied fields do not unambiguously identify Beacon Software's root domain."
+    },
+    {
+      "code": "ambiguous_website",
+      "company_id": "corridor",
+      "subject": "Corridor",
+      "source_url": "https://hiringcafe.com/jobs/it-san-francisco-ca?page=10",
+      "details": "HiringCafe supplied conflicting company domains, corridor.com and corridor.dev, for the San Francisco software-security listing. No official website was retained rather than guessing."
+    }
+  ]
+}

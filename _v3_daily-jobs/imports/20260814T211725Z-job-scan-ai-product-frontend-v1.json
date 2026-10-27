@@ -1,0 +1,1989 @@
+{
+  "schema_version": 1,
+  "operation": "job-scan",
+  "profile_id": "ai-product-frontend-v1",
+  "created_at": "2026-08-14T21:17:25Z",
+  "changes": [
+    {
+      "company_id": "benchling",
+      "source_id": "benchling-greenhouse",
+      "expected_source_updated_date": "2026-08-14T21:09:30Z",
+      "expected_last_successful_scan_at": null,
+      "outcome": "success_no_matches",
+      "scanned_at": "2026-08-14T21:17:25Z",
+      "current_job_count": 50,
+      "active_job_identities": [
+        {
+          "source_job_id": "9165e6e5-7209-490f-91ff-72ee719bcce7",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/9165e6e5-7209-490f-91ff-72ee719bcce7"
+        },
+        {
+          "source_job_id": "ce18198f-f7f4-4c57-b110-70a7cdd39d95",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/ce18198f-f7f4-4c57-b110-70a7cdd39d95"
+        },
+        {
+          "source_job_id": "3687b373-439c-48d8-8de1-a8368c7527a2",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/3687b373-439c-48d8-8de1-a8368c7527a2"
+        },
+        {
+          "source_job_id": "d897a65f-eddf-4b45-ade1-029b0c029b95",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/d897a65f-eddf-4b45-ade1-029b0c029b95"
+        },
+        {
+          "source_job_id": "78ae90cf-22ff-4dd9-b597-a132ade29abf",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/78ae90cf-22ff-4dd9-b597-a132ade29abf"
+        },
+        {
+          "source_job_id": "323e4f43-cd7d-4b6c-acad-981893636bfb",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/323e4f43-cd7d-4b6c-acad-981893636bfb"
+        },
+        {
+          "source_job_id": "14002943-e011-425c-8f72-3c727c543668",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/14002943-e011-425c-8f72-3c727c543668"
+        },
+        {
+          "source_job_id": "128a2d50-3311-49f5-b762-4654e680a06d",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/128a2d50-3311-49f5-b762-4654e680a06d"
+        },
+        {
+          "source_job_id": "49454722-ea62-41da-80f8-864ff06e9265",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/49454722-ea62-41da-80f8-864ff06e9265"
+        },
+        {
+          "source_job_id": "61b20c5a-5c3d-4388-a19d-13a89886e73f",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/61b20c5a-5c3d-4388-a19d-13a89886e73f"
+        },
+        {
+          "source_job_id": "73b44c32-f5ab-48e5-a812-c70f09858f15",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/73b44c32-f5ab-48e5-a812-c70f09858f15"
+        },
+        {
+          "source_job_id": "9ff817e6-9274-4613-9ac3-1bc012b7ff8a",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/9ff817e6-9274-4613-9ac3-1bc012b7ff8a"
+        },
+        {
+          "source_job_id": "d5896e95-fed2-4cd4-b104-1ea4df92f7d7",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/d5896e95-fed2-4cd4-b104-1ea4df92f7d7"
+        },
+        {
+          "source_job_id": "2d954274-719c-4d6c-968b-5e1b868bb2a5",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/2d954274-719c-4d6c-968b-5e1b868bb2a5"
+        },
+        {
+          "source_job_id": "2537278d-5417-4af0-a6a8-c0b145e3cc0c",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/2537278d-5417-4af0-a6a8-c0b145e3cc0c"
+        },
+        {
+          "source_job_id": "1a6a2f2e-b0e7-43b1-a985-d1e27ddb0d2e",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/1a6a2f2e-b0e7-43b1-a985-d1e27ddb0d2e"
+        },
+        {
+          "source_job_id": "b1828d61-38fe-4a28-9631-add78cacc4dd",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/b1828d61-38fe-4a28-9631-add78cacc4dd"
+        },
+        {
+          "source_job_id": "1fdf5825-d013-47af-92cf-b5e50d51e85a",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/1fdf5825-d013-47af-92cf-b5e50d51e85a"
+        },
+        {
+          "source_job_id": "77e774c8-b0ed-4a87-8e25-60f9a0105f62",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/77e774c8-b0ed-4a87-8e25-60f9a0105f62"
+        },
+        {
+          "source_job_id": "d6f4c094-8947-40da-b9f0-fef5f9052bca",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/d6f4c094-8947-40da-b9f0-fef5f9052bca"
+        },
+        {
+          "source_job_id": "0796012f-3e8c-40b7-a869-b98ab5290380",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/0796012f-3e8c-40b7-a869-b98ab5290380"
+        },
+        {
+          "source_job_id": "a7e9452b-b702-4818-9e2a-3315bf7861ca",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/a7e9452b-b702-4818-9e2a-3315bf7861ca"
+        },
+        {
+          "source_job_id": "29392bd3-ec2a-4017-925b-10975ba09054",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/29392bd3-ec2a-4017-925b-10975ba09054"
+        },
+        {
+          "source_job_id": "ab671b98-ac39-43a1-8960-eadf1cf73e18",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/ab671b98-ac39-43a1-8960-eadf1cf73e18"
+        },
+        {
+          "source_job_id": "a70c765d-1699-4c15-8196-7b8446870cdd",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/a70c765d-1699-4c15-8196-7b8446870cdd"
+        },
+        {
+          "source_job_id": "8f47c31f-4fd1-4108-92c0-98fc85feb7b0",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/8f47c31f-4fd1-4108-92c0-98fc85feb7b0"
+        },
+        {
+          "source_job_id": "2cdda810-2650-48f5-8135-0725adb2596d",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/2cdda810-2650-48f5-8135-0725adb2596d"
+        },
+        {
+          "source_job_id": "e3e8a87c-826c-4b71-83b9-fa67e5a31fbf",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/e3e8a87c-826c-4b71-83b9-fa67e5a31fbf"
+        },
+        {
+          "source_job_id": "dc25d641-aff0-4804-8276-8c3406119c4b",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/dc25d641-aff0-4804-8276-8c3406119c4b"
+        },
+        {
+          "source_job_id": "33c85327-b9aa-41c6-a2e7-4dac4381087e",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/33c85327-b9aa-41c6-a2e7-4dac4381087e"
+        },
+        {
+          "source_job_id": "8da2debf-8c3f-475c-93a0-fa512d1557ea",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/8da2debf-8c3f-475c-93a0-fa512d1557ea"
+        },
+        {
+          "source_job_id": "4aab6899-edda-4d6b-9808-f7dbe84989d0",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/4aab6899-edda-4d6b-9808-f7dbe84989d0"
+        },
+        {
+          "source_job_id": "c5d40183-f39b-4de3-ac78-cd6867b89d00",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/c5d40183-f39b-4de3-ac78-cd6867b89d00"
+        },
+        {
+          "source_job_id": "a3aa0c06-baee-4ef1-9eae-6eb44b48446e",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/a3aa0c06-baee-4ef1-9eae-6eb44b48446e"
+        },
+        {
+          "source_job_id": "e0efc252-363f-4b3b-ad21-2f1785f2a6ad",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/e0efc252-363f-4b3b-ad21-2f1785f2a6ad"
+        },
+        {
+          "source_job_id": "ea4f3ac8-cbe5-4d91-b870-18f77e73e893",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/ea4f3ac8-cbe5-4d91-b870-18f77e73e893"
+        },
+        {
+          "source_job_id": "1d637755-eba0-4c0f-99aa-a7201779bcf6",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/1d637755-eba0-4c0f-99aa-a7201779bcf6"
+        },
+        {
+          "source_job_id": "5f98903f-739c-44d4-8ce9-80767baf569b",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/5f98903f-739c-44d4-8ce9-80767baf569b"
+        },
+        {
+          "source_job_id": "6beeaebc-fd49-47d7-a179-dd674bab58b7",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/6beeaebc-fd49-47d7-a179-dd674bab58b7"
+        },
+        {
+          "source_job_id": "ab7ea47a-c9af-4d2d-9ba3-002a556a7686",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/ab7ea47a-c9af-4d2d-9ba3-002a556a7686"
+        },
+        {
+          "source_job_id": "3b50ebb7-4e9e-4ede-aaf7-d5ce91ca7eb3",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/3b50ebb7-4e9e-4ede-aaf7-d5ce91ca7eb3"
+        },
+        {
+          "source_job_id": "437e3e90-d1ba-40f2-9016-ced2bc3f6de8",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/437e3e90-d1ba-40f2-9016-ced2bc3f6de8"
+        },
+        {
+          "source_job_id": "70e672e0-b80b-4232-84cb-27406abfa689",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/70e672e0-b80b-4232-84cb-27406abfa689"
+        },
+        {
+          "source_job_id": "7dbe7590-4d01-4a3e-9ce0-3e91e334eab7",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/7dbe7590-4d01-4a3e-9ce0-3e91e334eab7"
+        },
+        {
+          "source_job_id": "2ff50609-1843-49c0-aa39-36d84aa14802",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/2ff50609-1843-49c0-aa39-36d84aa14802"
+        },
+        {
+          "source_job_id": "66b9e6ec-70ae-49f5-aeb8-93e6a0a53319",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/66b9e6ec-70ae-49f5-aeb8-93e6a0a53319"
+        },
+        {
+          "source_job_id": "290097be-7476-42e1-a929-302f3a4b8751",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/290097be-7476-42e1-a929-302f3a4b8751"
+        },
+        {
+          "source_job_id": "874062e7-7903-4fd3-9930-ea538a4cac1e",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/874062e7-7903-4fd3-9930-ea538a4cac1e"
+        },
+        {
+          "source_job_id": "fc421d57-1a11-4693-939a-6001cf4c5c3e",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/fc421d57-1a11-4693-939a-6001cf4c5c3e"
+        },
+        {
+          "source_job_id": "d627fcc2-2e34-4bde-9be2-242c89c19436",
+          "canonical_url": "https://jobs.ashbyhq.com/benchling/d627fcc2-2e34-4bde-9be2-242c89c19436"
+        }
+      ],
+      "matching_jobs": [],
+      "failure_details": null
+    },
+    {
+      "company_id": "zendesk",
+      "source_id": "zendesk-primary",
+      "expected_source_updated_date": "2026-08-14T21:09:30Z",
+      "expected_last_successful_scan_at": null,
+      "outcome": "success_no_matches",
+      "scanned_at": "2026-08-14T21:17:25Z",
+      "current_job_count": 111,
+      "active_job_identities": [
+        {
+          "source_job_id": "R35331",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Paris-France/Senior-Platform-Architect_R35331"
+        },
+        {
+          "source_job_id": "R35289",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Spain/Enterprise-Account-Executive_R35289"
+        },
+        {
+          "source_job_id": "R35275",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Singapore-Singapore/Sales-Operations-Manager_R35275"
+        },
+        {
+          "source_job_id": "R34497",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/London-United-Kingdom/Senior-SMB-Account-Executive_R34497"
+        },
+        {
+          "source_job_id": "R35352",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Lisbon-Portugal/Sales-Development-Representative---Spanish-Speaker_R35352"
+        },
+        {
+          "source_job_id": "R35277",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Lisbon-Portugal/Sales-Development-Representative_R35277"
+        },
+        {
+          "source_job_id": "R35223",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Portugal/Senior-Machine-Learning-Scientist_R35223"
+        },
+        {
+          "source_job_id": "R35318",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/London-United-Kingdom/Senior-Enterprise-Account-Executive--UKI_R35318"
+        },
+        {
+          "source_job_id": "R35231",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Tokyo-Japan/Business-Development-Representative_R35231-1"
+        },
+        {
+          "source_job_id": "R34226",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Pune-India/Staff-Machine-Learning-Engineer_R34226"
+        },
+        {
+          "source_job_id": "R35005",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Pune-India/Cloud-Solution-Architect---AWS_R35005"
+        },
+        {
+          "source_job_id": "R34822",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Utah-United-States-of-America/Business-Operations-Principal--Renewals_R34822"
+        },
+        {
+          "source_job_id": "R35185",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Berlin-Germany/Lead--Product-Strategy---Operations---AI-Agents_R35185"
+        },
+        {
+          "source_job_id": "R35198",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Krakow-Poland/Staff-Machine-Learning-Engineer_R35198"
+        },
+        {
+          "source_job_id": "R35286",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Austin-Texas-United-States-of-America/CRM-Platform-Tech-Lead--Solutions--Delivery---AI-_R35286"
+        },
+        {
+          "source_job_id": "R35287",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Austin-Texas-United-States-of-America/Principal-Product-Manager--CRM---Sales-Systems_R35287"
+        },
+        {
+          "source_job_id": "R35342",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Madison-Wisconsin-United-States-of-America/Director--Global-Revenue-Operations---Business-Operations_R35342"
+        },
+        {
+          "source_job_id": "R34604",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Virginia-United-States-of-America/Solutions-Consultant---Public-Sector_R34604"
+        },
+        {
+          "source_job_id": "R35310",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Madison-Wisconsin-United-States-of-America/Senior-Manager--F-S-Transformation_R35310"
+        },
+        {
+          "source_job_id": "R33114",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Copenhagen-Denmark/Partner-Sales-Executive_R33114-1"
+        },
+        {
+          "source_job_id": "R35313",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-California-United-States-of-America/Senior-Software-Engineer_R35313-1"
+        },
+        {
+          "source_job_id": "R35179",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Georgia-United-States-of-America/Senior-Enterprise-Account-Executive_R35179"
+        },
+        {
+          "source_job_id": "R34787",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Austin-Texas-United-States-of-America/Senior-Full-Stack-Engineer--Solve-Voice_R34787"
+        },
+        {
+          "source_job_id": "R34946",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Mexico-City-Mexico/IT-Principal-Enterprise-Delivery-Lead_R34946-1"
+        },
+        {
+          "source_job_id": "R33924",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Pune-India/Technical-Product-Manager_R33924"
+        },
+        {
+          "source_job_id": "R34718",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-New-Zealand/Senior-Commercial-Account-Executive_R34718"
+        },
+        {
+          "source_job_id": "R35108",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Florida-United-States-of-America/Senior-Solutions-Architect_R35108"
+        },
+        {
+          "source_job_id": "R35071",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Illinois-United-States-of-America/Senior-Manager--Pricing---Packaging_R35071"
+        },
+        {
+          "source_job_id": "R35259",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Berlin-Germany/Senior-Product-Manager--AI-Agents_R35259"
+        },
+        {
+          "source_job_id": "R35248",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-France/Forward-Deployed-Engineer_R35248"
+        },
+        {
+          "source_job_id": "R35252",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Krakow-Poland/Senior-Analyst--Product-Analytics_R35252"
+        },
+        {
+          "source_job_id": "R35214",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Texas-United-States-of-America/Global-Leave---Accommodation-Program-Manager_R35214"
+        },
+        {
+          "source_job_id": "R35173",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Mexico-City-Mexico/Sales-Development-Representative_R35173-1"
+        },
+        {
+          "source_job_id": "R35274",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/San-Francisco-California-United-States-of-America/Vice-President--Global-Communications_R35274"
+        },
+        {
+          "source_job_id": "R35172",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Mexico-City-Mexico/Business-Development-Representative_R35172"
+        },
+        {
+          "source_job_id": "R35257",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/London-United-Kingdom/Principal-AI-Success-Strategist--Customer-Success_R35257-1"
+        },
+        {
+          "source_job_id": "R34154",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/London-United-Kingdom/Senior-Sales-Engineer_R34154"
+        },
+        {
+          "source_job_id": "R35199",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-United-Kingdom/Sales-Operations-Lead_R35199-1"
+        },
+        {
+          "source_job_id": "R33452",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Spain/Senior-Solutions-Consultant_R33452"
+        },
+        {
+          "source_job_id": "R35213",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Singapore-Singapore/Principal-AI-Success-Strategist--Customer-Success_R35213"
+        },
+        {
+          "source_job_id": "R34934",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Georgia-United-States-of-America/Senior-Solutions-Consultant_R34934"
+        },
+        {
+          "source_job_id": "R35243",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Portugal/Senior-Machine-Learning-Engineer_R35243"
+        },
+        {
+          "source_job_id": "R35247",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Lisbon-Portugal/Business-Development-Representative--UKI-_R35247"
+        },
+        {
+          "source_job_id": "R35219",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Melbourne-Australia/Enterprise-Business-Development-Representative_R35219-1"
+        },
+        {
+          "source_job_id": "R35221",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Melbourne-Australia/SMB-Business-Development-Representative_R35221"
+        },
+        {
+          "source_job_id": "R35209",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/San-Francisco-California-United-States-of-America/Director--GTM-M-A-Strategy-and-Integration_R35209"
+        },
+        {
+          "source_job_id": "R35207",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-California-United-States-of-America/Sr-Manager-CX-Data-and-Insights_R35207"
+        },
+        {
+          "source_job_id": "R34800",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/San-Francisco-California-United-States-of-America/Senior-Revenue-Recognition-Manager_R34800"
+        },
+        {
+          "source_job_id": "R34728",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Portugal/Senior-Frontend-Software-Engineer---AI-Copilot_R34728-1"
+        },
+        {
+          "source_job_id": "R34951",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Mexico-City-Mexico/Business-Intelligence-Analyst-Developer_R34951"
+        },
+        {
+          "source_job_id": "R33154",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Lisbon-Portugal/Business-Development-Representative---German-Speaking_R33154"
+        },
+        {
+          "source_job_id": "R35191",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Melbourne-Australia/Senior-Machine-Learning-Engineer_R35191"
+        },
+        {
+          "source_job_id": "R35028",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Madison-Wisconsin-United-States-of-America/Manager-of-Strategic-Sourcing--Software-and-Engineering_R35028"
+        },
+        {
+          "source_job_id": "R34824",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Mexico-City-Mexico/Lead-Business-Process-Analysis-Analyst_R34824"
+        },
+        {
+          "source_job_id": "R35162",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Mexico-City-Mexico/IT-Operations---Delivery-Excellence-Lead_R35162"
+        },
+        {
+          "source_job_id": "R35184",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Austin-Texas-United-States-of-America/Senior-Counsel_R35184-1"
+        },
+        {
+          "source_job_id": "R35148",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Mexico-City-Mexico/Sales-Engineer_R35148"
+        },
+        {
+          "source_job_id": "R33609",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Tokyo-Japan/Senior-Solutions-Consultant_R33609"
+        },
+        {
+          "source_job_id": "R35128",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/San-Francisco-California-United-States-of-America/Senior-Director--Technology-Alliances_R35128"
+        },
+        {
+          "source_job_id": "R35161",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Dublin-Ireland/Senior-AI-Data-Engineer_R35161"
+        },
+        {
+          "source_job_id": "R34848",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Melbourne-Australia/Corporate-Account-Executive_R34848"
+        },
+        {
+          "source_job_id": "R35126",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Germany/Partner-Sales-Executive_R35126"
+        },
+        {
+          "source_job_id": "R35121",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Singapore-Singapore/Forward-Deployed-Engineer_R35121"
+        },
+        {
+          "source_job_id": "R34105",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/London-United-Kingdom/Senior-Sales-Product-Specialist_R34105"
+        },
+        {
+          "source_job_id": "R33433",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Melbourne-Australia/Senior-Sales-Product-Specialist_R33433"
+        },
+        {
+          "source_job_id": "R34930",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Krakow-Poland/Senior-Machine-Learning-Engineer_R34930"
+        },
+        {
+          "source_job_id": "R34654",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Lisbon-Portugal/PLG-Sales-Representative_R34654"
+        },
+        {
+          "source_job_id": "R35040",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Australia/Platform-Architect_R35040-1"
+        },
+        {
+          "source_job_id": "R32721",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-New-York-United-States-of-America/Director--Sales-Strategy_R32721"
+        },
+        {
+          "source_job_id": "R35013",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-California-United-States-of-America/Forward-Deployed-Engineer_R35013"
+        },
+        {
+          "source_job_id": "R33197",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Singapore-Singapore/SMB-Account-Executive--SEA-_R33197"
+        },
+        {
+          "source_job_id": "R32802",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Texas-United-States-of-America/Director--GTM-Operations_R32802"
+        },
+        {
+          "source_job_id": "R35021",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Melbourne-Australia/Senior-Principal-Product-Manager_R35021"
+        },
+        {
+          "source_job_id": "R34932",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Manila-Philippines/Senior-Digital-Sales-Representative_R34932"
+        },
+        {
+          "source_job_id": "R35095",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Singapore-Singapore/Senior-Enterprise-Account-Executive---Indonesia-Market_R35095"
+        },
+        {
+          "source_job_id": "R35034",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Austin-Texas-United-States-of-America/Senior-Platform-Architect_R35034"
+        },
+        {
+          "source_job_id": "R34642",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Lisbon-Portugal/Senior-Machine-Learning-Engineer_R34642"
+        },
+        {
+          "source_job_id": "R31898",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-South-Korea/Commercial-Account-Executive_R31898-1"
+        },
+        {
+          "source_job_id": "R35027",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Melbourne-Australia/Principal-Product-Manager_R35027-1"
+        },
+        {
+          "source_job_id": "R34936",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Tokyo-Japan/Senior-Commercial-Account-Executive_R34936"
+        },
+        {
+          "source_job_id": "R35001",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Texas-United-States-of-America/Vice-President--Total-Rewards_R35001"
+        },
+        {
+          "source_job_id": "R34614",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-United-Kingdom/Manager--Sales-Operations---EMEA--North---Central-_R34614"
+        },
+        {
+          "source_job_id": "R34568",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Singapore/Senior-Commercial-Account-Executive--Greater-China-Region-_R34568"
+        },
+        {
+          "source_job_id": "R35052",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Singapore-Singapore/Business-Development-Representative_R35052"
+        },
+        {
+          "source_job_id": "R31018",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Lisbon-Portugal/Digital-Sales-Representative_R31018"
+        },
+        {
+          "source_job_id": "R28123",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Portugal---Lisbon---Office/Digital-Sales-Representative_R28123"
+        },
+        {
+          "source_job_id": "R35009",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Mexico-City-Mexico/Senior-Software-Engineer_R35009"
+        },
+        {
+          "source_job_id": "R34190",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-France/Senior-Manager--Commercial_R34190"
+        },
+        {
+          "source_job_id": "R34969",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Austin-Texas-United-States-of-America/Principal-Product-Manager---Partner-Sales_R34969"
+        },
+        {
+          "source_job_id": "R32749",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Melbourne-Australia/Business-Development-Representative_R32749"
+        },
+        {
+          "source_job_id": "R34789",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Austin-Texas-United-States-of-America/Senior-Fullstack-Engineer--Solve_R34789"
+        },
+        {
+          "source_job_id": "R33981",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Pune-India/Staff-Software-Engineer--Frontend-_R33981"
+        },
+        {
+          "source_job_id": "R33982",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Pune-India/Senior-Product-Manager_R33982"
+        },
+        {
+          "source_job_id": "R34421",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Pune-India/Engineering-Manager_R34421"
+        },
+        {
+          "source_job_id": "R32872",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Singapore-Singapore/Senior-Commercial-Account-Executive_R32872"
+        },
+        {
+          "source_job_id": "R34566",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Remote-Spain/Commercial-Account-Executive_R34566"
+        },
+        {
+          "source_job_id": "R33354",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Mexico-City-Mexico/Principal-Analyst-Workforce---Service-Performance_R33354"
+        },
+        {
+          "source_job_id": "R34626",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/San-Francisco-California-United-States-of-America/Sr-Operations-Manager_R34626"
+        },
+        {
+          "source_job_id": "R32964",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Singapore-Singapore/SMB-Account-Executive--Greater-China-Region-_R32964"
+        },
+        {
+          "source_job_id": "R33978",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Pune-India/Senior-Software-Engineer--Backend-_R33978"
+        },
+        {
+          "source_job_id": "R33556",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Singapore-Singapore/Senior-Sales-Manager--Enterprise--Greater-China-Region-_R33556"
+        },
+        {
+          "source_job_id": "R33980",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Pune-India/Staff-Software-Engineer--Fullstack-_R33980-1"
+        },
+        {
+          "source_job_id": "R32879",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Pune-India/Staff-Data-Engineer_R32879"
+        },
+        {
+          "source_job_id": "R33976",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Pune-India/Engineering-Manager_R33976"
+        },
+        {
+          "source_job_id": "R24107",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Poland---Krakow---Office/Senior-Software-Engineer_R24107"
+        },
+        {
+          "source_job_id": "R31665",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/San-Francisco-California-United-States-of-America/Enterprise-Account-Executive_R31665"
+        },
+        {
+          "source_job_id": "R33979",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Pune-India/Senior-Software-Engineer--Frontend-_R33979"
+        },
+        {
+          "source_job_id": "R33487",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Lisbon-Portugal/Business-Development-Representative---UKI-MEA_R33487"
+        },
+        {
+          "source_job_id": "R32763",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Mexico-City-Mexico/Business-Intelligence-Senior-Analyst_R32763"
+        },
+        {
+          "source_job_id": "R31021",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Mexico-City-Mexico/PLG-Sales-Representative_R31021"
+        },
+        {
+          "source_job_id": "R28868",
+          "canonical_url": "https://zendesk.wd1.myworkdayjobs.com/en-US/zendesk/job/Portugal---Lisbon---Office/SMB-Account-Executive---Multiple-languages_R28868"
+        }
+      ],
+      "matching_jobs": [],
+      "failure_details": null
+    },
+    {
+      "company_id": "cloudflare",
+      "source_id": "cloudflare-primary",
+      "expected_source_updated_date": "2026-08-14T21:09:30Z",
+      "expected_last_successful_scan_at": null,
+      "outcome": "success_no_matches",
+      "scanned_at": "2026-08-14T21:17:25Z",
+      "current_job_count": 305,
+      "active_job_identities": [
+        {
+          "source_job_id": "7695702",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7695702?gh_jid=7695702"
+        },
+        {
+          "source_job_id": "7902104",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7902104?gh_jid=7902104"
+        },
+        {
+          "source_job_id": "8077075",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8077075?gh_jid=8077075"
+        },
+        {
+          "source_job_id": "8097321",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8097321?gh_jid=8097321"
+        },
+        {
+          "source_job_id": "8084358",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8084358?gh_jid=8084358"
+        },
+        {
+          "source_job_id": "8078210",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8078210?gh_jid=8078210"
+        },
+        {
+          "source_job_id": "6696709",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/6696709?gh_jid=6696709"
+        },
+        {
+          "source_job_id": "6557318",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/6557318?gh_jid=6557318"
+        },
+        {
+          "source_job_id": "7991345",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7991345?gh_jid=7991345"
+        },
+        {
+          "source_job_id": "7657028",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7657028?gh_jid=7657028"
+        },
+        {
+          "source_job_id": "7883803",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7883803?gh_jid=7883803"
+        },
+        {
+          "source_job_id": "7504487",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7504487?gh_jid=7504487"
+        },
+        {
+          "source_job_id": "7772239",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7772239?gh_jid=7772239"
+        },
+        {
+          "source_job_id": "8076815",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8076815?gh_jid=8076815"
+        },
+        {
+          "source_job_id": "7478874",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7478874?gh_jid=7478874"
+        },
+        {
+          "source_job_id": "8045313",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8045313?gh_jid=8045313"
+        },
+        {
+          "source_job_id": "8045292",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8045292?gh_jid=8045292"
+        },
+        {
+          "source_job_id": "7588061",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7588061?gh_jid=7588061"
+        },
+        {
+          "source_job_id": "8120031",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8120031?gh_jid=8120031"
+        },
+        {
+          "source_job_id": "7955378",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7955378?gh_jid=7955378"
+        },
+        {
+          "source_job_id": "8027774",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8027774?gh_jid=8027774"
+        },
+        {
+          "source_job_id": "7988072",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7988072?gh_jid=7988072"
+        },
+        {
+          "source_job_id": "8063946",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8063946?gh_jid=8063946"
+        },
+        {
+          "source_job_id": "7241874",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7241874?gh_jid=7241874"
+        },
+        {
+          "source_job_id": "8109620",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8109620?gh_jid=8109620"
+        },
+        {
+          "source_job_id": "7535803",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7535803?gh_jid=7535803"
+        },
+        {
+          "source_job_id": "7736431",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7736431?gh_jid=7736431"
+        },
+        {
+          "source_job_id": "8059772",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8059772?gh_jid=8059772"
+        },
+        {
+          "source_job_id": "8052464",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8052464?gh_jid=8052464"
+        },
+        {
+          "source_job_id": "7544182",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7544182?gh_jid=7544182"
+        },
+        {
+          "source_job_id": "7489019",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7489019?gh_jid=7489019"
+        },
+        {
+          "source_job_id": "8049608",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8049608?gh_jid=8049608"
+        },
+        {
+          "source_job_id": "8041034",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8041034?gh_jid=8041034"
+        },
+        {
+          "source_job_id": "8077424",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8077424?gh_jid=8077424"
+        },
+        {
+          "source_job_id": "8056660",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8056660?gh_jid=8056660"
+        },
+        {
+          "source_job_id": "8051547",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8051547?gh_jid=8051547"
+        },
+        {
+          "source_job_id": "8051548",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8051548?gh_jid=8051548"
+        },
+        {
+          "source_job_id": "7374496",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7374496?gh_jid=7374496"
+        },
+        {
+          "source_job_id": "7964809",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7964809?gh_jid=7964809"
+        },
+        {
+          "source_job_id": "8036150",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8036150?gh_jid=8036150"
+        },
+        {
+          "source_job_id": "7462799",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7462799?gh_jid=7462799"
+        },
+        {
+          "source_job_id": "7462803",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7462803?gh_jid=7462803"
+        },
+        {
+          "source_job_id": "7462801",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7462801?gh_jid=7462801"
+        },
+        {
+          "source_job_id": "7462802",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7462802?gh_jid=7462802"
+        },
+        {
+          "source_job_id": "8099000",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8099000?gh_jid=8099000"
+        },
+        {
+          "source_job_id": "8083701",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8083701?gh_jid=8083701"
+        },
+        {
+          "source_job_id": "7647474",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7647474?gh_jid=7647474"
+        },
+        {
+          "source_job_id": "8007815",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8007815?gh_jid=8007815"
+        },
+        {
+          "source_job_id": "7653558",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7653558?gh_jid=7653558"
+        },
+        {
+          "source_job_id": "7956846",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7956846?gh_jid=7956846"
+        },
+        {
+          "source_job_id": "7572075",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7572075?gh_jid=7572075"
+        },
+        {
+          "source_job_id": "7778816",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7778816?gh_jid=7778816"
+        },
+        {
+          "source_job_id": "8043287",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8043287?gh_jid=8043287"
+        },
+        {
+          "source_job_id": "8014902",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8014902?gh_jid=8014902"
+        },
+        {
+          "source_job_id": "8041131",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8041131?gh_jid=8041131"
+        },
+        {
+          "source_job_id": "8045914",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8045914?gh_jid=8045914"
+        },
+        {
+          "source_job_id": "7428796",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7428796?gh_jid=7428796"
+        },
+        {
+          "source_job_id": "8025650",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8025650?gh_jid=8025650"
+        },
+        {
+          "source_job_id": "8081435",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8081435?gh_jid=8081435"
+        },
+        {
+          "source_job_id": "8064055",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8064055?gh_jid=8064055"
+        },
+        {
+          "source_job_id": "8046137",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8046137?gh_jid=8046137"
+        },
+        {
+          "source_job_id": "8046869",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8046869?gh_jid=8046869"
+        },
+        {
+          "source_job_id": "7972472",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7972472?gh_jid=7972472"
+        },
+        {
+          "source_job_id": "7552575",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7552575?gh_jid=7552575"
+        },
+        {
+          "source_job_id": "7838607",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7838607?gh_jid=7838607"
+        },
+        {
+          "source_job_id": "8030678",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8030678?gh_jid=8030678"
+        },
+        {
+          "source_job_id": "6540163",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/6540163?gh_jid=6540163"
+        },
+        {
+          "source_job_id": "7868936",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7868936?gh_jid=7868936"
+        },
+        {
+          "source_job_id": "7783835",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7783835?gh_jid=7783835"
+        },
+        {
+          "source_job_id": "8052843",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8052843?gh_jid=8052843"
+        },
+        {
+          "source_job_id": "8099671",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8099671?gh_jid=8099671"
+        },
+        {
+          "source_job_id": "8088046",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8088046?gh_jid=8088046"
+        },
+        {
+          "source_job_id": "7649981",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7649981?gh_jid=7649981"
+        },
+        {
+          "source_job_id": "8081027",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8081027?gh_jid=8081027"
+        },
+        {
+          "source_job_id": "8013562",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8013562?gh_jid=8013562"
+        },
+        {
+          "source_job_id": "8031027",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8031027?gh_jid=8031027"
+        },
+        {
+          "source_job_id": "8103793",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8103793?gh_jid=8103793"
+        },
+        {
+          "source_job_id": "8049820",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8049820?gh_jid=8049820"
+        },
+        {
+          "source_job_id": "8112140",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8112140?gh_jid=8112140"
+        },
+        {
+          "source_job_id": "7956851",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7956851?gh_jid=7956851"
+        },
+        {
+          "source_job_id": "8076565",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8076565?gh_jid=8076565"
+        },
+        {
+          "source_job_id": "8076538",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8076538?gh_jid=8076538"
+        },
+        {
+          "source_job_id": "8052856",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8052856?gh_jid=8052856"
+        },
+        {
+          "source_job_id": "8087911",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8087911?gh_jid=8087911"
+        },
+        {
+          "source_job_id": "7958083",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7958083?gh_jid=7958083"
+        },
+        {
+          "source_job_id": "8109939",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8109939?gh_jid=8109939"
+        },
+        {
+          "source_job_id": "8023395",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8023395?gh_jid=8023395"
+        },
+        {
+          "source_job_id": "8054669",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8054669?gh_jid=8054669"
+        },
+        {
+          "source_job_id": "8003273",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8003273?gh_jid=8003273"
+        },
+        {
+          "source_job_id": "8106415",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8106415?gh_jid=8106415"
+        },
+        {
+          "source_job_id": "7573757",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7573757?gh_jid=7573757"
+        },
+        {
+          "source_job_id": "8024889",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8024889?gh_jid=8024889"
+        },
+        {
+          "source_job_id": "8000779",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8000779?gh_jid=8000779"
+        },
+        {
+          "source_job_id": "7567848",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7567848?gh_jid=7567848"
+        },
+        {
+          "source_job_id": "8050386",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8050386?gh_jid=8050386"
+        },
+        {
+          "source_job_id": "8102350",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8102350?gh_jid=8102350"
+        },
+        {
+          "source_job_id": "8038898",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8038898?gh_jid=8038898"
+        },
+        {
+          "source_job_id": "8055320",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8055320?gh_jid=8055320"
+        },
+        {
+          "source_job_id": "8040851",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8040851?gh_jid=8040851"
+        },
+        {
+          "source_job_id": "8022491",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8022491?gh_jid=8022491"
+        },
+        {
+          "source_job_id": "8116208",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8116208?gh_jid=8116208"
+        },
+        {
+          "source_job_id": "8128762",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8128762?gh_jid=8128762"
+        },
+        {
+          "source_job_id": "8028310",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8028310?gh_jid=8028310"
+        },
+        {
+          "source_job_id": "7904142",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7904142?gh_jid=7904142"
+        },
+        {
+          "source_job_id": "8102768",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8102768?gh_jid=8102768"
+        },
+        {
+          "source_job_id": "8053116",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8053116?gh_jid=8053116"
+        },
+        {
+          "source_job_id": "8079544",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8079544?gh_jid=8079544"
+        },
+        {
+          "source_job_id": "7796077",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7796077?gh_jid=7796077"
+        },
+        {
+          "source_job_id": "8050384",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8050384?gh_jid=8050384"
+        },
+        {
+          "source_job_id": "8092138",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8092138?gh_jid=8092138"
+        },
+        {
+          "source_job_id": "8099018",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8099018?gh_jid=8099018"
+        },
+        {
+          "source_job_id": "8089400",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8089400?gh_jid=8089400"
+        },
+        {
+          "source_job_id": "8089407",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8089407?gh_jid=8089407"
+        },
+        {
+          "source_job_id": "8089379",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8089379?gh_jid=8089379"
+        },
+        {
+          "source_job_id": "7983529",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7983529?gh_jid=7983529"
+        },
+        {
+          "source_job_id": "8124227",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8124227?gh_jid=8124227"
+        },
+        {
+          "source_job_id": "8099937",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8099937?gh_jid=8099937"
+        },
+        {
+          "source_job_id": "8097869",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8097869?gh_jid=8097869"
+        },
+        {
+          "source_job_id": "8097852",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8097852?gh_jid=8097852"
+        },
+        {
+          "source_job_id": "7867139",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7867139?gh_jid=7867139"
+        },
+        {
+          "source_job_id": "7681220",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7681220?gh_jid=7681220"
+        },
+        {
+          "source_job_id": "8015719",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8015719?gh_jid=8015719"
+        },
+        {
+          "source_job_id": "7635977",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7635977?gh_jid=7635977"
+        },
+        {
+          "source_job_id": "7641930",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7641930?gh_jid=7641930"
+        },
+        {
+          "source_job_id": "7534033",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7534033?gh_jid=7534033"
+        },
+        {
+          "source_job_id": "8089418",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8089418?gh_jid=8089418"
+        },
+        {
+          "source_job_id": "8059775",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8059775?gh_jid=8059775"
+        },
+        {
+          "source_job_id": "8018980",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8018980?gh_jid=8018980"
+        },
+        {
+          "source_job_id": "8075795",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8075795?gh_jid=8075795"
+        },
+        {
+          "source_job_id": "7521551",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7521551?gh_jid=7521551"
+        },
+        {
+          "source_job_id": "7975427",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7975427?gh_jid=7975427"
+        },
+        {
+          "source_job_id": "7778747",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7778747?gh_jid=7778747"
+        },
+        {
+          "source_job_id": "8054072",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8054072?gh_jid=8054072"
+        },
+        {
+          "source_job_id": "8126829",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8126829?gh_jid=8126829"
+        },
+        {
+          "source_job_id": "8077614",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8077614?gh_jid=8077614"
+        },
+        {
+          "source_job_id": "8078129",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8078129?gh_jid=8078129"
+        },
+        {
+          "source_job_id": "8080187",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8080187?gh_jid=8080187"
+        },
+        {
+          "source_job_id": "8122071",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8122071?gh_jid=8122071"
+        },
+        {
+          "source_job_id": "8097947",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8097947?gh_jid=8097947"
+        },
+        {
+          "source_job_id": "8070722",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8070722?gh_jid=8070722"
+        },
+        {
+          "source_job_id": "7374554",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7374554?gh_jid=7374554"
+        },
+        {
+          "source_job_id": "8078323",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8078323?gh_jid=8078323"
+        },
+        {
+          "source_job_id": "7980647",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7980647?gh_jid=7980647"
+        },
+        {
+          "source_job_id": "7520051",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7520051?gh_jid=7520051"
+        },
+        {
+          "source_job_id": "7864156",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7864156?gh_jid=7864156"
+        },
+        {
+          "source_job_id": "7551589",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7551589?gh_jid=7551589"
+        },
+        {
+          "source_job_id": "8121983",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8121983?gh_jid=8121983"
+        },
+        {
+          "source_job_id": "8082834",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8082834?gh_jid=8082834"
+        },
+        {
+          "source_job_id": "7954702",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7954702?gh_jid=7954702"
+        },
+        {
+          "source_job_id": "8121827",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8121827?gh_jid=8121827"
+        },
+        {
+          "source_job_id": "7518699",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7518699?gh_jid=7518699"
+        },
+        {
+          "source_job_id": "8087769",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8087769?gh_jid=8087769"
+        },
+        {
+          "source_job_id": "8075765",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8075765?gh_jid=8075765"
+        },
+        {
+          "source_job_id": "8115936",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8115936?gh_jid=8115936"
+        },
+        {
+          "source_job_id": "8082781",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8082781?gh_jid=8082781"
+        },
+        {
+          "source_job_id": "8093023",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8093023?gh_jid=8093023"
+        },
+        {
+          "source_job_id": "8087772",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8087772?gh_jid=8087772"
+        },
+        {
+          "source_job_id": "6629769",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/6629769?gh_jid=6629769"
+        },
+        {
+          "source_job_id": "8007032",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8007032?gh_jid=8007032"
+        },
+        {
+          "source_job_id": "8055118",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8055118?gh_jid=8055118"
+        },
+        {
+          "source_job_id": "7655695",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7655695?gh_jid=7655695"
+        },
+        {
+          "source_job_id": "6998777",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/6998777?gh_jid=6998777"
+        },
+        {
+          "source_job_id": "8044090",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8044090?gh_jid=8044090"
+        },
+        {
+          "source_job_id": "8075719",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8075719?gh_jid=8075719"
+        },
+        {
+          "source_job_id": "7955374",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7955374?gh_jid=7955374"
+        },
+        {
+          "source_job_id": "8066716",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8066716?gh_jid=8066716"
+        },
+        {
+          "source_job_id": "7990300",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7990300?gh_jid=7990300"
+        },
+        {
+          "source_job_id": "8020472",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8020472?gh_jid=8020472"
+        },
+        {
+          "source_job_id": "7826565",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7826565?gh_jid=7826565"
+        },
+        {
+          "source_job_id": "8023448",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8023448?gh_jid=8023448"
+        },
+        {
+          "source_job_id": "8110209",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8110209?gh_jid=8110209"
+        },
+        {
+          "source_job_id": "8082556",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8082556?gh_jid=8082556"
+        },
+        {
+          "source_job_id": "8025514",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8025514?gh_jid=8025514"
+        },
+        {
+          "source_job_id": "8050511",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8050511?gh_jid=8050511"
+        },
+        {
+          "source_job_id": "8042034",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8042034?gh_jid=8042034"
+        },
+        {
+          "source_job_id": "8043974",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8043974?gh_jid=8043974"
+        },
+        {
+          "source_job_id": "8099002",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8099002?gh_jid=8099002"
+        },
+        {
+          "source_job_id": "8084082",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8084082?gh_jid=8084082"
+        },
+        {
+          "source_job_id": "8083770",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8083770?gh_jid=8083770"
+        },
+        {
+          "source_job_id": "7773428",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7773428?gh_jid=7773428"
+        },
+        {
+          "source_job_id": "8088881",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8088881?gh_jid=8088881"
+        },
+        {
+          "source_job_id": "7793581",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7793581?gh_jid=7793581"
+        },
+        {
+          "source_job_id": "7361295",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7361295?gh_jid=7361295"
+        },
+        {
+          "source_job_id": "8128468",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8128468?gh_jid=8128468"
+        },
+        {
+          "source_job_id": "7474034",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7474034?gh_jid=7474034"
+        },
+        {
+          "source_job_id": "8020043",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8020043?gh_jid=8020043"
+        },
+        {
+          "source_job_id": "7439830",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7439830?gh_jid=7439830"
+        },
+        {
+          "source_job_id": "7767743",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7767743?gh_jid=7767743"
+        },
+        {
+          "source_job_id": "8122101",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8122101?gh_jid=8122101"
+        },
+        {
+          "source_job_id": "8071416",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8071416?gh_jid=8071416"
+        },
+        {
+          "source_job_id": "8089141",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8089141?gh_jid=8089141"
+        },
+        {
+          "source_job_id": "7866619",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7866619?gh_jid=7866619"
+        },
+        {
+          "source_job_id": "7405115",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7405115?gh_jid=7405115"
+        },
+        {
+          "source_job_id": "7799240",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7799240?gh_jid=7799240"
+        },
+        {
+          "source_job_id": "8044712",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8044712?gh_jid=8044712"
+        },
+        {
+          "source_job_id": "7857793",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7857793?gh_jid=7857793"
+        },
+        {
+          "source_job_id": "8081326",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8081326?gh_jid=8081326"
+        },
+        {
+          "source_job_id": "8019052",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8019052?gh_jid=8019052"
+        },
+        {
+          "source_job_id": "8109416",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8109416?gh_jid=8109416"
+        },
+        {
+          "source_job_id": "8121029",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8121029?gh_jid=8121029"
+        },
+        {
+          "source_job_id": "8122875",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8122875?gh_jid=8122875"
+        },
+        {
+          "source_job_id": "7991283",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7991283?gh_jid=7991283"
+        },
+        {
+          "source_job_id": "8067630",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8067630?gh_jid=8067630"
+        },
+        {
+          "source_job_id": "7421718",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7421718?gh_jid=7421718"
+        },
+        {
+          "source_job_id": "7807860",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7807860?gh_jid=7807860"
+        },
+        {
+          "source_job_id": "8127204",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8127204?gh_jid=8127204"
+        },
+        {
+          "source_job_id": "8121020",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8121020?gh_jid=8121020"
+        },
+        {
+          "source_job_id": "8112200",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8112200?gh_jid=8112200"
+        },
+        {
+          "source_job_id": "8037985",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8037985?gh_jid=8037985"
+        },
+        {
+          "source_job_id": "8082742",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8082742?gh_jid=8082742"
+        },
+        {
+          "source_job_id": "8024272",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8024272?gh_jid=8024272"
+        },
+        {
+          "source_job_id": "7668318",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7668318?gh_jid=7668318"
+        },
+        {
+          "source_job_id": "8104511",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8104511?gh_jid=8104511"
+        },
+        {
+          "source_job_id": "7937299",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7937299?gh_jid=7937299"
+        },
+        {
+          "source_job_id": "7943582",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7943582?gh_jid=7943582"
+        },
+        {
+          "source_job_id": "8110247",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8110247?gh_jid=8110247"
+        },
+        {
+          "source_job_id": "7272028",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7272028?gh_jid=7272028"
+        },
+        {
+          "source_job_id": "7992903",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7992903?gh_jid=7992903"
+        },
+        {
+          "source_job_id": "7817755",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7817755?gh_jid=7817755"
+        },
+        {
+          "source_job_id": "7963589",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7963589?gh_jid=7963589"
+        },
+        {
+          "source_job_id": "7978887",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7978887?gh_jid=7978887"
+        },
+        {
+          "source_job_id": "7817793",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7817793?gh_jid=7817793"
+        },
+        {
+          "source_job_id": "8128606",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8128606?gh_jid=8128606"
+        },
+        {
+          "source_job_id": "7981489",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7981489?gh_jid=7981489"
+        },
+        {
+          "source_job_id": "8024849",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8024849?gh_jid=8024849"
+        },
+        {
+          "source_job_id": "8007326",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8007326?gh_jid=8007326"
+        },
+        {
+          "source_job_id": "7589006",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7589006?gh_jid=7589006"
+        },
+        {
+          "source_job_id": "8064473",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8064473?gh_jid=8064473"
+        },
+        {
+          "source_job_id": "8079931",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8079931?gh_jid=8079931"
+        },
+        {
+          "source_job_id": "8025521",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8025521?gh_jid=8025521"
+        },
+        {
+          "source_job_id": "7522891",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7522891?gh_jid=7522891"
+        },
+        {
+          "source_job_id": "7648618",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7648618?gh_jid=7648618"
+        },
+        {
+          "source_job_id": "8077641",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8077641?gh_jid=8077641"
+        },
+        {
+          "source_job_id": "8080780",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8080780?gh_jid=8080780"
+        },
+        {
+          "source_job_id": "7896462",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7896462?gh_jid=7896462"
+        },
+        {
+          "source_job_id": "5390243",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/5390243?gh_jid=5390243"
+        },
+        {
+          "source_job_id": "7446340",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7446340?gh_jid=7446340"
+        },
+        {
+          "source_job_id": "8035679",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8035679?gh_jid=8035679"
+        },
+        {
+          "source_job_id": "7276690",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7276690?gh_jid=7276690"
+        },
+        {
+          "source_job_id": "7629805",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7629805?gh_jid=7629805"
+        },
+        {
+          "source_job_id": "6578726",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/6578726?gh_jid=6578726"
+        },
+        {
+          "source_job_id": "8124416",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8124416?gh_jid=8124416"
+        },
+        {
+          "source_job_id": "8071586",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8071586?gh_jid=8071586"
+        },
+        {
+          "source_job_id": "7967144",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7967144?gh_jid=7967144"
+        },
+        {
+          "source_job_id": "8087792",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8087792?gh_jid=8087792"
+        },
+        {
+          "source_job_id": "8066589",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8066589?gh_jid=8066589"
+        },
+        {
+          "source_job_id": "7560174",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7560174?gh_jid=7560174"
+        },
+        {
+          "source_job_id": "8030240",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8030240?gh_jid=8030240"
+        },
+        {
+          "source_job_id": "8079117",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8079117?gh_jid=8079117"
+        },
+        {
+          "source_job_id": "8082544",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8082544?gh_jid=8082544"
+        },
+        {
+          "source_job_id": "8104955",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8104955?gh_jid=8104955"
+        },
+        {
+          "source_job_id": "7093840",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7093840?gh_jid=7093840"
+        },
+        {
+          "source_job_id": "7764827",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7764827?gh_jid=7764827"
+        },
+        {
+          "source_job_id": "8110157",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8110157?gh_jid=8110157"
+        },
+        {
+          "source_job_id": "8107174",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8107174?gh_jid=8107174"
+        },
+        {
+          "source_job_id": "8030327",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8030327?gh_jid=8030327"
+        },
+        {
+          "source_job_id": "7830335",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7830335?gh_jid=7830335"
+        },
+        {
+          "source_job_id": "7481407",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7481407?gh_jid=7481407"
+        },
+        {
+          "source_job_id": "8101702",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8101702?gh_jid=8101702"
+        },
+        {
+          "source_job_id": "8042843",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8042843?gh_jid=8042843"
+        },
+        {
+          "source_job_id": "8027747",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8027747?gh_jid=8027747"
+        },
+        {
+          "source_job_id": "8012884",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8012884?gh_jid=8012884"
+        },
+        {
+          "source_job_id": "7782141",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7782141?gh_jid=7782141"
+        },
+        {
+          "source_job_id": "8109303",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8109303?gh_jid=8109303"
+        },
+        {
+          "source_job_id": "8012942",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8012942?gh_jid=8012942"
+        },
+        {
+          "source_job_id": "8081315",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8081315?gh_jid=8081315"
+        },
+        {
+          "source_job_id": "8084212",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8084212?gh_jid=8084212"
+        },
+        {
+          "source_job_id": "8125865",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8125865?gh_jid=8125865"
+        },
+        {
+          "source_job_id": "7831810",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7831810?gh_jid=7831810"
+        },
+        {
+          "source_job_id": "8088751",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8088751?gh_jid=8088751"
+        },
+        {
+          "source_job_id": "8118845",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8118845?gh_jid=8118845"
+        },
+        {
+          "source_job_id": "8052785",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8052785?gh_jid=8052785"
+        },
+        {
+          "source_job_id": "8106815",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8106815?gh_jid=8106815"
+        },
+        {
+          "source_job_id": "7446310",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7446310?gh_jid=7446310"
+        },
+        {
+          "source_job_id": "7541032",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7541032?gh_jid=7541032"
+        },
+        {
+          "source_job_id": "7887609",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7887609?gh_jid=7887609"
+        },
+        {
+          "source_job_id": "7377424",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7377424?gh_jid=7377424"
+        },
+        {
+          "source_job_id": "7742347",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7742347?gh_jid=7742347"
+        },
+        {
+          "source_job_id": "7978788",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7978788?gh_jid=7978788"
+        },
+        {
+          "source_job_id": "8098311",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8098311?gh_jid=8098311"
+        },
+        {
+          "source_job_id": "7610071",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7610071?gh_jid=7610071"
+        },
+        {
+          "source_job_id": "8021873",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8021873?gh_jid=8021873"
+        },
+        {
+          "source_job_id": "7053411",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7053411?gh_jid=7053411"
+        },
+        {
+          "source_job_id": "8098922",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8098922?gh_jid=8098922"
+        },
+        {
+          "source_job_id": "8016162",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8016162?gh_jid=8016162"
+        },
+        {
+          "source_job_id": "8022909",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8022909?gh_jid=8022909"
+        },
+        {
+          "source_job_id": "8050813",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8050813?gh_jid=8050813"
+        },
+        {
+          "source_job_id": "7068271",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7068271?gh_jid=7068271"
+        },
+        {
+          "source_job_id": "8015230",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8015230?gh_jid=8015230"
+        },
+        {
+          "source_job_id": "8089031",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8089031?gh_jid=8089031"
+        },
+        {
+          "source_job_id": "8094826",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8094826?gh_jid=8094826"
+        },
+        {
+          "source_job_id": "8064514",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8064514?gh_jid=8064514"
+        },
+        {
+          "source_job_id": "8081039",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8081039?gh_jid=8081039"
+        },
+        {
+          "source_job_id": "8109271",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8109271?gh_jid=8109271"
+        },
+        {
+          "source_job_id": "6528593",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/6528593?gh_jid=6528593"
+        },
+        {
+          "source_job_id": "8110442",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8110442?gh_jid=8110442"
+        },
+        {
+          "source_job_id": "7804941",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7804941?gh_jid=7804941"
+        },
+        {
+          "source_job_id": "7975812",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7975812?gh_jid=7975812"
+        },
+        {
+          "source_job_id": "7962217",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7962217?gh_jid=7962217"
+        },
+        {
+          "source_job_id": "8093310",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8093310?gh_jid=8093310"
+        },
+        {
+          "source_job_id": "7926198",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7926198?gh_jid=7926198"
+        },
+        {
+          "source_job_id": "7309174",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7309174?gh_jid=7309174"
+        },
+        {
+          "source_job_id": "8080851",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8080851?gh_jid=8080851"
+        },
+        {
+          "source_job_id": "8114069",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/8114069?gh_jid=8114069"
+        },
+        {
+          "source_job_id": "7579269",
+          "canonical_url": "https://boards.greenhouse.io/cloudflare/jobs/7579269?gh_jid=7579269"
+        }
+      ],
+      "matching_jobs": [],
+      "failure_details": null
+    },
+    {
+      "company_id": "sofi",
+      "source_id": "sofi-primary",
+      "expected_source_updated_date": "2026-08-14T18:12:12Z",
+      "expected_last_successful_scan_at": null,
+      "outcome": "failed",
+      "scanned_at": "2026-08-14T21:17:25Z",
+      "current_job_count": null,
+      "active_job_identities": [],
+      "matching_jobs": [],
+      "failure_details": "The official careers page reported 78 roles, while embedded job data exposed 59 distinct job IDs and the public Greenhouse board API returned 60. A complete current identity set could not be established."
+    },
+    {
+      "company_id": "datarobot",
+      "source_id": "datarobot-primary",
+      "expected_source_updated_date": "2026-08-14T18:12:12Z",
+      "expected_last_successful_scan_at": null,
+      "outcome": "failed",
+      "scanned_at": "2026-08-14T21:17:25Z",
+      "current_job_count": null,
+      "active_job_identities": [],
+      "matching_jobs": [],
+      "failure_details": "The official open-positions page reported 25 roles, but the saved custom source did not expose a reliable complete identity set in this scan."
+    },
+    {
+      "company_id": "hubspot",
+      "source_id": "hubspot-primary",
+      "expected_source_updated_date": "2026-08-14T18:12:12Z",
+      "expected_last_successful_scan_at": null,
+      "outcome": "failed",
+      "scanned_at": "2026-08-14T21:17:25Z",
+      "current_job_count": null,
+      "active_job_identities": [],
+      "matching_jobs": [],
+      "failure_details": "The official directory reported current openings but the saved custom source did not expose a reliable complete identity set in this scan."
+    },
+    {
+      "company_id": "navan",
+      "source_id": "navan-primary",
+      "expected_source_updated_date": "2026-08-14T18:12:12Z",
+      "expected_last_successful_scan_at": null,
+      "outcome": "failed",
+      "scanned_at": "2026-08-14T21:17:25Z",
+      "current_job_count": null,
+      "active_job_identities": [],
+      "matching_jobs": [],
+      "failure_details": "The official openings page rendered a loading state and the saved custom source did not expose a reliable complete identity set in this scan."
+    }
+  ],
+  "issues": [
+    {
+      "code": "incomplete_listing_set",
+      "company_id": "sofi",
+      "subject": "sofi-primary",
+      "source_url": "https://www.sofi.com/careers/",
+      "details": "The official careers page reported 78 roles, while embedded job data exposed 59 distinct job IDs and the public Greenhouse board API returned 60. A complete current identity set could not be established."
+    },
+    {
+      "code": "incomplete_listing_set",
+      "company_id": "datarobot",
+      "subject": "datarobot-primary",
+      "source_url": "https://www.datarobot.com/careers/open-positions/",
+      "details": "The official open-positions page reported 25 roles, but the saved custom source did not expose a reliable complete identity set in this scan."
+    },
+    {
+      "code": "incomplete_listing_set",
+      "company_id": "hubspot",
+      "subject": "hubspot-primary",
+      "source_url": "https://www.hubspot.com/careers/jobs/all",
+      "details": "The official directory reported current openings but the saved custom source did not expose a reliable complete identity set in this scan."
+    },
+    {
+      "code": "incomplete_listing_set",
+      "company_id": "navan",
+      "subject": "navan-primary",
+      "source_url": "https://navan.com/careers/openings",
+      "details": "The official openings page rendered a loading state and the saved custom source did not expose a reliable complete identity set in this scan."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-09T23:57:20Z",
+  "changes": [
+    {
+      "company_id": "kimpton-hotels-and-restaurants",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "222 Kearny Street, Suite 200", "city": "San Francisco", "region": "CA", "postal_code": "94108", "country": "US"},
+        "latitude": 37.7902026,
+        "longitude": -122.4035351,
+        "address_status": "verified",
+        "address_source_url": "https://www.mapquest.com/us/california/kimpton-hotel-group-corporate-office-11766953",
+        "address_source_label": "Kimpton corporate office listing",
+        "verified_date": "2026-08-09T23:57:20Z"
+      }
+    },
+    {
+      "company_id": "labelbox",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "510 Treat Avenue", "city": "San Francisco", "region": "CA", "postal_code": "94110", "country": "US"},
+        "latitude": 37.7619976,
+        "longitude": -122.4141203,
+        "address_status": "verified",
+        "address_source_url": "https://docs.labelbox.com/page/enterprise-terms-and-conditions",
+        "address_source_label": "Labelbox enterprise terms",
+        "verified_date": "2026-08-09T23:57:20Z"
+      }
+    },
+    {
+      "company_id": "mithrl",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "44 Montgomery Street", "city": "San Francisco", "region": "CA", "postal_code": "94104", "country": "US"},
+        "latitude": 37.7896307,
+        "longitude": -122.4018876,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/mithrl-ai",
+        "address_source_label": "Mithrl LinkedIn company profile",
+        "verified_date": "2026-08-09T23:57:20Z"
+      }
+    },
+    {
+      "company_id": "on-board-experiential",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "100 Shoreline Highway, Suite 295B", "city": "Mill Valley", "region": "CA", "postal_code": "94941", "country": "US"},
+        "latitude": 37.8805953,
+        "longitude": -122.5151431,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.onboardent.com/about",
+        "address_source_label": "OBE official about page",
+        "verified_date": "2026-08-09T23:57:20Z"
+      }
+    },
+    {
+      "company_id": "race-communications",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "601 Gateway Boulevard, Suite 280", "city": "South San Francisco", "region": "CA", "postal_code": "94080", "country": "US"},
+        "latitude": 37.6566088,
+        "longitude": -122.4011553,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/race-communications",
+        "address_source_label": "Race Communications LinkedIn company profile",
+        "verified_date": "2026-08-09T23:57:20Z"
+      }
+    },
+    {"company_id": "rave", "expected_status": "pending", "address_result": {"address": null, "latitude": null, "longitude": null, "address_status": "not_found", "address_source_url": null, "address_source_label": null, "verified_date": "2026-08-09T23:57:20Z"}},
+    {"company_id": "redcar", "expected_status": "pending", "address_result": {"address": null, "latitude": null, "longitude": null, "address_status": "not_found", "address_source_url": null, "address_source_label": null, "verified_date": "2026-08-09T23:57:20Z"}},
+    {
+      "company_id": "redpanda-data",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "220 Montgomery Street, Suite 400", "city": "San Francisco", "region": "CA", "postal_code": "94104", "country": "US"},
+        "latitude": 37.7912938,
+        "longitude": -122.4021563,
+        "address_status": "verified",
+        "address_source_url": "https://www.redpanda.com/legal/privacy-policy",
+        "address_source_label": "Redpanda official privacy policy",
+        "verified_date": "2026-08-09T23:57:20Z"
+      }
+    },
+    {"company_id": "relyance-ai", "expected_status": "pending", "address_result": {"address": null, "latitude": null, "longitude": null, "address_status": "not_found", "address_source_url": null, "address_source_label": null, "verified_date": "2026-08-09T23:57:20Z"}},
+    {
+      "company_id": "replit",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "1001 East Hillsdale Boulevard, Building 400W", "city": "Foster City", "region": "CA", "postal_code": "94404", "country": "US"},
+        "latitude": 37.558758,
+        "longitude": -122.271392,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/repl-it",
+        "address_source_label": "Replit LinkedIn company profile",
+        "verified_date": "2026-08-09T23:57:20Z"
+      }
+    }
+  ],
+  "issues": []
+}

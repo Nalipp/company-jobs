@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-09T23:10:33Z",
+  "changes": [
+    {
+      "company_id": "cartage",
+      "expected_status": "not_found",
+      "address_result": {
+        "address": {
+          "street": "3661 Buchanan Street, Floor 3",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94123",
+          "country": "US"
+        },
+        "latitude": 37.8038292,
+        "longitude": -122.4335327,
+        "address_status": "verified",
+        "address_source_url": "https://www.cartage.ai/contact",
+        "address_source_label": "Cartage official contact page; business-directory map result",
+        "verified_date": "2026-08-09T23:10:33Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "office_address_unconfirmed",
+      "company_id": "within-ai",
+      "subject": "Within physical office",
+      "source_url": "https://www.within.ai/",
+      "details": "The current Within website identifies the company and product but does not publish a street address. Focused San Francisco-office searches did not surface a credible current physical office, so the existing not_found record remains unchanged."
+    },
+    {
+      "code": "office_address_unconfirmed",
+      "company_id": "cardinal",
+      "subject": "Cardinal physical office",
+      "source_url": "https://trycardinal.com/",
+      "details": "The current Cardinal AI website identifies the revenue-agent product but does not publish a street address. Focused San Francisco-office searches did not produce a credible physical office, so the existing not_found record remains unchanged."
+    },
+    {
+      "code": "office_address_unconfirmed",
+      "company_id": "floot",
+      "subject": "Floot physical office",
+      "source_url": "https://floot.com/careers",
+      "details": "Floot's current careers page confirms an in-person San Francisco role and team lunches in the Sunset District, but it does not disclose an office street address. The only precise lead remains the unit-style 945 Taraval St #534 filing/listing address, which is not independently established as a physical office."
+    },
+    {
+      "code": "office_address_unconfirmed",
+      "company_id": "collate",
+      "subject": "Collate physical office",
+      "source_url": "https://collate.com/",
+      "details": "The official collate.com site identifies the life-sciences AI company but does not disclose an office street address. The only exact SF candidate found was 2261 Market Street, Suite 5767 in a corporate filing, a suite-style legal address that was not independently tied to a physical office. The separate getcollate.io company lists Saratoga and is not used because it is a different company."
+    },
+    {
+      "code": "office_address_unconfirmed",
+      "company_id": "litellm",
+      "subject": "LiteLLM physical office",
+      "source_url": "https://uspto.report/TM/99155502",
+      "details": "A targeted review of LiteLLM's official web presence did not produce a current office address. The remaining 1730 Jones Street candidate appears in a trademark-owner filing and third-party listings, not an office source; it is also the previously flagged residential-looking address."
+    },
+    {
+      "code": "remote_only_no_office",
+      "company_id": "gitlab",
+      "subject": "GitLab physical office",
+      "source_url": "https://about.gitlab.com/company/visiting/",
+      "details": "GitLab's official visiting page explicitly describes 268 Bush Street #350 as a mailing address and not a visiting address. Its published management-system documentation says the company is all-remote and the address is closed, so it cannot support a physical-office validation."
+    },
+    {
+      "code": "office_address_unconfirmed",
+      "company_id": "deepgram",
+      "subject": "Deepgram physical office",
+      "source_url": "https://www.builtinsf.com/company/deepgram/offices",
+      "details": "Built In lists 548 Market Street as Deepgram's SF HQ but also describes the company as a remote workplace. The company and corporate listings use high-numbered suite/PMB-style addresses at 548 Market, which correspond to a commercial mail service; this does not establish a current physical office."
+    }
+  ]
+}

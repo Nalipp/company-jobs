@@ -1,0 +1,288 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://v3-daily-jobs.local/schemas/job-results.schema.json",
+  "title": "V3 profile-specific job results",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "profile_id", "updated_at", "source_states", "jobs"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "profile_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*-v[1-9][0-9]*$"
+    },
+    "updated_at": {
+      "oneOf": [
+        { "type": "string", "format": "date-time" },
+        { "type": "null" }
+      ]
+    },
+    "source_states": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/sourceState" }
+    },
+    "jobs": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/jobRecord" }
+    }
+  },
+  "$defs": {
+    "sourceState": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "last_successful_scan_at"],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "last_successful_scan_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "nullableString": {
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        { "type": "null" }
+      ]
+    },
+    "nullableDate": {
+      "oneOf": [
+        { "type": "string", "format": "date" },
+        { "type": "null" }
+      ]
+    },
+    "nullableDateTime": {
+      "oneOf": [
+        { "type": "string", "format": "date-time" },
+        { "type": "null" }
+      ]
+    },
+    "sourceJobIdentity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_job_id", "canonical_url"],
+      "properties": {
+        "source_job_id": { "$ref": "#/$defs/nullableString" },
+        "canonical_url": { "type": "string", "format": "uri" }
+      }
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["city", "region", "country"],
+      "properties": {
+        "city": { "type": "string", "minLength": 1 },
+        "region": { "type": "string", "minLength": 1 },
+        "country": { "type": "string", "minLength": 2 }
+      }
+    },
+    "compensation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "minimum",
+        "maximum",
+        "currency",
+        "basis",
+        "period",
+        "source_text"
+      ],
+      "properties": {
+        "minimum": {
+          "oneOf": [
+            { "type": "number", "minimum": 0 },
+            { "type": "null" }
+          ]
+        },
+        "maximum": { "type": "number", "minimum": 0 },
+        "currency": { "type": "string", "pattern": "^[A-Z]{3}$" },
+        "basis": { "enum": ["base", "total"] },
+        "period": { "enum": ["hour", "month", "year"] },
+        "source_text": { "type": "string", "minLength": 1 }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "active_status",
+        "location",
+        "workplace_arrangement",
+        "employment_type",
+        "compensation",
+        "seniority",
+        "role_fit",
+        "ai_involvement"
+      ],
+      "properties": {
+        "active_status": { "type": "string", "minLength": 1 },
+        "location": { "type": "string", "minLength": 1 },
+        "workplace_arrangement": { "$ref": "#/$defs/nullableString" },
+        "employment_type": { "$ref": "#/$defs/nullableString" },
+        "compensation": { "type": "string", "minLength": 1 },
+        "seniority": { "$ref": "#/$defs/nullableString" },
+        "role_fit": { "type": "string", "minLength": 1 },
+        "ai_involvement": { "type": "string", "minLength": 1 }
+      }
+    },
+    "jobObservation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "company_id",
+        "source_id",
+        "source_job_id",
+        "canonical_url",
+        "title",
+        "location_text",
+        "location",
+        "workplace_arrangement",
+        "workplace_text",
+        "employment_type",
+        "employment_text",
+        "seniority",
+        "compensation",
+        "posted_date",
+        "evidence"
+      ],
+      "properties": {
+        "company_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "source_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "source_job_id": { "$ref": "#/$defs/nullableString" },
+        "canonical_url": { "type": "string", "format": "uri" },
+        "title": { "type": "string", "minLength": 1 },
+        "location_text": { "type": "string", "minLength": 1 },
+        "location": { "$ref": "#/$defs/location" },
+        "workplace_arrangement": {
+          "enum": ["remote", "hybrid", "on-site", "unknown"]
+        },
+        "workplace_text": { "$ref": "#/$defs/nullableString" },
+        "employment_type": { "$ref": "#/$defs/nullableString" },
+        "employment_text": { "$ref": "#/$defs/nullableString" },
+        "seniority": {
+          "oneOf": [
+            {
+              "enum": [
+                "entry-level",
+                "mid-level",
+                "senior",
+                "staff",
+                "principal",
+                "lead",
+                "manager",
+                "director",
+                "executive"
+              ]
+            },
+            { "type": "null" }
+          ]
+        },
+        "compensation": { "$ref": "#/$defs/compensation" },
+        "posted_date": { "$ref": "#/$defs/nullableDate" },
+        "evidence": { "$ref": "#/$defs/evidence" }
+      }
+    },
+    "jobRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "company_id",
+        "source_id",
+        "source_job_id",
+        "canonical_url",
+        "title",
+        "location_text",
+        "location",
+        "workplace_arrangement",
+        "workplace_text",
+        "employment_type",
+        "employment_text",
+        "seniority",
+        "compensation",
+        "posted_date",
+        "evidence",
+        "status",
+        "first_seen_at",
+        "updated_at",
+        "inactive_at"
+      ],
+      "properties": {
+        "company_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "source_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "source_job_id": { "$ref": "#/$defs/nullableString" },
+        "canonical_url": { "type": "string", "format": "uri" },
+        "title": { "type": "string", "minLength": 1 },
+        "location_text": { "type": "string", "minLength": 1 },
+        "location": { "$ref": "#/$defs/location" },
+        "workplace_arrangement": {
+          "enum": ["remote", "hybrid", "on-site", "unknown"]
+        },
+        "workplace_text": { "$ref": "#/$defs/nullableString" },
+        "employment_type": { "$ref": "#/$defs/nullableString" },
+        "employment_text": { "$ref": "#/$defs/nullableString" },
+        "seniority": {
+          "oneOf": [
+            {
+              "enum": [
+                "entry-level",
+                "mid-level",
+                "senior",
+                "staff",
+                "principal",
+                "lead",
+                "manager",
+                "director",
+                "executive"
+              ]
+            },
+            { "type": "null" }
+          ]
+        },
+        "compensation": { "$ref": "#/$defs/compensation" },
+        "posted_date": { "$ref": "#/$defs/nullableDate" },
+        "evidence": { "$ref": "#/$defs/evidence" },
+        "status": { "enum": ["active", "inactive"] },
+        "first_seen_at": { "type": "string", "format": "date-time" },
+        "updated_at": { "type": "string", "format": "date-time" },
+        "inactive_at": { "$ref": "#/$defs/nullableDateTime" }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "status": { "const": "active" } },
+            "required": ["status"]
+          },
+          "then": {
+            "properties": { "inactive_at": { "type": "null" } }
+          }
+        },
+        {
+          "if": {
+            "properties": { "status": { "const": "inactive" } },
+            "required": ["status"]
+          },
+          "then": {
+            "properties": {
+              "inactive_at": { "type": "string", "format": "date-time" }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

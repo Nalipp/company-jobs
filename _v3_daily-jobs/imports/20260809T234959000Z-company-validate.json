@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-09T23:49:59Z",
+  "changes": [
+    {
+      "company_id": "rokt",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "655 Montgomery Street, 17th Floor", "city": "San Francisco", "region": "CA", "postal_code": "94111", "country": "US"},
+        "latitude": 37.7952291,
+        "longitude": -122.4036148,
+        "address_status": "verified",
+        "address_source_url": "https://2187456.fs1.hubspotusercontent-na1.net/hubfs/2187456/Marketing/20240201%20-%20Roktstar%20Handbook%20-%20FINAL.pdf",
+        "address_source_label": "Rokt employee handbook office directory",
+        "verified_date": "2026-08-09T23:49:59Z"
+      }
+    },
+    {
+      "company_id": "sentilink",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "33 New Montgomery Street, Suite 550", "city": "San Francisco", "region": "CA", "postal_code": "94105", "country": "US"},
+        "latitude": 37.7885424,
+        "longitude": -122.401467,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/sentilink",
+        "address_source_label": "SentiLink LinkedIn company profile",
+        "verified_date": "2026-08-09T23:49:59Z"
+      }
+    },
+    {
+      "company_id": "sofi",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "234 1st Street", "city": "San Francisco", "region": "CA", "postal_code": "94105", "country": "US"},
+        "latitude": 37.7878789,
+        "longitude": -122.3953562,
+        "address_status": "verified",
+        "address_source_url": "https://www.ffiec.gov/npw/Institution/Profile/5586871?dt=20220202",
+        "address_source_label": "Federal Financial Institutions Examination Council profile",
+        "verified_date": "2026-08-09T23:49:59Z"
+      }
+    },
+    {
+      "company_id": "taskrabbit",
+      "expected_status": "pending",
+      "address_result": {"address": null, "latitude": null, "longitude": null, "address_status": "not_found", "address_source_url": null, "address_source_label": null, "verified_date": "2026-08-09T23:49:59Z"}
+    },
+    {
+      "company_id": "bonfire-labs",
+      "expected_status": "pending",
+      "address_result": {"address": null, "latitude": null, "longitude": null, "address_status": "not_found", "address_source_url": null, "address_source_label": null, "verified_date": "2026-08-09T23:49:59Z"}
+    },
+    {
+      "company_id": "cobalt-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "526 2nd Street", "city": "San Francisco", "region": "CA", "postal_code": "94107", "country": "US"},
+        "latitude": 37.7826127,
+        "longitude": -122.3933096,
+        "address_status": "verified",
+        "address_source_url": "https://www.cobaltai.com/contact/",
+        "address_source_label": "Cobalt AI official contact page",
+        "verified_date": "2026-08-09T23:49:59Z"
+      }
+    },
+    {
+      "company_id": "cropx-technologies",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {"street": "Hamelacha 5", "city": "Netanya", "region": "Center District", "postal_code": "4250540", "country": "IL"},
+        "latitude": 32.277293,
+        "longitude": 34.858873,
+        "address_status": "outside_sf",
+        "address_source_url": "https://cropx.com/contact-us/",
+        "address_source_label": "CropX official contact page",
+        "verified_date": "2026-08-09T23:49:59Z"
+      }
+    },
+    {
+      "company_id": "enterpret",
+      "expected_status": "pending",
+      "address_result": {"address": null, "latitude": null, "longitude": null, "address_status": "not_found", "address_source_url": null, "address_source_label": null, "verified_date": "2026-08-09T23:49:59Z"}
+    },
+    {
+      "company_id": "indent",
+      "expected_status": "pending",
+      "address_result": {"address": null, "latitude": null, "longitude": null, "address_status": "not_found", "address_source_url": null, "address_source_label": null, "verified_date": "2026-08-09T23:49:59Z"}
+    },
+    {
+      "company_id": "myshell-ai",
+      "expected_status": "pending",
+      "address_result": {"address": null, "latitude": null, "longitude": null, "address_status": "not_found", "address_source_url": null, "address_source_label": null, "verified_date": "2026-08-09T23:49:59Z"}
+    }
+  ],
+  "issues": []
+}

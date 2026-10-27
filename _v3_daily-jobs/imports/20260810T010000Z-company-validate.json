@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-10T01:00:00Z",
+  "changes": [
+    {
+      "company_id": "beefree",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "450 Townsend Street, 1st Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.774656,
+        "longitude": -122.3986313,
+        "address_status": "verified",
+        "address_source_url": "https://beefree.io/privacy-policy",
+        "address_source_label": "Beefree official privacy policy",
+        "verified_date": "2026-08-10T01:00:00Z"
+      }
+    },
+    {
+      "company_id": "chai-discovery",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "55 Pacific Avenue",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.7979406,
+        "longitude": -122.3979011,
+        "address_status": "verified",
+        "address_source_url": "https://www.builtinsf.com/company/chai-discovery",
+        "address_source_label": "Built In San Francisco – Chai Discovery office",
+        "verified_date": "2026-08-10T01:00:00Z"
+      }
+    },
+    {
+      "company_id": "fathom",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-10T01:00:00Z"
+      }
+    },
+    {
+      "company_id": "generate-capital",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "560 Davis Street, Suite 250",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.7976042,
+        "longitude": -122.3982806,
+        "address_status": "verified",
+        "address_source_url": "https://www.builtinsf.com/company/generate-capital",
+        "address_source_label": "Built In San Francisco – Generate Capital office",
+        "verified_date": "2026-08-10T01:00:00Z"
+      }
+    },
+    {
+      "company_id": "kwh-analytics",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "609 Mission Street, Floor 2",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.7876846,
+        "longitude": -122.3997746,
+        "address_status": "verified",
+        "address_source_url": "https://www.zoominfo.com/pic/kwh-analytics/357360656",
+        "address_source_label": "ZoomInfo – kWh Analytics company profile",
+        "verified_date": "2026-08-10T01:00:00Z"
+      }
+    },
+    {
+      "company_id": "lightfield",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "600 Townsend Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.7717008,
+        "longitude": -122.4025701,
+        "address_status": "verified",
+        "address_source_url": "https://www.builtinsf.com/company/lightfield",
+        "address_source_label": "Built In San Francisco – Lightfield office",
+        "verified_date": "2026-08-10T01:00:00Z"
+      }
+    },
+    {
+      "company_id": "literably",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "364 Utah Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.764963,
+        "longitude": -122.4065812,
+        "address_status": "verified",
+        "address_source_url": "https://leadiq.com/c/literably/5d1dcf812000003a00affd60",
+        "address_source_label": "LeadIQ – Literably company profile",
+        "verified_date": "2026-08-10T01:00:00Z"
+      }
+    },
+    {
+      "company_id": "llamaindex",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "325 5th Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.7800788,
+        "longitude": -122.4027911,
+        "address_status": "verified",
+        "address_source_url": "https://www.bizprofile.net/ca/san-francisco/llamaindex-inc",
+        "address_source_label": "BizProfile – LlamaIndex Inc. California filing",
+        "verified_date": "2026-08-10T01:00:00Z"
+      }
+    },
+    {
+      "company_id": "lotus-health-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-10T01:00:00Z"
+      }
+    },
+    {
+      "company_id": "modern-health",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "450 Sansome Street, Floor 12",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94111",
+          "country": "US"
+        },
+        "latitude": 37.7946518,
+        "longitude": -122.401139,
+        "address_status": "verified",
+        "address_source_url": "https://www.chamberofcommerce.com/business-directory/california/san-francisco/corporate-office/2029734896-modern-health",
+        "address_source_label": "Chamber of Commerce – Modern Health San Francisco",
+        "verified_date": "2026-08-10T01:00:00Z"
+      }
+    }
+  ],
+  "issues": []
+}

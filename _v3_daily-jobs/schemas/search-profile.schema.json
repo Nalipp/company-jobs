@@ -1,0 +1,241 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://v3-daily-jobs.local/schemas/search-profile.schema.json",
+  "title": "V3 job search profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "profile_id",
+    "profile_name",
+    "description",
+    "hard_constraints"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "profile_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*-v[1-9][0-9]*$"
+    },
+    "profile_name": { "type": "string", "minLength": 1 },
+    "description": { "type": "string", "minLength": 1 },
+    "hard_constraints": { "$ref": "#/$defs/hardConstraints" }
+  },
+  "$defs": {
+    "nonEmptyUniqueStrings": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "hardConstraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "location",
+        "workplace",
+        "compensation",
+        "employment",
+        "role"
+      ],
+      "properties": {
+        "location": { "$ref": "#/$defs/location" },
+        "workplace": { "$ref": "#/$defs/workplace" },
+        "compensation": { "$ref": "#/$defs/compensation" },
+        "employment": { "$ref": "#/$defs/employment" },
+        "role": { "$ref": "#/$defs/role" }
+      }
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "city",
+        "region",
+        "country",
+        "broader_region_only_is_eligible"
+      ],
+      "properties": {
+        "mode": { "const": "city" },
+        "city": { "type": "string", "minLength": 1 },
+        "region": { "type": "string", "minLength": 1 },
+        "country": { "type": "string", "minLength": 2 },
+        "broader_region_only_is_eligible": { "const": false }
+      }
+    },
+    "workplace": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["allowed_arrangements", "unknown_policy"],
+      "properties": {
+        "allowed_arrangements": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "enum": ["remote", "hybrid", "on-site"] }
+        },
+        "unknown_policy": { "enum": ["include", "exclude"] }
+      }
+    },
+    "compensation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "threshold",
+        "comparison",
+        "currency",
+        "basis",
+        "period",
+        "unknown_policy"
+      ],
+      "properties": {
+        "threshold": { "type": "number", "minimum": 0 },
+        "comparison": {
+          "enum": [
+            "published_maximum_at_least",
+            "published_minimum_at_least",
+            "published_range_contains"
+          ]
+        },
+        "currency": { "type": "string", "pattern": "^[A-Z]{3}$" },
+        "basis": { "enum": ["base", "total"] },
+        "period": { "enum": ["hour", "month", "year"] },
+        "unknown_policy": { "enum": ["include", "exclude"] }
+      }
+    },
+    "employment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "allowed_types",
+        "explicitly_disallowed_types",
+        "missing_type_policy"
+      ],
+      "properties": {
+        "allowed_types": { "$ref": "#/$defs/nonEmptyUniqueStrings" },
+        "explicitly_disallowed_types": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "missing_type_policy": {
+          "enum": ["assume_full_time", "include", "exclude"]
+        }
+      }
+    },
+    "role": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title_policy",
+        "primary_titles",
+        "adjacent_titles",
+        "role_families",
+        "excluded_titles",
+        "role_fit_policy",
+        "seniority",
+        "ai_involvement"
+      ],
+      "properties": {
+        "title_policy": { "enum": ["required_match", "signal_only"] },
+        "primary_titles": { "$ref": "#/$defs/nonEmptyUniqueStrings" },
+        "adjacent_titles": { "$ref": "#/$defs/nonEmptyUniqueStrings" },
+        "role_families": { "$ref": "#/$defs/nonEmptyUniqueStrings" },
+        "excluded_titles": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "role_fit_policy": {
+          "enum": ["title_only", "title_or_responsibilities", "responsibilities_only"]
+        },
+        "seniority": { "$ref": "#/$defs/seniority" },
+        "ai_involvement": { "$ref": "#/$defs/aiInvolvement" }
+      }
+    },
+    "seniority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "collection_required",
+        "eligibility_policy",
+        "allowed_levels",
+        "excluded_levels",
+        "unknown_policy"
+      ],
+      "properties": {
+        "collection_required": { "type": "boolean" },
+        "eligibility_policy": { "enum": ["informational", "allow_only", "exclude_only"] },
+        "allowed_levels": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "entry-level",
+              "mid-level",
+              "senior",
+              "staff",
+              "principal",
+              "lead",
+              "manager",
+              "director",
+              "executive"
+            ]
+          }
+        },
+        "excluded_levels": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "entry-level",
+              "mid-level",
+              "senior",
+              "staff",
+              "principal",
+              "lead",
+              "manager",
+              "director",
+              "executive"
+            ]
+          }
+        },
+        "unknown_policy": { "enum": ["include", "exclude"] }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "eligibility_policy": { "const": "allow_only" } },
+            "required": ["eligibility_policy"]
+          },
+          "then": {
+            "properties": { "allowed_levels": { "minItems": 1 } }
+          }
+        }
+      ]
+    },
+    "aiInvolvement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "required",
+        "evidence_scope",
+        "minimum_evidence",
+        "employer_ai_focus_alone_is_sufficient",
+        "unknown_policy",
+        "signals"
+      ],
+      "properties": {
+        "required": { "type": "boolean" },
+        "evidence_scope": { "enum": ["official_job_posting"] },
+        "minimum_evidence": {
+          "enum": ["mention", "role_relevant_indication", "core_responsibility"]
+        },
+        "employer_ai_focus_alone_is_sufficient": { "type": "boolean" },
+        "unknown_policy": { "enum": ["include", "exclude"] },
+        "signals": { "$ref": "#/$defs/nonEmptyUniqueStrings" }
+      }
+    }
+  }
+}

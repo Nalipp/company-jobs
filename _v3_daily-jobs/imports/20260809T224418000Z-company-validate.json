@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-09T22:44:18Z",
+  "changes": [
+    {
+      "company_id": "confident-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "33 8th Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.778239,
+        "longitude": -122.413237,
+        "address_status": "verified",
+        "address_source_url": "https://www.confident-ai.com/terms",
+        "address_source_label": "Confident AI official terms",
+        "verified_date": "2026-08-09T22:44:18Z"
+      }
+    },
+    {
+      "company_id": "edison-scientific",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "1405 Minnesota Street",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.76292,
+        "longitude": -122.39087,
+        "address_status": "verified",
+        "address_source_url": "https://www.sec.gov/Archives/edgar/data/2100117/000210011725000001/xslFormDX01/primary_doc.xml",
+        "address_source_label": "SEC Form D principal place of business",
+        "verified_date": "2026-08-09T22:44:18Z"
+      }
+    },
+    {
+      "company_id": "eloquent-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-09T22:44:18Z"
+      }
+    },
+    {
+      "company_id": "f2-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-09T22:44:18Z"
+      }
+    },
+    {
+      "company_id": "floot",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-09T22:44:18Z"
+      }
+    },
+    {
+      "company_id": "gem",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "525 Market Street, 6th Floor",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94105",
+          "country": "US"
+        },
+        "latitude": 37.790554,
+        "longitude": -122.399421,
+        "address_status": "verified",
+        "address_source_url": "https://www.gem.com/contact",
+        "address_source_label": "Gem official contact page",
+        "verified_date": "2026-08-09T22:44:18Z"
+      }
+    },
+    {
+      "company_id": "harvey-ai",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "201 3rd Street, Suite 500",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.78508,
+        "longitude": -122.39987,
+        "address_status": "verified",
+        "address_source_url": "https://www.harvey.ai/legal/privacy-policy",
+        "address_source_label": "Harvey official privacy policy",
+        "verified_date": "2026-08-09T22:44:18Z"
+      }
+    },
+    {
+      "company_id": "hex",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "2261 Market Street, #4233",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94114",
+          "country": "US"
+        },
+        "latitude": 37.764948,
+        "longitude": -122.431939,
+        "address_status": "verified",
+        "address_source_url": "https://learn.hex.tech/docs/legal/hex-service-agreement",
+        "address_source_label": "Hex official service agreement",
+        "verified_date": "2026-08-09T22:44:18Z"
+      }
+    },
+    {
+      "company_id": "klarity",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-09T22:44:18Z"
+      }
+    },
+    {
+      "company_id": "litellm",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-09T22:44:18Z"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "code": "no_credible_physical_office",
+      "company_id": "eloquent-ai",
+      "subject": "Eloquent AI",
+      "source_url": "https://eloquentai.co/careers",
+      "details": "Sources confirm San Francisco presence but did not provide a credible current street address for a physical office."
+    },
+    {
+      "code": "outside_sf_or_no_sf_office",
+      "company_id": "f2-ai",
+      "subject": "F2",
+      "source_url": "https://f2.ai/privacy",
+      "details": "The official privacy notice identifies New York as headquarters; no credible San Francisco physical office was found."
+    },
+    {
+      "code": "ambiguous_or_virtual_address",
+      "company_id": "floot",
+      "subject": "Floot",
+      "source_url": "https://www.linkedin.com/company/floothq",
+      "details": "The only street-level lead was a unit-style address without credible evidence of a current company office."
+    },
+    {
+      "code": "no_company_address_association",
+      "company_id": "klarity",
+      "subject": "Klarity",
+      "source_url": "https://www.klaritylaw.com/",
+      "details": "The supplied 425 Bush Street address could not be tied to Klarity by a credible source."
+    },
+    {
+      "code": "ambiguous_or_virtual_address",
+      "company_id": "litellm",
+      "subject": "LiteLLM",
+      "source_url": "https://www.linkedin.com/company/litellm",
+      "details": "The listed 1730 Jones Street location appears residential and was not confirmed as a current physical company office."
+    }
+  ]
+}

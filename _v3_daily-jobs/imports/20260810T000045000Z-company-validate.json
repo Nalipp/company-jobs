@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "operation": "company-validate",
+  "created_at": "2026-08-10T00:00:45Z",
+  "changes": [
+    {
+      "company_id": "roboflow",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-10T00:00:45Z"
+      }
+    },
+    {
+      "company_id": "san-francisco-marin-food-bank",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "900 Pennsylvania Avenue",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94107",
+          "country": "US"
+        },
+        "latitude": 37.7543975,
+        "longitude": -122.3935096,
+        "address_status": "verified",
+        "address_source_url": "https://www.sfmfoodbank.org/contact-us/",
+        "address_source_label": "San Francisco-Marin Food Bank official contact page",
+        "verified_date": "2026-08-10T00:00:45Z"
+      }
+    },
+    {
+      "company_id": "savant-systems",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "45 Perseverance Way",
+          "city": "Hyannis",
+          "region": "MA",
+          "postal_code": "02601",
+          "country": "US"
+        },
+        "latitude": 41.678040484748,
+        "longitude": -70.300218365295,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.savant.com/privacy-policy/",
+        "address_source_label": "Savant Systems official privacy policy",
+        "verified_date": "2026-08-10T00:00:45Z"
+      }
+    },
+    {
+      "company_id": "simform",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "111 North Orange Avenue, Suite 800",
+          "city": "Orlando",
+          "region": "FL",
+          "postal_code": "32801",
+          "country": "US"
+        },
+        "latitude": 28.5438004,
+        "longitude": -81.3787676,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.simform.com/areas-we-serve/",
+        "address_source_label": "Simform official areas-we-serve page",
+        "verified_date": "2026-08-10T00:00:45Z"
+      }
+    },
+    {
+      "company_id": "supermove",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-10T00:00:45Z"
+      }
+    },
+    {
+      "company_id": "tailor",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-10T00:00:45Z"
+      }
+    },
+    {
+      "company_id": "techstars",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "25 West 45th St., 15th Floor",
+          "city": "New York City",
+          "region": "NY",
+          "postal_code": "10036",
+          "country": "US"
+        },
+        "latitude": 40.75615,
+        "longitude": -73.9806911,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.linkedin.com/company/techstars",
+        "address_source_label": "Techstars LinkedIn company profile",
+        "verified_date": "2026-08-10T00:00:45Z"
+      }
+    },
+    {
+      "company_id": "the-nueva-school",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "6565 Skyline Boulevard",
+          "city": "Hillsborough",
+          "region": "CA",
+          "postal_code": "94010",
+          "country": "US"
+        },
+        "latitude": 37.5623255,
+        "longitude": -122.3806396,
+        "address_status": "outside_sf",
+        "address_source_url": "https://www.nuevaschool.org/contact-us",
+        "address_source_label": "The Nueva School official contact page",
+        "verified_date": "2026-08-10T00:00:45Z"
+      }
+    },
+    {
+      "company_id": "ujet-cx",
+      "expected_status": "pending",
+      "address_result": {
+        "address": {
+          "street": "201 3rd St, Suite 950",
+          "city": "San Francisco",
+          "region": "CA",
+          "postal_code": "94103",
+          "country": "US"
+        },
+        "latitude": 37.7850747,
+        "longitude": -122.3998734,
+        "address_status": "verified",
+        "address_source_url": "https://www.linkedin.com/company/ujetcx",
+        "address_source_label": "ujet.cx LinkedIn company profile",
+        "verified_date": "2026-08-10T00:00:45Z"
+      }
+    },
+    {
+      "company_id": "upbound",
+      "expected_status": "pending",
+      "address_result": {
+        "address": null,
+        "latitude": null,
+        "longitude": null,
+        "address_status": "not_found",
+        "address_source_url": null,
+        "address_source_label": null,
+        "verified_date": "2026-08-10T00:00:45Z"
+      }
+    }
+  ],
+  "issues": []
+}
