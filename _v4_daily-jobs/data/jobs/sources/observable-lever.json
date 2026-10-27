@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:10:43Z",
+      "attempt_id": "attempt:f0848fa6-1ed1-4c66-9057-464150847099",
+      "result_digest": "dc920bdd0ab7cf9c29db577013ceebca9325ce0ee4e792802aa85ecf15884295",
+      "task_id": "source:observable-lever:luna:5e56561f5a6ad904",
+      "transaction_id": "txn:dc920bdd0ab7cf9c29db5770"
+    }
+  ],
+  "company_id": "observable",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:10:38Z",
+  "last_successful_scan_at": "2026-08-31T15:10:38Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "observable-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

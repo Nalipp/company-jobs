@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:29:04Z",
+      "attempt_id": "attempt:9bcd4c4d-ed69-40c5-b7b1-c8cb3240a0a1",
+      "result_digest": "c3909d61f1264c66f8767ae67a47cebe1e7ee1809bd990ce3b11c1f76256234c",
+      "task_id": "source:tenjin-ashby:luna:8200f3e51e2d7455",
+      "transaction_id": "txn:c3909d61f1264c66f8767ae6"
+    }
+  ],
+  "company_id": "tenjin",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:29:00Z",
+  "last_successful_scan_at": "2026-08-31T15:29:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "tenjin-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

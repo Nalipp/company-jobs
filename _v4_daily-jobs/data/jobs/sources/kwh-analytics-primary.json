@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:53:04Z",
+      "attempt_id": "attempt:c62eb40a-b0b9-4c12-b4cf-a400d22b7fbd",
+      "result_digest": "041ed02fd9714bb035cdf9072dc4169e3d23fd27a93913dab16c467e06522114",
+      "task_id": "source:kwh-analytics-primary:luna:f6c988a0efaeb8a5",
+      "transaction_id": "txn:041ed02fd9714bb035cdf907"
+    }
+  ],
+  "company_id": "kwh-analytics",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:54:00Z",
+  "last_successful_scan_at": "2026-08-31T21:54:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "kwh-analytics-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

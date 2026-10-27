@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:14:33Z",
+      "attempt_id": "attempt:e924a232-100f-4cf6-a2e3-b85afe71dbf1",
+      "result_digest": "bafcbadc21f754ed0f604d8e45fe616be09322801329b66dbb1a520c8e4521b3",
+      "task_id": "source:elastic-primary:luna:7ce2af4f53348920",
+      "transaction_id": "txn:bafcbadc21f754ed0f604d8e"
+    }
+  ],
+  "company_id": "elastic",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:55:00Z",
+  "last_successful_scan_at": "2026-08-31T21:55:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "role_or_compensation_mismatch": 26
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "elastic-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

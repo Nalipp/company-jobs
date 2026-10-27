@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:18:43Z",
+      "attempt_id": "attempt:ac878572-ba7a-4968-9dbe-41de74ba9e55",
+      "result_digest": "971021216f4715150cb61b5002c36cd7e9f332f8d7094abc50cd7c25921249c4",
+      "task_id": "source:quizlet-primary:luna:90e0b4fc34d55705",
+      "transaction_id": "txn:971021216f4715150cb61b50"
+    }
+  ],
+  "company_id": "quizlet",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:18:39Z",
+  "last_successful_scan_at": "2026-08-31T15:18:39Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "quizlet-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

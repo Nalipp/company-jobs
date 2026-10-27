@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:15:55Z",
+      "attempt_id": "attempt:1ccfb05e-f2a9-4e46-b33f-c827f4bec042",
+      "result_digest": "6d034e0c8200a948b5a09d467f514fc11e95607a2284771fb79763ae4c9e0aa7",
+      "task_id": "source:pilot-primary:luna:8c24718aa2f7dd41",
+      "transaction_id": "txn:6d034e0c8200a948b5a09d46"
+    }
+  ],
+  "company_id": "pilot",
+  "current_job_count": 12,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:15:42Z",
+  "last_successful_scan_at": "2026-08-31T15:15:42Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 7,
+    "location_outside_target_city": 3,
+    "title_explicitly_non_target_function": 4,
+    "total": 12
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "pilot-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

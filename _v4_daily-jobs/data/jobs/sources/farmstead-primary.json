@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:19:40Z",
+      "attempt_id": "attempt:ec8ee5c0-674c-4188-9958-3b8c80af1689",
+      "result_digest": "5e92de5c6cbc089b2db3440b65350f610e4f6f5de2ebc59a396f21ca8b1bb73c",
+      "task_id": "source:farmstead-primary:luna:0b9b4b5389293d35",
+      "transaction_id": "txn:5e92de5c6cbc089b2db3440b"
+    }
+  ],
+  "company_id": "farmstead",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:48:00Z",
+  "last_successful_scan_at": "2026-08-31T22:48:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "role_or_location_or_compensation_mismatch": 8
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "farmstead-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:28:58Z",
+      "attempt_id": "attempt:25d7da1a-9634-4140-aae0-4a9c5bb098c8",
+      "result_digest": "d1c5c7d54b09ccaec977d5d02bb415d9defd6606c417321b330146a504b0d6c4",
+      "task_id": "source:raindrop-primary:luna:d0853d00a01cd5e1",
+      "transaction_id": "txn:d1c5c7d54b09ccaec977d5d0"
+    }
+  ],
+  "company_id": "raindrop",
+  "current_job_count": 9,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:28:17Z",
+  "last_successful_scan_at": "2026-08-31T22:28:17Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ycombinator",
+  "rejection_counts": {
+    "compensation_below_or_unknown": 2,
+    "role_or_ai_evidence_insufficient": 7
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "raindrop-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:11:09Z",
+      "attempt_id": "attempt:8fc05a69-1356-4f93-8c21-992637315086",
+      "result_digest": "7a27edf49989f6a1612b130266c9b8979dda1962a08fb97a649340279b54389d",
+      "task_id": "source:on-me-gifting-ashby:luna:dc8cba7000e6d21a",
+      "transaction_id": "txn:7a27edf49989f6a1612b1302"
+    }
+  ],
+  "company_id": "on-me-gifting",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:11:03Z",
+  "last_successful_scan_at": "2026-08-31T15:11:03Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 4,
+    "title_explicitly_non_target_function": 2,
+    "total": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "on-me-gifting-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

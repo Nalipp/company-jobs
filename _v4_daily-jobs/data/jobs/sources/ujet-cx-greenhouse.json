@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:30:58Z",
+      "attempt_id": "attempt:2d426d98-447f-4a3b-ba17-22c886090f11",
+      "result_digest": "2ef804829e1679f090adabc8c5e9b23f9339771d47ed8209a1766294c1bcf4c5",
+      "task_id": "source:ujet-cx-greenhouse:luna:b5158e2de6741e84",
+      "transaction_id": "txn:2ef804829e1679f090adabc8"
+    }
+  ],
+  "company_id": "ujet-cx",
+  "current_job_count": 9,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:30:48Z",
+  "last_successful_scan_at": "2026-08-31T15:30:48Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "location_outside_target_city": 8,
+    "total": 9
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "ujet-cx-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:splice-machine:luna:6d2059d589cef114",
+  "attempt_id": "attempt:d5b1e052-5b79-41ab-a990-b0f31b5d8d96",
+  "claim_token": "oJmRwNZJyXrsqdsYEtgqXw4CYwem2kZ4E-0ogI8MXOU",
+  "model": "luna",
+  "created_at": "2026-09-01T17:55:14Z",
+  "target": {"company_ids": ["splice-machine"], "source_ids": ["splice-machine-primary"]},
+  "outcome": "blocked",
+  "reason_code": "career_source_no_careers_found",
+  "evidence": [{"url": "https://splicemachine.com", "retrieved_at": "2026-09-01T17:55:35Z", "evidence_type": "official_company_page", "finding": "The saved official domain timed out during the retry; no current careers source could be verified."}],
+  "patch": {"company_id": "splice-machine", "expected_record_revision": 1, "company_changes": {}, "source_upserts": []},
+  "item_results": [{"item": "splice-machine-primary", "status": "blocked", "summary": "Official domain timed out again; retry at Luna without canonical changes."}],
+  "failure_class": "timeout",
+  "notes": "Access failure; do not escalate model."
+}

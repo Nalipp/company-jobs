@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T02:50:29Z",
+      "attempt_id": "attempt:7037bc82-a626-46a5-92e2-c360017d2fe1",
+      "result_digest": "db140510fe5710bd26b8aad3c7821f0416891994f064645ea4ce1abd230dcec0",
+      "task_id": "source:atlys-ashby:luna:5b83f514df740d59",
+      "transaction_id": "txn:db140510fe5710bd26b8aad3"
+    }
+  ],
+  "company_id": "atlys",
+  "current_job_count": 20,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T02:50:29Z",
+  "last_successful_scan_at": "2026-08-31T02:50:29Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "employment_internship_excluded": 6,
+    "location_outside_target_city": 19,
+    "total": 20,
+    "workplace_remote_excluded": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "atlys-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

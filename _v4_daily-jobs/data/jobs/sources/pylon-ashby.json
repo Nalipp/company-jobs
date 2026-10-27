@@ -1,0 +1,119 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:18:20Z",
+      "attempt_id": "attempt:3fb10063-cf7e-476a-9d45-272172c91117",
+      "result_digest": "637235eaebb011fd67a32614bea198b5c16c475f3a1ac97dab7107ae029ba259",
+      "task_id": "source:pylon-ashby:luna:329b46eb46b46e47",
+      "transaction_id": "txn:637235eaebb011fd67a32614"
+    }
+  ],
+  "company_id": "pylon",
+  "current_job_count": 21,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/pylon-labs/8d8264b7-8094-4a55-8991-7876796487ae",
+      "company_id": "pylon",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 280000,
+        "minimum": 180000,
+        "period": "year",
+        "source_text": "$180K - $280K"
+      },
+      "compensation_text": "$180K - $280K",
+      "department": "Engineering",
+      "description_text": "PYLON — THE AGENTIC SUPPORT PLATFORM PURPOSE-BUILT FOR B2B. Pylon is the only agentic support platform, purpose-built for B2B companies. For leaders scaling AI-native support teams, Pylon lets humans and agents collaborate on customer work – investigating, resolving, and acting on every signal across every channel that matters. Unlike platforms built before the AI era, Pylon enriches every interaction with deep account-level context, automates the low impact customer work, and surfaces answers before your team even has to ask. The result: faster responses, happier customers, and a system that continuously improves itself. We're backed by a16z, BCV, General Catalyst, and Y Combinator. More than 1,500 companies including Linear, Cognition (makers of Devin), Modal Labs, and Incident.io http://Incident.io run their support and customer success workflows on Pylon. We're also featured on the Enterprise Tech 30 List https://www.enterprisetech30.com/. WHAT YOU'LL DO - Build features so our customers in post-Sales roles (Customer Support & Customer Success) run their operations more efficiently by leveraging AI - Build prototypes, work independently, iterate quickly, and ship fast - Build the platforms that power Pylon's AI features - prompt executions, search infra, and more! - Improve LLM observability - AI evals (online and offline), scorers, and set up Pylon's AI for the next wave of scaling - Have high autonomy, own things end to end, and project manage your own work - Work with PMs, designers, and other engineers in a highly collaborative, non-waterfall way - Collaborate with a strong technical team of senior engineers from places like Samsara, Affinity, Airbnb, and Meta WHAT WE’RE LOOKING FOR - You have 3+ years building product features and a demonstration of strong full-stack fundamentals - You highly leverage AI for software development and can juggle multiple workstreams at the same time. - You’ve worked at startups previously and navigated ambiguous environments. - You have a strong product sense and are able to quickly translate customer requirements into technical decisions in our codebase. - You have a growth mindset, want to constantly improve, and want to receive feedback. - You're in SF or you're willing to relocate, you love working in-person, and you're serious about joining us to build a culture we will all love - (Bonus) You have experience with our tech stack (React, Golang, GraphQL, and AWS). - (Bonus) You have experience with building agentic products in production. OUR PERKS 🚆 Commuter benefits 🌱 Parental leave 🏝️ 14 company holidays + unlimited PTO 🗺️ Annual offsite 🍽 Lunch, dinner, and snacks at the office 🏋️ Fitness stipend MORE ABOUT PYLON Funding: Series B led by a16z and BCV ($51M total raised) Founders: Advith Chelikani https://www.linkedin.com/in/advith/, Robert Eng https://www.linkedin.com/in/robert-eng/, and Marty Kausas https://www.linkedin.com/in/martykausas Team: Currently 100+ and growing! Additional Job details The base salary range for this position is $180k - $280k annually. Compensation may vary outside of this range depending on a number of factors, including a candidate’s qualifications, skills, competencies and experience. Base pay is one part of the Total Package that is provided to compensate and recognize employees for their work at Pylon. This role is eligible for stock options, as well as a comprehensive benefits package.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:18:04Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:18:04Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-07-09T17:08:46Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "published USD annual base maximum $280,000",
+        "full-time product engineering role with job-specific AI work"
+      ],
+      "source_id": "pylon-ashby",
+      "source_job_id": "8d8264b7-8094-4a55-8991-7876796487ae",
+      "stable_id": "job-2bb4ae92463114cf4ae92a2f",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Software Engineer, AI",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/pylon-labs/3cc5cc5d-3ced-410a-82dd-fa1602d8d650",
+      "company_id": "pylon",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 280000,
+        "minimum": 180000,
+        "period": "year",
+        "source_text": "$180K - $280K"
+      },
+      "compensation_text": "$180K - $280K",
+      "department": "Engineering",
+      "description_text": "PYLON — THE AGENTIC SUPPORT PLATFORM PURPOSE-BUILT FOR B2B. Pylon is the only agentic support platform, purpose-built for B2B companies. For leaders scaling AI-native support teams, Pylon lets humans and agents collaborate on customer work – investigating, resolving, and acting on every signal across every channel that matters. Unlike platforms built before the AI era, Pylon enriches every interaction with deep account-level context, automates the low impact customer work, and surfaces answers before your team even has to ask. The result: faster responses, happier customers, and a system that continuously improves itself. We're backed by a16z, BCV, General Catalyst, and Y Combinator. More than 1,500 companies including Linear, Cognition (makers of Devin), Modal Labs, and Incident.io http://Incident.io run their support and customer success workflows on Pylon. We're also featured on the Enterprise Tech 30 List https://www.enterprisetech30.com/. WHAT YOU'LL DO - Build features so our customers in post-Sales roles (Customer Support & Customer Success) run their operations more efficiently by leveraging AI - Build prototypes, work independently, iterate quickly, and ship fast - Have high autonomy, own things end to end, and project manage your own work - Work with PMs, designers, and other engineers in a highly collaborative, non-waterfall way - Collaborate with a strong technical team of senior engineers from places like Samsara, Affinity, Airbnb, and Meta WHAT WE’RE LOOKING FOR - You have 3+ years building product features and a demonstration of strong full-stack fundamentals - You highly leverage AI for software development and can juggle multiple workstreams at the same time. - You’ve worked at startups previously and navigated ambiguous environments. - You have a strong product sense and are able to quickly translate customer requirements into technical decisions in our codebase. - You have a growth mindset, want to constantly improve, and want to receive feedback. - You're in SF or you're willing to relocate, you love working in-person, and you're serious about joining us to build a culture we'll all love - (Bonus) You have experience with our tech stack (React, Golang, GraphQL, and AWS). - (Bonus) You have experience with building agentic products in production. OUR PERKS 🚆 Commuter benefits 🌱 Parental leave 🏝️ 14 company holidays + unlimited PTO 🗺️ Annual offsite 🍽 Lunch, dinner, and snacks at the office 🏋️ Fitness stipend MORE ABOUT PYLON Funding: Series B led by a16z and BCV ($51M total raised) Founders: Advith Chelikani https://www.linkedin.com/in/advith/, Robert Eng https://www.linkedin.com/in/robert-eng/, and Marty Kausas https://www.linkedin.com/in/martykausas Team: Currently 100+ and growing! Additional Job details The base salary range for this position is $180k - $280k annually. Compensation may vary outside of this range depending on a number of factors, including a candidate’s qualifications, skills, competencies and experience. Base pay is one part of the Total Package that is provided to compensate and recognize employees for their work at Pylon. This role is eligible for stock options, as well as a comprehensive benefits package.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:18:04Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:18:04Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-07-09T16:51:01Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "published USD annual base maximum $280,000",
+        "full-time product engineering role with job-specific AI work"
+      ],
+      "source_id": "pylon-ashby",
+      "source_job_id": "3cc5cc5d-3ced-410a-82dd-fa1602d8d650",
+      "stable_id": "job-4f4dd6568322b2c4ee4ea644",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Software Engineer, Product",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:18:04Z",
+  "last_successful_scan_at": "2026-08-31T15:18:04Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 5,
+    "compensation_currency_mismatch": 1,
+    "location_outside_target_city": 3,
+    "semantic_review_rejected": 7,
+    "title_explicitly_non_target_function": 9,
+    "total": 21
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "pylon-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

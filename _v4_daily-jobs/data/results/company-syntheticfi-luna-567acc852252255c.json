@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:syntheticfi:luna:567acc852252255c",
+  "attempt_id": "attempt:b3553e55-6e15-4348-bcfa-5c897ba0622b",
+  "claim_token": "6W0EfSZutUV1zBeiTqPbC2-HsMyXBwchKnyvYrafwyU",
+  "model": "luna",
+  "created_at": "2026-09-01T18:00:00Z",
+  "target": {"company_ids": ["syntheticfi"], "source_ids": ["syntheticfi-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [{"url": "https://www.syntheticfi.com/about-us", "retrieved_at": "2026-09-01T18:00:30Z", "evidence_type": "official_company_page", "finding": "The current official SyntheticFi site identifies its securities-backed lending business and provides company information, but no current employer-controlled careers or job-listing destination was found."}],
+  "patch": {"company_id": "syntheticfi", "expected_record_revision": 1, "company_changes": {}, "source_upserts": [{
+    "source_id": "syntheticfi-primary", "company_id": "syntheticfi", "expected_record_revision": 1, "careers_url": null, "listings_url": null, "provider": "unknown", "board_id": null, "access_mode": null, "scope": "All SyntheticFi roles", "instructions": "A bounded search found no employer-controlled careers destination; recheck the official site before the next source refresh.", "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false}, "status": "no_careers_found", "official_relationship_url": "https://www.syntheticfi.com/about-us", "checked_at": "2026-09-01T18:00:30Z", "last_success_at": null, "added_date": "2026-08-28T22:59:54Z", "updated_date": "2026-09-01T18:00:30Z"
+  }]},
+  "item_results": [{"item": "syntheticfi-primary", "status": "resolved", "summary": "Official site rechecked; no employer-controlled careers source found."}],
+  "failure_class": null,
+  "notes": "No canonical company identity or address change supported."
+}

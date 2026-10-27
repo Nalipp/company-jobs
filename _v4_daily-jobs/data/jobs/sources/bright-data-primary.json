@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:18:18Z",
+      "attempt_id": "attempt:47ae7c7f-111f-4b1b-ae4f-fed421a2992c",
+      "result_digest": "de0e088443c3f8cf41fb083bfd2648334a1f83564198a33afc6ae581a5dcac47",
+      "task_id": "source:bright-data-primary:luna:b0559e770100120a",
+      "transaction_id": "txn:de0e088443c3f8cf41fb083b"
+    }
+  ],
+  "company_id": "bright-data",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:30:00Z",
+  "last_successful_scan_at": "2026-08-31T22:30:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "role_fit": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "bright-data-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": [
+    "Non-engineering San Francisco roles were excluded deterministically by title/category."
+  ]
+}

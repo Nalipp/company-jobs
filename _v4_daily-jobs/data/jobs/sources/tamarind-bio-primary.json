@@ -1,0 +1,67 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:32:33Z",
+      "attempt_id": "attempt:d2b7bfd3-271b-4f16-ae43-2cbc373be866",
+      "result_digest": "5416886efc57bc74f98051de36baee7bd5972c7aa7947165af2d94b858cd7e81",
+      "task_id": "source:tamarind-bio-primary:luna:4710aefc3a38fb8e",
+      "transaction_id": "txn:5416886efc57bc74f98051de"
+    }
+  ],
+  "company_id": "tamarind-bio",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://www.ycombinator.com/companies/tamarind-bio/jobs/OEkMxsJ-software-engineer",
+      "company_id": "tamarind-bio",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 250000,
+        "minimum": 150000,
+        "period": "year",
+        "source_text": "$150K - $250K"
+      },
+      "compensation_text": "$150K-$250K",
+      "department": "Engineering",
+      "description_text": "Full-stack software engineer building infrastructure, APIs and web interface for AI-powered computational biology and ML inference products.",
+      "employment_text": "Full-time",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-09-01T03:05:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-09-01T03:05:00Z",
+      "locations": [
+        "San Francisco, CA, US"
+      ],
+      "posted_at": null,
+      "provider": "ycombinator",
+      "qualification_status": "qualifying",
+      "semantic_evidence": "Official detail confirms San Francisco full-time full-stack engineering, AI/ML model and inference work, and published $250,000 annual maximum.",
+      "source_id": "tamarind-bio-primary",
+      "source_job_id": "OEkMxsJ-software-engineer",
+      "stable_id": "job-ceba453db9ed1f0c258e0415",
+      "status": "active",
+      "team": "Full stack",
+      "title": "Software Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "SF Bay Area; office-based collaboration"
+    }
+  ],
+  "last_attempt_at": "2026-09-01T03:05:00Z",
+  "last_successful_scan_at": "2026-09-01T03:05:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ycombinator",
+  "rejection_counts": {
+    "compensation_below_threshold": 3,
+    "role_not_product_engineering": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "tamarind-bio-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

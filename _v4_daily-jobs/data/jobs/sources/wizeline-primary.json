@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:52:59Z",
+      "attempt_id": "attempt:bab1c7b1-67eb-473d-88ce-76d1cd7e293c",
+      "result_digest": "ea6a1498db441aff665b22209c4cda99cfa972b2a51072beac9e9320da223001",
+      "task_id": "source:wizeline-primary:luna:1d4f5ad6e51470e0",
+      "transaction_id": "txn:ea6a1498db441aff665b2220"
+    }
+  ],
+  "company_id": "wizeline",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T03:00:00Z",
+  "last_successful_scan_at": "2026-09-01T03:00:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "wizeline-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

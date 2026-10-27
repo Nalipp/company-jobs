@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:04:29Z",
+      "attempt_id": "attempt:e3205e0e-b71b-4611-93e5-fed5c86280a0",
+      "result_digest": "79e71e5d75f9f6c65c0ad13b88d675496cd3813aff108caeb2e01b1140f4dc8d",
+      "task_id": "source:mesh-connect-primary:luna:d0261f2d1af543b1",
+      "transaction_id": "txn:79e71e5d75f9f6c65c0ad13b"
+    }
+  ],
+  "company_id": "mesh-connect",
+  "current_job_count": 20,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:04:17Z",
+  "last_successful_scan_at": "2026-08-31T15:04:17Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 5,
+    "location_outside_target_city": 9,
+    "title_explicitly_non_target_function": 9,
+    "total": 20
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "mesh-connect-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

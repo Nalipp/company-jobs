@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:08:29Z",
+      "attempt_id": "attempt:10a7bf69-4f84-4eb9-84e0-265056124238",
+      "result_digest": "8f4630f24c7a4b227c50f103b9b40d21253a83ff92fb43f90b0455149b5301ad",
+      "task_id": "source:netic-primary:luna:0f549dc215796818",
+      "transaction_id": "txn:8f4630f24c7a4b227c50f103"
+    }
+  ],
+  "company_id": "netic",
+  "current_job_count": 29,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:08:07Z",
+  "last_successful_scan_at": "2026-08-31T15:08:07Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 22,
+    "title_explicitly_non_target_function": 7,
+    "total": 29
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "netic-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T03:44:01Z",
+      "attempt_id": "attempt:9fce8c61-f83c-4368-9ef0-1e848ac52461",
+      "result_digest": "bc4e7cdbc1e43d44aa1c8777636f7673575d015d0a2cc590711cd70b5f934a75",
+      "task_id": "source:manicule-primary:terra:26bbb0cf3eeaab9a",
+      "transaction_id": "txn:bc4e7cdbc1e43d44aa1c8777"
+    }
+  ],
+  "company_id": "manicule",
+  "current_job_count": 7,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T03:46:00Z",
+  "last_successful_scan_at": "2026-09-01T03:46:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ycombinator",
+  "rejection_counts": {
+    "compensation_basis_not_published": 1,
+    "employment_type_disallowed": 1,
+    "role_not_target": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "manicule-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

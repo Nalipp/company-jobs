@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:15:00Z",
+      "attempt_id": "attempt:9bc2e039-f056-4a40-b09e-15819b73d68f",
+      "result_digest": "38f78e9fdef206a72a7e47ea58974133f0416cdb837d4b0b8f0e74acf4448a79",
+      "task_id": "source:phantom-ashby:luna:9426ccf5791db3a4",
+      "transaction_id": "txn:38f78e9fdef206a72a7e47ea"
+    }
+  ],
+  "company_id": "phantom",
+  "current_job_count": 15,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:14:56Z",
+  "last_successful_scan_at": "2026-08-31T15:14:56Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "title_explicitly_non_target_function": 2,
+    "total": 15,
+    "workplace_remote_excluded": 15
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "phantom-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

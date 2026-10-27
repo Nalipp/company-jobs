@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:16:53Z",
+      "attempt_id": "attempt:718d5b5a-59f3-4d01-b181-a84a271c7fae",
+      "result_digest": "79321ba157203ecee1ebc7ec5e0b938df42b4918bbd5cc3f706b4e587757e2fd",
+      "task_id": "source:niantic-primary:luna:bc758f3496ad81b8",
+      "transaction_id": "txn:79321ba157203ecee1ebc7ec"
+    }
+  ],
+  "company_id": "niantic",
+  "current_job_count": 48,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:15:57Z",
+  "last_successful_scan_at": "2026-08-31T22:15:57Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "ai_involvement_not_evidenced": 10,
+    "compensation_below_threshold": 1,
+    "location_mismatch": 20,
+    "role_or_employment_mismatch": 15
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "niantic-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

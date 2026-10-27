@@ -1,0 +1,77 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:02:08Z",
+      "attempt_id": "attempt:243be1ee-39f1-4d81-96c5-58e2f19634a1",
+      "result_digest": "87f07acd33103cff94edca060245d8ee1345545738f2220b01eb006885b45130",
+      "task_id": "source:delphi-primary:luna:3e99f673ee35a5c6",
+      "transaction_id": "txn:87f07acd33103cff94edca06"
+    }
+  ],
+  "company_id": "delphi",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/delphi/81a220c3-1338-426f-ba34-5d77753add24",
+      "company_id": "delphi",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 225000,
+        "minimum": 175000,
+        "period": "year",
+        "source_text": "$175K - $225K"
+      },
+      "compensation_text": "$175K - $225K",
+      "department": "Engineering",
+      "description_text": "WHY DELPHI? Delphi is building the network of digital minds. For the first time, anyone can create an interactive version of themselves: a living profile that talks, teaches, and answers questions in your voice, with your perspective and judgment, around the clock. The internet gave us static profiles and endless feeds. We're building something alive. People won't just read about you, they'll experience how you think. This is the consumer shift we're betting on. Today it's thousands of the world's most brilliant minds. Next it's everyone: every thought leader, expert, and professional with a digital mind that scales their wisdom to anyone, anywhere. A new social layer where knowledge is abundant, personalized, and discoverable. We are trusted and loved by thousands of the world’s most brilliant minds. We have tripled revenue, users, and Delphi interactions in the past 6 months - all organically through word of mouth. We plan to accelerate even further from here. Delphi’s investors include Sequoia Capital, Founders Fund, Abstract Ventures, Michael Ovitz, Gokul Rajaram, Olivia Wilde, and dozens of founders from Lyft, Zoom, Doordash, and many more. Our team includes founders with successful exits and builders from Apple, Spotify, Substack and more. Learn more about Delphi and this position by calling the CEO’s digital mind here https://www.delphi.ai/dara/call WHO YOU ARE - Code-first builder with exceptional design taste - You're a front-end engineer who happens to have a great eye for design. You can debate the merits of Server Components vs Client Components as easily as you can critique visual hierarchy. - Master of the modern web stack - React, Next.js, TypeScript, and Tailwind aren't just tools you use—they're tools you've mastered. You know the performance implications of your choices and write code that's both beautiful and fast. - Obsessive about craft and details - You notice when animations feel off by 50ms, when a loading state causes layout shift, or when a color doesn't meet WCAG standards. You fix these things without being asked. - Full-stack front-end engineer - Comfortable working across the entire front-end stack, from API integration and state management to responsive layouts and micro-interactions. Bonus if you can jump into Python backends when needed. - Owner, not executor - You prototype quickly, gather feedback, iterate fast, and ship confidently. You take features from zero to production and own the outcomes. - Product-minded engineer - You push back on designs that don't serve users, suggest improvements to the product direction, and think deeply about user flows. You build with empathy and intention. - Comfortable in ambiguity - You thrive when the problem space is undefined. You're energized by questions like \"how should people discover Delphi's?\" rather than paralyzed by them. WHAT YOU'LL DO - Build the core interfaces of Delphi Studio - Own and ship the primary user-facing features: creation flows, customization tools, and interaction patterns. You'll write the React components, build the APIs integrations, and polish every detail. - Create a discovery platform for digital minds - Design and implement the browsing experience, search functionality, filtering systems, and recommendation interfaces. Make exploring thousands of AI personas feel effortless and delightful. - Architect scalable front-end systems - Build reusable component libraries, establish patterns for state management, optimize bundle sizes, and ensure the app performs beautifully at scale. - Translate AI complexity into simple UX - Work directly with product and backend engineers to understand AI capabilities, then build interfaces that expose the power while hiding the complexity. - Set the standard for quality - Your code will be the example others follow. Write clean TypeScript, build accessible components, implement smooth animations, and establish the bar for what \"production-ready\" means. - Collaborate across disciplines - Partner closely with designers to refine mockups and improve interactions. Work with backend engineers to define API contracts. Sync with product to shape roadmap priorities. WHY YOU'LL LOVE IT HERE We work on hard problems. Our team is full of former founders, and entrepreneurial individuals who are taking on immense initiatives. We push each other. Work from our beautiful Jackson Square office in San Francisco, surrounded by peers pushing to do their best work. Benefits - Unlimited Learning Stipend: Whether it’s books, courses, or conferences, we want to support your growth and development. The more you learn and improve your craft the more effective we will be together. - Health, Dental, Vision: Comprehensive coverage to keep to take care of your health. - 401k covered by Human Interest. - Housing Stipend. - Relocation support to SF (as needed) If you’re looking for just a job, Delphi isn’t the right fit. But if you want to shape the future of human connection, scale wisdom for billions, and build something that will outlast us all - you’ll feel at home here.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T04:01:28Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T04:01:28Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-01-05T20:29:32Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "full-time employment",
+        "published USD annual base maximum $225,000",
+        "front-end/product engineering responsibilities",
+        "posting explicitly describes AI-persona product interfaces"
+      ],
+      "source_id": "delphi-primary",
+      "source_job_id": "81a220c3-1338-426f-ba34-5d77753add24",
+      "stable_id": "job-bf36e1459bc7be1f88724d3a",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Design Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T04:01:28Z",
+  "last_successful_scan_at": "2026-08-31T04:01:28Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 3,
+    "title_explicitly_non_target_function": 3,
+    "total": 5,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "delphi-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

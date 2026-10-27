@@ -1,0 +1,90 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:24:49Z",
+      "attempt_id": "attempt:939a6c79-4cca-49e7-b737-24573f4296bd",
+      "result_digest": "7da82f4f70509979e4a6caff447b00a199ab87d969008d8b53f8539dcf3ede55",
+      "task_id": "source:furtherai-primary:luna:0d707949b7213ebe",
+      "transaction_id": "txn:7da82f4f70509979e4a6caff"
+    }
+  ],
+  "company_id": "furtherai",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://www.ycombinator.com/companies/furtherai/jobs/zrN2j29-frontend-engineer-web",
+      "company_id": "furtherai",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 210000,
+        "minimum": 120000,
+        "period": "year"
+      },
+      "compensation_text": "$120K - $210K",
+      "department": "Engineering, Frontend",
+      "description_text": "Build the core product and make it AI-native; React frontend systems for vertical AI agents.",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T23:25:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T23:25:00Z",
+      "locations": [
+        "San Francisco, CA, US"
+      ],
+      "provider": "custom",
+      "qualification_status": "qualifying",
+      "source_id": "furtherai-primary",
+      "source_job_id": "zrN2j29-frontend-engineer-web",
+      "stable_id": "job-587ef534a72e7d352ba0b092",
+      "status": "active",
+      "title": "Frontend Engineer - Web",
+      "workplace_arrangement": "on-site",
+      "workplace_text": "This is an in-person role based in San Francisco."
+    },
+    {
+      "canonical_url": "https://www.ycombinator.com/companies/furtherai/jobs/sGJen8v-senior-software-engineer-backend-fullstack",
+      "company_id": "furtherai",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 250000,
+        "minimum": 150000,
+        "period": "year"
+      },
+      "compensation_text": "$150,000 - $250,000",
+      "department": "Engineering, Backend",
+      "description_text": "Build the next generation of AI agents for insurance; exceptional software engineer shaping product and culture.",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T23:25:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T23:25:00Z",
+      "locations": [
+        "San Francisco, CA, US"
+      ],
+      "provider": "custom",
+      "qualification_status": "qualifying",
+      "source_id": "furtherai-primary",
+      "source_job_id": "sGJen8v-senior-software-engineer-backend-fullstack",
+      "stable_id": "job-c417d73120f550831b76ebde",
+      "status": "active",
+      "title": "Senior Software Engineer - Backend/Fullstack",
+      "workplace_arrangement": "on-site",
+      "workplace_text": "Based out of our San Francisco HQ; not eligible for full-time remote work."
+    }
+  ],
+  "last_attempt_at": "2026-08-31T23:25:00Z",
+  "last_successful_scan_at": "2026-08-31T23:25:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "location_or_compensation_or_role_mismatch": 12
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "furtherai-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

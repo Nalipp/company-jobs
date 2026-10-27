@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:06:39Z",
+      "attempt_id": "attempt:98ed6b37-af34-4175-915c-474315608031",
+      "result_digest": "21b6b0e65112f05bf8acbd5b61c557ea02d7c2933896bc18d7265b9baa3d67bc",
+      "task_id": "source:metal-trinethire:luna:9192741f93cae1a7",
+      "transaction_id": "txn:21b6b0e65112f05bf8acbd5b"
+    }
+  ],
+  "company_id": "metal",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T23:54:00Z",
+  "last_successful_scan_at": "2026-08-31T23:54:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "trinethire",
+  "rejection_counts": {
+    "compensation_maximum_below_threshold": 2,
+    "role_not_target": 2,
+    "workplace_remote": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "metal-trinethire",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

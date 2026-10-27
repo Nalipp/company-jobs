@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:12:38Z",
+      "attempt_id": "attempt:5c7d2872-12d9-409d-a19f-a5f4a27e2332",
+      "result_digest": "b663d31b2bd59d8bf5c78eaf52b3c1afe381a53b14357abea9596332f87b8a90",
+      "task_id": "source:atlassian-primary:luna:045b6006b9788da3",
+      "transaction_id": "txn:b663d31b2bd59d8bf5c78eaf"
+    }
+  ],
+  "company_id": "atlassian",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T20:45:00Z",
+  "last_successful_scan_at": "2026-08-31T20:45:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "ai_involvement_unknown": 1,
+    "compensation_maximum_below_threshold": 2,
+    "role_fit": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "atlassian-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": [
+    "Provider page reported 214 total results; only six San Francisco engineering candidates were retained after deterministic location/title screening."
+  ]
+}

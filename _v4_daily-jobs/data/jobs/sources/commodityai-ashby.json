@@ -1,0 +1,62 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:59:16Z",
+      "attempt_id": "attempt:3fb63b51-3189-49bc-adcd-fe10010a8b61",
+      "result_digest": "9450faccf6ce3b72fbb412bab28d921b438b21613142a67be945cf37bc8c2a7c",
+      "task_id": "source:commodityai-ashby:luna:0302bc7c125ef514",
+      "transaction_id": "txn:9450faccf6ce3b72fbb412ba"
+    }
+  ],
+  "company_id": "commodityai",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/CommodityAI/b6d8b529-6ab3-4587-86db-678f93bf30bd",
+      "company_id": "commodityai",
+      "compensation": null,
+      "compensation_text": null,
+      "department": "Engineering",
+      "description_text": "We are looking for a Forward Deployed Engineer with 3+ years of experience to own the end-to-end technical deployment of CommodityAI's product with customers—from sales handoff through stable production. You'll be the first FDE hire at a YC-backed AI startup growing 3x in 6 months, acting as the technical PM, onboarding lead, and customer champion all in one. WHY CANDIDATES SHOULD JOIN - YC-backed with real traction: CommodityAI is backed by Y Combinator and Rebel Fund and just crossed $2M ARR with 3x growth in 6 months. The sales pipeline is outpacing the team's ability to build and onboard. - First FDE hire with serious ownership: You'll be among the first 10 employees and directly shape how deployments get built and scaled. This isn't a support role—you own the full customer journey from sales handoff to stable production. - Compelling compensation and early-stage equity: $150K–$250K base with 0.25%–0.75% equity at a pre-seed company that's already generating real revenue. - Founded by operators who live the problem: The CEO is a former sugar trader with 10 years of experience. The team isn't guessing at customer pain—they've lived it firsthand. - A rare AI opportunity in an underserved industry: Commodities is one of the most operationally complex industries in the world and is massively underserved by modern software. You're not building another SaaS dashboard—you're automating global trade. WHAT YOU'LL BE DOING - Own the full customer onboarding lifecycle, taking customers from sales handoff to live production within the first weeks of a three-month paid pilot. - Act as the technical PM for each customer: bridge engineering and customer stakeholders, manage timelines, and keep deployments unblocked. - Configure and tune AI agents and automation workflows to fit each customer's operational data and logic. - Build internal and external tooling to help future FDEs and customers onboard faster and more independently. - Lead customer calls—including kickoffs, progress updates, and training—across SMB, mid-market, and enterprise accounts, with up to 30% travel for enterprise customers globally. KEY REQUIREMENTS - 3–7 years of experience in forward deployed engineering, solutions engineering, implementation engineering, or another customer-facing technical deployment role. - Experience at an early-stage startup owning the full customer deployment lifecycle: onboarding, project management, and technical implementation. - Strong project management skills, with a demonstrated ability to juggle multiple concurrent customer deployments without dropping balls. - Deeply embedded in AI tools and agents in your day-to-day work. You should be actively automating your own workflows and building tooling, not just aware of the space. - Technically credible: able to read, write, and troubleshoot basic Python or TypeScript and understand APIs and data flows. - Comfortable translating messy real-world workflows into automations and working directly with non-technical end users. - Demonstrated interest or experience in operationally complex industries such as commodities or logistics. - Based in San Francisco or willing to relocate, able to work from the office four days per week, and willing to travel internationally up to 30%. ROLE DETAILS - Employment: Full-time - Location: San Francisco, California - Work policy: Hybrid, four days per week in the San Francisco office - Base salary: $150K–$250K - Equity: 0.25%–0.75% - Visa sponsorship: Not available for this role - Travel: Up to 30%, including international travel across the US, Europe, and Asia - Reports to: Daniel Cervoni, Co-founder and Head of Engineering - Tech stack: Python, TypeScript, LLMs, and AI agents INTERVIEW PROCESS 1. Initial screen (30 minutes): A conversation with Daniel to discuss your background, communication skills, interest in AI and startups, and fit for the role. 2. Technical interview (30–40 minutes): A live CoderPad session in vanilla Python or TypeScript. You'll solve an unfamiliar practical business problem by writing two functions. No AI assistance is allowed; the focus is practical engineering judgment rather than LeetCode-style algorithms. 3. Business role play (one hour, with one hour of preparation): Review a customer use case, then host a simulated customer kickoff. This evaluates structured communication, project management, and your ability to work with non-technical stakeholders. 4. On-site interview (approximately 3–4 hours): A product session, two business case studies, and a one-on-one conversation with CEO Philip Koenig. 5. CEO interview (30 minutes): A final one-on-one conversation with the CEO. ABOUT COMMODITYAI CommodityAI is purpose-built AI for the commodities industry—where the physical world meets intelligence. Our AI Workspace automates document-heavy workflows across trading, logistics, finance, and compliance. Whether it's automating deal capture, shipment reconciliation, or invoice review, CommodityAI helps teams work with greater clarity, precision, and far less manual effort. Based in San Francisco, CommodityAI was founded by former commodity traders and operators with deep industry expertise. Backed by leading investors including Y Combinator and Rebel Fund, we're building intelligence at the foundation of global trade.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T03:58:46Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T03:58:46Z",
+      "locations": [
+        "San Francisco, CA",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-07-24T22:07:32Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": "Forward-deployed engineering role configures and tunes AI agents and automation workflows for customer production deployments; exact SF, hybrid, full-time, $150K-$250K base.",
+      "source_id": "commodityai-ashby",
+      "source_job_id": "b6d8b529-6ab3-4587-86db-678f93bf30bd",
+      "stable_id": "job-829b735c8175f11f8e18190e",
+      "status": "active",
+      "team": "Engineering",
+      "title": "AI Forward Deployed Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T03:58:46Z",
+  "last_successful_scan_at": "2026-08-31T03:58:46Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 1,
+    "title_not_target_engineering_family": 1,
+    "total": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "commodityai-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

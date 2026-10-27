@@ -1,0 +1,78 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:59:50Z",
+      "attempt_id": "attempt:1307123a-d6b5-4f17-98fb-88b9abc4af87",
+      "result_digest": "ce27feb54fe72f073b41c8a89abae0c9d86992c1ae06a7d09860f1731fdb2803",
+      "task_id": "source:kong-ashby:luna:4792064b40c0c51c",
+      "transaction_id": "txn:ce27feb54fe72f073b41c8a8"
+    }
+  ],
+  "company_id": "kong",
+  "current_job_count": 77,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/kong/ea7b507b-b249-4cf2-88ea-09fbbaf32acb",
+      "company_id": "kong",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 270000,
+        "minimum": 250000,
+        "period": "year",
+        "source_text": "$250K - $270K"
+      },
+      "compensation_text": "$250K - $270K",
+      "department": "All Cost Center",
+      "description_text": "Are you ready to unlock intelligence? If you don’t think you meet all of the criteria below but are still interested in the job, please apply. Nobody checks every box - we’re looking for candidates that are particularly strong in a few areas, and have some interest and capabilities in others. About the Role: Architect the future of machine-to-machine commerce as a founding member of a zero-to-one engineering squad. You will design, build, and scale the coordination fabric for agent-to-API and agent-to-agent transactions—spanning discovery, identity, billing, and settlement—built directly on top of Kong’s world-class runtime stack. Operating as an autonomous startup unit inside Kong, this team is responsible for lowering organizational drag, unlocking engineering velocity, and establishing Kong’s absolute leadership in the Agentic Era. What You’ll Do: - Architect and own the end-to-end full-stack surfaces of the marketplace loop, delivering high-performance tools, the underlying REST API substrate, and developer-facing onboarding systems. - Design the foundational agent-native user experience, creating robust Model Context Protocol (MCP) server capabilities, sandboxed test environments, and elegant CLI/SDK generation workflows. - Scale and protect the transaction infrastructure by building high-reliability pipelines for programmatic identity verification, usage attribution, granular metering, and complex multi-party settlement. - Drive cross-functional execution across Kong's engineering ecosystem, partnering with gateway runtime, security plugins, and global core teams to smoothly integrate marketplace features. - Lead architectural design reviews and champion a zero-technical-debt culture while proactively preventing scaling bottlenecks across distributed backend components. - Mentor engineers across the organization, multiplying the team's output by translating ambiguous product bets into highly defined, modular, and shippable technical milestones. - Own the technical lifecycle completely by writing crystal-clear engineering documentation and product specifications for every system you architect. What You’ll Bring: - 7+ years of experience engineering enterprise-grade production software with a proven capability to design, build, and support complex distributed systems from scratch. - Master-level expertise with a modern backend stack (such as Golang or similar systems languages) alongside deep architectural command of API infrastructure, Kubernetes, and cloud-native patterns. - Extensive hands-on experience developing autonomous agent applications, tool-calling systems, prompt loops, or systems designed explicitly for machine consumption. - Deep operational familiarity with multi-tenant architectures, usage-based metering pipelines, billing integration patterns, or secure data exchange layers. - Strong written communication and technical articulation skills, with an unwavering comfort operating within remote, globally distributed engineering environments (West Coast/Bay Area alignment preferred). #LI-BR2 About Kong: Kong Inc., a leading developer of API and AI connectivity technologies, is building the infrastructure that powers the agentic era. Trusted by the Fortune 500 and startups alike, Kong's unified API and AI platform, Kong Konnect, enables organizations to secure, manage, accelerate, govern, and monetize the flow of intelligence across APIs and AI models. For more information, visit www.konghq.com http://www.konghq.com.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T14:59:32Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T14:59:32Z",
+      "locations": [
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-08-11T20:03:43Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "hybrid workplace",
+        "published USD annual base maximum $270,000",
+        "full-time engineering role",
+        "agent marketplace and agent-native user-facing/API surfaces"
+      ],
+      "source_id": "kong-ashby",
+      "source_job_id": "ea7b507b-b249-4cf2-88ea-09fbbaf32acb",
+      "stable_id": "job-ea030868370c8dc4aff664ab",
+      "status": "active",
+      "team": "OCEO",
+      "title": "Senior Staff Software Engineer - Agent Marketplace",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T14:59:32Z",
+  "last_successful_scan_at": "2026-08-31T14:59:32Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 11,
+    "compensation_currency_mismatch": 2,
+    "location_outside_target_city": 69,
+    "title_explicitly_excluded": 1,
+    "title_explicitly_non_target_function": 24,
+    "total": 76,
+    "workplace_remote_excluded": 19
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "kong-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

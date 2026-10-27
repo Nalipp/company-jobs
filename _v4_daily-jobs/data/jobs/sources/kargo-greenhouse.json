@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:58:15Z",
+      "attempt_id": "attempt:92135fd0-5421-4eb0-91e3-a74dfcec60c0",
+      "result_digest": "09a392bddd79f52b3f92c27a53d009077601379db8c4fc334b3bedaec642efd3",
+      "task_id": "source:kargo-greenhouse:luna:518a6f9aa1c4759f",
+      "transaction_id": "txn:09a392bddd79f52b3f92c27a"
+    }
+  ],
+  "company_id": "kargo",
+  "current_job_count": 16,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:58:02Z",
+  "last_successful_scan_at": "2026-08-31T14:58:02Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 12,
+    "title_explicitly_non_target_function": 4,
+    "total": 16
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "kargo-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

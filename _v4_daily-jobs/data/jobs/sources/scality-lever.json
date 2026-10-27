@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:22:06Z",
+      "attempt_id": "attempt:e8056a6a-ba51-427b-8f40-7fa2187d1a3f",
+      "result_digest": "5737417732d773ffa177a9835119c007e5fce2d9034eb7f7242b6c577073af44",
+      "task_id": "source:scality-lever:luna:db1fe1e274b9a3f9",
+      "transaction_id": "txn:5737417732d773ffa177a983"
+    }
+  ],
+  "company_id": "scality",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:22:02Z",
+  "last_successful_scan_at": "2026-08-31T15:22:02Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "location_outside_target_city": 4,
+    "title_explicitly_non_target_function": 1,
+    "total": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "scality-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:17:01Z",
+      "attempt_id": "attempt:7fd6e843-aa50-4b08-be31-30a8f7e8b655",
+      "result_digest": "9a90d6119efeefb96b8a4cb014a9cfe3e65ee3ae0e48c5c4522f0430bf8a2d0e",
+      "task_id": "source:postman-greenhouse:luna:96aa9a34ed8d00f6",
+      "transaction_id": "txn:9a90d6119efeefb96b8a4cb0"
+    }
+  ],
+  "company_id": "postman",
+  "current_job_count": 63,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:16:48Z",
+  "last_successful_scan_at": "2026-08-31T15:16:48Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 24,
+    "location_outside_target_city": 34,
+    "title_explicitly_non_target_function": 15,
+    "total": 63
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "postman-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

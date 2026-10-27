@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:22:27Z",
+      "attempt_id": "attempt:ab51804b-2c7f-46e2-9f96-ff6b4d1d6f60",
+      "result_digest": "ccdc5c8147fa6ced0bd7730d4e33fac09252a5303cec212f9ffe34618a68eee8",
+      "task_id": "source:scribd-ashby:luna:8ec3bc588488f3e1",
+      "transaction_id": "txn:ccdc5c8147fa6ced0bd7730d"
+    }
+  ],
+  "company_id": "scribd",
+  "current_job_count": 18,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:22:14Z",
+  "last_successful_scan_at": "2026-08-31T15:22:14Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 11,
+    "title_explicitly_non_target_function": 4,
+    "total": 18,
+    "workplace_remote_excluded": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "scribd-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

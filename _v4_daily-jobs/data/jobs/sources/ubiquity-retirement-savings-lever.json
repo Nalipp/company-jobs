@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:31:06Z",
+      "attempt_id": "attempt:f7e9dd37-5cf9-4d3d-82f3-8b0f6d19aa50",
+      "result_digest": "27b89b10258b3eaf604982963625f073561da483f24f3b10c15dbcf743e16a2b",
+      "task_id": "source:ubiquity-retirement-savings-lever:luna:a4a679747dc372ef",
+      "transaction_id": "txn:27b89b10258b3eaf60498296"
+    }
+  ],
+  "company_id": "ubiquity-retirement-savings",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:31:01Z",
+  "last_successful_scan_at": "2026-08-31T15:31:01Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "location_outside_target_city": 1,
+    "total": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "ubiquity-retirement-savings-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:31:07Z",
+      "attempt_id": "attempt:b305ffd9-a41b-491b-b90f-98e1fb75b287",
+      "result_digest": "438faebf2aa06d0bac00b5f704bd94a54960ab17e5524c0b00798e62015dcc73",
+      "task_id": "source:tubi-greenhouse:luna:8d5f77a1cc4c80e0",
+      "transaction_id": "txn:438faebf2aa06d0bac00b5f7"
+    }
+  ],
+  "company_id": "tubi",
+  "current_job_count": 33,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:30:54Z",
+  "last_successful_scan_at": "2026-08-31T15:30:54Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 12,
+    "location_outside_target_city": 15,
+    "title_explicitly_non_target_function": 12,
+    "total": 33
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "tubi-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

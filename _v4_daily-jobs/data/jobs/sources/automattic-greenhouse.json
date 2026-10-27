@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:29:39Z",
+      "attempt_id": "attempt:6b5bc304-9da8-481b-9fec-6077ddd2080e",
+      "result_digest": "f049fce31cec339c9003d89cf6f7448899e7e0337e57276517c121a59161153c",
+      "task_id": "source:automattic-greenhouse:luna:a068678fc3e76459",
+      "transaction_id": "txn:f049fce31cec339c9003d89c"
+    }
+  ],
+  "company_id": "automattic",
+  "current_job_count": 18,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:29:16Z",
+  "last_successful_scan_at": "2026-08-31T03:29:16Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 7,
+    "role_fit_excluded": 1,
+    "title_explicitly_non_target_function": 10,
+    "total": 18,
+    "workplace_remote_excluded": 8
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "automattic-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

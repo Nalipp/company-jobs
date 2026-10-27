@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:19:38Z",
+      "attempt_id": "attempt:8d9d9ceb-3729-4142-957a-050f312372e2",
+      "result_digest": "b775c21714d5468bb0e351cadb0f9dfd9c1289382139cc61d73e42a9b34724ea",
+      "task_id": "source:revenuecat-ashby:luna:98869b6381a4030c",
+      "transaction_id": "txn:b775c21714d5468bb0e351ca"
+    }
+  ],
+  "company_id": "revenuecat",
+  "current_job_count": 19,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:19:35Z",
+  "last_successful_scan_at": "2026-08-31T15:19:35Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 6,
+    "location_outside_target_city": 2,
+    "title_explicitly_non_target_function": 8,
+    "total": 19,
+    "workplace_remote_excluded": 18
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "revenuecat-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

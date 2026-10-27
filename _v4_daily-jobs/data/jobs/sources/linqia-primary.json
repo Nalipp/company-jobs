@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:01:54Z",
+      "attempt_id": "attempt:fc59269e-0590-41ed-8391-3d78b53ddc7d",
+      "result_digest": "9058e3e2810b354add70210b7a670ba2f8b27170530dc5351703d5d7b471c445",
+      "task_id": "source:linqia-primary:luna:8ac20210dd82cb98",
+      "transaction_id": "txn:9058e3e2810b354add70210b"
+    }
+  ],
+  "company_id": "linqia",
+  "current_job_count": 16,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:01:10Z",
+  "last_successful_scan_at": "2026-08-31T15:01:10Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 1,
+    "location_outside_target_city": 12,
+    "title_explicitly_excluded": 1,
+    "title_explicitly_non_target_function": 8,
+    "total": 16
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "linqia-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

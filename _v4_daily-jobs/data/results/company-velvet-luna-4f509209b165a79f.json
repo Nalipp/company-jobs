@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:velvet:luna:4f509209b165a79f",
+  "attempt_id": "attempt:61d4509b-ef69-4582-8d67-0ffb06b169a5",
+  "claim_token": "rCHiJ-y46V5yqwJ-N1I4YojDEonXIz07xus-uJR2ZDE",
+  "model": "luna",
+  "created_at": "2026-09-01T18:09:30Z",
+  "target": {"company_ids": ["velvet"], "source_ids": ["velvet-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [
+    {"url": "https://velvetlab.ai/", "retrieved_at": "2026-09-01T18:09:30Z", "evidence_type": "official_company_page", "finding": "Velvet identifies itself as a multimodal-model product and research company and states it is hiring for research, engineering, and operations roles."},
+    {"url": "https://velvetlab.ai/", "retrieved_at": "2026-09-01T18:09:30Z", "evidence_type": "official_application_flow", "finding": "The site exposes a general Apply flow collecting name, email, and LinkedIn, but no current role directory or stable canonical job-detail endpoint."}
+  ],
+  "patch": {
+    "company_id": "velvet",
+    "expected_record_revision": 1,
+    "company_changes": {},
+    "source_upserts": [{
+      "source_id": "velvet-primary",
+      "company_id": "velvet",
+      "expected_record_revision": 1,
+      "careers_url": "https://velvetlab.ai/",
+      "listings_url": "https://velvetlab.ai/",
+      "provider": "custom",
+      "board_id": null,
+      "access_mode": "browser_required",
+      "scope": "All Velvet roles",
+      "instructions": "Official site has a general application form but no stable open-role listing or canonical application endpoint; recheck before enabling automated enumeration.",
+      "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false},
+      "status": "unsupported",
+      "official_relationship_url": "https://velvetlab.ai/",
+      "checked_at": "2026-09-01T18:09:30Z",
+      "last_success_at": null,
+      "added_date": "2026-08-28T22:34:46Z",
+      "updated_date": "2026-09-01T18:09:30Z"
+    }]
+  },
+  "item_results": [{"item": "velvet-primary", "status": "resolved", "summary": "Official hiring/application source verified; unsupported for automated enumeration because no stable role endpoint exists."}],
+  "failure_class": null,
+  "notes": "Canonical source metadata refreshed; no company identity changes."
+}

@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:08:57Z",
+      "attempt_id": "attempt:2269e9a5-665a-4eca-bad5-33ce1b3d29fa",
+      "result_digest": "8a588e98fc8c4615cb12421fb882b4aa1daf890a04c9369f9656f203e0c5fcf9",
+      "task_id": "source:deepscribe-kula:luna:4621d0d871a5ac70",
+      "transaction_id": "txn:8a588e98fc8c4615cb12421f"
+    }
+  ],
+  "company_id": "deepscribe",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:25:00Z",
+  "last_successful_scan_at": "2026-08-31T21:25:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "location_or_compensation_or_role_mismatch": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "deepscribe-kula",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

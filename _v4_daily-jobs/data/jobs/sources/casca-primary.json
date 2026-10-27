@@ -1,0 +1,70 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T02:53:30Z",
+      "attempt_id": "attempt:71f4f44b-4ee8-4b71-8683-90b64b30f76a",
+      "result_digest": "32701c1f70c801eda43635dd42b7c317e0b23c24cefb7218fb2087b3b8388aee",
+      "task_id": "source:casca-primary:luna:aa69fcdf8f86f6e5",
+      "transaction_id": "txn:32701c1f70c801eda43635dd"
+    }
+  ],
+  "company_id": "casca",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "ai_involvement_evidence": "Official posting describes building AI-native banking technology and shipping AI-powered systems for lending workflows.",
+      "canonical_url": "https://jobs.ashbyhq.com/casca/577560f5-e509-4ffe-9ff0-cbf71b64e954",
+      "company_id": "casca",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 265000,
+        "minimum": 160000,
+        "period": "year",
+        "source_text": "$160K - $265K"
+      },
+      "compensation_text": "$160K - $265K",
+      "department": "Engineering",
+      "description_text": "WHY CASCA? Casca is building AGI for banking. We’re replacing decades-old legacy systems with AI-native technology that automates 90% of the manual work humans once had to do. WHAT YOU'LL DO Projected division of responsibilities: roughly 70% building and shipping, 30% embedded with customers and collaborating with your team. Live in the Customer’s World - Embed directly with bank teams on-site, working alongside underwriters, lenders, and operators - Develop a deep understanding of their day-to-day workflows, bottlenecks, and pain points - Become the person who understands these processes better than anyone because you have seen them firsthand Build Something Magical - Turn your understanding into working software that automates and improves workflows - Build on top of Casca’s platform to extend it into new use cases - Deploy AI-powered systems that replace manual processes - Iterate quickly based on real user feedback in production - Help migrate customers from legacy systems to modern, scalable solutions Own the Lifecycle, and Shape the Platform - Take ownership end-to-end, from problem definition to deployment and iteration - Scope problems effectively and focus on delivering real value quickly - Feed what you learn in the field back into the platform, improving future deployments - Contribute to product direction based on real-world experience WHAT YOU'LL BRING: - A skillset at the intersection of software development, business strategy and customer engagement - 1-6+ years of experience in software engineering - Proven track record of translating complex technical concepts into clear business value propositions with measurable outcomes - Entrepreneurial mindset with experience driving initiatives from concept to execution - Solid understanding of modern programming languages and (AI) frameworks (e.g., React, TypeScript, Next.js, Python, LangChain, Vercel AI-SDK, etc.) - Strong problem-solving skills and a knack for innovative thinking - Excellent communication skills and a collaborative team spirit WHAT YOU'LL GET: - Impact & Ownership: A unique opportunity to shape the future of banking through AI, owning end-to-end product initiatives. - Collaborative Environment: Work alongside a talented and passionate team that values continuous improvement and knowledge sharing. - Competitive Compensation: Includes salary, benefits, and potential equity in a fast-growing startup. - Professional Growth: Access to resources and mentorship to expand your skill set, influence strategy, and accelerate your career. - Culture of Innovation: We encourage risk-taking, learning from failures, and pushing the boundaries of what’s possible in fintech. As an early-stage company building at the frontier of AI, we work with high intensity and commitment. While schedules can vary by role/team, many weeks will demand extra focus, flexibility and time particularly during major launches and high impact sprints. We're seeking those who are aligned to and able to commit to that expectation.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T02:53:13Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T02:53:13Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-06-19T20:16:21Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "role_fit_evidence": "Forward Deployed Engineer spends roughly 70% building and shipping, with customer-embedded engineering and product implementation responsibilities.",
+      "source_id": "casca-primary",
+      "source_job_id": "577560f5-e509-4ffe-9ff0-cbf71b64e954",
+      "stable_id": "job-135acad5252ce3c24a73d0b2",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Forward Deployed Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T02:53:13Z",
+  "last_successful_scan_at": "2026-08-31T02:53:13Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "role_fit_excluded": 3,
+    "total": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "casca-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

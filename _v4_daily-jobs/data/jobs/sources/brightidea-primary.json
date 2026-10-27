@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:31:14Z",
+      "attempt_id": "attempt:2d45c04d-40b6-4f58-845c-3495b6bf9744",
+      "result_digest": "3d130d5be2ed743a31a8e37315bf9a552c4b4ae46b581b3d3ff01f3726068041",
+      "task_id": "source:brightidea-primary:luna:51788d5090374e74",
+      "transaction_id": "txn:3d130d5be2ed743a31a8e373"
+    }
+  ],
+  "company_id": "brightidea",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:31:00Z",
+  "last_successful_scan_at": "2026-08-31T03:31:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 1,
+    "role_fit_excluded": 2,
+    "title_explicitly_non_target_function": 2,
+    "total": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "brightidea-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

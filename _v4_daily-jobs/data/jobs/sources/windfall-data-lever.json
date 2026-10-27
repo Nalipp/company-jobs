@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:34:52Z",
+      "attempt_id": "attempt:b1985d03-6041-4d14-a5ca-b804d9506f4d",
+      "result_digest": "6e9019a60beca6473bba2680ab55d2d29d8ee68f5972d549cae0f003f5b23428",
+      "task_id": "source:windfall-data-lever:luna:3609d08dd539d072",
+      "transaction_id": "txn:6e9019a60beca6473bba2680"
+    }
+  ],
+  "company_id": "windfall-data",
+  "current_job_count": 15,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:34:36Z",
+  "last_successful_scan_at": "2026-08-31T15:34:36Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 7,
+    "semantic_non_target": 3,
+    "title_explicitly_non_target_function": 9,
+    "total": 15
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "windfall-data-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

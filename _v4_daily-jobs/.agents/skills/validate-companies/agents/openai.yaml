@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validate Companies"
+  short_description: "Drain company validation with safe workers"
+  default_prompt: "Use $validate-companies --run luna to create one persistent worker that safely validates companies until no due Luna work remains."

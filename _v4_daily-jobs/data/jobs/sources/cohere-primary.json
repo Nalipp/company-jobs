@@ -1,0 +1,34 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:58:22Z",
+      "attempt_id": "attempt:9f68c438-214c-4720-ad38-7714ae07c207",
+      "result_digest": "2765b426b0d22db93df39e7e677a2a796a3fd3d6a4b38c2cd70c3b7aedb539b0",
+      "task_id": "source:cohere-primary:luna:afba2b9692c73932",
+      "transaction_id": "txn:2765b426b0d22db93df39e7e"
+    }
+  ],
+  "company_id": "cohere",
+  "current_job_count": 146,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:57:48Z",
+  "last_successful_scan_at": "2026-08-31T03:57:48Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "employment_contract_excluded": 6,
+    "employment_internship_excluded": 2,
+    "location_outside_target_city": 84,
+    "title_explicitly_non_target_function": 50,
+    "total": 146,
+    "workplace_remote_excluded": 105
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "cohere-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

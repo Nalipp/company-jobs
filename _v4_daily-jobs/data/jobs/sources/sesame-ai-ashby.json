@@ -1,0 +1,121 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:23:22Z",
+      "attempt_id": "attempt:0b7f3d4b-ac6e-46cd-9176-7baa1b03a45b",
+      "result_digest": "5eb5a3ad0acb86b6a62857a25fc890771c39613d5e9011e02823f9d5813ffbc3",
+      "task_id": "source:sesame-ai-ashby:luna:a08dae03f5531d78",
+      "transaction_id": "txn:5eb5a3ad0acb86b6a62857a2"
+    }
+  ],
+  "company_id": "sesame-ai",
+  "current_job_count": 25,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/sesame/5e846cd7-5719-440c-b8ef-2fba501847ae",
+      "company_id": "sesame-ai",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 320000,
+        "minimum": 190000,
+        "period": "year",
+        "source_text": "$190K - $320K"
+      },
+      "compensation_text": "$190K - $320K",
+      "department": "Machine Learning",
+      "description_text": "About Sesame Sesame believes in a future where computers are lifelike - with the ability to see, hear, and collaborate with us in ways that feel natural and human. With this vision, we're designing a new kind of computer, focused on making voice agents part of our daily lives. Our team brings together founders from Oculus and Ubiquity6, alongside proven leaders from Meta, Google, and Apple, with deep expertise spanning hardware and software. Join us in shaping a future where computers truly come alive. ABOUT THE ROLE New and novel approaches are needed to realize all of our product goals. As a Research engineer at Sesame, you are a research-oriented person with experience in NLP, Speech, and/or Computer Vision with a focus on deep learning. You are up to date on recent papers and approaches and you have the creativity and the intuition to come up with new solutions based on the application at hand. RESPONSIBILITIES: - Own evaluation pipelines — design, build, and automate offline and live evals that keep our speech and multimodal models honest in production. - Harness the data — create tooling for safe, versioned, privacy-aware dataset curation and discovery. - Ship models, not slide decks — partner with research and infra to prototype, train, and deploy state-of-the-art voice models that power Sesame’s real-time companion https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice?utm_source=chatgpt.com experience. - Squeeze silicon — scale training and inference for LLM-class workloads; chase latency, throughput, and cost until the graphs flatten. - Wire up monitoring and live evals — surface quality regressions before users or PMs notice. - Move at startup speed — take ideas from whiteboard to production in days, not quarters; leave a clean trail of tests and dashboards behind. REQUIRED QUALIFICATIONS: - Expert-level PyTorch. - Proven software engineer who loves ML; comfortable writing production code across the stack. - Hands-on experience training or fine-tuning large language or other large-scale models with a variety of techniques. - Evaluation expert — you’ve designed metrics and harnesses that actually predict user happiness. - Deep knowledge of the ML lifecycle: dataset ops, training pipelines, eval frameworks, deployment, and monitoring. - History of shipping complex projects to production—especially user-facing, online ML systems—despite shifting requirements and surprise roadblocks. - High agency and the judgment to know when to sprint solo vs. pull in the squad. - Track record of setting technical direction, driving consensus, and partnering smoothly with product, infra, and research. Sesame is committed to a workplace where everyone feels valued, respected, and empowered. We welcome all qualified applicants, embracing diversity in race, gender, identity, orientation, ability, and more. We provide reasonable accommodations for applicants with disabilities. Contact careers@sesame.com for assistance. Full-time Employee Benefits: - 401 (k) max employer match: 3.5% of compensation - 100% employer-paid health, vision, and dental benefits for you and your dependents - Unlimited PTO and sick time - Flexible spending account with employer matching up to $1,650/year (medical FSA) - Guardian Employee Assistance Program (EAP) - Opportunity to share in the company's success with competitive stock options Benefits do not apply to contingent/contract workers.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:22:57Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:22:57Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States",
+        "New York",
+        "Bellevue"
+      ],
+      "posted_at": "2026-06-17T23:55:13Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "published USD annual base maximum at least $260,000",
+        "full-time machine-learning engineering role with job-specific AI work"
+      ],
+      "source_id": "sesame-ai-ashby",
+      "source_job_id": "5e846cd7-5719-440c-b8ef-2fba501847ae",
+      "stable_id": "job-1c4a4a8b44db12021d6b5c61",
+      "status": "active",
+      "team": "Machine Learning",
+      "title": "Research Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/sesame/08ade360-a4bc-4584-9c40-04dc380276a5",
+      "company_id": "sesame-ai",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 260000,
+        "minimum": 170000,
+        "period": "year",
+        "source_text": "$170K - $260K"
+      },
+      "compensation_text": "$170K - $260K",
+      "department": "Data & Analytics",
+      "description_text": "About Sesame Sesame believes in a future where computers are lifelike - with the ability to see, hear, and collaborate with us in ways that feel natural and human. With this vision, we're designing a new kind of computer, focused on making voice agents part of our daily lives. Our team brings together founders from Oculus and Ubiquity6, alongside proven leaders from Meta, Google, and Apple, with deep expertise spanning hardware and software. Join us in shaping a future where computers truly come alive. ABOUT THE ROLE We're looking for a Data Engineer to build and maintain the data pipelines that feed Sesame's AI models. You'll collaborate directly with machine learning engineers and researchers — your job is to make sure they have the right data, in the right shape, at the right time to train, evaluate, and ship models. Sesame's data is rich and complex: conversations, voice, sensor signals, and product telemetry. You'll design the systems that take raw, unstructured, multimodal data and turn it into clean, versioned, well-documented datasets that ML teams can trust and build on confidently. This is a deeply technical, infrastructure-focused role — closer to ML engineering than traditional data analytics. You'll be deeply embedded with ML teams, understanding their workflows and building infrastructure that accelerates the full model development lifecycle — from data collection and labeling through training and evaluation. RESPONSIBILITIES: - Design and build production data pipelines that prepare conversational, voice, and multimodal data for model training and evaluation. - Partner directly with ML engineers to understand data requirements for new models and experiments, and deliver datasets that meet those needs. - Build and maintain infrastructure for dataset versioning, lineage tracking, and reproducibility — so any training run can be traced back to its exact data. - Develop data quality frameworks that catch issues before they become model quality issues: schema validation, drift detection, and coverage monitoring. - Optimise large-scale data processing for cost and performance across Sesame's cloud infrastructure. - Build tooling that makes it easy for ML engineers and researchers to discover, explore, and request data independently. - Define and enforce data governance and privacy standards, particularly around sensitive conversational and voice data. - Contribute to architecture decisions around Sesame's broader data platform as the team and data volume grow. REQUIRED QUALIFICATIONS: - 5+ years in data engineering, with meaningful experience supporting ML or AI teams specifically. - Strong SQL and Python skills — you'll use both daily. - Experience building and operating ETL/ELT pipelines at scale using modern data platforms and tooling. - Experience with workflow orchestration systems such as Airflow, Dagster, or Prefect. - Hands-on experience with ML data workflows: training data pipelines, dataset versioning, data labeling pipelines, or model evaluation data. - A solid understanding of how ML teams work — you don't need to train models; what matters is understanding what makes a good training dataset and why data quality directly affects model performance. - Comfort working with unstructured and semi-structured data — audio, text, JSON logs — not just clean relational tables. - Strong communication skills. You'll be embedded with ML engineers and need to bridge data systems and model requirements effectively. PREFERRED QUALIFICATIONS: - Vector databases, embedding storage, or feature stores. - Data from hardware or embedded systems: telemetry, sensors, real-time streams. - Distributed compute frameworks for large-scale data processing such as Ray or Spark. - Kubernetes and managed Kubernetes environments such as GKE or EKS. - Data privacy frameworks, especially around voice or conversational data. - Building internal tooling or self-serve data platforms. Sesame is committed to a workplace where everyone feels valued, respected, and empowered. We welcome all qualified applicants, embracing diversity in race, gender, identity, orientation, ability, and more. We provide reasonable accommodations for applicants with disabilities. Contact careers@sesame.com for assistance. Full-time Employee Benefits: - 401 (k) max employer match: 3.5% of compensation - 100% employer-paid health, vision, and dental benefits for you and your dependents - Unlimited PTO and sick time - Flexible spending account with employer matching up to $1,650/year (medical FSA) - Guardian Employee Assistance Program (EAP) - Opportunity to share in the company's success with competitive stock options Benefits do not apply to contingent/contract workers.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:22:57Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:22:57Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-06-23T22:19:13Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "published USD annual base maximum at least $260,000",
+        "full-time machine-learning engineering role with job-specific AI work"
+      ],
+      "source_id": "sesame-ai-ashby",
+      "source_job_id": "08ade360-a4bc-4584-9c40-04dc380276a5",
+      "stable_id": "job-ea003ffbbce590ae7286a2ff",
+      "status": "active",
+      "team": "Data & Analytics",
+      "title": "Data Engineer, Machine Learning",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:22:57Z",
+  "last_successful_scan_at": "2026-08-31T15:22:57Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 3,
+    "compensation_currency_mismatch": 2,
+    "location_outside_target_city": 2,
+    "semantic_review_rejected": 14,
+    "title_explicitly_non_target_function": 5,
+    "total": 25
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "sesame-ai-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

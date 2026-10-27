@@ -1,0 +1,71 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:13:44Z",
+      "attempt_id": "attempt:46d7b573-8b6a-45a4-9269-8dcafcd6e243",
+      "result_digest": "b530351bb44fe7014bb01abd22e1ad4b69b2070493cf249e640ebfda431fd56f",
+      "task_id": "source:parkade-primary:luna:e9eea07fbe9c61e4",
+      "transaction_id": "txn:b530351bb44fe7014bb01abd"
+    }
+  ],
+  "company_id": "parkade",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/parkade/324fdde2-5d09-40ac-ae16-8537e399033e",
+      "company_id": "parkade",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 200000,
+        "minimum": 180000,
+        "period": "year",
+        "source_text": "$180K - $200K"
+      },
+      "compensation_text": "$180K - $200K",
+      "department": "Engineering",
+      "description_text": "About Parkade Parkade is a B2B2C SaaS platform that modernizes private parking for apartments, mixed-use, and offices. We help buildings move away from the headaches of stickers, hang tags, and spreadsheets to a fully automated, self-serve app for parking management, enforcement, and customer service. We have carved out a highly differentiated position in a massive PropTech market, our customers love us, and we closed a successful Series A funding round. Parkade is officially in hypergrowth. We're a lean, high-impact team where your work is visible, your ideas matter, and there's real room to shape how things get done. The Role We are seeking a skilled and motivated engineer with a strong interest in and background in front-end web development. Reporting directly to the VP of Engineering, you will be a critical player who makes a meaningful impact and the technical decisions you make matter. We’re looking for someone who will - Care deeply about the product and user experience. - Be forward thinking in terms of pragmatic and responsible AI adoption for your own dev work and for the team. - Make sound architectural and design decisions informed by your past achievements and mistakes. - Produce prolifically with AI assistance and the mature judgment of a staff engineer. - Enjoy a fast moving, dynamic startup environment. - Be curious, continuously and proactively level up your skills. - Rely on at least 5 years of hands-on front-end experience building commercial applications. Our tech stack - TypeScript, React, Next.js, Node.js, Vite, TanStack Router - Tailwind CSS, Material UI - TanStack Query, React Hook Form, Pineapple Express - Vitest, Playwright - Stripe, Firebase, Sentry Bonus Points - You have built something significant from the ground up before. - You are proficient with Python or a similar backend language. - You have experience setting up and improving CI/CD infrastructure. - You care about problems related to parking and efficient use of space and resources in cities. Benefits - Health, vision, and dental insurance (80% covered for you and dependents) - 401k - Flexible PTO - Equity in Parkade Please note: We are unable to provide visa sponsorship for this role at this time. Candidates must be authorized to work in the U.S. without sponsorship, now or in the future.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:13:34Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:13:34Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco,, California, United States",
+        "Remote"
+      ],
+      "posted_at": "2026-08-07T21:20:36Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "parkade-primary",
+      "source_job_id": "324fdde2-5d09-40ac-ae16-8537e399033e",
+      "stable_id": "job-e479d83ea47346a45cf5fbfc",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Staff Software Engineer, Front End",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:13:34Z",
+  "last_successful_scan_at": "2026-08-31T15:13:34Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 3,
+    "location_outside_target_city": 1,
+    "title_explicitly_non_target_function": 2,
+    "total": 4,
+    "workplace_remote_excluded": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "parkade-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

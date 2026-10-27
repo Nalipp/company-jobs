@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T02:51:27Z",
+      "attempt_id": "attempt:7a7acba6-2b96-4170-a9d7-4b2b5cb5697f",
+      "result_digest": "bc76c28907cbfdd21deb96513c3387c8faf9a9a8ad80ba953b6d1f3c1225f583",
+      "task_id": "source:blacksmith-ashby:luna:c53c89290d6aee4f",
+      "transaction_id": "txn:bc76c28907cbfdd21deb9651"
+    }
+  ],
+  "company_id": "blacksmith",
+  "current_job_count": 20,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T02:51:03Z",
+  "last_successful_scan_at": "2026-08-31T02:51:03Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 3,
+    "location_outside_target_city": 8,
+    "role_not_in_profile": 10,
+    "total": 20
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "blacksmith-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

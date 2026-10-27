@@ -1,0 +1,70 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T02:50:32Z",
+      "attempt_id": "attempt:c52e523b-9df7-42eb-8cba-3e0d1e4c3756",
+      "result_digest": "de84d0eab959d32d736469286d7e74890f8a455019a6624dbbe821e103261826",
+      "task_id": "source:apiphany-ai-ashby:luna:19c42d16aa129884",
+      "transaction_id": "txn:de84d0eab959d32d73646928"
+    }
+  ],
+  "company_id": "apiphany-ai",
+  "current_job_count": 7,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/apiphany/3650ad85-375f-4066-b573-1127719c748c",
+      "company_id": "apiphany-ai",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 300000,
+        "minimum": 150000,
+        "period": "year",
+        "source_text": "$150K - $300K"
+      },
+      "compensation_text": "$150K - $300K",
+      "department": "Engineering",
+      "description_text": "ABOUT APIPHANY Apiphany is a pioneering foundational AI company for physical product development. We empower global innovators in automotive, aerospace, medtech, and energy to transform mountains of unstructured technical data into real-time, actionable insights. Backed by world-class investors from Markforged, Databricks, GM, and Character, our mission is to revolutionize how engineering decisions are made, turning complexity into clarity for the world’s top manufacturers. Our models are built for the complexities of engineering and manufacturing. Our models understand physics principles, design specifications, and program constraints. We’re a small, elite team of builders from Stanford, Berkeley, MIT, UW, and CMU, alongside industry leaders from GM, Ford, and Genesis Therapeutics. We’re passionate about transforming hard-tech and building a category-defining company together. ABOUT THE ROLE As a Senior / Staff Frontend Engineer at Apiphany, you’ll help design, build, and refine our cutting-edge web application. You will be responsible for implementing high-quality UI components, building the next generation of data visualization, ensuring optimal performance, and maintaining best practices in front-end development. You’ll also help shape the long-term frontend strategy, mentor teammates, and establish engineering best practices that will scale with the company. You’ll collaborate closely with design, backend, and ML engineers to make massive data streams intuitive and actionable for users for a seamless experience. EXPERIENCE & SKILLS - 3-5+ years of experience in TypeScript, JavaScript, and React - Deep understanding of React internals, rendering performance, and state management patterns (Redux, Zustand, or similar) - Experience designing and developing data visualization dashboards using D3, visx, or equivalent frameworks - Proven experience in frontend system design, architecture, and optimization - Experience developing component libraries and design systems (Storybook or similar) - Experience mentoring engineers, leading technical discussions, and guiding long-term architectural decisions PERSONALITY & VALUES - Startup mindset: bias toward action, rapid iteration, and ownership - Mission-driven and customer-obsessed - Self-motivated, collaborative, and eager to raise the bar for the whole team - Passion for UX/UI design and creating delightful user experiences COMPENSATION & BENEFITS - Base Salary: $150,000–$300,000 - Equity: 0.1%–1.0% - Visa Sponsorship - Hybrid work: 3 days in San Francisco office - 401(k) plan - Medical, Dental, and Vision insurance coverage - Snacks at the office - Paid Time Off (PTO): Flexible vacation policy",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T02:49:24Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T02:49:24Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-10-23T21:45:17Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "apiphany-ai-ashby",
+      "source_job_id": "3650ad85-375f-4066-b573-1127719c748c",
+      "stable_id": "job-7f7f7ee8ff62e5e86472e3dc",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Senior / Staff Frontend Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T02:49:24Z",
+  "last_successful_scan_at": "2026-08-31T02:49:24Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "location_outside_target_city": 1,
+    "role_fit_not_eligible": 3,
+    "total": 7,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "apiphany-ai-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

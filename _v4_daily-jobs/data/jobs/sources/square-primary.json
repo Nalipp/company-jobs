@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:17:50Z",
+      "attempt_id": "attempt:68bb0a36-3e20-4c64-9885-7e0f8acbb156",
+      "result_digest": "ab92a26fd562ae4a0f63dc0fe9d9b13b0318ce07d2740475b5a75bd6effa92f4",
+      "task_id": "source:square-primary:luna:8e7367db2893dad2",
+      "transaction_id": "txn:ab92a26fd562ae4a0f63dc0f"
+    }
+  ],
+  "company_id": "square",
+  "current_job_count": 124,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T02:25:00Z",
+  "last_successful_scan_at": "2026-09-01T02:25:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "workplace_remote": 124
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "square-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

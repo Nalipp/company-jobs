@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:swift-navigation:luna:2f5a5779b2e3cc75",
+  "attempt_id": "attempt:ff080c1e-2ef5-4faf-b412-7f3594d860d5",
+  "claim_token": "6VUqbj_CxoU_0rb6kc4almeicjcyHH6_f7BxMtkbudw",
+  "model": "luna",
+  "created_at": "2026-09-01T17:59:24Z",
+  "target": {"company_ids": ["swift-navigation"], "source_ids": ["swift-navigation-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [{"url": "https://www.swiftnav.com/join-us/jobs-listing", "retrieved_at": "2026-09-01T18:00:00Z", "evidence_type": "official_careers_page", "finding": "The official Swift Navigation jobs page is live, but a complete enumerable role set and canonical stable detail URLs could not be verified in this bounded pass; the source remains unsupported."}, {"url": "https://www.swiftnav.com/contact-us", "retrieved_at": "2026-09-01T18:00:00Z", "evidence_type": "official_company_page", "finding": "Swift Navigation's official contact page confirms its San Francisco headquarters at 201 Mission, Suite 2400."}],
+  "patch": {"company_id": "swift-navigation", "expected_record_revision": 1, "company_changes": {}, "source_upserts": [{
+    "source_id": "swift-navigation-primary", "company_id": "swift-navigation", "expected_record_revision": 1, "careers_url": "https://www.swiftnav.com/join-us", "listings_url": "https://www.swiftnav.com/join-us/jobs-listing", "provider": "custom", "board_id": null, "access_mode": "browser_required", "scope": "All Swift Navigation roles", "instructions": "Recheck the official jobs-listing page in a browser, verify all current role links and at least one canonical detail URL, then enable enumeration.", "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false}, "status": "unsupported", "official_relationship_url": "https://www.swiftnav.com/join-us", "checked_at": "2026-09-01T18:00:00Z", "last_success_at": null, "added_date": "2026-08-28T23:01:48Z", "updated_date": "2026-09-01T18:00:00Z"
+  }]},
+  "item_results": [{"item": "swift-navigation-primary", "status": "resolved", "summary": "Official jobs source rechecked; role enumeration and stable detail URLs remain unverified."}],
+  "failure_class": null,
+  "notes": "No canonical company identity or address change supported."
+}

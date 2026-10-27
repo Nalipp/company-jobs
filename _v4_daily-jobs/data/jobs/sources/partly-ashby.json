@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:14:08Z",
+      "attempt_id": "attempt:22f47f67-8088-4aea-8483-4bbef3bd05bb",
+      "result_digest": "2737cf1b5d393f5a632614483fccaa3bfde353a9e55438a4d2c303ca1bcf18d5",
+      "task_id": "source:partly-ashby:luna:a965e2455dd2c480",
+      "transaction_id": "txn:2737cf1b5d393f5a63261448"
+    }
+  ],
+  "company_id": "partly",
+  "current_job_count": 41,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:14:04Z",
+  "last_successful_scan_at": "2026-08-31T15:14:04Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "employment_internship_excluded": 1,
+    "location_outside_target_city": 41,
+    "title_explicitly_non_target_function": 14,
+    "total": 41,
+    "workplace_remote_excluded": 10
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "partly-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

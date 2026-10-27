@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:13:58Z",
+      "attempt_id": "attempt:c104659e-b07a-4cf3-a59c-6ad0eef22e16",
+      "result_digest": "6a345e29126aba10cd3417b7030a78d00c6aa695d83365ca78509f67b3a3db08",
+      "task_id": "source:mya-systems-primary:luna:3530f484c4600107",
+      "transaction_id": "txn:6a345e29126aba10cd3417b7"
+    }
+  ],
+  "company_id": "mya-systems",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:20:00Z",
+  "last_successful_scan_at": "2026-08-31T22:20:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "total": 0
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "mya-systems-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

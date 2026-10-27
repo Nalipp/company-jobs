@@ -1,0 +1,110 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:11:40Z",
+      "attempt_id": "attempt:896f5c9b-212b-4856-8c9b-58899eb67e92",
+      "result_digest": "12a3f08aa0bfadde9f4bc5a4edb64e9d9aabac6a3e79571dac7a10fa909e302a",
+      "task_id": "source:hinge-health-ashby:luna:5e0d80929a755a65",
+      "transaction_id": "txn:12a3f08aa0bfadde9f4bc5a4"
+    }
+  ],
+  "company_id": "hinge-health",
+  "current_job_count": 70,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/hinge-health/da6da560-9790-45a5-b805-a780c2aba505",
+      "company_id": "hinge-health",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 333600,
+        "minimum": 222400,
+        "period": "year",
+        "source_text": "$222.4K - $333.6K"
+      },
+      "compensation_text": "$222.4K - $333.6K",
+      "department": "RnD",
+      "description_text": "THE OPPORTUNITY Join the team transforming how we treat chronic pain by addressing its root cause: the brain. Hinge Health is expanding beyond physical therapy to build a comprehensive Brain Health ecosystem. In this mission-critical role, you will lead the architecture and development of agentic AI systems that deliver personalized pain reprocessing therapy and mindfulness interventions. You will bridge the gap between clinical science and software engineering, building the engine that helps millions of members retrain how their nervous systems process pain. WHAT YOU'LL ACCOMPLISH - Architect Next-Gen AI Therapies: Build and scale the agentic AI systems that power multi-session conversational therapy, ensuring they maintain context, demonstrate emotional intelligence, and align with clinical protocols. - Build a Unified Education Platform: Design the centralized service that delivers personalized pain science education and mindset strategies, adapting content to each member's therapeutic goals. - Drive Technical Strategy: Define the long-term technical vision for Brain Health in partnership with product and clinical leadership, balancing immediate delivery with scalable, fault-tolerant infrastructure. - Lead & Mentor: Act as a technical beacon for the team, mentoring engineers, fostering a culture of technical excellence, and driving cross-functional collaboration across data science, clinical, and platform teams. WHO YOU ARE - A Strategic Builder: You don't just write code; you architect systems that scale. You have a deep understanding of distributed systems and can navigate the complexity of building AI-driven products in a regulated healthcare environment. - A \"Learn-it-all\": You stay on the bleeding edge of AI and software engineering, constantly evaluating emerging technologies to optimize performance and improve the platform. - A Cross-Functional Leader: You thrive in multidisciplinary environments, translating complex technical concepts for clinical and product stakeholders to ensure our solutions are both clinically sound and technically robust. - An Owner-Operator: You take pride in your work, from architecture to production support, embodying a DevOps culture where you own the reliability and performance of your code. BASIC QUALIFICATIONS - Have 4+ years of practical software engineering experience, including meaningful time shipping AI-powered products to real users. - At minimum a Bachelor Degree in Computer Science or related field - Have led the design and delivery of complex, user-facing products end-to-end — across product surfaces, backend services, and AI/ML systems. PREFERRED QUALIFICATIONS - Have worked in early-stage or fast-moving, rapidly evolving environments, and have ideally built products from 0 to 1. - Are technically proficient in modern AI application development, with demonstrated depth in working with LLMs (prompt engineering, RAG, agentic systems, evals) and a strong fullstack foundation (e.g., Python, TypeScript/NestJS). - Take a product-focused approach to building AI solutions that are robust, safe, and genuinely useful in users' hands. - Have successfully driven cross-team alignment to get impactful work shipped, and work with influence over authority. - Have experience establishing engineering standards, system architectures, and development best practices — especially around evaluation, safety, and reliability for AI systems. - Thrive in fast-paced environments and can navigate ambiguity to deliver high-quality products. - Excellent communication skills with the ability to explain technical concepts to non-technical stakeholders. - Contributions to open-source AI or software engineering projects. ABOUT HINGE HEALTH Hinge Health leverages software, including AI, to largely automate care for joint and muscle health, delivering an outstanding member experience, improved member outcomes, and cost reductions for its clients. The company has designed its platform to address a broad spectrum of MSK care—from acute injury, to chronic pain, to post-surgical rehabilitation—and the platform can help to ease members’ pain, improve their function, and reduce their need for surgeries, all while driving health equity by allowing members to engage in their exercise therapy sessions from anywhere. The company is headquartered in San Francisco, California. Learn more at http://www.hingehealth.com/http://www.hingehealth.com WHAT YOU'LL LOVE ABOUT US - Inclusive healthcare and benefits: On top of comprehensive medical, dental, and vision coverage, we offer employees and their family members help with gender-affirming care, tools for family and fertility planning, and travel reimbursements if healthcare isn’t available where you live. - Planning for the future: Start saving for the future with our traditional or Roth 401k retirement plan options which include a 2% company match. - Modern life stipends: Manage your own learning and development CULTURE & ENGAGEMENT Hinge Health is an equal opportunity employer and prohibits discrimination and harassment of any kind. We make employment decisions without regards to race, color, religion, sex, sexual orientation, gender identity, national origin, age, veteran status, disability status, pregnancy, or any other basis protected by federal, state or local law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. We provide reasonable accommodations for candidates with disabilities. If you feel you need assistance or an accommodation due to a disability, let us know by reaching out to your recruiter. By submitting your application you are acknowledging we are using your personal data as outlined in the personnel and candidate privacy policy. https://www.hingehealth.com/about/personnel-and-candidate-privacy-policy/ Beware of Phishing Attempts: We've noticed an increase in phishing where fraudsters impersonate employees and send fake job offers to steal sensitive information. We'll never ask for financial details during the hiring process and only use \"@hingehealth.com http://hingehealth.com\" emails. If you receive a suspicious offer, stop communication and report it to the US FBI Internet Crime Complaint Center. To verify an email from our recruiting team, forward it to security@hingehealth.com https://app.ashbyhq.com/admin/organizational-settings/theme#.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T04:11:06Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T04:11:06Z",
+      "locations": [
+        "San Francisco-HQ",
+        "San Francisco, California, US"
+      ],
+      "posted_at": "2026-05-06T21:54:17Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": "Staff software engineering role leads agentic AI systems for personalized pain-reprocessing and mindfulness interventions; SF hybrid, full-time assumed, $222.4K-$333.6K base.",
+      "source_id": "hinge-health-ashby",
+      "source_job_id": "da6da560-9790-45a5-b805-a780c2aba505",
+      "stable_id": "job-96b4c7a194f7f27d558d2198",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Staff Software Engineer, Brain Health, AI",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/hinge-health/4fba45fc-b27f-4ac8-9eac-2b8ac66c0a58",
+      "company_id": "hinge-health",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 296400,
+        "minimum": 197600,
+        "period": "year",
+        "source_text": "$197.6K - $296.4K"
+      },
+      "compensation_text": "$197.6K - $296.4K",
+      "department": "RnD",
+      "description_text": "THE OPPORTUNITY Join the team that is redefining how we connect with our members. Our Proactive Communications initiatives are mission-critical for driving member engagement and health outcomes, moving beyond generic notifications to create delightful interactions that guide members through their recovery journey. In this role, you will build the intelligence and infrastructure to connect with our members at the right time, with the right message, through the right channel. As a Staff Engineer, you will lead the technical architecture of our unified communications platform, collaborating with Machine Learning Scientists to orchestrate outreach across SMS, email, in-app notifications, and nudges using proprietary data and predictive models. WHAT YOU'LL ACCOMPLISH - Architect the Communications Engine: Lead the design and scaling of a unified communications platform that orchestrates member outreach across multiple channels (SMS, email, push, in-app) with high throughput and low latency. - Drive Technical Strategy: Define and guide the long-term technical roadmap for proactive outreach in partnership with product and engineering leadership, balancing immediate delivery with the flexibility to support future capabilities like Conversational AI. - Integrate Intelligent Interventions: Partner with ML scientists to architect systems that integrate proprietary models into communication workflows, ensuring outreach is triggered by predictive member behaviors and needs rather than static rules. - Ensure System Reliability & Scale: Optimize system performance to ensure the reliability and deliverability of member-facing messages, maintaining high standards for observability, error handling, and member privacy. - Elevate Engineering Practices: Establish and evolve best practices for CI/CD, automated testing, and monitoring for both software services and ML model performance in production. - Mentorship & Collaboration: Mentor senior and intermediate engineers, fostering a culture of technical excellence. Build strong cross-functional partnerships across Product, Design, Marketing, and Data Science. WHO YOU ARE - A Technical Visionary: You excel at navigating ambiguity and can translate complex business goals into scalable, long-term technical architectures. - A \"Learn-it-all\": You are passionate about distributed systems and ML integration, constantly seeking new ways to leverage technology (like LLMs) to solve user problems. - A Force Multiplier: You don't just write code; you elevate the entire team through mentorship, code reviews, and by establishing engineering standards that reduce friction and improve quality. - A Cross-Functional Partner: You thrive in a multidisciplinary environment, collaborating effectively with Data Science and Product to deliver cohesive solutions. BASIC QUALIFICATIONS - 4+ years of non-internship full-time professional software engineering experience - 2+ years of experience in Python (backend/data integration) and TypeScript/Node.js (services). - 2+ years of experience with cloud platforms (AWS preferred) and containerization tools. - 2+ years of experience working in distributed systems, microservices architectures, and large-scale data processing. - 2+ years of experience in mentoring and leading junior team members, collaborating effectively with cross-functional teams. PREFERRED QUALIFICATIONS - Communication Systems Expertise: Experience building or maintaining member-facing communication platforms (SMS, Push Notifications, Email) and familiarity with tools like Twilio, Braze, or internal notification engines. - ML Integration: Experience building systems that deploy or consume ML models in production environments to drive business logic or user engagement. - Conversational AI: Interest in or experience with Large Language Models (LLMs) or conversational agents as a channel for user interaction. - Infrastructure as Code: Knowledge of tools like Terraform or CloudFormation. - Regulated Industry Knowledge: Experience working within healthcare (HIPAA) or other highly regulated environments involving sensitive member data. ABOUT HINGE HEALTH At Hinge Health, we’re using technology to scale and automate the delivery of healthcare – starting with musculoskeletal (MSK) conditions, which affect over 1.7 billion people worldwide. With an AI-powered human-centered care model, Hinge Health leverages cutting-edge technology to improve outcomes, experiences and costs to help people move beyond their pain. The platform addresses a broad spectrum of MSK care – from acute injury, to chronic pain, to post-surgical rehabilitation – through personalized, evidence-based care. As the preferred partner to 60+ health plans, PBMs and other ecosystem partners, Hinge Health is available to over 20 million people across more than 2,800 employers. The company is headquartered in San Francisco with additional offices in Montreal and Bangalore. Learn more at http://www.hingehealth.com http://www.hingehealth.com. WHAT YOU’LL LOVE ABOUT US - Inclusive healthcare and benefits: On top of comprehensive medical, dental, and vision coverage, we offer employees and their family members help with gender-affirming care, tools for family and fertility planning, and travel reimbursements if healthcare isn’t available where you live. - Planning for the future: Start saving for the future with our traditional or Roth 401k retirement plan options which include a 2% company match. - Modern life stipends: Manage your own learning and development. - Grow with us: Grow with us through discounted company stock through our ESPP with easy payroll deductions. CULTURE & ENGAGEMENT Hinge Health is an equal opportunity employer and prohibits discrimination and harassment of any kind. We make employment decisions without regards to race, color, religion, sex, sexual orientation, gender identity, national origin, age, veteran status, disability status, pregnancy, or any other basis protected by federal, state or local law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. We provide reasonable accommodations for candidates with disabilities. If you feel you need assistance or an accommodation due to a disability, let us know by reaching out to your recruiter. By submitting your application you are acknowledging we are using your personal data as outlined in the personnel and candidate privacy policy. Beware of Phishing Attempts: We’ve noticed an increase in phishing where fraudsters impersonate employees and send fake job offers to steal sensitive information. We’ll never ask for financial details during the hiring process and only use “@hingehealth.com http://hingehealth.com” emails. If you receive a suspicious offer, stop communication and report it to the US FBI Internet Crime Complaint Center. To verify an email from our recruiting team, forward it to security@hingehealth.com. Hinge Health Hybrid Model We believe that remote work and in-person work have their own advantages and disadvantages, and we want to be able to leverage the best of both worlds. Employees in hybrid roles are required to be in the office 3 days per week, for the full 8 hours of a typical business day. The San Francisco office has a dog-friendly workplace program. Beware of Phishing Attempts: We've noticed an increase in phishing where fraudsters impersonate employees and send fake job offers to steal sensitive information. We'll never ask for financial details during the hiring process and only use \"@hingehealth.com http://hingehealth.com\" emails. If you receive a suspicious offer, stop communication and report it to the US FBI Internet Crime Complaint Center. To verify an email from our recruiting team, forward it to security@hingehealth.com https://app.ashbyhq.com/admin/organizational-settings/theme#.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T04:11:06Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T04:11:06Z",
+      "locations": [
+        "San Francisco-HQ",
+        "San Francisco, California, US"
+      ],
+      "posted_at": "2026-07-29T04:53:48Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": "Staff software engineering role builds member-facing communications using ML-scientist collaboration and predictive data; SF hybrid, full-time assumed, $197.6K-$296.4K base.",
+      "source_id": "hinge-health-ashby",
+      "source_job_id": "4fba45fc-b27f-4ac8-9eac-2b8ac66c0a58",
+      "stable_id": "job-c09b797bc1c9f830008d74b6",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Staff Software Engineer, Proactive Communications",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T04:11:06Z",
+  "last_successful_scan_at": "2026-08-31T04:11:06Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 12,
+    "compensation_currency_mismatch": 3,
+    "location_outside_target_city": 6,
+    "title_explicitly_non_target_function": 24,
+    "title_not_target_engineering_family": 27,
+    "total": 80,
+    "workplace_remote_excluded": 8
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "hinge-health-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

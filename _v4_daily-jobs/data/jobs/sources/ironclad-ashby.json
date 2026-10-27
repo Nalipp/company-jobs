@@ -1,0 +1,110 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:57:41Z",
+      "attempt_id": "attempt:70001f6d-659f-434c-b6f4-fe595b965f15",
+      "result_digest": "4f2394afe36949cb9ad57cdf66d9d0191eef7d8c69c6e21cbc27470e27911382",
+      "task_id": "source:ironclad-ashby:luna:1659367405debbbe",
+      "transaction_id": "txn:4f2394afe36949cb9ad57cdf"
+    }
+  ],
+  "company_id": "ironclad",
+  "current_job_count": 28,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/ironcladhq/4be2d35a-9aa0-415c-ba13-30da080158ad",
+      "company_id": "ironclad",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 270000,
+        "minimum": 188000,
+        "period": "year",
+        "source_text": "$188K - $270K"
+      },
+      "compensation_text": "$188K - $270K",
+      "department": "Engineering, Product & Design",
+      "description_text": "Ironclad is the leading AI contracting platform that transforms agreements into assets. Contracts move faster, insights surface instantly, and agents push work forward, all with you in control. Whether you’re buying or selling, Ironclad unifies the entire process on one intelligent platform, providing leaders with the visibility they need to stay one step ahead. That’s why the world’s most transformative organizations, from Rivian to the World Health Organization and the Associated Press, trust Ironclad to accelerate their business. We’re consistently recognized as a leader in the industry: a Leader in the Forrester Wave and Gartner Magic Quadrant for Contract Lifecycle Management, a Fortune Great Place to Work, and one of Fast Company’s Most Innovative Workplaces. Ironclad has also been named to Forbes’ AI 50 and Business Insider’s list of Companies to Bet Your Career On. We’re backed by leading investors including Accel, Y Combinator, Sequoia, BOND, and Franklin Templeton. For more information, visit www.ironcladapp.com http://www.ironcladapp.com or follow us on LinkedIn. ABOUT THE ROLE Ironclad's Intelligence Platform team owns Agent Assistant, Conversational Search, and Content Understanding — the systems that help customers and AI agents understand, find, and act on the right contract information. These are the flagship AI capabilities of our product, built and operated by a combined team of ML and ML infrastructure engineers. We have multiple roles open, and are hiring a range of levels — Staff and Senior Staff. As a Staff or Senior Staff Engineer, Agentic Search, you'll own the architecture that combines LLMs and retrieval systems to answer complex, ambiguous questions about a customer's contracts, and you'll set the technical direction that other engineers across the AI organization build on. You'll partner closely with product, applied science, and engineering leaders to raise the company's search quality bar, and you'll bring the technical depth and eval-driven rigor to turn ambiguous problems into shipped, measurable improvements. Scope and ownership will be calibrated to level. WHAT YOU'LL DO - Own agentic search architecture. Design and evolve the systems that combine LLMs and retrieval to produce optimal answers to complex or ambiguous questions. - Drive eval-driven development. Design and run the benchmarks and experiments that measure search quality, and use that feedback to continuously improve the system. - Raise the search quality bar. Contribute to and influence the company's overall search quality standard. - Own content understanding and ingestion. Turn raw documents into processed data that retrieval systems can consume, by building and using NLP/LLM models and pipelines. - Set technical direction. Define architectural decisions and technical direction that other engineers across the AI organization build on. QUALIFICATIONS - 10+ years building production systems, with a substantial portion in search, information retrieval, content understanding, or recommendation systems at meaningful scale. - Demonstrated depth in one of: learned/hybrid retrieval (lexical + vector + reranking), query understanding/NLU pipelines, or production LLM agent systems — ideally more than one. - Experience with search frameworks (Elasticsearch or equivalent — Solr, Vespa, OpenSearch; embedding search) in production, including relevance tuning and reranking. - Fluency with modern LLM APIs and multi-provider orchestration (Anthropic, OpenAI, Google) — reasoning about token budgets, provider-specific tool-calling semantics, and prompt-caching trade-offs. - Experience building eval-driven workflows — offline benchmarks, regression detection, structured A/B comparison — as opposed to shipping and hoping. - Strong autonomy, ownership, and technical leadership across teams, including mentoring senior engineers and driving architectural decisions. - Comfortable operating in a dynamic, fast-paced, outcome-driven environment. GREAT TO HAVE - Hands-on experience with post-training algorithms and infrastructure, including SFT and RL. - Experience with content understanding and/or information retrieval in structured-document-heavy domains. - Prior work on RAG systems involving data sources in different formats (Google Docs, PDFs, DOCX, etc.). BASE SALARY RANGES - Staff: $188,000 - $235,000 - Senior Staff: $220,000 - $270,000 The base salary range represents the minimum and maximum of the salary range for this position based at our San Francisco headquarters. The actual base salary offered for this position will depend on numerous factors, including individual proficiency, anticipated performance, and the location of the selected candidate. Our base salary is just one component of Ironclad's competitive total rewards package, which also includes equity awards (a new hire grant, along with opportunities for additional awards throughout your tenure), competitive health and wellness benefits, and a commitment to career growth and development. US Full-Time Employee Benefits at Ironclad: - 100% health coverage for employees (medical, dental, and vision), and 75% coverage for dependents with buy-up plan options available - Market-leading leave policies, including gender-neutral parental leave and compassionate leave - Family forming support through Maven for you and your partner - Paid time off - take the time you need, when you need it - Monthly stipends for wellbeing, hybrid work, and (if applicable) cell phone use - Mental health support through Modern Health, including therapy, coaching, and digital tools - Pre-tax commuter benefits (US Employees) - 401(k) plan with Fidelity with employer match (US Employees) - Regular team events to connect, recharge, and have fun - And most importantly: the opportunity to help build the company you want to work at **UK Employee-specific benefits are included on our UK job postings Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T14:57:12Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T14:57:12Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-08-25T20:47:44Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": "Staff/Senior Staff software engineering role explicitly focused on Agentic Search; SF hybrid, full-time assumed, $188K-$270K base.",
+      "source_id": "ironclad-ashby",
+      "source_job_id": "4be2d35a-9aa0-415c-ba13-30da080158ad",
+      "stable_id": "job-58597cd53ebd0cfac283e293",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Staff/Senior Staff Software Engineer, Agentic Search",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/ironcladhq/fa6f1cdc-4e73-4041-a8cc-aeb26a75e647",
+      "company_id": "ironclad",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 220000,
+        "minimum": 180000,
+        "period": "year",
+        "source_text": "$180K - $220K"
+      },
+      "compensation_text": "$180K - $220K",
+      "department": "Engineering, Product & Design",
+      "description_text": "Ironclad is the leading AI contracting platform that transforms agreements into assets. Contracts move faster, insights surface instantly, and agents push work forward, all with you in control. Whether you’re buying or selling, Ironclad unifies the entire process on one intelligent platform, providing leaders with the visibility they need to stay one step ahead. That’s why the world’s most transformative organizations, from Rivian to the World Health Organization and the Associated Press, trust Ironclad to accelerate their business. We’re consistently recognized as a leader in the industry: a Leader in the Forrester Wave and Gartner Magic Quadrant for Contract Lifecycle Management, a Fortune Great Place to Work, and one of Fast Company’s Most Innovative Workplaces. Ironclad has also been named to Forbes’ AI 50 and Business Insider’s list of Companies to Bet Your Career On. We’re backed by leading investors including Accel, Y Combinator, Sequoia, BOND, and Franklin Templeton. For more information, visit www.ironcladapp.com http://www.ironcladapp.com or follow us on LinkedIn. This is a hybrid role. Office attendance is required at least twice a week on Tuesdays and Thursdays for collaboration and connection. There may be additional in-office days for team or company events. About the Role We are building a new elite Squad Team: a small, high-leverage engineering group focused on fast-moving, high-priority AI initiatives across Ironclad. This is not a traditional team tied to one surface area for years. Instead, the Squad Team is designed to move quickly across product and platform boundaries: incubating new AI capabilities, accelerating strategic bets, unblocking critical delivery gaps, and helping bring promising ideas from concept to production. As a member of the Squad Team, you will be one of the technical anchors for this effort, and report to VP Engineering of AI. You will work across multiple codebases (including starting new ones) and domains, partner closely with product and engineering leaders, and help us execute some of the company’s most important AI initiatives. You should be excited about ambiguity, energized by fast context switching, and motivated by building real products that deliver customer value quickly. We have multiple roles open, and hiring a range of levels. This is the right role for people who are high-agency builders who combine strong technical depth with product sense, urgency, and excellent judgment. What You’ll Do - Lead the design and delivery of high-priority AI initiatives across Ironclad, from early prototype through production launch. - Rapidly ramp into new systems, codebases, and problem areas, and drive execution with minimal hand-holding. - Incubate new product ideas in areas such as contract AI, agentic workflows, intelligent extraction, search, and automation. - Partner closely with product, design, legal domain experts, and go-to-market teams to turn customer needs into shipped product. - Raise the engineering bar through strong technical judgment, crisp execution, and pragmatic use of AI-assisted development tools. - Identify organizational or technical bottlenecks and help close them, whether by building, debugging, simplifying, or unblocking teams. - Mentor other engineers through hands-on leadership, code reviews, technical direction, and example-setting. - Help shape how Ironclad builds with modern AI systems, including evals, orchestration, prompting, retrieval, and production quality standards. What We’re Looking For EXECUTION - Ability to build and ship production software in fast-paced environments. - Ability to lead ambiguous, cross-functional efforts and turning them into concrete outcomes. - High agency and ownership: you see gaps, form a point of view, and drive things forward. - Strong bias to action, with the ability to balance speed and quality. - Excellent collaboration skills and low ego; you work well by influence, not just authority. TECHNICAL STRENGTH - Strong software engineering fundamentals, especially in backend systems and distributed systems. - Ability to learn unfamiliar systems quickly and be productive in codebases you did not originally build. - Experience building AI-powered product features, platforms, or internal developer systems. - Familiarity with modern LLM application patterns such as agentic workflows, retrieval, evals, tool use, and quality/error analysis. - Comfort using AI coding tools to accelerate development, while maintaining engineering rigor and sound judgment. PRODUCT MINDSET - Strong product instinct and customer empathy. - You care not just about whether a system works, but whether it solves an important user problem. - Excitement about iterating quickly, learning from real usage, and improving product quality over time. Why This Role Is Different The Squad Team is meant to be a force multiplier for the organization. You won’t be limited to one narrow lane. You’ll help us: - incubate new AI product bets - accelerate critical initiatives - fill execution gaps where speed and technical depth matter most - bring strong engineering craftsmanship to the company’s most strategic work This role is a great fit for someone who loves operating like a founder inside a company: moving quickly, solving hard problems, and creating leverage wherever it matters most. How We Work We believe in technical leaders who stay close to the work. This role is highly hands-on. You will spend most of your time building, designing, debugging, and driving execution, while also mentoring others and helping shape technical direction. You’ll join a team that values: - urgency with good judgment - high ownership - product thinking - strong engineering craft - practical, fast learning - low ego and high collaboration Tech Stack Our stack includes TypeScript, React, Node.js, and cloud-native infrastructure. Experience with the exact stack is less important than your ability to learn quickly, operate across systems, and ship high-quality work. What Success Looks Like In this role, success means you: - help launch meaningful new AI capabilities faster - unblock important initiatives across teams - elevate execution quality wherever you engage - become a trusted technical leader for high-priority, cross-cutting work - help Ironclad build durable advantage in contract AI Base Salary Range: $180,000 - $200,000 offers company bonus The base salary range represents the minimum and maximum of the salary range for this position based at our San Francisco headquarters. The actual base salary offered for this position will depend on numerous factors, including individual proficiency, anticipated performance, and the location of the selected candidate. Our base salary is just one component of Ironclad’s competitive total rewards package, which also includes equity awards (a new hire grant, along with opportunities for additional awards throughout your tenure), competitive health and wellness benefits, and a commitment to career growth and development. US Full-Time Employee Benefits at Ironclad: - 100% health coverage for employees (medical, dental, and vision), and 75% coverage for dependents with buy-up plan options available - Market-leading leave policies, including gender-neutral parental leave and compassionate leave - Family forming support through Maven for you and your partner - Paid time off - take the time you need, when you need it - Monthly stipends for wellbeing, hybrid work, and (if applicable) cell phone use - Mental health support through Modern Health, including therapy, coaching, and digital tools - Pre-tax commuter benefits (US Employees) - 401(k) plan with Fidelity with employer match (US Employees) - Regular team events to connect, recharge, and have fun - And most importantly: the opportunity to help build the company you want to work at **UK Employee-specific benefits are included on our UK job postings Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T14:57:12Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T14:57:12Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-06-18T22:58:40Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": "Senior software engineering role explicitly focused on AI squad product work; SF hybrid, full-time assumed, $180K-$220K base.",
+      "source_id": "ironclad-ashby",
+      "source_job_id": "fa6f1cdc-4e73-4041-a8cc-aeb26a75e647",
+      "stable_id": "job-bc5702433ccc6106b608ec14",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Senior Software Engineer, AI - Squad Team",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T14:57:12Z",
+  "last_successful_scan_at": "2026-08-31T14:57:12Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "ai_involvement_insufficient": 3,
+    "compensation_below_profile_threshold": 9,
+    "location_outside_target_city": 2,
+    "title_explicitly_non_target_function": 8,
+    "title_not_target_engineering_family": 6,
+    "total": 29,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "ironclad-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

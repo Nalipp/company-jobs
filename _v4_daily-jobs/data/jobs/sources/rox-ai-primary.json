@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:20:35Z",
+      "attempt_id": "attempt:c19edb8f-1ae2-4007-be56-cde4a75f25c7",
+      "result_digest": "6638943003f67d80f946ebd77128590828fbe429d69bf314292732081725ce3f",
+      "task_id": "source:rox-ai-primary:luna:0f1bfcca3101a085",
+      "transaction_id": "txn:6638943003f67d80f946ebd7"
+    }
+  ],
+  "company_id": "rox-ai",
+  "current_job_count": 20,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:20:22Z",
+  "last_successful_scan_at": "2026-08-31T15:20:22Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 13,
+    "location_outside_target_city": 5,
+    "title_explicitly_non_target_function": 3,
+    "total": 20
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "rox-ai-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:02:26Z",
+      "attempt_id": "attempt:6cdbded0-45e1-4df2-9404-cebde9219163",
+      "result_digest": "42f73c6b6c983521255ffc391ea571ebded2226789da3e395051a5e6eec5a739",
+      "task_id": "source:mach9-robotics-primary:luna:123908f1be28ad6c",
+      "transaction_id": "txn:42f73c6b6c983521255ffc39"
+    }
+  ],
+  "company_id": "mach9-robotics",
+  "current_job_count": 11,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:02:12Z",
+  "last_successful_scan_at": "2026-08-31T15:02:12Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 3,
+    "title_explicitly_non_target_function": 8,
+    "total": 11
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "mach9-robotics-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

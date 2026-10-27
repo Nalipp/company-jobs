@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:squint:luna:ea64c622611c3301",
+  "attempt_id": "attempt:3bb379a6-ba3e-4496-92a8-a7263b999827",
+  "claim_token": "87S8a3cwMy4SDjSHsFwVeY0IFl0mZmGqGnzxRAmZ4SM",
+  "model": "luna",
+  "created_at": "2026-09-01T17:56:19Z",
+  "target": {"company_ids": ["squint"], "source_ids": ["squint-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [{"url": "https://www.squint.ai/careers", "retrieved_at": "2026-09-01T17:56:45Z", "evidence_type": "official_careers_page", "finding": "The official careers page exposes open-position content and confirms the San Francisco office, but does not expose a complete listing endpoint or stable canonical role identities; the source remains unsupported."}],
+  "patch": {"company_id": "squint", "expected_record_revision": 1, "company_changes": {}, "source_upserts": [{
+    "source_id": "squint-primary", "company_id": "squint", "expected_record_revision": 1,
+    "careers_url": "https://www.squint.ai/careers", "listings_url": "https://www.squint.ai/careers", "provider": "custom", "board_id": null, "access_mode": "browser_required", "scope": "All current public job listings",
+    "instructions": "Recheck the official careers page for a stable, complete listing endpoint and canonical role identities before enabling automated enumeration.",
+    "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false}, "status": "unsupported", "official_relationship_url": "https://www.squint.ai/careers", "checked_at": "2026-09-01T17:56:45Z", "last_success_at": null, "added_date": "2026-08-28T23:05:15Z", "updated_date": "2026-09-01T17:56:45Z"
+  }]},
+  "item_results": [{"item": "squint-primary", "status": "resolved", "summary": "Official careers source rechecked; open positions remain non-enumerable and unsupported."}],
+  "failure_class": null,
+  "notes": "No canonical company identity or address change supported."
+}

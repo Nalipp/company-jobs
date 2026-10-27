@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:34:15Z",
+      "attempt_id": "attempt:12b87804-5f48-4968-8a5d-cf207cbab16f",
+      "result_digest": "b99827f9d6431b75899d501370c38e2c24d25574eeb10e2f9c1117a794cef8f8",
+      "task_id": "source:vizcom-ashby:luna:6b2feb9664a49a3b",
+      "transaction_id": "txn:b99827f9d6431b75899d5013"
+    }
+  ],
+  "company_id": "vizcom",
+  "current_job_count": 12,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:34:01Z",
+  "last_successful_scan_at": "2026-08-31T15:34:01Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 7,
+    "location_outside_target_city": 1,
+    "title_explicitly_non_target_function": 4,
+    "total": 12,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "vizcom-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

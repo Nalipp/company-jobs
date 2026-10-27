@@ -1,0 +1,62 @@
+{
+  "jobs": [
+    {
+      "id": 101,
+      "internal_job_id": 501,
+      "title": "AI Product Engineer",
+      "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/101?gh_jid=101&utm_medium=test",
+      "location": {
+        "name": "San Francisco, CA"
+      },
+      "offices": [
+        {
+          "name": "San Francisco, CA"
+        }
+      ],
+      "departments": [
+        {
+          "name": "Engineering"
+        }
+      ],
+      "metadata": [
+        {
+          "name": "Employment Type",
+          "value": "Regular"
+        },
+        {
+          "name": "Workplace Type",
+          "value": "On-site"
+        },
+        {
+          "name": "Team",
+          "value": "Applications"
+        }
+      ],
+      "compensation": {
+        "minimum": 175000,
+        "maximum": 225000,
+        "currency": "USD",
+        "basis": "base salary",
+        "period": "year",
+        "source_text": "$175,000-$225,000 base salary"
+      },
+      "content": "&amp;lt;p&amp;gt;Ship AI product workflows.&amp;lt;/p&amp;gt;",
+      "first_published": "2026-07-01T09:00:00Z",
+      "updated_at": "2026-08-01T09:00:00Z"
+    },
+    {
+      "id": 102,
+      "title": "Platform Engineer",
+      "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/102",
+      "location": {
+        "name": "Oakland, CA"
+      },
+      "metadata": [],
+      "content": "<p>Build infrastructure.</p>",
+      "updated_at": "2026-08-02T09:00:00Z"
+    }
+  ],
+  "meta": {
+    "total": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:the-realreal:luna:2937e48fb2ae75cd",
+  "attempt_id": "attempt:c41170cf-462e-4049-a6cd-42702874495e",
+  "claim_token": "GAa4726Mj0xGjW44_2IQExe-WrsuDnc2Ho6RnhYIfAQ",
+  "model": "luna",
+  "created_at": "2026-09-01T18:03:01Z",
+  "target": {"company_ids": ["the-realreal"], "source_ids": ["the-realreal-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [{"url": "https://careers.therealreal.com/us/en/home", "retrieved_at": "2026-09-01T18:03:35Z", "evidence_type": "official_careers_page", "finding": "The official Phenom-powered careers site is live and confirms The RealReal's San Francisco office, but the search-results page did not expose a complete enumerated role set or stable canonical detail URLs in this bounded check; the source remains unsupported."}],
+  "patch": {"company_id": "the-realreal", "expected_record_revision": 1, "company_changes": {}, "source_upserts": [{
+    "source_id": "the-realreal-primary", "company_id": "the-realreal", "expected_record_revision": 1, "careers_url": "https://careers.therealreal.com/us/en/home", "listings_url": "https://careers.therealreal.com/us/en/search-results", "provider": "custom", "board_id": null, "access_mode": "browser_required", "scope": "All The RealReal roles", "instructions": "Recheck the official Phenom-powered search-results page in a browser, exhaust all results, and open each canonical role-detail URL before enabling enumeration.", "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false}, "status": "unsupported", "official_relationship_url": "https://careers.therealreal.com/us/en/home", "checked_at": "2026-09-01T18:03:35Z", "last_success_at": null, "added_date": "2026-08-28T23:01:48Z", "updated_date": "2026-09-01T18:03:35Z"
+  }]},
+  "item_results": [{"item": "the-realreal-primary", "status": "resolved", "summary": "Official careers site rechecked; current roles and stable detail URLs remain unverified."}],
+  "failure_class": null,
+  "notes": "No canonical company identity or address change supported."
+}

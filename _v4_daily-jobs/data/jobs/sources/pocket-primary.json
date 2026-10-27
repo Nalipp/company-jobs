@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:23:24Z",
+      "attempt_id": "attempt:f916125d-952e-4a13-8d43-6dfcdf78895e",
+      "result_digest": "a190927caac526f697eb4d57a4d20076eb858c067d43e7e97cff744c9a432d97",
+      "task_id": "source:pocket-primary:luna:6c2bd2755c2e486f",
+      "transaction_id": "txn:a190927caac526f697eb4d57"
+    }
+  ],
+  "company_id": "pocket",
+  "current_job_count": 11,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:22:57Z",
+  "last_successful_scan_at": "2026-08-31T22:22:57Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ycombinator",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "pocket-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

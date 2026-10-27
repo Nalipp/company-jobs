@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:03:11Z",
+      "attempt_id": "attempt:c9184ba1-ed74-4e72-a9a3-a711fdfe1cdb",
+      "result_digest": "93a06c9ce33762773990f360952a4881a320a545a38c525f8d277047c24c3396",
+      "task_id": "source:everlane-greenhouse:luna:b4a9e2e3d5989401",
+      "transaction_id": "txn:93a06c9ce33762773990f360"
+    }
+  ],
+  "company_id": "everlane",
+  "current_job_count": 44,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:02:58Z",
+  "last_successful_scan_at": "2026-08-31T04:02:58Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 10,
+    "employment_part-time_excluded": 13,
+    "location_outside_target_city": 26,
+    "title_explicitly_non_target_function": 19,
+    "total": 44
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "everlane-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

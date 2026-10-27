@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:25:59Z",
+      "attempt_id": "attempt:b8024820-f283-42c8-8ca4-6671f401ba42",
+      "result_digest": "4aed53023bec1ba26d399e0e311d60835bf28c580d08df6f1f7ace5da10e3102",
+      "task_id": "source:sofar-ocean-primary:luna:595a41c9916d2913",
+      "transaction_id": "txn:4aed53023bec1ba26d399e0e"
+    }
+  ],
+  "company_id": "sofar-ocean",
+  "current_job_count": 9,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:25:43Z",
+  "last_successful_scan_at": "2026-08-31T15:25:43Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "ai_involvement_insufficient": 2,
+    "compensation_below_profile_threshold": 7,
+    "title_explicitly_non_target_function": 2,
+    "total": 9
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "sofar-ocean-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

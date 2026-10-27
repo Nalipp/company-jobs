@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:10:55Z",
+      "attempt_id": "attempt:70c3aa24-f9dd-43cf-9127-4d8f472b5112",
+      "result_digest": "40e2a5ef5b227981bc57e021386e3436b0ac506198ab9a8ebda4f5fd37ea6777",
+      "task_id": "source:heygen-greenhouse:luna:a01c931684188dba",
+      "transaction_id": "txn:40e2a5ef5b227981bc57e021"
+    }
+  ],
+  "company_id": "heygen",
+  "current_job_count": 21,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:10:43Z",
+  "last_successful_scan_at": "2026-08-31T04:10:43Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 14,
+    "location_outside_target_city": 2,
+    "title_explicitly_non_target_function": 6,
+    "total": 21
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "heygen-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

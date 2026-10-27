@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:20:17Z",
+      "attempt_id": "attempt:4b4fa624-cb06-4b8b-b330-b8d27b6ffeca",
+      "result_digest": "bd70829cbb47449ebb0e4e53039e7e8f8c01014a23ff54023d770f93f35150e6",
+      "task_id": "source:rocket-lawyer-greenhouse:luna:31e053c845473ca3",
+      "transaction_id": "txn:bd70829cbb47449ebb0e4e53"
+    }
+  ],
+  "company_id": "rocket-lawyer",
+  "current_job_count": 7,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:20:02Z",
+  "last_successful_scan_at": "2026-08-31T15:20:02Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 1,
+    "title_explicitly_non_target_function": 6,
+    "total": 7
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "rocket-lawyer-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

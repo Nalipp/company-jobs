@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:21:14Z",
+      "attempt_id": "attempt:19fde5c3-ea10-4213-bdc5-73e8f2177267",
+      "result_digest": "f722b3d051dde991be78fb4612b01c7b497271bcf77ca5fa5f83626b60a1f465",
+      "task_id": "source:fountain-primary:luna:c306844a512cc0e4",
+      "transaction_id": "txn:f722b3d051dde991be78fb46"
+    }
+  ],
+  "company_id": "fountain",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T23:03:00Z",
+  "last_successful_scan_at": "2026-08-31T23:03:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "role_or_location_mismatch": 12
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "fountain-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

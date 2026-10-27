@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:24:32Z",
+      "attempt_id": "attempt:7a98245e-21fb-4be3-afcd-18cad9c4e14b",
+      "result_digest": "deb69d48a6835ec81c227b12426c012579e10b08d4b3943fd890d38d743df993",
+      "task_id": "source:sirona-medical-primary:luna:94702c1ae42264de",
+      "transaction_id": "txn:deb69d48a6835ec81c227b12"
+    }
+  ],
+  "company_id": "sirona-medical",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:24:17Z",
+  "last_successful_scan_at": "2026-08-31T15:24:17Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 4,
+    "total": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "sirona-medical-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

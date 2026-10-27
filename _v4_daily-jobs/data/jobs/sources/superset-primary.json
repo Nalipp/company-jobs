@@ -1,0 +1,64 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:30:39Z",
+      "attempt_id": "attempt:042023f5-8b51-4779-80c7-19290ffeefe4",
+      "result_digest": "fbcc4ca3b6eac8ef7646bd33309df816bf8d95d80229322d2bec33a5e990765c",
+      "task_id": "source:superset-primary:luna:7d8a64d17e502158",
+      "transaction_id": "txn:fbcc4ca3b6eac8ef7646bd33"
+    }
+  ],
+  "company_id": "superset",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://www.ycombinator.com/companies/superset/jobs/Nd9luiP-founding-engineer",
+      "company_id": "superset",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 225000,
+        "minimum": 175000,
+        "period": "year",
+        "source_text": "$175K - $225K"
+      },
+      "compensation_text": "$175K-$225K",
+      "department": "Engineering",
+      "description_text": "Full-stack founding engineer role building an open-source platform that runs coding agents, with React, React Native, TypeScript and Next.js; office in downtown San Francisco.",
+      "employment_text": "Full-time",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-09-01T02:55:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-09-01T02:55:00Z",
+      "locations": [
+        "San Francisco, CA, US"
+      ],
+      "posted_at": null,
+      "provider": "ycombinator",
+      "qualification_status": "qualifying",
+      "semantic_evidence": "Official posting confirms San Francisco full-time full-stack engineering, coding-agent platform work, on-site office expectation, and published $225,000 annual maximum.",
+      "source_id": "superset-primary",
+      "source_job_id": "Nd9luiP-founding-engineer",
+      "stable_id": "job-7ba4118ce086416f432be007",
+      "status": "active",
+      "team": "Full stack",
+      "title": "Founding Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "Usually work out of our office in downtown SF"
+    }
+  ],
+  "last_attempt_at": "2026-09-01T02:55:00Z",
+  "last_successful_scan_at": "2026-09-01T02:55:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ycombinator",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "superset-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

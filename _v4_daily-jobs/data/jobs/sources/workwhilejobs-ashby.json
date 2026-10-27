@@ -1,0 +1,34 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:35:29Z",
+      "attempt_id": "attempt:c79abb6f-1dc2-4b6f-b147-1422dbd9381a",
+      "result_digest": "81fa2232435fbb12480091c2e718948edbda0032bd74f50454b62ec2827b9f5a",
+      "task_id": "source:workwhilejobs-ashby:luna:d9ee25a096d52e63",
+      "transaction_id": "txn:81fa2232435fbb12480091c2"
+    }
+  ],
+  "company_id": "workwhile",
+  "current_job_count": 11,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:35:14Z",
+  "last_successful_scan_at": "2026-08-31T15:35:14Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 4,
+    "compensation_unknown": 4,
+    "location_outside_target_city": 5,
+    "title_explicitly_non_target_function": 5,
+    "total": 11,
+    "workplace_remote_excluded": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "workwhilejobs-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,113 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-30T21:31:18Z",
+      "attempt_id": "attempt:a27a9e5f-f8ab-4214-bac9-0b30702ab710",
+      "result_digest": "5d6dd44feb7aca5f1401702030b3f88ee1755db5dbe6079a5838072480c1ef70",
+      "task_id": "source:afresh-greenhouse:luna:96675dd9543de884",
+      "transaction_id": "txn:5d6dd44feb7aca5f14017020"
+    },
+    {
+      "applied_at": "2026-08-30T21:39:24Z",
+      "attempt_id": "maintenance:job_qualification_status_v1",
+      "result_digest": "1e301eb0d15bd8026aa7fc86de362ba75be5ba33a27eb27567fc4486642b70de",
+      "task_id": "maintenance:job_qualification_status_v1",
+      "transaction_id": "maintenance:job_qualification_status_v1:afresh-greenhouse"
+    }
+  ],
+  "company_id": "afresh",
+  "current_job_count": 16,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://job-boards.greenhouse.io/afresh/jobs/6108303004",
+      "company_id": "afresh",
+      "compensation": null,
+      "compensation_text": null,
+      "department": "Engineering",
+      "description_text": "Afresh, the AI platform for grocery, began by tackling the most complex problem in the industry: fresh, and has evolved into the core AI platform for grocers. By leveraging proprietary AI designed for high-volatility environments, we empower partners like Albertsons, Meijer, and Wakefern to drive smarter decisions across their entire enterprise. Following record-breaking 70% revenue growth in 2025, we have scaled to 6 enterprise-grade solutions, with solutions live in over 10% of the U.S. grocery market. Our platform now orchestrates billions of decisions from the store floor to the distribution center and prevented over 200 million pounds of food waste last year alone. If you're looking for a role where your work directly translates into massive scale and social good, and you want to be part of the team that defines how the world eats, there is no better time to join us. About the Role Most companies make you choose: build the platform, or go deploy it. Here you do both — and that's the point. As a Senior Forward Deployed Engineer, you're part of a single team that both delivers Afresh's AI into enterprise grocery customers and builds the platform that makes that delivery fast. You'll spend dedicated time in the field — embedded with a customer, integrating into their data, shipping AI systems on top of it — and dedicated time on the platform, turning what you just learned into reusable tooling the whole team deploys next. You build the house you live in. Afresh leads the customer relationship and direction; you and a small team bring the technical firepower — scope and architect the work with the customer, then build it. Because you also own the platform underneath, the rough edges you hit in the field become the things you fix at the root. This is senior, hands-on, 0-to-1 work in a space with no playbook. What You'll Do In the field (forward deployed) Partner with Afresh's account lead and the customer's technical teams to scope and architect the work — the data sources, the architecture, and the path to production. Embed with the customer's data and engineering teams (remote and on-site); integrate into their cloud and data platform; build production-grade pipelines and model messy enterprise data into trustworthy data products. Design and ship LLM- and agent-powered systems on that data — retrieval, agentic workflows, data-quality and analytics agents — reliable enough to run in production, not just to demo. On the platform (building the house you live in) Harden what works in the field into the shared platform: the knowledge and grounding layer (knowledge graph, ontology, and retrieval) that makes grocery data usable by LLMs, the agent frameworks, and the serving infrastructure. Build the evals, tracing, and tooling that let the team measure quality — accuracy, hallucination rate, latency, cost — and ship faster on the next customer. Build for leverage: clean interfaces and reusable building blocks, not one-off per-customer code. Across both Own the flywheel: field learnings flow straight into the platform, and platform improvements show up at the next customer. What Makes You a Great Fit We encourage all highly-qualified candidates to apply, even if they do not fulfill all the listed criteria. 3+ years building production software and data systems, with strong, production-grade code An architect's instinct: you can take an ambiguous problem and a messy data landscape, design a clean and workable solution, and then build it. Genuine AI/LLM depth — you've built real systems with LLMs and agents (retrieval/RAG, tool-use) and you evaluate quality rather than eyeball it. Real data-engineering depth : building and operating data pipelines, modeling messy enterprise data, and working in a modern cloud data platform (Databricks, BigQuery, Snowflake, or similar). Range across both modes — you genuinely like being in front of customers and going heads-down to build reusable infrastructure, and you can switch between them without one suffering. This is the role's defining trait. Customer-facing comfort: you work well with a customer's engineers and data teams — running working sessions, explaining your thinking, and earning trust through what you deliver. A bias toward ownership and momentum, and comfort traveling to customer sites regularly (~10-20%). Nice to Have Experience in grocery, retail, or supply chain data domains. Knowledge graphs, ontologies, or semantic layers in production; graph and vector stores (pgvector, Pinecone, Weaviate) and hybrid search. MCP or similar tool/context protocols; agent frameworks (e.g., LangGraph); MLOps, model serving, and observability for LLM systems. Prior forward-deployed, solutions, or implementation engineering — or early-stage startup experience navigating rapid customer expansion. Why Afresh? We're a mission-driven company that eliminates hundreds of millions of pounds of food waste in grocery stores every year — your work has direct, visible impact. You'll do both halves of the job: deploy with customers and build the platform you deploy — never a body-shop consultant, never an ivory-tower platform engineer. Be part of an engineering culture that's genuinely AI-forward — we want to be on the bleeding edge of agentic development, not watching from the sidelines. Senior team, high trust, and real ownership at a pivotal inflection point for how Afresh scales. Collaborative, supportive environment & awesome people This is a hybrid role based in the San Francisco office (3 days/week) This position is not eligible for company sponsorship. Salary Range in U.S.: $156,060 - $211,140 + meaningful early-stage equity + benefits Why You’ll Love Working at Afresh At Afresh, our mission to eliminate food waste starts with investing in our people. We provide a comprehensive support system designed to help you do your best work while maintaining a healthy, balanced life. Comprehensive Health & Wellness: Comprehensive medical, dental, and vision coverage for you and your family, with the majority of premiums covered by Afresh. We also provide dedicated mental health support and counseling services. Invested in Your Future: Competitive base salary, meaningful equity (U.S. employees), and a 401(k) program with a generous company match. Flexible & Modern Workspace: Whether you work from home or a local office, we support your setup with a home office stipend and \"Coworking Wallets\" for flexible workspace access. Growth-Obsessed Culture: We believe in continuous learning. Every employee receives an annual professional development budget to master new skills and grow their career at Afresh. Holistic Monthly Stipends: Beyond your paycheck, we provide monthly stipends for \"Betterment\" (wellness/lifestyle) and telecommunications to ensure you have what you need to thrive. Time to Recharge: Flexible paid time off to take the time you need to recharge. * Full-time U.S. employees are eligible for these benefits About Afresh Founded in 2017, Afresh is using AI to tackle the #1 solution to curb climate change: reducing food waste. By building AI specifically for the intricacies of grocery—from the fresh perimeter to the center store—we help grocers minimize waste and maximize sales. Afresh sits at an incredible intersection of positive social impact, rocket ship financial growth, and cutting-edge technology. Our best-in-class AI research has been published in top journals, including ICML, and our investors include Al Gore’s Just Climate, former Whole Foods Market CEO Walter Robb, and Eric Schmidt's Innovation Endeavors. Grocery is the past, present, and future of our food system – the waste we create today will impact our planet for years to come. Join us as we continue to build a vibrant, diverse, and inclusive team that embodies our company’s values of proactivity, kindness, candor, and humility. Afresh provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability, genetics, sexual orientation, gender identity/expression, marital status, pregnancy or related condition, or any other basis protected by law. Here at Afresh, many of our employees work remotely provided that they reside in one of the following states: AL, AR, CA, CO, FL, GA, IL, KY, MA, MI, MT, MO, NV, NJ, NY, NC, OR, PA, TX, WA, UT, VA, WI .",
+      "employment_text": null,
+      "employment_type": null,
+      "first_seen_at": "2026-08-30T21:30:20Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-30T21:30:20Z",
+      "locations": [
+        "San Francisco, CA",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-07-09T21:21:25Z",
+      "provider": "greenhouse",
+      "qualification_status": "qualifying",
+      "semantic_evidence": {
+        "ai_involvement": "official posting describes shipping LLM/agent systems",
+        "compensation": "published USD annual base maximum meets threshold",
+        "employment": "full-time by profile missing-type assumption",
+        "location": "San Francisco",
+        "role_fit": "forward deployed product engineering",
+        "workplace": "hybrid"
+      },
+      "source_id": "afresh-greenhouse",
+      "source_job_id": "6108303004",
+      "stable_id": "job-09b72c9e567d81a118d7cd14",
+      "status": "active",
+      "team": null,
+      "title": "Senior Forward Deployed Engineer",
+      "updated_at": "2026-08-28T21:25:50Z",
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    },
+    {
+      "canonical_url": "https://job-boards.greenhouse.io/afresh/jobs/6108299004",
+      "company_id": "afresh",
+      "compensation": null,
+      "compensation_text": null,
+      "department": "Engineering",
+      "description_text": "Afresh, the AI platform for grocery, began by tackling the most complex problem in the industry: fresh, and has evolved into the core AI platform for grocers. By leveraging proprietary AI designed for high-volatility environments, we empower partners like Albertsons, Meijer, and Wakefern to drive smarter decisions across their entire enterprise. Following record-breaking 70% revenue growth in 2025, we have scaled to 6 enterprise-grade solutions, with solutions live in over 10% of the U.S. grocery market. Our platform now orchestrates billions of decisions from the store floor to the distribution center and prevented over 200 million pounds of food waste last year alone. If you're looking for a role where your work directly translates into massive scale and social good, and you want to be part of the team that defines how the world eats, there is no better time to join us. About the Role Most companies make you choose: build the platform, or go deploy it. Here you do both — and that's the point. As a Staff Forward Deployed Engineer, you're part of a single team that both delivers Afresh's AI into enterprise grocery customers and builds the platform that makes that delivery fast. You'll spend dedicated time in the field — embedded with a customer, integrating into their data, shipping AI systems on top of it — and dedicated time on the platform, turning what you just learned into reusable tooling the whole team deploys next. You build the house you live in. Afresh leads the customer relationship and direction; you and a small team bring the technical firepower — scope and architect the work with the customer, then build it. Because you also own the platform underneath, the rough edges you hit in the field become the things you fix at the root. This is senior, hands-on, 0-to-1 work in a space with no playbook. What You'll Do In the field (forward deployed) Partner with Afresh's account lead and the customer's technical teams to scope and architect the work — the data sources, the architecture, and the path to production. Embed with the customer's data and engineering teams (remote and on-site); integrate into their cloud and data platform; build production-grade pipelines and model messy enterprise data into trustworthy data products. Design and ship LLM- and agent-powered systems on that data — retrieval, agentic workflows, data-quality and analytics agents — reliable enough to run in production, not just to demo. On the platform (building the house you live in) Harden what works in the field into the shared platform: the knowledge and grounding layer (knowledge graph, ontology, and retrieval) that makes grocery data usable by LLMs, the agent frameworks, and the serving infrastructure. Build the evals, tracing, and tooling that let the team measure quality — accuracy, hallucination rate, latency, cost — and ship faster on the next customer. Build for leverage: clean interfaces and reusable building blocks, not one-off per-customer code. Across both Own the flywheel: field learnings flow straight into the platform, and platform improvements show up at the next customer. What Makes You a Great Fit We encourage all highly-qualified candidates to apply, even if they do not fulfill all the listed criteria. 5+ years building production software and data systems, with strong, production-grade code An architect's instinct: you can take an ambiguous problem and a messy data landscape, design a clean and workable solution, and then build it. Genuine AI/LLM depth — you've built real systems with LLMs and agents (retrieval/RAG, tool-use) and you evaluate quality rather than eyeball it. Real data-engineering depth : building and operating data pipelines, modeling messy enterprise data, and working in a modern cloud data platform (Databricks, BigQuery, Snowflake, or similar). Range across both modes — you genuinely like being in front of customers and going heads-down to build reusable infrastructure, and you can switch between them without one suffering. This is the role's defining trait. Customer-facing comfort: you work well with a customer's engineers and data teams — running working sessions, explaining your thinking, and earning trust through what you deliver. A bias toward ownership and momentum, and comfort traveling to customer sites regularly (~10-20%). Nice to Have Experience in grocery, retail, or supply chain data domains. Knowledge graphs, ontologies, or semantic layers in production; graph and vector stores (pgvector, Pinecone, Weaviate) and hybrid search. MCP or similar tool/context protocols; agent frameworks (e.g., LangGraph); MLOps, model serving, and observability for LLM systems. Prior forward-deployed, solutions, or implementation engineering — or early-stage startup experience navigating rapid customer expansion. Why Afresh? We're a mission-driven company that eliminates hundreds of millions of pounds of food waste in grocery stores every year — your work has direct, visible impact. You'll do both halves of the job: deploy with customers and build the platform you deploy — never a body-shop consultant, never an ivory-tower platform engineer. Be part of an engineering culture that's genuinely AI-forward — we want to be on the bleeding edge of agentic development, not watching from the sidelines. Senior team, high trust, and real ownership at a pivotal inflection point for how Afresh scales. Collaborative, supportive environment & awesome people This is a hybrid role based in the San Francisco office (3 days/week) This position is not eligible for company sponsorship. Salary Band in U.S. (USD): $168,912-$253,368 + meaningful early-stage equity + benefits Why You’ll Love Working at Afresh At Afresh, our mission to eliminate food waste starts with investing in our people. We provide a comprehensive support system designed to help you do your best work while maintaining a healthy, balanced life. Comprehensive Health & Wellness: Comprehensive medical, dental, and vision coverage for you and your family, with the majority of premiums covered by Afresh. We also provide dedicated mental health support and counseling services. Invested in Your Future: Competitive base salary, meaningful equity (U.S. employees), and a 401(k) program with a generous company match. Flexible & Modern Workspace: Whether you work from home or a local office, we support your setup with a home office stipend and \"Coworking Wallets\" for flexible workspace access. Growth-Obsessed Culture: We believe in continuous learning. Every employee receives an annual professional development budget to master new skills and grow their career at Afresh. Holistic Monthly Stipends: Beyond your paycheck, we provide monthly stipends for \"Betterment\" (wellness/lifestyle) and telecommunications to ensure you have what you need to thrive. Time to Recharge: Flexible paid time off to take the time you need to recharge. * Full-time U.S. employees are eligible for these benefits About Afresh Founded in 2017, Afresh is using AI to tackle the #1 solution to curb climate change: reducing food waste. By building AI specifically for the intricacies of grocery—from the fresh perimeter to the center store—we help grocers minimize waste and maximize sales. Afresh sits at an incredible intersection of positive social impact, rocket ship financial growth, and cutting-edge technology. Our best-in-class AI research has been published in top journals, including ICML, and our investors include Al Gore’s Just Climate, former Whole Foods Market CEO Walter Robb, and Eric Schmidt's Innovation Endeavors. Grocery is the past, present, and future of our food system – the waste we create today will impact our planet for years to come. Join us as we continue to build a vibrant, diverse, and inclusive team that embodies our company’s values of proactivity, kindness, candor, and humility. Afresh provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability, genetics, sexual orientation, gender identity/expression, marital status, pregnancy or related condition, or any other basis protected by law. Here at Afresh, many of our employees work remotely provided that they reside in one of the following states: AL, AR, CA, CO, FL, GA, IL, KY, MA, MI, MT, MO, NV, NJ, NY, NC, OR, PA, TX, WA, UT, VA, WI .",
+      "employment_text": null,
+      "employment_type": null,
+      "first_seen_at": "2026-08-30T21:30:20Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-30T21:30:20Z",
+      "locations": [
+        "San Francisco, CA",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-07-09T21:31:39Z",
+      "provider": "greenhouse",
+      "qualification_status": "qualifying",
+      "semantic_evidence": {
+        "ai_involvement": "official posting describes shipping LLM/agent systems",
+        "compensation": "published USD annual base maximum meets threshold",
+        "employment": "full-time by profile missing-type assumption",
+        "location": "San Francisco",
+        "role_fit": "forward deployed product engineering",
+        "workplace": "hybrid"
+      },
+      "source_id": "afresh-greenhouse",
+      "source_job_id": "6108299004",
+      "stable_id": "job-1da30a5902740f32e853e51d",
+      "status": "active",
+      "team": null,
+      "title": "Staff Forward Deployed Engineer",
+      "updated_at": "2026-08-26T22:33:49Z",
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    }
+  ],
+  "last_attempt_at": "2026-08-30T21:30:20Z",
+  "last_successful_scan_at": "2026-08-30T21:30:20Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 11,
+    "role_fit_excluded": 3,
+    "total": 14
+  },
+  "revision": 2,
+  "schema_version": 1,
+  "source_id": "afresh-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

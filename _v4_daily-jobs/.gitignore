@@ -1,0 +1,12 @@
+.venv/
+*.egg-info/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.lock
+*.journal.json
+data/results/companies/*.json
+data/results/jobs/*.json
+data/telemetry/*.jsonl
+!data/results/companies/.gitkeep
+!data/results/jobs/.gitkeep

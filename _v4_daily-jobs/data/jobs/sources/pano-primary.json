@@ -1,0 +1,77 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:13:14Z",
+      "attempt_id": "attempt:fbb01769-c1f5-48ae-b7b1-370b0be00b34",
+      "result_digest": "11f16ed2279fc85baf74fbc06e53df474739436f6b9d96340e3c01072d691373",
+      "task_id": "source:pano-primary:luna:4f0e0ef96aae486d",
+      "transaction_id": "txn:11f16ed2279fc85baf74fbc0"
+    }
+  ],
+  "company_id": "pano",
+  "current_job_count": 17,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/pano-ai/d844c21f-9783-4918-beb3-2a82ed5ffdb8",
+      "company_id": "pano",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 255000,
+        "minimum": 195000,
+        "period": "year",
+        "source_text": "$195K - $255K"
+      },
+      "compensation_text": "$195K - $255K",
+      "department": "Product & Engineering",
+      "description_text": "HELP US TACKLE THE GROWING WILDFIRE CRISIS WITH THE LATEST ADVANCEMENTS IN AI AND IOT WHO WE ARE The challenge: Every minute matters in wildfire response. As climate change increases the frequency and intensity of wildfires—with longer fire seasons, drier fuels, and more extreme weather—new ignitions can spread rapidly, putting communities, critical infrastructure, and ecosystems at risk. Today, many wildfires are first reported by members of the public, meaning it can take valuable time to detect a fire, confirm its location and size, and mobilize responders. Fire agencies need faster, more reliable ways to detect, verify, and pinpoint new ignitions so they can respond quickly and prevent small fires from becoming catastrophic events. About Pano AI: Pano AI is the leader in AI-powered wildfire detection and intelligence, helping fire professionals detect, respond to, and contain wildfires faster and more safely. Our platform combines advanced hardware, software, artificial intelligence, satellite imagery, and other data sources to provide real-time situational awareness and actionable intelligence. Using a network of ultra-high-definition, 360-degree cameras positioned across high vantage points, Pano AI delivers a real-time view of wildfire activity, enabling faster, more informed decision-making when every second counts. We are a team of more than 175 people working in a hybrid-remote environment across North America and Australia, with headquarters in San Francisco. Our customers include government agencies, utilities, insurers, and private landowners who rely on Pano AI to help protect people, property, and natural landscapes. Pano AI currently serves customers across the United States, Australia, and Canada, monitoring more than 50 million acres worldwide. Our values are part of everything we do at Pano AI. They guide how we work together, how we serve our customers, and how we approach our mission. Impact: As we scale our business, we grow our impact—enabling emergency managers to protect people, infrastructure, and the environment from devastating wildfires. Service: We serve those who serve, and the teammates beside us. Trust: We earn trust through integrity, accountability, and an obsession with quality so that our partners can rely on us. Excellence and Speed: We produce exceptional work quickly because our mission demands both precision and urgency. Innovation: We apply cutting-edge technology to what we build and how we work. Our work has been recognized by Fast Company as one of the Top 10 Most Innovative AI Companies in 2023 https://www.fastcompany.com/90846670/most-innovative-companies-artificial-intelligence-2023 and one of the World's Most Innovative Companies in 2026 https://www.fastcompany.com/91502951/pano-ai-most-innovative-companies-2026, ranking #1 in Sustainability. We have also been named to TIME's https://www.linkedin.com/company/time/ list of the 100 Most Influential Companies of 2025 https://time.com/collections/time100-companies-2025/7289577/pano-ai/ and recognized by MIT Technology Review https://www.technologyreview.com/2024/10/01/1104375/2024-climate-tech-companies-pano-ai-fire-detecting-ai/as one of the top climate technology companies to watch. Backed by $89 million in funding https://techcrunch-com.cdn.ampproject.org/c/s/techcrunch.com/2023/07/10/pano-series-a-extension/amp/ from leading investors including Giant Ventures, Liberty Mutual Ventures, Tokio Marine Future Fund, Congruent Ventures, Initialized Capital, Salesforce Ventures, and T-Mobile Ventures, we're building technology that helps communities around the world become more resilient to wildfire. Learn more at www.pano.ai http://www.pano.ai. THE ROLE We are building the next generation of cloud/edge-based vision systems that combine computer vision, edge AI, PTZ cameras, and cloud intelligence to deliver real-time situational awareness for wildfire detection and beyond. As a Senior AI/Computer Vision Engineer, you will lead the design, development, optimization, and deployment of AI models and inference pipelines across cloud and edge platforms. You will advance our wildfire detection capabilities while developing vision algorithms for complex outdoor-scene understanding, including vegetation and asset detection, object localization, and spatial reasoning—for example, estimating distances between detected objects and critical infrastructure. You will also develop speech recognition technologies for fire-related radio communications. This is a hands-on technical leadership role with significant ownership of our edge AI and computer vision roadmap. What you’ll do - Design and implement cloud/edge AI architectures for real-time computer vision applications. - Develop computer vision models for: - Wildfire smoke detection - Vegetation detection and classification - Asset detection (e.g., power lines, utility poles, buildings, roads) - Scene understanding and semantic segmentation - Spatial reasoning, including estimating distances and relationships between detected objects and nearby assets - Develop speech recognition models for fire-related radio communications - Build lightweight detection, segmentation, classification, and temporal reasoning models for real-time inference. - Port and optimize deep learning models for ARM64, CUDA, TensorRT, ONNX, and NVIDIA Jetson platforms. - Build and optimize both cloud and edge inference pipelines for RGB, NIR, PTZ, and multi-camera systems. - Develop hybrid edge-cloud AI workflows that balance latency, bandwidth, and compute efficiency. - Improve inference latency, throughput, memory usage, and power efficiency. - Lead model compression efforts, including quantization, pruning, and knowledge distillation. - Design deployment, monitoring, OTA update, and observability capabilities for edge AI systems. - Collaborate closely with AI researchers, software engineers, hardware engineers, data engineers, and product teams. - Mentor junior engineers and establish best practices for edge AI and computer vision development. What you’ll bring Required - MS or PhD in Computer Science, Electrical Engineering, Robotics, or a related field. - 5+ years of industry experience in computer vision or machine learning. - Strong experience with PyTorch and modern deep learning architectures. - Experience deploying AI models to edge devices such as NVIDIA Jetson, embedded GPUs, or similar platforms. - Strong understanding of CUDA, TensorRT, ONNX, model optimization, and inference acceleration. - Experience with one or more of the following: - Object detection - Semantic or instance segmentation - Image classification - Video understanding - Multi-object tracking - Depth estimation or 3D computer vision - Speech recognition - Strong Python and C++ programming skills. Preferred - Experience with outdoor vision systems, autonomous systems, robotics, surveillance, remote sensing, or geospatial AI. - Experience with PTZ camera systems. - Experience with multi-camera calibration, localization, and distributed camera systems. - Experience with spatial AI, scene understanding, or geometric computer vision. - Experience estimating object distances or reasoning about spatial relationships using monocular, stereo, or multi-view imagery. - Experience with MLOps and continuous learning pipelines. - Familiarity with foundation vision models (e.g., DINOv2/DINOv3, SAM, Grounding DINO, Florence, or similar) is a plus. Final compensation for regular full-time employees is determined by a variety of factors, including job-related qualifications, education, experience, skills, knowledge, and geographic location. In addition to base salary, regular full-time roles are eligible for equity. Benefits are tailored to local market standards and statutory requirements in the employee's country of employment, and may include health coverage, retirement or pension contributions, and paid time off. Specific benefit details will be shared during the interview process.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:12:58Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:12:58Z",
+      "locations": [
+        "San Francisco, California",
+        "United States",
+        "US - Remote"
+      ],
+      "posted_at": "2026-08-03T22:16:40Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "Title is Senior AI/Computer Vision Engineer, directly indicating an AI engineering role.",
+        "The listing includes San Francisco, California, hybrid work, and a published maximum base compensation of USD 255,000/year."
+      ],
+      "source_id": "pano-primary",
+      "source_job_id": "d844c21f-9783-4918-beb3-2a82ed5ffdb8",
+      "stable_id": "job-eb5876c8fdc02a1cc0a1fc13",
+      "status": "active",
+      "team": "AI / Computer Vision",
+      "title": "Senior AI/Computer Vision Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:12:58Z",
+  "last_successful_scan_at": "2026-08-31T15:12:58Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 9,
+    "compensation_currency_mismatch": 1,
+    "location_outside_target_city": 1,
+    "semantic_non_target": 1,
+    "title_explicitly_non_target_function": 7,
+    "total": 16,
+    "workplace_remote_excluded": 11
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "pano-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,105 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:00:52Z",
+      "attempt_id": "attempt:a9c81b1e-9ad0-4252-b410-3be3dbcbfee7",
+      "result_digest": "57d39cd7aa5c200e24da4a6291484dc0fe71692c80e6ac041b86e7d8ff02343a",
+      "task_id": "source:lightfield-ashby:luna:f93fb4a64deabad0",
+      "transaction_id": "txn:57d39cd7aa5c200e24da4a62"
+    }
+  ],
+  "company_id": "lightfield",
+  "current_job_count": 18,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/Lightfield/4386721e-6c4b-44fd-9a0f-9ba3311cf3d0",
+      "company_id": "lightfield",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 300000,
+        "minimum": 220000,
+        "period": "year",
+        "source_text": "$220K - $300K"
+      },
+      "compensation_text": "$220K - $300K",
+      "department": "Engineering",
+      "description_text": "ABOUT LIGHTFIELD Lightfield is an AI-native CRM that assembles itself from your email, calendar, and meetings. It captures every interaction and turns it into organized context: accounts, tasks, follow-ups, and insights, so nothing slips through the cracks. We’re rethinking CRM from first principles. Instead of forcing teams to maintain rigid systems, Lightfield learns from how companies actually work, adapting, automating, and surfacing the insight that drives growth. We’re building the CRM platform we always wished existed: fast, intelligent, and genuinely helpful. The market agrees. Over 5,000 companies have used Lightfield since we launched in November, making us the fastest-adopted product in our category. We are backed by Greylock, Lightspeed, and Coatue, and our founders previously built Tome, a generative AI presentation product used by over 25 million people. Before Lightfield, our team worked on Llama, Instagram, Facebook Messenger, Pinterest, Google, and Salesforce. ABOUT THE ROLE We’re looking for an experienced engineer who is product-minded, eager to tackle the challenge of building highly scalable, performant, and reliable features and systems that deliver exceptionally innovative AI product experiences. At Lightfield, engineers take end-to-end ownership of projects from inception to impact, collaborating across functions and pushing the envelope on what’s possible in applied AI systems development. You’ll work alongside a talented team to deliver industry-leading solutions and play a key role in shaping Lightfield’s product and technical vision. WHAT YOU’LL DO - Collaborate with product leaders to define strategic initiatives, identify critical customer problems, and drive requirements into technical execution. - Build and maintain complex full-stack product features and systems, end-to-end, ensuring reliability, scalability, and performance. - Develop observability and metrics to enable smooth operation, proactive issue detection, and continuous improvement. - Lead technical design discussions, mentor teammates at multiple levels, conduct thorough code reviews, and help set engineering best practices and standards. - Contribute to building a world-class engineering team through recruiting, mentorship, and knowledge-sharing. WHO YOU ARE - 7+ years of experience in software development, with a strong background in both front-end and back-end technologies. - Experience building large-scale, high-performance, and mission-critical systems that support complex customer workflows and large-scale data processing. - You’re excited about Large Language Models (LLMs) and the opportunity to build systems that support and leverage them. - You have the ability to ramp quickly on tech stack that features TypeScript, React, Next.js, Node.js, Apollo GraphQL, and PostgreSQL. - Proven ability to design, architect, and scale distributed systems in production environments. - Strong fundamentals in software engineering, with a degree in Computer Science or a related field (or equivalent industry experience). - Thrives in ambiguity, able to independently scope, plan, and lead projects while delivering results in a fast-moving environment. - Clear communicator, capable of articulating technical decisions to both technical and non-technical stakeholders. - Passionate about building products customers love, ensuring our CRM is intuitive, intelligent, and indispensable. BENEFITS & PERKS - Competitive salary - Meaningful early equity - Health insurance (medical, dental, vision) - 3 weeks of PTO - 11 paid company holidays + we enjoy a winter holiday break - 3 months of paid family leave - Wednesdays work from home - Regular team dinners, events, offsites, and retreats - 401k plan - Other perks include: commuter and lunch stipend",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:00:37Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:00:37Z",
+      "locations": [
+        "HQ: San Francisco",
+        "San Francisco, California, USA"
+      ],
+      "posted_at": "2026-08-02T20:01:04Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "lightfield-ashby",
+      "source_job_id": "4386721e-6c4b-44fd-9a0f-9ba3311cf3d0",
+      "stable_id": "job-097d25f672da5ac8f00304ed",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Software Engineer, Full Stack (Staff)",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/Lightfield/b32dc57b-ffa0-4bb7-99c8-f469c3876002",
+      "company_id": "lightfield",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 300000,
+        "minimum": 220000,
+        "period": "year",
+        "source_text": "$220K - $300K"
+      },
+      "compensation_text": "$220K - $300K",
+      "department": "Engineering",
+      "description_text": "ABOUT LIGHTFIELD Lightfield is an AI-native CRM that assembles itself from your email, calendar, and meetings. It captures every interaction and turns it into organized context: accounts, tasks, follow-ups, and insights, so nothing slips through the cracks. We’re rethinking CRM from first principles. Instead of forcing teams to maintain rigid systems, Lightfield learns from how companies actually work, adapting, automating, and surfacing the insight that drives growth. We’re building the CRM platform we always wished existed: fast, intelligent, and genuinely helpful. The market agrees. Over 5,000 companies have used Lightfield since we launched in November, making us the fastest-adopted product in our category. We are backed by Greylock, Lightspeed, and Coatue, and our founders previously built Tome, a generative AI presentation product used by over 25 million people. Before Lightfield, our team worked on Llama, Instagram, Facebook Messenger, Pinterest, Google, and Salesforce. ABOUT THE ROLE We’re looking for a driven, creative engineer who is excited about the challenge of leveraging LLMs to build exceptionally innovative product experiences. You’ll join us at the frontier of AI product development, developing industry-leading approaches to solve important customer problems. Engineers at Lightfield own and drive projects from inception to impact, working with teammates of all functions along the way. You’ll also push our company’s overall product and technical vision as we learn from each project and continue to scale. WHAT YOU'LL DO - Collaborate with product leaders to identify customer problems, scope requirements, and implement LLM-powered solutions. - Apply LLMs as reasoning engines to build domain-specific AI assistants. - Create and enhance prompts, applying techniques like few-shot learning and chain-of-thought. - Develop and optimize end-to-end RAG pipelines and agent architectures to leverage public and proprietary data. - Improve end-to-end AI agent quality (e.g. relevance, fidelity, latency) via empirical evaluation and iteration. - Build and enhance systems and tools that enable high-velocity experimentation (e.g. LLM-powered automated evaluation) and customized product experiences. - Stay at the forefront of AI research and incorporate state-of-the-art techniques. - Shape technical direction and best practices for AI application development at Lightfield. - Help build a world-class engineering team by recruiting and mentoring teammates. WHO YOU ARE - You have 7+ years experience and the ability to ramp up quickly on a tech stack that features TypeScript, React, Next.js, Node.js, Apollo GraphQL, and Aurora PostgreSQL. - You have explored working with LLMs, either through professional projects or personal experimentation. - You have a degree in Computer Science or a related field, with a strong foundation in software engineering principles. - You are familiar with AI and ML concepts (e.g. training, evaluation techniques). - You are passionate about keeping up with and exploring the latest advancements in LLMs and LLMOps (including open source solutions). - You are excited to develop new best practices in an emerging domain. - You can drive a project with an ambiguous problem independently. - You enjoy strategically balancing ambitious vision with frequent delivery of user value. - You are able to clearly communicate your reasoning and decisions to your teammates (technical and nontechnical) at an appropriate altitude of detail. - You are energized by building software experiences customers will use directly and depend on to do their jobs successfully. BENEFITS & PERKS - Competitive salary - Meaningful early equity - Health insurance (medical, dental, vision) - 3 weeks of PTO - 11 paid company holidays + we enjoy a winter holiday break - 3 months of paid family leave - Wednesdays work from home - Regular team dinners, events, offsites, and retreats - 401k plan - Other perks include: commuter and lunch stipend",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:00:37Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:00:37Z",
+      "locations": [
+        "HQ: San Francisco",
+        "San Francisco, California, USA"
+      ],
+      "posted_at": "2026-05-14T20:23:25Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "lightfield-ashby",
+      "source_job_id": "b32dc57b-ffa0-4bb7-99c8-f469c3876002",
+      "stable_id": "job-3364503dc1eae07a63effb09",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Software Engineer, Applied AI (Staff)",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:00:37Z",
+  "last_successful_scan_at": "2026-08-31T15:00:37Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 3,
+    "location_outside_target_city": 1,
+    "title_explicitly_non_target_function": 14,
+    "total": 18
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "lightfield-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

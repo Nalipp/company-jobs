@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:34:22Z",
+      "attempt_id": "attempt:12f5a49f-3df9-416d-9ed7-04a9dc66850f",
+      "result_digest": "83a5b9579c8453b2dce610df35bdf372c32fdb353f59d00c81adb09aa2d96571",
+      "task_id": "source:checkr-primary:luna:57903e7cf0bcfd77",
+      "transaction_id": "txn:83a5b9579c8453b2dce610df"
+    }
+  ],
+  "company_id": "checkr",
+  "current_job_count": 46,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:34:08Z",
+  "last_successful_scan_at": "2026-08-31T03:34:08Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 17,
+    "location_outside_target_city": 10,
+    "title_explicitly_non_target_function": 23,
+    "total": 46
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "checkr-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

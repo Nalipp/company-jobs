@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:the-athletic:luna:70b28210dfaa4284",
+  "attempt_id": "attempt:3cab071f-3902-43f9-9240-a04edd537b5c",
+  "claim_token": "MRBZGjcOpqLC589XUi-En4kV86FElfVEnMQ69cIonC4",
+  "model": "luna",
+  "created_at": "2026-09-01T18:02:13Z",
+  "target": {"company_ids": ["the-athletic"], "source_ids": ["the-athletic-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [{"url": "https://theathletic.com/", "retrieved_at": "2026-09-01T18:02:45Z", "evidence_type": "official_company_page", "finding": "The saved official The Athletic domain could not be opened in this bounded pass. A Lever board appeared in search, but no employer-controlled The Athletic page was available to establish that board as an official reusable source; it was not accepted."}],
+  "patch": {"company_id": "the-athletic", "expected_record_revision": 1, "company_changes": {}, "source_upserts": [{
+    "source_id": "the-athletic-primary", "company_id": "the-athletic", "expected_record_revision": 1, "careers_url": null, "listings_url": null, "provider": "unknown", "board_id": null, "access_mode": null, "scope": "All The Athletic roles", "instructions": "Recheck the official company website for an employer-controlled careers or job-listing destination; do not accept third-party boards without an established official relationship.", "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false}, "status": "no_careers_found", "official_relationship_url": "https://theathletic.com/", "checked_at": "2026-09-01T18:02:45Z", "last_success_at": null, "added_date": "2026-08-28T22:59:10Z", "updated_date": "2026-09-01T18:02:45Z"
+  }]},
+  "item_results": [{"item": "the-athletic-primary", "status": "resolved", "summary": "No employer-controlled careers source safely established; third-party Lever board rejected."}],
+  "failure_class": null,
+  "notes": "No canonical company identity or address change supported."
+}

@@ -1,0 +1,160 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:21:24Z",
+      "attempt_id": "attempt:ae7ea296-99b7-44c9-92ca-ce09ef916a15",
+      "result_digest": "3da93671cc151b2ec91e63fc725ac5506606fbb0897f1a7a1ddafce1d327108b",
+      "task_id": "source:salient-primary:luna:07fa0d3b41de071b",
+      "transaction_id": "txn:3da93671cc151b2ec91e63fc"
+    }
+  ],
+  "company_id": "salient",
+  "current_job_count": 12,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/salient/03ec52e9-746f-45e0-8cb5-0fdf057e4ed3",
+      "company_id": "salient",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 260000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $260K"
+      },
+      "compensation_text": "$200K - $260K",
+      "department": "Engineering",
+      "description_text": "ABOUT US Salient builds AI agents for regulated financial services. Our agents automate loan servicing, compliance, collections, recovery, insurance claims, and disputes for banks, captives, and specialty lenders. We are: - Backed by a16z and Y Combinator, with $75M raised in Series A funding - Cash flow positive and profitable, with mid eight figure ARR achieved in under two years - Already serving more than 20% of the auto lending industry - Processing millions of real customer calls and transactions every day - Fully deployed in production with major financial institutions - Actively expanding into new financial services segments - Building together in person in San Francisco We are deeply integrated with our customers, own the full technology stack, and move quickly to bring modern AI into regulated industries where precision, reliability, and performance matter. About the Role We're seeking a Sr Software Engineer, Product to help us reshape how millions of loans are serviced through artificial intelligence. As a Product Engineer at Salient, you'll build and enhance our AI platform that automates and improves every aspect of loan servicing - from payment processing to fraud prevention to customer support. You will be responsible for both the 0→1 MVP development and the 1→10 growth and scaling of a product. You'll work directly on features that help lenders better serve their customers while improving compliance and reducing risk. Responsibilities - Develop complete features across both frontend and backend layers of our application - Write clean, maintainable, and efficient code with appropriate test coverage - Troubleshoot and debug complex issues across the technology stack - Optimize application performance and scalability - Own both product manager and software engineer responsibilities - Balance technical considerations with user needs and business goals - Incorporate customer feedback into product and features Requirements - 4+ years of software engineering experience - Strong Python proficiency - Proven track record of shipping user-focused products - Excellence in cross-functional collaboration and communication - Deep empathy for user needs and passion for user experience - Enjoy being hacky - getting something out to the customer as soon as possible - Experience building scalable systems - We’re hiring for full stack and backend roles - Ability to work 4 days a week from our San Francisco office (open to candidates willing to relocate) Nice to Have - Experience in highly regulated industry - Combination of both big tech and start-up experience - Knowledge of auto loan servicing At Salient, we’re building at the edge of AI - fast, focused, and with real ownership. Sprints and major launches move quickly, and we look for people who are energized by that pace. Our team typically works around 60 hours per week, beginning at 8:00 AM, with four days spent collaborating in person at our San Francisco office. We also offer a benefits package designed to support our full-time employees: medical, dental, and vision coverage, a generous 401(k), and catered lunches. By applying, you acknowledge that your personal information will be processed in accordance with our Privacy Policy https://www.trysalient.com/legal/privacy-policy.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:21:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:21:00Z",
+      "locations": [
+        "SF Headquarters",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-08-05T09:03:19Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "published USD annual base maximum at least $250,000",
+        "full-time product/full-stack/applied-AI engineering role with job-specific AI work"
+      ],
+      "source_id": "salient-primary",
+      "source_job_id": "03ec52e9-746f-45e0-8cb5-0fdf057e4ed3",
+      "stable_id": "job-1b47bcc58e03d531a8d981e2",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Sr Software Engineer, Product",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/salient/1dcecdaf-190c-476f-8fd1-56be2e715f1e",
+      "company_id": "salient",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 250000,
+        "minimum": 180000,
+        "period": "year",
+        "source_text": "$180K - $250K"
+      },
+      "compensation_text": "$180K - $250K",
+      "department": "Engineering",
+      "description_text": "ABOUT US Salient builds AI agents for regulated financial services. Our agents automate loan servicing, compliance, collections, recovery, insurance claims, and disputes for banks, captives, and specialty lenders. We are: - Backed by a16z and Y Combinator, with $75M raised in Series A funding - Cash flow positive and profitable, with mid eight figure ARR achieved in under two years - Already serving more than 20% of the auto lending industry - Processing millions of real customer calls and transactions every day - Fully deployed in production with major financial institutions - Actively expanding into new financial services segments - Building together in person in San Francisco We are deeply integrated with our customers, own the full technology stack, and move quickly to bring modern AI into regulated industries where precision, reliability, and performance matter. ABOUT THE ROLE We are looking for a frontend focused Full Stack Engineer to build powerful, intuitive product experiences that help users understand and act on complex data. You will primarily own our frontend systems and user experience while working across APIs, backend services, data models, and infrastructure when needed to deliver complete solutions. You will collaborate closely with product, design, AI, engineering, and customers to turn ambiguous problems into polished, production ready features. This role requires more than strong execution. We are looking for someone who is highly proactive, takes full ownership of outcomes, and does not wait to be told what to do. You should naturally identify gaps, clarify ambiguity, surface risks early, and drive work forward across teams. You will be an early and visible member of a small, fast moving engineering team, owning features from problem definition through launch and iteration, contributing to frontend architecture and product strategy, and helping shape the future of our products as we scale. WHAT YOU’LL DO - Own product features end to end, from initial problem definition through implementation, launch, adoption, and iteration - Design and implement responsive, performant user interfaces using React and TypeScript - Translate complex financial and operational workflows into simple, intuitive product experiences - Work across frontend applications, APIs, backend services, and data models to deliver complete solutions - Proactively identify product, usability, and technical gaps and drive them toward resolution - Work directly with customers and internal stakeholders to understand their workflows and uncover problems that may not yet have clearly defined requirements - Collaborate across product, design, AI, and engineering to make decisions and ship quickly - Help define frontend architecture and build reusable, scalable UI components - Integrate frontend applications with APIs, services, and AI driven workflows - Ship clean, testable, and maintainable code on a rapid release cycle - Monitor how your work performs in production and take responsibility for fixing issues and improving outcomes - Surface blockers, risks, and missed expectations early rather than waiting for them to become larger problems - Advocate for the customer in product and engineering discussions WHAT YOU’LL BRING - 4 or more years of experience building production software, with deep expertise in frontend development and experience working across the stack - Strong proficiency in React, TypeScript, modern JavaScript, and frontend tooling - Experience building or integrating with APIs, backend services, and production data systems - Deep understanding of responsive design, browser performance, accessibility, and maintainable UI architecture - A strong sense of ownership. You take responsibility for the quality, delivery, and impact of your work - A highly proactive working style. You identify what needs to happen next and move it forward without waiting for detailed direction - A bias for action. You make thoughtful, pragmatic tradeoffs and maintain momentum in ambiguous situations - Strong product judgment and the ability to turn loosely defined customer problems into concrete solutions - A customer obsessed mindset. You engage with users, understand their workflows, and translate their pain points into product improvements - The ability to operate independently while collaborating closely with a fast moving team - A habit of communicating progress, risks, and tradeoffs clearly and early - High standards for quality without allowing perfectionism to prevent shipping - Comfort working in an environment where feedback comes directly from production users and enterprise partners - Excellent written and verbal communication skills - Located in, or willing to relocate to, San Francisco At Salient, we’re building at the edge of AI - fast, focused, and with real ownership. Sprints and major launches move quickly, and we look for people who are energized by that pace. Our team typically works around 60 hours per week, beginning at 8:00 AM, with four days spent collaborating in person at our San Francisco office. We also offer a benefits package designed to support our full-time employees: medical, dental, and vision coverage, a generous 401(k), and catered lunches. By applying, you acknowledge that your personal information will be processed in accordance with our Privacy Policy https://www.trysalient.com/legal/privacy-policy.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:21:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:21:00Z",
+      "locations": [
+        "SF Headquarters",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-07-13T15:33:48Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "published USD annual base maximum at least $250,000",
+        "full-time product/full-stack/applied-AI engineering role with job-specific AI work"
+      ],
+      "source_id": "salient-primary",
+      "source_job_id": "1dcecdaf-190c-476f-8fd1-56be2e715f1e",
+      "stable_id": "job-cdb026561fa464a810f51e0c",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Full Stack Engineer, Front-End",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/salient/5bef27e7-17b3-4ad0-93e0-9e430409acd4",
+      "company_id": "salient",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 300000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $300K"
+      },
+      "compensation_text": "$200K - $300K",
+      "department": "Applied AI",
+      "description_text": "ABOUT US Salient builds AI agents for regulated financial services. Our agents automate loan servicing, compliance, collections, recovery, insurance claims, and disputes for banks, captives, and specialty lenders. We are: - Backed by a16z and Y Combinator, with $75M raised in Series A funding - Cash flow positive and profitable, with mid eight figure ARR achieved in under two years - Already serving more than 20% of the auto lending industry - Processing millions of real customer calls and transactions every day - Fully deployed in production with major financial institutions - Actively expanding into new financial services segments - Building together in person in San Francisco We are deeply integrated with our customers, own the full technology stack, and move quickly to bring modern AI into regulated industries where precision, reliability, and performance matter. ABOUT THE ROLE We’re looking for a Member of Technical Staff to help build the speech and language models behind Salient’s production voice agents. You’ll work on challenging problems in speech and language modeling. Many of these problems look solved in academic benchmarks, but remain deeply unsolved in real-world production. This is a high-ownership role on a small, elite team. You’ll own core parts of the system end to end, and everything you do will have direct revenue impact. WHAT YOU’LL DO - Build and improve production speech models and systems with the ultimate goal of improving real-time conversational quality. - Post-train LLMs for voice agents used for consumer finance. - Develop evals, harnesses, and monitoring systems. - Work across models, data, infrastructure, and product to improve end-to-end agent quality. - Own major technical areas with significant autonomy, from problem definition to production deployment. WHAT WE’RE LOOKING FOR - Strong engineering fundamentals and ability to build reliable production systems. - Experience with speech modeling, or LLM post-training. - Familiarity with areas such as ASR, TTS, turn detection, speech enhancement, multilingual speech, LLM post-training, or model evaluation. - Ability to diagnose messy real-world model failures and turn them into practical improvements. - High ownership, strong execution speed, and comfort operating in ambiguous technical areas. - Prior experience in speech modeling and LLM post-training is ideal, but not required. We care more about slope, intensity, and technical ability than exact background. - Exceptional engineers who are highly driven and excited to work on hard AI problems are encouraged to apply! WHY JOIN - Work on the full stack of production voice AI. - Own and lead core product areas on a small, high-caliber team. - Ship improvements that affect millions of live conversations. - Tackle real-world speech problems that are still unsolved outside of benchmarks. At Salient, we’re building at the edge of AI - fast, focused, and with real ownership. Sprints and major launches move quickly, and we look for people who are energized by that pace. Our team typically works around 60 hours per week, beginning at 8:00 AM, with four days spent collaborating in person at our San Francisco office. We also offer a benefits package designed to support our full-time employees: medical, dental, and vision coverage, a generous 401(k), and catered lunches. By applying, you acknowledge that your personal information will be processed in accordance with our Privacy Policy https://www.trysalient.com/legal/privacy-policy.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:21:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:21:00Z",
+      "locations": [
+        "SF Headquarters",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-05-20T22:56:41Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "published USD annual base maximum at least $250,000",
+        "full-time product/full-stack/applied-AI engineering role with job-specific AI work"
+      ],
+      "source_id": "salient-primary",
+      "source_job_id": "5bef27e7-17b3-4ad0-93e0-9e430409acd4",
+      "stable_id": "job-f71c18f95e5939daaba08b1a",
+      "status": "active",
+      "team": "Applied AI",
+      "title": "Applied AI Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:21:00Z",
+  "last_successful_scan_at": "2026-08-31T15:21:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 3,
+    "semantic_review_rejected": 4,
+    "title_explicitly_excluded": 1,
+    "title_explicitly_non_target_function": 3,
+    "total": 12
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "salient-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

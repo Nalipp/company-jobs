@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:16:40Z",
+      "attempt_id": "attempt:2f3a4390-9807-4c5a-813b-40db4e35666b",
+      "result_digest": "168392377b4d96a1a19e4cf0f325355400fa872e678a64de48d2c69c4f7e9db9",
+      "task_id": "source:dropbox-primary:luna:825d38bf76199535",
+      "transaction_id": "txn:168392377b4d96a1a19e4cf0"
+    }
+  ],
+  "company_id": "dropbox",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:15:00Z",
+  "last_successful_scan_at": "2026-08-31T22:15:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "location_or_role_mismatch": 42
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "dropbox-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

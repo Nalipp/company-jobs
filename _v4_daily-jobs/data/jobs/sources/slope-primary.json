@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:24:34Z",
+      "attempt_id": "attempt:25b7eb02-5242-4c60-bdc2-046f79ea4589",
+      "result_digest": "88cad3042a744bf49a8746824c944d48a2f2974596713463431121b4af3a3eb4",
+      "task_id": "source:slope-primary:luna:8e78543827de01a5",
+      "transaction_id": "txn:88cad3042a744bf49a874682"
+    }
+  ],
+  "company_id": "slope",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:24:23Z",
+  "last_successful_scan_at": "2026-08-31T15:24:23Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "total": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "slope-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

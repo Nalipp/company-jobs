@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:54:50Z",
+      "attempt_id": "attempt:222aab69-741e-4117-866b-7ef789096d50",
+      "result_digest": "924b57a4f79a0cb87f8cfd6d3510f2e493b64017af79e2507fcb47246ab59b9a",
+      "task_id": "source:honor-greenhouse:luna:5bcc22d7d5197843",
+      "transaction_id": "txn:924b57a4f79a0cb87f8cfd6d"
+    }
+  ],
+  "company_id": "honor",
+  "current_job_count": 12,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:54:38Z",
+  "last_successful_scan_at": "2026-08-31T14:54:38Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 1,
+    "location_outside_target_city": 11,
+    "title_explicitly_non_target_function": 2,
+    "total": 12
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "honor-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

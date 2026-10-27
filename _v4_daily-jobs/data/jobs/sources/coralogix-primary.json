@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:58:35Z",
+      "attempt_id": "attempt:afdf21a3-b54a-4ed5-8ed1-085aea7127cb",
+      "result_digest": "0bfb2b1e886378b175d204713083d6434ee3eb94f35a8d8966b3531cb5262881",
+      "task_id": "source:coralogix-primary:luna:8f24659506a668bc",
+      "transaction_id": "txn:0bfb2b1e886378b175d20471"
+    }
+  ],
+  "company_id": "coralogix",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:10:00Z",
+  "last_successful_scan_at": "2026-08-31T21:10:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "location": 9,
+    "role_fit": 44
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "coralogix-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

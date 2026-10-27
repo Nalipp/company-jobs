@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:37:30Z",
+      "attempt_id": "attempt:4310181e-9c4a-4696-bda6-ee42b83a3f20",
+      "result_digest": "972b331e66e2bb5dea243b7ac9c5b9986e73fa866395540b60d4c72375b2e3a3",
+      "task_id": "source:anodize-greenhouse:luna:28ad416190184868",
+      "transaction_id": "txn:972b331e66e2bb5dea243b7a"
+    }
+  ],
+  "company_id": "anodize",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:37:02Z",
+  "last_successful_scan_at": "2026-08-31T15:37:02Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "ai_involvement_not_explicit": 3,
+    "compensation_below_profile_threshold": 3,
+    "location_outside_target_city": 3,
+    "role_family_mismatch": 3,
+    "total": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "anodize-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:27:06Z",
+      "attempt_id": "attempt:ce4a78f6-3366-4cfd-8281-d95cda22a439",
+      "result_digest": "a46bf4533223ed31f2675ad75145029fd8ad3ae6b2749f36cbb265652375cc30",
+      "task_id": "source:sprig-ashby:luna:fdae2b8030f3811d",
+      "transaction_id": "txn:a46bf4533223ed31f2675ad7"
+    }
+  ],
+  "company_id": "sprig",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:26:53Z",
+  "last_successful_scan_at": "2026-08-31T15:26:53Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "semantic_non_target": 1,
+    "title_explicitly_non_target_function": 2,
+    "total": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "sprig-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

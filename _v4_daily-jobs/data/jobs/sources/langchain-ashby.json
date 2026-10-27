@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:00:19Z",
+      "attempt_id": "attempt:9c6f8c53-ec4d-41dc-bda7-e0c62e3d8208",
+      "result_digest": "06019f34ba8a56d7ea100685cebd2dff2a673eeee93a26e7b07ac53d3a529139",
+      "task_id": "source:langchain-ashby:luna:ee99768d1623108d",
+      "transaction_id": "txn:06019f34ba8a56d7ea100685"
+    }
+  ],
+  "company_id": "langchain",
+  "current_job_count": 107,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:00:07Z",
+  "last_successful_scan_at": "2026-08-31T15:00:07Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 34,
+    "location_outside_target_city": 58,
+    "title_explicitly_non_target_function": 37,
+    "total": 107,
+    "workplace_remote_excluded": 35
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "langchain-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

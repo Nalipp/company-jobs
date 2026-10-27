@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:28:04Z",
+      "attempt_id": "attempt:e9200b26-d7e6-421c-b362-ac0135f9c277",
+      "result_digest": "a756a8f767f72fe3f9d938808ab7a5dcf4dc5a2628bf8c788a2fa59bcadd142c",
+      "task_id": "source:govly-primary:luna:101e7edd599ba679",
+      "transaction_id": "txn:a756a8f767f72fe3f9d93880"
+    }
+  ],
+  "company_id": "govly",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T23:43:00Z",
+  "last_successful_scan_at": "2026-08-31T23:43:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "location_mismatch": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "govly-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

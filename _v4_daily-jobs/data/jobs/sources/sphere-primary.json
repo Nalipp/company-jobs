@@ -1,0 +1,161 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:26:37Z",
+      "attempt_id": "attempt:07d89369-d4a0-4296-8bbb-b7f861484db9",
+      "result_digest": "35e5ef252a8ddf74e737b37bd0d002642af0b92e60a32e3f7a60242624b92cde",
+      "task_id": "source:sphere-primary:luna:c4cade8bf0cbacf0",
+      "transaction_id": "txn:35e5ef252a8ddf74e737b37b"
+    }
+  ],
+  "company_id": "sphere",
+  "current_job_count": 15,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/sphere/a19140ed-172e-4d89-a3d8-27cdc0d369fd",
+      "company_id": "sphere",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 260000,
+        "minimum": 230000,
+        "period": "year",
+        "source_text": "$230K - $260K"
+      },
+      "compensation_text": "$230K - $260K",
+      "department": "Engineering",
+      "description_text": "ABOUT SPHERE Every breakthrough in trade infrastructure has followed the same pattern: reduce a transaction cost, expand the market. Containerization for goods. SWIFT for money. Stripe for payments. Compliance is one of the last and largest — and the hardest, because trade rules aren't data to be looked up. They're a complex adaptive system with 190+ sovereign jurisdictions, in different languages, changing constantly, reacting to each other. Sphere built the system that solves it. Our AI (TRAM) ingests global trade law, interprets it, resolves conflicts across jurisdictions, and produces compliance determinations more reliable than human experts. We handle the entire lifecycle — calculation, registration, filing, remittance — at millisecond latency with zero downtime. - Backed by a16z and YC. $21M Series A, 30%+ month-over-month growth, customers include ElevenLabs, Replit, Deel, Runway, and Lovable. - Small team, global surface area. Everyone owns a domain that would be a full team at a larger company. San Francisco, five days in office. - The problem keeps compounding.Expanding into input tax, withholding, e-invoicing, tariffs — each multiplies the complexity. Tens of millions of transactions today, billions ahead. THE ROLE Sphere is looking for senior full stack engineers who will own and build out new product lines (input tax, withholding tax, e-invoicing, tariffs) as well as mission critical parts of the Sphere platform (filing infrastructure, tax engine and AI / agentic related features). These areas are key levers towards scaling Sphere and growing ARR, meaning that your work will have a direct impact on the growth of the business on a daily basis. WHAT YOU'LL DO Within weeks: - Ship mission critical features that clients will use daily - e.g. filing infrastructure - Own and manage a feature and drive measurable outcomes - Work directly with customers like Eleven Labs, Lovable and Deel to improve / optimize that key component of the platform (e.g. improve filing generation and submission speed [x]%) Within months: - Own the end-to-end development of new products lines that will help build out our AI-native revenue-based compliance platform - Lead / mentor additional engineers in component areas that you have worked in REQUIREMENTS - Experience in Python . Our core application backend and data pipeline services are built with Python and Django - While frontend / React may not be your primary focus, you’re not afraid to dive in when needed - Very strong attention to detail. When you work with numbers this is a non-negotiable - it’s not enough to be 99% right. NICE TO HAVES - Experience working with large volumes of transaction data. You’ll be getting very familiar with it! - Experience with Django or Python ORM WHO YOU ARE You'll thrive here if: - You're a Dog. You've been underestimated, gone through struggle, and never stopped running. You have a chip on your shoulder and enormous drive. You look at Stripe, Deel, and Flexport all punting on compliance and think: good, that means the opportunity is ours. Hunger beats pedigree. - Early stage is in your bones. You've built things where there's no playbook and nobody handing you the answer. You define the problem instead of waiting for instructions. - You own it end to end. Give you a goal and you figure out your own path. Small team, global surface area — everyone owns a domain that would be a full team at a larger company. No one tells you how. - You believe speed and accuracy are both possible. We're building a complex product that requires robustness and 100% uptime, and we have to build at our customers' pace. Move fast. Don't break things. Both. - Being in the room is a feature, not a cost. Five days in SF isn't a policy, it's how the work gets done. The speed and density of collaboration we need doesn't survive over video. This won't be a fit if: - You need structure handed to you or ambiguity feels draining rather than motivating - You want to manage people more than own hard problems (we're a flat, experienced team — everyone builds) - You're used to \"good enough\" shipping (small errors have outsized impact here) - Being in the room five days a week feels like a cost instead of a benefit",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:26:19Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:26:19Z",
+      "locations": [
+        "San Francisco HQ",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-09-16T00:01:56Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "published USD annual base maximum at least $260,000",
+        "full-time full-stack/AI/product engineering role with job-specific AI work"
+      ],
+      "source_id": "sphere-primary",
+      "source_job_id": "a19140ed-172e-4d89-a3d8-27cdc0d369fd",
+      "stable_id": "job-c9a21d001fa84d72694766f6",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Senior Full Stack Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/sphere/4e3c5943-bd07-4ce1-8e13-68b00221d0b7",
+      "company_id": "sphere",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 280000,
+        "minimum": 250000,
+        "period": "year",
+        "source_text": "$250K - $280K"
+      },
+      "compensation_text": "$250K - $280K",
+      "department": "Engineering",
+      "description_text": "ABOUT SPHERE Every breakthrough in trade infrastructure has followed the same pattern: reduce a transaction cost, expand the market. Containerization for goods. SWIFT for money. Stripe for payments. Compliance is one of the last and largest — and the hardest, because trade rules aren't data to be looked up. They're a complex adaptive system with 190+ sovereign jurisdictions, in different languages, changing constantly, reacting to each other. Sphere built the system that solves it. Our AI (TRAM) ingests global trade law, interprets it, resolves conflicts across jurisdictions, and produces compliance determinations more reliable than human experts. We handle the entire lifecycle — calculation, registration, filing, remittance — at millisecond latency with zero downtime. - Backed by a16z and YC. $21M Series A, 30%+ month-over-month growth, customers include ElevenLabs, Replit, Deel, Runway, and Lovable. - Small team, global surface area. Everyone owns a domain that would be a full team at a larger company. San Francisco, five days in office. - The problem keeps compounding. Expanding into input tax, withholding, e-invoicing, tariffs — each multiplies the complexity. Tens of millions of transactions today, billions ahead. THE ROLE You'll lead development of TRAM, our proprietary AI reasoning model that reads and interprets global trade law. This isn't a lookup problem, it's a reasoning problem — and it only became solvable with LLMs. You'll build the data pipelines that ingest legal sources, the model stack that produces structured evidence, the evaluation frameworks that measure accuracy, and the fine-tuning loops that improve performance. The unusual constraint: you need speed, scale, correctness, and robustness simultaneously — at millisecond latency, zero downtime, heading toward billions of transactions where a single error costs a customer $20K. WHAT YOU'LL DO Within weeks: - Lead development of new features aimed at increasing TRAM’s test-time accuracy - Work on the underlying data and retrieval pipelines that help power our AI workflows - Work directly with our internal tax experts to understand how TRAM can better reason like them Within months: - Own TRAM’s eval framework and workflows - Work directly with leading frontier labs to reinforce fine tune models on our proprietary data REQUIREMENTS - Prior experience building AI enabled products, particularly RAG systems - Experience fine tuning base models, ideally via RFT - Willingness to dive into tax technical problems - if you aren’t willing to dive deep on how the model should reason through the tax research process you won’t be effective - A strong understanding of how LLMs and reasoning models function NICE TO HAVES - Experience working with LLMs on legal applications - Experience with RAG data pipelines and collecting/curating data for the pipeline WHO YOU ARE You'll thrive here if: - You're a Dog. You've been underestimated, gone through struggle, and never stopped running. You have a chip on your shoulder and enormous drive. You look at Stripe, Deel, and Flexport all punting on compliance and think: good, that means the opportunity is ours. Hunger beats pedigree. - Early stage is in your bones. You've built things where there's no playbook and nobody handing you the answer. You define the problem instead of waiting for instructions. - You own it end to end. Give you a goal and you figure out your own path. Small team, global surface area — everyone owns a domain that would be a full team at a larger company. No one tells you how. - You believe speed and accuracy are both possible. We're building a complex product that requires robustness and 100% uptime, and we have to build at our customers' pace. Move fast. Don't break things. Both. - Being in the room is a feature, not a cost. Five days in SF isn't a policy, it's how the work gets done. The speed and density of collaboration we need doesn't survive over video. This won't be a fit if: - You need structure handed to you or ambiguity feels draining rather than motivating - You want to manage people more than own hard problems (we're a flat, experienced team — everyone builds) - You're used to \"good enough\" shipping (small errors have outsized impact here) - Being in the room five days a week feels like a cost instead of a benefit",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:26:19Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:26:19Z",
+      "locations": [
+        "San Francisco HQ",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-10-07T05:47:03Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "published USD annual base maximum at least $260,000",
+        "full-time full-stack/AI/product engineering role with job-specific AI work"
+      ],
+      "source_id": "sphere-primary",
+      "source_job_id": "4e3c5943-bd07-4ce1-8e13-68b00221d0b7",
+      "stable_id": "job-ca6f51454ec1e858e936d0a6",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Lead AI Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/sphere/bfa759a9-f19a-4030-959e-9e29d81d6879",
+      "company_id": "sphere",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 260000,
+        "minimum": 230000,
+        "period": "year",
+        "source_text": "$230K - $260K"
+      },
+      "compensation_text": "$230K - $260K",
+      "department": "Engineering",
+      "description_text": "ABOUT SPHERE Every breakthrough in trade infrastructure has followed the same pattern: reduce a transaction cost, expand the market. Containerization for goods. SWIFT for money. Stripe for payments. Compliance is one of the last and largest — and the hardest, because trade rules aren't data to be looked up. They're a complex adaptive system with 190+ sovereign jurisdictions, in different languages, changing constantly, reacting to each other. Sphere built the system that solves it. Our AI (TRAM) ingests global trade law, interprets it, resolves conflicts across jurisdictions, and produces compliance determinations more reliable than human experts. We handle the entire lifecycle — calculation, registration, filing, remittance — at millisecond latency with zero downtime. - Backed by a16z and YC. $21M Series A, 30%+ month-over-month growth, customers include ElevenLabs, Replit, Deel, Runway, and Lovable. - Small team, global surface area. Everyone owns a domain that would be a full team at a larger company. San Francisco, five days in office. - The problem keeps compounding.Expanding into input tax, withholding, e-invoicing, tariffs — each multiplies the complexity. Tens of millions of transactions today, billions ahead. THE ROLE CX has an unusually high important in a product like Sphere. Trust is of utmost importance when handling a company's payments and tax obligations. As a result, every user experience, modal, button, export needs to be flawless (would you trust Stripe with your payments if it was full of bugs and inconsistencies?). Sphere is looking for a passionate founding product engineer to own our CX, take it to the next level and help build out new features / products on our roadmap. They’ll be working directly with customers, our design and eng team as well as our CEO / Founder to bring Sphere’s product vision of making the world one market to life. WHAT YOU'LL DO Within weeks: - Work / listen to many of our customers on what their main pain points are and prioritize lowest hanging fruit features that can help solve their problems - Collaborate extensively with design on bringing those features to life - Executing and shipping features, end-to-end, on a daily basis - Doing customer support where necessary to understand our customers and how they think as much as possible Within months: - Own Sphere's CX and make it unique - Own feature / product roadmap in conjunction with the CEO / Founder (you will work a lot together) - Build / implement more rigorous customer feedback / analysis processes to allow us to better prioritize roadmap REQUIREMENTS - Strong experience with React. Our entire front end is built in react. - Strong experience with Figma. In order to collaborate efficiently with design. - Customer obsession. You’re going to be talking to a lot of people in the finance realm (Controller, Heads of Finance, Heads of Tax). You need to like them and obsess over them. - Very strong attention to detail. When you work with numbers this is a non-negotiable - it’s not enough to be 99% right. - Strong organization skills. We get hundreds of feature requests every day. How you monitor, organize and prioritize these is key. NICE TO HAVES - Experience working with large volumes of transaction data. You’ll be getting very familiar with it! - Experience in Python and Django. Our core application backend and data pipeline services are built with Python and Django - Experience using tools like PostHog and Sentry WHO YOU ARE You'll thrive here if: - You're a Dog. You've been underestimated, gone through struggle, and never stopped running. You have a chip on your shoulder and enormous drive. You look at Stripe, Deel, and Flexport all punting on compliance and think: good, that means the opportunity is ours. Hunger beats pedigree. - Early stage is in your bones. You've built things where there's no playbook and nobody handing you the answer. You define the problem instead of waiting for instructions. - You own it end to end. Give you a goal and you figure out your own path. Small team, global surface area — everyone owns a domain that would be a full team at a larger company. No one tells you how. - You believe speed and accuracy are both possible. We're building a complex product that requires robustness and 100% uptime, and we have to build at our customers' pace. Move fast. Don't break things. Both. - Being in the room is a feature, not a cost. Five days in SF isn't a policy, it's how the work gets done. The speed and density of collaboration we need doesn't survive over video. This won't be a fit if: - You need structure handed to you or ambiguity feels draining rather than motivating - You want to manage people more than own hard problems (we're a flat, experienced team — everyone builds) - You're used to \"good enough\" shipping (small errors have outsized impact here) - Being in the room five days a week feels like a cost instead of a benefit",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:26:19Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:26:19Z",
+      "locations": [
+        "San Francisco HQ",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-09-15T23:59:02Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "published USD annual base maximum at least $260,000",
+        "full-time full-stack/AI/product engineering role with job-specific AI work"
+      ],
+      "source_id": "sphere-primary",
+      "source_job_id": "bfa759a9-f19a-4030-959e-9e29d81d6879",
+      "stable_id": "job-dab1f5b29ede9f7fc2980252",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Senior Product Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:26:19Z",
+  "last_successful_scan_at": "2026-08-31T15:26:19Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "location_outside_target_city": 2,
+    "semantic_review_rejected": 5,
+    "title_explicitly_non_target_function": 2,
+    "total": 15,
+    "workplace_remote_excluded": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "sphere-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

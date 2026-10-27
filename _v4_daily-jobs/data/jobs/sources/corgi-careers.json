@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:59:10Z",
+      "attempt_id": "attempt:9ae5a35d-afc4-4b99-ae8d-35fef58fec5c",
+      "result_digest": "5b5921f8426f8c0dff1171cef1787750c79a284cef8e9723a1613a0e40470e6a",
+      "task_id": "source:corgi-careers:luna:ac14799002767065",
+      "transaction_id": "txn:5b5921f8426f8c0dff1171ce"
+    }
+  ],
+  "company_id": "corgi",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:15:00Z",
+  "last_successful_scan_at": "2026-08-31T21:15:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_below_threshold": 12,
+    "location": 31,
+    "role_fit": 20
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "corgi-careers",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

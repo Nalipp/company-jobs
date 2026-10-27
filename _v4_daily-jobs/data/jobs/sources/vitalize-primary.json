@@ -1,0 +1,70 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:33:36Z",
+      "attempt_id": "attempt:c7a67a95-2f83-4029-a576-0354fd3b3fad",
+      "result_digest": "aa46b70bfb4dbf2fc873095e3af929479b37649664d6c7a8326b0f231bdd5222",
+      "task_id": "source:vitalize-primary:luna:d6e08882685d72ba",
+      "transaction_id": "txn:aa46b70bfb4dbf2fc873095e"
+    }
+  ],
+  "company_id": "vitalize",
+  "current_job_count": 8,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/vitalize/ad6831f1-c0a9-4f6a-9a4c-6a78c48a3ce9",
+      "company_id": "vitalize",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 275000,
+        "minimum": 195000,
+        "period": "year",
+        "source_text": "$195K - $275K"
+      },
+      "compensation_text": "$195K - $275K",
+      "department": "Product & Eng",
+      "description_text": "OUR VISION: UNLOCK HEALTHCARE’S FULL CAPACITY Hospitals run on three things: their people, their beds, and their supplies… and all are still managed with spreadsheets, phone calls, and gut instinct. Vitalize is building the system that runs it all intelligently, starting with labor — the biggest cost (nearly 60% of a hospital’s P&L) and the hardest operational problem. We’re building the labor and capacity operating system for health systems — forecasting demand, matching the right staff to it automatically, and coordinating patients across the hospital. The impact is real: we save hospitals millions in unnecessary labor spend, give clinical leaders back 10–20 hours every week, and are often the reason staff and leaders stay. This isn’t a nice-to-have: our customers pay 5–15× more than legacy incumbents because Vitalize is mission-critical software their hospitals rely on every single minute. We’ve raised over $32M from top investors, and even our own customers. COMPANY VALUES — WHAT WE LOOK FOR We hire and grow everyone against the same four values. Each one comes from a real Vitalize story—interview with us to hear them. - 🚗 Push the Car. Step in regardless of role. We help wherever we’re needed, own problems end to end, and don’t stay in our lane. - 🏥 Premier 1K. We show up for our customers, always. Customer feedback shapes everything we build. - 🗣️ Run Towards the Ugly. Name the hardest problem first, then fix it. Candor beats comfort. - 💡 Think Bigger Fridays. See the gap, fill it. We experiment, learn quickly, and create outsized impact. Read more about how we think about building teams: https://vitalize.care/blog/our-thoughts-on-building-a-team ABOUT VITALIZE’S ENGINEERING TEAM Every recommendation Vitalize makes flows through this team. We build the intelligence that helps hospitals decide who should float, when to call someone in, when staffing is becoming unsafe, and eventually when the system can safely make those decisions on its own. This is where Vitalize evolves from software that reports what’s happening into software that actively runs hospital operations. THE ROLE Clinical leaders make hundreds of staffing decisions every day under time pressure using disconnected systems. We’re replacing that with software that reasons through the problem, recommends, and eventually executes the best next actions. You’ll own the decision engine behind those recommendations, turning messy operational reality into software customers trust with some of the most important decisions inside a hospital. WHAT YOU’LL DO - Design and build the decision logic behind staffing recommendations, alerts, and workflows. - Own systems that balance staffing rules, hospital policies, patient needs, and operational constraints. - Partner with our Product Managers, Designers, and other Engineers to build complex software solutions that are easy to use by our customers. - Work directly with clinical leaders to understand how staffing decisions are made. - Build software that explains why it reached a recommendation so users can trust, validate, or override it. - Define where automation ends and human judgment begins, helping Vitalize safely automate more of hospital operations over time. - Continuously improve the system using customer feedback, production data, and real-world outcomes. WHAT YOU’LL BRING - Expertise with Typescript - Instinct to dive into the Why - Experience working across the entire tech stack. - Strong systems thinking and the ability to reason through complicated edge cases. - Comfort working directly with customers to understand problems and rapidly improve the product. - Clear communication and a high ownership mindset. If these problems excite you, we’d love to talk, even if your background doesn’t perfectly match every bullet above. OUR STACK Bun • TypeScript • Effect • React • TanStack Router • Planetscale BENEFITS - Medical, dental, and vision insurance - 401(k) with company match - Flexible PTO - Unlimited travel budget to visit customer sites - Bi-annual company off-sites - Free meals in-office - $5,000 relocation bonus - Desk setup reimbursement - Commuter benefits - Monthly gym/wellness stipend - An awesome office in Jackson Square, steps from the water",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:33:24Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:33:24Z",
+      "locations": [
+        "San Francisco HQ",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-06-03T16:55:02Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "vitalize-primary",
+      "source_job_id": "ad6831f1-c0a9-4f6a-9a4c-6a78c48a3ce9",
+      "stable_id": "job-0f4bcd6add1170c5eb8af100",
+      "status": "active",
+      "team": "Product & Eng",
+      "title": "Senior Product Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:33:24Z",
+  "last_successful_scan_at": "2026-08-31T15:33:24Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "location_outside_target_city": 1,
+    "title_explicitly_non_target_function": 7,
+    "total": 8,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "vitalize-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

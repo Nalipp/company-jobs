@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:27:15Z",
+      "attempt_id": "attempt:52f56365-5762-405b-b810-2a56222a99d5",
+      "result_digest": "9bc105a0404393a2ede39a3b68055aa501ed16f50c781024acd0e9913b1abad8",
+      "task_id": "source:springboard-greenhouse:luna:34509915f353bb0f",
+      "transaction_id": "txn:9bc105a0404393a2ede39a3b"
+    }
+  ],
+  "company_id": "springboard",
+  "current_job_count": 10,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:26:58Z",
+  "last_successful_scan_at": "2026-08-31T15:26:58Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "title_explicitly_non_target_function": 10,
+    "total": 10
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "springboard-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

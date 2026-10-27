@@ -1,0 +1,71 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:12:09Z",
+      "attempt_id": "attempt:8869797e-a096-4332-ad7e-dbd86bba4fba",
+      "result_digest": "1c36585a345cc12ca2986a615839fa42b698e360cb541a7091915090b98d5456",
+      "task_id": "source:orchard-robotics-ashby:luna:622a6c2fb7cd5a5e",
+      "transaction_id": "txn:1c36585a345cc12ca2986a61"
+    }
+  ],
+  "company_id": "orchard-robotics",
+  "current_job_count": 24,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/orchard/db4011f7-7775-4d61-bd1e-228b1d84ebbb",
+      "company_id": "orchard-robotics",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 250000,
+        "minimum": 150000,
+        "period": "year",
+        "source_text": "$150K - $250K"
+      },
+      "compensation_text": "$150K - $250K",
+      "department": "Software Engineering",
+      "description_text": "At Orchard, we’re securing America’s food supply by building the AI Farmer that automates our nation’s farms. We are the industry leader, growing rapidly, and backed by more than $25 million from leading investors, including Quiet Capital, Shine Capital, and General Catalyst. Every year, hundreds of billions of dollars in crop value are lost because critical farming decisions are made using incomplete and imprecise data. We’re building the technology to change that. Our AI-powered camera systems mount to tractors and scan millions of trees, vines, and plants, capturing precise data on yield estimates, fruit size, crop health, disease, and more. We train edge vision AI models that analyze every plant and determine exactly what interventions and treatments it needs. That intelligence flows into FruitScope OS, our farm-management platform, where growers can understand their crops, make better decisions, and direct operations in the field. Today, Orchard’s technology is trusted by some of our nation’s largest farms. They use our products to grow higher-quality crops while reducing chemical use and operating costs, helping them farm more profitably and sustainably than ever before. OUR CULTURE: - Unshakeable Resilience – Our customers feed millions of people, and our customers depend on us. We are ultra-hardworking, never give up, and we do whatever it takes. - Always Keep Moving – We move fast, waste no time, and have an extreme bias towards action. Progress compounds every day, and our impact is measured in decades. - Improve Everything – At 1% success, we save millions of pounds of food from going to waste. If we are 100% successful we will impact the lives of billions of people across the world. - Farmers First – Every team member spends at least a few days in the fields with our farmers each month. - No Job Beneath Us – We’re low ego, own every outcome, and are all working towards the same goal. THE ROLE: Every day, our AI camera systems capture data about millions of individual plants and fruit. You will build software that enables farmers to understand, trust, and use that data to run their operations. As a Senior Full-Stack Engineer, you will help build FruitScope OS, the web application that our farmers use to run their farms. You will own major product problems end to end: understanding customer needs, designing technical solutions, building across the stack, shipping to production, and learning directly from customers. You will utilize your extensive depth of frontend and backend knowledge to invent new solutions to address customer needs. The software you build is how our farmers determine what actions and interventions to take to improve their farms: saving on chemical sprays and labor inputs, while making the farm more profitable and sustainable than ever before. WHAT YOU'LL OWN: - Build major FruitScope OS web app features from concept through production. - Develop for our backend, frontend, UI/UX, and database. - Create intuitive interfaces that make complex agricultural data actionable across millions of plants and billions of crops. - Build scalable and efficient backend services, APIs, and data models. - Work directly with our farmers to understand problems and rapidly improve the product. WHAT WE LOOK FOR: - Hands on experience building production-quality web apps at scale. - Experience with modern frontend, backend, database, and cloud infrastructure (React, Python, PostgreSQL, or Google Cloud is helpful) - You want to own the development of features end-to-end, working across all parts of our product, the full stack, and addressing customer feedback. - Strong product judgment and the ability to turn ambiguous problems into shipped solutions. - You are comfortable with a lot of autonomy and want substantial ownership. - You love to move fast, have a bias toward action, and the ability to learn quickly. - You are fluent in AI coding tools. ABOUT THE OPPORTUNITY: - Full-time role, 5 days a week at our San Francisco, CA office - Medical, dental, and vision coverage with 100% of employee premiums covered - We move fast, and sometimes this means staying late or working weekends - Our team is close-knit & highly driven, you’ll work directly with leadership and collaborate across all our teams - We’re deeply motivated by the impact we’re making – every line of code written or new system built means less food that goes to waste, and more people who are fed",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:11:57Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:11:57Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States",
+        "Seattle"
+      ],
+      "posted_at": "2026-08-23T01:25:01Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "orchard-robotics-ashby",
+      "source_job_id": "db4011f7-7775-4d61-bd1e-228b1d84ebbb",
+      "stable_id": "job-29542f9a4603acc28c2b3a8f",
+      "status": "active",
+      "team": "Software Engineering",
+      "title": "Senior Full Stack Software Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:11:57Z",
+  "last_successful_scan_at": "2026-08-31T15:11:57Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 7,
+    "compensation_period_mismatch": 2,
+    "location_outside_target_city": 11,
+    "title_explicitly_non_target_function": 18,
+    "total": 23
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "orchard-robotics-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

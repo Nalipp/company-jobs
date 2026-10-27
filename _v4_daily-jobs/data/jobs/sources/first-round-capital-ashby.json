@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:04:34Z",
+      "attempt_id": "attempt:89c3b4fb-667a-4420-93a4-a53cb07e0485",
+      "result_digest": "f5d5d7d35cd8472a355f0e0af0bcddc752880ac976b374b62fa90e401070346e",
+      "task_id": "source:first-round-capital-ashby:luna:55d9029fe1f34bbf",
+      "transaction_id": "txn:f5d5d7d35cd8472a355f0e0a"
+    }
+  ],
+  "company_id": "first-round-capital",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:04:34Z",
+  "last_successful_scan_at": "2026-08-31T04:04:34Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "location_outside_target_city": 1,
+    "total": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "first-round-capital-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

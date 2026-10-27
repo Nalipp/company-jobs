@@ -1,0 +1,35 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:31:44Z",
+      "attempt_id": "attempt:f93e2a09-a46b-414f-8638-f9a484900ae0",
+      "result_digest": "8ee5251625c2f11e59442544d6580d97088d6eb28b515b9e9f0be72ddcd403b1",
+      "task_id": "source:broccoli-ai-primary:luna:504e1b93a2d37168",
+      "transaction_id": "txn:8ee5251625c2f11e59442544"
+    }
+  ],
+  "company_id": "broccoli-ai",
+  "current_job_count": 33,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:31:30Z",
+  "last_successful_scan_at": "2026-08-31T03:31:30Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 12,
+    "compensation_unknown_or_below_threshold": 11,
+    "location_outside_target_city": 9,
+    "role_fit_excluded": 0,
+    "title_explicitly_non_target_function": 9,
+    "total": 33,
+    "workplace_remote_excluded": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "broccoli-ai-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

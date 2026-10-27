@@ -1,0 +1,38 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:35:55Z",
+      "attempt_id": "attempt:db1014ec-bdde-4b3f-831a-904580352e35",
+      "result_digest": "253c50c7c543f7799a83b9bf5276d1be5b37317505f3cfaaf01adee1bd1629c4",
+      "task_id": "source:ware-malcomb-lever:luna:07fdc8bf70dedd1b",
+      "transaction_id": "txn:253c50c7c543f7799a83b9bf"
+    }
+  ],
+  "company_id": "ware-malcomb",
+  "current_job_count": 119,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:35:25Z",
+  "last_successful_scan_at": "2026-08-31T15:35:25Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "ai_involvement_unverified": 1,
+    "compensation_below_profile_threshold": 37,
+    "compensation_currency_mismatch": 2,
+    "compensation_period_mismatch": 2,
+    "compensation_unknown": 1,
+    "employment_internship_excluded": 1,
+    "location_outside_target_city": 116,
+    "role_non_target": 39,
+    "title_explicitly_non_target_function": 38,
+    "total": 119
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "ware-malcomb-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

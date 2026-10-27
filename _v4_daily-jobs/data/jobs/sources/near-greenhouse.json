@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:07:57Z",
+      "attempt_id": "attempt:167e82e0-125c-4431-ae80-0bab7d345da0",
+      "result_digest": "e03f53f0788d76bedafb897629ba73ed5e8b70c8bbe2155486e6c50d86d43bd6",
+      "task_id": "source:near-greenhouse:luna:55008bc22c3664bf",
+      "transaction_id": "txn:e03f53f0788d76bedafb8976"
+    }
+  ],
+  "company_id": "near",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:07:44Z",
+  "last_successful_scan_at": "2026-08-31T15:07:44Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 1,
+    "title_explicitly_non_target_function": 1,
+    "total": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "near-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

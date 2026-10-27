@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://v4-daily-jobs.local/schemas/job-result.schema.json",
+  "title": "V4 job finding result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "workflow", "task_id", "attempt_id", "claim_token", "model", "created_at", "target", "outcome", "reason_code", "evidence", "snapshot", "item_results", "failure_class", "notes"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "workflow": {"const": "find_jobs"},
+    "task_id": {"type": "string", "minLength": 1},
+    "attempt_id": {"type": "string", "minLength": 1},
+    "claim_token": {"type": "string", "minLength": 32},
+    "model": {"enum": ["luna", "terra", "sol"]},
+    "created_at": {"type": "string", "format": "date-time"},
+    "target": {"$ref": "queue-common.schema.json#/$defs/task/properties/target"},
+    "outcome": {"enum": ["resolved", "inconclusive", "blocked", "failed"]},
+    "reason_code": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"},
+    "evidence": {"type": "array", "items": {"type": "object"}},
+    "snapshot": {"oneOf": [{"$ref": "#/$defs/snapshot"}, {"type": "null"}]},
+    "item_results": {"type": "array", "items": {"type": "object"}},
+    "failure_class": {"oneOf": [{"enum": ["network", "environment_network", "authentication", "rate_limit", "robots", "source_access", "timeout", "invalid_output", "conflict", "other"]}, {"type": "null"}]},
+    "retryable": {"type": "boolean"},
+    "notes": {"oneOf": [{"type": "string"}, {"type": "null"}]}
+  },
+  "$defs": {
+    "snapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "company_id", "expected_source_revision", "profile_id", "profile_digest", "scanned_at", "adapter_result", "qualifying_jobs", "unresolved_candidates", "rejection_counts", "warnings"],
+      "properties": {
+        "source_id": {"type": "string", "minLength": 1},
+        "company_id": {"type": "string", "minLength": 1},
+        "expected_source_revision": {"type": "integer", "minimum": 1},
+        "profile_id": {"type": "string", "minLength": 1},
+        "profile_digest": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "scanned_at": {"type": "string", "format": "date-time"},
+        "adapter_result": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["provider", "company_id", "source_id", "jobs", "fetch"],
+          "properties": {
+            "provider": {"type": "string", "minLength": 1},
+            "company_id": {"type": "string", "minLength": 1},
+            "source_id": {"type": "string", "minLength": 1},
+            "jobs": {"type": "array", "items": {"type": "object"}},
+            "fetch": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["provider", "complete", "completeness_reason", "pages_received", "pages_expected", "total_reported", "raw_jobs_seen", "unique_jobs", "duplicates_removed"],
+              "properties": {
+                "provider": {"type": "string", "minLength": 1},
+                "complete": {"type": "boolean"},
+                "completeness_reason": {"type": "string", "minLength": 1},
+                "pages_received": {"type": "integer", "minimum": 0},
+                "pages_expected": {"oneOf": [{"type": "integer", "minimum": 0}, {"type": "null"}]},
+                "total_reported": {"oneOf": [{"type": "integer", "minimum": 0}, {"type": "null"}]},
+                "raw_jobs_seen": {"type": "integer", "minimum": 0},
+                "unique_jobs": {"type": "integer", "minimum": 0},
+                "duplicates_removed": {"type": "integer", "minimum": 0}
+              }
+            }
+          }
+        },
+        "qualifying_jobs": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {"type": "string", "minLength": 1},
+              {
+                "type": "object",
+                "required": ["stable_id"],
+                "properties": {
+                  "stable_id": {"type": "string", "minLength": 1},
+                  "qualification_status": {"enum": ["qualifying", "deterministic_pass"]}
+                }
+              }
+            ]
+          }
+        },
+        "unresolved_candidates": {"type": "array", "items": {"type": "object"}},
+        "rejection_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "semantic_decisions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["stable_id", "decision", "review_notes"],
+            "properties": {
+              "stable_id": {"type": "string", "minLength": 1},
+              "decision": {"enum": ["qualifying", "rejected", "inconclusive"]},
+              "review_notes": {"type": "string", "minLength": 1}
+            }
+          }
+        },
+        "warnings": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}

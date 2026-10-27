@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:16:17Z",
+      "attempt_id": "attempt:a994ac52-c679-47a8-806e-f660834fdf7a",
+      "result_digest": "14fac91fb6b5a80cb1fd0c0ffb3e11143d4d655d0410afb3c366014fb93f69ed",
+      "task_id": "source:odaseva-smartrecruiters:luna:532d1c3beca46c35",
+      "transaction_id": "txn:14fac91fb6b5a80cb1fd0c0f"
+    }
+  ],
+  "company_id": "odaseva",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:45:00Z",
+  "last_successful_scan_at": "2026-08-31T22:45:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "smartrecruiters",
+  "rejection_counts": {
+    "total": 0
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "odaseva-smartrecruiters",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

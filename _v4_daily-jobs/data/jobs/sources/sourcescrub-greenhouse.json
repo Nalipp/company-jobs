@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:25:57Z",
+      "attempt_id": "attempt:08c5d02c-6727-40de-8d20-1a36c1ac2780",
+      "result_digest": "3c041cd27a77bc79d597710e07e79a1d8369b90641845dc207743c5c37e9dd65",
+      "task_id": "source:sourcescrub-greenhouse:luna:40594b418692afea",
+      "transaction_id": "txn:3c041cd27a77bc79d597710e"
+    }
+  ],
+  "company_id": "sourcescrub",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:25:53Z",
+  "last_successful_scan_at": "2026-08-31T15:25:53Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "sourcescrub-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

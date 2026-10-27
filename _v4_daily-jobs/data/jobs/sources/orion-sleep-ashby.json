@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:12:38Z",
+      "attempt_id": "attempt:e0d4b671-880c-459e-a261-4ba8da843feb",
+      "result_digest": "364c2285501b08767d205b5ad81c3adae4c60e725cc4c655fabb7384eb6fc175",
+      "task_id": "source:orion-sleep-ashby:luna:ec0d913f0e646fb1",
+      "transaction_id": "txn:364c2285501b08767d205b5a"
+    }
+  ],
+  "company_id": "orion-sleep",
+  "current_job_count": 12,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:12:24Z",
+  "last_successful_scan_at": "2026-08-31T15:12:24Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "compensation_unknown_or_below_threshold": 10,
+    "location_outside_target_city": 1,
+    "title_explicitly_non_target_function": 2,
+    "total": 12
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "orion-sleep-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

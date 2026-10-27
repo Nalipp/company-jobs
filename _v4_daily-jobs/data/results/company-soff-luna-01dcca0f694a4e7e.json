@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:soff:luna:01dcca0f694a4e7e",
+  "attempt_id": "attempt:9e836ac0-77d2-4434-a50c-22c0e57b8800",
+  "claim_token": "XRtcMSkz4S8J-rD9bQZvjAXB5QpZ4J45N389xpcWU3M",
+  "model": "luna",
+  "created_at": "2026-09-01T17:58:06Z",
+  "target": {"company_ids": ["soff"], "source_ids": ["soff-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [{"url": "https://soff.ai/about-us", "retrieved_at": "2026-09-01T17:58:35Z", "evidence_type": "official_company_page", "finding": "The current official Soff site is accessible and identifies Soff as an AI supply-chain company, but no employer-controlled careers destination is exposed. Third-party YC job listings are not sufficient to establish an employer-controlled source."}],
+  "patch": {"company_id": "soff", "expected_record_revision": 1, "company_changes": {}, "source_upserts": [{
+    "source_id": "soff-primary", "company_id": "soff", "expected_record_revision": 1, "careers_url": null, "listings_url": null, "provider": "unknown", "board_id": null, "access_mode": null, "scope": "All Soff roles", "instructions": "A bounded search found no employer-controlled careers destination; third-party YC listings are not a reusable official source. Recheck the official site before the next source refresh.", "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false}, "status": "no_careers_found", "official_relationship_url": "https://soff.ai/about-us", "checked_at": "2026-09-01T17:58:35Z", "last_success_at": null, "added_date": "2026-08-28T22:57:53Z", "updated_date": "2026-09-01T17:58:35Z"
+  }]},
+  "item_results": [{"item": "soff-primary", "status": "resolved", "summary": "Official Soff site restored; no employer-controlled careers source found."}],
+  "failure_class": null,
+  "notes": "No canonical company identity or address change supported."
+}

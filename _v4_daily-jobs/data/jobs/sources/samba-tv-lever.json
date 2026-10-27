@@ -1,0 +1,74 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:21:54Z",
+      "attempt_id": "attempt:5ced7954-0a05-4a6f-a973-56b672bc754e",
+      "result_digest": "befaf814acaa5e4f04a65383aeaaccd6a6811f1461f94de9d75e684acbcc7911",
+      "task_id": "source:samba-tv-lever:luna:f6801ee3a2eb1e91",
+      "transaction_id": "txn:befaf814acaa5e4f04a65383"
+    }
+  ],
+  "company_id": "samba-tv",
+  "current_job_count": 60,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.lever.co/sambatv/a0a1f3cc-9b2e-4440-b5c1-45ea050cf0b1",
+      "company_id": "samba-tv",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 200000,
+        "minimum": 150000,
+        "period": "year",
+        "source_text": "USD 150000-200000 / year"
+      },
+      "compensation_text": "USD 150000-200000 / year",
+      "department": "Engineering",
+      "description_text": "Samba is a media intelligence company. We know what the world is watching, reading, and thinking about — in real time, at scale, across every screen. Our data exists with the consent of over a billion people, organized into the most complete picture of consumer attention ever built. The biggest brands in the world use that picture to make smarter decisions. We think it’s the most interesting data asset on the planet, because it’s the most culturally relevant. WHAT YOU'LL DO Build and deploy AI agents using modern agent SDKs (Claude, OpenAI, or similar) with custom tools and function calling Design and build tool harnesses and execution environments for agents—both on desktop (local CLI, IDE integrations) and in the cloud (containerized, API-driven) Partner with internal teams across the organization to understand their workflows, identify automation opportunities, and build agents tailored to their use cases Think critically about LLM capabilities and limitations—understand the differences between models, when to use which, and how to get the best results from each Develop context engineering strategies—understanding how to give LLMs the right information at the right time within token limits Build and maintain custom tool libraries that agents can use to interact with internal systems, APIs, and data sources Deploy and manage agents in cloud environments with proper monitoring, error handling, and cost controls Optimize LLM costs and performance through prompt engineering, caching, and smart model selection WHO YOU ARE You’ve built AI agents and shipped them to production—not just prototypes You’ve deployed agents in cloud environments and dealt with the real-world challenges that come with it You’ve built tools, harnesses, or scaffolding that agents use to accomplish tasks You use Claude Code and Cursor daily—you’re deeply comfortable with AI-assisted development, including headless mode, multi-file editing, and MCP server integration You think critically about LLMs—you understand how they work under the hood, not just how to call an API You understand the differences between models (Claude, GPT, Gemini, open-source) and can reason about which to use for a given task You have strong product sense—you focus on what users actually need, not just what’s technically interesting You’re pragmatic—you ship 80% solutions quickly and iterate based on feedback You can sit with a non-technical team, understand their pain points, and translate that into an agent that actually helps You take ownership and drive things from idea to measurable impact You communicate clearly—you can explain complex AI systems to anyone in the company You stay current with the rapidly evolving AI landscape and bring new ideas to the team You’re comfortable working across cloud platforms (GCP, AWS, Azure) and containerized environments Experience with advanced agent patterns or multi-agent systems Experience building and configuring MCP (Model Context Protocol) servers Open-source contributions to AI/ML projects Familiarity with observability tools for LLM applications Media, ad tech, or streaming data domain knowledge Samba is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. We strive to empower connection with one another, reflect the communities we serve, and tackle meaningful projects that make a real impact. Samba may collect personal information directly from you, as a job applicant, Samba may also receive personal information from third parties, for example, in connection with a background, employment or reference check, in accordance with the applicable law. For further details, please see Samba's Applicant Privacy Policy. For residents of the EU , Samba Inc. is the data controller.",
+      "employment_text": "US Full-time Salaried",
+      "employment_type": "us full-time salaried",
+      "first_seen_at": "2026-08-31T15:21:38Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:21:38Z",
+      "locations": [
+        "San Francisco, California"
+      ],
+      "posted_at": "2026-03-14T18:51:50Z",
+      "provider": "lever",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "Title is AI Product Engineer, directly matching the primary AI product engineering role family.",
+        "The listing is in San Francisco, on-site, with a published maximum base compensation of USD 200,000/year."
+      ],
+      "source_id": "samba-tv-lever",
+      "source_job_id": "a0a1f3cc-9b2e-4440-b5c1-45ea050cf0b1",
+      "stable_id": "job-01810a9d33c7f38cee27be22",
+      "status": "active",
+      "team": "AI Engineering",
+      "title": "AI Product Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "onsite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:21:38Z",
+  "last_successful_scan_at": "2026-08-31T15:21:38Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 22,
+    "compensation_currency_mismatch": 11,
+    "location_outside_target_city": 42,
+    "semantic_non_target": 6,
+    "title_explicitly_non_target_function": 16,
+    "total": 59
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "samba-tv-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

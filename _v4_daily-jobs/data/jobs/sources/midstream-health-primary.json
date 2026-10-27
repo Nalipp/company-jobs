@@ -1,0 +1,78 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:05:26Z",
+      "attempt_id": "attempt:bc8d843f-b442-4093-a639-4ce255e31948",
+      "result_digest": "b5d35a0ced52caeb5805aaa3bc09361e967023a875242daa411508263264471f",
+      "task_id": "source:midstream-health-primary:luna:13db74f522cc07bb",
+      "transaction_id": "txn:b5d35a0ced52caeb5805aaa3"
+    }
+  ],
+  "company_id": "midstream-health",
+  "current_job_count": 7,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/midstream/64549fb3-f933-476b-919e-37524f8b3d1e",
+      "company_id": "midstream-health",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 230000,
+        "minimum": 170000,
+        "period": "year",
+        "source_text": "$170K - $230K"
+      },
+      "compensation_text": "$170K - $230K",
+      "department": "Engineering",
+      "description_text": "Midstream is an AI-native financial operating system for health systems, founded by experienced entrepreneurs and backed by top-tier investors. We give finance, supply chain, and managed care teams real-time visibility into where margin is at risk, with a precise action plan for capturing it before it's gone. Purpose-built for healthcare's complexity, Midstream transforms structured, unstructured, and external data into instant, contract-aware insights that drive smarter decisions. Our AI agents unify spend and revenue operations across the full back-office, learning and adapting with every interaction and delivering always-on intelligence that no point solution or one-off engagement can match. We're compressing months to minutes and turning post-period hindsight into in-the-moment foresight. The tempo of healthcare finance is changing, and Midstream is leading it. OPPORTUNITY This is a rare opportunity to join Midstream at a formative stage and help shape our foundational product. You’ll work at the intersection of product, systems, and cloud infrastructure, designing and building a ML and AI native platform. This role is perfect for mid-senior level engineers who are passionate about user experience and bring a craft that emphasizes scalability, reliability and performance. This is a hybrid position, based in the Bay Area. HOW YOU'LL MAKE AN IMPACT We’re looking for a driven Software Engineer to take ownership of critical components within our software platform. You’ll work closely with healthcare data, contributing to capabilities that assist medical provider networks, ensuring secure, efficient handling of sensitive information to improve outcomes across the healthcare sector. These responsibilities include some / all of the following: - SaaS Platform & Infrastructure: Develop key components of our multi-tenant SaaS platform, including Identity & Access Management, connector provisioning, and infrastructure enhancements to improve speed and service integration. - API Development: Play a key role in the design and implementation of our APIs and data models, ensuring they meet the needs of diverse verticals and support both open/shared and customer-specific datasets effectively. - ML Platform Development: Leverage existing foundational models and develop novel ML solutions to solve problems with complex, high dimensional healthcare data - Agentic workflows: Build tools and and agents to power our natural language analytics that enables rapid discovery of insights with source document traceability. - UI Development: Build a world-class user experience into the Midstream platform to provide actionable insights over large data sets. - Security & Compliance: Implement and maintain robust security measures, including encryption and role-based access control, while ensuring compliance with standards like SOC 2 and HIPAA - Setting standards and delivering impact: You will be a member of the founding engineering team working closely with the founders and have the opportunity to make big early impacts on our systems. Your work will directly contribute to the platform's evolution, enabling robust data integration and analysis capabilities, supporting machine learning deployment, and ensuring our platform remains secure and compliant. WHO YOU ARE - Problem-Solving: Excellent problem-solving skills with a knack for tackling complex technical challenges. - Communication: Strong communication skills, capable of working collaboratively within cross-functional teams and articulating technical concepts to diverse audiences. - Adaptability: Ability to thrive in a fast-paced environment, with resilience and effective task prioritization. - Programming Skills: Excellent coding abilities in high-level languages such as Python and Typescript - SaaS Platform Development: Knowledge in building scalable SaaS platforms, including API design, CI/CD, multi-tenancy, RBAC - Cloud Platforms: Strong experience with cloud services (GCP, AWS) and infrastructure as code tools (Kubernetes, Terraform), with the ability to leverage cloud-native services for computing, storage, and ML applications. - A bachelor's degree in Computer Science, Engineering, or a closely related field OR relevant software engineering experience",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:05:07Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:05:07Z",
+      "locations": [
+        "San Francisco",
+        "United States"
+      ],
+      "posted_at": "2025-12-09T16:52:15Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "hybrid workplace",
+        "published USD annual base maximum $230,000",
+        "full-time Software Engineer, Product role",
+        "official posting describes building an ML and AI native platform and AI agents"
+      ],
+      "source_id": "midstream-health-primary",
+      "source_job_id": "64549fb3-f933-476b-919e-37524f8b3d1e",
+      "stable_id": "job-57ffa3355c4eb0d105b5e987",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Software Engineer, Product",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:05:07Z",
+  "last_successful_scan_at": "2026-08-31T15:05:07Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 1,
+    "location_outside_target_city": 2,
+    "role_not_target_family": 1,
+    "title_explicitly_non_target_function": 3,
+    "total": 6,
+    "workplace_remote_excluded": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "midstream-health-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

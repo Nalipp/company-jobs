@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:23:41Z",
+      "attempt_id": "attempt:8e6e2490-28f6-47ea-91a5-e90cddf03ec8",
+      "result_digest": "89306ca757a5d21cef6dd749fb6fdf1ffa6758e3f5a200d1d8c9c76c4a456e2c",
+      "task_id": "source:similarweb-greenhouse:luna:8198214752f75369",
+      "transaction_id": "txn:89306ca757a5d21cef6dd749"
+    }
+  ],
+  "company_id": "similarweb",
+  "current_job_count": 68,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:23:38Z",
+  "last_successful_scan_at": "2026-08-31T15:23:38Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 66,
+    "title_explicitly_non_target_function": 29,
+    "total": 68
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "similarweb-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

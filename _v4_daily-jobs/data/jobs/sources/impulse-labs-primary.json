@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:56:11Z",
+      "attempt_id": "attempt:7bedf8ba-6814-4784-ab8e-356243a2a8af",
+      "result_digest": "209b5c65900a1b68eaad2a52d2ece82b8eb3220717c7769e45f5a278874f0f0c",
+      "task_id": "source:impulse-labs-primary:luna:9171d20201d0e545",
+      "transaction_id": "txn:209b5c65900a1b68eaad2a52"
+    }
+  ],
+  "company_id": "impulse-labs",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:55:54Z",
+  "last_successful_scan_at": "2026-08-31T14:55:54Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "role_fit_insufficient": 1,
+    "total": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "impulse-labs-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

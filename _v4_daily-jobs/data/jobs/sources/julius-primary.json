@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:57:42Z",
+      "attempt_id": "attempt:14e94aff-0dff-41c7-8ae7-37b026c9409f",
+      "result_digest": "cbad627b9ecff20b18c801937a52ed655222cd1568ac39dfdfb61cbe4001fcc7",
+      "task_id": "source:julius-primary:luna:d0b52384e2c17739",
+      "transaction_id": "txn:cbad627b9ecff20b18c80193"
+    }
+  ],
+  "company_id": "julius",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:57:26Z",
+  "last_successful_scan_at": "2026-08-31T14:57:26Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "compensation_unknown_excluded": 1,
+    "title_explicitly_non_target_function": 2,
+    "total": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "julius-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:36:46Z",
+      "attempt_id": "attempt:301d1b91-4798-4754-93ca-bb37bf12e7a1",
+      "result_digest": "fbe0ff1ce77f8c72c1d93534cf2ddb7664f4ec10d5d082472b5868fea443549f",
+      "task_id": "source:chai-discovery-primary:luna:b1e8a049196f8211",
+      "transaction_id": "txn:fbe0ff1ce77f8c72c1d93534"
+    }
+  ],
+  "company_id": "chai-discovery",
+  "current_job_count": 16,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T20:36:29.113Z",
+  "last_successful_scan_at": "2026-08-31T20:36:29.113Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_missing": 3,
+    "semantic_rejected": 13
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "chai-discovery-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

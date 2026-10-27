@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:tandem:luna:3b79c23370ebed9a",
+  "attempt_id": "attempt:186d6126-47f7-459d-ad15-ee6500934afc",
+  "claim_token": "nHhYXNzCPeT-BswnMYHM2JM_5DOFUyfSBGbPvy3amRQ",
+  "model": "luna",
+  "created_at": "2026-09-01T18:07:20Z",
+  "target": {"company_ids": ["tandem"], "source_ids": ["tandem-primary"]},
+  "outcome": "blocked",
+  "reason_code": "career_source_no_careers_found",
+  "evidence": [
+    {"url": "https://tandemspace.com/careers", "retrieved_at": "2026-09-01T18:07:20Z", "evidence_type": "official_careers_url", "finding": "The official careers URL could not be safely opened, preventing verification of the hiring destination."},
+    {"url": "https://tandemspace.com/about", "retrieved_at": "2026-09-01T18:07:20Z", "evidence_type": "official_company_page", "finding": "The official About page references hiring and a View open roles link, but the linked destination could not be verified."}
+  ],
+  "patch": {"company_id": "tandem", "expected_record_revision": 1, "company_changes": {}, "source_upserts": []},
+  "item_results": [{"item": "tandem-primary", "status": "blocked", "summary": "Official hiring destination remains inaccessible for verification; retry at Luna."}],
+  "failure_class": "source_access",
+  "notes": "No canonical changes made. Keep the source open for a same-model retry."
+}

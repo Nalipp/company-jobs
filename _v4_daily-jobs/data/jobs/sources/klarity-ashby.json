@@ -1,0 +1,116 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:59:09Z",
+      "attempt_id": "attempt:28688b66-b7a1-4bcc-b169-5b2c1370e4e5",
+      "result_digest": "bb17b396129cff1fdff4ffaa37044f5053d3aa55a5889dccc8c967e1ab559a0f",
+      "task_id": "source:klarity-ashby:luna:4940b7182f117922",
+      "transaction_id": "txn:bb17b396129cff1fdff4ffaa"
+    }
+  ],
+  "company_id": "klarity",
+  "current_job_count": 10,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/within-ai/05377ac4-4c57-4146-a077-4e84f7d6a273",
+      "company_id": "klarity",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 315000,
+        "minimum": 185000,
+        "period": "year",
+        "source_text": "$185K - $315K"
+      },
+      "compensation_text": "$185K - $315K",
+      "department": "EPD",
+      "description_text": "About Within Tldr on us: Series B, $91M raised, 7x growth last year. Digital Transformation gave rise to a $600B consulting Industry. AI Transformation will be 10x bigger and will be delivered through agents. We built that. Our AI discovers how work actually happens across every team and application, Structures it into a living Context Graph, and Improves it continuously. ServiceNow mapped 900+ processes in 9 days. DoorDash captured 3,800+ finance operations in 14 weeks. That's not a project. That's compounding intelligence. OpenAI, Google, DoorDash, and Stripe use Within to transform how they transform. We shipped GPT-4 document chat within 12 hours of OpenAI's API launch. We move fast, reward agency, and care deeply about our customers, our team, and our mission. THE ROLE We are looking for an AI Front-end Engineer who sits at the intersection of product design and frontend engineering. You are an engineer first, but with exceptional design sensibility that elevates everything you build. You will be responsible for defining and implementing the \"look and feel\" of AI-native workflows, ensuring that our complex enterprise tools feel as intuitive as the best consumer apps. Note: We do not require a CS or Engineering degree. We care about your portfolio, your GitHub (or equivalent), and your track record of shipping. WHO YOU ARE - Engineer first, designer by instinct - You're a front-end engineer with a natural eye for great design. You can discuss the tradeoffs of Server Components versus Client Components just as fluently as you can critique spacing and visual hierarchy. - Expert in modern web technologies - React, Next.js, TypeScript, and Tailwind aren't just in your toolkit—you've truly mastered them. You understand the performance consequences of your architectural decisions and ship code that's both elegant and performant. - AI-native developer with creative problem-solving chops - You wield tools like Cursor, Claude Code, v0.dev http://v0.dev, and Lovable as extensions of your craft. You use AI to prototype 10 variations in the time it used to take to build one, letting you focus on the hard problems: information architecture, user flows, and delightful interactions. - Ship with velocity and craft - You find the shortest path to get features in front of users while obsessing over the details that create delight. You catch when animations feel off by 50ms or color contrast doesn't meet WCAG standards. You believe speed and quality aren't opposites—they happen together when you're thoughtful about how you build. - Drive outcomes with product thinking - You move from prototype to user feedback to iteration to production with speed and conviction. You own features end-to-end, challenge designs that compromise user experience, and care deeply about the entire user journey. You shape the product through action, not waiting for permission. - Bring energy that elevates others - You see \"impossible\" UI challenges as puzzles waiting to be solved. Your optimism, intensity, and passion for craft are contagious and make the team stronger. - Experience: 4+ years of shipping production-grade products WHAT YOU'LL DO - Architect scalable front-end systems - Design reusable component libraries, establish patterns for state management and API integration, optimize bundle sizes, and ensure the platform performs beautifully at scale. You'll work across the full spectrum from responsive layouts to micro-interactions, with bonus points for diving into Python backends when needed. - Own and ship the primary user-facing features - Build the core interfaces users interact with daily. You'll write the React components, integrate with backend APIs, and polish every detail to production quality. - Bridge AI capabilities with elegant user experiences - Partner with product and backend engineers to understand what's possible, then create interfaces that expose powerful functionality while hiding technical complexity. - Multiply your impact across disciplines - You speak designer, engineer, and product fluently. Use AI tools to rapidly prototype design concepts in code and bridge gaps between teams with working demos instead of static mocks, turning ambiguous ideas into tangible experiences that drive better decisions. BENEFITS: - Equity in addition to competitive cash compensation - 100% Employer-Paid Medical, Dental & Vision options! https://app.rippling.com/benefits/preview/4zb9x0k4q4bxr1lm - Paid Parental Leave - $500 Annual Learning Fund - $100 Monthly Wellness Fund - 401k via Betterment https://www.betterment.com/work/investments - Relocation support to San Francisco Bay Area (where applicable) - Office-related Perks: - BART or Caltrain to the office?: Contribute pre-tax funds to a Parking & Transit account, and you will never be taxed for it! - Lunchtime, Leveled Up: Enjoy curated local eats delivered to the office daily to enjoy with the team over an engaging conversation - Snack Central: Drinks and snacks for every craving - from healthy bites to Within team favorites. - Safe & Secure Bike Room: Commute in and safely store your bike. Within is an equal opportunity employer. Within provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, gender, national origin, sexual orientation, gender identity or expression, age, disability, genetic information, marital status or veteran status.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T14:58:52Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T14:58:52Z",
+      "locations": [
+        "San Francisco (HQ)",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-04-08T21:48:27Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "published USD annual base maximum $315,000",
+        "AI Frontend Engineer title and role-specific AI product work"
+      ],
+      "source_id": "klarity-ashby",
+      "source_job_id": "05377ac4-4c57-4146-a077-4e84f7d6a273",
+      "stable_id": "job-3443e5084da9c947d9cec71e",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Senior/Staff AI Frontend Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/within-ai/fc094114-4d6e-4bf5-977f-c5b37d7e33e1",
+      "company_id": "klarity",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 205000,
+        "minimum": 140000,
+        "period": "year",
+        "source_text": "$140K - $205K"
+      },
+      "compensation_text": "$140K - $205K",
+      "department": "EPD",
+      "description_text": "About Within Tldr on us: Series B, $91M raised, 7x growth last year. Digital Transformation gave rise to a $600B consulting Industry. AI Transformation will be 10x bigger and will be delivered through agents. We built that. Our AI discovers how work actually happens across every team and application, Structures it into a living Context Graph, and Improves it continuously. ServiceNow mapped 900+ processes in 9 days. DoorDash captured 3,800+ finance operations in 14 weeks. That's not a project. That's compounding intelligence. OpenAI, Google, DoorDash, and Stripe use Within to transform how they transform. We shipped GPT-4 document chat within 12 hours of OpenAI's API launch. We move fast, reward agency, and care deeply about our customers, our team, and our mission. AI FRONT-END ENGINEER @ WITHIN Experience: 1-2 years of shipping production code (or exceptional new grads with strong portfolios) Location: San Francisco / Bay Area (Relocation assistance available) Job Type: Full-time THE ROLE We are looking for an AI Front-end Engineer who wants to learn at the intersection of product design and frontend engineering. You care deeply about craft and have strong frontend fundamentals, but you're early in your career and hungry to grow. You'll work directly with senior engineers and designers to build AI-native workflows that make complex enterprise tools feel intuitive. Note: We do not require a CS or Engineering degree. We care about your portfolio, side projects, and your hunger to learn and ship. WHO YOU ARE - Strong frontend fundamentals with design sensibility - You're comfortable with React and have built real projects. You understand the basics of component architecture and care about how things look and feel. You're excited to learn the nuances of performance optimization and advanced patterns. - Familiar with modern web technologies - You've worked with React, TypeScript, and CSS frameworks like Tailwind. You may not have mastered them yet, but you're eager to learn best practices and write cleaner code every day. - AI-curious and eager to experiment - You've tried tools like Cursor, Claude Code, or v0.dev http://v0.dev and see their potential to accelerate your work. You're excited to learn how to use AI tools effectively to prototype faster and focus on solving hard problems. - Hungry to ship quickly and learn from feedback - You care about getting features in front of users and iterating based on what you learn. You're willing to make tradeoffs and understand that done is often better than perfect when you're learning. - Detail-oriented and quality-conscious - You notice when things feel off—animations that are janky, layouts that shift, or colors that don't quite work. You want to build things that feel good to use, even if you're still learning how to achieve that consistently. - Collaborative and coachable - You ask good questions, take feedback well, and are excited to learn from people with more experience. You're comfortable saying \"I don't know\" and then figuring it out. - Energized by hard problems - You see challenging UI problems as opportunities to grow. You bring enthusiasm and a positive attitude even when things are ambiguous or difficult. WHAT YOU'LL DO - Ship real features used by Fortune 500 customers - Build production UI components, integrate with backend APIs, and contribute to features that ship to real users. You'll get code reviews and mentorship from senior engineers. - Learn to build scalable front-end systems - Work within existing component libraries and patterns, contributing new components and learning best practices for state management, API integration, and performance optimization. - Collaborate across design and engineering - Work with designers to implement their vision and with backend engineers to understand what's possible. You'll learn how to balance technical constraints with user experience goals. - Grow your craft rapidly - You'll work directly with senior engineers on real problems, getting hands-on experience with AI-powered workflows, enterprise-scale applications, and modern frontend architecture. A small team means your growth happens fast. WHAT YOU'LL LEARN - How to build AI-native interfaces at production quality - Advanced React patterns and performance optimization - How to collaborate with designers and product managers - How to use AI tools to multiply your productivity - What great enterprise UX looks like (and how to build it) BENEFITS: - Equity in addition to competitive cash compensation - 100% Employer-Paid Medical, Dental & Vision options! https://app.rippling.com/benefits/preview/4zb9x0k4q4bxr1lm - Paid Parental Leave - $500 Annual Learning Fund - $100 Monthly Wellness Fund - 401k via Betterment https://www.betterment.com/work/investments - Relocation support to San Francisco Bay Area (where applicable) - Office-related Perks: - BART or Caltrain to the office?: Contribute pre-tax funds to a Parking & Transit account, and you will never be taxed for it! - Lunchtime, Leveled Up: Enjoy curated local eats delivered to the office daily to enjoy with the team over an engaging conversation - Snack Central: Drinks and snacks for every craving - from healthy bites to Within team favorites. - Safe & Secure Bike Room: Commute in and safely store your bike. Within is an equal opportunity employer. Within provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, gender, national origin, sexual orientation, gender identity or expression, age, disability, genetic information, marital status or veteran status.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T14:58:52Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T14:58:52Z",
+      "locations": [
+        "San Francisco (HQ)",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-04-06T18:19:21Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "published USD annual base maximum $205,000",
+        "AI Frontend Engineer title and role-specific AI product work"
+      ],
+      "source_id": "klarity-ashby",
+      "source_job_id": "fc094114-4d6e-4bf5-977f-c5b37d7e33e1",
+      "stable_id": "job-edf404774f1efda625d29411",
+      "status": "active",
+      "team": "Engineering",
+      "title": "AI Frontend Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T14:58:52Z",
+  "last_successful_scan_at": "2026-08-31T14:58:52Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "role_not_target_family": 3,
+    "title_explicitly_non_target_function": 5,
+    "total": 8
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "klarity-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

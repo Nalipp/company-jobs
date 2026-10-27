@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:18:31Z",
+      "attempt_id": "attempt:54e7e423-47dd-4c43-ba29-89509732f450",
+      "result_digest": "b5179127d2722db38d15bf66c4df628e50005acac0d3d0210894de3dae946ffc",
+      "task_id": "source:rasa-ashby:luna:99cde50ab954b8fc",
+      "transaction_id": "txn:b5179127d2722db38d15bf66"
+    }
+  ],
+  "company_id": "rasa",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:18:28Z",
+  "last_successful_scan_at": "2026-08-31T15:18:28Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "location_outside_target_city": 2,
+    "title_explicitly_non_target_function": 1,
+    "total": 3,
+    "workplace_remote_excluded": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "rasa-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

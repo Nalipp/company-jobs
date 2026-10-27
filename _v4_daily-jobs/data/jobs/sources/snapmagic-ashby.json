@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:25:33Z",
+      "attempt_id": "attempt:d9d30e78-d6b2-4ef7-901c-1b2d36180ecd",
+      "result_digest": "b2a15af1f9ba5aa34c156cfe3e989565e9ceb48ad6f7ecc98cf4d84e8b93904d",
+      "task_id": "source:snapmagic-ashby:luna:efd6df7a9a0c53e0",
+      "transaction_id": "txn:b2a15af1f9ba5aa34c156cfe"
+    }
+  ],
+  "company_id": "snapmagic",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:25:20Z",
+  "last_successful_scan_at": "2026-08-31T15:25:20Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "semantic_non_target": 2,
+    "title_explicitly_non_target_function": 3,
+    "total": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "snapmagic-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

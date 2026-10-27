@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:20:08Z",
+      "attempt_id": "attempt:c9b0319c-4c0e-4f6f-931f-a181cf9f371f",
+      "result_digest": "44a742dd70878574ccc79d113795ad7f2007750d0ba54708392534e018f6fb41",
+      "task_id": "source:argonaut-lever:luna:e9abce6a0f92bfa7",
+      "transaction_id": "txn:44a742dd70878574ccc79d11"
+    }
+  ],
+  "company_id": "argonaut",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:19:45Z",
+  "last_successful_scan_at": "2026-08-31T03:19:45Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_threshold_or_unknown": 2,
+    "role_fit_not_product_engineering": 2,
+    "total": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "argonaut-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

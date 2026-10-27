@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:31:41Z",
+      "attempt_id": "attempt:8bbde9c2-533e-4fda-9d37-0cd1c9cc3650",
+      "result_digest": "f80f1a31d5befc34c25bda43dad9707ba7eb3827876842b78b2afc66c8245262",
+      "task_id": "source:unlearn-primary:luna:2a1e3602fca50b6e",
+      "transaction_id": "txn:f80f1a31d5befc34c25bda43"
+    }
+  ],
+  "company_id": "unlearn",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:31:27Z",
+  "last_successful_scan_at": "2026-08-31T15:31:27Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 4,
+    "semantic_non_target": 1,
+    "total": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "unlearn-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

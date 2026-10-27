@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T22:19:16Z",
+      "attempt_id": "attempt:c4d26989-bad3-46fe-a3d3-fe8ff1ef00bf",
+      "result_digest": "f1564e6135ca2eb7d3f56026bef7e321467997ee26922ec506f4c3d7955c264b",
+      "task_id": "source:orderful-rippling:luna:224a3420dad60417",
+      "transaction_id": "txn:f1564e6135ca2eb7d3f56026"
+    }
+  ],
+  "company_id": "orderful",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T23:05:00Z",
+  "last_successful_scan_at": "2026-08-31T23:05:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "rippling",
+  "rejection_counts": {
+    "total": 0
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "orderful-rippling",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

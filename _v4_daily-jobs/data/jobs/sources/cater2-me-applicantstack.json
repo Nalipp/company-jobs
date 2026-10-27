@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:31:32Z",
+      "attempt_id": "attempt:c7acb05d-ce50-4892-9806-6635953ee597",
+      "result_digest": "05f8bd708df3b6487197ff51345eabab9c861db8323a73bfe665dc05585c654b",
+      "task_id": "source:cater2-me-applicantstack:luna:9d05b1de68cb7cce",
+      "transaction_id": "txn:05f8bd708df3b6487197ff51"
+    }
+  ],
+  "company_id": "cater2-me",
+  "current_job_count": 10,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T20:45:00Z",
+  "last_successful_scan_at": "2026-08-31T20:45:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "applicantstack",
+  "rejection_counts": {
+    "part_time": 9,
+    "role_mismatch": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "cater2-me-applicantstack",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:50:38Z",
+      "attempt_id": "attempt:e46c0a44-40bd-4e90-baf3-e676da4d6891",
+      "result_digest": "2a03f35aa9f54fd6389cb705fb47071711f35ed8c847ddc9d965d9e5ea52e28f",
+      "task_id": "source:wefunder-primary:luna:b618c86025ecde94",
+      "transaction_id": "txn:2a03f35aa9f54fd6389cb705"
+    }
+  ],
+  "company_id": "wefunder",
+  "current_job_count": 9,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T02:49:53.946Z",
+  "last_successful_scan_at": "2026-09-01T02:49:53.946Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_below_threshold": 1,
+    "missing_salary": 9,
+    "not_frontend_or_product_engineering": 7
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "wefunder-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

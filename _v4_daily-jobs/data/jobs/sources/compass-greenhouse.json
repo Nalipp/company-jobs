@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:59:22Z",
+      "attempt_id": "attempt:d768b988-d97c-4290-b149-cd4718f89c88",
+      "result_digest": "0a2eae5773b07e5a209b4c76e563a1b885d804f380f46e5c8b1a95c3ed7f430d",
+      "task_id": "source:compass-greenhouse:luna:74b9d79a6137e4ef",
+      "transaction_id": "txn:0a2eae5773b07e5a209b4c76"
+    }
+  ],
+  "company_id": "compass",
+  "current_job_count": 212,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:58:58Z",
+  "last_successful_scan_at": "2026-08-31T03:58:58Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 3,
+    "location_outside_target_city": 207,
+    "title_explicitly_non_target_function": 65,
+    "total": 212
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "compass-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

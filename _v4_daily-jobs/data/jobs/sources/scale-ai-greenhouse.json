@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:21:47Z",
+      "attempt_id": "attempt:b5ebf4d9-7c49-4886-94d8-71941fadc296",
+      "result_digest": "58a506c68fb581181546d94fd3d2dc75428bcdac21731e4dad2586c41a05ca0f",
+      "task_id": "source:scale-ai-greenhouse:luna:da8dba950192af67",
+      "transaction_id": "txn:58a506c68fb581181546d94f"
+    }
+  ],
+  "company_id": "scale-ai",
+  "current_job_count": 216,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:21:36Z",
+  "last_successful_scan_at": "2026-08-31T15:21:36Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 82,
+    "location_outside_target_city": 103,
+    "title_explicitly_non_target_function": 55,
+    "total": 216
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "scale-ai-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

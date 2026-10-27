@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:18:07Z",
+      "attempt_id": "attempt:9befec72-1913-444a-a5ca-a356e271833f",
+      "result_digest": "61167e9157af7f53f908a5b64b9cfeb11074f3adf64c79570ca275d33c5c23c6",
+      "task_id": "source:pump-co-primary:luna:1b6ef5900c492759",
+      "transaction_id": "txn:61167e9157af7f53f908a5b6"
+    }
+  ],
+  "company_id": "pump-co",
+  "current_job_count": 7,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:17:54Z",
+  "last_successful_scan_at": "2026-08-31T15:17:54Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 2,
+    "title_explicitly_excluded": 1,
+    "title_explicitly_non_target_function": 4,
+    "total": 7
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "pump-co-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

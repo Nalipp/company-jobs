@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:54:18Z",
+      "attempt_id": "attempt:32722a01-77fe-44a8-bad8-16d524bc4531",
+      "result_digest": "506774f389aa2c0f4e7a819875886f6246c9935b182878594eda7cc2b2c0ad8f",
+      "task_id": "source:wells-fargo-primary:luna:10f9db77b3f2bc82",
+      "transaction_id": "txn:506774f389aa2c0f4e7a8198"
+    }
+  ],
+  "company_id": "wells-fargo",
+  "current_job_count": 993,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T02:53:56.014Z",
+  "last_successful_scan_at": "2026-09-01T02:53:56.014Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_below_threshold": 993
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "wells-fargo-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": [
+    "The official site reported 1,645 matches; 993 unique stable detail URLs were exposed across the enumerated pages during this scan."
+  ]
+}

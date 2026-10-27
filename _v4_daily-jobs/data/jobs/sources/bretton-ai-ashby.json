@@ -1,0 +1,111 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T02:52:16Z",
+      "attempt_id": "attempt:1404837b-9016-4376-98a0-707b045d3804",
+      "result_digest": "bd7f0ef4d185e384888fae2e78865e8f4766d8532758e3a96c6f22783d4e8a3c",
+      "task_id": "source:bretton-ai-ashby:luna:191ea7ba7a2f649f",
+      "transaction_id": "txn:bd7f0ef4d185e384888fae2e"
+    }
+  ],
+  "company_id": "bretton-ai",
+  "current_job_count": 8,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "ai_involvement_evidence": "Official posting requires actively building with LLMs and describes deploying Bretton AI agents.",
+      "canonical_url": "https://jobs.ashbyhq.com/brettonai/b21f7919-92f0-4de8-bd76-daeb16341a31",
+      "company_id": "bretton-ai",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 200000,
+        "minimum": 150000,
+        "period": "year",
+        "source_text": "$150K - $200K"
+      },
+      "compensation_text": "$150K - $200K",
+      "department": "Engineering",
+      "description_text": "ABOUT BRETTON AI Bretton runs AI-native operations for the financial back office. OCC, Fed and FDIC regulated banks use Bretton AI to run compliance, risk, fraud, and operations on one platform, on their own data and policies, with every output traced, cited, and audit-ready. We’ve raised over $95M from Greylock, Y Combinator, Thomson Reuters Ventures and other top tier investors. We’re based in downtown San Francisco and our team comes from world-class organizations like Google, Netflix, Stripe, Plaid, Brex, and more. THE ROLE We are looking for a Forward Deployed Engineer (FDE) to work directly with customers to deploy and integrate Bretton’s platform in real-world environments. This role sits at the intersection of engineering, customer deployments, and product discovery, helping customers implement Bretton’s technology in complex enterprise environments while uncovering insights that improve and scale the product. WHAT YOU'LL DO - Deploy Bretton's AI agents at banks, fintechs, and payments companies, navigating the security and compliance requirements that come with regulated environments. - Travel onsite to work through last-mile connectivity challenges, from wiring up core banking integrations to resolving edge cases that only surface in live production. - Partner with BSA officers, AML analysts, and risk teams to translate their workflows and regulatory requirements into agent behavior that reflects how their business actually works. - Build the connectors, configuration tools, and internal frameworks that turn one-off customer solutions into repeatable platform capabilities. - Guide customers from demo through go-live as a trusted technical advisor, helping them resolve issues quickly and expand the value they get from Bretton. - Work cross-functionally with engineering, product, and GTM to remove blockers and do whatever it takes to make customers successful. - Diagnose and resolve issues in real deployments by reproducing problems and collaborating with the engineering team to fix them. - Translate customer usage into product insights by sharing customer needs with engineering and product teams and identifying opportunities to turn recurring solutions into product features. TECHNICAL QUALIFICATIONS - 2+ years of experience as a software engineer or similar - Strong backend or data engineering background - Experience with Python, APIs, data pipelines, and cloud infrastructure - Previous experience in a customer-facing technical role (e.g., solutions engineer, forward deployed engineer, or technical implementation role) is a plus. - Actively building with LLMs and modern AI systems is a must SOFT SKILLS - Excellent communication skills - Ability to explain AI systems to non-technical stakeholders - Strong debugging and problem-solving mindset - Comfort working with enterprise customers COMPENSATION & BENEFITS - $150k - $200k base salary + meaningful equity - Comprehensive healthcare, 401k matching, commuter benefits - Flexible time off, unlimited sick days, and paid holidays - Flexible leave options - Working late? We cover DoorDash and Uber home",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T02:51:46Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T02:51:46Z",
+      "locations": [
+        "San Francisco, CA",
+        "San Francisco, California , United States"
+      ],
+      "posted_at": "2026-03-10T01:20:39Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "role_fit_evidence": "Forward Deployed Engineer builds connectors, configuration tools, and repeatable platform capabilities; title and responsibilities fit forward-deployed engineering.",
+      "source_id": "bretton-ai-ashby",
+      "source_job_id": "b21f7919-92f0-4de8-bd76-daeb16341a31",
+      "stable_id": "job-5532269ee83c5d156e47596d",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Forward Deployed Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "ai_involvement_evidence": "Official posting explicitly describes building document analysis, verification systems, and agentic AI workflows.",
+      "canonical_url": "https://jobs.ashbyhq.com/brettonai/191496c7-6aa7-4d11-897d-7681aec0e6b9",
+      "company_id": "bretton-ai",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 213000,
+        "minimum": 168000,
+        "period": "year",
+        "source_text": "$168K - $213K"
+      },
+      "compensation_text": "$168K - $213K",
+      "department": "Engineering",
+      "description_text": "ABOUT BRETTON AI Bretton runs AI-native operations for the financial back office. OCC, Fed and FDIC regulated banks use Bretton AI to run compliance, risk, fraud, and operations on one platform, on their own data and policies, with every output traced, cited, and audit-ready. We’ve raised over $95M from Greylock, Y Combinator, Thomson Reuters Ventures and other top tier investors. We’re based in downtown San Francisco and our team comes from world-class organizations like Google, Netflix, Stripe, Plaid, Brex, and more. THE ROLE We’re hiring Product Engineers who excel at turning complex customer problems into elegant technical solutions. You’ll own substantial features from conception to production, working directly with customers to understand their needs, designing scalable architectures, and shipping code that measurably improves compliance operations. This role combines deep technical work with high customer impact. You’ll build systems that process thousands of cases, save compliance teams significant time, and directly contribute to company revenue. WHAT YOU’LL BUILD - Develop intuitive interfaces for case management, reporting, and analytics. - Build document analysis and verification systems. - Build agentic workflows that coordinate AI tools and data services to perform research, enrichment, and verification, while keeping humans in the loop for review. - Create tools that help customers configure and customize their compliance workflows. WHAT WE’RE LOOKING FOR MUST-HAVES: - 4+ years (Engineer) / 6+ years (Sr. Engineer) / 8+ years (Staff Engineer) of experience building production software. - Strong full-stack capabilities, including backend services, APIs, databases, and (nice-to-have) frontend development. - A track record of shipping customer-facing products where reliability is critical. - An end-to-end ownership mindset, from requirements gathering through deployment and iteration. - Clear communication skills—you can explain technical decisions to diverse audiences. - Product thinking—you understand why you’re building something, not just how. VALUED EXPERIENCE: - Building workflow engines, orchestration systems, or process automation tools. - Working in regulated industries where compliance, auditability, and data integrity are critical. - Integrating AI/LLM capabilities into production applications. - Creating configuration systems, admin tools, or workflow builders for non-technical users. - Designing systems for multi-tenancy, versioning, or complex authorization models. - A strong foundation in data modeling and distributed systems. TECHNICAL SKILLS: We work with a mix of TypeScript, Python, Node.js, React, cloud infrastructure, and workflow orchestration frameworks. You don’t need prior experience with our exact stack, but you should be comfortable learning new technologies quickly and applying them in production. WHY YOU’LL LOVE WORKING HERE - Meaningful Work: Solve hard problems that help financial institutions fight fraud and manage risk. - Technical Complexity: Build AI agents, workflow engines, data pipelines, and sophisticated UIs. - Customer Connection: Work directly with users, see your impact, and iterate based on real feedback. - True Ownership: Ship features that matter, influence product direction, and own outcomes. - High Growth: Join during a phase where your contributions will shape the company’s future. COMPENSATION & BENEFITS - $168k - $213k base salary + meaningful equity - Comprehensive healthcare, 401k matching, commuter benefits - 15 days PTO + holidays, unlimited sick days - Flexible leave options - Working late? We cover DoorDash and Uber home Join us in building AI that protects the global financial system from financial crimes that fund terrorism and human trafficking.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T02:51:46Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T02:51:46Z",
+      "locations": [
+        "San Francisco, CA",
+        "San Francisco, California , United States"
+      ],
+      "posted_at": "2026-01-22T23:46:54Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "role_fit_evidence": "Software Engineer, Product owns customer-facing full-stack product features and interfaces.",
+      "source_id": "bretton-ai-ashby",
+      "source_job_id": "191496c7-6aa7-4d11-897d-7681aec0e6b9",
+      "stable_id": "job-8a4a7f77c23553e9fbda9752",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Software Engineer, Product",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T02:51:46Z",
+  "last_successful_scan_at": "2026-08-31T02:51:46Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 3,
+    "compensation_period_mismatch": 1,
+    "employment_contract_excluded": 1,
+    "role_fit_excluded": 2,
+    "total": 8,
+    "workplace_remote_excluded": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "bretton-ai-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

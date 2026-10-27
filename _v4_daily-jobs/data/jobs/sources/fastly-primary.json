@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:04:07Z",
+      "attempt_id": "attempt:cc5109fa-2c2b-41cd-b756-60fa0bf4cdc9",
+      "result_digest": "42784b244fdea0b58034f9f627645f6ff308d616a7b4582eb2cfdbc1c8bc52e3",
+      "task_id": "source:fastly-primary:luna:b2bb719df08e1239",
+      "transaction_id": "txn:42784b244fdea0b58034f9f6"
+    }
+  ],
+  "company_id": "fastly",
+  "current_job_count": 49,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:03:54Z",
+  "last_successful_scan_at": "2026-08-31T04:03:54Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 21,
+    "location_outside_target_city": 20,
+    "title_explicitly_non_target_function": 17,
+    "total": 49
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "fastly-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

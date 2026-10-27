@@ -1,0 +1,35 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:56:50Z",
+      "attempt_id": "attempt:160bf5b2-a1ec-4194-8ceb-39cf604fc15f",
+      "result_digest": "231db75a7aa046146360d2bb719648df043ec1fe9fcfa9160e342baf323dfc12",
+      "task_id": "source:industrious-primary:luna:b9beb7a1d1aabac3",
+      "transaction_id": "txn:231db75a7aa046146360d2bb"
+    }
+  ],
+  "company_id": "industrious",
+  "current_job_count": 64,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:56:34Z",
+  "last_successful_scan_at": "2026-08-31T14:56:34Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "employment_contract_excluded": 1,
+    "employment_part-time_excluded": 10,
+    "location_outside_target_city": 60,
+    "title_explicitly_non_target_function": 2,
+    "title_not_target_engineering_family": 4,
+    "total": 79
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "industrious-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

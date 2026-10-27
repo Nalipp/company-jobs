@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:18:57Z",
+      "attempt_id": "attempt:a8025960-6fc8-437e-8d62-bd4ee925c8f8",
+      "result_digest": "775e071b8b71463165dc293f860dfa857d9221aa5c11d5096a0828796c1145a5",
+      "task_id": "source:reddit-primary:luna:4705d5e027853687",
+      "transaction_id": "txn:775e071b8b71463165dc293f"
+    }
+  ],
+  "company_id": "reddit",
+  "current_job_count": 153,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:18:48Z",
+  "last_successful_scan_at": "2026-08-31T15:18:48Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 29,
+    "location_outside_target_city": 114,
+    "title_explicitly_non_target_function": 37,
+    "total": 153
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "reddit-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

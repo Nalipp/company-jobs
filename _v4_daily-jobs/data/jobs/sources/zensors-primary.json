@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:57:09Z",
+      "attempt_id": "attempt:764a5b6e-edb8-4bb1-829a-8026982dbfdb",
+      "result_digest": "5c57b39c172c3f1463e7e890ec66bf4ae5cba4fb5dc5a17f0ff95d4330bc572f",
+      "task_id": "source:zensors-primary:luna:985abb1823d1b8ae",
+      "transaction_id": "txn:5c57b39c172c3f1463e7e890"
+    }
+  ],
+  "company_id": "zensors",
+  "current_job_count": 8,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T03:15:00Z",
+  "last_successful_scan_at": "2026-09-01T03:15:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "employment_internship_excluded": 1,
+    "location_outside_target_city": 1,
+    "title_explicitly_excluded": 2,
+    "title_non_target_function": 4,
+    "workplace_remote_excluded": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "zensors-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

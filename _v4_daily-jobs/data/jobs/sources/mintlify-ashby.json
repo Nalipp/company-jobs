@@ -1,0 +1,213 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:05:45Z",
+      "attempt_id": "attempt:eb9fc925-e1dc-4601-aa9c-52e29f9554e9",
+      "result_digest": "782db14289114097329c8c27b1bbdbbfedc6f2f545f312cd6dd3cc23bba90d82",
+      "task_id": "source:mintlify-ashby:luna:5366d70eaccadf58",
+      "transaction_id": "txn:782db14289114097329c8c27"
+    }
+  ],
+  "company_id": "mintlify",
+  "current_job_count": 20,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/Mintlify/31adc1b5-e99a-4f33-bd0b-a49e331226a8",
+      "company_id": "mintlify",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 200000,
+        "minimum": 130000,
+        "period": "year",
+        "source_text": "$130K - $200K"
+      },
+      "compensation_text": "$130K - $200K",
+      "department": "Engineering",
+      "description_text": "WHY MINTLIFY? We're on a mission to empower builders. - Massive reach: Our docs platform serves 100 million+ developers every year and powers documentation for 20,000+ companies, including Anthropic, Microsoft, PayPal, Spotify, Coinbase, X, and over 20% of the last YC batch. - Small team, huge impact: We recently passed 65 employees and raised a $45 million Series B led by A16Z and Salesforce Ventures. Each new hire has a huge impact on shaping the company's trajectory. - Culture of slope over y-intercept https://mattrickard.com/hire-slope-not-intercept: We value learning velocity, grit, and unapologetically unique personalities. We grew in value faster than headcount and we’re looking to align the two quickly. We’re looking for product-minded builders to create essential, customer-facing features. You should have a notable technical \"spike,\" whether that’s crafting sophisticated React interfaces or architecting robust backend infrastructure. As a Product Engineer, you’ll build polished experiences that solve real customer problems. You’ll collaborate across design and engineering, contribute to product and technical decisions, and take features from development through launch. WHAT YOU'LL WORK ON HERE - Building the full lifecycle: Partnering with design and engineering to architect and ship customer-facing functionality from the ground up - Solving complex technical challenges: You’ll tackle difficult problems, from optimizing virtualized rendering to architecting reliable content management system - Driving user experience: Contributing to a frictionless UX, handling the last-mile refinements that transform working code into a great product - Performance and scale: Enhancing application speed through profiling and build scalable solutions that evolve with our growing user base - Shaping product direction and engineering approaches across the stack WHAT YOU BRING TO THE TABLE - A technical “spike”: You have strong experience in either: - Frontend: React, Next.js, and TypeScript, including component architecture, state management, and rendering performance - Backend: Systems design, API architecture, and database optimization - You have strong product intuition and care about the \"why\" as much as the \"how\" when building user-facing software - You are adaptable and willing to jump into new territory across the stack to ship a feature - You appreciate a high degree of ownership and thrive when defining solutions rather than following a spec - You’re eager to talk directly with customers and use those insights to shape what we build WHY YOU SHOULD JOIN OUR ENGINEERING TEAM - You’ll solve technically ambitious product problems alongside a team that values craft, speed, and thoughtful execution. Here’s a taste of what the team has built: - How we built a virtual filesystem for our Assistant https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant - Introducing the collaborative editor built for teams and agents https://www.mintlify.com/blog/editor - Docs URL Benchmark: Markdown & llms.txt > HTML https://www.mintlify.com/blog/llms-txt-agent-benchmark - Engineers here are product builders with high agency; you'll drive change and have a voice in strategic decisions - You’ll have plenty of heads-down builder time on a small-but-mighty team where the best ideas win - We’ll find the intersection between what excites you and business priorities. You’ll own projects, ship, and see immediate impact COMPANY BENEFITS: - Competitive compensation and equity - 20 days paid time off every year - 401k or RRSP - $420/month wellness stipend - 100% coverage for Health, dental, vision - Free Ubers to and from work - Free lunch and dinners - Annual team offsite (previously went to Alaska, Hawaii)",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:05:29Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:05:29Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, USA"
+      ],
+      "posted_at": "2026-05-28T05:39:39Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "mintlify-ashby",
+      "source_job_id": "31adc1b5-e99a-4f33-bd0b-a49e331226a8",
+      "stable_id": "job-2c652b5414213191b56bc451",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Product Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/Mintlify/ec55d98f-6e94-4ffb-9a55-4adad39297c3",
+      "company_id": "mintlify",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 200000,
+        "minimum": 130000,
+        "period": "year",
+        "source_text": "$130K - $200K"
+      },
+      "compensation_text": "$130K - $200K",
+      "department": "Engineering",
+      "description_text": "WHY MINTLIFY? We're on a mission to empower builders. - Massive reach: Our docs platform serves 100 million+ developers every year and powers documentation for 20,000+ companies, including Anthropic, Microsoft, PayPal, Spotify, Coinbase, X, and over 20% of the last YC batch. - Small team, huge impact: We recently passed 65 employees and raised a $45 million Series B led by A16Z and Salesforce Ventures. Each new hire has a huge impact on shaping the company's trajectory. - Culture of slope over y-intercept https://mattrickard.com/hire-slope-not-intercept: We value learning velocity, grit, and unapologetically unique personalities. We grew in value faster than headcount and we’re looking to align the two quickly. We’re looking for product-minded engineers to build the AI experiences behind Mintlify. You’ll combine strong full-stack engineering with applied AI expertise to create agents that reliably solve real customer problems. As an Applied AI Engineer, you’ll take ownership of complex AI products from early experimentation through production. You’ll help define technical direction, establish how we evaluate and improve agent performance, and raise the quality of both our AI products and engineering practices. WHAT YOU'LL WORK ON HERE - Building AI products end to end: Designing and shipping customer-facing AI experiences, from agent orchestration and tool use to the interfaces and backend systems that support them - Developing reliable agents: Building agent loops that reason over complex context, call tools, recover from failures, and complete long-running tasks - Evaluating and improving performance: Creating evals, analyze failures, and hill-climb on prompts, context, models, tools, and product flows - Shipping across the stack: Building the APIs, data pipelines, interfaces, and production infrastructure needed to turn promising prototypes into polished products WHAT YOU BRING TO THE TABLE - You have at least 4 years of professional software development experience - You possess deep experience building production systems with language models, including agent loops, tool use, retrieval, prompting, and structured outputs - You are comfortable owning production software across frontend, backend, APIs, databases, and infrastructure - You have led complex projects from experimentation through production and thrive when defining solutions rather than following a spec - You have strong product intuition and care about the “why” as much as the “how” when building user-facing software - You’re eager to talk directly with customers and use those insights to shape what we build - You have experience mentoring other engineers, sharing technical knowledge, and helping teammates grow WHY YOU SHOULD JOIN OUR ENGINEERING TEAM - You’ll solve technically ambitious product problems alongside a team that values craft, speed, and thoughtful execution. Here’s a taste of what the team has built: - How we built a virtual filesystem for our Assistant https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant - Introducing the collaborative editor built for teams and agents https://www.mintlify.com/blog/editor - Docs URL Benchmark: Markdown & llms.txt > HTML https://www.mintlify.com/blog/llms-txt-agent-benchmark - Engineers here are product builders with high agency; you'll drive change and have a voice in strategic decisions - You’ll have plenty of heads-down builder time on a small-but-mighty team where the best ideas win - We’ll find the intersection between what excites you and business priorities. You’ll own projects, ship, and see immediate impact COMPANY BENEFITS: - Competitive compensation and equity - 20 days paid time off every year - 401k or RRSP - $420/month wellness stipend - 100% coverage for Health, dental, vision - Free Ubers to and from work - Free lunch and dinners - Annual team offsite (previously went to Alaska, Hawaii)",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:05:29Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:05:29Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, USA"
+      ],
+      "posted_at": "2026-08-17T19:57:39Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "mintlify-ashby",
+      "source_job_id": "ec55d98f-6e94-4ffb-9a55-4adad39297c3",
+      "stable_id": "job-4b15fba09ce062a7318110d8",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Applied AI Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/Mintlify/48f4a28d-2e7a-440f-a33d-4fc265503efd",
+      "company_id": "mintlify",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 265000,
+        "minimum": 190000,
+        "period": "year",
+        "source_text": "$190K - $265K"
+      },
+      "compensation_text": "$190K - $265K",
+      "department": "Engineering",
+      "description_text": "WHY MINTLIFY? We're on a mission to empower builders. - Massive reach: Our docs platform serves 100 million+ developers every year and powers documentation for 20,000+ companies, including Anthropic, Microsoft, PayPal, Spotify, Coinbase, X, and over 20% of the last YC batch. - Small team, huge impact: We recently passed 65 employees and raised a $45 million Series B led by A16Z and Salesforce Ventures. Each new hire has a huge impact on shaping the company's trajectory. - Culture of slope over y-intercept https://mattrickard.com/hire-slope-not-intercept: We value learning velocity, grit, and unapologetically unique personalities. We grew in value faster than headcount and we’re looking to align the two quickly. We’re looking for product-minded builders to create essential, customer-facing features. You should have a notable technical \"spike,\" whether that’s crafting sophisticated React interfaces or architecting robust backend infrastructure. As a Product Engineer, you’ll build polished experiences that solve real customer problems. You’ll collaborate across design and engineering, contribute to product and technical decisions, and take features from development through launch. WHAT YOU'LL WORK ON HERE - Building the full lifecycle: Partnering with design and engineering to architect and ship customer-facing functionality from the ground up - Solving complex technical challenges: You’ll tackle difficult problems, from optimizing virtualized rendering to architecting reliable content management system - Driving user experience: Contributing to a frictionless UX, handling the last-mile refinements that transform working code into a great product - Performance and scale: Enhancing application speed through profiling and build scalable solutions that evolve with our growing user base - Shaping product direction and engineering approaches across the stack WHAT YOU BRING TO THE TABLE - 4+ years of software development experience - A technical “spike”: You have strong experience in either: - Frontend: React, Next.js, and TypeScript, including component architecture, state management, and rendering performance - Backend: Systems design, API architecture, and database optimization - You have strong product intuition and care about the \"why\" as much as the \"how\" when building user-facing software - You are adaptable and willing to jump into new territory across the stack to ship a feature - You appreciate a high degree of ownership and thrive when defining solutions rather than following a spec - You’re eager to talk directly with customers and use those insights to shape what we build WHY YOU SHOULD JOIN OUR ENGINEERING TEAM - You’ll solve technically ambitious product problems alongside a team that values craft, speed, and thoughtful execution. Here’s a taste of what the team has built: - How we built a virtual filesystem for our Assistant https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant - Introducing the collaborative editor built for teams and agents https://www.mintlify.com/blog/editor - Docs URL Benchmark: Markdown & llms.txt > HTML https://www.mintlify.com/blog/llms-txt-agent-benchmark - Engineers here are product builders with high agency; you'll drive change and have a voice in strategic decisions - You’ll have plenty of heads-down builder time on a small-but-mighty team where the best ideas win - We’ll find the intersection between what excites you and business priorities. You’ll own projects, ship, and see immediate impact COMPANY BENEFITS: - Competitive compensation and equity - 20 days paid time off every year - 401k or RRSP - $420/month wellness stipend - 100% coverage for Health, dental, vision - Free Ubers to and from work - Free lunch and dinners - Annual team offsite (previously went to Alaska, Hawaii)",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:05:29Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:05:29Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, USA"
+      ],
+      "posted_at": "2026-03-15T23:52:50Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "mintlify-ashby",
+      "source_job_id": "48f4a28d-2e7a-440f-a33d-4fc265503efd",
+      "stable_id": "job-92820b62fda597d2f69ac758",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Senior Product Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/Mintlify/06c85f82-1efc-4777-a146-c6aa64a99c9e",
+      "company_id": "mintlify",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 265000,
+        "minimum": 190000,
+        "period": "year",
+        "source_text": "$190K - $265K"
+      },
+      "compensation_text": "$190K - $265K",
+      "department": "Engineering",
+      "description_text": "WHY MINTLIFY? We're on a mission to empower builders. - Massive reach: Our docs platform serves 100 million+ developers every year and powers documentation for 20,000+ companies, including Anthropic, Microsoft, PayPal, Spotify, Coinbase, X, and over 20% of the last YC batch. - Small team, huge impact: We recently passed 65 employees and raised a $45 million Series B led by A16Z and Salesforce Ventures. Each new hire has a huge impact on shaping the company's trajectory. - Culture of slope over y-intercept https://mattrickard.com/hire-slope-not-intercept: We value learning velocity, grit, and unapologetically unique personalities. We grew in value faster than headcount and we’re looking to align the two quickly. We’re looking for product-minded engineers to build the AI experiences behind Mintlify. You’ll combine strong full-stack engineering with applied AI expertise to create agents that reliably solve real customer problems. As a Senior Applied AI Engineer, you’ll take ownership of complex AI products from early experimentation through production. You’ll help define technical direction, establish how we evaluate and improve agent performance, and raise the quality of both our AI products and engineering practices. WHAT YOU'LL WORK ON HERE - Leading AI products end to end: Architecting and shipping customer-facing AI experiences, from agent orchestration and tool use to the interfaces and backend systems that support them - Building reliable agent systems: Developing agent loops that reason over complex context, call tools, recover from failures, and complete long-running tasks - Driving evaluation and iteration: Defining evals, build feedback loops, analyze failures, and systematically hill-climb on prompts, context, models, tools, and product flows - Turning prototypes into products: Making thoughtful decisions about architecture, latency, cost, observability, and user experience to operate AI systems reliably at scale - Shaping product direction and engineering approaches across the stack WHAT YOU BRING TO THE TABLE - You have at least 4 years of professional software development experience - You possess deep experience building production systems with language models, including agent loops, tool use, retrieval, prompting, and structured outputs - You are comfortable owning production software across frontend, backend, APIs, databases, and infrastructure - You have led complex projects from experimentation through production and thrive when defining solutions rather than following a spec - You have strong product intuition and care about the “why” as much as the “how” when building user-facing software - You’re eager to talk directly with customers and use those insights to shape what we build - You have experience mentoring other engineers, sharing technical knowledge, and helping teammates grow WHY YOU SHOULD JOIN OUR ENGINEERING TEAM - You’ll solve technically ambitious product problems alongside a team that values craft, speed, and thoughtful execution. Here’s a taste of what the team has built: - How we built a virtual filesystem for our Assistant https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant - Introducing the collaborative editor built for teams and agents https://www.mintlify.com/blog/editor - Docs URL Benchmark: Markdown & llms.txt > HTML https://www.mintlify.com/blog/llms-txt-agent-benchmark - Engineers here are product builders with high agency; you'll drive change and have a voice in strategic decisions - You’ll have plenty of heads-down builder time on a small-but-mighty team where the best ideas win - We’ll find the intersection between what excites you and business priorities. You’ll own projects, ship, and see immediate impact COMPANY BENEFITS: - Competitive compensation and equity - 20 days paid time off every year - 401k or RRSP - $420/month wellness stipend - 100% coverage for Health, dental, vision - Free Ubers to and from work - Free lunch and dinners - Annual team offsite (previously went to Alaska, Hawaii)",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:05:29Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:05:29Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, USA"
+      ],
+      "posted_at": "2026-08-17T19:48:39Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "mintlify-ashby",
+      "source_job_id": "06c85f82-1efc-4777-a146-c6aa64a99c9e",
+      "stable_id": "job-f67707f95da0281b0bd644fa",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Senior Applied AI Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/Mintlify/4716fd90-e038-4112-b319-aff7cf17a568",
+      "company_id": "mintlify",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 265000,
+        "minimum": 190000,
+        "period": "year",
+        "source_text": "$190K - $265K"
+      },
+      "compensation_text": "$190K - $265K",
+      "department": "Engineering",
+      "description_text": "WHY MINTLIFY? We're on a mission to empower builders. - Massive reach: Our docs platform serves 100 million+ developers every year and powers documentation for 20,000+ companies, including Anthropic, Microsoft, PayPal, Spotify, Coinbase, X, and over 20% of the last YC batch. - Small team, huge impact: We recently passed 65 employees and raised a $45 million Series B led by A16Z and Salesforce Ventures. Each new hire has a huge impact on shaping the company's trajectory. - Culture of slope over y-intercept https://mattrickard.com/hire-slope-not-intercept: We value learning velocity, grit, and unapologetically unique personalities. We grew in value faster than headcount and we’re looking to align the two quickly. WHAT YOU'LL WORK ON HERE - Serving as the dedicated technical owner for one or more of our largest enterprise customers after the contract has been signed - Shipping code, reliable software, and systems that carry production traffic from day one - Pioneering the patterns for deploying Mintlify inside organizations with 100,000+ employees - Scoping ambiguous customer asks into shippable plans, and saying no when the ask would fork the product - Designing and deliver self-hosted and VPC deployments, SSO (SAML/OIDC), and least-privilege access architectures - Building enterprise-specific integrations with customer systems as they exist today, finding the least invasive path rather than demanding a rebuild - Debugging production issues across the full stack and own them to resolution - Productizing the patterns you see across deployments: self-hosting packages, runbooks, integration templates - Feeding field knowledge back into the core product so we never solve the same problem twice WHAT YOU BRING TO THE TABLE - 5+ years of software engineering experience with real production ownership (you've been paged, you've done the postmortem), focused on backend work - Direct customer-facing experience: you've sat across from a customer, explained a technical limitation, and kept their trust - Comfort with enterprise deployment realities: cloud infrastructure, networking, SSO, compliance-conscious environments - Strong written and verbal communication: you can brief an executive and pair with their platform team in the same afternoon - Bonus points: Previous founding experience. Experience in an FDE, solutions architecture, or professional services motion. WHY YOU SHOULD JOIN OUR ENTERPRISE SOLUTIONS TEAM The Enterprise Solutions team is new and this is a founding seat. We operate as a mini-startup inside each large enterprise deployment with full ownership and direct contact with the customer. You'll define how Mintlify builds enterprise-ready products and prove out the motion for serving the largest organizations in the world, with a direct and measurable line from your work to revenue. COMPANY BENEFITS: - Competitive compensation and equity - 20 days paid time off every year - 401k or RRSP - $420/month wellness stipend - 100% coverage for Health, dental, vision - Free Ubers to and from work - Free lunch and dinners - Annual team offsite (previously went to Alaska, Hawaii)",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:05:29Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:05:29Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, USA"
+      ],
+      "posted_at": "2026-07-06T22:54:46Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "mintlify-ashby",
+      "source_job_id": "4716fd90-e038-4112-b319-aff7cf17a568",
+      "stable_id": "job-fd48172592f0be62f9d4340a",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Senior Forward Deployed Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:05:29Z",
+  "last_successful_scan_at": "2026-08-31T15:05:29Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 3,
+    "location_outside_target_city": 3,
+    "title_explicitly_non_target_function": 13,
+    "total": 20
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "mintlify-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

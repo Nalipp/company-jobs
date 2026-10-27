@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:05:55Z",
+      "attempt_id": "attempt:f942340d-a974-44fb-a0f6-0c908c94d288",
+      "result_digest": "ee3274aa213ec04d73bf134063905722172844dcdcacee6af26760fb4f18939d",
+      "task_id": "source:forge-global-primary:luna:a2999db0dbe4c531",
+      "transaction_id": "txn:ee3274aa213ec04d73bf1340"
+    }
+  ],
+  "company_id": "forge-global",
+  "current_job_count": 29,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:05:39Z",
+  "last_successful_scan_at": "2026-08-31T04:05:39Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 26,
+    "location_outside_target_city": 3,
+    "title_explicitly_non_target_function": 1,
+    "total": 30
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "forge-global-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

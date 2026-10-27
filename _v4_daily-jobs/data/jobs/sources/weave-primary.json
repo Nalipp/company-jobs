@@ -1,0 +1,140 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:34:26Z",
+      "attempt_id": "attempt:77c1c85c-a9f9-4484-bd61-5148f2bbe329",
+      "result_digest": "8a5ac22b3548397ec14bbc51ef967ee8e7cfb632565d774ebd322d76b702fa84",
+      "task_id": "source:weave-primary:luna:b1d87c5cf0576600",
+      "transaction_id": "txn:8a5ac22b3548397ec14bbc51"
+    }
+  ],
+  "company_id": "weave",
+  "current_job_count": 9,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/workweave/ad1831b5-126e-4508-be73-8109b5d42260",
+      "company_id": "weave",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 200000,
+        "minimum": 150000,
+        "period": "year",
+        "source_text": "$150K - $200K"
+      },
+      "compensation_text": "$150K - $200K",
+      "department": "Engineering",
+      "description_text": "Weave (YC W25) is building the definitive platform for understanding and improving how engineering teams work. We believe the way engineering output is measured today is fundamentally broken and that modern AI can give teams a far more accurate and actionable view of productivity, impact and collaboration. Trusted by 200+ customers such as Robinhood, Rho, PostHog and Browserbase, we’ve delivered consistent double-digit month-over-month revenue growth since May and are looking to accelerate our growth. We've raised a $13.5 million Series A and are backed by Standard Capital, YCombinator, Moonfire, Burst Capital, IrregEx and the Agent Fund. We’re now hiring a Founding Product Engineer to help define the product and the technical foundation of Weave. This is a rare opportunity to join at the ground floor and shape how millions of engineers and leaders understand engineering work. WHAT WE’RE BUILDING Weave is rethinking engineering output from first principles. We use AI to: - Understand how engineers actually work (not just what they ship) - Surface meaningful insights about productivity, quality, collaboration and impact - Help teams improve outcomes without vanity metrics or surveillance Our goal is not to optimize for “more output,” but for better engineering. THE TEAM YOU’LL WORK WITH You’ll work directly with: - Andrew (CTO) – previously a founding engineer at Causal, MIT alum. Andrew has been in your shoes and is deeply committed to providing the mentorship, ownership and growth he had as an early engineer. - Adam (CEO) – leads sales and customer discovery. Adam is a former sales executive at multiple high-growth startups and deeply embedded with customers and scaled multiple sales teams from $0-30M in ARR. This is a small, intense, highly collaborative team. You will have real ownership from day one. MUST HAVES You are a good fit for Weave if you are a formidable https://paulgraham.com/convince.html engineer. This means you stop at nothing to accomplish your goal. We don't care much about your current skills or even what you've done before; we care that you will be able to do anything you set your mind to. You must also be pragmatic. Weave is a startup so something is always on fire. You need to know when to let little fires burn and when to break out the extinguisher. You must be a very good engineer who's committed to becoming a great engineer. The slope is more important than the Y-intercept. You must be empathetic. We're building products for other people, so you need to be able to understand how other people think and why. You must care about helping other software engineering teams be great. If that's not an exciting mission for you, it will be hard to stay motivated through the inevitable highs and lows. You must be an excellent communicator. You’ll be working on a product that’s communicating with millions of engineers and leaders, so you need to be clear. Finally you must be gritty. You should be accustomed to picking the hard option and pushing through it. NICE TO HAVES (Please feel free to apply even if some or all of these don't apply to you!) Our tech stack is React + TypeScript on the frontend, Go on the backend, and Python for ML. Experience with any of those three languages is a bonus. If you've already done lots of thinking about engineering productivity and how to improve it, that's great and we want to hear about it! We hope your design sensibilities are passable. THE ROLE As Weave’s founding product engineer, your job is to build things customers want. This involves any/all of: - Talking to customers to understand their pain points and requests - Designing and planning potential solutions - Writing the backend for a new feature - Writing the frontend for a new feature - Provisioning the infrastructure to support a new feature - Releasing the feature and collecting customer feedback on it - Finding a hacky fix to solve a bug quickly - Finding a great fix to solve a bug and eliminate future bugs too - This role is 5 days in office in SF Why Join - Competitive pay + early equity - Health/vision/dental insurance covered - Free lunch/dinners/snacks - Yearly team offsite with regular team events - Yearly $500 learning/development stipend - Get to work in SF with one of the fastest moving teams (95%+ percentile code output) ABOUT THE INTERVIEW 1. 15-minute intro call 2. Take home assessment 3. One-hour technical interview with our CTO, Andrew 4. One-hour technical interview with our CTO, Andrew 5. 3-5 day paid work trial",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:34:13Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:34:13Z",
+      "locations": [
+        "Weave HQ",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-02-10T02:25:56Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "weave-primary",
+      "source_job_id": "ad1831b5-126e-4508-be73-8109b5d42260",
+      "stable_id": "job-5c0a8380ea0b86b38f8394f9",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Founding Product Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/workweave/cfa38030-6d14-41fc-a776-6c133a2b9aeb",
+      "company_id": "weave",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 200000,
+        "minimum": 150000,
+        "period": "year",
+        "source_text": "$150K - $200K"
+      },
+      "compensation_text": "$150K - $200K",
+      "department": "Engineering",
+      "description_text": "Weave (YC W25) is building the definitive platform for understanding and improving how engineering teams work. We believe the way engineering output is measured today is fundamentally broken and that modern AI can give teams a far more accurate and actionable view of productivity, impact and collaboration. Trusted by 200+ customers such as Robinhood, Rho, PostHog and Browserbase, we’ve delivered consistent double-digit month-over-month revenue growth since May and are looking to accelerate our growth. As Weave’s Founding AI Engineer, your job is to build AI to understand and improve the work that software engineers do. You’ll be building our processes and standards as you go to make building every incremental feature easier. Your goal will be to delight customers with intelligence that makes their job 10x easier. We’ve raised a $4.2M seed round https://workweave.dev/blog/announcing-our-4-2m-seed-round and are backed by Moonfire, Burst capital and Y Combinator (W25). This is a rare opportunity to join at the ground floor and shape how millions of engineers and leaders understand engineering work. WHAT WE’RE BUILDING Weave is rethinking engineering output from first principles. We use AI to: - Understand how engineers actually work (not just what they ship) - Surface meaningful insights about productivity, quality, collaboration and impact - Help teams improve outcomes without vanity metrics or surveillance Our goal is not to optimize for “more output,” but for better engineering. THE TEAM YOU’LL WORK WITH You’ll work directly with: - Andrew (CTO) – previously a founding engineer at Causal, MIT alum. Andrew has been in your shoes and is deeply committed to providing the mentorship, ownership and growth he had as an early engineer. - Adam (CEO) – leads sales and customer discovery. Adam is a former sales executive at multiple high-growth startups and deeply embedded with customers and scaled multiple sales teams from $0-30M in ARR. This is a small, intense, highly collaborative team. You will have real ownership from day one. MUST HAVES You are a good fit for Weave if you are a formidable https://paulgraham.com/convince.html engineer. This means you stop at nothing to accomplish your goal. We don't care much about your current skills or even what you've done before; we care that you will be able to do anything you set your mind to. You must also be pragmatic. Weave is a startup so something is always on fire. You need to know when to let little fires burn and when to break out the extinguisher. You must be a very good engineer who's committed to becoming a great engineer. The slope is more important than the Y-intercept. You must be empathetic. We're building products for other people, so you need to be able to understand how other people think and why. You must care about helping other software engineering teams be great. If that's not an exciting mission for you, it will be hard to stay motivated through the inevitable highs and lows. You must be an excellent communicator. You’ll be working on a product that’s communicating with millions of engineers and leaders, so you need to be clear. Finally you must be gritty. You should be accustomed to picking the hard option and pushing through it. This role is 5 days in office in SF NICE TO HAVES (Please feel free to apply even if some or all of these don't apply to you!) Our tech stack is React + TypeScript on the frontend, Go on the backend, and Python for ML. Experience with any of those three languages is a bonus. If you've already done lots of thinking about engineering productivity and how to improve it, that's great and we want to hear about it! We hope your design sensibilities are passable. Why Join - Competitive pay + early equity - Health/vision/dental insurance covered - Free lunch/dinners/snacks - Yearly team offsite with regular team events - Yearly $500 learning/development stipend - Get to work in SF with one of the fastest moving teams (95%+ percentile code output) ABOUT THE INTERVIEW 1. 15-minute intro call 2. Take home assessment 3. One-hour technical interview with our CTO, Andrew 4. One-hour technical interview with our CTO, Andrew 5. 3-5 day paid work trial",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:34:13Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:34:13Z",
+      "locations": [
+        "Weave HQ",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-02-10T02:42:49Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "weave-primary",
+      "source_job_id": "cfa38030-6d14-41fc-a776-6c133a2b9aeb",
+      "stable_id": "job-8028cf7b12d42cc2be8113d4",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Founding AI Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/workweave/60226f73-954c-421c-b609-c377255b062e",
+      "company_id": "weave",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 200000,
+        "minimum": 150000,
+        "period": "year",
+        "source_text": "$150K - $200K"
+      },
+      "compensation_text": "$150K - $200K",
+      "department": "Engineering",
+      "description_text": "Weave (YC W25) is building the definitive platform for understanding and improving how engineering teams work. We believe the way engineering output is measured today is fundamentally broken and that modern AI can give teams a far more accurate and actionable view of productivity, impact and collaboration. Trusted by 200+ customers such as Robinhood, Rho, PostHog and Browserbase, we’ve delivered consistent double-digit month-over-month revenue growth since May and are looking to accelerate our growth. We want to hire an exceptional forward deployed engineering manager to help us make sure everyone gets the most out of our product. We've raised a $13.5 million Series A and are backed by Standard Capital, YCombinator, Moonfire, Burst Capital, IrregEx and the Agent Fund. This is a rare opportunity to join at the ground floor and shape how millions of engineers and leaders understand engineering work. WHAT WE’RE BUILDING Weave is rethinking engineering output from first principles. We use AI to: - Understand how engineers actually work (not just what they ship) - Surface meaningful insights about productivity, quality, collaboration and impact - Help teams improve outcomes without vanity metrics or surveillance Our goal is not to optimize for “more output,” but for better engineering. THE TEAM YOU’LL WORK WITH You’ll work directly with: - Andrew (CTO) – previously a founding engineer at Causal, MIT alum. Andrew has been in your shoes and is deeply committed to providing the mentorship, ownership and growth he had as an early engineer. - Adam (CEO) – leads sales and customer discovery. Adam is a former sales executive at multiple high-growth startups and deeply embedded with customers and scaled multiple sales teams from $0-30M in ARR. This is a small, intense, highly collaborative team. You will have real ownership from day one. RESPONSIBILITIES - You’ll essentially act like a forward deployed manager for their teams. - Own the customer relationship post-sale. From onboarding, to account management, to technical support. - Partner closely with founders, engineers, and product to influence roadmap & strategy. - Act as the first responder to incoming support tickets, triaging and resolving issues efficiently. - Diagnose and troubleshoot technical problems across GCP and our own systems. - Reproduce issues and create clear, actionable bug reports for engineering. - Submit small pull requests for simple fixes, documentation updates, or configuration changes. - Collaborate with product and engineering teams to resolve escalations quickly. - Keep support documentation up to date. Requirements - Previous product or engineering management role. - Engineering background (software, DevOps, or similar) with strong technical problem-solving skills. - Ability to read and write code; confident making simple PRs in GitHub or similar. - Excellent written and verbal communication skills. - Desire to talk to customers and ability to handle intense situations. - Self-starter who thrives in a fast-paced environment. - This role is 5 days in office in SF Nice to Have - Experience with developer tools or SaaS products. - Previous experience in a technical support or solutions engineering role. Why Join - Competitive pay + early equity - Health/vision/dental insurance covered - Free lunch/dinners/snacks - Yearly team offsite with regular team events - Yearly $500 learning/development stipend - Get to work in SF with one of the fastest moving teams (95%+ percentile code output) ABOUT THE INTERVIEW 1. 15-minute intro call 2. Take home assessment 3. 30 min culture interview with CEO 4. 30 min interview with Founders 5. 50 min interview with CEO",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:34:13Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:34:13Z",
+      "locations": [
+        "Weave HQ",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-02-11T03:34:30Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "weave-primary",
+      "source_job_id": "60226f73-954c-421c-b609-c377255b062e",
+      "stable_id": "job-e86283c35c9eee4c8578b800",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Forward Deployed Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:34:13Z",
+  "last_successful_scan_at": "2026-08-31T15:34:13Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "title_explicitly_non_target_function": 5,
+    "total": 9
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "weave-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

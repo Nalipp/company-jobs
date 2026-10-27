@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T03:37:02Z",
+      "attempt_id": "attempt:9099aa71-993b-43c3-b1f9-47b86186802a",
+      "result_digest": "42e170d24d12d2ef2f23ef32de6aba07ea0285c25db5c865c1b832ad58ca638d",
+      "task_id": "source:clover-health-greenhouse:luna:afce8bd311701d19",
+      "transaction_id": "txn:42e170d24d12d2ef2f23ef32"
+    }
+  ],
+  "company_id": "clover-health",
+  "current_job_count": 64,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T03:36:53Z",
+  "last_successful_scan_at": "2026-08-31T03:36:53Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 64,
+    "title_explicitly_non_target_function": 15,
+    "total": 64
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "clover-health-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

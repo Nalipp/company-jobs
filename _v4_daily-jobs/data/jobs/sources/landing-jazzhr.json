@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:55:50Z",
+      "attempt_id": "attempt:3f2eb7e5-000d-422a-b700-2e079a326158",
+      "result_digest": "b2a5589329ac197f9ef8a59e42a0552506f3bbf5ed1b57e9fdb728acc9bd0559",
+      "task_id": "source:landing-jazzhr:luna:243a0f22ac78136f",
+      "transaction_id": "txn:b2a5589329ac197f9ef8a59e"
+    }
+  ],
+  "company_id": "landing",
+  "current_job_count": 19,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:57:00Z",
+  "last_successful_scan_at": "2026-08-31T21:57:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "jazzhr",
+  "rejection_counts": {
+    "location_not_san_francisco": 18,
+    "semantic_role_or_workplace_rejected": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "landing-jazzhr",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

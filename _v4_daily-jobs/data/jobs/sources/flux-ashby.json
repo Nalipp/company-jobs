@@ -1,0 +1,176 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:05:24Z",
+      "attempt_id": "attempt:937e07e1-471e-4b0b-8b12-f723d4749792",
+      "result_digest": "20592f8f0db23a076c988af45f8345f31c44ccb81589ee4ed8339d9622aa0839",
+      "task_id": "source:flux-ashby:luna:e163898fd1a91633",
+      "transaction_id": "txn:20592f8f0db23a076c988af4"
+    }
+  ],
+  "company_id": "flux",
+  "current_job_count": 10,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/flux/b1b4cc1b-ddd9-433a-8369-01a8faa44d6f",
+      "company_id": "flux",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 250000,
+        "minimum": 183000,
+        "period": "year",
+        "source_text": "$183K - $250K"
+      },
+      "compensation_text": "$183K - $250K",
+      "department": "Product & Engineering",
+      "description_text": "WHY FLUX Flux is taking the hard out of hardware. To do this, we’re building the world's first AI hardware engineer. Founded in 2019, our platform enables anyone to go from idea to manufacturable board using nothing more than a natural language prompt. This democratizes a process that has historically required years of specialized expertise. We're going after a $15B+ electronic design automation market, backed by 8VC, Bain Capital Ventures, Liquid 2 Ventures, Outsiders Fund, Figma board member John Lilly, and GitHub founder Tom Preston-Werner. In February 2026, we closed a total of $37M in funding to accelerate that mission. What happens when we unlock the ability for anyone to make hardware? We fundamentally reshape the world. That's our mission, and we're just getting started. ABOUT THE ROLE Flux is building the world’s first AI Hardware Engineer, software that can design real, manufacturable electronics from a prompt. As a Software Engineer, Agentic Development, your mission is to build the brains of the system, agentic workflows, reasoning graphs, and integrations that help novice users move from idea to manufacturable hardware and seasoned electrical engineers learn from the hard earned battle scars from failed production runs of the past. This role combines deep web engineering with AI systems design. You’ll work with Typescript and LangGraph across the Flux web app and backend platform, embedding intelligence directly into the design environment. WHAT YOU’LL DO - Develop agentic reasoning capabilities in TypeScript (LangGraph). - Integrate AI behaviors into the Flux web app (React/Redux) and Chat UI. - Instrument telemetry and logging for runtime health, performance, and cost tracking. - Collaborate with product and electrical engineers to shape intelligent ECAD workflows. - Build and analyze evals; translate data into engineering decisions. - Actively shape agentic patterns, conventions, and best practices for the broader engineering org. WHAT YOU’LL BRING - 5+ years of software-engineering experience; 1+ year developing generative-AI or agentic systems. - Strong command of TypeScript, React, and Node.js. - Experience with LangChain, LangGraph, or equivalent orchestration frameworks. - Demonstrated success building asynchronous, distributed systems in production. - Experience integrating LLM-based systems into complex user-facing web products. - Excellent communicator comfortable in a fully remote, async team. - Experience at a startup or in 0→1 product environments. PREFERRED QUALIFICATIONS - Experience with retrieval systems, evaluation pipelines, or agent benchmarking. - Contributions to open-source AI/developer tools projects. - Familiarity with hardware design or ECAD concepts. - Background in applied ML, data-driven experimentation, or NLP. - Experience with distributed highly available systems that operate at significant scale. PROFILE Impact-oriented: You don't feel done until real people are getting real value from what you built. Ambiguity-native: You thrive in the undefined. Agentic development is full of half-mapped terrain, soft constraints, and ideas that shift under your feet. That energizes you. You constantly update your intuitions as you go, and are excited to discover new and better ways to attack challenges we're still finding words to describe. Collaborative: You share your thoughts early and often, and welcome debate and creative collaboration. Flux is a deeply collaborative company, and we believe that the best ideas can only win if they're said out loud. Convention-averse: Flux is an AI-first company. We constantly experiment with new workflows, tools, and ways of working together. You feel an urgency to reimagine how we create and collaborate in this rapidly changing world, and you value critical thinking far above established conventions. Ownership mentality: You are a self-starter, bias toward action, and care deeply about the team and community who lean on you and your work. Flux is an equal opportunity employer. We are committed to providing equal employment opportunities to all qualified individuals and do not discriminate on the basis of race, color, religion, sex (including pregnancy, gender identity, and sexual orientation), national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable federal, state, or local law. All employment decisions are based on qualifications, merit, and business need. Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T04:05:05Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T04:05:05Z",
+      "locations": [
+        "San Francisco Office",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-11-13T16:17:02Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "flux-ashby",
+      "source_job_id": "b1b4cc1b-ddd9-433a-8369-01a8faa44d6f",
+      "stable_id": "job-7d08c4350614b67750a33f07",
+      "status": "active",
+      "team": "Software Engineering",
+      "title": "Software Engineer, Agentic Products",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/flux/fb21b54d-baf5-4a3e-9a24-ef6479884d63",
+      "company_id": "flux",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 250000,
+        "minimum": 183000,
+        "period": "year",
+        "source_text": "$183K - $250K"
+      },
+      "compensation_text": "$183K - $250K",
+      "department": "Product & Engineering",
+      "description_text": "WHY FLUX Flux is taking the hard out of hardware. To do this, we’re building the world's first AI hardware engineer. Founded in 2019, our platform enables anyone to go from idea to manufacturable board using nothing more than a natural language prompt. This democratizes a process that has historically required years of specialized expertise. We're going after a $15B+ electronic design automation market, backed by 8VC, Bain Capital Ventures, Liquid 2 Ventures, Outsiders Fund, Figma board member John Lilly, and GitHub founder Tom Preston-Werner. In February 2026, we closed a total of $37M in funding to accelerate that mission. What happens when we unlock the ability for anyone to make hardware? We fundamentally reshape the world. That's our mission, and we're just getting started. THE ROLE We’re hiring a Product Engineer, Frontend to shape the core web experience of Flux. You will work across our browser-based editor, collaboration systems, and AI-powered workflows. This is a high-ownership product engineering role focused on building and evolving complex, interactive interfaces used for real engineering work. You’ll spend most of your time in React and TypeScript, partnering closely with design and ECAD engineers to keep a sophisticated, real-time application fast, intuitive, and maintainable. We are open to mid-level through senior candidates. Level, scope, and compensation will align to demonstrated experience, ownership, and the complexity of problems you can independently drive. WHAT YOU’LL DO - Build and evolve core user-facing features in the Flux web app using React and TypeScript. - Partner with design to refine flows and interactions from early concepts through production. - Maintain predictable and scalable UI state and data flows within a collaborative, multi-pane editor environment. - Improve responsiveness and perceived performance as projects increase in size and complexity. - Integrate frontend systems with APIs and backend services; collaborate on backend changes when needed. - Maintain and evolve shared component libraries and design system primitives. - Add and maintain instrumentation for owned features (usage metrics, error logging, UX dashboards). - Participate in code reviews, design discussions, and lightweight documentation. - Mentor other engineers on frontend best practices where appropriate. WHAT YOU’LL BRING - Strong command of modern React and TypeScript in sizable production codebases. - Experience shipping and iterating on complex, interactive web applications (e.g., design tools, visual editors, multi-pane interfaces). - Experience building responsive UIs on top of asynchronous or computation-heavy backend systems. - Strong product judgment and experience collaborating closely with design and product. - Experience with browser performance profiling and debugging. - Comfortable working across the stack to integrate APIs and make small backend changes. - Experience in startup or high-ownership environments. - Based in the San Francisco Bay Area or willing to relocate. PREFERRED QUALIFICATIONS - Experience building distributed, collaborative, real-time applications. - Experience with complex editor interfaces, CAD, developer tools, or design tools. - Familiarity with state management patterns in large React applications (Redux or equivalent). - Experience with WebWorkers, WebAssembly, or background computation in the browser. - Experience integrating AI-powered features into user-facing products. - Experience building high-performance frontends handling large data models. - Open source contributions in frontend or developer tooling. PROFILE - Impact-oriented – You care about real user value, not just shipped code. - Comfortable with ambiguity – You thrive in evolving problem spaces. - Collaborative – You share ideas early and welcome debate. - Experiment-driven – You question conventions and embrace AI-native workflows. - Ownership mentality – You bias toward action and take responsibility for outcomes. Flux is an equal opportunity employer. We are committed to providing equal employment opportunities to all qualified individuals and do not discriminate on the basis of race, color, religion, sex (including pregnancy, gender identity, and sexual orientation), national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable federal, state, or local law. All employment decisions are based on qualifications, merit, and business need. Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T04:05:05Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T04:05:05Z",
+      "locations": [
+        "San Francisco Office",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-12-18T14:40:47Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "flux-ashby",
+      "source_job_id": "fb21b54d-baf5-4a3e-9a24-ef6479884d63",
+      "stable_id": "job-b32ee125977b632b603f5e05",
+      "status": "active",
+      "team": "Software Engineering",
+      "title": "Product Engineer, Front End",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/flux/01e05986-977d-4623-8b2b-5e6ede97563b",
+      "company_id": "flux",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 248000,
+        "minimum": 183000,
+        "period": "year",
+        "source_text": "$183K - $248K"
+      },
+      "compensation_text": "$183K - $248K",
+      "department": "Growth",
+      "description_text": "WHY FLUX Flux is taking the hard out of hardware. To do this, we’re building the world's first AI hardware engineer. Founded in 2019, our platform enables anyone to go from idea to manufacturable board using nothing more than a natural language prompt. This democratizes a process that has historically required years of specialized expertise. We're going after a $15B+ electronic design automation market, backed by 8VC, Bain Capital Ventures, Liquid 2 Ventures, Outsiders Fund, Figma board member John Lilly, and GitHub founder Tom Preston-Werner. In February 2026, we closed a total of $37M in funding to accelerate that mission. What happens when we unlock the ability for anyone to make hardware? We fundamentally reshape the world. That's our mission, and we're just getting started. THE ROLE This is a rare opportunity for a technical operator who wants to own growth end-to-end. You’ll work closely with product, design, and marketing, but your focus will be on building and shipping experiments that accelerate acquisition, activation, and retention. Think: building new onboarding flows, instrumenting funnels, hacking together scrappy tools, or running experiments that generate meaningful lift in weeks, not months. WHAT YOU’LL DO - Build & ship growth experiments: Prototype and launch tools, landing pages, onboarding flows, and conversion experiments. - Diagnose user friction: Use data, user research, and intuition to identify where technical users drop off and design ways to keep them engaged. - Optimize onboarding & activation: Rework first-touch experiences so users get to “aha” moments faster — without relying on manual human support. - Collaborate cross-functionally: Partner with marketing on campaigns, with product on flows, and with engineering on integrations or growth features. - Quantify impact: Set up instrumentation, track experiment performance, and prioritize work based on data + potential impact. - Stay scrappy: Use whatever tool, framework, or hack gets the job done fastest — from writing code to automating workflows to tweaking website architecture. WHAT YOU’LL BRING - Strong technical chops: comfortable coding, prototyping, and integrating tools (front-end or full-stack background a plus). - Proven record of delivering growth experiments with measurable results. - Empathy for technical users (engineers, designers, or similar). Ability to deeply understand their workflows and motivations. - Quantitative mindset: love for data, funnel metrics, and experimentation frameworks. - Entrepreneurial persistence: bias toward action, ability to hustle, iterate, and figure things out quickly. - Clear communicator who can explain both the “what” and the “why” behind your work. PREFERRED QUALIFICATIONS - Experience at a startup scaling from early revenue → product-market fit → growth stage. - Exposure to developer tools, SaaS, or products with technical users. - Comfort with SEO/website optimization, analytics tools, and marketing automation. - Portfolio of past growth hacks or projects that show your range and creativity. PROFILE Impact-oriented: You don't feel done until real people are getting real value from what you built. Ambiguity-native: You thrive in the undefined. Our work is full of half-mapped terrain, soft constraints, and ideas that shift under your feet. That energizes you. You constantly update your intuitions as you go, and are excited to discover new and better ways to attack challenges we're still finding words to describe. Collaborative: You share your thoughts early and often, and welcome debate and creative collaboration. Flux is a deeply collaborative company, and we believe that the best ideas can only win if they're said out loud. Convention-averse: Flux is an AI-first company, building AI tooling, using AI tooling. We constantly experiment with new tools, techniques, and processes. You feel an urgency to reimagine what your work looks like in this rapidly changing world, and you value critical thinking far above established conventions. Ownership mentality: You are a self-starter, bias toward action, and care deeply about the team and community who lean on you and your work. Thanks for reading! Prior experience with HW or Electronics is not required - except for our Hardware internships! If the roles above don’t fit you, we’d still love to have you in our network for upcoming opportunities. PS. We're always looking to meet Engineers who are interested in writing news, technical articles, or building tutorials. To get in touch, apply here or reach out to Talent@flux.ai and tell us a little about yourself! Flux is an equal opportunity employer. We are committed to providing equal employment opportunities to all qualified individuals and do not discriminate on the basis of race, color, religion, sex (including pregnancy, gender identity, and sexual orientation), national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable federal, state, or local law. All employment decisions are based on qualifications, merit, and business need. Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T04:05:05Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T04:05:05Z",
+      "locations": [
+        "San Francisco Office",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-12-08T13:04:48Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "flux-ashby",
+      "source_job_id": "01e05986-977d-4623-8b2b-5e6ede97563b",
+      "stable_id": "job-dc467c4c0d25d4c22005bbf9",
+      "status": "active",
+      "team": "Growth",
+      "title": "Growth Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/flux/03e13f3e-98f5-4a1a-b189-f72d4de0b68c",
+      "company_id": "flux",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 250000,
+        "minimum": 183000,
+        "period": "year",
+        "source_text": "$183K - $250K"
+      },
+      "compensation_text": "$183K - $250K",
+      "department": "Product & Engineering",
+      "description_text": "WHY FLUX Flux is taking the hard out of hardware. To do this, we’re building the world's first AI hardware engineer. Founded in 2019, our platform enables anyone to go from idea to manufacturable board using nothing more than a natural language prompt. This democratizes a process that has historically required years of specialized expertise. We're going after a $15B+ electronic design automation market, backed by 8VC, Bain Capital Ventures, Liquid 2 Ventures, Outsiders Fund, Figma board member John Lilly, and GitHub founder Tom Preston-Werner. In February 2026, we closed a total of $37M in funding to accelerate that mission. What happens when we unlock the ability for anyone to make hardware? We fundamentally reshape the world. That's our mission, and we're just getting started. ENGINEERING MANAGER Flux · San Francisco, CA · In-Office · Senior Level We are looking for an experienced engineering leader to own how software gets built at Flux. You will set the technical bar for our product engineering teams, drive architectural decisions across the stack, and ensure we are shipping with the speed and quality this moment demands. You will partner closely with product and design to shape what we build, and with the founding team to define how we scale. This is a high-impact role for someone who has shipped complex software at scale, thrives in ambiguity, and leads by doing. You will be close to the code, close to the team, and close to the customer. We move fast and with intensity. This role calls for someone who brings deep technical authority and the willingness to push — through ambiguity, through disagreement, through a product that is constantly evolving. What You'll Do - Own engineering execution Drive delivery across the product engineering team. Set technical direction, unblock teams, and hold the bar on quality, reliability, and velocity. Partner with product leadership to scope, sequence, and ship work that moves the needle. - Be the technical standard-bearer Define what good engineering looks like at Flux. Establish architectural principles, review critical designs, and ensure the codebase evolves with intention. Push back when shortcuts create unacceptable long-term risk — and know when speed is the right call. - Build and scale the engineering function Start as a hands-on manager with existing reports. Hire, develop, and retain exceptional engineers. Build the processes, culture, and tooling that allow the team to scale without losing execution quality. - Drive cross-functional alignment Serve as the engineering voice in product, design, and go-to-market conversations. Translate business needs into technical direction and technical constraints into product strategy. Ensure engineering is never a bottleneck to organizational clarity. - Develop AI-native engineering practices Flux is building AI and using AI. Lead the team in integrating AI-assisted development into daily workflows — from coding to testing to observability. Set the standard for how we build AI-integrated products responsibly and at speed. - Amplify team signal Build feedback loops that surface quality issues, reliability risks, and team health signals early. Champion engineering visibility across the organization and ensure the team's work is understood and valued. What You'll Bring Full-stack technical depth You have built and shipped complex software products. You are comfortable spanning: - Frontend: React, TypeScript, component architecture, performance, and design systems - Backend: Node.js, Python, API design, service reliability, and data pipelines - Infrastructure: cloud platforms (GCP/AWS), containerization, CI/CD, observability - AI/ML integration: LLM-integrated products, agentic workflows, evaluation frameworks, and production AI systems Engineering leadership at multiple altitudes You write clean technical specs and compelling architectural proposals. You can sit in a deep-dive code review and then walk into a product strategy conversation. You hire, mentor, and scale processes while staying close to the work. You push back when you disagree — with data, clearly — and you update your view when someone makes a better argument. Execution under pressure You have shipped at scale under real constraints. You know when to move fast and incur debt, when to hold the line on architecture, and how to bring a team with you either way. You have stories about delivering in environments where the product, the team, and the requirements were all changing at once. First-principles thinking You start from the problem, not the pattern. When something breaks in production, you trace the root cause. You build your own tools when the right one doesn't exist. You approach ambiguity as a solvable problem, not a reason to wait. The Bar We're Setting Flux is a fast-moving, high-intensity environment. We need someone who brings technical excellence and the willingness to hold the line in difficult debates, while staying genuinely collaborative. If ambiguity energizes you, if you have operated in cross-functional environments where your peers own things you depend on, and if you have shipped at the level where reliability and quality are non-negotiable — this is the right room for you. What we’re looking for - Engineering Leadership: 4+ years managing engineering teams, including hiring, mentorship, performance management, and retaining top talent, with a track record of building high-performing cultures. - Technical Depth: 8+ years of hands-on software engineering experience (prior to management) with the ability to review PRs, architect solutions, and credibly engage in technical debates. - Execution & Delivery: Experience shipping and iterating on complex, customer-facing web applications at scale, under real-world deadlines and resource constraints. - Product & Stakeholder Influence: Proven ability to work directly with product and design to scope and ship features, plus experience influencing VP/C-suite stakeholders to drive alignment on contested decisions. - AI & Full-Stack Proficiency: Experience building AI-integrated or agentic software products in production, with full-stack comfort across frontend, backend, and infrastructure. - Adaptive Mindset: Thrives in chaos and ambiguity, with a history of building from zero to one in early-stage environments. Nice to have - AI/ML experience: has built or managed a team building llm-integrated or agentic products in production, with at least one shipped example - Full-stack fluency: comfortable contributing across frontend (react, typescript), backend (node.js, python), and cloud infrastructure (gcp or aws) - Early-stage experience: joined a company at series a or earlier and helped scale the engineering team or product through a significant growth phase - Hiring: personally sourced, interviewed, and closed 5+ senior engineering hires with measurable retention outcomes - Tooling instinct: has built internal tools, frameworks, or systems to improve team productivity BENEFITS & PACKAGE Competitive salary and meaningful equity, plus comprehensive benefits. Title/level will match experience and impact. Flux is an equal opportunity employer. We are committed to providing equal employment opportunities to all qualified individuals and do not discriminate on the basis of race, color, religion, sex (including pregnancy, gender identity, and sexual orientation), national origin, age, disability, genetic information, veteran status, or any other characteristic protected by applicable federal, state, or local law. All employment decisions are based on qualifications, merit, and business need. Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T04:05:05Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T04:05:05Z",
+      "locations": [
+        "San Francisco Office",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-07-06T23:40:53Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "flux-ashby",
+      "source_job_id": "03e13f3e-98f5-4a1a-b189-f72d4de0b68c",
+      "stable_id": "job-eb97ca270e13d1896bb13f45",
+      "status": "active",
+      "team": "Software Engineering",
+      "title": "Engineering Manager",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T04:05:05Z",
+  "last_successful_scan_at": "2026-08-31T04:05:05Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "title_explicitly_excluded": 2,
+    "title_explicitly_non_target_function": 4,
+    "total": 10
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "flux-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

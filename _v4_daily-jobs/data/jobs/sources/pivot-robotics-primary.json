@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:16:01Z",
+      "attempt_id": "attempt:bf063787-4efe-48ca-bd66-44bbd1d03e7e",
+      "result_digest": "9d47528d2a0b7ea743818257111f9d687ca86c70a012e1d93337ee241c591da1",
+      "task_id": "source:pivot-robotics-primary:luna:5cc387c5307bb877",
+      "transaction_id": "txn:9d47528d2a0b7ea743818257"
+    }
+  ],
+  "company_id": "pivot-robotics",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:15:48Z",
+  "last_successful_scan_at": "2026-08-31T15:15:48Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 5,
+    "location_outside_target_city": 1,
+    "total": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "pivot-robotics-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

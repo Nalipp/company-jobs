@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:05:32Z",
+      "attempt_id": "attempt:ff61cf65-cc27-4705-9a73-4d0f0ec335a6",
+      "result_digest": "0cf2de016a2770aba70716e2fe352e5aa4dd67495c606d32494e4ffea9c8b7d8",
+      "task_id": "source:deel-primary:luna:cdd038288a0a6c73",
+      "transaction_id": "txn:0cf2de016a2770aba70716e2"
+    }
+  ],
+  "company_id": "deel",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:10:00Z",
+  "last_successful_scan_at": "2026-08-31T21:10:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "deel",
+  "rejection_counts": {
+    "location_or_compensation_or_role_mismatch": 29
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "deel-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

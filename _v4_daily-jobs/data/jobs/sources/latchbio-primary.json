@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:00:53Z",
+      "attempt_id": "attempt:906660fb-3c6f-4f73-8b61-166261e0879a",
+      "result_digest": "3c2ab5d63183d113c90afe96c48fc498a53863050ed223934130a9ad1aa3d445",
+      "task_id": "source:latchbio-primary:luna:f5238d71fcd6917a",
+      "transaction_id": "txn:3c2ab5d63183d113c90afe96"
+    }
+  ],
+  "company_id": "latchbio",
+  "current_job_count": 16,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:00:29Z",
+  "last_successful_scan_at": "2026-08-31T15:00:29Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 13,
+    "title_explicitly_excluded": 1,
+    "title_explicitly_non_target_function": 2,
+    "total": 16
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "latchbio-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

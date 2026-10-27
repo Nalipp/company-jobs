@@ -1,0 +1,123 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:06:33Z",
+      "attempt_id": "attempt:063ccad3-c349-40fd-936e-abcc4b5e9ddb",
+      "result_digest": "dc040a73ad003adb4017dc74b4359e6248e6694d6b0bc395bebb5d6af9bb5dac",
+      "task_id": "source:front-app-ashby:luna:d5a2313057b382ad",
+      "transaction_id": "txn:dc040a73ad003adb4017dc74"
+    }
+  ],
+  "company_id": "front-app",
+  "current_job_count": 23,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/frontcareers/ac0d7219-d569-481f-bda9-efd755ffd715",
+      "company_id": "front-app",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 266600,
+        "minimum": 197400,
+        "period": "year",
+        "source_text": "$197.4K - $266.6K"
+      },
+      "compensation_text": "$197.4K - $266.6K",
+      "department": "EPD",
+      "description_text": "Front is the customer operations platform built for B2B complexity, keeping every team, tool, and customer conversation in sync so companies can scale without losing connection. Others handle simple interactions. Front handles the coordination and context behind complex B2B customer relationships. Over 9,000 companies, including Uber Freight, Navan, and Stripe, rely on Front because it's the only one that can run the operational layer that makes customer-facing work actually succeed. Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty. Front has received numerous Great Place to Work accolades, including Built In's 100 Best Midsize Places to Work in SF 2025 https://builtin.com/awards/san-francisco/2025/best-midsize-places-to-work?utm_campaign=bptw-2025&utm_content=article&utm_medium=website&utm_source=editorial, Top Places to Work by USA Today 2025 https://topworkplaces.com/company/front/, Y Combinator's list of Top Companies in 2023 https://www.ycombinator.com/topcompanies, #4 on Fortune’s Best Workplaces in the Bay Area™ https://www.greatplacetowork.com/best-workplaces/bay-area/2022?category=small-and-medium ,Inc. Magazine's 2022 Best Workplaces list https://www.inc.com/best-workplaces/2022, and Forbes Best Startup Employers 2022 List https://www.forbes.com/lists/americas-best-startup-employers/?sh=661411d52ad7. AI is transforming customer support and, with over 12 years of experience building customer operations solutions, Front is in a unique position to shape this transformation. The Core AI team at Front leverages AI to build functionality across the entire breadth of the product. Our workflow automations, agent assistance and operational insights have only scratched the surface, and user engagement is already extremely promising. This role would have the opportunity to get in at the ground floor and significantly influence the direction of the product as we scale. What will you be doing? - Design, develop, and deploy generative AI applications using NodeJS & TS that enhance product features and user experiences, focusing on agentic applications to automate resolving user inquiries. - Collaborate with product teams to identify opportunities for applying generative AI to solve user needs and improve the platform's capabilities. - Lead the exploration and implementation of state-of-the-art generative AI techniques, ensuring Front stays ahead of technological trends. - Inform on AI model training and deployment infrastructure, ensuring scalability and efficiency. - Dive deep into real-world data, ensuring high-quality model training and iteration - Monitor and evaluate the performance of AI applications, making adjustments and improvements to ensure they meet our high standards. - Keep abreast of the latest developments in machine learning and AI, advocating for best practices and integrating new technologies where appropriate. What skills and experience do you need? Must Have: - 5+ years of experience in software development, with a strong focus on AI and machine learning projects. - Demonstrable expertise in developing production applications using LLMs and Generative AI models, and familiarity with their underlying technologies. - Strong experience with agentic methodologies, prompting techniques, RAG pipelines, evaluation mechanisms and fine-tuning LLMs preferred. - High learning agility - you’re excited when you encounter a problem you haven’t seen before. - Strong communication skills that illustrate a clear, structured thought process. Should Have: - Excellent problem-solving abilities and the capacity to work both independently and as part of a team. - Proficiency building production-grade web applications and demonstrated expertise in languages and concepts necessary to deliver these. Eg: Python, JS, TS, Database systems, etc. - Strong communication skills, capable of explaining complex technical concepts to non-experts. - Deep knowledge of algorithms, data structures, and principles of software engineering. Nice to Have: - Knowledge in specialized machine learning areas (deep learning, reinforcement learning). - Experience in SaaS or multiplayer application machine learning implementations. Front operates on a hybrid model — we come together in the office each Tuesday, Wednesday, and Thursday to collaborate and stay connected. What we offer - Competitive salary - Equity (we are post-series D & backed by some of the best VCs in the US) - Private health insurance, including plan options at no cost to employees - Paid parental leave - Flexible time off policy - Flexibility to work from home Monday and Friday, unless posted as a fully remote role - Mental health support with Workplace Options - Family planning support with Maven - $100 per month Lifestyle Stipend to spend on fitness, health and wellness, and other activities - Wellness Days - Fronteers get an additional day off on months with no holidays - Winter Break - Our offices are closed from Christmas to New Year's Day! Front provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age or disability. By applying, you acknowledge and agree that you have read and understand the California Recruiting Privacy Notice https://front.com/legal/california-recruiting-privacy-notice & EU Privacy Notice https://front.com/legal/eu-recruiting-privacy-notice",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T04:06:10Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T04:06:10Z",
+      "locations": [
+        "San Francisco, CA",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-08-19T20:39:00Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "hybrid workplace",
+        "full-time employment",
+        "published USD annual base maximum $266,600",
+        "Senior Applied AI Engineer title and role-specific AI work"
+      ],
+      "source_id": "front-app-ashby",
+      "source_job_id": "ac0d7219-d569-481f-bda9-efd755ffd715",
+      "stable_id": "job-699b530f83fdf3882201a19d",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Senior Applied AI Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/frontcareers/071af87c-644e-4677-b4f8-ce0646ccc608",
+      "company_id": "front-app",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 300000,
+        "minimum": 220000,
+        "period": "year",
+        "source_text": "$220K - $300K"
+      },
+      "compensation_text": "$220K - $300K",
+      "department": "EPD",
+      "description_text": "Front is the customer operations platform built for B2B complexity, keeping every team, tool, and customer conversation in sync so companies can scale without losing connection. Others handle simple interactions. Front handles the coordination and context behind complex B2B customer relationships. Over 9,000 companies, including Uber Freight, Navan, and Stripe, rely on Front because it's the only one that can run the operational layer that makes customer-facing work actually succeed. Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty. Front has received numerous Great Place to Work accolades, including Built In's 100 Best Midsize Places to Work in SF 2025 https://builtin.com/awards/san-francisco/2025/best-midsize-places-to-work?utm_campaign=bptw-2025&utm_content=article&utm_medium=website&utm_source=editorial, Top Places to Work by USA Today 2025 https://topworkplaces.com/company/front/, Y Combinator's list of Top Companies in 2023 https://www.ycombinator.com/topcompanies, #4 on Fortune’s Best Workplaces in the Bay Area™ https://www.greatplacetowork.com/best-workplaces/bay-area/2022?category=small-and-medium ,Inc. Magazine's 2022 Best Workplaces list https://www.inc.com/best-workplaces/2022, and Forbes Best Startup Employers 2022 List https://www.forbes.com/lists/americas-best-startup-employers/?sh=661411d52ad7. Over 9,000 companies rely on Front to run their customer operations. AI is reshaping what's possible in this space, and Front is building the platform to deliver on that promise. At the center of this effort is our Core AI Platform team - a group of our strongest applied AI and engineering talent whose work underpins every AI-powered experience across the product. We're looking for an engineering leader to own this team and its outsized impact on Front's product and customers. The Core AI Platform team is responsible for three things: - Building and maintaining the foundational AI infrastructure (LLM integrations, RAG pipelines, evaluation systems) that all product teams at Front rely on - Enabling product feature teams to ship AI-powered experiences quickly and reliably by providing well-abstracted, production-grade AI capabilities - Pushing the frontier on AI techniques and tooling so Front stays ahead of the rapid pace of change in AI/ML To be successful in this role, you will manage a team of senior AI engineers - both applied AI and full-stack AI specialists - to deliver on an ambitious technical roadmap. You will guide strategic AI investments by evaluating emerging techniques and directing effort toward the highest-impact bets. You will lean in on technical design and architecture, scale the team by attracting top AI talent, and drive the processes that let a platform team serve many product teams effectively. This is a highly collaborative role where you will partner closely with product managers, other engineering managers, and engineers across the organization. What will you be doing? - Own the technical roadmap for Front's AI platform, guiding strategic investments in AI by evaluating emerging techniques, making build-vs-buy decisions, and partnering with product and engineering leadership to prioritize the highest-leverage capabilities - Drive architectural decisions on AI infrastructure - LLM orchestration, RAG systems, model evaluation, prompt management - ensuring reliability, scalability, and developer ergonomics - Manage and grow a team of senior engineers, providing mentorship and career development while maintaining a high talent bar - Define and improve the interfaces between the AI platform and product feature teams, enabling autonomous and efficient execution across the organization - Contribute to engineering-wide initiatives as a member of Front's engineering management team What skills and experience do you need? Must have - - Deep technical fluency in AI/ML systems, particularly LLM-based applications, with the ability to evaluate trade-offs and guide architectural decisions alongside senior engineers - Track record of managing and scaling a team of senior/staff engineers through ambiguous, fast-moving problem spaces - Proven ability to guide strategic AI investments - evaluating emerging techniques, making build-vs-buy decisions, and directing team effort toward the highest-impact bets in a rapidly evolving space Should have - - Strong cross-functional partnership skills to align AI platform capabilities with product needs across multiple teams - Ability to attract, develop, and retain top AI engineering talent in a competitive market - Experience building and operating AI/ML infrastructure or platform services in production at scale Nice to have - - Founded or built a new team/function/capability from early stages - Experience at a B2B SaaS company applying AI to enterprise workflows - Background in developer experience or internal platform work that accelerated other engineering teams Front operates on a hybrid model — we come together in the office each Tuesday, Wednesday, and Thursday to collaborate and stay connected. What we offer - Competitive salary - Equity (we are post-series D & backed by some of the best VCs in the US) - Private health insurance, including plan options at no cost to employees - Paid parental leave - Flexible time off policy - Flexibility to work from home Monday and Friday, unless posted as a fully remote role - Mental health support with Workplace Options - Family planning support with Maven - $100 per month Lifestyle Stipend to spend on fitness, health and wellness, and other activities - Wellness Days - Fronteers get an additional day off on months with no holidays - Winter Break - Our offices are closed from Christmas to New Year's Day! Front provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age or disability. By applying, you acknowledge and agree that you have read and understand the California Recruiting Privacy Notice https://front.com/legal/california-recruiting-privacy-notice & EU Privacy Notice https://front.com/legal/eu-recruiting-privacy-notice",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T04:06:10Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T04:06:10Z",
+      "locations": [
+        "San Francisco, CA",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-02-18T18:03:58Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "workplace arrangement unspecified and included by profile",
+        "full-time employment",
+        "published USD annual base maximum $300,000",
+        "AI Engineering Manager title and role-specific AI platform work"
+      ],
+      "source_id": "front-app-ashby",
+      "source_job_id": "071af87c-644e-4677-b4f8-ce0646ccc608",
+      "stable_id": "job-911eceb4f863fc244b29e389",
+      "status": "active",
+      "team": "Engineering",
+      "title": "AI Engineering Manager (Core AI Platform)",
+      "updated_at": null,
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    }
+  ],
+  "last_attempt_at": "2026-08-31T04:06:10Z",
+  "last_successful_scan_at": "2026-08-31T04:06:10Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "ai_involvement_not_job_specific": 3,
+    "compensation_below_profile_threshold": 1,
+    "compensation_currency_mismatch": 3,
+    "location_outside_target_city": 9,
+    "role_not_target_family": 7,
+    "title_explicitly_non_target_function": 7,
+    "total": 21,
+    "workplace_remote_excluded": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "front-app-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

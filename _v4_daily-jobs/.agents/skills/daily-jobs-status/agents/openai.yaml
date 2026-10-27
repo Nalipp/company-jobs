@@ -1,0 +1,4 @@
+interface:
+  display_name: "Daily Jobs Status"
+  short_description: "Summarize queues, companies, sources, and jobs"
+  default_prompt: "Use $daily-jobs-status to show the current deterministic V4 progress summary."

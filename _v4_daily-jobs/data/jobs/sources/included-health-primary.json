@@ -1,0 +1,36 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:56:19Z",
+      "attempt_id": "attempt:a7d3dc08-f570-4ea9-bd42-2f04dcbbc89c",
+      "result_digest": "e409f85863e8c4aa975e5b4cc88a0b7af34dd2f27bdd07c1d8316d12511c8793",
+      "task_id": "source:included-health-primary:luna:c09035dfe0939308",
+      "transaction_id": "txn:e409f85863e8c4aa975e5b4c"
+    }
+  ],
+  "company_id": "included-health",
+  "current_job_count": 150,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:56:13Z",
+  "last_successful_scan_at": "2026-08-31T14:56:13Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 1,
+    "compensation_period_mismatch": 1,
+    "employment_contract_excluded": 13,
+    "employment_part-time_excluded": 48,
+    "location_outside_target_city": 110,
+    "title_explicitly_non_target_function": 128,
+    "total": 150,
+    "workplace_remote_excluded": 150
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "included-health-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

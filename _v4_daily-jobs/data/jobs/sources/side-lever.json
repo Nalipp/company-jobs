@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:23:20Z",
+      "attempt_id": "attempt:9a181507-277c-4036-86fd-2c2c0153f5a9",
+      "result_digest": "e1739467aebddaa56f7376ee0573cee4ef3a1b0961de628b9afaa17a1d049fe5",
+      "task_id": "source:side-lever:luna:aa11af61d54bf9da",
+      "transaction_id": "txn:e1739467aebddaa56f7376ee"
+    }
+  ],
+  "company_id": "side",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:23:17Z",
+  "last_successful_scan_at": "2026-08-31T15:23:17Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 5,
+    "location_outside_target_city": 1,
+    "title_explicitly_non_target_function": 1,
+    "total": 5,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "side-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

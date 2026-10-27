@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:13:08Z",
+      "attempt_id": "attempt:114ee631-541a-4bf9-88a8-86020a000419",
+      "result_digest": "c7409c689d22a078f76f0602c2dd22102927ed7184f9cbffd315aec071e7262f",
+      "task_id": "source:ease-jazzhr:luna:89cb15b51c669bdc",
+      "transaction_id": "txn:c7409c689d22a078f76f0602"
+    }
+  ],
+  "company_id": "ease",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:47:00Z",
+  "last_successful_scan_at": "2026-08-31T21:47:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "role_or_location_mismatch": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "ease-jazzhr",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

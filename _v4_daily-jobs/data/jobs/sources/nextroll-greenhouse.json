@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:08:51Z",
+      "attempt_id": "attempt:0ceba7fe-2a16-4478-84c0-644ce45e5ed6",
+      "result_digest": "fedbc2dac799efc79d835bb774751e0b7b4b07f6bde08134322f832d034858f4",
+      "task_id": "source:nextroll-greenhouse:luna:eddcc77a541a68c9",
+      "transaction_id": "txn:fedbc2dac799efc79d835bb7"
+    }
+  ],
+  "company_id": "nextroll",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:08:48Z",
+  "last_successful_scan_at": "2026-08-31T15:08:48Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "nextroll-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

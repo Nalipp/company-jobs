@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:57:52Z",
+      "attempt_id": "attempt:1a90ac16-5c73-41bd-8953-2185e4971bf8",
+      "result_digest": "ecbdb5556bdf399e726ac7cf28e8275caa858eb26e6bcdd0984adaef57183ba1",
+      "task_id": "source:iterable-primary:luna:37d63c3aef9018a8",
+      "transaction_id": "txn:ecbdb5556bdf399e726ac7cf"
+    }
+  ],
+  "company_id": "iterable",
+  "current_job_count": 22,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:57:38Z",
+  "last_successful_scan_at": "2026-08-31T14:57:38Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 5,
+    "location_outside_target_city": 16,
+    "title_explicitly_non_target_function": 7,
+    "total": 22
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "iterable-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

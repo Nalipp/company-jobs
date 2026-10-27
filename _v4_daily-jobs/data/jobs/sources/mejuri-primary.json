@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:03:58Z",
+      "attempt_id": "attempt:1f72c5ed-efbe-4861-b818-ea9299f863ec",
+      "result_digest": "3e8b458a6583d0dff3c3e40bb6c3d40139a46669ff0ecb499ed01f53ade15e6c",
+      "task_id": "source:mejuri-primary:luna:0b9580aa038a86d8",
+      "transaction_id": "txn:3e8b458a6583d0dff3c3e40b"
+    }
+  ],
+  "company_id": "mejuri",
+  "current_job_count": 137,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:03:45Z",
+  "last_successful_scan_at": "2026-08-31T15:03:45Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 131,
+    "title_explicitly_non_target_function": 6,
+    "total": 137
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "mejuri-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

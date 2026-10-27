@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T02:53:51Z",
+      "attempt_id": "attempt:55a318b6-40ff-4cad-8f27-c1f8ce2c9a68",
+      "result_digest": "6295d135b0dc5f142b334bd5aac3ed1f035443e3e8b5a0e815ad832f1ffc9b18",
+      "task_id": "source:chief-ashby:luna:7771d2c1968fef9f",
+      "transaction_id": "txn:6295d135b0dc5f142b334bd5"
+    }
+  ],
+  "company_id": "chief",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T02:53:46Z",
+  "last_successful_scan_at": "2026-08-31T02:53:46Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "employment_part-time_excluded": 1,
+    "location_outside_target_city": 2,
+    "total": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "chief-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

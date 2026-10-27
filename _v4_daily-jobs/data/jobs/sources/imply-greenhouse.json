@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:55:51Z",
+      "attempt_id": "attempt:08685318-0131-489c-a6bb-bbcc0ea5d3d1",
+      "result_digest": "8216826f91067a49a7fd9f2354b83f8aa53d20dd8a1d5a021368ddfb5a1ea5c1",
+      "task_id": "source:imply-greenhouse:luna:44959e21d515a73b",
+      "transaction_id": "txn:8216826f91067a49a7fd9f23"
+    }
+  ],
+  "company_id": "imply",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:55:46Z",
+  "last_successful_scan_at": "2026-08-31T14:55:46Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 4,
+    "title_explicitly_non_target_function": 1,
+    "total": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "imply-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

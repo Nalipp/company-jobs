@@ -1,0 +1,35 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:12:40Z",
+      "attempt_id": "attempt:e66a97fb-4cb7-4f4b-adec-1d592f6ac4ac",
+      "result_digest": "05866e7717d2b0b05e15919db5fea223d43e2c3aa143bbea024b7495a33c5e13",
+      "task_id": "source:osaro-lever:luna:a970ccba7ade1a55",
+      "transaction_id": "txn:05866e7717d2b0b05e15919d"
+    }
+  ],
+  "company_id": "osaro",
+  "current_job_count": 11,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:12:23Z",
+  "last_successful_scan_at": "2026-08-31T15:12:23Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 6,
+    "compensation_period_mismatch": 1,
+    "employment_part-time_excluded": 1,
+    "location_outside_target_city": 1,
+    "semantic_non_target": 2,
+    "title_explicitly_non_target_function": 2,
+    "total": 11
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "osaro-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

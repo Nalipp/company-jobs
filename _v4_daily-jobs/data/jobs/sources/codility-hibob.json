@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:44:10Z",
+      "attempt_id": "attempt:1ba20570-4239-43bf-8e1d-82b1ebd8fb61",
+      "result_digest": "486801e46ecc8594418271ef20918908657c78f1519e976a2348a754c432c8eb",
+      "task_id": "source:codility-hibob:luna:c8786641e4f39e9e",
+      "transaction_id": "txn:486801e46ecc8594418271ef"
+    }
+  ],
+  "company_id": "codility",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T20:45:00Z",
+  "last_successful_scan_at": "2026-08-31T20:45:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "hibob",
+  "rejection_counts": {
+    "compensation": 5,
+    "location": 3,
+    "role": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "codility-hibob",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

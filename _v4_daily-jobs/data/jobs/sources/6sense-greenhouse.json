@@ -1,0 +1,64 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-30T21:28:34Z",
+      "attempt_id": "attempt:a3966896-2bac-449f-87e9-00a2bdc524c2",
+      "result_digest": "2ee5ac8906f91f4db9ef5c99c7ccf8fd597288e5e2dfb129a61052c50e060f7a",
+      "task_id": "source:6sense-greenhouse:luna:18e284595a2daa49",
+      "transaction_id": "txn:2ee5ac8906f91f4db9ef5c99"
+    }
+  ],
+  "company_id": "6sense",
+  "current_job_count": 31,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "ai_involvement_evidence": "The official posting explicitly requires production ML, NLP, LLM, agentic systems, retrieval architectures, and GenAI tooling.",
+      "canonical_url": "https://boards.greenhouse.io/6sense/jobs/8064973?gh_jid=8064973",
+      "company_id": "6sense",
+      "compensation": null,
+      "compensation_text": null,
+      "department": "Data Science and Analytics",
+      "description_text": "Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency. We envision a future where companies, teams and people reach their full potential. Our People: People are the heart and soul of 6sense. We serve with passion and purpose. We live by our Being 6sense values of Win as One Team, Stay Curious, Do The Right Thing, Own the Outcome, and Create Belonging. Every 6sensor plays a part in deﬁning the future of our industry-leading technology. 6sense is a place where difference-makers roll up their sleeves, take risks, act with integrity, and measure success by the value we create for our customers. We want 6sense to be the best chapter of your career. About 6sense 6sense is Intelligence for Agentic GTM. We turn every signal — yours and ours — into intelligence that every team, tool, and AI agent can act on and trust. Every day, the 6sense Signalverse™ captures one trillion signals to power AI that pinpoints who’s ready to buy, how to engage them, and when to act. 6sense was named a Leader in The Forrester Wave™: Revenue Marketing Platforms for B2B, Q1 2026. The Opportunity We’re hiring a Senior Machine Learning Engineer to join our AI team, reporting directly to the Head of AI. Signals tell you what happened. Our job is to explain why — and that is the problem you will work on. You will build the intelligence that turns a trillion daily signals into cited, explainable answers about why an account matters, why now, and who is deciding. Your models power products customers use every day, including RevvyAI, our conversational GTM intelligence product, and reach their stack through our APIs and MCP server. This is a build-and-ship role, not a research role. You will own problems end to end, work directly with Product and Go-to-Market, and see your work reach customers. You’ll join a team distributed across the US and India, at a company where AI is the product rather than a feature. What You’ll Do Own machine learning problems end to end — from data exploration and modeling through deployment, monitoring, and iteration in production. Build NLP, LLM, and agentic systems at enterprise scale, including retrieval-based architectures and multi-agent workflows. Develop ranking, recommendation, prediction, and optimization models that are explainable rather than black-box. Partner with Product and Go-to-Market to turn ambiguous business problems into shipped capabilities. Improve the performance, scalability, and reliability of production ML systems, and help shape AI platform architecture. Explain your work clearly to technical and non-technical audiences, and engage with customers when needed. Mentor engineers and raise the bar for engineering excellence. What We’re Looking For Required 8+ years of industry experience building and deploying machine learning systems in production, with clear end-to-end ownership. Strong foundation in machine learning and applied statistics, with hands-on depth in NLP, transformers, embeddings, and retrieval-based systems. Practical experience with modern GenAI tooling such as LangGraph, LangChain, or Amazon Bedrock. Strong Python skills and experience building distributed ML pipelines on cloud infrastructure (AWS, Databricks, or equivalent). Solid grasp of feature engineering, model evaluation, and MLOps practices. A product mindset — you want to build AI products customers use, and you measure yourself on customer impact. Excellent communication: you can explain complex technical work clearly, tell the story of what you’ve built and why, and hold your own with product and business partners. Comfort with ambiguity and the judgment to drive execution independently. Nice to Have Experience with RAG architectures, vector databases, and prompt engineering. Hands-on work with PyTorch or TensorFlow. Background in B2B SaaS, enterprise AI products, or forward-deployed engineering — especially where you worked directly with complex customer data and delivered quickly. Base Salary Range: $200,349.50 - $260,912.60. The base salary range represents the anticipated low and high end of the base salary range for this position. Actual salaries may vary and may be above or below the range based on various factors, including but not limited to work location and experience. The base salary is one component of 6sense’s total compensation package for this position. Other compensation may include a bonus program or commission plan, and stock options if approved by 6sense’s board. In addition, 6sense provides a variety of benefits, including generous health insurance coverage, life, and disability insurance, a 401K employer matching program, paid holidays, self-care days, and paid time off (PTO). #Li-remote Notice of Collection and Use of Personal Information for California Residents: California Recruitment Privacy Notice and Policy Our Benefits: Full-time employees can take advantage of health coverage, paid parental leave, generous paid time-off and holidays, quarterly self-care days off, and stock options. We’ll make sure you have the equipment and support you need to work and connect with your teams, at home or in one of our oﬃces. We have a growth mindset culture that is represented in all that we do, from onboarding through to numerous learning and development initiatives including access to our LinkedIn Learning platform. Employee well-being is also top of mind for us. We host quarterly wellness education sessions to encourage self care and personal growth. From wellness days to ERG-hosted events, we celebrate and energize all 6sense employees and their backgrounds. Equal Opportunity Employer: 6sense is an Equal Employment Opportunity and Affirmative Action Employers. Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender perception or identity, national origin, age, marital status, protected veteran status, or disability status. If you require reasonable accommodation in completing this application, interviewing, completing any pre-employment testing, or otherwise participating in the employee selection process, please direct your inquiries to jobs@6sense.com . We are aware of recruiting impersonation attempts that are not affiliated with 6sense in any way. A ll email communications from 6sense will originate from the @6sense.com domain . We will not initially contact you via text message and will never request payments . If you are uncertain whether you have been contacted by an official 6sense employee, reach out to jobs@ 6sense.com",
+      "employment_text": null,
+      "employment_type": null,
+      "first_seen_at": "2026-08-30T21:27:55Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-30T21:27:55Z",
+      "locations": [
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-08-20T15:47:30Z",
+      "provider": "greenhouse",
+      "qualification_status": "qualifying",
+      "review_notes": "San Francisco location; workplace arrangement unknown and included by profile; employment type missing and assumed full-time; published base maximum $260,912.60.",
+      "role_fit_evidence": "The official posting describes a product-oriented Senior Machine Learning Engineer who builds and ships NLP, LLM, retrieval, and agentic systems powering customer-facing RevvyAI and APIs.",
+      "source_id": "6sense-greenhouse",
+      "source_job_id": "8064973",
+      "stable_id": "job-2fc626baaec13e9132cec0ce",
+      "status": "active",
+      "team": null,
+      "title": "Sr. Machine Learning Engineer",
+      "updated_at": "2026-08-20T15:47:30Z",
+      "workplace_arrangement": "unknown",
+      "workplace_text": null
+    }
+  ],
+  "last_attempt_at": "2026-08-30T21:27:55Z",
+  "last_successful_scan_at": "2026-08-30T21:27:55Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "ai_involvement_not_sufficient": 1,
+    "location_outside_target_city": 23,
+    "role_fit_not_eligible": 7,
+    "total": 30
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "6sense-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

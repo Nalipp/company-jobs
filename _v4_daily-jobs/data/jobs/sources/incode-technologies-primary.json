@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:56:09Z",
+      "attempt_id": "attempt:1032bf52-a618-4fbd-ba68-c530a2ae710c",
+      "result_digest": "700eef423e736e1feeb09a0b5a6833b3301deb718da73a1a3f65abec41115c03",
+      "task_id": "source:incode-technologies-primary:luna:283e911d70133ec1",
+      "transaction_id": "txn:700eef423e736e1feeb09a0b"
+    }
+  ],
+  "company_id": "incode-technologies",
+  "current_job_count": 10,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:55:58Z",
+  "last_successful_scan_at": "2026-08-31T14:55:58Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_outside_target_city": 7,
+    "title_explicitly_excluded": 2,
+    "title_explicitly_non_target_function": 4,
+    "total": 10
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "incode-technologies-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

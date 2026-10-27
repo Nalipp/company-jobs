@@ -1,0 +1,35 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:21:22Z",
+      "attempt_id": "attempt:c37d2daf-a116-4e95-8661-b951a220b4cd",
+      "result_digest": "fb37f7fcb5f64aa1bc33293bcd4a31ce3d4ce33399f648d3f9fccef48530f34a",
+      "task_id": "source:sandbox-vr-primary:luna:2de8fc381dd3fbc6",
+      "transaction_id": "txn:fb37f7fcb5f64aa1bc33293b"
+    }
+  ],
+  "company_id": "sandbox-vr",
+  "current_job_count": 32,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:21:19Z",
+  "last_successful_scan_at": "2026-08-31T15:21:19Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 4,
+    "compensation_period_mismatch": 28,
+    "employment_part-time_excluded": 27,
+    "location_outside_target_city": 30,
+    "title_explicitly_non_target_function": 1,
+    "total": 32,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "sandbox-vr-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,37 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:02:27Z",
+      "attempt_id": "attempt:419e2c18-2f8a-43c8-b14e-a690fb193fcd",
+      "result_digest": "1a64f257cac506995308e7c3dd2955685a1471f09eb6cc14e349ad1d22e128aa",
+      "task_id": "source:lunar-ashby:luna:ef678265af8399cb",
+      "transaction_id": "txn:1a64f257cac506995308e7c3"
+    }
+  ],
+  "company_id": "lunar",
+  "current_job_count": 14,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:01:56Z",
+  "last_successful_scan_at": "2026-08-31T15:01:56Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "ai_involvement_insufficient": 3,
+    "compensation_below_profile_threshold": 5,
+    "compensation_period_mismatch": 2,
+    "employment_part-time_excluded": 2,
+    "location_outside_target_city": 2,
+    "title_explicitly_excluded_platform": 2,
+    "title_explicitly_non_target_function": 1,
+    "total": 19,
+    "workplace_remote_excluded": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "lunar-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

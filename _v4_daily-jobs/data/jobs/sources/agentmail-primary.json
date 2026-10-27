@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-30T21:32:32Z",
+      "attempt_id": "attempt:13dd4a45-0902-4f24-9a9c-80bc3e690222",
+      "result_digest": "8b4d380133246ee8e04aff88f4ecc8fb0b141f94f81599eb6184156969837132",
+      "task_id": "source:agentmail-primary:luna:f4a0d22aa06e03a1",
+      "transaction_id": "txn:8b4d380133246ee8e04aff88"
+    }
+  ],
+  "company_id": "agentmail",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-30T21:32:09Z",
+  "last_successful_scan_at": "2026-08-30T21:32:09Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 1,
+    "infrastructure_role_excluded": 1,
+    "role_fit_excluded": 4,
+    "total": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "agentmail-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

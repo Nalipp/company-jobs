@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:00:49Z",
+      "attempt_id": "attempt:9c4fdd62-8c14-4f7e-8918-0ee364f2e7ff",
+      "result_digest": "f55f76593e397176bf8293b0c31d36cc3a666b423a3725679b29a5001523855a",
+      "task_id": "source:layer-ashby:luna:b275b7c36aa1bbca",
+      "transaction_id": "txn:f55f76593e397176bf8293b0"
+    }
+  ],
+  "company_id": "layer",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:00:36Z",
+  "last_successful_scan_at": "2026-08-31T15:00:36Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 3,
+    "title_explicitly_non_target_function": 2,
+    "total": 5,
+    "workplace_remote_excluded": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "layer-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

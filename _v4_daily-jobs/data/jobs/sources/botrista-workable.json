@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:17:15Z",
+      "attempt_id": "attempt:cc94b70c-75ae-40e8-93f7-e846050c0af3",
+      "result_digest": "ea61a25af72e870218e6b4f20265c4a4a9e7c49c41454e5b114d861d71193843",
+      "task_id": "source:botrista-workable:luna:368d61086ac25f85",
+      "transaction_id": "txn:ea61a25af72e870218e6b4f2"
+    }
+  ],
+  "company_id": "botrista",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T22:00:00Z",
+  "last_successful_scan_at": "2026-08-31T22:00:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "workable",
+  "rejection_counts": {
+    "role_fit": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "botrista-workable",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

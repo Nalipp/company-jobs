@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:07:54Z",
+      "attempt_id": "attempt:9be585bd-90e4-4928-ac5a-8d07fd16d684",
+      "result_digest": "e3d73383751993764a468a6c4ce3faa1a04fb50eab30244cede0b3810d6b5e6d",
+      "task_id": "source:gooddata-ashby:luna:2e0b38e48b783991",
+      "transaction_id": "txn:e3d73383751993764a468a6c"
+    }
+  ],
+  "company_id": "gooddata",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:07:51Z",
+  "last_successful_scan_at": "2026-08-31T04:07:51Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "location_outside_target_city": 6,
+    "title_explicitly_non_target_function": 1,
+    "total": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "gooddata-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

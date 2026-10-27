@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:21:53Z",
+      "attempt_id": "attempt:d39b22dd-4ed1-4e61-a18f-b1c9012ba8cf",
+      "result_digest": "6855667e3eb105e2492667f35590b158e7322a83e1bc2ef113c70b3de81abbfa",
+      "task_id": "source:ss-and-c-advent-workday:luna:d91dc941e4bfe032",
+      "transaction_id": "txn:6855667e3eb105e2492667f3"
+    }
+  ],
+  "company_id": "ss-and-c-advent",
+  "current_job_count": 326,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T02:35:00Z",
+  "last_successful_scan_at": "2026-09-01T02:35:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "workday",
+  "rejection_counts": {
+    "compensation_unknown": 1,
+    "location_outside_target_city": 326
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "ss-and-c-advent-workday",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": [
+    "Workday detail pages were not opened individually for all 326 requisitions; listing links and metadata were exhaustively captured."
+  ]
+}

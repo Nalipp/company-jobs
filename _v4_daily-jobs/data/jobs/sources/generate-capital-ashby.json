@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:07:05Z",
+      "attempt_id": "attempt:8ab93939-97b9-4555-abaa-93df1d7aca39",
+      "result_digest": "7c22e495194e0ac4f20f27a646535092b5695cf1ae5453f008acbd1419a87372",
+      "task_id": "source:generate-capital-ashby:luna:9ba393ec040b259e",
+      "transaction_id": "txn:7c22e495194e0ac4f20f27a6"
+    }
+  ],
+  "company_id": "generate-capital",
+  "current_job_count": 10,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:06:52Z",
+  "last_successful_scan_at": "2026-08-31T04:06:52Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 5,
+    "location_outside_target_city": 5,
+    "title_explicitly_non_target_function": 6,
+    "total": 10
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "generate-capital-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

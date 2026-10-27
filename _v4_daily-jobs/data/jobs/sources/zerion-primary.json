@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:37:10Z",
+      "attempt_id": "attempt:128593eb-3d16-4f97-a76b-328d82f63c4d",
+      "result_digest": "94ffa3b4dad00d2f9eef55316cc8ccd1d088fddf8e20a3a25b2bab1182eaef9d",
+      "task_id": "source:zerion-primary:luna:3ee639be798d4cc5",
+      "transaction_id": "txn:94ffa3b4dad00d2f9eef5531"
+    }
+  ],
+  "company_id": "zerion",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:37:06Z",
+  "last_successful_scan_at": "2026-08-31T15:37:06Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "total": 1,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "zerion-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

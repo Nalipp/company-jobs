@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:11:40Z",
+      "attempt_id": "attempt:12470438-73b3-49a5-a7f3-ec44f9b66b16",
+      "result_digest": "ca81c994fd4091d9d6e62d08936ac3812a2d03d0ed341c93323095f179f6bd56",
+      "task_id": "source:onetrust-primary:luna:8f98feeaa66c0657",
+      "transaction_id": "txn:ca81c994fd4091d9d6e62d08"
+    }
+  ],
+  "company_id": "onetrust",
+  "current_job_count": 80,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:11:27Z",
+  "last_successful_scan_at": "2026-08-31T15:11:27Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 5,
+    "location_outside_target_city": 66,
+    "title_explicitly_non_target_function": 33,
+    "total": 80
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "onetrust-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

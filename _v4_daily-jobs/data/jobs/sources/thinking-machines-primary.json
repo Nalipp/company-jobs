@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:29:22Z",
+      "attempt_id": "attempt:c189ea11-18ce-45ad-abbb-e5a4a82421b3",
+      "result_digest": "3fc03970c918d40cc65300f70d1822c023ae99d94f0323bb7531f421ef219600",
+      "task_id": "source:thinking-machines-primary:luna:d6e142cd7db8dcc7",
+      "transaction_id": "txn:3fc03970c918d40cc65300f7"
+    }
+  ],
+  "company_id": "thinking-machines",
+  "current_job_count": 40,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:29:06Z",
+  "last_successful_scan_at": "2026-08-31T15:29:06Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 36,
+    "location_outside_target_city": 1,
+    "title_explicitly_non_target_function": 3,
+    "total": 40
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "thinking-machines-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

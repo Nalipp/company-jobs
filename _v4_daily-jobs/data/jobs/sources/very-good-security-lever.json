@@ -1,0 +1,34 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:32:06Z",
+      "attempt_id": "attempt:525f8b31-8d9b-4be1-a191-fc4257a64374",
+      "result_digest": "7ebf13e0bf26f3420091a0e3f0f0ce7bd3e7b9894d68dec7a1e63e141387d2e7",
+      "task_id": "source:very-good-security-lever:luna:d0adb9cdc681bb25",
+      "transaction_id": "txn:7ebf13e0bf26f3420091a0e3"
+    }
+  ],
+  "company_id": "very-good-security",
+  "current_job_count": 11,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:32:03Z",
+  "last_successful_scan_at": "2026-08-31T15:32:03Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 6,
+    "employment_part-time_excluded": 1,
+    "location_outside_target_city": 1,
+    "title_explicitly_non_target_function": 5,
+    "total": 11,
+    "workplace_remote_excluded": 10
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "very-good-security-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

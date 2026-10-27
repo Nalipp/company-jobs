@@ -1,0 +1,37 @@
+[
+  {
+    "id": "lever-1",
+    "text": "Full-Stack Engineer, AI",
+    "categories": {
+      "commitment": "Full-time",
+      "department": "Engineering",
+      "team": "Product",
+      "location": "San Francisco, CA",
+      "allLocations": [
+        "San Francisco, CA"
+      ]
+    },
+    "workplaceType": "hybrid",
+    "descriptionPlain": "Build customer-facing AI workflows.",
+    "hostedUrl": "https://jobs.lever.co/acme/lever-1?lever-source=homepage",
+    "createdAt": 1785585600000,
+    "salaryRange": {
+      "min": 180000,
+      "max": 230000,
+      "currency": "USD",
+      "interval": "year",
+      "basis": "base"
+    }
+  },
+  {
+    "id": "lever-2",
+    "text": "Contract Product Engineer",
+    "categories": {
+      "commitment": "Contract",
+      "location": "San Francisco, CA"
+    },
+    "workplaceType": "on-site",
+    "description": "<p>Build a short-term product.</p>",
+    "hostedUrl": "https://jobs.lever.co/acme/lever-2"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:57:34Z",
+      "attempt_id": "attempt:9bf76b93-9f69-4ede-b327-22599601687f",
+      "result_digest": "a61e7c309b4971aa00489f67e54edccdc3ba3bf2e6bac2da8fc0250ec1fc4e8f",
+      "task_id": "source:cor-primary:luna:72384a3f6868a158",
+      "transaction_id": "txn:a61e7c309b4971aa00489f67"
+    }
+  ],
+  "company_id": "cor",
+  "current_job_count": 5,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T21:05:00Z",
+  "last_successful_scan_at": "2026-08-31T21:05:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_unknown": 1,
+    "location": 2,
+    "role_fit": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "cor-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:stackshare:luna:ba805dec8ca7349b",
+  "attempt_id": "attempt:ce042820-96f3-48af-bdeb-5f9e710b43e9",
+  "claim_token": "KC7Y0EWl83H1BSpJMLEgliMzbi-36COuD_omt5mOzw8",
+  "model": "luna",
+  "created_at": "2026-09-01T17:56:55Z",
+  "target": {"company_ids": ["stackshare"], "source_ids": ["stackshare-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [{"url": "https://stackshare.io/", "retrieved_at": "2026-09-01T17:57:20Z", "evidence_type": "official_company_page", "finding": "The current official StackShare site is a technology-stack discovery and community product; bounded review found no current employer-controlled careers destination for StackShare roles."}],
+  "patch": {"company_id": "stackshare", "expected_record_revision": 1, "company_changes": {}, "source_upserts": [{
+    "source_id": "stackshare-primary", "company_id": "stackshare", "expected_record_revision": 1, "careers_url": null, "listings_url": null, "provider": "unknown", "board_id": null, "access_mode": null, "scope": "All StackShare roles", "instructions": "A bounded search found no current employer-controlled careers destination; recheck the official site before the next source refresh.", "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false}, "status": "no_careers_found", "official_relationship_url": "https://stackshare.io", "checked_at": "2026-09-01T17:57:20Z", "last_success_at": null, "added_date": "2026-08-28T23:04:10Z", "updated_date": "2026-09-01T17:57:20Z"
+  }]},
+  "item_results": [{"item": "stackshare-primary", "status": "resolved", "summary": "No current employer-controlled StackShare careers source found."}],
+  "failure_class": null,
+  "notes": "No canonical company identity or address change supported."
+}

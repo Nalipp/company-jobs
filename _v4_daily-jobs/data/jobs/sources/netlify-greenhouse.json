@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:08:30Z",
+      "attempt_id": "attempt:0f6be07a-ed25-48cc-927e-33933afaa7dd",
+      "result_digest": "354d6b3eeb52bdeecb727a9d438d1611338eea20696ec7c8f3574827551c0321",
+      "task_id": "source:netlify-greenhouse:luna:f6478adcbaff4045",
+      "transaction_id": "txn:354d6b3eeb52bdeecb727a9d"
+    }
+  ],
+  "company_id": "netlify",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:08:17Z",
+  "last_successful_scan_at": "2026-08-31T15:08:17Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "title_explicitly_non_target_function": 2,
+    "total": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "netlify-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

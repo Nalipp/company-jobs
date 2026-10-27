@@ -1,0 +1,93 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:11:15Z",
+      "attempt_id": "attempt:74a48d33-0424-4278-8118-e0c3a747453e",
+      "result_digest": "aba8c79e043adb01a64c0cda01922f0438aefd54dbe33986607447785b482867",
+      "task_id": "source:asana-primary:luna:8aaf57de6f4caeff",
+      "transaction_id": "txn:aba8c79e043adb01a64c0cda"
+    }
+  ],
+  "company_id": "asana",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://asana.com/jobs/apply/8031595",
+      "company_id": "asana",
+      "compensation_text": "$248,000 - $282,000",
+      "description_text": "Connect Command to customer systems and build reusable product capabilities for engineering workflows and agent-based workflows.",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T20:35:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T20:35:00Z",
+      "locations": [
+        "San Francisco"
+      ],
+      "provider": "custom",
+      "qualification_status": "qualifying",
+      "source_id": "asana-primary",
+      "source_job_id": "8031595",
+      "stable_id": "job-745cfff8eda02800748235bb",
+      "status": "active",
+      "title": "Forward Deployed Engineer, Command by Asana",
+      "workplace": "hybrid"
+    },
+    {
+      "canonical_url": "https://asana.com/jobs/apply/8119695",
+      "company_id": "asana",
+      "compensation_text": "$306,000 - $360,000",
+      "description_text": "Lead AI Teammates Platform, Experience, Chat, and Agent Orchestration teams turning LLM capabilities into product workflows.",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T20:35:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T20:35:00Z",
+      "locations": [
+        "San Francisco"
+      ],
+      "provider": "custom",
+      "qualification_status": "qualifying",
+      "source_id": "asana-primary",
+      "source_job_id": "8119695",
+      "stable_id": "job-ccf940f511c223964d3eb1e9",
+      "status": "active",
+      "title": "Director of Engineering, AI Agents",
+      "workplace": "hybrid"
+    },
+    {
+      "canonical_url": "https://asana.com/jobs/apply/8097669",
+      "company_id": "asana",
+      "compensation_text": "$306,000-$360,000",
+      "description_text": "Lead AI platform teams covering retrieval, model serving, inference, evaluation, and agentic enterprise software.",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T20:35:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T20:35:00Z",
+      "locations": [
+        "San Francisco"
+      ],
+      "provider": "custom",
+      "qualification_status": "qualifying",
+      "source_id": "asana-primary",
+      "source_job_id": "8097669",
+      "stable_id": "job-dff47acd7eaa470f560971ea",
+      "status": "active",
+      "title": "Director of Engineering, AI Platform",
+      "workplace": "hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T20:35:00Z",
+  "last_successful_scan_at": "2026-08-31T20:35:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "non_engineering_role": 18
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "asana-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

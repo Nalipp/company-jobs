@@ -1,0 +1,34 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:08:17Z",
+      "attempt_id": "attempt:05827c28-4ab0-4169-b3b0-a3a912a86ab3",
+      "result_digest": "5d8a8f2ae946223eec54984c968597cbf7c68f124fbf271f280df64b2721f303",
+      "task_id": "source:gorgias-ashby:luna:821908e2d87163d3",
+      "transaction_id": "txn:5d8a8f2ae946223eec54984c"
+    }
+  ],
+  "company_id": "gorgias",
+  "current_job_count": 15,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:08:14Z",
+  "last_successful_scan_at": "2026-08-31T04:08:14Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 3,
+    "compensation_currency_mismatch": 11,
+    "employment_temporary_excluded": 1,
+    "location_outside_target_city": 14,
+    "title_explicitly_non_target_function": 8,
+    "total": 15
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "gorgias-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:02:57Z",
+      "attempt_id": "attempt:f7dc18de-783e-41ad-9618-5b26a6a60e17",
+      "result_digest": "6e29df18241680713a2cd70c00a5a45ca768662eeace62d75f931cb37ee48424",
+      "task_id": "source:matik-greenhouse:luna:8cc295615ddab64e",
+      "transaction_id": "txn:6e29df18241680713a2cd70c"
+    }
+  ],
+  "company_id": "matik",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:02:45Z",
+  "last_successful_scan_at": "2026-08-31T15:02:45Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 1,
+    "title_explicitly_non_target_function": 1,
+    "total": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "matik-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

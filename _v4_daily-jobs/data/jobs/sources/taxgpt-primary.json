@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:35:43Z",
+      "attempt_id": "attempt:a27fa3d8-038c-44e4-a60b-647e02e9fcbb",
+      "result_digest": "2cd400572f221ec83a652283630a85069dc96241f1430b03acbfc02421dcd317",
+      "task_id": "source:taxgpt-primary:luna:64f4a9f5c36817b5",
+      "transaction_id": "txn:2cd400572f221ec83a652283"
+    }
+  ],
+  "company_id": "taxgpt",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T02:40:00Z",
+  "last_successful_scan_at": "2026-09-01T02:40:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_maximum_below_threshold": 2,
+    "location_not_san_francisco": 4,
+    "role_family_mismatch": 4,
+    "workplace_remote": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "taxgpt-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

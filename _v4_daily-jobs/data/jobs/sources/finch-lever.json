@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:04:46Z",
+      "attempt_id": "attempt:f13230e7-98d2-49dd-850c-9b18bf0902f4",
+      "result_digest": "6728a7633c1ef7e0db4f918eaa8100fafb8099e2dbe95a45c06d8a96fb4d222b",
+      "task_id": "source:finch-lever:luna:6084a6cbf39d30fb",
+      "transaction_id": "txn:6728a7633c1ef7e0db4f918e"
+    }
+  ],
+  "company_id": "finch",
+  "current_job_count": 11,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:04:26Z",
+  "last_successful_scan_at": "2026-08-31T04:04:26Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "ai_involvement_not_job_specific": 4,
+    "compensation_below_profile_threshold": 7,
+    "role_not_target_family": 4,
+    "title_explicitly_non_target_function": 4,
+    "total": 11
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "finch-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

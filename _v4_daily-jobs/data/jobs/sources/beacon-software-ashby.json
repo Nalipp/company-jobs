@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:37:52Z",
+      "attempt_id": "attempt:95846b6b-9eea-4dbf-9d92-a2e4d61a2c87",
+      "result_digest": "149c0489b984c934fe28c7c300644d681dc61e3f3d424fca0b7c047ffc6356c4",
+      "task_id": "source:beacon-software-ashby:luna:d854c309bebc42e6",
+      "transaction_id": "txn:149c0489b984c934fe28c7c3"
+    }
+  ],
+  "company_id": "beacon-software",
+  "current_job_count": 49,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:37:31Z",
+  "last_successful_scan_at": "2026-08-31T15:37:31Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "employment_internship_excluded": 1,
+    "location_outside_target_city": 27,
+    "semantic_review_rejected": 13,
+    "title_explicitly_non_target_function": 20,
+    "total": 49
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "beacon-software-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

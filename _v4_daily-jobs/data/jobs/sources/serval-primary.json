@@ -1,0 +1,179 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:23:00Z",
+      "attempt_id": "attempt:227ffe3e-10c8-4626-ab06-9d12a955063a",
+      "result_digest": "2b139a7aad5cfa4184f9a5ed1afa314d52d6f245b1f7bddc182e64b6095c74b7",
+      "task_id": "source:serval-primary:luna:995ded2def30c860",
+      "transaction_id": "txn:2b139a7aad5cfa4184f9a5ed"
+    }
+  ],
+  "company_id": "serval",
+  "current_job_count": 47,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/serval/a6cb109f-143d-4b46-b77a-1f1cb622a62b",
+      "company_id": "serval",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 325000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $325K"
+      },
+      "compensation_text": "$200K - $325K",
+      "department": "Engineering",
+      "description_text": "WHO WE ARE Serval http://serval.com is an AI-native automation platform transforming how enterprises operate. We build intelligent agents that understand real-world workflows and execute them end-to-end — replacing manual processes and rigid legacy systems with adaptive, learning software. Founded in early 2024, Serval is already trusted by companies like Fox, Notion, Perplexity, Vercel, and Brex to automate high-volume, high-friction operational work across their organizations. At the core of Serval is an agentic AI platform that turns natural language into production-grade workflows. Our agents don’t just respond to requests — they reason, take action across systems, and continuously improve with usage. What began with operational use cases has quickly evolved into a horizontal AI automation layer used across IT, HR, Finance, Security, Legal, and Engineering. Our mission is to eliminate repetitive, manual work across the enterprise and give teams leverage through intelligent automation. Long term, we’re building the universal AI operations layer — a system of agents that sits across business functions and runs the workflows that keep modern companies moving. We’re backed by leading investors including Sequoia Capital, Redpoint Ventures, Meritech, First Round, General Catalyst, Elad Gil, and others. ROLE OVERVIEW As a Senior Frontend Engineer at Serval, you'll play a pivotal role in shaping the future of our platform. You will be tasked with building foundational parts of our technology and your contributions will be key to defining the success of our product. WHAT YOU'LL DO - Work closely with our CTO to build new product capabilities from the ground up. - Be a champion for user experience, incorporating a deep understanding of our users to guide design decisions alongside the founding team. - Set the foundational system architecture and select key technologies for the codebase. - Help us ship V1 of Serval and deliver on our technical and product roadmap. - Help establish engineering best practices and standards within the team. Mentor junior engineers and contribute to a culture of technical excellence. WHAT YOU'LL NEED - 4+ years of experience as a frontend focused software engineer. - Experience with zero-to-one development: You should have built new products or systems from the ground up. - Deep appreciation for and commitment to delivering outstanding user experiences. - Exceptional communication skills and a proven ability to work cross-functionally. - Comfortable with the pace and ambiguity of a fast-growing startup environment. - Degree in Computer Science or a related engineering field. NICE TO HAVE - Experience with some of the technologies in our stack: Typescript, GRPC, Go, Kubernetes, React, AWS and Terraform. - Early-stage experience at a startup. - Experience building applied AI products. WHAT WE OFFER - Impact: Be a key player in shaping the success of our product and company. - Growth: Build a fundamentally new AI product offering with the support of our experienced team and investors. Grow rapidly with the company. - Culture: Join a culture that values innovation, ownership, accountability, and fun.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:22:41Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:22:41Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-08-12T05:01:18Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "serval-primary",
+      "source_job_id": "a6cb109f-143d-4b46-b77a-1f1cb622a62b",
+      "stable_id": "job-159882623f41e87ac809ad3d",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Software Engineer, Frontend",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/serval/7928f65b-538e-422f-8c82-cf69910411cc",
+      "company_id": "serval",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 325000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $325K"
+      },
+      "compensation_text": "$200K - $325K",
+      "department": "Engineering",
+      "description_text": "WHO WE ARE Serval http://serval.com is an AI-native automation platform transforming how enterprises operate. We build intelligent agents that understand real-world workflows and execute them end-to-end — replacing manual processes and rigid legacy systems with adaptive, learning software. Founded in early 2024, Serval is already trusted by companies like Fox, Notion, Perplexity, Vercel, and Brex to automate high-volume, high-friction operational work across their organizations. At the core of Serval is an agentic AI platform that turns natural language into production-grade workflows. Our agents don’t just respond to requests — they reason, take action across systems, and continuously improve with usage. What began with operational use cases has quickly evolved into a horizontal AI automation layer used across IT, HR, Finance, Security, Legal, and Engineering. Our mission is to eliminate repetitive, manual work across the enterprise and give teams leverage through intelligent automation. Long term, we’re building the universal AI operations layer — a system of agents that sits across business functions and runs the workflows that keep modern companies moving. We’re backed by leading investors including Sequoia Capital, Redpoint Ventures, Meritech, First Round, General Catalyst, Elad Gil, and others. ROLE OVERVIEW As a Senior Software Engineer, Backend at Serval, you will play a pivotal role in shaping the future of our platform. You will be responsible for building the foundational components of our technology, with your contributions being crucial to the success of our product. WHAT YOU'LL DO - Work closely with our CTO to build new product capabilities from the ground up. - Be a champion for user experience, incorporating a deep understanding of our users to guide design decisions alongside the founding team. - Set the foundational system architecture and select key technologies for the codebase. - Help us ship V1 of Serval and deliver on our technical and product roadmap. - Help establish engineering best practices and standards within the team. Mentor junior engineers and contribute to a culture of technical excellence. WHAT YOU'LL NEED - 4+ years of experience as a backend focused software engineer. - Experience with zero-to-one development: You should have built new products or systems from the ground up. - Deep appreciation for and commitment to delivering outstanding user experiences. - Exceptional communication skills and a proven ability to work cross-functionally. - Comfortable with the pace and ambiguity of a fast-growing startup environment. - Degree in Computer Science or a related engineering field. NICE TO HAVE - Experience with some of the technologies in our stack: Go, GRPC, Kubernetes, React, Typescript, AWS and Terraform. - Early-stage experience at a startup. - Experience building applied AI products. WHAT WE OFFER - Impact: Be a key player in shaping the success of our product and company. - Growth: Build a fundamentally new AI product offering with the support of our experienced team and investors. Grow rapidly with the company. - Culture: Join a culture that values innovation, ownership, accountability, and fun.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:22:41Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:22:41Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-08-12T05:09:34Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "serval-primary",
+      "source_job_id": "7928f65b-538e-422f-8c82-cf69910411cc",
+      "stable_id": "job-1f128cfa0657c5c9b66c0216",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Software Engineer, Backend",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/serval/37e2985b-a7bf-4c02-bd71-b5d906292814",
+      "company_id": "serval",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 325000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $325K"
+      },
+      "compensation_text": "$200K - $325K",
+      "department": "Engineering",
+      "description_text": "WHO WE ARE Serval http://serval.com is an AI-native automation platform transforming how enterprises operate. We build intelligent agents that understand real-world workflows and execute them end-to-end — replacing manual processes and rigid legacy systems with adaptive, learning software. Founded in early 2024, Serval is already trusted by companies like Fox, Notion, Perplexity, Vercel, and Brex to automate high-volume, high-friction operational work across their organizations. At the core of Serval is an agentic AI platform that turns natural language into production-grade workflows. Our agents don’t just respond to requests — they reason, take action across systems, and continuously improve with usage. What began with operational use cases has quickly evolved into a horizontal AI automation layer used across IT, HR, Finance, Security, Legal, and Engineering. Our mission is to eliminate repetitive, manual work across the enterprise and give teams leverage through intelligent automation. Long term, we’re building the universal AI operations layer — a system of agents that sits across business functions and runs the workflows that keep modern companies moving. We’re backed by leading investors including Sequoia Capital, Redpoint Ventures, Meritech, First Round, General Catalyst, Elad Gil, and others. ABOUT THE TEAM The Agent Deployment team is a customer-facing technical team, central to how Serval turns product capability into real business outcomes. The org is a family of roles: Deployment Strategists are the primary technical relationship and AI advisor for each customer, partnering with Deployed Software Engineers to build enterprise-grade features and products. Deployment Success Managers own each customer's long-term success, building the systems and motions that scale adoption, expansion, and renewal well past go-live. ROLE OVERVIEW Deployed Software Engineers are customer-facing software engineers: shipping features, building new capabilities, and expanding our product surface area inside some of the world’s most complex enterprises. You’ll work directly with customers to turn messy, high-stakes workflows into reliable AI-driven systems, shipping production code that influences both revenue and product direction. This role isn’t about building demos or prototypes; it’s about shipping enterprise-grade features and products for our customers. If you're energized by building something that didn't exist before, with a direct line between your work and company growth, this is the role for you. WHAT YOU’LL DO - Ship core product: architect and ship production-grade systems that become part of Serval's core product, born from the real needs of our most complex customers. - Build platform services: design backend services, APIs, and integrations that extend Serval's AI agent platform across customers, with a focus on reliability, security, and long-term maintainability. - Turn workflows into product: work directly with customers to turn messy, high-stakes workflows into generalized, reusable product capabilities. - Own the deployment lifecycle: own key deployments from architecture through scaling and continuous improvement. EXAMPLE RECENT PROJECTS - Productionize Serval's voice agent from alpha into a viable channel for enterprise users to reach the Serval AI agent, first at a Fortune 500 financial services company. - Upgrade our worker environment to communicate with on-premise Active Directory and Microsoft platforms over LDAP and PowerShell, and ship self-serve deployment so customers can stand up a Serval worker themselves. - Extend our workflow system to ingest knowledge from any source, making a customer's own systems searchable by the agent, a capability that won us the deal. WHAT YOU’LL NEED - Software engineering experience, ideally in a product-focused or customer-facing role - Strong coding and system design skills, with experience shipping production systems and building external integrations - High ownership in fast-moving environments with limited structure, and a track record of taking ambiguous problems to shipped, measurable impact. - A clear communicator with both technical and business stakeholders. NICE TO HAVE - Startup experience as a founder or early engineer. - Background working with enterprise customers or supporting complex technical sales cycles. - Experience building or deploying AI/LLM-powered features or agent-based systems. - Familiarity with IT, security, service management, or workflow automation. WHAT WE OFFER - Impact: Be a key player in shaping the success of our product and company. - Growth: Build a fundamentally new AI product offering with the support of our experienced team and investors. Grow rapidly with the company. - Culture: Join a culture that values innovation, ownership, accountability, and fun.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:22:41Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:22:41Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-04-08T21:30:16Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "serval-primary",
+      "source_job_id": "37e2985b-a7bf-4c02-bd71-b5d906292814",
+      "stable_id": "job-2a75652c0978a5cf77465951",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Software Engineer, Deployed",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/serval/2bfaede4-22b2-43b2-a14c-f45e5f398624",
+      "company_id": "serval",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 325000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $325K"
+      },
+      "compensation_text": "$200K - $325K",
+      "department": "Engineering",
+      "description_text": "WHO WE ARE Serval http://serval.com is an AI-native automation platform transforming how enterprises operate. We build intelligent agents that understand real-world workflows and execute them end-to-end — replacing manual processes and rigid legacy systems with adaptive, learning software. Founded in early 2024, Serval is already trusted by companies like Fox, Notion, Perplexity, Vercel, and Brex to automate high-volume, high-friction operational work across their organizations. At the core of Serval is an agentic AI platform that turns natural language into production-grade workflows. Our agents don’t just respond to requests — they reason, take action across systems, and continuously improve with usage. What began with operational use cases has quickly evolved into a horizontal AI automation layer used across IT, HR, Finance, Security, Legal, and Engineering. Our mission is to eliminate repetitive, manual work across the enterprise and give teams leverage through intelligent automation. Long term, we’re building the universal AI operations layer — a system of agents that sits across business functions and runs the workflows that keep modern companies moving. We’re backed by leading investors including Sequoia Capital, Redpoint Ventures, Meritech, First Round, General Catalyst, Elad Gil, and others. ROLE OVERVIEW As a Software Engineer, Agent Systems at Serval, you’ll build the core systems that power the AI agents at the center of our platform. You’ll work on the orchestration engine, runtime, retrieval and grounding systems, and evaluation infrastructure that enable agents to reason, take action, and operate reliably in real-world enterprise environments. Your work will help define how Serval agents behave across help desk, automation, and knowledge workflows — and the systems you build will power experiences used by a significant share of employees at some of the world’s largest companies. WHAT YOU’LL DO - Build end-to-end agent based product functionality. - Build the foundational systems behind Serval’s agent platform, including orchestration, runtime, and core primitives for how agents reason, act, and interact with users and systems. - Design and evolve the agentic loop, helping define the abstractions needed to make agents steerable, trustworthy, adaptive, and production-ready. - Improve retrieval and grounding systems so agents can provide accurate, well-supported answers and actions using the right organizational context. - Build evaluation frameworks and feedback loops that help us measure, debug, and continuously improve agent quality over time. - Partner closely with product to bring new agent capabilities into customer-facing workflows and product experiences. - Help establish technical standards and best practices for building reliable, high-performance agent systems at Serval. WHAT YOU’LL NEED - Strong software engineering fundamentals and experience building production-grade systems. - Experience building AI-powered systems, agent frameworks, or LLM-based applications in production. - 4+ years of hands-on experience building software products and systems in production environments. - Experience designing systems from first principles, with an eye toward reliability, scalability, and maintainability. - Excitement about building at the frontier of AI products, with a strong point of view on what makes agents useful in the real world. - High agency and comfort operating in a fast-moving, high-autonomy startup environment. - Strong communication skills and the ability to work cross-functionally. - Degree in Computer Science or a related technical field, or equivalent professional experience. NICE TO HAVE - Experience with retrieval systems, grounding strategies, evaluation infrastructure, or other components of modern agent architectures. - Familiarity with technologies in our stack, including Go and TypeScript. - Early-stage startup experience or a track record of zero-to-one product development. WHAT WE OFFER - Impact: Be a key player in shaping the success of our product and company. - Growth: Build a fundamentally new AI product offering with the support of our experienced team and investors. Grow rapidly with the company. - Culture: Join a culture that values innovation, ownership, accountability, and fun.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:22:41Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:22:41Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2025-11-14T01:56:54Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "serval-primary",
+      "source_job_id": "2bfaede4-22b2-43b2-a14c-f45e5f398624",
+      "stable_id": "job-bdaf456b70969df6bd22a54a",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Software Engineer, Agent Systems",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:22:41Z",
+  "last_successful_scan_at": "2026-08-31T15:22:41Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 6,
+    "compensation_period_mismatch": 1,
+    "location_outside_target_city": 4,
+    "title_explicitly_non_target_function": 39,
+    "total": 47,
+    "workplace_remote_excluded": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "serval-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

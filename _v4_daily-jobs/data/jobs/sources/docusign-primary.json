@@ -1,0 +1,61 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T21:12:25Z",
+      "attempt_id": "attempt:2457cf4d-f5b5-47a3-bb8c-3aab149ee833",
+      "result_digest": "3d4bfbec619e448bd866c817d2ad871611449eb67df9af1585beed183092298d",
+      "task_id": "source:docusign-primary:luna:6820e5b07c8e3d26",
+      "transaction_id": "txn:3d4bfbec619e448bd866c817"
+    }
+  ],
+  "company_id": "docusign",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://careers.docusign.com/careers-home/jobs/29733?lang=en-us&previousLocale=en-US",
+      "company_id": "docusign",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 266000,
+        "minimum": 164700,
+        "period": "year"
+      },
+      "compensation_text": "California: $164,700.00 - $266,000.00 base salary",
+      "department": "Engineering",
+      "description_text": "Full Stack Senior Software Engineer on Docusign's New Revenue product-led growth team; build new customer experiences and offerings using JavaScript, TypeScript, React, and backend services.",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T21:42:00Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T21:42:00Z",
+      "locations": [
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-06-26",
+      "provider": "custom",
+      "qualification_status": "qualifying",
+      "source_id": "docusign-primary",
+      "source_job_id": "29733",
+      "stable_id": "job-b71bd4b4de9284ad9c90680e",
+      "status": "active",
+      "title": "Senior Software Engineer - New Revenue",
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Minimum 2 days per week in office"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T21:42:00Z",
+  "last_successful_scan_at": "2026-08-31T21:42:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "location_or_compensation_or_role_mismatch": 63
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "docusign-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,56 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:38:39Z",
+      "attempt_id": "attempt:8dfeee32-b69b-4f35-825c-58c90810246e",
+      "result_digest": "ec92f4b3fc1f14a554eea558accdea642f205d43799acf77a76303d7f6cad053",
+      "task_id": "source:clara-primary:luna:f7bc3a01cc6c5913",
+      "transaction_id": "txn:ec92f4b3fc1f14a554eea558"
+    }
+  ],
+  "company_id": "clara",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://www.workatastartup.com/jobs/87899",
+      "company_id": "clara",
+      "first_seen_at": "2026-08-31T20:38:00.360Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T20:38:00.360Z",
+      "provider": "workatastartup",
+      "qualification_status": "deterministic_pass",
+      "source_id": "clara-primary",
+      "source_job_id": "founding-ai-engineer-healthcare",
+      "stable_id": "job-430b08752b677f7f0f788a01",
+      "status": "active",
+      "title": "Founding AI Engineer (Healthcare)"
+    },
+    {
+      "canonical_url": "https://www.workatastartup.com/jobs/106311",
+      "company_id": "clara",
+      "first_seen_at": "2026-08-31T20:38:00.360Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T20:38:00.360Z",
+      "provider": "workatastartup",
+      "qualification_status": "deterministic_pass",
+      "source_id": "clara-primary",
+      "source_job_id": "founding-full-stack-growth-engineer",
+      "stable_id": "job-4c283461437043dc88b75afe",
+      "status": "active",
+      "title": "Founding full-stack growth Engineer"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T20:38:00.360Z",
+  "last_successful_scan_at": "2026-08-31T20:38:00.360Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "workatastartup",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "clara-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

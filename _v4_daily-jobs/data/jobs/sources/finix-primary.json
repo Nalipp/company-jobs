@@ -1,0 +1,35 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:05:16Z",
+      "attempt_id": "attempt:62282087-dfa5-4aa4-9aa7-d650f2a0afb5",
+      "result_digest": "8a2e1b731173aa7e2e1c484fd93cfd5a2ee7983028f163c186acb820a3eb6441",
+      "task_id": "source:finix-primary:luna:c0b3bc851426758a",
+      "transaction_id": "txn:8a2e1b731173aa7e2e1c484f"
+    }
+  ],
+  "company_id": "finix",
+  "current_job_count": 15,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:04:53Z",
+  "last_successful_scan_at": "2026-08-31T04:04:53Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "ai_involvement_insufficient": 2,
+    "compensation_below_profile_threshold": 1,
+    "location_outside_target_city": 1,
+    "title_explicitly_non_target_function": 8,
+    "title_not_target_engineering_family": 4,
+    "total": 19,
+    "workplace_remote_excluded": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "finix-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

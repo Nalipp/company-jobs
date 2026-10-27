@@ -1,0 +1,35 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:11:06Z",
+      "attempt_id": "attempt:0fea4cb8-0424-4335-8946-83c03f1ff99e",
+      "result_digest": "8f9e5e04495c0a8fd22be73b62ae4e868f49a0c8e2b16a395d26d041420d8f97",
+      "task_id": "source:omni-analytics-primary:luna:805239ff9be2a557",
+      "transaction_id": "txn:8f9e5e04495c0a8fd22be73b"
+    }
+  ],
+  "company_id": "omni-analytics",
+  "current_job_count": 23,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:10:45Z",
+  "last_successful_scan_at": "2026-08-31T15:10:45Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 3,
+    "compensation_currency_mismatch": 7,
+    "location_outside_target_city": 9,
+    "semantic_non_target": 1,
+    "title_explicitly_non_target_function": 7,
+    "total": 23,
+    "workplace_remote_excluded": 10
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "omni-analytics-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

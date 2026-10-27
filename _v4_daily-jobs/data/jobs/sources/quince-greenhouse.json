@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:18:39Z",
+      "attempt_id": "attempt:bd959f4a-facc-46f3-8f90-70598e84a078",
+      "result_digest": "d4ab03d350e67345f6f350b951544a9063f475c39b737537e076256e5c9e52cb",
+      "task_id": "source:quince-greenhouse:luna:9bd99fc35302bee4",
+      "transaction_id": "txn:d4ab03d350e67345f6f350b9"
+    }
+  ],
+  "company_id": "quince",
+  "current_job_count": 144,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:18:25Z",
+  "last_successful_scan_at": "2026-08-31T15:18:25Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown": 27,
+    "location_outside_target_city": 109,
+    "title_explicitly_non_target_function": 20,
+    "total": 144
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "quince-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

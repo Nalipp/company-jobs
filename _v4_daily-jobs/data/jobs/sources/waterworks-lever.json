@@ -1,0 +1,34 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:33:56Z",
+      "attempt_id": "attempt:57befb07-dc91-4b38-9355-bdbbe6b1e7fe",
+      "result_digest": "692b8ea92742ff73ee8d8b2d8b631feada2b05ef21b121e08eaa2bb297dbdefc",
+      "task_id": "source:waterworks-lever:luna:abe85dcb9cb71b35",
+      "transaction_id": "txn:692b8ea92742ff73ee8d8b2d"
+    }
+  ],
+  "company_id": "waterworks",
+  "current_job_count": 21,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:33:53Z",
+  "last_successful_scan_at": "2026-08-31T15:33:53Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 12,
+    "compensation_currency_mismatch": 2,
+    "compensation_period_mismatch": 4,
+    "location_outside_target_city": 20,
+    "title_explicitly_non_target_function": 7,
+    "total": 21
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "waterworks-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

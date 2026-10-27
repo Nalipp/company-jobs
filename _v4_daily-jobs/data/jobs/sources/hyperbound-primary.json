@@ -1,0 +1,68 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:55:29Z",
+      "attempt_id": "attempt:74203f11-f9a2-40e1-b40c-db3479308b8a",
+      "result_digest": "70b8d5b0484d6c6383702bff5fcec75a258d3e2c00807ac189aaf9e3e655e581",
+      "task_id": "source:hyperbound-primary:luna:06d5be6106884489",
+      "transaction_id": "txn:70b8d5b0484d6c6383702bff"
+    }
+  ],
+  "company_id": "hyperbound",
+  "current_job_count": 7,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/hyperbound/e875cc8d-9913-45a6-969d-22382797e0b8",
+      "company_id": "hyperbound",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 220000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $220K"
+      },
+      "compensation_text": "$200K - $220K",
+      "department": "Product",
+      "description_text": "WE'RE PROBABLY NOT THE RIGHT FIT FOR YOU. We're in-person, 5 days a week. We move fast and expect a lot. You'll ship something the night before a customer demos it in front of 20,000 sales reps at their SKO. You'll watch a feature you built be the reason a customer signs an $800K contract. That kind of thing either sounds like your dream or your nightmare. If it's the former, that's the job. If you'd rather have more structure and a clearer lane, this probably isn't it. Still here? Good. WHAT WE'RE BUILDING Hyperbound is the Revenue Activation Platform, the agentic OS for sales. We don't just record what happens on a sales call, we change what happens next. We invented AI sales roleplay that teams at LinkedIn, Workday, Vanta, and Intel use to practice, measure, and scale the behaviors that separate their top performers from everyone else. We're YC S23, founded in 2023, Series A, with $18M raised. Last quarter we doubled headcount, nearly doubled revenue, and posted 300% net revenue retention. THE ROLE - Build and deploy applications across frontend and backend using Next.js/React, Node.js/NestJS REST APIs, PostgreSQL, MongoDB, and TypeScript - Support AWS infrastructure, deployment strategies, and CI/CD pipelines. THE TEAM My cofounder and I are both engineers. This is an engineer-driven company, and that shapes everything, how we prioritize, how we debate, what we respect. The people we've hired are a little crazy. Ex-YC founders who wanted to build again. A founder who competed against us, decided we were doing it better, and joined. Engineers who walked away from comfortable jobs because they had something to prove. Whether it was to themselves, to someone else, or sometimes both, I see it every day. These people genuinely inspire myself and Sriharsha ever day, and they run like hell. Our team hanging out on our office couch (it’s crazy but we hired 20 more people after this photo we took just 6 months ago): [https://app.ashbyhq.com/api/images/user-content/dc682caf-65e4-456d-8c74-c4a052bd4d85/749c4bad-67a9-4d06-a1f5-b8fee57c13d6/image_large.png] And our team right after we raised our series A in Bali: [https://app.ashbyhq.com/api/images/user-content/dc682caf-65e4-456d-8c74-c4a052bd4d85/05b97235-2d37-4323-bcf1-19433b9bad48/bali.jpg] AND FINALLY ACTUAL OWNERSHIP You deploy your own code. When something breaks, you fix the thing that caused it. When you see an architectural problem, you own the fix end to end. We don't have a lot of process protecting you from responsibility OR impact. If I had to some what makes a Hypernaut, this would be it in one word. The equity reflects that. We believe in making early employees meaningfully wealthy, and there are real secondary opportunities as we grow. INTERVIEW PROCESS 1. Phone Screen with James, Recruiter 2. 2 tech screens with engineering team 3. Behavioral interview with Luca, Head of Eng 4. One day, paid, in-person work trial COMP AND BENEFITS - $200k-$225k+ - .15-.3% equity Series A - Medical, Dental, and Vision - Unlimited PTO - Lunch and dinner in the office - Commuter and parking dollars Hyperbound is an equal opportunity employer. We welcome applicants of all backgrounds, identities, and experiences, and we do not discriminate on the basis of race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. If you need accommodations during the interview process, let us know and we'll make it work.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T14:55:07Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T14:55:07Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-07-08T19:46:19Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "source_id": "hyperbound-primary",
+      "source_job_id": "e875cc8d-9913-45a6-969d-22382797e0b8",
+      "stable_id": "job-e5b83aa64c40cc3492d7a42d",
+      "status": "active",
+      "team": "Product",
+      "title": "Full-Stack Software Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T14:55:07Z",
+  "last_successful_scan_at": "2026-08-31T14:55:07Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "title_explicitly_excluded": 1,
+    "title_explicitly_non_target_function": 5,
+    "total": 7
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "hyperbound-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

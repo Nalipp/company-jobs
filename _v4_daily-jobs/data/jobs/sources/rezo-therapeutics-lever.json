@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:19:47Z",
+      "attempt_id": "attempt:f0d6676d-035d-4eb8-9d45-d39587dd9bd2",
+      "result_digest": "954842d21ef07a97abb84f26cdb1e22368d120af277dc2c30a0acb522530ca90",
+      "task_id": "source:rezo-therapeutics-lever:luna:fe92a84095d8eb6b",
+      "transaction_id": "txn:954842d21ef07a97abb84f26"
+    }
+  ],
+  "company_id": "rezo-therapeutics",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:19:36Z",
+  "last_successful_scan_at": "2026-08-31T15:19:36Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 4,
+    "total": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "rezo-therapeutics-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

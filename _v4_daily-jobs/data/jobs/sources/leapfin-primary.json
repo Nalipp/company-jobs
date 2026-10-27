@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T03:39:42Z",
+      "attempt_id": "attempt:96aa0da0-4b86-4d38-a5a2-66c1968656f1",
+      "result_digest": "0dc3ac7d037a868be3eef5ed1354a14a9b2325e7bcb18fc4273e03eeffc66da5",
+      "task_id": "source:leapfin-primary:terra:d6448732dead5049",
+      "transaction_id": "txn:0dc3ac7d037a868be3eef5ed"
+    }
+  ],
+  "company_id": "leapfin",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T03:40:00Z",
+  "last_successful_scan_at": "2026-09-01T03:40:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "compensation_missing_or_below_threshold": 1,
+    "location_not_exact_san_francisco": 3,
+    "role_not_target": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "leapfin-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

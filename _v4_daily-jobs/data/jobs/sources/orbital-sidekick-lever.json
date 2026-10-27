@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:12:03Z",
+      "attempt_id": "attempt:a198cd47-4052-41a9-824f-0dfd921deca1",
+      "result_digest": "58f1c7e220de2a9e4e665751a6f028a231b9296682eb50dd3e6bab5393425319",
+      "task_id": "source:orbital-sidekick-lever:luna:a63dcd1d40d9cb45",
+      "transaction_id": "txn:58f1c7e220de2a9e4e665751"
+    }
+  ],
+  "company_id": "orbital-sidekick",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:11:59Z",
+  "last_successful_scan_at": "2026-08-31T15:11:59Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "lever",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "total": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "orbital-sidekick-lever",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

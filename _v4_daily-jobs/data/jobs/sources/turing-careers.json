@@ -1,0 +1,27 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-09-01T02:39:34Z",
+      "attempt_id": "attempt:a0472d50-a611-4f94-b651-e2cc4b5c1a6e",
+      "result_digest": "e0bedd054e67262e41ddad7400fd5287cb590a761081521c960c60cef92ec1fc",
+      "task_id": "source:turing-careers:luna:aaa141ef9cd7cb00",
+      "transaction_id": "txn:e0bedd054e67262e41ddad74"
+    }
+  ],
+  "company_id": "turing",
+  "current_job_count": 0,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-09-01T02:55:00Z",
+  "last_successful_scan_at": "2026-09-01T02:55:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {},
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "turing-careers",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

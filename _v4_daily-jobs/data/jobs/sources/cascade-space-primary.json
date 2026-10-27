@@ -1,0 +1,29 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T20:24:00Z",
+      "attempt_id": "attempt:8932eee9-284b-4505-9d3a-174f8bedc3a4",
+      "result_digest": "3fd7adc943c75e6cb939696ec51066416223486ac620f05585c601e17cd18b3e",
+      "task_id": "source:cascade-space-primary:luna:493e32193898ba01",
+      "transaction_id": "txn:3fd7adc943c75e6cb939696e"
+    }
+  ],
+  "company_id": "cascade-space",
+  "current_job_count": 1,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T23:58:00Z",
+  "last_successful_scan_at": "2026-08-31T23:58:00Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "custom",
+  "rejection_counts": {
+    "role_fit": 1
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "cascade-space-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

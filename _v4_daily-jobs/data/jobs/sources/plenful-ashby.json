@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:16:30Z",
+      "attempt_id": "attempt:f7b87255-f1ac-491b-882a-12f610ae16f4",
+      "result_digest": "8f3483000f6030369836ad357c269ffbb5925f6e21830eaf6bb1fda49d8bb2f7",
+      "task_id": "source:plenful-ashby:luna:9bb96280d729a44a",
+      "transaction_id": "txn:8f3483000f6030369836ad35"
+    }
+  ],
+  "company_id": "plenful",
+  "current_job_count": 18,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:16:18Z",
+  "last_successful_scan_at": "2026-08-31T15:16:18Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 12,
+    "title_explicitly_non_target_function": 4,
+    "total": 18,
+    "workplace_remote_excluded": 5
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "plenful-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

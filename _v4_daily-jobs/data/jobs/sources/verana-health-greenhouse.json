@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:32:22Z",
+      "attempt_id": "attempt:cd6b7a6c-e72c-4cd5-bafb-24b585bc57a4",
+      "result_digest": "bb561e4f2074d5cc3433bf1d3c5c369893cc0a24c46efa728a7f6edc271c5d9d",
+      "task_id": "source:verana-health-greenhouse:luna:52d98df546ab3558",
+      "transaction_id": "txn:bb561e4f2074d5cc3433bf1d"
+    }
+  ],
+  "company_id": "verana-health",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:32:08Z",
+  "last_successful_scan_at": "2026-08-31T15:32:08Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_or_below_threshold": 5,
+    "title_explicitly_non_target_function": 1,
+    "total": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "verana-health-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

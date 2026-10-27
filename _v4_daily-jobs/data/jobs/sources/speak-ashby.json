@@ -1,0 +1,118 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:26:34Z",
+      "attempt_id": "attempt:858bf998-eca3-4e9b-a77c-63fba34fb8a7",
+      "result_digest": "7b61de0c5c7760f80a05eb8de79d49f1baa06ab31465c4100d872ddfc3a82486",
+      "task_id": "source:speak-ashby:luna:2ad9b7135ed83199",
+      "transaction_id": "txn:7b61de0c5c7760f80a05eb8d"
+    }
+  ],
+  "company_id": "speak",
+  "current_job_count": 38,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+      "company_id": "speak",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 280000,
+        "minimum": 150000,
+        "period": "year",
+        "source_text": "$150K - $280K"
+      },
+      "compensation_text": "$150K - $280K",
+      "department": "Engineering",
+      "description_text": "ABOUT US Our mission is to reinvent the way people learn, starting with language. Learning a language can change a life by opening doors to new cultures, careers, and communities. Two billion people around the world are actively trying to learn a language, but the best way to learn (one-on-one tutoring) is hard to access at scale and hasn’t been meaningfully improved in decades. Speak is building a human-level, AI-powered tutor in your pocket: a conversation-first experience that lets learners actually speak, get instant feedback, and progress through carefully designed lessons. The result is a complete path from beginner to confident speaker across multiple languages. Speak first launched in South Korea in 2019, where Speak has now become the number one language learning app, and we now serve learners across many markets and 15+ languages. Speak is one of the world’s leading AI companies, with over $150m raised in venture investment from OpenAI, Accel, Founders Fund, Khosla Ventures, and more, with a distributed team across San Francisco, Seoul, Tokyo, Taipei, and Ljubljana. ABOUT THIS ROLE As an AI Product Engineer at Speak, you'll play a pivotal role in developing the future of language learning and creating the most effective path to language fluency. Your primary responsibility will be developing innovative product experiences powered by Language Learning Models (LLMs) and deploying them to millions of users. Your tasks will span the full stack and beyond, from evaluating models and testing prompts to developing and iterating on various product features such as our conversational onboarding and lesson experiences, grammatical assessment and feedback, and personalized lessons. We're constantly pushing the boundaries of what LLMs can do to provide an exceptional and unparalleled language learning experience to users in over 30 countries worldwide. WHAT YOU'LL BE DOING - Developing and deploying LLM-powered language learning products across the full stack, as well as enhancing the quality and performance of existing AI-powered features within Speak - Collaborating cross-functionally with other Engineering teams, Applied ML, Product, Design, and Content - Refining our process for building LLM apps, including best practices for prompting, experimentation/evaluation, LLM Ops, measuring quality and performance, etc. - Scaling existing product features to many more users and languages WHAT WE'RE LOOKING FOR - 3-5+ years of experience in full stack/backend, product-focused software engineering - Proficiency in React/Node/Typescript and Python - You have real-world experience developing and deploying LLM apps and a strong understanding, gained through experience, of what works and what doesn't - A keen intuition for improving performance and output quality of LLM systems - Experience with LLM Ops and tools (e.g., vector databases, RAG, prompt ops) - Strong product intuition — the ability to think broadly and cross-functionally about innovative LLM-powered capabilities and product experiences - Ability to work independently and build at a high velocity OFFICE - San Francisco, CA WHY WORK AT SPEAK 1. Join a fantastic, tight-knit team at the right time: we're growing very quickly, we've most recently raised our Series C from some of the top investors in the valley, and we've achieved product-market fit in our initial markets. You'd join at a magical time when a single person could significantly change the course of the company. 2. Do your life's work with people you’ll love working with: we care strongly about our craft and want every person at Speak to feel like they're growing every day. We believe in the idea that working with people you both enjoy and have respect for makes everything better. We hire thoughtfully and only work with people we admire deeply. 3. Global in nature: We're live in over 40 countries and launching in a number of new markets soon. We have dedicated offices in San Francisco, Ljubljana, Seoul, Tokyo, and Taipei, and you’ll have the opportunity to talk to users in each of these regions on a regular basis as well as travel. 4. Impact people's lives in a major way: Learning a language is one of the single most life-changing skills one can learn, and right now 99% of people never achieve their goal because the process is broken. We’re helping millions of people achieve their goals and improve their lives. Speak does not discriminate based upon race, religion, color, national origin, gender (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:26:17Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:26:17Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2023-09-19T05:51:39Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "Title is AI Product Engineer, directly matching the AI product engineering role family.",
+        "The listing is in San Francisco, hybrid, with a published maximum base compensation of USD 280,000/year."
+      ],
+      "source_id": "speak-ashby",
+      "source_job_id": "e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+      "stable_id": "job-772ed0ad962b23c58d4d22b0",
+      "status": "active",
+      "team": "Machine Learning",
+      "title": "AI Product Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    },
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/speak/e78edff4-5135-4c68-932d-e449ee460ea3",
+      "company_id": "speak",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 300000,
+        "minimum": 200000,
+        "period": "year",
+        "source_text": "$200K - $300K"
+      },
+      "compensation_text": "$200K - $300K",
+      "department": "Engineering",
+      "description_text": "ABOUT US Our mission is to reinvent the way people learn, starting with language. Learning a language can change a life by opening doors to new cultures, careers, and communities. Two billion people around the world are actively trying to learn a language, but the best way to learn (one-on-one tutoring) is hard to access at scale and hasn’t been meaningfully improved in decades. Speak is building a human-level, AI-powered tutor in your pocket: a conversation-first experience that lets learners actually speak, get instant feedback, and progress through carefully designed lessons. The result is a complete path from beginner to confident speaker across multiple languages. Speak first launched in South Korea in 2019, where Speak has now become the number one language learning app, and we now serve learners across many markets and 15+ languages. Speak is one of the world’s leading AI companies, with over $150m raised in venture investment from OpenAI, Accel, Founders Fund, Khosla Ventures, and more, with a distributed team across San Francisco, Seoul, Tokyo, Taipei, and Ljubljana. ABOUT THIS ROLE We are looking for an experienced Machine Learning Engineer to join our team and help develop cutting-edge speech recognition models that help teach language fluency. In this role you will take ownership of the end-to-end modeling pipeline, from training and experimentation to deployment and monitoring. You will also work closely with Product teams to design innovative learning experiences and measure the efficacy of production models as they affect our end users. We are a small, dynamic team where you will contribute as a developer and thought partner on team projects like ASR, assessment, pronunciation, content personalization, and much more. This is an incredibly exciting time to join an ML team designing a personalized learning experience that will revolutionize language learning for millions of learners worldwide — come join us! WHAT YOU'LL BE DOING - Training and deploying ASR models end-to-end, including monitoring, performance tracking, and retraining - Improving the pronunciation model that provides precise feedback, and make it more central to our learning app - Creating metrics to measure ASR performance across tasks and languages - Expanding our ASR systems to new languages and markets - Building and maintaining data infrastructure such as training/evaluation datasets and labeling pipelines WHAT WE'RE LOOKING FOR - Extensive experience training large models on GPUs and deploying custom deep learning models - Proficiency in Python and common Deep Learning frameworks like PyTorch - Demonstrated experience owning ML pipelines end to end, from POC to production - Strong communication skills and the ability to explain complex ML concepts to non-technical stakeholders - Sharp product sense and an ability to think broadly and cross-functionally about model quality in the context of user experience - Bonus - Experience with speech or audio OFFICE - San Francisco, CA WHY WORK AT SPEAK 1. Join a fantastic, tight-knit team at the right time: we're growing very quickly, we've most recently raised our Series C from some of the top investors in the valley, and we've achieved product-market fit in our initial markets. You'd join at a magical time when a single person could significantly change the course of the company. 2. Do your life's work with people you’ll love working with: we care strongly about our craft and want every person at Speak to feel like they're growing every day. We believe in the idea that working with people you both enjoy and have respect for makes everything better. We hire thoughtfully and only work with people we admire deeply. 3. Global in nature: We're live in over 40 countries and launching in a number of new markets soon. We have dedicated offices in San Francisco, Ljubljana, Seoul, Tokyo, and Taipei, and you’ll have the opportunity to talk to users in each of these regions on a regular basis as well as travel. 4. Impact people's lives in a major way: Learning a language is one of the single most life-changing skills one can learn, and right now 99% of people never achieve their goal because the process is broken. We’re helping millions of people achieve their goals and improve their lives. Speak does not discriminate based upon race, religion, color, national origin, gender (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:26:17Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:26:17Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2024-03-05T19:19:55Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "Title is Machine Learning Engineer, Voice, directly indicating machine-learning product work.",
+        "The listing is in San Francisco, hybrid, with a published maximum base compensation of USD 300,000/year."
+      ],
+      "source_id": "speak-ashby",
+      "source_job_id": "e78edff4-5135-4c68-932d-e449ee460ea3",
+      "stable_id": "job-9387d947ef2532d76d44f87f",
+      "status": "active",
+      "team": "Machine Learning",
+      "title": "Machine Learning Engineer, Voice",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:26:17Z",
+  "last_successful_scan_at": "2026-08-31T15:26:17Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "compensation_period_mismatch": 7,
+    "employment_contract_excluded": 12,
+    "employment_part-time_excluded": 1,
+    "location_outside_target_city": 25,
+    "semantic_non_target": 4,
+    "title_explicitly_non_target_function": 16,
+    "total": 36,
+    "workplace_remote_excluded": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "speak-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

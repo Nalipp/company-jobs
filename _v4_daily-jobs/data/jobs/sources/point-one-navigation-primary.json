@@ -1,0 +1,79 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:17:07Z",
+      "attempt_id": "attempt:03300a92-722f-427c-9f4e-06814d00fb07",
+      "result_digest": "6ba0c1acf5e5fa55f14faa052b3d568c23f6647bdbf1aa139dfacccde3d81c0b",
+      "task_id": "source:point-one-navigation-primary:luna:bfc7888e8434db02",
+      "transaction_id": "txn:6ba0c1acf5e5fa55f14faa05"
+    }
+  ],
+  "company_id": "point-one-navigation",
+  "current_job_count": 11,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/point-one-navigation/e96e071c-6ec1-4c87-b46c-56b88d4c35d7",
+      "company_id": "point-one-navigation",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 265800,
+        "minimum": 215270,
+        "period": "year",
+        "source_text": "$215,270 - $265,800"
+      },
+      "compensation_text": "$215,270 - $265,800",
+      "department": "Engineering",
+      "description_text": "ABOUT POINT ONE NAVIGATION Point One Navigation is on a mission to bridge the digital and physical worlds through precision location, with an API-first, developer-focused approach. Our RTK corrections network and FusionEngine™ software deliver centimeter-level accuracy and high-confidence positioning for vehicles, robots, drones, and devices across industries in outdoor applications. We are actively broadening our expertise into indoor environments to provide the same high-standard localization and navigational quality for users everywhere. ROLE OUTCOME Staff Computer Vision Engineers are responsible for the comprehensive lifecycle of Point One’s spatial AI and visual navigation features, overseeing everything from initial camera integration and image processing to high-level architectural and algorithmic design. This is an ownership-first role: you will conceptualize and drive complex technical challenges end-to-end - from early architecture through deployment in mission-critical systems - while raising the technical bar across the team. FusionEngine already powers a wide range of devices, hardware platforms, and customer applications. The R&D team is responsible for making sure our vision and perception systems work reliably across all of them: Designing solutions robust to visually challenging environments, optimizing models for compute-constrained edge devices, and ensuring our algorithms stay thoroughly tested, verified, and production-ready as we scale. SUCCESS IN THIS ROLE MEANS: - State-of-the-art CV and SLAM techniques are successfully translated from research papers, internal prototypes, or third-party solutions into highly performant, production-grade algorithms. - Rigorous benchmarking pipelines are established to objectively evaluate internal algorithms against commercial OTS solutions and vendor offerings. - Vision pipelines automatically generate and maintain accurate, semantically rich maps of complex indoor environments with minimal manual intervention. - Real-time localization and multi-agent tracking (assets, robots, people) are highly robust, minimizing latency and identity switches even in dynamic or visually degraded conditions. - Spatial data, coordinate frames, and map layers are exposed via clean data models and APIs, empowering our UI and infrastructure teams to build seamless user-facing applications. - Junior engineers grow faster and the team's practices improve measurably over time. IMMEDIATE AREAS OF FOCUS Applied Research, Benchmarking & Selection - Lead the research, evaluation, and selection of state-of-the-art computer vision, deep learning, and spatial navigation methodologies for highly accurate 3D maps of large-scale facilities, considering both internal development and third-party commercial solutions. - Develop or integrate deep learning and classical CV algorithms to extract semantic information from environments (e.g., structural elements, zones, and specific objects) for overlay onto base map. - Ensure maps can be dynamically updated over time as the physical layout of a facility changes, enabling map version management and consistency. - Design and own a rigorous benchmarking framework to continuously evaluate the accuracy, latency, compute footprint, and reliability of internal code versus off-the-shelf and vendor technologies. - Rapidly prototype new perception capabilities and architect their transition into highly optimized, edge-capable production code, or seamlessly encapsulate and integrate verified third-party modules. - Collaborate tightly with infrastructure and UI engineers to manage data products, render maps, and track assets for the end user. Drive Real-Time Localization and Tracking - Understand how and work with the larger navigation team to use camera data with GNSS, IMU, wheel odometry, and other indoor positioning signals to maintain high-confidence state estimation for moving agents in all environments. - Drive performance tuning for edge deployment to ensure tracking algorithms run with low latency and high reliability on constrained compute architectures. - Proactively identify failure modes in tracking and mapping and design robust algorithmic fallbacks. Raise the Technical Bar - Mentor junior engineers and establish best practices across the team. - Contribute to architecture discussions, technical strategy, and roadmap planning. QUALIFICATIONS - 7+ years of professional algorithm and software development experience, with significant depth in applied research, computer vision, or robotics. - Expertise in modern C++ (C++14 or later) and Python, with a demonstrated history of success of taking AI model prototypes (PyTorch, TensorFlow) and turning them into scalable, real-time production systems. - Expertise in ROS1/ROS2. - Hands-on experience with Visual SLAM, 3D reconstruction, and mapping architectures. - Experience in deploying semantic segmentation/object detection in real-world environments. - Experience with multi-view geometry, camera calibration, and fusing vision with other sensor modalities (IMU, GNSS). - Ability to take high-level research and business goals and decompose them into actionable engineering tasks, realistic schedules, and clear milestones. - MS or PhD in Computer Science, Robotics, or equivalent experience. Bonus Points For - Background in deploying optimized vision models to edge devices using TensorRT, ONNX, or platform-specific accelerators. - Experience in deploying multi-object tracking and ReID architectures in real-world, dynamic environments. - Familiarity with managing large-scale point clouds, mesh generation, or NeRFs/Gaussian Splatting for environmental representation. - OUR CULTURAL FOUNDATION At Point One, our cultural and operating design is built around one guiding principle: we must move with extreme speed and efficiency of effort to stay in a leadership position. This environment gives people a high level of autonomy and the ability to make a real impact. It also challenges every team member to grow — both professionally and personally. Because we focus on promoting from within rather than relying on external hiring, the opportunities for advancement are tremendous for those who seek them. That said, growth only comes from delivering in the present. What matters most is the job to be done today, not the job you want tomorrow. When we all focus on today’s outcomes with excellence, the path to greater responsibility and growth naturally follows. We think about our culture in two dimensions: HOW WE SHOW UP EVERY DAY These are the behaviors we expect every team member to bring to work — the foundation of being a consummate, high-output teammate: - Trust / Assume Best Intent — Trust allows us to move fast. When we start from trust, we spend no time second-guessing or looking for ulterior motives and thus focus all our energy on acting. - High Output, Action Oriented — Our default posture is “yes.” We bias toward action and deliver results quickly, knowing that speed and efficiency compound into impact as we unblock others around us. - Divine Discontent — We’re never satisfied with the status quo and are self-motivated to improve ourselves, our work, and our company. We actively seek feedback in real-time to shorten improvement cycles. - No Ego, One Team — Collaboration without ego creates leverage. When we win as one team, we eliminate friction and move faster together. - Self Accountability — Taking ownership is the straightest line to learning, self-improvement, and correcting our course of action. And blaming others around us is a fast path to destroying trust. OPERATING PRINCIPLES These are the systems and norms that amplify speed and efficiency at the company level: - Edge Innovation — We bias toward action over approval. Experiment, decide, and move — failure is just a step toward faster learning. - No Hierarchies — We practice self-prioritization and go direct to the source. Flattening layers reduces drag and maximizes autonomy. - Customer Experience First — We optimize for the end-to-end customer outcome, not functional or departmental efficiency. This focus cuts waste, aligns priorities, and ensures we spend effort where it matters most. If this role sounds like a fit, we’d love to hear from you. Apply below and join us in shaping the future of precise location.",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:16:45Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:16:45Z",
+      "locations": [
+        "San Francisco HQ",
+        "San Francisco, California, United States",
+        "San Diego / Bay Area"
+      ],
+      "posted_at": "2026-07-11T04:47:16Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "hybrid workplace",
+        "full-time engineering role",
+        "published USD annual base maximum $265,800",
+        "official posting explicitly covers spatial AI, computer vision, and deep learning"
+      ],
+      "source_id": "point-one-navigation-primary",
+      "source_job_id": "e96e071c-6ec1-4c87-b46c-56b88d4c35d7",
+      "stable_id": "job-0ba3a3db6a8c078095e4520b",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Staff Computer Vision Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "hybrid",
+      "workplace_text": "Hybrid"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:16:45Z",
+  "last_successful_scan_at": "2026-08-31T15:16:45Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_currency_mismatch": 1,
+    "compensation_unknown_or_below_threshold": 5,
+    "location_outside_target_city": 4,
+    "title_explicitly_non_target_function": 3,
+    "total": 11,
+    "workplace_remote_excluded": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "point-one-navigation-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

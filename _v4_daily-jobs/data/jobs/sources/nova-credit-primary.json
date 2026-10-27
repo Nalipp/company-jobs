@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:09:48Z",
+      "attempt_id": "attempt:c4b2f32d-949c-43da-a2fd-1105b9a82311",
+      "result_digest": "382fd49c556d3cb1c48e5818f1b467e87c43e573272661862be1d0f9bb5f58f2",
+      "task_id": "source:nova-credit-primary:luna:173096fe4dc9be97",
+      "transaction_id": "txn:382fd49c556d3cb1c48e5818"
+    }
+  ],
+  "company_id": "nova-credit",
+  "current_job_count": 12,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:09:35Z",
+  "last_successful_scan_at": "2026-08-31T15:09:35Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "location_non_target": 3,
+    "location_outside_target_city": 7,
+    "title_explicitly_non_target_function": 8,
+    "total": 12
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "nova-credit-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

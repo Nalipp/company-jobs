@@ -1,0 +1,76 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:03:46Z",
+      "attempt_id": "attempt:87b12a8a-9474-4c3b-9486-46cda07eb563",
+      "result_digest": "1c9022a9654eed66d24546cfcb575d4bf51d21f7b4ed9fca0bff21804fa49cc0",
+      "task_id": "source:medra-primary:luna:fe5607c29728f24b",
+      "transaction_id": "txn:1c9022a9654eed66d24546cf"
+    }
+  ],
+  "company_id": "medra",
+  "current_job_count": 15,
+  "fetch_complete": true,
+  "jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/medraai/4b14a964-094b-4bb8-9e92-d0ae183b8e1b",
+      "company_id": "medra",
+      "compensation": {
+        "basis": "base",
+        "currency": "USD",
+        "maximum": 210000,
+        "minimum": 170000,
+        "period": "year",
+        "source_text": "$170K - $210K"
+      },
+      "compensation_text": "$170K - $210K",
+      "department": "Engineering",
+      "description_text": "WHAT WE'RE BUILDING: If you want to shape the future of science, come build with us. Medra is building Physical AI Scientists: robotic systems that work hand-in-hand with leading biopharma partners to enable scientific breakthroughs faster than ever before. 🤖 Physical AI that can operate scientific instruments with human-level dexterity. 🧪 Scientific AI that can analyze results, reason about next steps, and close the loop autonomously. We shipped our first production system over a year ago, recently raised a $52M Series A, and are opening one of the largest autonomous labs in the US. We're a small, ambitious team and you'd be joining early. THE TEAM: - We’re a team of passionate, mission-driven engineers from companies like Tesla, Amazon, SpaceX, and Neuralink. We’re collaborative and love moving fast, both with our product and on team trips skiing or go-karting! - As a team, we love nerding out about engineering and robotics — plus other topics like race cars or cooking. We like learning new things and then sharing our new knowledge with each other. - Our team is opinionated and straightforward. We don’t mind intense discussions about design tradeoffs. If we have arguments or miscommunication, we resolve conflicts quickly and empathetically. IN THIS ROLE, YOU WILL: - Build and own the tools our customers use to design, monitor, and analyze autonomous experiments - Develop internal systems that help our team deploy, operate, and debug a growing fleet of robots in real lab environments - Work across the full stack, from React frontends to Node and Python services to AWS infrastructure, shipping features end-to-end - Collaborate directly with scientists, operations, and robotics engineers to understand their workflows and build software that makes their work easier and faster - Shape the engineering culture and technical direction of a product that's redefining how life science R&D gets done Let's talk if you have: - 3+ years of full-stack engineering experience at product-driven companies - Practical experience building AI-driven workflows into products - Strong proficiency in Python and TypeScript, with experience building production React applications - Comfort working across the stack: frontend UI, backend services, cloud infrastructure (AWS) - A track record of shipping end-to-end. You've taken features from idea to production, not just written code to spec - A bias toward action and ownership. You thrive when things are loosely defined and move fast - Genuine curiosity about what you're building and who you're building it for",
+      "employment_text": "FullTime",
+      "employment_type": "full-time",
+      "first_seen_at": "2026-08-31T15:03:25Z",
+      "inactive_at": null,
+      "last_seen_at": "2026-08-31T15:03:25Z",
+      "locations": [
+        "San Francisco",
+        "San Francisco, California, United States"
+      ],
+      "posted_at": "2026-05-13T23:48:26Z",
+      "provider": "ashby",
+      "qualification_status": "qualifying",
+      "semantic_evidence": [
+        "exact San Francisco location",
+        "on-site workplace",
+        "published USD annual base maximum $210,000",
+        "full-time full-stack product engineering role",
+        "official posting requires building AI-driven workflows into products"
+      ],
+      "source_id": "medra-primary",
+      "source_job_id": "4b14a964-094b-4bb8-9e92-d0ae183b8e1b",
+      "stable_id": "job-73b9a516f58753c7bc393722",
+      "status": "active",
+      "team": "Engineering",
+      "title": "Full Stack Software Engineer",
+      "updated_at": null,
+      "workplace_arrangement": "on-site",
+      "workplace_text": "OnSite"
+    }
+  ],
+  "last_attempt_at": "2026-08-31T15:03:25Z",
+  "last_successful_scan_at": "2026-08-31T15:03:25Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 2,
+    "compensation_unknown": 12,
+    "role_not_target_family": 1,
+    "total": 14
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "medra-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

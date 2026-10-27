@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:tempo-automation:luna:3c23c5793bc53273",
+  "attempt_id": "attempt:707d867c-6225-4d57-aa6d-c0c7b4926490",
+  "claim_token": "IiDE6fol5GfPOzHeo-whGOIalxU4R5wQ1fe6LkUCyXU",
+  "model": "luna",
+  "created_at": "2026-09-01T18:01:38Z",
+  "target": {"company_ids": ["tempo-automation"], "source_ids": ["tempo-automation-primary"]},
+  "outcome": "resolved",
+  "reason_code": "validated",
+  "evidence": [{"url": "https://www.tempoautomation.com/", "retrieved_at": "2026-09-01T18:02:10Z", "evidence_type": "official_company_page", "finding": "The official Tempo Automation site is live and describes software-powered prototype and on-demand circuit-board manufacturing, but no current employer-controlled careers or enumerable job source was found."}],
+  "patch": {"company_id": "tempo-automation", "expected_record_revision": 1, "company_changes": {}, "source_upserts": [{
+    "source_id": "tempo-automation-primary", "company_id": "tempo-automation", "expected_record_revision": 1, "careers_url": null, "listings_url": null, "provider": "unknown", "board_id": null, "access_mode": null, "scope": "No reusable official careers source found", "instructions": "A bounded search found no employer-controlled current careers destination; recheck the official site before the next source refresh.", "capabilities": {"complete_enumeration": false, "stable_job_identity": false, "structured_data": false}, "status": "no_careers_found", "official_relationship_url": "https://www.tempoautomation.com/", "checked_at": "2026-09-01T18:02:10Z", "last_success_at": null, "added_date": "2026-08-28T23:02:15Z", "updated_date": "2026-09-01T18:02:10Z"
+  }]},
+  "item_results": [{"item": "tempo-automation-primary", "status": "resolved", "summary": "Official site rechecked; no employer-controlled careers source found."}],
+  "failure_class": null,
+  "notes": "No canonical company identity or address change supported."
+}

@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:14:35Z",
+      "attempt_id": "attempt:a054acc3-75ea-4357-9fea-1f81726f627d",
+      "result_digest": "1e038f24094cd8e977e4ae5966e2b57377ddc90e4418031bc9c972b3466b5937",
+      "task_id": "source:pax-labs-greenhouse:luna:ba1b2d7736ee4509",
+      "transaction_id": "txn:1e038f24094cd8e977e4ae59"
+    }
+  ],
+  "company_id": "pax-labs",
+  "current_job_count": 4,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:14:23Z",
+  "last_successful_scan_at": "2026-08-31T15:14:23Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "semantic_non_target": 2,
+    "title_explicitly_non_target_function": 2,
+    "total": 4
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "pax-labs-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

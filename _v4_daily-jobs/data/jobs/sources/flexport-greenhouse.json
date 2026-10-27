@@ -1,0 +1,32 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:04:48Z",
+      "attempt_id": "attempt:e2424e3a-05e4-4737-926f-90454388e56c",
+      "result_digest": "ba1e9c87ee8434894d235a1c53bf81248a73d13e319d6dc429fcd3d13a57324d",
+      "task_id": "source:flexport-greenhouse:luna:d8a8c8dd9f5371a3",
+      "transaction_id": "txn:ba1e9c87ee8434894d235a1c"
+    }
+  ],
+  "company_id": "flexport",
+  "current_job_count": 165,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:04:36Z",
+  "last_successful_scan_at": "2026-08-31T04:04:36Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 19,
+    "location_outside_target_city": 134,
+    "title_explicitly_non_target_function": 68,
+    "total": 165
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "flexport-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

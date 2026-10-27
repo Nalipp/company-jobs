@@ -1,0 +1,33 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:08:00Z",
+      "attempt_id": "attempt:a7c16049-6708-4444-899f-49f22919aa09",
+      "result_digest": "e0bc83bbdb42f4ee8569da30d092f61257c5e9b73b63d93889f05dda78589093",
+      "task_id": "source:neon-ashby:luna:5dfe6966f5256527",
+      "transaction_id": "txn:e0bc83bbdb42f4ee8569da30"
+    }
+  ],
+  "company_id": "neon",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:07:55Z",
+  "last_successful_scan_at": "2026-08-31T15:07:55Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 3,
+    "location_outside_target_city": 4,
+    "title_explicitly_non_target_function": 2,
+    "total": 6,
+    "workplace_remote_excluded": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "neon-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

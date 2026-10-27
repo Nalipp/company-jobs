@@ -1,0 +1,35 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T02:51:05Z",
+      "attempt_id": "attempt:8272037e-9a01-42b3-b284-ceb627916b2c",
+      "result_digest": "926d621a8aede9ec22b4f9ae6a80d86bba4b0529880e0b19c0f4f219c5b5ba2c",
+      "task_id": "source:attio-ashby:luna:a6b2583587db5f45",
+      "transaction_id": "txn:926d621a8aede9ec22b4f9ae"
+    }
+  ],
+  "company_id": "attio",
+  "current_job_count": 47,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T02:50:44Z",
+  "last_successful_scan_at": "2026-08-31T02:50:44Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "ai_involvement_insufficient": 9,
+    "compensation_below_profile_threshold": 7,
+    "compensation_currency_mismatch": 8,
+    "location_outside_target_city": 32,
+    "role_fit_excluded": 9,
+    "total": 47,
+    "workplace_remote_excluded": 17
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "attio-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

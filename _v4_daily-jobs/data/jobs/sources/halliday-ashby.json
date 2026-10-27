@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T04:09:09Z",
+      "attempt_id": "attempt:5e804491-92b0-48d1-8ae7-b1d2ee8694e1",
+      "result_digest": "5320be78bd6d706ced7be63eaa64066212b48fd7b5acaacd09df472254342208",
+      "task_id": "source:halliday-ashby:luna:add3cf62806fa01a",
+      "transaction_id": "txn:5320be78bd6d706ced7be63e"
+    }
+  ],
+  "company_id": "halliday",
+  "current_job_count": 2,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T04:08:56Z",
+  "last_successful_scan_at": "2026-08-31T04:08:56Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "ashby",
+  "rejection_counts": {
+    "compensation_unknown": 2,
+    "total": 2
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "halliday-ashby",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

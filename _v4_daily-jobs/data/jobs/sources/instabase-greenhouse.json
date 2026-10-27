@@ -1,0 +1,31 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T14:56:37Z",
+      "attempt_id": "attempt:ad151bd1-3fb9-4c50-844e-93926bece02f",
+      "result_digest": "61ae09918826e64e5ad001d68ad1933db662be49982f5f161009393995315a10",
+      "task_id": "source:instabase-greenhouse:luna:013ccef3a2741d2d",
+      "transaction_id": "txn:61ae09918826e64e5ad001d6"
+    }
+  ],
+  "company_id": "instabase",
+  "current_job_count": 6,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T14:56:26Z",
+  "last_successful_scan_at": "2026-08-31T14:56:26Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_unknown_excluded": 5,
+    "location_outside_target_city": 1,
+    "total": 6
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "instabase-greenhouse",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "workflow": "validate_companies",
+  "task_id": "company:tandem:luna:3b79c23370ebed9a",
+  "attempt_id": "attempt:22a7f4cc-858e-4c8f-9746-a504e7d6bbf1",
+  "claim_token": "oqOMTTTkbHxlKDtUT1hJ7QMNNfg2m3hDbKp5lODO4iU",
+  "model": "luna",
+  "created_at": "2026-09-01T18:00:31Z",
+  "target": {"company_ids": ["tandem"], "source_ids": ["tandem-primary"]},
+  "outcome": "blocked",
+  "reason_code": "career_source_no_careers_found",
+  "evidence": [{"url": "https://tandemspace.com/careers", "retrieved_at": "2026-09-01T18:01:00Z", "evidence_type": "official_careers_page", "finding": "The official Tandem site exposes a Careers navigation link, but the careers URL could not be safely opened in this bounded pass, preventing verification of the current employer careers source."}],
+  "patch": {"company_id": "tandem", "expected_record_revision": 1, "company_changes": {}, "source_upserts": []},
+  "item_results": [{"item": "tandem-primary", "status": "blocked", "summary": "Careers destination could not be safely opened; retry at Luna without canonical changes."}],
+  "failure_class": "source_access",
+  "notes": "Access failure; do not escalate model."
+}

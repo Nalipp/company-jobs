@@ -1,0 +1,30 @@
+{
+  "application_ledger": [
+    {
+      "applied_at": "2026-08-31T15:17:04Z",
+      "attempt_id": "attempt:eb57c26a-39d0-42d2-b924-b291e9fdea33",
+      "result_digest": "98393e62eee20f9d0763c90b5be6bb3e4390d86ae87497dcc4fa33e1a99f7064",
+      "task_id": "source:primer-2-primary:luna:503c7b400ccd52de",
+      "transaction_id": "txn:98393e62eee20f9d0763c90b"
+    }
+  ],
+  "company_id": "primer-2",
+  "current_job_count": 3,
+  "fetch_complete": true,
+  "jobs": [],
+  "last_attempt_at": "2026-08-31T15:16:55Z",
+  "last_successful_scan_at": "2026-08-31T15:16:55Z",
+  "profile_digest": "13239781e5eab477660f4adc47b83d7ba87903c7a77236fc2d506c220aa2b4f2",
+  "profile_id": "ai-product-frontend-v1",
+  "provider": "greenhouse",
+  "rejection_counts": {
+    "compensation_below_profile_threshold": 3,
+    "total": 3
+  },
+  "revision": 1,
+  "schema_version": 1,
+  "source_id": "primer-2-primary",
+  "source_revision": 1,
+  "unresolved_candidates": [],
+  "warnings": []
+}
