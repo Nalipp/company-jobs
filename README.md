@@ -1,8 +1,8 @@
-# Daily Jobs
+# Company jobs
 
-Daily Jobs collects San Francisco job openings and narrows them to a small, personal shortlist. A constraints file captures your role, pay, location, work style, and interests so you can focus on jobs that fit the life you want.
+Company jobs is a project to collect every open job in San Francisco directly from company careers pages and official job feeds. Natural-language rules in your constraints file then filter those postings into a shortlist of the jobs that fit you.
 
-![Daily Jobs browser showing San Francisco company locations, personal filters, and matching Anthropic roles](docs/images/jobs-browser.png)
+![Company jobs browser showing San Francisco company locations, personal filters, and matching Anthropic roles](docs/images/jobs-browser.png)
 
 *A saved search narrowed the results to 42 companies and 72 matching jobs. Selecting a company shows its sources and matching roles.*
 
@@ -10,15 +10,7 @@ Daily Jobs collects San Francisco job openings and narrows them to a small, pers
 
 **Python · JavaScript · SQLite · LLMs · JEV · HTML/CSS**
 
-`JSON → SQLite → LLM research → JEV scoring → JSON → HTML`
-
-## How it grew
-
-- **[v1](_v1_daily-jobs/):** Started with JSON search profiles, a company catalog, and repeatable job checks.
-- **[v2](_v2_daily-jobs/):** Added AI research, with Python validating updates before saving them.
-- **[v3](_v3_daily-jobs/):** Separated company facts, career sources, and search profiles for reuse.
-- **[v4](_v4_daily-jobs/):** Scaled research with parallel workers, shared queues, and an HTML browser.
-- **[v5](_v5_daily-jobs/):** Moved postings into SQLite, then added cached JEV scores and map filters.
+`Web scrape → SQLite → LLM research → JEV scoring → JSON → HTML`
 
 ## From a city of companies to your shortlist
 
@@ -28,6 +20,14 @@ The goal is city-wide coverage: build a company catalog, find each company's off
 2. **Collect from the source.** Read Ashby, Greenhouse, and Lever feeds directly; use browser research for other sites. Follow pagination and save full posting text, original links, and job details in SQLite.
 3. **Track what was covered.** Shared queues let workers research in parallel. Stable IDs prevent duplicates. Complete scans can mark vanished jobs inactive; partial scans preserve earlier jobs until coverage is complete.
 4. **Apply personal rules.** Saved constraints guide the LLM workflows. JEV scores questions about role, location, work style, and interests. Cached scores and chosen thresholds produce a shortlist, JSON results, and an HTML map with links to apply.
+
+## How it grew
+
+- **[v1](_v1_daily-jobs/):** Started with JSON search profiles, a company catalog, and repeatable job checks.
+- **[v2](_v2_daily-jobs/):** Added AI research, with Python validating updates before saving them.
+- **[v3](_v3_daily-jobs/):** Separated company facts, career sources, and search profiles for reuse.
+- **[v4](_v4_daily-jobs/):** Scaled research with parallel workers, shared queues, and an HTML browser.
+- **[v5](_v5_daily-jobs/):** Moved postings into SQLite, then added cached JEV scores and map filters.
 
 ## Run locally
 
