@@ -1,0 +1,5 @@
+.env
+jev_cache.sqlite
+jev_cache.sqlite-shm
+jev_cache.sqlite-wal
+__pycache__/
