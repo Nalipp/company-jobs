@@ -104,6 +104,22 @@ This read-only command reports:
 
 It performs no research, enqueueing, recovery, or mutation.
 
+## HTML results browser
+
+The dependency-free, read-only results browser lives in `site/`. It shows every
+company with an active matching job, a company detail page with that company's
+roles, and a job detail page with the useful canonical posting fields.
+
+Regenerate the browser data after job workers finalize new results:
+
+```bash
+cd /Users/natelipp/ai-code/_v4_daily-jobs
+.venv/bin/python scripts/build-results-site
+```
+
+Then serve `site/` with any static web server and open `index.html`. The browser
+never writes to company, job-snapshot, or queue data.
+
 ## Worker telemetry
 
 Every queue-helper operation automatically appends one compact event to the

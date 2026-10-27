@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Browse companies with active matches for the V4 AI product and frontend engineering search.">
+    <title>Matched companies — V4 Daily Jobs</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body data-page="companies">
+    <header class="site-header">
+      <a class="brand" href="index.html">V4 Daily Jobs</a>
+      <span class="header-context" id="header-context">Matched companies</span>
+    </header>
+    <main class="shell landing-shell">
+      <section class="landing-heading">
+        <p class="eyebrow">AI product &amp; frontend engineering</p>
+        <h1>Matched companies</h1>
+        <p class="landing-intro" id="profile-description"></p>
+      </section>
+
+      <section class="summary-strip" aria-label="Result totals">
+        <div><strong id="company-total">—</strong><span>Companies</span></div>
+        <div><strong id="job-total">—</strong><span>Active matches</span></div>
+        <div><strong>$200K+</strong><span>Published max</span></div>
+      </section>
+
+      <section class="list-controls" aria-labelledby="company-list-title">
+        <div class="sort-heading">
+          <h2 id="company-list-title">Companies</h2>
+          <span id="list-status" aria-live="polite"></span>
+        </div>
+        <label class="search-field">
+          <span class="sr-only">Search companies</span>
+          <input id="company-search" type="search" placeholder="Search companies" autocomplete="off">
+        </label>
+        <div class="chip-row" role="group" aria-label="Sort companies">
+          <button class="sort-chip is-active" type="button" data-sort="matches" aria-pressed="true">Most jobs</button>
+          <button class="sort-chip" type="button" data-sort="name" aria-pressed="false">A–Z</button>
+        </div>
+      </section>
+
+      <nav id="result-list" class="result-list" aria-label="Companies with matched jobs"></nav>
+      <section id="empty-state" class="empty-state" hidden>
+        <strong>No companies found</strong>
+        <span>Try a different search.</span>
+      </section>
+    </main>
+    <footer><span>V4 Daily Jobs</span><span id="data-freshness"></span></footer>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

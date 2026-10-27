@@ -1,5 +1,5 @@
 {
-  "revision": 1741,
+  "revision": 1743,
   "schema_version": 1,
   "tasks": [
     {
@@ -139010,6 +139010,37 @@
           },
           "started_at": "2026-09-01T19:25:03Z",
           "status": "retry_scheduled"
+        },
+        {
+          "attempt_id": "attempt:1d813f32-8256-4c6e-a92c-c944b5acd23e",
+          "claim_token_sha256": "7ebf5f1f27c2907faf21f494aeca4a1d5bba56efa4507d8ac659a57a264688ad",
+          "claimed_by": "company-worker:9f2f5d1e-7d8a-4a61-9c21-6f4a0d5c3b82",
+          "ended_at": "2026-09-01T22:31:25Z",
+          "error_class": "source_access",
+          "lease_expires_at": "2026-09-02T00:30:59Z",
+          "model": "luna",
+          "outcome": "access_failure",
+          "resolution": {
+            "error_class": "source_access",
+            "evidence_count": 1,
+            "failure_number": 3,
+            "human_action_required": true,
+            "item_results": [
+              {
+                "item": "career_source:the-athletic-primary",
+                "status": "blocked",
+                "summary": "Official-site access failure prevented bounded careers-source revalidation; no canonical changes."
+              }
+            ],
+            "notes": "Retry at Luna through an allowed official-source access path; do not escalate for insufficient evidence.",
+            "outcome": "access_failure",
+            "reason_code": "career_source_no_careers_found",
+            "resolved_at": "2026-09-01T22:31:25Z",
+            "result_digest": "4963b1e011133e8be21dff0808982b3a84228cf57251c9c68e34374c457ae4bb",
+            "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/companies/company-worker-9f2f5d1e-7d8a-4a61-9c21-6f4a0d5c3b82-the-athletic.json"
+          },
+          "started_at": "2026-09-01T22:30:59Z",
+          "status": "blocked"
         }
       ],
       "available_at": "2026-09-01T19:55:39Z",
@@ -139117,9 +139148,27 @@
       "reason_codes": [
         "career_source_no_careers_found"
       ],
-      "resolution": null,
+      "resolution": {
+        "error_class": "source_access",
+        "evidence_count": 1,
+        "failure_number": 3,
+        "human_action_required": true,
+        "item_results": [
+          {
+            "item": "career_source:the-athletic-primary",
+            "status": "blocked",
+            "summary": "Official-site access failure prevented bounded careers-source revalidation; no canonical changes."
+          }
+        ],
+        "notes": "Retry at Luna through an allowed official-source access path; do not escalate for insufficient evidence.",
+        "outcome": "access_failure",
+        "reason_code": "career_source_no_careers_found",
+        "resolved_at": "2026-09-01T22:31:25Z",
+        "result_digest": "4963b1e011133e8be21dff0808982b3a84228cf57251c9c68e34374c457ae4bb",
+        "result_file": "/Users/natelipp/ai-code/_v4_daily-jobs/data/results/companies/company-worker-9f2f5d1e-7d8a-4a61-9c21-6f4a0d5c3b82-the-athletic.json"
+      },
       "root_task_id": "company:the-athletic:luna:ae63bc0a36eb592b",
-      "status": "open",
+      "status": "blocked",
       "target": {
         "company_ids": [
           "the-athletic"
@@ -139130,7 +139179,7 @@
       },
       "target_revision": 2,
       "task_id": "company:the-athletic:luna:ae63bc0a36eb592b",
-      "updated_at": "2026-09-01T19:25:39Z",
+      "updated_at": "2026-09-01T22:31:25Z",
       "workflow": "validate_companies"
     },
     {
@@ -145013,5 +145062,5 @@
       "workflow": "validate_companies"
     }
   ],
-  "updated_at": "2026-09-01T19:25:51Z"
+  "updated_at": "2026-09-01T22:31:25Z"
 }
