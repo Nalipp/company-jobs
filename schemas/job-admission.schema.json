@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://daily-jobs.local/schemas/job-admission.schema.json",
+  "title": "Daily Jobs Verified Job Admission",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "company", "source", "job", "evaluation", "discovered_from"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "company": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["company_id", "name", "website_url", "primary_domain", "aliases"],
+      "properties": {
+        "company_id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "name": { "type": "string", "minLength": 1 },
+        "website_url": { "type": ["string", "null"], "format": "uri" },
+        "primary_domain": { "type": ["string", "null"], "minLength": 1 },
+        "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "source_type", "provider", "url", "board_id"],
+      "properties": {
+        "source_id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "source_type": { "enum": ["ats", "company_careers", "custom_careers"] },
+        "provider": { "enum": ["ashby", "greenhouse", "lever", "workday", "custom", "unknown"] },
+        "url": { "type": "string", "format": "uri" },
+        "board_id": { "type": ["string", "null"], "minLength": 1 }
+      }
+    },
+    "job": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_job_id", "canonical_url", "title", "location_text", "workplace_arrangement", "employment_type", "seniority", "compensation", "posted_at", "description_text"],
+      "properties": {
+        "source_job_id": { "type": ["string", "null"], "minLength": 1 },
+        "canonical_url": { "type": "string", "format": "uri" },
+        "title": { "type": "string", "minLength": 1 },
+        "location_text": { "type": "string", "minLength": 1 },
+        "workplace_arrangement": { "enum": ["hybrid", "on-site"] },
+        "employment_type": { "type": "string", "minLength": 1 },
+        "seniority": { "type": ["string", "null"] },
+        "compensation": { "$ref": "#/$defs/compensation" },
+        "posted_at": { "type": ["string", "null"], "format": "date-time" },
+        "description_text": { "type": "string", "minLength": 1 }
+      }
+    },
+    "evaluation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["evaluated_at", "match_score", "reason_codes", "evidence_snippets"],
+      "properties": {
+        "evaluated_at": { "type": "string", "format": "date-time" },
+        "match_score": { "type": "number", "minimum": 0, "maximum": 100 },
+        "reason_codes": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "evidence_snippets": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "uniqueItems": true }
+      }
+    },
+    "discovered_from": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "uniqueItems": true }
+  },
+  "$defs": {
+    "compensation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["minimum", "maximum", "currency", "basis", "period", "source_text"],
+      "properties": {
+        "minimum": { "type": ["number", "null"], "minimum": 0 },
+        "maximum": { "type": "number", "minimum": 0 },
+        "currency": { "const": "USD" },
+        "basis": { "const": "base" },
+        "period": { "const": "year" },
+        "source_text": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

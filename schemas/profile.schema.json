@@ -21,7 +21,7 @@
     "search_behavior"
   ],
   "properties": {
-    "schema_version": { "const": 1 },
+    "schema_version": { "const": 2 },
     "profile_name": { "type": "string", "minLength": 1 },
     "status": { "enum": ["draft", "approved", "needs_review"] },
     "timezone": { "type": "string", "minLength": 1 },
@@ -37,14 +37,21 @@
         "compensation": {
           "type": ["object", "null"],
           "additionalProperties": false,
-          "required": ["minimum", "maximum", "currency", "basis", "period", "published_required"],
+          "required": ["threshold", "comparison", "currency", "basis", "period", "unknown_policy"],
           "properties": {
-            "minimum": { "type": ["number", "null"], "minimum": 0 },
-            "maximum": { "type": ["number", "null"], "minimum": 0 },
+            "threshold": { "type": ["number", "null"], "minimum": 0 },
+            "comparison": {
+              "enum": [
+                "published_minimum_at_least",
+                "published_maximum_at_least",
+                "published_value_at_least",
+                "not_specified"
+              ]
+            },
             "currency": { "type": ["string", "null"] },
             "basis": { "enum": ["base", "total", "either", "unknown"] },
             "period": { "enum": ["hour", "month", "year", "unknown"] },
-            "published_required": { "type": "boolean" }
+            "unknown_policy": { "enum": ["include", "exclude", "needs_review"] }
           }
         },
         "employment_types": { "$ref": "#/$defs/stringList" },
@@ -139,7 +146,7 @@
     "search_behavior": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["date_strategy", "preferred_sources", "include_unknown_salary", "canonical_links_only", "physical_address_required_for_map", "address_validation_mode", "discovery_candidate_limit", "verification_batch_limit"],
+      "required": ["date_strategy", "preferred_sources", "canonical_links_only", "physical_address_required_for_map", "address_validation_mode", "discovery_candidate_limit", "verification_batch_limit"],
       "properties": {
         "date_strategy": {
           "type": "object",
@@ -154,7 +161,6 @@
           }
         },
         "preferred_sources": { "$ref": "#/$defs/stringList" },
-        "include_unknown_salary": { "type": "boolean" },
         "canonical_links_only": { "type": "boolean" },
         "physical_address_required_for_map": { "type": "boolean" },
         "address_validation_mode": { "enum": ["optional", "required", "disabled"] },

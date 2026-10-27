@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "discovery_id": "2026-08-03-last-week",
+  "profile_name": "default",
+  "status": "completed",
+  "strategy": "incremental",
+  "previous_discovery_id": null,
+  "started_at": "2026-08-03T10:26:00-07:00",
+  "completed_at": "2026-08-03T10:31:17-07:00",
+  "date_range": {
+    "start": "2026-07-27",
+    "end": "2026-08-02",
+    "timezone": "America/Los_Angeles"
+  },
+  "query_matrix": [
+    "AI Frontend Engineer San Francisco",
+    "AI Product Engineer San Francisco hybrid",
+    "AI full-stack engineer San Francisco",
+    "frontend engineer AI San Francisco",
+    "product engineer AI San Francisco"
+  ],
+  "coverage": {
+    "candidate_limit": 100,
+    "limit_reached": false
+  },
+  "sources": [
+    {
+      "name": "General web search",
+      "kind": "web_search",
+      "query": "San Francisco hybrid/on-site AI frontend, full-stack, and product engineering roles posted or reposted July 27-August 2, 2026",
+      "url": null,
+      "status": "searched",
+      "candidate_count": 8,
+      "notes": "Search results surfaced employer, ATS, and job-board pages; posting-date evidence was often missing or relative."
+    },
+    {
+      "name": "Indeed",
+      "kind": "job_board",
+      "query": "AI frontend and full-stack engineering in San Francisco",
+      "url": "https://www.indeed.com/q-frontend-engineer-l-san-francisco%2C-ca-jobs.html",
+      "status": "searched",
+      "candidate_count": 3,
+      "notes": "Search listings were accessible, but direct employer links were not consistently exposed."
+    },
+    {
+      "name": "Built In San Francisco",
+      "kind": "job_board",
+      "query": "AI product and frontend engineering in San Francisco",
+      "url": "https://www.builtinsf.com/jobs/dev-engineering",
+      "status": "searched",
+      "candidate_count": 2,
+      "notes": "Provided the clearest last-week repost evidence for Speak."
+    },
+    {
+      "name": "LinkedIn",
+      "kind": "job_board",
+      "query": "AI Product Engineer San Francisco hybrid",
+      "url": "https://www.linkedin.com/jobs/search/?keywords=AI%20Product%20Engineer&location=San%20Francisco%2C%20California%2C%20United%20States",
+      "status": "searched",
+      "candidate_count": 1,
+      "notes": "The strongest recruiter listing was older than the requested week."
+    },
+    {
+      "name": "Wellfound",
+      "kind": "job_board",
+      "query": "AI Product Engineer San Francisco",
+      "url": "https://wellfound.com/jobs",
+      "status": "searched",
+      "candidate_count": 2,
+      "notes": "Found active roles, but their published ages were outside the requested week."
+    },
+    {
+      "name": "Ashby",
+      "kind": "ats",
+      "query": "Active San Francisco AI frontend, product, and full-stack roles",
+      "url": "https://jobs.ashbyhq.com/",
+      "status": "searched",
+      "candidate_count": 4,
+      "notes": "Canonical postings were available for Speak, ReadMe, Retell AI, and Klarity."
+    },
+    {
+      "name": "Lever",
+      "kind": "ats",
+      "query": "Active San Francisco AI Product Engineer roles",
+      "url": "https://jobs.lever.co/",
+      "status": "searched",
+      "candidate_count": 1,
+      "notes": "Canonical Samba TV posting was active but older than the requested week."
+    },
+    {
+      "name": "Greenhouse",
+      "kind": "ats",
+      "query": "San Francisco AI frontend and full-stack engineering",
+      "url": "https://job-boards.greenhouse.io/",
+      "status": "searched",
+      "candidate_count": 0,
+      "notes": "No unique likely matches satisfying the title and location signals were found."
+    },
+    {
+      "name": "Employer career pages",
+      "kind": "employer_careers",
+      "query": "Canonical employer postings for discovered candidates",
+      "url": null,
+      "status": "searched",
+      "candidate_count": 2,
+      "notes": "Retool was accessible; Rippling's dynamic role list returned zero roles and did not expose the discovered role's direct application URL."
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "speak-ai-product-engineer-san-francisco",
+      "title": "AI Product Engineer",
+      "company": "Speak",
+      "discovery_url": "https://www.builtinsf.com/job/ai-product-engineer/4468709",
+      "canonical_url": "https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+      "source_names": ["Built In San Francisco", "Ashby", "Y Combinator"],
+      "location_text": "San Francisco, CA",
+      "workplace_arrangement": "hybrid",
+      "compensation": {
+        "minimum": 150000,
+        "maximum": 280000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$150K-$280K annually; Ashby lists $150K-$280K and equity."
+      },
+      "posted_date": "2026-08-02",
+      "discovered_at": "2026-08-03T10:31:17-07:00",
+      "preliminary_fit": [
+        "Explicit AI Product Engineer title",
+        "Hybrid San Francisco and full-time",
+        "React, Node, TypeScript, and Python",
+        "Product-focused full-stack AI work",
+        "Series C company"
+      ],
+      "preliminary_concerns": [
+        "The role was reposted during the requested week; its original posting date is unknown",
+        "The salary band begins below the $200,000 target"
+      ],
+      "verification": {
+        "status": "verified",
+        "run_id": "2026-08-03-last-week-verify-1",
+        "reason": "Canonical Ashby posting is active; Built In shows a repost during the requested week.",
+        "verified_at": "2026-08-03T10:32:58-07:00"
+      }
+    },
+    {
+      "candidate_key": "rippling-software-engineer-ii-frontend-ai-fullstack-growth",
+      "title": "Software Engineer II, Frontend/AI Fullstack - Growth Engineering",
+      "company": "Rippling",
+      "discovery_url": "https://www.indeed.com/q-frontend-engineer-l-san-francisco%2C-ca-jobs.html",
+      "canonical_url": null,
+      "source_names": ["Indeed", "Glassdoor", "The Ladders", "Jobright"],
+      "location_text": "San Francisco, CA 94104",
+      "workplace_arrangement": "hybrid",
+      "compensation": {
+        "minimum": 135000,
+        "maximum": 225000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$135,000-$225,000 a year."
+      },
+      "posted_date": null,
+      "discovered_at": "2026-08-03T10:31:17-07:00",
+      "preliminary_fit": [
+        "AI appears explicitly in the title",
+        "Frontend-heavy full-stack growth role",
+        "React and TypeScript",
+        "Hybrid in San Francisco",
+        "Multiple boards labeled it new or one day to one week old"
+      ],
+      "preliminary_concerns": [
+        "No direct employer or ATS application URL could be resolved",
+        "Salary band begins below the $200,000 target",
+        "Exact posting date could not be established"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "run_id": "2026-08-03-last-week-verify-1",
+        "reason": "Promising lead needs a canonical employer/ATS URL and better date evidence.",
+        "verified_at": "2026-08-03T10:32:58-07:00"
+      }
+    },
+    {
+      "candidate_key": "retool-software-engineer-ai-product-engineer-san-francisco",
+      "title": "Software Engineer, AI Product Engineer",
+      "company": "Retool",
+      "discovery_url": "https://www.glassdoor.com/job-listing/software-engineer-ai-product-engineer-retool-JV_IC1147401_KO0%2C37_KE38%2C44.htm?jl=1010204652082",
+      "canonical_url": "https://retool.com/careers/software-engineer-ai-product-engineer---engineering--san-francisco-united-states",
+      "source_names": ["Glassdoor", "Retool careers"],
+      "location_text": "San Francisco, United States",
+      "workplace_arrangement": "hybrid",
+      "compensation": {
+        "minimum": 163800,
+        "maximum": 306000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "The base pay range for this role is $163,800-$306,000 per year."
+      },
+      "posted_date": "2026-01-26",
+      "discovered_at": "2026-08-03T10:31:17-07:00",
+      "preliminary_fit": [
+        "Explicit AI Product Engineer title",
+        "TypeScript, Node.js, and React",
+        "Productized AI experiences",
+        "Hybrid San Francisco"
+      ],
+      "preliminary_concerns": [
+        "Published date is outside the requested week",
+        "Salary band begins below the $200,000 target"
+      ],
+      "verification": {
+        "status": "excluded",
+        "run_id": "2026-08-03-last-week-verify-1",
+        "reason": "Available date evidence is outside the requested week.",
+        "verified_at": "2026-08-03T10:32:58-07:00"
+      }
+    },
+    {
+      "candidate_key": "readme-full-stack-engineer-ai-san-francisco",
+      "title": "Full Stack Engineer, AI",
+      "company": "ReadMe",
+      "discovery_url": "https://startup.jobs/full-stack-engineer-ai-readme-7921776",
+      "canonical_url": "https://jobs.ashbyhq.com/readme/bc28ebd3-43ba-4d86-b011-771263d44b64/",
+      "source_names": ["Startup Jobs", "Ashby"],
+      "location_text": "San Francisco, CA; other locations and remote US also available",
+      "workplace_arrangement": "hybrid",
+      "compensation": null,
+      "posted_date": null,
+      "discovered_at": "2026-08-03T10:31:17-07:00",
+      "preliminary_fit": [
+        "Explicit Full Stack Engineer, AI title",
+        "San Francisco hybrid option",
+        "TypeScript or Python",
+        "Product, AI, API, and user-facing work",
+        "Posting welcomes varied backgrounds"
+      ],
+      "preliminary_concerns": [
+        "Published compensation is unavailable",
+        "No reliable evidence that it was posted during the requested week"
+      ],
+      "verification": {
+        "status": "excluded",
+        "run_id": "2026-08-03-last-week-verify-1",
+        "reason": "No reliable published or reposted date places the role in the requested week.",
+        "verified_at": "2026-08-03T10:32:58-07:00"
+      }
+    },
+    {
+      "candidate_key": "retell-ai-senior-software-engineer-frontend",
+      "title": "Senior Software Engineer, Frontend",
+      "company": "Retell AI",
+      "discovery_url": "https://jobs.ashbyhq.com/retell-ai/26e3aa9d-f22d-4870-8db5-bb488c207559/",
+      "canonical_url": "https://jobs.ashbyhq.com/retell-ai/26e3aa9d-f22d-4870-8db5-bb488c207559/",
+      "source_names": ["Ashby"],
+      "location_text": "San Francisco Bay Area; job details specify Redwood City, CA",
+      "workplace_arrangement": "on-site",
+      "compensation": {
+        "minimum": 200000,
+        "maximum": 300000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$200K-$300K; offers equity."
+      },
+      "posted_date": "2025-11-17",
+      "discovered_at": "2026-08-03T10:31:17-07:00",
+      "preliminary_fit": [
+        "Senior frontend work on an AI voice product",
+        "React and TypeScript",
+        "Customer-facing product work",
+        "Compensation meets target"
+      ],
+      "preliminary_concerns": [
+        "Title does not explicitly reference AI",
+        "Worksite is Redwood City rather than San Francisco city",
+        "Posting predates the requested week"
+      ],
+      "verification": {
+        "status": "excluded",
+        "run_id": "2026-08-03-last-week-verify-1",
+        "reason": "Redwood City is outside San Francisco city, AI is absent from the title, and the role predates the requested week.",
+        "verified_at": "2026-08-03T10:32:58-07:00"
+      }
+    },
+    {
+      "candidate_key": "klarity-ai-frontend-engineer-san-francisco",
+      "title": "AI Frontend Engineer",
+      "company": "Klarity",
+      "discovery_url": "https://www.builtinsf.com/job/ai-frontend-engineer/9191110",
+      "canonical_url": "https://jobs.ashbyhq.com/klarity-ai/fc094114-4d6e-4bf5-977f-c5b37d7e33e1/",
+      "source_names": ["Built In San Francisco", "Ashby"],
+      "location_text": "San Francisco (Klarity HQ); description also says San Francisco / Bay Area",
+      "workplace_arrangement": "on-site",
+      "compensation": {
+        "minimum": 140000,
+        "maximum": 205000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$140K-$205K; offers equity."
+      },
+      "posted_date": null,
+      "discovered_at": "2026-08-03T10:31:17-07:00",
+      "preliminary_fit": [
+        "Exact AI Frontend Engineer title",
+        "Series B",
+        "React and TypeScript",
+        "No CS or engineering degree required"
+      ],
+      "preliminary_concerns": [
+        "Role targets 1-2 years of experience and exceptional new graduates",
+        "Most of the salary range is below the target",
+        "No reliable evidence that it was posted during the requested week"
+      ],
+      "verification": {
+        "status": "excluded",
+        "run_id": "2026-08-03-last-week-verify-1",
+        "reason": "The role targets early-career candidates and lacks reliable last-week date evidence.",
+        "verified_at": "2026-08-03T10:32:58-07:00"
+      }
+    },
+    {
+      "candidate_key": "samba-tv-ai-product-engineer-san-francisco",
+      "title": "AI Product Engineer",
+      "company": "Samba TV",
+      "discovery_url": "https://wellfound.com/jobs/4220067-ai-product-engineer",
+      "canonical_url": "https://jobs.lever.co/sambatv/a0a1f3cc-9b2e-4440-b5c1-45ea050cf0b1",
+      "source_names": ["Wellfound", "Lever"],
+      "location_text": "San Francisco, California",
+      "workplace_arrangement": "on-site",
+      "compensation": {
+        "minimum": 150000,
+        "maximum": 200000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$150,000-$200,000 a year."
+      },
+      "posted_date": null,
+      "discovered_at": "2026-08-03T10:31:17-07:00",
+      "preliminary_fit": [
+        "Explicit AI Product Engineer title",
+        "Full-time and on-site in San Francisco",
+        "AI agents and product-focused internal workflows"
+      ],
+      "preliminary_concerns": [
+        "Wellfound reports the posting as two months old",
+        "Only the very top of the pay band reaches the target",
+        "Role includes cloud deployment and monitoring responsibilities"
+      ],
+      "verification": {
+        "status": "excluded",
+        "run_id": "2026-08-03-last-week-verify-1",
+        "reason": "The role is approximately two months old and includes operational deployment and monitoring work.",
+        "verified_at": "2026-08-03T10:32:58-07:00"
+      }
+    },
+    {
+      "candidate_key": "harnham-senior-ai-product-engineer-confidential-series-c",
+      "title": "Senior AI Product Engineer",
+      "company": "Confidential Series C GRC startup (via Harnham)",
+      "discovery_url": "https://www.linkedin.com/jobs/view/senior-ai-product-engineer-at-harnham-4431755299",
+      "canonical_url": null,
+      "source_names": ["LinkedIn", "Harnham", "WhatJobs"],
+      "location_text": "San Francisco, CA; hybrid three days per week in office",
+      "workplace_arrangement": "hybrid",
+      "compensation": {
+        "minimum": 200000,
+        "maximum": 250000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$200,000-$250,000 base salary plus significant equity."
+      },
+      "posted_date": null,
+      "discovered_at": "2026-08-03T10:31:17-07:00",
+      "preliminary_fit": [
+        "Senior AI Product Engineer title",
+        "Product-minded full-stack AI work",
+        "Node.js, TypeScript, React, and Python",
+        "Series C and hybrid San Francisco",
+        "Compensation meets target"
+      ],
+      "preliminary_concerns": [
+        "LinkedIn reports the listing as roughly three weeks old",
+        "Employer identity and canonical employer application page are undisclosed",
+        "Aggregator repost dates conflict with LinkedIn's older date"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "run_id": "2026-08-03-last-week-verify-1",
+        "reason": "Promising recruiter lead needs employer identification and a canonical application page.",
+        "verified_at": "2026-08-03T10:32:58-07:00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://daily-jobs.local/schemas/candidate-memory.schema.json",
+  "title": "Daily Jobs Lightweight Candidate Memory",
+  "description": "Compact identity, hash, and outcome memory. Full job descriptions are deliberately excluded.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "updated_at", "entries"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "entries": {
+      "type": "object",
+      "propertyNames": { "pattern": "^[a-f0-9]{64}$" },
+      "additionalProperties": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fingerprint", "provider", "board_id", "source_job_id", "canonical_url", "company", "title", "location_text", "metadata_hash", "content_hash", "profile_name", "profile_hash", "outcome", "reason_codes", "source_names", "first_seen_at", "last_seen_at", "last_checked_at"],
+      "properties": {
+        "fingerprint": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "provider": { "enum": ["ashby", "greenhouse", "lever", "workday", "custom", "unknown"] },
+        "board_id": { "type": ["string", "null"], "minLength": 1 },
+        "source_job_id": { "type": ["string", "null"], "minLength": 1 },
+        "canonical_url": { "type": ["string", "null"], "format": "uri" },
+        "company": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "location_text": { "type": ["string", "null"] },
+        "metadata_hash": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$" },
+        "content_hash": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$" },
+        "profile_name": { "type": "string", "minLength": 1 },
+        "profile_hash": { "type": ["string", "null"], "minLength": 1 },
+        "outcome": { "enum": ["queued", "included", "excluded", "needs_review", "error"] },
+        "reason_codes": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "source_names": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "first_seen_at": { "type": "string", "format": "date-time" },
+        "last_seen_at": { "type": "string", "format": "date-time" },
+        "last_checked_at": { "type": "string", "format": "date-time" }
+      }
+    }
+  }
+}

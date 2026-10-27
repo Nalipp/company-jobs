@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "company_id": "town-com",
+  "company": {
+    "name": "Town.com, Inc.",
+    "aliases": [],
+    "website_url": "https://careers.town.com/",
+    "primary_domain": "careers.town.com",
+    "description": null,
+    "industries": [],
+    "funding_stage": null,
+    "employee_count_range": null,
+    "evidence": []
+  },
+  "status": "active",
+  "sources": [
+    {
+      "source_id": "primary-careers",
+      "source_type": "ats",
+      "provider": "ashby",
+      "url": "https://careers.town.com/",
+      "board_id": "town",
+      "status": "active",
+      "discovered_from": [
+        "Google Jobs",
+        "Built In San Francisco",
+        "Ashby",
+        "Town careers"
+      ],
+      "last_checked_at": "2026-08-05T15:00:00-07:00",
+      "last_successful_at": "2026-08-05T15:00:00-07:00"
+    }
+  ],
+  "offices": [
+    {
+      "office_id": "san-francisco",
+      "label": "San Francisco office",
+      "location_text": "San Francisco, CA",
+      "address": "222 Kearny Street, Suite 650, San Francisco, CA 94108, USA",
+      "latitude": 37.7902026,
+      "longitude": -122.4035351,
+      "address_verified": true,
+      "evidence": [
+        {
+          "source_type": "company_website",
+          "source_name": "employer_location_page",
+          "url": "https://www.town.com/terms-of-service",
+          "text": "Town's current official Terms of Service publish Town.com, Inc. at 222 Kearny Street, Suite 650, San Francisco, CA 94108.",
+          "checked_at": "2026-08-03T12:50:00-07:00"
+        }
+      ],
+      "last_checked_at": "2026-08-03T12:50:00-07:00"
+    }
+  ],
+  "jobs": {
+    "town-ai-product-engineer-san-francisco": {
+      "job_id": "town-ai-product-engineer-san-francisco",
+      "source_id": "primary-careers",
+      "source_job_id": "0b261662-60c4-49e2-b351-118e57e5714b",
+      "canonical_url": "https://jobs.ashbyhq.com/town/0b261662-60c4-49e2-b351-118e57e5714b/",
+      "activity": {
+        "status": "active",
+        "missing_from_source_count": 0,
+        "inactive_confirmed_at": null
+      },
+      "raw": {
+        "title": "AI Product Engineer",
+        "location_text": "San Francisco, CA or New York, NY; San Francisco option confirmed",
+        "workplace_arrangement": "on-site",
+        "employment_type": "full-time",
+        "seniority": "foundational full-stack product hire; level not explicitly labeled",
+        "compensation": {
+          "minimum": 225000,
+          "maximum": 300000,
+          "currency": "USD",
+          "basis": "base",
+          "period": "year",
+          "source_text": "$225K-$300K base."
+        },
+        "posted_at": null,
+        "description_text": "Fit: Exact title\nFit: Compensation fully exceeds the target\nFit: AI-native product UI/UX and full-stack ownership\nFit: Designs polished web, desktop, and mobile workflows\nFit: Direct product-direction influence\nFit: Credential-flexible language\nConcern: Five days per week in person\nConcern: Series A rather than preferred Series B+\nConcern: August 3 is a repost; employer record originated April 23\nConcern: Small foundational team may have less predictable pace\nEvidence (Active official posting): isListed: true; Apply for this Job\nEvidence (San Francisco workplace): All roles are full-time and in person at Town's Financial District office in San Francisco\nEvidence (Compensation): $225K-$300K\nEvidence (Current repost): AI Product Engineer; 5 Hours Ago",
+        "description_completeness": "evidence_only"
+      },
+      "hashes": {
+        "metadata_hash": "80d4e600678c1738c1c9828b3ff1890a13c1e8a880c9f62295b23812db91dd7d",
+        "content_hash": "c01cbd752167c4ba491c947441db901c4834e487ec5168995ea96ff8e9119f6b",
+        "hash_algorithm": "sha256"
+      },
+      "discovered_from": [
+        "legacy:runs/2026-08-03-2.json",
+        "legacy:runs/2026-08-03-3.json"
+      ],
+      "evaluations": [
+        {
+          "profile_name": "default",
+          "profile_updated_at": "2026-08-05T10:36:12-07:00",
+          "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+          "job_content_hash": "c01cbd752167c4ba491c947441db901c4834e487ec5168995ea96ff8e9119f6b",
+          "evaluated_at": "2026-08-05T10:36:12-07:00",
+          "outcome": "included",
+          "match_score": 91,
+          "reason_codes": [
+            "active_at_legacy_verification",
+            "san_francisco_posting_text",
+            "on_site",
+            "full_time",
+            "compatible_title_or_role_family",
+            "role_specific_ai_work",
+            "published_base_maximum_at_least_200000",
+            "migrated_evidence_only_description"
+          ],
+          "evidence_snippets": [
+            "Exact title",
+            "Compensation fully exceeds the target",
+            "AI-native product UI/UX and full-stack ownership",
+            "Designs polished web, desktop, and mobile workflows",
+            "Direct product-direction influence",
+            "Credential-flexible language",
+            "isListed: true; Apply for this Job",
+            "All roles are full-time and in person at Town's Financial District office in San Francisco",
+            "$225K-$300K",
+            "AI Product Engineer; 5 Hours Ago"
+          ]
+        }
+      ],
+      "first_seen_at": "2026-08-03T10:57:10-07:00",
+      "last_seen_at": "2026-08-05T15:00:00-07:00",
+      "last_checked_at": "2026-08-05T15:00:00-07:00"
+    }
+  },
+  "refresh": {
+    "last_attempted_at": "2026-08-05T15:00:00-07:00",
+    "last_successful_at": "2026-08-05T15:00:00-07:00",
+    "last_status": "completed",
+    "consecutive_failures": 0,
+    "last_error": null
+  },
+  "created_at": "2026-08-03T10:57:10-07:00",
+  "updated_at": "2026-08-05T15:00:00-07:00"
+}

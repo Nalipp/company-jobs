@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "company": {
+    "company_id": "example-company",
+    "name": "Example Company",
+    "website_url": "https://example.com/",
+    "primary_domain": "example.com",
+    "aliases": []
+  },
+  "source": {
+    "source_id": "primary-careers",
+    "source_type": "ats",
+    "provider": "ashby",
+    "url": "https://jobs.ashbyhq.com/example-company",
+    "board_id": "example-company"
+  },
+  "job": {
+    "source_job_id": "example-job-123",
+    "canonical_url": "https://jobs.ashbyhq.com/example-company/example-job-123",
+    "title": "Frontend Engineer",
+    "location_text": "San Francisco, CA",
+    "workplace_arrangement": "hybrid",
+    "employment_type": "full-time",
+    "seniority": "senior",
+    "compensation": {
+      "minimum": 180000,
+      "maximum": 220000,
+      "currency": "USD",
+      "basis": "base",
+      "period": "year",
+      "source_text": "$180,000–$220,000 base salary"
+    },
+    "posted_at": "2026-08-04T12:00:00Z",
+    "description_text": "Build and ship AI-powered frontend product experiences in partnership with design and product. This is a full-time hybrid role in San Francisco."
+  },
+  "evaluation": {
+    "evaluated_at": "2026-08-05T12:00:00-07:00",
+    "match_score": 92,
+    "reason_codes": [
+      "active",
+      "san_francisco_posting_text",
+      "hybrid",
+      "full_time",
+      "acceptable_seniority",
+      "compatible_title_or_role_family",
+      "role_specific_ai_work",
+      "published_base_maximum_at_least_200000",
+      "all_profile_hard_constraints_passed"
+    ],
+    "evidence_snippets": [
+      "Build and ship AI-powered frontend product experiences."
+    ]
+  },
+  "discovered_from": [
+    "discoveries/2026-08-05-example.json"
+  ]
+}

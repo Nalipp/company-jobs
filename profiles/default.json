@@ -1,10 +1,10 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "profile_name": "default",
   "status": "approved",
   "timezone": "America/Los_Angeles",
   "created_at": "2026-08-03T10:25:24-07:00",
-  "updated_at": "2026-08-03T11:18:11-07:00",
+  "updated_at": "2026-08-05T10:36:12-07:00",
   "search_scope": {
     "locations": [
       "San Francisco city only (not the broader Bay Area)"
@@ -14,12 +14,12 @@
       "on-site"
     ],
     "compensation": {
-      "minimum": 200000,
-      "maximum": null,
+      "threshold": 200000,
+      "comparison": "published_maximum_at_least",
       "currency": "USD",
       "basis": "base",
       "period": "year",
-      "published_required": false
+      "unknown_policy": "needs_review"
     },
     "employment_types": [
       "full-time"
@@ -46,6 +46,10 @@
       "Full-Stack Engineer, AI",
       "Product Engineer, AI",
       "Applied AI Engineer",
+      "Frontend Engineer",
+      "Front-End Engineer",
+      "Software Engineer, Product",
+      "Forward Deployed Engineer",
       "Frontend Engineer building AI-powered products",
       "Full-Stack Engineer building AI-powered products",
       "Product Engineer building AI-powered products",
@@ -212,7 +216,6 @@
       "Greenhouse",
       "Lever"
     ],
-    "include_unknown_salary": true,
     "canonical_links_only": true,
     "physical_address_required_for_map": true,
     "address_validation_mode": "optional",

@@ -4,9 +4,12 @@
   "title": "Daily Jobs Search Run",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema_version", "run_id", "profile_name", "started_at", "completed_at", "updated_at", "date_range", "queries", "jobs", "review_leads", "excluded_candidates", "unproductive_sources", "address_validation"],
+  "required": ["schema_version", "run_id", "profile_name", "started_at", "completed_at", "updated_at", "date_range", "queries", "jobs", "review_leads", "excluded_candidates", "unproductive_sources"],
   "properties": {
-    "schema_version": { "const": 1 },
+    "schema_version": {
+      "description": "Version 1 is retained for historical runs. New runs use version 2, which keeps address state only in company catalog office records.",
+      "enum": [1, 2]
+    },
     "run_id": { "type": "string", "minLength": 1 },
     "profile_name": { "type": "string", "minLength": 1 },
     "started_at": { "type": "string", "format": "date-time" },
@@ -67,6 +70,7 @@
     },
     "unproductive_sources": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
     "address_validation": {
+      "description": "Deprecated version-1 run summary. Version-2 runs omit this field because address validation is an independently rerunnable company-catalog operation.",
       "type": "object",
       "additionalProperties": false,
       "required": ["status", "started_at", "completed_at", "verified_count", "unresolved_count", "rejected_count"],
@@ -80,6 +84,43 @@
       }
     }
   },
+  "allOf": [
+    {
+      "if": { "properties": { "schema_version": { "const": 1 } }, "required": ["schema_version"] },
+      "then": {
+        "required": ["address_validation"],
+        "properties": {
+          "address_validation": true,
+          "jobs": {
+            "type": "array",
+            "items": {
+              "allOf": [
+                { "$ref": "#/$defs/job" },
+                { "type": "object", "properties": { "job_site": true }, "required": ["job_site"] }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "schema_version": { "const": 2 } }, "required": ["schema_version"] },
+      "then": {
+        "properties": {
+          "address_validation": false,
+          "jobs": {
+            "type": "array",
+            "items": {
+              "allOf": [
+                { "$ref": "#/$defs/job" },
+                { "type": "object", "properties": { "job_site": false } }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
   "$defs": {
     "evidence": {
       "type": "object",
@@ -96,7 +137,7 @@
     "job": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["job_key", "title", "company", "canonical_url", "location", "workplace_arrangement", "job_site", "compensation", "posted_date", "employment_type", "seniority", "culture_fit", "match_score", "why_it_fits", "concerns", "evidence"],
+      "required": ["job_key", "title", "company", "canonical_url", "location", "workplace_arrangement", "compensation", "posted_date", "employment_type", "seniority", "culture_fit", "match_score", "why_it_fits", "concerns", "evidence"],
       "properties": {
         "job_key": { "type": "string", "minLength": 1 },
         "title": { "type": "string", "minLength": 1 },
@@ -106,6 +147,7 @@
         "location": { "type": ["string", "null"] },
         "workplace_arrangement": { "enum": ["remote", "hybrid", "on-site", "unknown"] },
         "job_site": {
+          "description": "Deprecated version-1 address state. Version-2 runs preserve posting location evidence but store address-validation state only in the company catalog.",
           "type": "object",
           "additionalProperties": false,
           "required": ["raw_address", "formatted_address", "latitude", "longitude", "source_url", "source_type", "source_text", "validation_status", "map_eligibility", "validation_method", "confidence", "validated_at", "notes"],

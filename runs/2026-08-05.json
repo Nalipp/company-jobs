@@ -1,0 +1,183 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-08-05-ampersand-refresh-verification",
+  "profile_name": "default",
+  "started_at": "2026-08-05T13:34:00-07:00",
+  "completed_at": "2026-08-05T13:40:00-07:00",
+  "updated_at": "2026-08-05T13:40:00-07:00",
+  "date_range": {
+    "start": "2026-08-03",
+    "end": "2026-08-05",
+    "timezone": "America/Los_Angeles"
+  },
+  "queries": [
+    {
+      "query": "Ampersand public Ashby job-board feed with compensation",
+      "source": "Ampersand Ashby",
+      "candidate_count": 3
+    }
+  ],
+  "jobs": [
+    {
+      "job_key": "ampersand-forward-deployed-engineer",
+      "title": "Forward Deployed Engineer",
+      "company": "Ampersand",
+      "canonical_url": "https://jobs.ashbyhq.com/Ampersand/ffa4a2b4-7b64-4b82-9e46-edb45144fca2",
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/Ampersand/ffa4a2b4-7b64-4b82-9e46-edb45144fca2/application"
+      ],
+      "location": "San Francisco",
+      "workplace_arrangement": "hybrid",
+      "compensation": {
+        "minimum": 89000,
+        "maximum": 205000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$89K - $205K"
+      },
+      "posted_date": "2026-06-18",
+      "employment_type": "full-time",
+      "seniority": "4+ years of software, solutions, or customer-facing technical experience",
+      "culture_fit": {
+        "summary": "moderate",
+        "credential_alignment": "positive",
+        "background_openness": "neutral",
+        "career_stage_alignment": "positive",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "credential_requirement",
+            "value": "experience-based",
+            "source_url": "https://jobs.ashbyhq.com/Ampersand/ffa4a2b4-7b64-4b82-9e46-edb45144fca2",
+            "source_text": "The required background is expressed as relevant experience rather than a degree requirement.",
+            "verified_at": "2026-08-05T13:38:00-07:00"
+          }
+        ],
+        "concerns": [
+          "Customer deployments and white-glove support may create less predictable scheduling than a product-only role."
+        ]
+      },
+      "match_score": 79,
+      "why_it_fits": [
+        "The approved Forward Deployed Engineer title is paired with production engineering and direct customer delivery.",
+        "The role implements and extends the integration product that supplies real-time context to AI agents.",
+        "The official posting confirms San Francisco, hybrid work, full-time employment, and a published base maximum above $200,000."
+      ],
+      "concerns": [
+        "The AI work is integration infrastructure rather than user-interface product development.",
+        "The published range is unusually wide and only its maximum clears the threshold.",
+        "The customer-facing delivery model may be less predictable than a core product role."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://api.ashbyhq.com/posting-api/job-board/Ampersand?includeCompensation=true",
+          "source_text": "The posting was listed in Ampersand's current public Ashby feed.",
+          "verified_at": "2026-08-05T13:31:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai_work",
+          "value": "implements_and_extends_ai_agent_integration_product",
+          "source_url": "https://jobs.ashbyhq.com/Ampersand/ffa4a2b4-7b64-4b82-9e46-edb45144fca2",
+          "source_text": "The role implements and extends Ampersand in customer environments; the posting defines Ampersand as infrastructure delivering context to AI agents.",
+          "verified_at": "2026-08-05T13:38:00-07:00"
+        },
+        {
+          "claim": "seniority",
+          "value": "acceptable",
+          "source_url": "https://jobs.ashbyhq.com/Ampersand/ffa4a2b4-7b64-4b82-9e46-edb45144fca2",
+          "source_text": "The posting requests 4+ years of relevant engineering or customer-facing technical experience.",
+          "verified_at": "2026-08-05T13:38:00-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "ampersand-product-engineer-frontend",
+      "title": "Product Engineer, Frontend",
+      "company": "Ampersand",
+      "canonical_url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c/application"
+      ],
+      "location": "San Francisco",
+      "workplace_arrangement": "hybrid",
+      "compensation": {
+        "minimum": 125000,
+        "maximum": 288000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$125K - $288K"
+      },
+      "posted_date": "2026-06-18",
+      "employment_type": "full-time",
+      "seniority": "4+ years engineering and designing digital products",
+      "culture_fit": {
+        "summary": "strong",
+        "credential_alignment": "positive",
+        "background_openness": "neutral",
+        "career_stage_alignment": "positive",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "credential_requirement",
+            "value": "experience-based",
+            "source_url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+            "source_text": "The posting asks for product-engineering experience and does not state a degree requirement.",
+            "verified_at": "2026-08-05T13:38:00-07:00"
+          }
+        ],
+        "concerns": [
+          "The posting praises hard work and high ownership but does not provide enough scheduling evidence to rate work-life balance."
+        ]
+      },
+      "match_score": 92,
+      "why_it_fits": [
+        "Strong React-centered frontend product ownership with full-stack range and direct customer engagement.",
+        "The role owns dashboard and embeddable UI surfaces of the integration product that delivers context to AI agents.",
+        "The official posting confirms San Francisco, hybrid work, full-time employment, and a published base maximum above $200,000."
+      ],
+      "concerns": [
+        "The AI connection is through the integration product rather than direct model development.",
+        "The posting does not provide enough evidence to determine schedule predictability."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://api.ashbyhq.com/posting-api/job-board/Ampersand?includeCompensation=true",
+          "source_text": "The posting was listed in Ampersand's current public Ashby feed.",
+          "verified_at": "2026-08-05T13:31:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai_work",
+          "value": "owns_ai_agent_integration_product_surfaces",
+          "source_url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+          "source_text": "The role owns the dashboard and embeddable UI library for the platform the posting describes as delivering context to AI agents.",
+          "verified_at": "2026-08-05T13:38:00-07:00"
+        },
+        {
+          "claim": "seniority",
+          "value": "acceptable",
+          "source_url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+          "source_text": "The posting requests 4+ years of engineering and digital-product design experience.",
+          "verified_at": "2026-08-05T13:38:00-07:00"
+        }
+      ]
+    }
+  ],
+  "review_leads": [],
+  "excluded_candidates": [
+    {
+      "title": "Product Engineer, Platform",
+      "company": "Ampersand",
+      "url": "https://jobs.ashbyhq.com/Ampersand/2913fb14-57d2-462c-a233-3299bf078d8c",
+      "reason": "Excluded platform-engineering variant: the role is primarily backend platform, scale/reliability, telemetry, and infrastructure work despite containing explicit AI-agent responsibilities."
+    }
+  ],
+  "unproductive_sources": []
+}

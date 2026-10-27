@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "company_id": "rippling",
+  "company": {
+    "name": "Rippling",
+    "aliases": [],
+    "website_url": null,
+    "primary_domain": null,
+    "description": null,
+    "industries": [],
+    "funding_stage": null,
+    "employee_count_range": null,
+    "evidence": []
+  },
+  "status": "active",
+  "sources": [
+    {
+      "source_id": "primary-careers",
+      "source_type": "custom_careers",
+      "provider": "custom",
+      "url": "https://ats.rippling.com/rippling/jobs",
+      "board_id": null,
+      "status": "active",
+      "discovered_from": [
+        "Google web search",
+        "Indeed",
+        "Rippling ATS"
+      ],
+      "last_checked_at": "2026-08-03T10:58:30-07:00",
+      "last_successful_at": "2026-08-03T10:58:30-07:00"
+    }
+  ],
+  "offices": [
+    {
+      "office_id": "san-francisco",
+      "label": "San Francisco office",
+      "location_text": "San Francisco, CA",
+      "address": "430 California Street, 11th Floor, San Francisco, CA 94104, USA",
+      "latitude": 37.79325,
+      "longitude": -122.4018041,
+      "address_verified": true,
+      "evidence": [
+        {
+          "source_type": "company_website",
+          "source_name": "employer_location_page",
+          "url": "https://www.rippling.com/company/about",
+          "text": "The role's official ATS lists San Francisco and requires office-based employees to work in office at least three days a week; Rippling's official office directory lists its San Francisco office at 430 California Street, 11th Floor, San Francisco, CA 94104.",
+          "checked_at": "2026-08-03T12:25:00-07:00"
+        }
+      ],
+      "last_checked_at": "2026-08-03T12:25:00-07:00"
+    }
+  ],
+  "jobs": {
+    "rippling-senior-fullstack-backend-ai-products": {
+      "job_id": "rippling-senior-fullstack-backend-ai-products",
+      "source_id": "primary-careers",
+      "source_job_id": "4ce56db9-bc9a-486a-b31f-e6664b8d3a69",
+      "canonical_url": "https://ats.rippling.com/rippling/jobs/4ce56db9-bc9a-486a-b31f-e6664b8d3a69",
+      "activity": {
+        "status": "active",
+        "missing_from_source_count": 0,
+        "inactive_confirmed_at": null
+      },
+      "raw": {
+        "title": "Senior Fullstack Engineer (Backend) — AI Products",
+        "location_text": "San Francisco, CA or New York, NY; San Francisco option confirmed",
+        "workplace_arrangement": "hybrid",
+        "employment_type": "full-time",
+        "seniority": "senior (minimum 5 years)",
+        "compensation": {
+          "minimum": 159000,
+          "maximum": 278250,
+          "currency": "USD",
+          "basis": "base",
+          "period": "year",
+          "source_text": "$159,000-$278,250 for US Tier 1."
+        },
+        "posted_at": null,
+        "description_text": "Fit: AI Products in title\nFit: Full-stack zero-to-one product work\nFit: Python, Django, and React\nFit: Close product and design collaboration\nFit: Hybrid San Francisco\nFit: Large, well-funded company\nConcern: Backend emphasis is stronger than frontend\nConcern: Base range starts below $200,000\nConcern: Posting date is unknown\nConcern: Fast-paced and shifting priorities are mentioned, though no always-on expectation is stated\nEvidence (Active canonical posting): Apply now\nEvidence (Location and workplace): San Francisco, CA; at least three days a week in office\nEvidence (Compensation): $159,000-$278,250 USD per year (US Tier 1)\nEvidence (Product responsibilities): work closely with product, design, and other engineering teams to bring the products from idea to scale",
+        "description_completeness": "evidence_only"
+      },
+      "hashes": {
+        "metadata_hash": "d7a319cf7ef3ba042771eb605ababddaa494b2d202f6ae2f8ec52e0a4a3282e0",
+        "content_hash": "88261850992a1fc6e1ae63adbaa80095e2aacc2e611b57671ff5fd89c7c909ec",
+        "hash_algorithm": "sha256"
+      },
+      "discovered_from": [
+        "legacy:runs/2026-08-03-2.json",
+        "legacy:runs/2026-08-03-3.json"
+      ],
+      "evaluations": [
+        {
+          "profile_name": "default",
+          "profile_updated_at": "2026-08-05T10:36:12-07:00",
+          "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+          "job_content_hash": "88261850992a1fc6e1ae63adbaa80095e2aacc2e611b57671ff5fd89c7c909ec",
+          "evaluated_at": "2026-08-05T10:36:12-07:00",
+          "outcome": "included",
+          "match_score": 85,
+          "reason_codes": [
+            "active_at_legacy_verification",
+            "san_francisco_posting_text",
+            "hybrid",
+            "full_time",
+            "compatible_title_or_role_family",
+            "role_specific_ai_work",
+            "published_base_maximum_at_least_200000",
+            "migrated_evidence_only_description"
+          ],
+          "evidence_snippets": [
+            "AI Products in title",
+            "Full-stack zero-to-one product work",
+            "Python, Django, and React",
+            "Close product and design collaboration",
+            "Hybrid San Francisco",
+            "Large, well-funded company",
+            "Apply now",
+            "San Francisco, CA; at least three days a week in office",
+            "$159,000-$278,250 USD per year (US Tier 1)",
+            "work closely with product, design, and other engineering teams to bring the products from idea to scale"
+          ]
+        }
+      ],
+      "first_seen_at": "2026-08-03T10:57:10-07:00",
+      "last_seen_at": "2026-08-03T11:35:00-07:00",
+      "last_checked_at": "2026-08-03T11:35:00-07:00"
+    }
+  },
+  "refresh": {
+    "last_attempted_at": "2026-08-05T15:00:00-07:00",
+    "last_successful_at": "2026-08-03T10:58:30-07:00",
+    "last_status": "failed",
+    "consecutive_failures": 1,
+    "last_error": "primary-careers: unsupported structured source"
+  },
+  "created_at": "2026-08-03T10:57:10-07:00",
+  "updated_at": "2026-08-05T15:00:00-07:00"
+}

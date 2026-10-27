@@ -1,0 +1,203 @@
+{
+  "schema_version": 2,
+  "collection_mode": "known_company_refresh",
+  "discovery_id": "2026-08-05-refresh-133100",
+  "profile_name": "default",
+  "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+  "status": "completed",
+  "strategy": "incremental",
+  "previous_discovery_id": "2026-08-03-last-week",
+  "started_at": "2026-08-05T13:31:00-07:00",
+  "completed_at": "2026-08-05T13:31:00-07:00",
+  "date_range": {
+    "start": "2026-08-03",
+    "end": "2026-08-05",
+    "timezone": "America/Los_Angeles"
+  },
+  "query_matrix": [
+    "poll https://jobs.ashbyhq.com/Ampersand"
+  ],
+  "coverage": {
+    "candidate_limit": 100,
+    "limit_reached": false
+  },
+  "sources": [
+    {
+      "name": "Ampersand ashby source",
+      "kind": "ats",
+      "provider": "ashby",
+      "board_id": "Ampersand",
+      "company_id": "ampersand",
+      "query": "poll https://jobs.ashbyhq.com/Ampersand",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/Ampersand?includeCompensation=true",
+      "status": "completed",
+      "fetched_count": 11,
+      "queued_count": 3,
+      "unchanged_count": 0,
+      "rejected_count": 8,
+      "memory_skipped_count": 0,
+      "notes": null
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "job-413c0421259879008060d8d7",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "Ampersand",
+        "source_job_id": "ffa4a2b4-7b64-4b82-9e46-edb45144fca2",
+        "fingerprint": "413c0421259879008060d8d74c316cbdb40008219e7a82ddac045dfa1ad7d54d"
+      },
+      "title": "Forward Deployed Engineer",
+      "company": "Ampersand",
+      "discovery_url": "https://jobs.ashbyhq.com/Ampersand/ffa4a2b4-7b64-4b82-9e46-edb45144fca2/application",
+      "canonical_url": "https://jobs.ashbyhq.com/Ampersand/ffa4a2b4-7b64-4b82-9e46-edb45144fca2",
+      "source_names": [
+        "ampersand:primary-careers"
+      ],
+      "location_text": "San Francisco",
+      "workplace_arrangement": "hybrid",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 89000,
+        "maximum": 205000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$89K - $205K"
+      },
+      "posted_date": "2026-06-18",
+      "description_text": "OUR MISSION\n\nAt Ampersand, we are building scalable integration infrastructure that delivers real-time context to AI agents in seconds. Our declarative platform, 150+ open-source connectors, and embeddable UI components give developers the building blocks they need to ship deep, bidirectional integrations.\n\nWe power cutting-edge AI companies like 11x, Orb, Square, and Crunchbase. Almost every engineering team that has evaluated us against other solutions has chosen to use Ampersand. As our product and brand evolve, we're looking for great people to join our experienced team of former Firebase, AWS, Meta and Square engineers and operators.\n\nABOUT US\n\nAmpersand was founded in 2022 by Ayan Barua and Lauren Long — two engineers and repeat founders with a rare combination of developer tools and SaaS experience. You can learn more about our full team here https://www.withampersand.com/about.\n\nWe've raised Series A funding from top-tier investors known for their early-stage bets on generational companies like Anthropic, Apple, Twilio, Supabase, and Vercel.\n\nTogether, we believe:\n\n- This is a once-in-a-generation opportunity to build the connectivity infrastructure for AI. Seizing this moment requires passion, hard work, and continuous learning. At the same time, this is a marathon, not a sprint.\n\n- Velocity comes from great strategic decisions, not doing the 99 things you don't have to do.\n\n- In five core values that shape how we work every day: Craft, Customer Empathy, Ownership Mindset, Velocity, and Humility.\n\nTHE ROLE\n\nWe're hiring a Forward Deployed Engineer to work directly inside customer environments, implementing and extending Ampersand in a way that makes each deployment succeed and teaches us something we can build on.\n\nThis role is part engineer, part technical advisor, part trusted partner. You'll work closely with strategic customers from kickoff through delivery, write production code when the work calls for it, and bring what you learn back to the core product and engineering team. If you enjoy working on challenges where no two implementations look the same, this could be a good role for you.\n\n \n\nWHAT YOU’LL OWN\n\n- Customer Deployments — Lead end-to-end technical implementations with strategic customers, from discovery through successful adoption.\n\n- Technical Recommendations — Understand each customer's stack, integration goals, data model, and constraints — then advise on approaches that are maintainable, scalable, and easy for their team to operate long-term.\n\n- Production Code — Write production-quality code inside customer codebases when the work calls for it. You're comfortable in unfamiliar environments and hold a high bar for what you ship.\n\n- Engineering Partnership — Partner with the core engineering team to surface product gaps, bugs, and recurring implementation patterns from the field.\n\n- Knowledge Sharing — Turn customer-specific learnings into reusable improvements: docs, examples, playbooks, and direct product contributions.\n\n- Customer Partnership — Provide white-glove support and serve as a genuine thought partner to customer engineering and product teams — not just a vendor contact.\n\nWHAT YOU’LL BRING\n\n- 4+ years of software engineering, solutions engineering, or customer-facing technical experience\n\n- Strong development fundamentals — you write production-quality code and are comfortable inside unfamiliar codebases\n\n- Direct experience working with customers to solve technical problems and deliver outcomes\n\n- Solid understanding of APIs, integrations, distributed systems, or cloud-based architectures\n\n- Clear communicator with both technical and non-technical stakeholders\n\n- You take responsibility for outcomes from discovery through delivery — not just your slice of the work\n\n- Experience with developer tools, infrastructure platforms, enterprise software, or AI-native products is a strong plus\n\n- Familiarity with CRM, ERP, fintech, or other business systems is a bonus\n\nTHE PERKS\n\n- Competitive salary and equity\n\n- Medical, dental, and vision insurance\n\n- Free lunch on in-office days (Mon/Tue/Thu)\n\n- 401(k) with company match, commuter benefits, HSA\n\n- Up to 4 weeks PTO\n\n- Team socials and retreats\n\n[https://app.ashbyhq.com/api/images/user-content/b22b18d6-d95e-4343-bac1-b022615326da/5ed5af3e-e2f7-4a9c-a13a-afd1edc30d22/BWW05494.jpg]\n[https://app.ashbyhq.com/api/images/user-content/b22b18d6-d95e-4343-bac1-b022615326da/f2d3ea1d-d752-4dba-9842-9ea77c77b88f/IMG_8373.jpg]",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "86a757a552316e3542f1707164957a46a8b09ec1588294697eaf6b6d02e4dc20",
+        "content_hash": "315d1a2f991fdc7da04e7fc2d78ff995275b5ae0b4ab53bac9f882e09d453dba",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "new",
+      "discovered_at": "2026-08-05T13:31:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "hybrid",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [],
+      "verification": {
+        "status": "verified",
+        "run_id": "2026-08-05-ampersand-refresh-verification",
+        "reason": "Included: active hybrid San Francisco Forward Deployed Engineer role implementing and extending the AI-agent integration product; acceptable 4+ year level and published base maximum of $205K.",
+        "verified_at": "2026-08-05T13:40:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-fa3f27ddb457260ad98a64f7",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "Ampersand",
+        "source_job_id": "2913fb14-57d2-462c-a233-3299bf078d8c",
+        "fingerprint": "fa3f27ddb457260ad98a64f7129b1e6596066ab30681bb92fd1f1faefa3b6618"
+      },
+      "title": "Product Engineer, Platform",
+      "company": "Ampersand",
+      "discovery_url": "https://jobs.ashbyhq.com/Ampersand/2913fb14-57d2-462c-a233-3299bf078d8c/application",
+      "canonical_url": "https://jobs.ashbyhq.com/Ampersand/2913fb14-57d2-462c-a233-3299bf078d8c",
+      "source_names": [
+        "ampersand:primary-careers"
+      ],
+      "location_text": "San Francisco",
+      "workplace_arrangement": "hybrid",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 125000,
+        "maximum": 260000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$125K - $260K"
+      },
+      "posted_date": "2026-06-18",
+      "description_text": "OUR MISSION\n\nAt Ampersand, we are building scalable integration infrastructure that delivers real-time context to AI agents in seconds. Our declarative platform, 150+ open-source connectors, and embeddable UI components give developers the building blocks they need to ship deep, bidirectional integrations.\n\nWe power cutting-edge AI companies like 11x, Orb, Square, and Crunchbase. Almost every engineering team that has evaluated us against other solutions has chosen to use Ampersand. As our product and brand evolve, we're looking for great people to join our experienced team of former Firebase, AWS, Meta and Square engineers and operators.\n\nABOUT US\n\nAmpersand was founded in 2022 by Ayan Barua and Lauren Long — two engineers and repeat founders with a rare combination of developer tools and SaaS experience. You can learn more about our full team here https://www.withampersand.com/about.\n\nWe've raised Series A funding from top-tier investors known for their early-stage bets on generational companies like Anthropic, Apple, Twilio, Supabase, and Vercel.\n\nTogether, we believe:\n\n- This is a once-in-a-generation opportunity to build the connectivity infrastructure for AI. Seizing this moment requires passion, hard work, and continuous learning. At the same time, this is a marathon, not a sprint.\n\n- Velocity comes from great strategic decisions, not doing the 99 things you don't have to do.\n\n- In five core values that shape how we work every day: Craft, Customer Empathy, Ownership Mindset, Velocity, and Humility.\n\nTHE ROLE\n\nWe're hiring a Product Engineer to shape the user experience of a platform used by some of the most technically sophisticated teams in software and AI.\n\nThis is a foundational role. You'll work closely with the founders, engineers, and customers to design experiences for complex, developer-facing workflows — and help establish the design standards the product will be built on from here. The team is small, the ownership is real, and the people you'll work with care deeply about craft. If you do your best work when the problems are hard and what you ship actually matters, then this is the environment for it.\n\n \n\nWHAT YOU’LL OWN\n\n- Full Stack Feature Development — Own the full loop: technical architecture, implementation, documentation, and customer communication. No throwing work over the fence. You will primarily work in the backend (Golang), but you are also comfortable implementing frontend features (React).\n\n- Customer Engagement — Talk directly to customers — support questions, feedback gathering. Let what you hear shape what you build.\n\n- API Design and Architecture — Every engineer proposes API designs and technical architecture for the features they work on. We write succinct design docs, generously give each other feedback, and push towards the best solution.\n\n- Scale and Reliability — We are rapidly scaling our customer base, so we need to build with scale and edge cases in mind. Every engineer contributes to building alerting, telemetry, internal tooling, and automation to help us continue to ship fast while maintaining reliability.\n\n- AI Agents — In addition to our platform, we are building AI agents both of our own use and to ship to our customers. You will work on planning, tool use, evals, observability, guardrails, and the infrastructure needed to make agentic workflows reliable for customers.\n\nWHAT YOU’LL BRING\n\n- 4+ years engineering and designing digital products, ideally in B2B SaaS, developer tools, enterprise software, or technical products\n\n- Golang and React experience is a strong plus\n\n- You are AI-forward and love trying new AI tools. You think of yourself not as a coder, but as a builder who harnesses AI to multiply their productivity.\n\n- Strong communication skills; you can articulate design decisions and push back when something isn't right. Engineers here write their own feature docs and own their decisions\n\n- Great taste in what makes developer tools intuitive; ideally you've shipped customer-facing developer products before\n\n- Strong product intuition — you can work directly with customers to design features, not just implement specs\n\nTHE PERKS\n\n- Competitive salary and equity\n\n- Medical, dental, and vision insurance\n\n- Free lunch on in-office days (Mon/Tue/Thu)\n\n- 401(k) with company match, commuter benefits, HSA\n\n- Up to 4 weeks PTO\n\n- Team socials and retreats\n\n[https://app.ashbyhq.com/api/images/user-content/b22b18d6-d95e-4343-bac1-b022615326da/5ed5af3e-e2f7-4a9c-a13a-afd1edc30d22/BWW05494.jpg]\n[https://app.ashbyhq.com/api/images/user-content/b22b18d6-d95e-4343-bac1-b022615326da/f2d3ea1d-d752-4dba-9842-9ea77c77b88f/IMG_8373.jpg]",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "8f8d841d527c21b696149c9cf11efd923c9cb3dd967d8cccab4b1eccdaa4c1cd",
+        "content_hash": "4f1ef5e649e07b1dc4dfdca830403d0ad19e750300e9407895648a473e6f5d3a",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "new",
+      "discovered_at": "2026-08-05T13:31:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "hybrid",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [],
+      "verification": {
+        "status": "excluded",
+        "run_id": "2026-08-05-ampersand-refresh-verification",
+        "reason": "Excluded platform-engineering variant: primarily backend platform, reliability, telemetry, and infrastructure work despite explicit AI-agent responsibilities.",
+        "verified_at": "2026-08-05T13:40:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-a5551df493219c769a3490ce",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "Ampersand",
+        "source_job_id": "02cbb849-f38d-4061-81f0-c54a287d024c",
+        "fingerprint": "a5551df493219c769a3490ce300002db24255c136c0459a393f0518a63e98c9f"
+      },
+      "title": "Product Engineer, Frontend",
+      "company": "Ampersand",
+      "discovery_url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c/application",
+      "canonical_url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+      "source_names": [
+        "ampersand:primary-careers"
+      ],
+      "location_text": "San Francisco",
+      "workplace_arrangement": "hybrid",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 125000,
+        "maximum": 288000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$125K - $288K"
+      },
+      "posted_date": "2026-06-18",
+      "description_text": "OUR MISSION\n\nAt Ampersand, we are building scalable integration infrastructure that delivers real-time context to AI agents in seconds. Our declarative platform, 150+ open-source connectors, and embeddable UI components give developers the building blocks they need to ship deep, bidirectional integrations.\n\nWe power cutting-edge AI companies like 11x, Orb, Square, and Crunchbase. Almost every engineering team that has evaluated us against other solutions has chosen to use Ampersand. As our product and brand evolve, we're looking for great people to join our experienced team of former Firebase, AWS, Meta and Square engineers and operators.\n\nABOUT US\n\nAmpersand was founded in 2022 by Ayan Barua and Lauren Long — two engineers and repeat founders with a rare combination of developer tools and SaaS experience. You can learn more about our full team here https://www.withampersand.com/about.\n\nWe've raised Series A funding from top-tier investors known for their early-stage bets on generational companies like Anthropic, Apple, Twilio, Supabase, and Vercel.\n\nTogether, we believe:\n\n- This is a once-in-a-generation opportunity to build the connectivity infrastructure for AI. Seizing this moment requires passion, hard work, and continuous learning. At the same time, this is a marathon, not a sprint.\n\n- Velocity comes from great strategic decisions, not doing the 99 things you don't have to do.\n\n- In five core values that shape how we work every day: Craft, Customer Empathy, Ownership Mindset, Velocity, and Humility.\n\nTHE ROLE\n\nWe're hiring a Product Engineer to shape the user experience of a platform used by some of the most technically sophisticated teams in software and AI.\n\nThis is a foundational role. You'll work closely with the founders, engineers, and customers to design experiences for complex, developer-facing workflows — and help establish the design standards the product will be built on from here. The team is small, the ownership is real, and the people you'll work with care deeply about craft. If you do your best work when the problems are hard and what you ship actually matters, then this is the environment for it.\n\n \n\nWHAT YOU’LL OWN\n\n- Dashboard — The dashboard is the command center that Ampersand customers go to to manage and troubleshoot their integrations. It serves engineers, product managers, and customer enablement teams. You will work on the dashboard experience, including how it looks, feels, and functions.\n\n- UI library — The Ampersand UI library is a set of embeddable React components and hooks that Ampersand customers put into their application for their customers to set up their integrations. Because it is a part of our customer’s product experiences and frontend stack, there are unique technical and UX challenges to ensure that it is composable, flexible and seamlessly fit into our user’s UI.\n\n- UI Prototyping — You have the freedom to come up with idea and rapidly prototype them using AI tools. You don’t need to wait for mocks or get buy in from a designer. You need to have great taste and intuition.\n\n- Customer Engagement — Talk directly to customers — user testing sessions, support questions, feedback gathering. Let what you hear shape what you build.\n\n- Full Stack Feature Development — Own the full loop: design, implementation, documentation, and customer communication. No throwing work over the fence. You are not afraid to dive into the backend and make PRs to unblock yourself.\n\n- Frontend Performance — Our dashboard is data-intensive, and you will work to ensure that the experience feels snappy and delightful.\n\nWHAT YOU’LL BRING\n\n- 4+ years engineering and designing digital products, ideally in B2B SaaS, developer tools, enterprise software, or technical products\n\n- Strong React skills with full-stack range (bonus if you have a genuine willingness to go deep in Go on the backend)\n\n- You are AI-forward and love trying new AI tools. You think of yourself not as a coder, but as a builder who harnesses AI to multiply their productivity.\n\n- Strong communication skills; you can articulate design decisions and push back when something isn't right. Engineers here write their own feature docs and own their decisions\n\n- Great taste in what makes developer tools intuitive; ideally you've shipped customer-facing developer products before\n\n- Strong product intuition — you can work directly with customers to design features, not just implement specs\n\nTHE PERKS\n\n- Competitive salary and equity\n\n- Medical, dental, and vision insurance\n\n- Free lunch on in-office days (Mon/Tue/Thu)\n\n- 401(k) with company match, commuter benefits, HSA\n\n- Up to 4 weeks PTO\n\n- Team socials and retreats\n\n[https://app.ashbyhq.com/api/images/user-content/b22b18d6-d95e-4343-bac1-b022615326da/5ed5af3e-e2f7-4a9c-a13a-afd1edc30d22/BWW05494.jpg]\n[https://app.ashbyhq.com/api/images/user-content/b22b18d6-d95e-4343-bac1-b022615326da/f2d3ea1d-d752-4dba-9842-9ea77c77b88f/IMG_8373.jpg]",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "f26b544b4218b23436d28b403d10a6f92259e7da6bdea2f80a46f230958c2a10",
+        "content_hash": "f07be64f4f47d6d95e689882ad910f684c50427ebc8bd2b2be8f338779409c2b",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "description_backfill",
+      "discovered_at": "2026-08-05T13:31:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "hybrid",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [],
+      "verification": {
+        "status": "verified",
+        "run_id": "2026-08-05-ampersand-refresh-verification",
+        "reason": "Included: active hybrid San Francisco frontend product role owning dashboard and embeddable UI surfaces of the AI-agent integration product; acceptable 4+ year level and published base maximum of $288K.",
+        "verified_at": "2026-08-05T13:40:00-07:00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "id": "existing-1",
+      "title": "Frontend Engineer",
+      "location": "San Francisco, CA",
+      "secondaryLocations": [],
+      "department": "Engineering",
+      "team": "Product",
+      "isListed": true,
+      "isRemote": false,
+      "workplaceType": "Hybrid",
+      "employmentType": "FullTime",
+      "publishedAt": "2026-08-01T10:00:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/fixture/existing-1",
+      "applyUrl": "https://jobs.ashbyhq.com/fixture/existing-1/application",
+      "descriptionPlain": "Build AI-powered frontend product features with design and product. This is a full-time hybrid role in San Francisco.",
+      "compensation": {
+        "scrapeableCompensationSalarySummary": "$180K - $225K",
+        "summaryComponents": [
+          {
+            "compensationType": "Salary",
+            "interval": "1 YEAR",
+            "currencyCode": "USD",
+            "minValue": 180000,
+            "maxValue": 225000
+          }
+        ]
+      }
+    },
+    {
+      "id": "new-2",
+      "title": "Software Engineer, Product",
+      "location": "San Francisco, CA",
+      "secondaryLocations": [],
+      "isListed": true,
+      "isRemote": false,
+      "workplaceType": "OnSite",
+      "employmentType": "FullTime",
+      "publishedAt": "2026-08-02T10:00:00Z",
+      "jobUrl": "https://jobs.ashbyhq.com/fixture/new-2",
+      "applyUrl": "https://jobs.ashbyhq.com/fixture/new-2/application",
+      "descriptionPlain": "Develop LLM product workflows and user-facing applications with the product team.",
+      "compensation": {
+        "scrapeableCompensationSalarySummary": "$190K - $230K",
+        "summaryComponents": [
+          {
+            "compensationType": "Salary",
+            "interval": "1 YEAR",
+            "currencyCode": "USD",
+            "minValue": 190000,
+            "maxValue": 230000
+          }
+        ]
+      }
+    },
+    {
+      "id": "rejected-3",
+      "title": "Account Executive",
+      "location": "San Francisco, CA",
+      "secondaryLocations": [],
+      "isListed": true,
+      "workplaceType": "Hybrid",
+      "employmentType": "FullTime",
+      "jobUrl": "https://jobs.ashbyhq.com/fixture/rejected-3",
+      "descriptionPlain": "Sell AI products.",
+      "compensation": null
+    },
+    {
+      "id": "unlisted-4",
+      "title": "Frontend Engineer",
+      "location": "San Francisco, CA",
+      "isListed": false,
+      "jobUrl": "https://jobs.ashbyhq.com/fixture/unlisted-4",
+      "descriptionPlain": "Build AI products."
+    }
+  ]
+}
+

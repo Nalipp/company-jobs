@@ -7,6 +7,9 @@ including batches initiated by `/fetch`. Files use the local date
 Search runs are generated artifacts and should conform to
 `../schemas/search-run.schema.json`.
 
-`/validate-addresses` may update a selected run in place with normalized
-addresses, coordinates, evidence, and map-eligibility states. The command is
-optional and preserves the run's original search evidence and ranking.
+The existing 2026-08-03 files are historical schema-version-1 runs and retain the
+legacy address fields they were created with. New verification runs use schema
+version 2 and omit run-level address state.
+
+`/validate-addresses` updates the relevant office in
+`../catalog/companies/<company-id>.json`; it does not modify verification runs.

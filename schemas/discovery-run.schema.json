@@ -1,14 +1,17 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://daily-jobs.local/schemas/discovery-run.schema.json",
-  "title": "Daily Jobs Discovery Run",
+  "title": "Daily Jobs Collection Checkpoint",
+  "description": "Version 1 validates historical broad discoveries. Version 2 records either a known-company refresh or catalog-expansion collection pass.",
   "type": "object",
   "additionalProperties": false,
   "required": ["schema_version", "discovery_id", "profile_name", "status", "strategy", "previous_discovery_id", "started_at", "completed_at", "date_range", "query_matrix", "coverage", "sources", "candidates"],
   "properties": {
-    "schema_version": { "const": 1 },
+    "schema_version": { "enum": [1, 2] },
+    "collection_mode": { "enum": ["known_company_refresh", "catalog_expansion"] },
     "discovery_id": { "type": "string", "minLength": 1 },
     "profile_name": { "type": "string", "minLength": 1 },
+    "profile_hash": { "type": "string", "minLength": 1 },
     "status": { "enum": ["in_progress", "partial", "completed"] },
     "strategy": { "enum": ["backfill", "incremental"] },
     "previous_discovery_id": { "type": ["string", "null"] },
@@ -39,28 +42,34 @@
         "limit_reached": { "type": "boolean" }
       }
     },
-    "sources": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": ["name", "kind", "query", "url", "status", "candidate_count", "notes"],
+    "sources": { "type": "array" },
+    "candidates": { "type": "array" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "schema_version": { "const": 1 } }, "required": ["schema_version"] },
+      "then": {
         "properties": {
-          "name": { "type": "string", "minLength": 1 },
-          "kind": { "enum": ["job_board", "web_search", "employer_careers", "ats", "other"] },
-          "query": { "type": "string", "minLength": 1 },
-          "url": { "type": ["string", "null"], "format": "uri" },
-          "status": { "enum": ["searched", "blocked", "unavailable", "error"] },
-          "candidate_count": { "type": "integer", "minimum": 0 },
-          "notes": { "type": ["string", "null"] }
+          "collection_mode": false,
+          "profile_hash": false,
+          "sources": { "type": "array", "items": { "$ref": "#/$defs/sourceV1" } },
+          "candidates": { "type": "array", "items": { "$ref": "#/$defs/candidateV1" } }
         }
       }
     },
-    "candidates": {
-      "type": "array",
-      "items": { "$ref": "#/$defs/candidate" }
+    {
+      "if": { "properties": { "schema_version": { "const": 2 } }, "required": ["schema_version"] },
+      "then": {
+        "required": ["collection_mode", "profile_hash"],
+        "properties": {
+          "collection_mode": true,
+          "profile_hash": true,
+          "sources": { "type": "array", "items": { "$ref": "#/$defs/sourceV2" } },
+          "candidates": { "type": "array", "items": { "$ref": "#/$defs/candidateV2" } }
+        }
+      }
     }
-  },
+  ],
   "$defs": {
     "compensation": {
       "type": "object",
@@ -75,7 +84,53 @@
         "source_text": { "type": ["string", "null"] }
       }
     },
-    "candidate": {
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "run_id", "reason", "verified_at"],
+      "properties": {
+        "status": { "enum": ["queued", "verified", "excluded", "needs_review", "error"] },
+        "run_id": { "type": ["string", "null"] },
+        "reason": { "type": ["string", "null"] },
+        "verified_at": { "type": ["string", "null"], "format": "date-time" }
+      }
+    },
+    "sourceV1": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "kind", "query", "url", "status", "candidate_count", "notes"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "kind": { "enum": ["job_board", "web_search", "employer_careers", "ats", "other"] },
+        "query": { "type": "string", "minLength": 1 },
+        "url": { "type": ["string", "null"], "format": "uri" },
+        "status": { "enum": ["searched", "blocked", "unavailable", "error"] },
+        "candidate_count": { "type": "integer", "minimum": 0 },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "sourceV2": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "kind", "provider", "board_id", "company_id", "query", "url", "status", "fetched_count", "queued_count", "unchanged_count", "rejected_count", "memory_skipped_count", "notes"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "kind": { "enum": ["job_board", "web_search", "employer_careers", "ats", "other"] },
+        "provider": { "enum": ["ashby", "greenhouse", "lever", "workday", "custom", "unknown"] },
+        "board_id": { "type": ["string", "null"], "minLength": 1 },
+        "company_id": { "type": ["string", "null"], "minLength": 1 },
+        "query": { "type": "string", "minLength": 1 },
+        "url": { "type": ["string", "null"], "format": "uri" },
+        "status": { "enum": ["completed", "partial", "blocked", "unavailable", "unsupported", "error"] },
+        "fetched_count": { "type": "integer", "minimum": 0 },
+        "queued_count": { "type": "integer", "minimum": 0 },
+        "unchanged_count": { "type": "integer", "minimum": 0 },
+        "rejected_count": { "type": "integer", "minimum": 0 },
+        "memory_skipped_count": { "type": "integer", "minimum": 0 },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "candidateV1": {
       "type": "object",
       "additionalProperties": false,
       "required": ["candidate_key", "title", "company", "discovery_url", "canonical_url", "source_names", "location_text", "workplace_arrangement", "compensation", "posted_date", "discovered_at", "preliminary_fit", "preliminary_concerns", "verification"],
@@ -93,18 +148,80 @@
         "discovered_at": { "type": "string", "format": "date-time" },
         "preliminary_fit": { "type": "array", "items": { "type": "string", "minLength": 1 } },
         "preliminary_concerns": { "type": "array", "items": { "type": "string", "minLength": 1 } },
-        "verification": {
-          "type": "object",
-          "additionalProperties": false,
-          "required": ["status", "run_id", "reason", "verified_at"],
-          "properties": {
-            "status": { "enum": ["queued", "verified", "excluded", "needs_review", "error"] },
-            "run_id": { "type": ["string", "null"] },
-            "reason": { "type": ["string", "null"] },
-            "verified_at": { "type": ["string", "null"], "format": "date-time" }
+        "verification": { "$ref": "#/$defs/verification" }
+      }
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "board_id", "source_job_id", "fingerprint"],
+      "properties": {
+        "provider": { "enum": ["ashby", "greenhouse", "lever", "workday", "custom", "unknown"] },
+        "board_id": { "type": ["string", "null"], "minLength": 1 },
+        "source_job_id": { "type": ["string", "null"], "minLength": 1 },
+        "fingerprint": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
+    },
+    "hashes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["metadata_hash", "content_hash", "hash_algorithm"],
+      "properties": {
+        "metadata_hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "content_hash": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$" },
+        "hash_algorithm": { "const": "sha256" }
+      }
+    },
+    "candidateV2": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["candidate_key", "identity", "title", "company", "discovery_url", "canonical_url", "source_names", "location_text", "workplace_arrangement", "employment_type", "seniority", "compensation", "posted_date", "description_text", "description_completeness", "hashes", "change_state", "discovered_at", "preliminary_fit", "preliminary_concerns", "verification"],
+      "properties": {
+        "candidate_key": { "type": "string", "minLength": 1 },
+        "identity": { "$ref": "#/$defs/identity" },
+        "title": { "type": "string", "minLength": 1 },
+        "company": { "type": "string", "minLength": 1 },
+        "discovery_url": { "type": "string", "format": "uri" },
+        "canonical_url": { "type": ["string", "null"], "format": "uri" },
+        "source_names": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "location_text": { "type": ["string", "null"] },
+        "workplace_arrangement": { "enum": ["remote", "hybrid", "on-site", "unknown"] },
+        "employment_type": { "type": ["string", "null"] },
+        "seniority": { "type": ["string", "null"] },
+        "compensation": { "oneOf": [{ "$ref": "#/$defs/compensation" }, { "type": "null" }] },
+        "posted_date": { "type": ["string", "null"], "format": "date" },
+        "description_text": { "type": ["string", "null"] },
+        "description_completeness": { "enum": ["full", "snippet", "none"] },
+        "hashes": { "$ref": "#/$defs/hashes" },
+        "change_state": { "enum": ["new", "changed", "description_backfill", "known_review", "unknown"] },
+        "discovered_at": { "type": "string", "format": "date-time" },
+        "preliminary_fit": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "preliminary_concerns": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "verification": { "$ref": "#/$defs/verification" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "description_completeness": { "const": "full" } } },
+          "then": {
+            "properties": {
+              "description_text": { "type": "string", "minLength": 1 },
+              "hashes": {
+                "type": "object",
+                "properties": { "content_hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" } }
+              }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "description_completeness": { "const": "none" } } },
+          "then": {
+            "properties": {
+              "description_text": { "type": "null" },
+              "hashes": { "type": "object", "properties": { "content_hash": { "type": "null" } } }
+            }
           }
         }
-      }
+      ]
     }
   }
 }

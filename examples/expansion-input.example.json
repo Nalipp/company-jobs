@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "collection_id": "2026-08-05-example-expansion",
+  "profile_name": "default",
+  "strategy": "incremental",
+  "started_at": "2026-08-05T12:00:00-07:00",
+  "completed_at": "2026-08-05T12:05:00-07:00",
+  "date_range": {
+    "start": "2026-08-03",
+    "end": "2026-08-05",
+    "timezone": "America/Los_Angeles"
+  },
+  "query_matrix": [
+    "Frontend Engineer AI San Francisco"
+  ],
+  "sources": [
+    {
+      "name": "example web search",
+      "kind": "web_search",
+      "query": "Frontend Engineer AI San Francisco",
+      "url": "https://www.google.com/search?q=Frontend+Engineer+AI+San+Francisco",
+      "status": "completed",
+      "notes": null
+    }
+  ],
+  "leads": [
+    {
+      "title": "Frontend Engineer",
+      "company": "Example Company",
+      "discovery_url": "https://jobs.example.com/frontend-engineer",
+      "canonical_url": "https://jobs.example.com/frontend-engineer",
+      "provider": "custom",
+      "board_id": null,
+      "source_job_id": "frontend-engineer",
+      "source_names": [
+        "example web search"
+      ],
+      "location_text": "San Francisco, CA",
+      "workplace_arrangement": "hybrid",
+      "employment_type": "full-time",
+      "seniority": "senior",
+      "compensation": {
+        "minimum": 180000,
+        "maximum": 220000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$180,000–$220,000 base salary"
+      },
+      "posted_date": "2026-08-04",
+      "description_text": "Build AI-powered product experiences with design and product partners.",
+      "description_completeness": "snippet",
+      "preliminary_fit": [
+        "Frontend title and explicit AI product work"
+      ],
+      "preliminary_concerns": []
+    }
+  ]
+}
+

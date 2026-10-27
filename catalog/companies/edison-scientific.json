@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "company_id": "edison-scientific",
+  "company": {
+    "name": "Edison Scientific",
+    "aliases": [],
+    "website_url": null,
+    "primary_domain": null,
+    "description": null,
+    "industries": [],
+    "funding_stage": null,
+    "employee_count_range": null,
+    "evidence": []
+  },
+  "status": "active",
+  "sources": [
+    {
+      "source_id": "ashby",
+      "source_type": "ats",
+      "provider": "ashby",
+      "url": "https://jobs.ashbyhq.com/Edison%20Scientific",
+      "board_id": "Edison Scientific",
+      "status": "active",
+      "discovered_from": [
+        "discoveries/2026-08-05-2.json",
+        "discoveries/2026-08-05-3.json"
+      ],
+      "last_checked_at": "2026-08-05T15:15:00-07:00",
+      "last_successful_at": "2026-08-05T15:15:00-07:00"
+    }
+  ],
+  "offices": [
+    {
+      "office_id": "san-francisco",
+      "label": "San Francisco office",
+      "location_text": "San Francisco, CA",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "address_verified": null,
+      "evidence": [],
+      "last_checked_at": null
+    }
+  ],
+  "jobs": {
+    "52900167-cbb3-4957-8944-48ab86555bea": {
+      "job_id": "52900167-cbb3-4957-8944-48ab86555bea",
+      "source_id": "ashby",
+      "source_job_id": "52900167-cbb3-4957-8944-48ab86555bea",
+      "canonical_url": "https://jobs.ashbyhq.com/Edison%20Scientific/52900167-cbb3-4957-8944-48ab86555bea",
+      "activity": {
+        "status": "active",
+        "missing_from_source_count": 0,
+        "inactive_confirmed_at": null
+      },
+      "raw": {
+        "title": "Member of Technical Staff, Frontend Engineer",
+        "location_text": "San Francisco",
+        "workplace_arrangement": "on-site",
+        "employment_type": "full-time",
+        "seniority": null,
+        "compensation": {
+          "minimum": 175000,
+          "maximum": 240000,
+          "currency": "USD",
+          "basis": "base",
+          "period": "year",
+          "source_text": "$175K - $240K"
+        },
+        "posted_at": "2026-07-20T22:33:04.450Z",
+        "description_text": "ABOUT US\n\nEdison Scientific builds and deploys AI scientist agents to accelerate science and the development of new medicines. We are an ambitious team run by scientists and engineers from leading institutions across biology, physics, chemistry, and AI.\n\n\nTHE ROLE\n\nAs a Frontend Engineer, you will help build our “integrated research environment” and design a UX that empowers scientists to integrate AI into their discovery process.\n\nThis role is on-site at our San Francisco office in the Dogpatch neighborhood. Our office is a converted warehouse with high ceilings, open space, and a team that genuinely believes in what they're building.\n\nThis position is part of the App team. \n\n\nRESPONSIBILITIES\n\n - Architect, design, implement, and optimize the front-end for our scientific discovery platform with a focus on performance and scalable UI patterns.\n\n - Translate complex AI-driven scientific workflows into clear, intuitive, and well-signposted user experiences.\n\n - Work closely with product and research teams to anticipate user needs and features.\n\n - Develop and maintain a modular design system.\n\n - Profile and optimize rendering performance, asset loading, and interaction responsiveness across browsers and devices.\n\n - Integrate real-time data visualizations and dynamic interfaces to empower scientists on our platform.\n\n - Conduct code reviews, enforce engineering best practices, and contribute to front-end architecture decisions.\n\n\nQUALIFICATIONS\n\n - Typically, 4-8 years of professional experience in front-end engineering, with a track record of shipping performant, complex, and data visualization-heavy web applications.\n\n - Deep experience in JavaScript - Reactjs, TypeScript.\n\n - Strong understanding of browser rendering pipelines, performance profiling, and optimization techniques.\n\n - Experience with real-time data handling (e.g., WebSockets, GraphQL subscriptions) and interactive visualizations (e.g., D3.js, Deck.gl, Three.js).\n\n - Ability to transform technical and scientific requirements into elegant, usable visualizations & interfaces.\n\n - Experience building design systems and reusable component libraries.\n\n - Knowledge of accessibility standards and responsive design principles.\n\n\nBONUS POINTS FOR\n\n - Experience with scientific data visualization, computational biology, or AI/ML tools.\n\n - Familiarity with back-end integration patterns for high-throughput data pipelines.\n\n\nSALARY\n\n$175,000 - $240,000  •  Offers equity\n\n\nWHY JOIN US?\n\nWe're a fast-moving, mission-driven culture where smart people do their best work and actually enjoy doing it. We also offer full-time employees the following:\n\n - Competitive salary and equity\n\n - Full healthcare coverage; we pay 100% of premiums for you and your dependents\n\n - Support for growing families, including a yearly new parent stipend and fertility coverage through Carrot\n\n - Mental health support through Rula, our in-network therapist and psychiatrist network with fast availability\n\n - 12 weeks of paid parental leave for maternity, paternity, and adoption\n\n - Pet care support with a yearly employer-funded stipend for your animal companions\n\n - Commuter benefits so you can pay for transit and parking with pre-tax dollars\n\n - 401(k) company matching\n\n - $300 health and wellness benefit quarterly\n\n - Lunch is on us every day you're in the office, and dinner is on us when you're working late\n\n - Regular team off-sites and company events\n\nEdison Scientific is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other protected characteristic under applicable law.",
+        "description_completeness": "full"
+      },
+      "hashes": {
+        "metadata_hash": "4aabccbaecd9e7c78d658f6932161f3d3a5e96185ae3954de838ec6a13263bd0",
+        "content_hash": "229f56724d5fe11f231892db75216f83ed5be5c5b89bdeb6dce763dc5ee1267f",
+        "hash_algorithm": "sha256"
+      },
+      "discovered_from": [
+        "discoveries/2026-08-05-2.json"
+      ],
+      "evaluations": [
+        {
+          "profile_name": "default",
+          "profile_updated_at": "2026-08-05T10:36:12-07:00",
+          "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+          "job_content_hash": "229f56724d5fe11f231892db75216f83ed5be5c5b89bdeb6dce763dc5ee1267f",
+          "evaluated_at": "2026-08-05T14:45:00-07:00",
+          "outcome": "included",
+          "match_score": 93,
+          "reason_codes": [
+            "active",
+            "san_francisco_posting_text",
+            "on_site",
+            "full_time",
+            "acceptable_seniority",
+            "compatible_title_or_role_family",
+            "role_specific_ai_work",
+            "published_base_maximum_at_least_200000",
+            "all_profile_hard_constraints_passed"
+          ],
+          "evidence_snippets": [
+            "Design UX that helps scientists integrate AI into discovery.",
+            "Translate AI-driven scientific workflows into intuitive user experiences."
+          ]
+        }
+      ],
+      "first_seen_at": "2026-08-05T14:50:00-07:00",
+      "last_seen_at": "2026-08-05T15:00:00-07:00",
+      "last_checked_at": "2026-08-05T15:00:00-07:00"
+    },
+    "69572d5c-36ff-4a38-a1da-e1130d14b031": {
+      "job_id": "69572d5c-36ff-4a38-a1da-e1130d14b031",
+      "source_id": "ashby",
+      "source_job_id": "69572d5c-36ff-4a38-a1da-e1130d14b031",
+      "canonical_url": "https://jobs.ashbyhq.com/Edison%20Scientific/69572d5c-36ff-4a38-a1da-e1130d14b031",
+      "activity": {
+        "status": "active",
+        "missing_from_source_count": 0,
+        "inactive_confirmed_at": null
+      },
+      "raw": {
+        "title": "Forward Deployed AI Engineer",
+        "location_text": "San Francisco",
+        "workplace_arrangement": "on-site",
+        "employment_type": "full-time",
+        "seniority": null,
+        "compensation": {
+          "minimum": 200000,
+          "maximum": 350000,
+          "currency": "USD",
+          "basis": "base",
+          "period": "year",
+          "source_text": "$200K - $350K"
+        },
+        "posted_at": "2026-07-01T01:24:21.364Z",
+        "description_text": "ABOUT US\n\nEdison Scientific builds and deploys AI scientist agents to accelerate science and the development of new medicines. We are an ambitious team run by scientists and engineers from leading institutions across biology, physics, chemistry, and AI.\n\n\nROLE\n\nAs a Forward Deployed AI Engineer, you'll be embedded directly with leading scientific R&D organizations across pharma and biotech – taking full ownership of how Edison's AI agents create value in their environment. You will deeply understand their science, their workflows, and their pain points, then determine where our platform can have the most impact.\n\nThis isn't remote support or implementation consulting. You'll be on-site and on the front lines, owning integrations, reliability, relationship cadence, and the product feedback loop end to end. You will build relationships with scientists and research leaders, identify the highest-leverage problems, and ship solutions quickly. You'll operate with a high degree of independence and serve as the bridge between what our platform can do and what the customer needs it to do, feeding insights back to our product and engineering teams to shape the roadmap. While we don’t require you to have a scientific background, we expect our engineers to be deeply curious about science and to be excited to build and drive value for our partners.\n\n\n\n\nRESPONSIBILITIES\n\n - Translate complex scientific and operational requirements into a clear delivery roadmap, from initial discovery through scaled production deployment.\n\n - Be embedded with R&D teams, understand their research workflows deeply, and drive & own the value creation that Edison delivers to our partners.\n\n - Map the customer's scientific and operational landscape to identify where AI agents can have the most impact – not just where they ask for help, but where the real leverage is.\n\n - Design, implement, and iterate on production-ready integrations in fast cycles, often owning features end-to-end from architecture to rollout.\n\n - Troubleshoot and debug issues in real time, ensure reliability and adoption, and be the go-to technical contact for AI within the client organization.\n\n - Capture pain points, unmet needs, and product gaps and work with our internal Applied AI and engineering teams to shape future capabilities.\n\n - Partner with GTM and account executives to scope engagements, define success metrics, and support pre-sales technical evaluation.\n\n\nREQUIREMENTS\n\n - 2+ years of professional software engineering experience, with a track record of shipping production-grade software in fast-paced or ambiguous environments. Strong proficiency in Python and/or TypeScript/JavaScript with deep fundamentals\n\n - Hands-on experience building and deploying LLM-powered or agentic AI systems in production environments, including prompt engineering, RAG pipelines, model evaluation, and orchestration frameworks.\n\n - AI fluency: able to reason through systems architecture, debug at the infrastructure level, and write clean production code independently (without reliance on AI-assisted coding tools).\n\n - Comfortable with 20-40% travel (at peak times), operating independently, making decisions with incomplete information, and driving outcomes without close oversight.\n\n - Proven problem-solving skills, navigating complex systems, debugging issues in real-time, and owning features end-to-end.\n\n - Strong communication and relationship-building skills – able to earn trust with scientists, executives, and engineering teams.\n\n - Deep curiosity and willingness to learn new scientific domains quickly and adapt to rapidly evolving priorities.\n\n - Degree in Computer Science, Software Engineering, Mathematics, Physics, or a related technical field; or equivalent demonstrated depth through professional experience.\n\n\nBONUS POINTS FOR:\n\n - Experience in life sciences, pharma, biotech, or scientific R&D – either as a researcher, consultant, or engineer working in these environments.\n\n - Familiarity with regulated data environments (GxP, HIPAA, 21 CFR Part 11, or equivalent compliance frameworks)\n\n - Background as a technical founder, forward-deployed engineer, or management consultant.\n\n - A science degree or research experience alongside your engineering skills.\n\n\nWHY JOIN US?\n\nWe're a fast-moving, mission-driven culture where smart people do their best work and actually enjoy doing it. We also offer full-time employees the following:\n\n - Competitive salary and equity\n\n - Full healthcare coverage; we pay 100% of premiums for you and your dependents\n\n - Support for growing families, including a yearly new parent stipend and fertility coverage through Carrot\n\n - Mental health support through Rula, our in-network therapist and psychiatrist network with fast availability\n\n - 12 weeks of paid parental leave for maternity, paternity, and adoption\n\n - Pet care support with a yearly employer-funded stipend for your animal companions\n\n - Commuter benefits so you can pay for transit and parking with pre-tax dollars\n\n - 401(k) company matching\n\n - $300 health and wellness benefit quarterly\n\n - Lunch is on us every day you're in the office, and dinner is on us when you're working late\n\n - Regular team off-sites and company events\n\nEdison Scientific is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other protected characteristic under applicable law.",
+        "description_completeness": "full"
+      },
+      "hashes": {
+        "metadata_hash": "912fb1bf6cf774e55e1c1ff93393d366d86b9338bf10a399f6f668bbd0d9db22",
+        "content_hash": "c35e964c0e4caf73d56f3cbd7df4bc0e2ff7df624fe357adb72c583dc9773e13",
+        "hash_algorithm": "sha256"
+      },
+      "discovered_from": [
+        "discoveries/2026-08-05-2.json"
+      ],
+      "evaluations": [
+        {
+          "profile_name": "default",
+          "profile_updated_at": "2026-08-05T10:36:12-07:00",
+          "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+          "job_content_hash": "c35e964c0e4caf73d56f3cbd7df4bc0e2ff7df624fe357adb72c583dc9773e13",
+          "evaluated_at": "2026-08-05T14:45:00-07:00",
+          "outcome": "included",
+          "match_score": 76,
+          "reason_codes": [
+            "active",
+            "san_francisco_posting_text",
+            "on_site",
+            "full_time",
+            "acceptable_seniority",
+            "compatible_title_or_role_family",
+            "role_specific_ai_work",
+            "published_base_maximum_at_least_200000",
+            "all_profile_hard_constraints_passed"
+          ],
+          "evidence_snippets": [
+            "Own how Edison AI agents create value in customer environments.",
+            "Design and iterate on production-ready integrations and AI-agent use cases."
+          ]
+        }
+      ],
+      "first_seen_at": "2026-08-05T14:51:00-07:00",
+      "last_seen_at": "2026-08-05T15:00:00-07:00",
+      "last_checked_at": "2026-08-05T15:00:00-07:00"
+    },
+    "19f9e74a-0bff-4ef4-9e4b-d5a44092e086": {
+      "job_id": "19f9e74a-0bff-4ef4-9e4b-d5a44092e086",
+      "source_id": "ashby",
+      "source_job_id": "19f9e74a-0bff-4ef4-9e4b-d5a44092e086",
+      "canonical_url": "https://jobs.ashbyhq.com/Edison%20Scientific/19f9e74a-0bff-4ef4-9e4b-d5a44092e086",
+      "activity": {
+        "status": "active",
+        "missing_from_source_count": 0,
+        "inactive_confirmed_at": null
+      },
+      "raw": {
+        "title": "Member of Technical Staff, Full-stack Engineer",
+        "location_text": "San Francisco | New York",
+        "workplace_arrangement": "on-site",
+        "employment_type": "full-time",
+        "seniority": null,
+        "compensation": {
+          "minimum": 175000,
+          "maximum": 240000,
+          "currency": "USD",
+          "basis": "base",
+          "period": "year",
+          "source_text": "$175K - $240K"
+        },
+        "posted_at": "2026-08-05T00:00:00Z",
+        "description_text": "ABOUT US\n\nEdison Scientific builds and deploys AI scientist agents to accelerate science and the development of new medicines. We are an ambitious team run by scientists and engineers from leading institutions across biology, physics, chemistry, and AI.\n\nTHE ROLE\n\nAs a MTS (Full-stack, Backend-Focused, Python) you’ll help build and support our core platform that automates scientific discovery. You’ll work across the stack designing and building backend services, APIs, and data pipelines, while also contributing to user-facing features that make those capabilities accessible and intuitive.\n\nOur mission is to build an AI scientist, and you’ll help build the tools, interfaces, and data systems it relies on. While this role leans heavily toward backend engineering, you’ll regularly collaborate with frontend engineers, designers, and researchers to deliver end-to-end functionality.\n\nAt Edison Scientific, full-stack engineering isn’t about doing “a little bit of everything.” It’s about owning features from concept to production, understanding how systems fit together, and building reliable foundations that accelerate humanity’s ability to ask bigger questions- and find answers faster.\n\nThis role is on-site at our San Francisco office in the Dogpatch neighborhood. Our office is a converted warehouse with high ceilings, open space, and a team that genuinely believes in what they're building.\n\nThis position is part of the Platform team. \n\nRESPONSIBILITIES\n\n- Design, implement, and maintain backend services, APIs, and databases that power the scientific discovery platform.\n\n- Contribute to frontend features and workflows, partnering closely with design and frontend teammates to deliver cohesive user experiences.\n\n- Build and extend data pipelines that support AI agents and research workflows.\n\n- Implement monitoring, observability, and automated testing to ensure system reliability and uptime.\n\n- Troubleshoot issues across the stack and proactively improve system quality.\n\n- Collaborate with engineering, design, and research teams to ship new AI-driven features and services.\n\n- Grow as a software engineer within a highly collaborative team working at the frontier of AI for science.\n\nQUALIFICATIONS\n\n- Typically, 5+ years of software engineering experience, with exposure to both backend and frontend development.\n\n- Strong proficiency in at least one backend language (e.g., Python, Node.js), with an interest in deepening backend expertise. (our interview process requires Python)\n\n- Experience designing and consuming APIs (FastAPI, REST; GraphQL a plus).\n\n- Familiarity with frontend frameworks (e.g., React, Next.js, or similar) and modern web development practices.\n\n- Working knowledge of relational or document databases (PostgreSQL, MySQL, MongoDB, or similar).\n\n- Exposure to cloud infrastructure (AWS, GCP, or Azure) and containerized environments (Docker; Kubernetes a plus).\n\n- Experience with version control, CI/CD pipelines, and basic automated testing.\n\n- Strong curiosity, a growth mindset, and eagerness to learn in a fast-moving environment.\n\nBONUS POINTS FOR\n\n- Experience with data-heavy systems, scientific tooling, or ML/AI-adjacent platforms.\n\n- Prior work in startups or small teams with end-to-end ownership.\n\nSALARY\n\n$175,000- $240,000  •  Offers equity\n\nWHY JOIN US?\n\nWe're a fast-moving, mission-driven culture where smart people do their best work and actually enjoy doing it. We also offer full-time employees the following:\n\n- Competitive salary and equity\n\n- Full healthcare coverage; we pay 100% of premiums for you and your dependents\n\n- Support for growing families, including a yearly new parent stipend and fertility coverage through Carrot\n\n- Mental health support through Rula, our in-network therapist and psychiatrist network with fast availability\n\n- 12 weeks of paid parental leave for maternity, paternity, and adoption\n\n- Pet care support with a yearly employer-funded stipend for your animal companions\n\n- Commuter benefits so you can pay for transit and parking with pre-tax dollars\n\n- 401(k) company matching\n\n- $300 health and wellness benefit quarterly\n\n- Lunch is on us every day you're in the office, and dinner is on us when you're working late\n\n- Regular team off-sites and company events\n\nEdison Scientific is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other protected characteristic under applicable law.",
+        "description_completeness": "full"
+      },
+      "hashes": {
+        "metadata_hash": "5bfe31555b02256c561f71bdea2679dc738ad0f121730991cfc1f7971dd6fe31",
+        "content_hash": "7bee6cc8ab5642b24048f39eaeba34db244b07d1e27bda6ad2f6a6a2775bf2dc",
+        "hash_algorithm": "sha256"
+      },
+      "discovered_from": [
+        "discoveries/2026-08-05-3.json"
+      ],
+      "evaluations": [
+        {
+          "profile_name": "default",
+          "profile_updated_at": "2026-08-05T10:36:12-07:00",
+          "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+          "job_content_hash": "7bee6cc8ab5642b24048f39eaeba34db244b07d1e27bda6ad2f6a6a2775bf2dc",
+          "evaluated_at": "2026-08-05T15:15:00-07:00",
+          "outcome": "included",
+          "match_score": 79,
+          "reason_codes": [
+            "active",
+            "san_francisco_posting_text",
+            "on_site",
+            "full_time",
+            "acceptable_seniority",
+            "compatible_title_or_role_family",
+            "role_specific_ai_work",
+            "published_base_maximum_at_least_200000",
+            "all_profile_hard_constraints_passed"
+          ],
+          "evidence_snippets": [
+            "Full-stack product work building tools, interfaces, and data systems supporting AI agents."
+          ]
+        }
+      ],
+      "first_seen_at": "2026-08-05T15:15:00-07:00",
+      "last_seen_at": "2026-08-05T15:15:00-07:00",
+      "last_checked_at": "2026-08-05T15:15:00-07:00"
+    }
+  },
+  "refresh": {
+    "last_attempted_at": "2026-08-05T15:00:00-07:00",
+    "last_successful_at": "2026-08-05T15:00:00-07:00",
+    "last_status": "completed",
+    "consecutive_failures": 0,
+    "last_error": null
+  },
+  "created_at": "2026-08-05T14:50:00-07:00",
+  "updated_at": "2026-08-05T15:15:00-07:00"
+}

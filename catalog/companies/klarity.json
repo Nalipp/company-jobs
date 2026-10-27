@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "company_id": "klarity",
+  "company": {
+    "name": "Klarity",
+    "aliases": [],
+    "website_url": null,
+    "primary_domain": null,
+    "description": null,
+    "industries": [],
+    "funding_stage": null,
+    "employee_count_range": null,
+    "evidence": []
+  },
+  "status": "active",
+  "sources": [
+    {
+      "source_id": "primary-careers",
+      "source_type": "ats",
+      "provider": "ashby",
+      "url": "https://jobs.ashbyhq.com/klarity-ai",
+      "board_id": "klarity-ai",
+      "status": "active",
+      "discovered_from": [
+        "Built In San Francisco",
+        "Ashby",
+        "discoveries/2026-08-05-3.json"
+      ],
+      "last_checked_at": "2026-08-05T15:15:00-07:00",
+      "last_successful_at": "2026-08-05T15:15:00-07:00"
+    }
+  ],
+  "offices": [
+    {
+      "office_id": "san-francisco",
+      "label": "San Francisco office",
+      "location_text": "San Francisco, CA",
+      "address": "425 Bush Street, San Francisco, CA 94108, USA",
+      "latitude": 37.7905928,
+      "longitude": -122.4045089,
+      "address_verified": true,
+      "evidence": [
+        {
+          "source_type": "ats",
+          "source_name": "ats",
+          "url": "https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273",
+          "text": "The authoritative ATS lists this on-site role at San Francisco (Klarity HQ) and supplies the postal address 425 Bush Street, San Francisco, California 94108, United States.",
+          "checked_at": "2026-08-03T12:25:00-07:00"
+        }
+      ],
+      "last_checked_at": "2026-08-03T12:25:00-07:00"
+    }
+  ],
+  "jobs": {
+    "klarity-senior-ai-frontend-engineer-san-francisco": {
+      "job_id": "klarity-senior-ai-frontend-engineer-san-francisco",
+      "source_id": "primary-careers",
+      "source_job_id": "05377ac4-4c57-4146-a077-4e84f7d6a273",
+      "canonical_url": "https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273",
+      "activity": {
+        "status": "active",
+        "missing_from_source_count": 0,
+        "inactive_confirmed_at": null
+      },
+      "raw": {
+        "title": "Senior AI Frontend Engineer",
+        "location_text": "San Francisco (Klarity HQ)",
+        "workplace_arrangement": "on-site",
+        "employment_type": "full-time",
+        "seniority": null,
+        "compensation": {
+          "minimum": 175000,
+          "maximum": 275000,
+          "currency": "USD",
+          "basis": "base",
+          "period": "year",
+          "source_text": "$175K - $275K"
+        },
+        "posted_at": "2026-04-08T00:00:00Z",
+        "description_text": "About Klarity\n\nTldr on us: Series B, $91M raised, 7x growth last year.\n\nDigital Transformation gave rise to a $600B consulting Industry. AI Transformation will be 10x bigger and will be delivered through agents. We built that.\n\nOur AI discovers how work actually happens across every team and application, Structures it into a living Context Graph, and Improves it continuously.\n\nServiceNow mapped 900+ processes in 9 days. DoorDash captured 3,800+ finance operations in 14 weeks. That's not a project. That's compounding intelligence.\n\nOpenAI, Google, DoorDash, and Stripe use Klarity to transform how they transform. We shipped GPT-4 document chat within 12 hours of OpenAI's API launch.\n\nWe move fast, reward agency, and care deeply about our customers, our team, and our mission.\n\nTHE ROLE\n\nWe are looking for an AI Front-end Engineer who sits at the intersection of product design and frontend engineering. You are an engineer first, but with exceptional design sensibility that elevates everything you build. You will be responsible for defining and implementing the \"look and feel\" of AI-native workflows, ensuring that our complex enterprise tools feel as intuitive as the best consumer apps.\n\nNote: We do not require a CS or Engineering degree. We care about your portfolio, your GitHub (or equivalent), and your track record of shipping.\n\nWHO YOU ARE\n\n- Engineer first, designer by instinct - You're a front-end engineer with a natural eye for great design. You can discuss the tradeoffs of Server Components versus Client Components just as fluently as you can critique spacing and visual hierarchy.\n\n- Expert in modern web technologies - React, Next.js, TypeScript, and Tailwind aren't just in your toolkit—you've truly mastered them. You understand the performance consequences of your architectural decisions and ship code that's both elegant and performant.\n\n- AI-native developer with creative problem-solving chops - You wield tools like Cursor, Claude Code, v0.dev http://v0.dev, and Lovable as extensions of your craft. You use AI to prototype 10 variations in the time it used to take to build one, letting you focus on the hard problems: information architecture, user flows, and delightful interactions.\n\n- Ship with velocity and craft - You find the shortest path to get features in front of users while obsessing over the details that create delight. You catch when animations feel off by 50ms or color contrast doesn't meet WCAG standards. You believe speed and quality aren't opposites—they happen together when you're thoughtful about how you build.\n\n- Drive outcomes with product thinking - You move from prototype to user feedback to iteration to production with speed and conviction. You own features end-to-end, challenge designs that compromise user experience, and care deeply about the entire user journey. You shape the product through action, not waiting for permission.\n\n- Bring energy that elevates others - You see \"impossible\" UI challenges as puzzles waiting to be solved. Your optimism, intensity, and passion for craft are contagious and make the team stronger.\n\n- Experience: 4+ years of shipping production-grade products\n\nWHAT YOU'LL DO\n\n- Architect scalable front-end systems - Design reusable component libraries, establish patterns for state management and API integration, optimize bundle sizes, and ensure the platform performs beautifully at scale. You'll work across the full spectrum from responsive layouts to micro-interactions, with bonus points for diving into Python backends when needed.\n\n- Own and ship the primary user-facing features - Build the core interfaces users interact with daily. You'll write the React components, integrate with backend APIs, and polish every detail to production quality.\n\n- Bridge AI capabilities with elegant user experiences - Partner with product and backend engineers to understand what's possible, then create interfaces that expose powerful functionality while hiding technical complexity.\n\n- Multiply your impact across disciplines - You speak designer, engineer, and product fluently. Use AI tools to rapidly prototype design concepts in code and bridge gaps between teams with working demos instead of static mocks, turning ambiguous ideas into tangible experiences that drive better decisions.\n\nBENEFITS:\n\n- Equity in addition to competitive cash compensation\n\n- 100% Employer-Paid Medical, Dental & Vision options! https://app.rippling.com/benefits/preview/4zb9x0k4q4bxr1lm\n\n- Paid Parental Leave\n\n- $500 Annual Learning Fund\n\n- $100 Monthly Wellness Fund\n\n- 401k via Betterment https://www.betterment.com/work/investments\n\n- Relocation support to San Francisco Bay Area (where applicable)\n\n- Office-related Perks:\n\n- BART or Caltrain to the office?: Contribute pre-tax funds to a Parking & Transit account, and you will never be taxed for it!\n\n- Lunchtime, Leveled Up: Enjoy curated local eats delivered to the office daily to enjoy with an entertaining team\n\n- Snack Central: Drinks and snacks for every craving - from healthy bites to Klarity team favorites.\n\n- Onsite Gym Access: A state-of-the-art fitness center right downstairs, and it’s free!\n\n- Safe & Secure Bike Room: Commute in and safely store your bike.\n\nKlarity is an equal opportunity employer. Klarity provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, gender, national origin, sexual orientation, gender identity or expression, age, disability, genetic information, marital status or veteran status.",
+        "description_completeness": "full"
+      },
+      "hashes": {
+        "metadata_hash": "5e345a999ff939c9e1f6c145f9b1ca934a946a014fbbbbfe2a942f8ec0db8615",
+        "content_hash": "834e80019e91c0c8a6cf1189af213760717cab5e44fc532073778a909450ffbb",
+        "hash_algorithm": "sha256"
+      },
+      "discovered_from": [
+        "legacy:runs/2026-08-03-2.json",
+        "legacy:runs/2026-08-03-3.json",
+        "discoveries/2026-08-05-3.json"
+      ],
+      "evaluations": [
+        {
+          "profile_name": "default",
+          "profile_updated_at": "2026-08-05T10:36:12-07:00",
+          "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+          "job_content_hash": "b4c5f172fa77c4e5776a4327500485d39de91387354687fce2e0ac0d2850521d",
+          "evaluated_at": "2026-08-05T10:36:12-07:00",
+          "outcome": "included",
+          "match_score": 96,
+          "reason_codes": [
+            "active_at_legacy_verification",
+            "san_francisco_posting_text",
+            "on_site",
+            "full_time",
+            "compatible_title_or_role_family",
+            "role_specific_ai_work",
+            "published_base_maximum_at_least_200000",
+            "migrated_evidence_only_description"
+          ],
+          "evidence_snippets": [
+            "Exact senior AI frontend title",
+            "React, Next.js, TypeScript, and Tailwind",
+            "Owns polished user-facing AI workflows",
+            "Partners across product, design, and backend",
+            "Series B",
+            "Explicitly degree-flexible",
+            "isListed: true; Apply for this Job",
+            "San Francisco (Klarity HQ); On-site",
+            "$175K-$275K; offers equity",
+            "Current listing for Senior AI Frontend Engineer"
+          ]
+        },
+        {
+          "profile_name": "default",
+          "profile_updated_at": "2026-08-05T10:36:12-07:00",
+          "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+          "job_content_hash": "834e80019e91c0c8a6cf1189af213760717cab5e44fc532073778a909450ffbb",
+          "evaluated_at": "2026-08-05T15:15:00-07:00",
+          "outcome": "included",
+          "match_score": 96,
+          "reason_codes": [
+            "active",
+            "san_francisco_posting_text",
+            "on_site",
+            "full_time",
+            "acceptable_seniority",
+            "compatible_title_or_role_family",
+            "role_specific_ai_work",
+            "published_base_maximum_at_least_200000",
+            "all_profile_hard_constraints_passed"
+          ],
+          "evidence_snippets": [
+            "AI-native frontend workflow design with strong product craft, design sensibility, React, Next.js, and TypeScript."
+          ]
+        }
+      ],
+      "first_seen_at": "2026-08-03T10:57:10-07:00",
+      "last_seen_at": "2026-08-05T15:15:00-07:00",
+      "last_checked_at": "2026-08-05T15:15:00-07:00"
+    }
+  },
+  "refresh": {
+    "last_attempted_at": "2026-08-05T15:00:00-07:00",
+    "last_successful_at": "2026-08-05T15:00:00-07:00",
+    "last_status": "completed",
+    "consecutive_failures": 0,
+    "last_error": null
+  },
+  "created_at": "2026-08-03T10:57:10-07:00",
+  "updated_at": "2026-08-05T15:15:00-07:00"
+}

@@ -1,0 +1,1482 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-08-03-profile-change-backfill-verify-1",
+  "profile_name": "default",
+  "started_at": "2026-08-03T11:33:00-07:00",
+  "completed_at": "2026-08-03T11:35:00-07:00",
+  "updated_at": "2026-08-03T12:50:00-07:00",
+  "date_range": {
+    "start": "2026-06-05",
+    "end": "2026-08-03",
+    "timezone": "America/Los_Angeles"
+  },
+  "queries": [
+    {
+      "query": "Google Jobs: approved role families plus AI in San Francisco",
+      "source": "Google Jobs",
+      "candidate_count": 10
+    },
+    {
+      "query": "Product Engineer plus role-specific AI product work in San Francisco",
+      "source": "General web search",
+      "candidate_count": 9
+    },
+    {
+      "query": "Frontend Engineer plus AI-powered workflows in San Francisco",
+      "source": "General web search",
+      "candidate_count": 7
+    },
+    {
+      "query": "Full Stack or Applications Engineer plus LLM or agents in San Francisco",
+      "source": "General web search",
+      "candidate_count": 6
+    },
+    {
+      "query": "Growth Engineer plus AI-powered products in San Francisco",
+      "source": "General web search",
+      "candidate_count": 4
+    },
+    {
+      "query": "approved role families AI San Francisco",
+      "source": "Wellfound",
+      "candidate_count": 1
+    },
+    {
+      "query": "approved role families AI San Francisco",
+      "source": "Built In San Francisco",
+      "candidate_count": 0
+    },
+    {
+      "query": "approved role families AI San Francisco",
+      "source": "LinkedIn Jobs",
+      "candidate_count": 2
+    },
+    {
+      "query": "approved role families AI San Francisco $200k",
+      "source": "Indeed",
+      "candidate_count": 4
+    },
+    {
+      "query": "employer registry, employer pages, and ATS feeds",
+      "source": "Official employer and ATS sources",
+      "candidate_count": 24
+    }
+  ],
+  "jobs": [
+    {
+      "job_key": "openai-software-engineer-gtm-growth-engineering",
+      "title": "Software Engineer, GTM Growth Engineering",
+      "company": "OpenAI",
+      "canonical_url": "https://jobs.ashbyhq.com/openai/1bb1f351-41a2-43a5-bac1-259859886cb3",
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/openai/1bb1f351-41a2-43a5-bac1-259859886cb3"
+      ],
+      "location": "San Francisco",
+      "workplace_arrangement": "on-site",
+      "job_site": {
+        "raw_address": "1455 3rd Street, San Francisco, CA 94158",
+        "formatted_address": "1455 3rd Street, San Francisco, CA 94158, USA",
+        "latitude": 37.7700459,
+        "longitude": -122.3887896,
+        "source_url": "https://openai.com/policies/terms-of-use/",
+        "source_type": "employer_location_page",
+        "source_text": "OpenAI's current official Terms of Use publish OpenAI OpCo, LLC at 1455 3rd Street, San Francisco, CA 94158.",
+        "validation_status": "verified",
+        "map_eligibility": "eligible",
+        "validation_method": "company_office_proxy",
+        "confidence": "medium",
+        "validated_at": "2026-08-03T12:50:00-07:00",
+        "notes": "The posting independently confirms this is an on-site San Francisco role. This pin is a documented OpenAI company-address proxy; the exact job site is not confirmed."
+      },
+      "compensation": {
+        "minimum": 230000,
+        "maximum": 385000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$230K-$385K base plus equity."
+      },
+      "posted_date": "2026-07-25",
+      "employment_type": "Full-time",
+      "seniority": "Mid-level to senior (4+ years)",
+      "culture_fit": {
+        "summary": "moderate",
+        "credential_alignment": "neutral",
+        "background_openness": "unknown",
+        "career_stage_alignment": "positive",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "career_stage_alignment",
+            "value": "4+ years",
+            "source_url": "https://jobs.ashbyhq.com/openai/1bb1f351-41a2-43a5-bac1-259859886cb3",
+            "source_text": "Requires 4+ years building user-facing software, product, or full-stack products.",
+            "verified_at": "2026-08-03T11:35:00-07:00"
+          },
+          {
+            "claim": "collaboration",
+            "value": "cross-functional",
+            "source_url": "https://jobs.ashbyhq.com/openai/1bb1f351-41a2-43a5-bac1-259859886cb3",
+            "source_text": "Partners with Product, Design, Data Science, Sales, B2B Marketing, and operations.",
+            "verified_at": "2026-08-03T11:35:00-07:00"
+          }
+        ],
+        "concerns": [
+          "The posting does not provide explicit predictable-hours or work-life-balance evidence."
+        ]
+      },
+      "match_score": 98,
+      "why_it_fits": [
+        "The title omits AI, but the canonical role explicitly builds AI-powered products and human-review workflows.",
+        "Strong frontend/full-stack, product craft, Design partnership, experimentation, growth, and customer-impact alignment.",
+        "Current San Francisco on-site role with a $230K-$385K published base range."
+      ],
+      "concerns": [
+        "Large employer rather than the preferred mid-size company.",
+        "No explicit work-hours or degree-equivalency language in the posting."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/openai/1bb1f351-41a2-43a5-bac1-259859886cb3",
+          "source_text": "Official Ashby feed reports isListed true.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        },
+        {
+          "claim": "posted_date",
+          "value": "2026-07-25",
+          "source_url": "https://jobs.ashbyhq.com/openai/1bb1f351-41a2-43a5-bac1-259859886cb3",
+          "source_text": "Official publishedAt is 2026-07-25T00:12:56.921Z.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        },
+        {
+          "claim": "workplace",
+          "value": "on-site in San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/openai/1bb1f351-41a2-43a5-bac1-259859886cb3",
+          "source_text": "Official feed lists location San Francisco and workplaceType OnSite.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai",
+          "value": "AI-powered products and workflows",
+          "source_url": "https://jobs.ashbyhq.com/openai/1bb1f351-41a2-43a5-bac1-259859886cb3",
+          "source_text": "Build AI-powered products and workflows and full-stack experiences for GTM Growth Engineering.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        },
+        {
+          "claim": "compensation",
+          "value": "$230K-$385K base",
+          "source_url": "https://jobs.ashbyhq.com/openai/1bb1f351-41a2-43a5-bac1-259859886cb3",
+          "source_text": "Official compensation tier is $230K-$385K plus equity.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "klarity-senior-ai-frontend-engineer-san-francisco",
+      "title": "Senior AI Frontend Engineer",
+      "company": "Klarity",
+      "canonical_url": "https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273",
+      "discovery_urls": [
+        "https://www.jobleads.com/us/job/senior-ai-frontend-engineer-on-site-sf-equity--san-francisco--eaa965395bc20477bc638154a88f82a1f"
+      ],
+      "location": "San Francisco (Klarity HQ)",
+      "workplace_arrangement": "on-site",
+      "job_site": {
+        "raw_address": "425 Bush Street, San Francisco, CA 94108",
+        "formatted_address": "425 Bush Street, San Francisco, CA 94108, USA",
+        "latitude": 37.7905928,
+        "longitude": -122.4045089,
+        "source_url": "https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273",
+        "source_type": "ats",
+        "source_text": "The authoritative ATS lists this on-site role at San Francisco (Klarity HQ) and supplies the postal address 425 Bush Street, San Francisco, California 94108, United States.",
+        "validation_status": "verified",
+        "map_eligibility": "eligible",
+        "validation_method": "exact_worksite",
+        "confidence": "high",
+        "validated_at": "2026-08-03T12:25:00-07:00",
+        "notes": "The geocoder resolved the exact house number, street, city, state, and ZIP in San Francisco."
+      },
+      "compensation": {
+        "minimum": 175000,
+        "maximum": 275000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$175K-$275K base plus equity."
+      },
+      "posted_date": null,
+      "employment_type": "full-time",
+      "seniority": "senior (4+ years requested)",
+      "culture_fit": {
+        "summary": "strong",
+        "credential_alignment": "positive",
+        "background_openness": "positive",
+        "career_stage_alignment": "positive",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "Credential flexibility",
+            "value": "No CS or engineering degree required; portfolio, equivalent work, and shipping record are emphasized.",
+            "source_url": "https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273",
+            "source_text": "We do not require a CS or Engineering degree.",
+            "verified_at": "2026-08-03T10:58:30-07:00"
+          },
+          {
+            "claim": "Career-stage alignment",
+            "value": "The role requests 4+ years of production product experience.",
+            "source_url": "https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273",
+            "source_text": "Experience: 4+ years of shipping production-grade products",
+            "verified_at": "2026-08-03T10:58:30-07:00"
+          }
+        ],
+        "concerns": [
+          "No attributable evidence confirms predictable hours or explicitly rules out late-night and weekend work"
+        ]
+      },
+      "match_score": 96,
+      "why_it_fits": [
+        "Exact senior AI frontend title",
+        "React, Next.js, TypeScript, and Tailwind",
+        "Owns polished user-facing AI workflows",
+        "Partners across product, design, and backend",
+        "Series B",
+        "Explicitly degree-flexible"
+      ],
+      "concerns": [
+        "Base range starts below $200,000",
+        "The employer date is April 8, while a current board shows a recent repost",
+        "On-site schedule; hours expectations are unknown"
+      ],
+      "evidence": [
+        {
+          "claim": "Active canonical posting",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273",
+          "source_text": "isListed: true; Apply for this Job",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Location and workplace",
+          "value": {
+            "location": "San Francisco",
+            "workplace_arrangement": "on-site"
+          },
+          "source_url": "https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273",
+          "source_text": "San Francisco (Klarity HQ); On-site",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Compensation",
+          "value": {
+            "minimum": 175000,
+            "maximum": 275000,
+            "currency": "USD"
+          },
+          "source_url": "https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273",
+          "source_text": "$175K-$275K; offers equity",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Recent repost evidence",
+          "value": "A job board labeled the active role current during this backfill; the employer-origin date is 2026-04-08.",
+          "source_url": "https://www.jobleads.com/us/job/senior-ai-frontend-engineer-on-site-sf-equity--san-francisco--eaa965395bc20477bc638154a88f82a1f",
+          "source_text": "Current listing for Senior AI Frontend Engineer",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "gem-ai-product-engineer-san-francisco",
+      "title": "AI Product Engineer (San Francisco)",
+      "company": "Gem",
+      "canonical_url": "https://www.ycombinator.com/companies/gem/jobs/4Uathaz-ai-product-engineer-san-francisco",
+      "discovery_urls": [
+        "https://wellfound.com/jobs"
+      ],
+      "location": "San Francisco, CA; San Francisco HQ",
+      "workplace_arrangement": "on-site",
+      "job_site": {
+        "raw_address": "Gem San Francisco HQ, San Francisco, CA",
+        "formatted_address": "525 Market Street, 6th Floor, San Francisco, CA 94105, USA",
+        "latitude": 37.7905075,
+        "longitude": -122.399158,
+        "source_url": "https://www.gem.com/contact",
+        "source_type": "employer_location_page",
+        "source_text": "The canonical role posting says it is based out of Gem's San Francisco HQ and is not eligible for full-time remote work; Gem's official contact page labels its Headquarters as 525 Market Street, 6th Floor, San Francisco, CA 94105.",
+        "validation_status": "verified",
+        "map_eligibility": "eligible",
+        "validation_method": "company_office_proxy",
+        "confidence": "high",
+        "validated_at": "2026-08-03T12:25:00-07:00",
+        "notes": "The floor is retained from Gem's authoritative page; coordinates represent the building entrance/footprint."
+      },
+      "compensation": {
+        "minimum": 150000,
+        "maximum": 260000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$150,000-$260,000 annual salary plus equity and benefits."
+      },
+      "posted_date": null,
+      "employment_type": "full-time",
+      "seniority": "mid-to-senior (3+ years)",
+      "culture_fit": {
+        "summary": "strong",
+        "credential_alignment": "neutral",
+        "background_openness": "positive",
+        "career_stage_alignment": "positive",
+        "work_life_balance": "neutral",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "Background openness",
+            "value": "The employer encourages applicants from all backgrounds and perspectives.",
+            "source_url": "https://www.ycombinator.com/companies/gem/jobs/4Uathaz-ai-product-engineer-san-francisco",
+            "source_text": "encourage folks of all backgrounds and perspectives to apply",
+            "verified_at": "2026-08-03T10:58:30-07:00"
+          },
+          {
+            "claim": "Time-off support",
+            "value": "Flexible Time Off, 16 paid holidays, and regular company-wide wellness days are published.",
+            "source_url": "https://www.ycombinator.com/companies/gem/jobs/4Uathaz-ai-product-engineer-san-francisco",
+            "source_text": "Supportive Flexible Time Off program; 16 paid holidays, including regular company-wide wellness days",
+            "verified_at": "2026-08-03T10:58:30-07:00"
+          }
+        ],
+        "concerns": [
+          "No explicit evidence confirms predictable daily hours or rules out late-night and weekend work"
+        ]
+      },
+      "match_score": 94,
+      "why_it_fits": [
+        "Exact AI Product Engineer title",
+        "Owns user-facing AI features end to end",
+        "Python, Node, TypeScript, React, and Elasticsearch",
+        "Collaborates with product and design",
+        "Mentoring can be part of the role",
+        "Approximately 200-person company and substantial funding"
+      ],
+      "concerns": [
+        "Base range starts below $200,000",
+        "The active posting date is unknown",
+        "San Francisco HQ attendance frequency is not quantified"
+      ],
+      "evidence": [
+        {
+          "claim": "Active application page",
+          "value": true,
+          "source_url": "https://www.ycombinator.com/companies/gem/jobs/4Uathaz-ai-product-engineer-san-francisco",
+          "source_text": "Apply to role",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Employment and location",
+          "value": {
+            "employment_type": "full-time",
+            "location": "San Francisco HQ",
+            "remote": false
+          },
+          "source_url": "https://www.ycombinator.com/companies/gem/jobs/4Uathaz-ai-product-engineer-san-francisco",
+          "source_text": "Full-time; based out of our San Francisco HQ; not eligible for full-time remote work",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Compensation",
+          "value": {
+            "minimum": 150000,
+            "maximum": 260000,
+            "currency": "USD"
+          },
+          "source_url": "https://www.ycombinator.com/companies/gem/jobs/4Uathaz-ai-product-engineer-san-francisco",
+          "source_text": "$150,000-$260,000 based on level, in addition to equity and benefits",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Product and stack",
+          "value": "End-to-end AI features using Python, Node, TypeScript, React, and search systems.",
+          "source_url": "https://www.ycombinator.com/companies/gem/jobs/4Uathaz-ai-product-engineer-san-francisco",
+          "source_text": "Build products powered by LLMs across the entire stack from backend to frontend",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "ampersand-product-engineer-frontend",
+      "title": "Product Engineer, Frontend",
+      "company": "Ampersand",
+      "canonical_url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c"
+      ],
+      "location": "San Francisco",
+      "workplace_arrangement": "hybrid",
+      "job_site": {
+        "raw_address": null,
+        "formatted_address": null,
+        "latitude": null,
+        "longitude": null,
+        "source_url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+        "source_type": "job_posting",
+        "source_text": "The authoritative ATS identifies a hybrid San Francisco role and in-office days but supplies only city, state, and country address components.",
+        "validation_status": "unresolved",
+        "map_eligibility": "pending",
+        "validation_method": null,
+        "confidence": "low",
+        "validated_at": "2026-08-03T12:25:00-07:00",
+        "notes": "The role is hybrid in San Francisco, but no reasonable publicly documented company-office street address was found. Onset Labs' public principal/mailing address is a residential unit and is not identified as Ampersand's office."
+      },
+      "compensation": {
+        "minimum": 125000,
+        "maximum": 288000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$125K-$288K base plus equity."
+      },
+      "posted_date": "2026-06-18",
+      "employment_type": "Full-time",
+      "seniority": "Mid-level to senior (4+ years)",
+      "culture_fit": {
+        "summary": "strong",
+        "credential_alignment": "neutral",
+        "background_openness": "unknown",
+        "career_stage_alignment": "positive",
+        "work_life_balance": "positive",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "work_life_balance",
+            "value": "positive",
+            "source_url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+            "source_text": "The company says building the AI opportunity is a marathon, not a sprint, and that velocity comes from strategic decisions.",
+            "verified_at": "2026-08-03T11:35:00-07:00"
+          },
+          {
+            "claim": "career_stage_alignment",
+            "value": "4+ years",
+            "source_url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+            "source_text": "Requires 4+ years engineering and designing digital products.",
+            "verified_at": "2026-08-03T11:35:00-07:00"
+          },
+          {
+            "claim": "collaboration",
+            "value": "customer and founder collaboration",
+            "source_url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+            "source_text": "Works closely with founders, engineers, and customers and owns customer engagement.",
+            "verified_at": "2026-08-03T11:35:00-07:00"
+          }
+        ],
+        "concerns": [
+          "The posting does not state specific hours or schedule flexibility."
+        ]
+      },
+      "match_score": 93,
+      "why_it_fits": [
+        "Strong React-centered frontend product role with full-stack range and direct customer engagement.",
+        "Role-specific work includes integration experiences and embeddable UI that deliver context to AI agents.",
+        "Hybrid San Francisco role whose published maximum exceeds the $200K target."
+      ],
+      "concerns": [
+        "Series A is earlier than the preferred Series B+ stage.",
+        "The published salary range begins below $200K."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+          "source_text": "Official Ashby feed reports isListed true.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        },
+        {
+          "claim": "posted_date",
+          "value": "2026-06-18",
+          "source_url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+          "source_text": "Official publishedAt is 2026-06-18T23:30:03.417Z.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        },
+        {
+          "claim": "workplace",
+          "value": "hybrid in San Francisco",
+          "source_url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+          "source_text": "Official feed lists location San Francisco and workplaceType Hybrid.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai",
+          "value": "AI-agent integration product",
+          "source_url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+          "source_text": "The role shapes a platform whose connectors and embeddable UI deliver real-time context to AI agents.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        },
+        {
+          "claim": "compensation",
+          "value": "$125K-$288K base",
+          "source_url": "https://jobs.ashbyhq.com/Ampersand/02cbb849-f38d-4061-81f0-c54a287d024c",
+          "source_text": "Official compensation tier is $125K-$288K plus equity.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "speak-ai-product-engineer-san-francisco",
+      "title": "AI Product Engineer",
+      "company": "Speak",
+      "canonical_url": "https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+      "discovery_urls": [
+        "https://www.builtinsf.com/job/ai-product-engineer/4468709",
+        "https://www.ycombinator.com/companies/speak/jobs/eRRWv50-ai-product-engineer"
+      ],
+      "location": "San Francisco, CA",
+      "workplace_arrangement": "hybrid",
+      "job_site": {
+        "raw_address": "360 Spear Street, Floor 4, San Francisco, CA 94105",
+        "formatted_address": "360 Spear Street, 4th Floor, San Francisco, CA 94105, USA",
+        "latitude": 37.7889917,
+        "longitude": -122.3901367,
+        "source_url": "https://www.speak.com/privacy",
+        "source_type": "employer_location_page",
+        "source_text": "Speak's current official privacy notice publishes Speakeasy Labs, Inc.'s registered address as 360 Spear Street, Floor 4, San Francisco, CA 94105.",
+        "validation_status": "verified",
+        "map_eligibility": "eligible",
+        "validation_method": "company_office_proxy",
+        "confidence": "medium",
+        "validated_at": "2026-08-03T12:50:00-07:00",
+        "notes": "The ATS independently confirms this is a hybrid role in Speak's San Francisco office. This is a company-office proxy; the exact job site is not confirmed."
+      },
+      "compensation": {
+        "minimum": 150000,
+        "maximum": 280000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$150K-$280K base plus equity."
+      },
+      "posted_date": "2026-08-02",
+      "employment_type": "full-time",
+      "seniority": "mid-to-senior (3-5+ years)",
+      "culture_fit": {
+        "summary": "moderate",
+        "credential_alignment": "unknown",
+        "background_openness": "unknown",
+        "career_stage_alignment": "positive",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "Career-stage alignment",
+            "value": "The posting requests 3-5+ years and does not target new graduates.",
+            "source_url": "https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+            "source_text": "3-5+ years of experience",
+            "verified_at": "2026-08-03T10:58:30-07:00"
+          }
+        ],
+        "concerns": [
+          "No attributable evidence confirms predictable hours or self-taught-background openness"
+        ]
+      },
+      "match_score": 92,
+      "why_it_fits": [
+        "Exact title",
+        "Hybrid San Francisco",
+        "User-facing LLM product development",
+        "React, Node, TypeScript, and Python",
+        "Product and design collaboration",
+        "Series C"
+      ],
+      "concerns": [
+        "Base range starts below $200,000",
+        "August 2 is a repost date rather than the employer-origin date",
+        "Culture evidence on work hours and credential flexibility is unavailable"
+      ],
+      "evidence": [
+        {
+          "claim": "Active canonical posting",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+          "source_text": "isListed: true; Apply for this Job",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Location and workplace",
+          "value": {
+            "location": "San Francisco",
+            "workplace_arrangement": "hybrid"
+          },
+          "source_url": "https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+          "source_text": "San Francisco; Hybrid; Full time",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Compensation",
+          "value": {
+            "minimum": 150000,
+            "maximum": 280000,
+            "currency": "USD"
+          },
+          "source_url": "https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+          "source_text": "$150K-$280K; offers equity",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Repost recency",
+          "value": "Reposted on 2026-08-02",
+          "source_url": "https://www.builtinsf.com/job/ai-product-engineer/4468709",
+          "source_text": "Reposted 17 Hours Ago",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "town-ai-product-engineer-san-francisco",
+      "title": "AI Product Engineer",
+      "company": "Town.com, Inc.",
+      "canonical_url": "https://jobs.ashbyhq.com/town/0b261662-60c4-49e2-b351-118e57e5714b/",
+      "discovery_urls": [
+        "https://builtin.com/company/the-town-company/jobs",
+        "https://careers.town.com/"
+      ],
+      "location": "San Francisco, CA or New York, NY; San Francisco option confirmed",
+      "workplace_arrangement": "on-site",
+      "job_site": {
+        "raw_address": "222 Kearny Street, Suite 650, San Francisco, CA 94108",
+        "formatted_address": "222 Kearny Street, Suite 650, San Francisco, CA 94108, USA",
+        "latitude": 37.7902026,
+        "longitude": -122.4035351,
+        "source_url": "https://www.town.com/terms-of-service",
+        "source_type": "employer_location_page",
+        "source_text": "Town's current official Terms of Service publish Town.com, Inc. at 222 Kearny Street, Suite 650, San Francisco, CA 94108.",
+        "validation_status": "verified",
+        "map_eligibility": "eligible",
+        "validation_method": "company_office_proxy",
+        "confidence": "medium",
+        "validated_at": "2026-08-03T12:50:00-07:00",
+        "notes": "Town's careers page independently confirms the role is in person at its San Francisco Financial District office. This is a company-office proxy; the exact job site is not confirmed."
+      },
+      "compensation": {
+        "minimum": 225000,
+        "maximum": 300000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$225K-$300K base."
+      },
+      "posted_date": "2026-08-03",
+      "employment_type": "full-time",
+      "seniority": "foundational full-stack product hire; level not explicitly labeled",
+      "culture_fit": {
+        "summary": "moderate",
+        "credential_alignment": "positive",
+        "background_openness": "positive",
+        "career_stage_alignment": "neutral",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "Background and tenure flexibility",
+            "value": "The employer says it cares about trajectory more than tenure and asks for shipping stories rather than degrees.",
+            "source_url": "https://jobs.ashbyhq.com/town/0b261662-60c4-49e2-b351-118e57e5714b/",
+            "source_text": "We care about trajectory over tenure. We're less interested in years of experience than how fast you got here and what you built.",
+            "verified_at": "2026-08-03T10:58:30-07:00"
+          }
+        ],
+        "concerns": [
+          "Five-day office attendance is explicit; predictable hours, late-night, and weekend expectations are not addressed"
+        ]
+      },
+      "match_score": 91,
+      "why_it_fits": [
+        "Exact title",
+        "Compensation fully exceeds the target",
+        "AI-native product UI/UX and full-stack ownership",
+        "Designs polished web, desktop, and mobile workflows",
+        "Direct product-direction influence",
+        "Credential-flexible language"
+      ],
+      "concerns": [
+        "Five days per week in person",
+        "Series A rather than preferred Series B+",
+        "August 3 is a repost; employer record originated April 23",
+        "Small foundational team may have less predictable pace"
+      ],
+      "evidence": [
+        {
+          "claim": "Active official posting",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/town/0b261662-60c4-49e2-b351-118e57e5714b/",
+          "source_text": "isListed: true; Apply for this Job",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "San Francisco workplace",
+          "value": {
+            "location": "San Francisco Financial District",
+            "workplace_arrangement": "on-site",
+            "days_per_week": 5
+          },
+          "source_url": "https://careers.town.com/",
+          "source_text": "All roles are full-time and in person at Town's Financial District office in San Francisco",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Compensation",
+          "value": {
+            "minimum": 225000,
+            "maximum": 300000,
+            "currency": "USD"
+          },
+          "source_url": "https://jobs.ashbyhq.com/town/0b261662-60c4-49e2-b351-118e57e5714b/",
+          "source_text": "$225K-$300K",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Current repost",
+          "value": "Reposted on 2026-08-03",
+          "source_url": "https://builtin.com/company/the-town-company/jobs",
+          "source_text": "AI Product Engineer; 5 Hours Ago",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "thorin-founding-senior-ai-product-engineer",
+      "title": "Founding Senior AI Product Engineer",
+      "company": "Thorin",
+      "canonical_url": "https://jobs.ashbyhq.com/thorin/a2044814-4058-4022-b647-5008933ae17f",
+      "discovery_urls": [],
+      "location": "San Francisco, CA",
+      "workplace_arrangement": "on-site",
+      "job_site": {
+        "raw_address": "Pier 5, Suite 101, San Francisco, CA 94111",
+        "formatted_address": null,
+        "latitude": null,
+        "longitude": null,
+        "source_url": "https://jobs.ashbyhq.com/thorin/a2044814-4058-4022-b647-5008933ae17f",
+        "source_type": "ats",
+        "source_text": "The ATS structured address is Pier 5, Suite 101, San Francisco, CA 94111, while the same posting body describes the office as being at Market Street & 3rd.",
+        "validation_status": "unresolved",
+        "map_eligibility": "pending",
+        "validation_method": null,
+        "confidence": "low",
+        "validated_at": "2026-08-03T12:50:00-07:00",
+        "notes": "The ATS street address conflicts with the same posting's Market Street & 3rd office description. The material conflict remains, so neither an exact nor proxy pin is used."
+      },
+      "compensation": {
+        "minimum": 200000,
+        "maximum": 350000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$200,000-$350,000 expected base salary plus equity and benefits."
+      },
+      "posted_date": "2026-06-25",
+      "employment_type": "full-time",
+      "seniority": "founding senior / player-coach at a small company",
+      "culture_fit": {
+        "summary": "moderate",
+        "credential_alignment": "neutral",
+        "background_openness": "unknown",
+        "career_stage_alignment": "positive",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "Career-stage alignment",
+            "value": "The title is senior and the role mentors through code review and pairing while staying hands-on.",
+            "source_url": "https://jobs.ashbyhq.com/thorin/a2044814-4058-4022-b647-5008933ae17f",
+            "source_text": "player-coach role; mentor through code reviews, design discussions, pairing, and example",
+            "verified_at": "2026-08-03T10:58:30-07:00"
+          }
+        ],
+        "concerns": [
+          "The posting says AI products are shipped daily and mentions weekly team dinners; it does not establish whether hours are predictable"
+        ]
+      },
+      "match_score": 89,
+      "why_it_fits": [
+        "Senior AI product title at a small company where lead scope is acceptable",
+        "Hands-on end-to-end AI product building",
+        "Direct founder and customer collaboration",
+        "Mentoring",
+        "Base range begins at $200,000",
+        "Published within the 60-day window"
+      ],
+      "concerns": [
+        "Founding-stage role with broad scope",
+        "Fast delivery language and weekly dinners warrant an hours question",
+        "Company is earlier than Series B"
+      ],
+      "evidence": [
+        {
+          "claim": "Active and date",
+          "value": {
+            "active": true,
+            "published_date": "2026-06-25"
+          },
+          "source_url": "https://jobs.ashbyhq.com/thorin/a2044814-4058-4022-b647-5008933ae17f",
+          "source_text": "isListed: true; publishedAt 2026-06-25",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Location and workplace",
+          "value": {
+            "location": "San Francisco",
+            "workplace_arrangement": "on-site"
+          },
+          "source_url": "https://jobs.ashbyhq.com/thorin/a2044814-4058-4022-b647-5008933ae17f",
+          "source_text": "San Francisco; On-site",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Compensation",
+          "value": {
+            "minimum": 200000,
+            "maximum": 350000,
+            "currency": "USD"
+          },
+          "source_url": "https://jobs.ashbyhq.com/thorin/a2044814-4058-4022-b647-5008933ae17f",
+          "source_text": "$200,000-$350,000 base plus equity and benefits",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Responsibilities",
+          "value": "Build AI-native products end to end, mentor engineers, and partner directly with founders and customers.",
+          "source_url": "https://jobs.ashbyhq.com/thorin/a2044814-4058-4022-b647-5008933ae17f",
+          "source_text": "Build AI-native products end-to-end; mentor engineers; partner directly with founders and customers",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "stealth-hc-software-engineer-applied-ai-product-sf",
+      "title": "Software Engineer, Applied AI/Product (San Francisco)",
+      "company": "Stealth HC",
+      "canonical_url": "https://jobs.ashbyhq.com/stealthhc/8b203786-b445-4bda-bdbd-8fe3767808df",
+      "discovery_urls": [],
+      "location": "San Francisco",
+      "workplace_arrangement": "hybrid",
+      "job_site": {
+        "raw_address": "San Francisco, CA",
+        "formatted_address": null,
+        "latitude": null,
+        "longitude": null,
+        "source_url": "https://jobs.ashbyhq.com/stealthhc/8b203786-b445-4bda-bdbd-8fe3767808df",
+        "source_type": "ats",
+        "source_text": "The confidential employer's ATS lists San Francisco, Hybrid and three days per week in its San Francisco office, but publishes no street address.",
+        "validation_status": "unresolved",
+        "map_eligibility": "pending",
+        "validation_method": null,
+        "confidence": "low",
+        "validated_at": "2026-08-03T12:25:00-07:00",
+        "notes": "No address was inferred from recruiter or third-party sources."
+      },
+      "compensation": null,
+      "posted_date": "2026-07-01",
+      "employment_type": "full-time",
+      "seniority": "mid-to-senior generalist; exact level not stated",
+      "culture_fit": {
+        "summary": "moderate",
+        "credential_alignment": "neutral",
+        "background_openness": "unknown",
+        "career_stage_alignment": "neutral",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "Credential language",
+            "value": "The posting emphasizes shipped systems, product craft, and judgment and does not list a degree requirement.",
+            "source_url": "https://jobs.ashbyhq.com/stealthhc/8b203786-b445-4bda-bdbd-8fe3767808df",
+            "source_text": "ship high-quality code; own problems end-to-end; care about craft",
+            "verified_at": "2026-08-03T10:58:30-07:00"
+          }
+        ],
+        "concerns": [
+          "The company is in stealth and provides no attributable work-hours or flexibility evidence"
+        ]
+      },
+      "match_score": 88,
+      "why_it_fits": [
+        "Applied AI/Product appears in the title",
+        "Hybrid San Francisco",
+        "Full-stack agent and user-interface work",
+        "Direct input from users",
+        "Product craft and end-to-end ownership",
+        "Published within the backfill window"
+      ],
+      "concerns": [
+        "Compensation is unpublished",
+        "Company identity and stage details are limited",
+        "No predictable-hours evidence"
+      ],
+      "evidence": [
+        {
+          "claim": "Active and date",
+          "value": {
+            "active": true,
+            "published_date": "2026-07-01"
+          },
+          "source_url": "https://jobs.ashbyhq.com/stealthhc/8b203786-b445-4bda-bdbd-8fe3767808df",
+          "source_text": "isListed: true; publishedAt 2026-07-01",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Location and workplace",
+          "value": {
+            "location": "San Francisco",
+            "workplace_arrangement": "hybrid"
+          },
+          "source_url": "https://jobs.ashbyhq.com/stealthhc/8b203786-b445-4bda-bdbd-8fe3767808df",
+          "source_text": "San Francisco; Hybrid; Full time",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Product fit",
+          "value": "Works across agent architecture, evals, data, and the user-facing product surfaces, iterating from user input.",
+          "source_url": "https://jobs.ashbyhq.com/stealthhc/8b203786-b445-4bda-bdbd-8fe3767808df",
+          "source_text": "own problems end-to-end, from the agent logic to the interface a user actually uses",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "tasklet-software-engineer-product",
+      "title": "Software Engineer — Product",
+      "company": "Tasklet",
+      "canonical_url": "https://www.ycombinator.com/companies/tasklet-2/jobs/8WgDV4q-software-engineer-product",
+      "discovery_urls": [
+        "https://www.google.com/search?q=Tasklet+Software+Engineer+Product+San+Francisco",
+        "https://www.ycombinator.com/companies/tasklet-2/jobs/8WgDV4q-software-engineer-product"
+      ],
+      "location": "San Francisco, CA",
+      "workplace_arrangement": "on-site",
+      "job_site": {
+        "raw_address": "1 Post St., San Francisco",
+        "formatted_address": "1 Post Street, San Francisco, CA 94104, USA",
+        "latitude": 37.7887807,
+        "longitude": -122.4026599,
+        "source_url": "https://www.ycombinator.com/companies/tasklet-2/jobs/8WgDV4q-software-engineer-product",
+        "source_type": "job_posting",
+        "source_text": "The posting says the role is primarily in person at 1 Post St. in San Francisco.",
+        "validation_status": "verified",
+        "map_eligibility": "eligible",
+        "validation_method": "exact_worksite",
+        "confidence": "high",
+        "validated_at": "2026-08-03T12:25:00-07:00",
+        "notes": "The geocoder normalized the ZIP to 94104 and resolved the 1 Post Street office building in San Francisco."
+      },
+      "compensation": {
+        "minimum": 220000,
+        "maximum": 400000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$220K-$400K plus 0.15%-0.60% equity."
+      },
+      "posted_date": null,
+      "employment_type": "Full-time",
+      "seniority": "Mid-level through Staff+",
+      "culture_fit": {
+        "summary": "moderate",
+        "credential_alignment": "positive",
+        "background_openness": "positive",
+        "career_stage_alignment": "positive",
+        "work_life_balance": "concern",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "credential_alignment",
+            "value": "positive",
+            "source_url": "https://www.ycombinator.com/companies/tasklet-2/jobs/8WgDV4q-software-engineer-product",
+            "source_text": "The role accepts any experience level, says new graduates are okay, and does not require a degree.",
+            "verified_at": "2026-08-03T11:35:00-07:00"
+          },
+          {
+            "claim": "career_stage_alignment",
+            "value": "mid-level through Staff+",
+            "source_url": "https://www.ycombinator.com/companies/tasklet-2/jobs/8WgDV4q-software-engineer-product",
+            "source_text": "The posting explicitly says it is open from mid-level to Staff+.",
+            "verified_at": "2026-08-03T11:35:00-07:00"
+          },
+          {
+            "claim": "work_life_balance",
+            "value": "concern",
+            "source_url": "https://www.ycombinator.com/companies/tasklet-2/jobs/8WgDV4q-software-engineer-product",
+            "source_text": "The company describes itself as shipping constantly, while the role owns software after launch.",
+            "verified_at": "2026-08-03T11:35:00-07:00"
+          }
+        ],
+        "concerns": [
+          "The posting emphasizes constant shipping, production operations, and ownership after launch; clarify on-call and hours before proceeding."
+        ]
+      },
+      "match_score": 87,
+      "why_it_fits": [
+        "Builds user-facing web and mobile experiences for delegating work to AI agents.",
+        "Broad product/full-stack ownership with customer learning and polished UX.",
+        "Published base range starts above $200K and the role is explicitly open to mid-level candidates without a degree requirement."
+      ],
+      "concerns": [
+        "Eight-person startup with constant-shipping language.",
+        "The role mentions production operations and post-launch ownership, so on-call expectations need direct confirmation."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://www.ycombinator.com/companies/tasklet-2/jobs/8WgDV4q-software-engineer-product",
+          "source_text": "Y Combinator lists Tasklet as Active and displays the current application.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        },
+        {
+          "claim": "posted_date",
+          "value": null,
+          "source_url": "https://www.ycombinator.com/companies/tasklet-2/jobs/8WgDV4q-software-engineer-product",
+          "source_text": "The canonical page is active but does not publish a posting date.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        },
+        {
+          "claim": "workplace",
+          "value": "primarily in person in San Francisco",
+          "source_url": "https://www.ycombinator.com/companies/tasklet-2/jobs/8WgDV4q-software-engineer-product",
+          "source_text": "The posting says it is primarily in person at the San Francisco office.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai",
+          "value": "agent product interactions",
+          "source_url": "https://www.ycombinator.com/companies/tasklet-2/jobs/8WgDV4q-software-engineer-product",
+          "source_text": "Build interactions for delegating work to agents, following progress, handling uncertainty, and using output.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        },
+        {
+          "claim": "compensation",
+          "value": "$220K-$400K base",
+          "source_url": "https://www.ycombinator.com/companies/tasklet-2/jobs/8WgDV4q-software-engineer-product",
+          "source_text": "Canonical YC listing publishes $220K-$400K plus equity.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "rippling-senior-fullstack-backend-ai-products",
+      "title": "Senior Fullstack Engineer (Backend) — AI Products",
+      "company": "Rippling",
+      "canonical_url": "https://ats.rippling.com/rippling/jobs/4ce56db9-bc9a-486a-b31f-e6664b8d3a69",
+      "discovery_urls": [
+        "https://www.indeed.com/q-ai-product-engineer-l-san-francisco%2C-ca-jobs.html"
+      ],
+      "location": "San Francisco, CA or New York, NY; San Francisco option confirmed",
+      "workplace_arrangement": "hybrid",
+      "job_site": {
+        "raw_address": "San Francisco, CA",
+        "formatted_address": "430 California Street, 11th Floor, San Francisco, CA 94104, USA",
+        "latitude": 37.79325,
+        "longitude": -122.4018041,
+        "source_url": "https://www.rippling.com/company/about",
+        "source_type": "employer_location_page",
+        "source_text": "The role's official ATS lists San Francisco and requires office-based employees to work in office at least three days a week; Rippling's official office directory lists its San Francisco office at 430 California Street, 11th Floor, San Francisco, CA 94104.",
+        "validation_status": "verified",
+        "map_eligibility": "eligible",
+        "validation_method": "company_office_proxy",
+        "confidence": "medium",
+        "validated_at": "2026-08-03T12:25:00-07:00",
+        "notes": "The floor is retained from Rippling's official page; coordinates represent the building."
+      },
+      "compensation": {
+        "minimum": 159000,
+        "maximum": 278250,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$159,000-$278,250 for US Tier 1."
+      },
+      "posted_date": null,
+      "employment_type": "full-time",
+      "seniority": "senior (minimum 5 years)",
+      "culture_fit": {
+        "summary": "moderate",
+        "credential_alignment": "neutral",
+        "background_openness": "unknown",
+        "career_stage_alignment": "positive",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "Career-stage alignment",
+            "value": "The role requires at least five years and is explicitly senior.",
+            "source_url": "https://ats.rippling.com/rippling/jobs/4ce56db9-bc9a-486a-b31f-e6664b8d3a69",
+            "source_text": "A minimum 5 years of experience as a software engineer",
+            "verified_at": "2026-08-03T10:58:30-07:00"
+          }
+        ],
+        "concerns": [
+          "No published evidence confirms predictable hours or nontraditional-background openness"
+        ]
+      },
+      "match_score": 85,
+      "why_it_fits": [
+        "AI Products in title",
+        "Full-stack zero-to-one product work",
+        "Python, Django, and React",
+        "Close product and design collaboration",
+        "Hybrid San Francisco",
+        "Large, well-funded company"
+      ],
+      "concerns": [
+        "Backend emphasis is stronger than frontend",
+        "Base range starts below $200,000",
+        "Posting date is unknown",
+        "Fast-paced and shifting priorities are mentioned, though no always-on expectation is stated"
+      ],
+      "evidence": [
+        {
+          "claim": "Active canonical posting",
+          "value": true,
+          "source_url": "https://ats.rippling.com/rippling/jobs/4ce56db9-bc9a-486a-b31f-e6664b8d3a69",
+          "source_text": "Apply now",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Location and workplace",
+          "value": {
+            "location": "San Francisco",
+            "workplace_arrangement": "hybrid",
+            "minimum_in_office_days": 3
+          },
+          "source_url": "https://ats.rippling.com/rippling/jobs/4ce56db9-bc9a-486a-b31f-e6664b8d3a69",
+          "source_text": "San Francisco, CA; at least three days a week in office",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Compensation",
+          "value": {
+            "minimum": 159000,
+            "maximum": 278250,
+            "currency": "USD"
+          },
+          "source_url": "https://ats.rippling.com/rippling/jobs/4ce56db9-bc9a-486a-b31f-e6664b8d3a69",
+          "source_text": "$159,000-$278,250 USD per year (US Tier 1)",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Product responsibilities",
+          "value": "Build full-stack AI-first products with product and design from idea to scale.",
+          "source_url": "https://ats.rippling.com/rippling/jobs/4ce56db9-bc9a-486a-b31f-e6664b8d3a69",
+          "source_text": "work closely with product, design, and other engineering teams to bring the products from idea to scale",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "confident-ai-founding-product-engineer-frontend",
+      "title": "Founding Product Engineer (Frontend)",
+      "company": "Confident AI",
+      "canonical_url": "https://www.confident-ai.com/careers",
+      "discovery_urls": [
+        "https://www.confident-ai.com/careers"
+      ],
+      "location": "San Francisco",
+      "workplace_arrangement": "on-site",
+      "job_site": {
+        "raw_address": "33rd 8th St, San Francisco, CA 94103, United States",
+        "formatted_address": null,
+        "latitude": null,
+        "longitude": null,
+        "source_url": "https://www.confident-ai.com/terms",
+        "source_type": "employer_location_page",
+        "source_text": "The careers page says the role joins the founders in person in San Francisco; the current official terms identify the company's offices as '33rd 8th St, San Francisco, CA 94103, United States.'",
+        "validation_status": "unresolved",
+        "map_eligibility": "pending",
+        "validation_method": null,
+        "confidence": "low",
+        "validated_at": "2026-08-03T12:50:00-07:00",
+        "notes": "The official address remains malformed. A business-registry directory lists 33 8th Street as a principal/mailing apartment address, and the geocoder returns a different postal code; this is not a sufficiently reliable company-office proxy."
+      },
+      "compensation": {
+        "minimum": 175000,
+        "maximum": 250000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$175K-$250K base plus equity."
+      },
+      "posted_date": null,
+      "employment_type": "Full-time",
+      "seniority": "Mid-level or senior founding IC (3+ years)",
+      "culture_fit": {
+        "summary": "moderate",
+        "credential_alignment": "neutral",
+        "background_openness": "unknown",
+        "career_stage_alignment": "positive",
+        "work_life_balance": "concern",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "career_stage_alignment",
+            "value": "3+ years",
+            "source_url": "https://www.confident-ai.com/careers",
+            "source_text": "Requires 3+ years building production web applications.",
+            "verified_at": "2026-08-03T11:35:00-07:00"
+          },
+          {
+            "claim": "work_life_balance",
+            "value": "concern",
+            "source_url": "https://www.confident-ai.com/careers",
+            "source_text": "The careers page says speed is the culture and ideas move to production in days.",
+            "verified_at": "2026-08-03T11:35:00-07:00"
+          },
+          {
+            "claim": "collaboration",
+            "value": "customer-facing ownership",
+            "source_url": "https://www.confident-ai.com/careers",
+            "source_text": "The engineer talks to users and turns their workflows into product decisions.",
+            "verified_at": "2026-08-03T11:35:00-07:00"
+          }
+        ],
+        "concerns": [
+          "Speed-focused seed-stage culture; predictable-hours evidence is absent.",
+          "The hiring process includes a one-week fully paid work trial."
+        ]
+      },
+      "match_score": 82,
+      "why_it_fits": [
+        "Deep React, Next.js, TypeScript, CSS, UX, and product-design ownership.",
+        "The role builds the user-facing product for LLM traces, evaluations, testing, and observability.",
+        "Direct user collaboration, full-stack range, and a published maximum above $200K."
+      ],
+      "concerns": [
+        "Seed-stage founding scope and explicit speed culture.",
+        "Base range starts below target; no education-equivalency or predictable-hours statement."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://www.confident-ai.com/careers",
+          "source_text": "The employer careers page currently lists the role and application.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        },
+        {
+          "claim": "posted_date",
+          "value": null,
+          "source_url": "https://www.confident-ai.com/careers",
+          "source_text": "The current employer page does not publish a posting date.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        },
+        {
+          "claim": "workplace",
+          "value": "in person in San Francisco",
+          "source_url": "https://www.confident-ai.com/careers",
+          "source_text": "The open-position header lists San Francisco and the careers page describes joining in person with the founding team.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai",
+          "value": "LLM evaluation product UX",
+          "source_url": "https://www.confident-ai.com/careers",
+          "source_text": "The role builds interfaces for traces, evaluation results, and testing workflows in an AI reliability product.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        },
+        {
+          "claim": "compensation",
+          "value": "$175K-$250K base",
+          "source_url": "https://www.confident-ai.com/careers",
+          "source_text": "Employer page publishes $175K-$250K base plus equity.",
+          "verified_at": "2026-08-03T11:35:00-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "samba-tv-ai-product-engineer-san-francisco",
+      "title": "AI Product Engineer",
+      "company": "Samba TV",
+      "canonical_url": "https://jobs.lever.co/sambatv/a0a1f3cc-9b2e-4440-b5c1-45ea050cf0b1",
+      "discovery_urls": [
+        "https://wellfound.com/jobs/4220067-ai-product-engineer"
+      ],
+      "location": "San Francisco, California",
+      "workplace_arrangement": "on-site",
+      "job_site": {
+        "raw_address": "118 King Street, Suite 110, San Francisco, CA 94107",
+        "formatted_address": "118 King Street, Suite 110, San Francisco, CA 94107, USA",
+        "latitude": 37.7796126,
+        "longitude": -122.3902323,
+        "source_url": "https://www.samba.tv/users/privacy-policy",
+        "source_type": "employer_location_page",
+        "source_text": "Samba TV's official privacy policy publishes Samba TV, Inc. at 118 King Street, Suite 110, San Francisco, CA 94107.",
+        "validation_status": "verified",
+        "map_eligibility": "eligible",
+        "validation_method": "company_office_proxy",
+        "confidence": "medium",
+        "validated_at": "2026-08-03T12:50:00-07:00",
+        "notes": "The Lever posting independently confirms this role is on-site in San Francisco. This is a company-office proxy; the exact job site is not confirmed."
+      },
+      "compensation": {
+        "minimum": 150000,
+        "maximum": 200000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$150,000-$200,000 a year."
+      },
+      "posted_date": null,
+      "employment_type": "full-time salaried",
+      "seniority": "mid-to-senior; exact years not stated",
+      "culture_fit": {
+        "summary": "unknown",
+        "credential_alignment": "neutral",
+        "background_openness": "unknown",
+        "career_stage_alignment": "neutral",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [],
+        "concerns": [
+          "The posting provides no attributable evidence on predictable hours, credential flexibility, or mid-career openness"
+        ]
+      },
+      "match_score": 74,
+      "why_it_fits": [
+        "Exact title",
+        "Full-time and on-site in San Francisco",
+        "Builds AI agents for real users and internal teams",
+        "Strong product-sense emphasis",
+        "Active canonical posting with unknown date"
+      ],
+      "concerns": [
+        "Only the top of the range reaches $200,000",
+        "More agent-tooling, cloud deployment, and monitoring than frontend product UI",
+        "Posting date and culture signals are unknown"
+      ],
+      "evidence": [
+        {
+          "claim": "Active canonical posting",
+          "value": true,
+          "source_url": "https://jobs.lever.co/sambatv/a0a1f3cc-9b2e-4440-b5c1-45ea050cf0b1",
+          "source_text": "apply for this job",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Location, workplace, and employment",
+          "value": {
+            "location": "San Francisco",
+            "workplace_arrangement": "on-site",
+            "employment_type": "full-time"
+          },
+          "source_url": "https://jobs.lever.co/sambatv/a0a1f3cc-9b2e-4440-b5c1-45ea050cf0b1",
+          "source_text": "San Francisco, California; US Full-time Salaried; On-site",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        },
+        {
+          "claim": "Product responsibilities",
+          "value": "Build agents and tools from internal-team workflows, iterating from user needs.",
+          "source_url": "https://jobs.lever.co/sambatv/a0a1f3cc-9b2e-4440-b5c1-45ea050cf0b1",
+          "source_text": "Partner with internal teams; identify automation opportunities; build agents tailored to their use cases",
+          "verified_at": "2026-08-03T10:58:30-07:00"
+        }
+      ]
+    }
+  ],
+  "review_leads": [
+    {
+      "candidate_key": "openai-applied-ai-software-engineer-gtm-growth",
+      "title": "Applied AI Software Engineer, GTM Growth Engineering",
+      "company": "OpenAI",
+      "url": "https://jobs.ashbyhq.com/openai/38e3c4bf-a632-405e-9619-b87382ca2472",
+      "reason": "Current canonical role has excellent AI-and-growth evidence and a $230K-$385K range, but the official ATS leaves workplace type and remote status unspecified; the work also leans toward backend production monitoring."
+    },
+    {
+      "candidate_key": "fuel-talent-product-engineer-ai-features",
+      "title": "Product Engineer",
+      "company": "Confidential employer via Fuel Talent",
+      "url": "https://www.linkedin.com/jobs/view/product-engineer-at-fuel-talent-4424249927",
+      "reason": "Plausible React/TypeScript/Node product role that ships LLM features, but the recruiter listing does not identify the employer or provide a canonical application, authoritative date, or compensation."
+    },
+    {
+      "candidate_key": "epic-placements-frontend-engineer-ai-healthcare",
+      "title": "Frontend Engineer (React / TypeScript / Next.js)",
+      "company": "Confidential healthcare AI startup via Epic Placements",
+      "url": "https://www.glassdoor.co.uk/Job/oakland-ca-software-engineer-jobs-SRCH_IL.0%2C10_IC1147380_KO11%2C28.htm",
+      "reason": "Indexed evidence says SF onsite, $200K-$270K, and AI-powered healthcare workflows, but employer identity and a canonical employer application could not be resolved."
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "title": "Product Engineer",
+      "company": "Hercules",
+      "url": "https://hercules.app/careers/product-engineer",
+      "reason": "Strong role-specific AI product work, but the employer explicitly filters for being hungry, working hard, breaking through walls, and provides daily office dinners; those signals conflict with the approved predictable-hours and non-always-on culture preference."
+    },
+    {
+      "title": "Product Engineer",
+      "company": "Harper",
+      "url": "https://jobs.ashbyhq.com/harperinsure/7d678dba-885a-4432-94c7-a9c20852db35",
+      "reason": "Current July 24 AI-product role, but it mandates five in-office days with a very early start and emphasizes prototype-Monday/ship-Tuesday intensity plus daily dinner; this conflicts with the sustainable-hours preference."
+    },
+    {
+      "title": "Product Engineer",
+      "company": "Console",
+      "url": "https://jobs.ashbyhq.com/console/c86f4f46-3415-4c48-b851-b79d6d36bf4f",
+      "reason": "Excellent product, AI-agent, no-pedigree, stack, and compensation fit, but the authoritative employer date is August 13, 2025, outside the configured 60-day window."
+    },
+    {
+      "title": "Product Engineer, Front End",
+      "company": "Flux",
+      "url": "https://jobs.ashbyhq.com/flux/fb21b54d-baf5-4a3e-9a24-ef6479884d63",
+      "reason": "Strong React/TypeScript and explicit AI-workflow fit, but the authoritative employer date is December 18, 2025, outside the configured 60-day window."
+    },
+    {
+      "title": "Product Engineer (Frontend)",
+      "company": "Relace",
+      "url": "https://jobs.ashbyhq.com/Relace/d1515de1-ab5b-4b8e-ba56-36d40f8ca26b",
+      "reason": "Role-specific model interaction and frontend product work are present, but the authoritative employer date is October 29, 2025, outside the configured 60-day window."
+    },
+    {
+      "title": "Product AI Engineer",
+      "company": "Applied Compute",
+      "url": "https://jobs.ashbyhq.com/Applied%20Compute/0e93c8ac-446e-4e87-ba94-bfd4de05c333",
+      "reason": "The indexed description was an excellent match, but this role is absent from Applied Compute's current official Ashby feed, so active status is not confirmed."
+    },
+    {
+      "title": "Product Engineer, Frontend - B2B Applications",
+      "company": "OpenAI",
+      "url": "https://jobs.ashbyhq.com/openai/58a04a52-68d8-478c-a32f-7ce6125cb7c0/",
+      "reason": "The indexed description was an excellent hybrid frontend AI-product match, but the role is absent from OpenAI's current official ATS feed."
+    },
+    {
+      "title": "Product Engineer - Frontend",
+      "company": "Promise",
+      "url": "https://jobs.ashbyhq.com/Promise/f5d99981-cbe3-4dc2-beac-dd76ca219692?ashby_jid=10bf8262-579f-4d8c-96aa-0061a62de0f3",
+      "reason": "The role is absent from Promise's current official ATS feed, and the cached canonical description did not contain explicit role-specific AI responsibilities."
+    },
+    {
+      "title": "Product Engineer, Enterprise AI Platform",
+      "company": "OpenAI",
+      "url": "https://jobs.ashbyhq.com/openai/aeeabb7a-f6e0-4e8d-a9ad-ae3464288125",
+      "reason": "Current hybrid role has excellent stack and AI-workflow alignment, but it explicitly requires ongoing production support, monitoring, incident response, and operational reliability ownership, conflicting with the approved avoidance of operational/on-call work."
+    },
+    {
+      "title": "AI Product Engineer",
+      "company": "G2",
+      "url": "https://www.google.com/search?q=G2+AI+Product+Engineer+San+Francisco",
+      "reason": "Indexed posting evidence describes a remote role with a $160K-$185K range, conflicting with both the onsite/hybrid requirement and $200K base target."
+    }
+  ],
+  "unproductive_sources": [
+    "Built In San Francisco direct pages were blocked by robots.txt; only indexed snippets were available.",
+    "Wellfound search-index coverage returned few current canonical results.",
+    "Several attractive cached Ashby pages were absent from current official board feeds."
+  ],
+  "address_validation": {
+    "status": "completed",
+    "started_at": "2026-08-03T12:42:00-07:00",
+    "completed_at": "2026-08-03T12:50:00-07:00",
+    "verified_count": 8,
+    "unresolved_count": 4,
+    "rejected_count": 0
+  }
+}

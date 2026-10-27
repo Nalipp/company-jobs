@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-08-03-backfill-reconcile-review-1",
+  "profile_name": "default",
+  "started_at": "2026-08-03T12:02:00-07:00",
+  "completed_at": "2026-08-03T12:09:00-07:00",
+  "updated_at": "2026-08-03T12:56:00-07:00",
+  "date_range": {
+    "start": "2026-06-05",
+    "end": "2026-08-03",
+    "timezone": "America/Los_Angeles"
+  },
+  "queries": [
+    {
+      "query": "OpenAI Product Engineer Growth and AI Learning Experiences active status and workplace policy",
+      "source": "OpenAI careers and targeted official-site search",
+      "candidate_count": 1
+    },
+    {
+      "query": "Skiffra Founding Frontend Engineer AI-Native exact San Francisco worksite",
+      "source": "Skiffra Ashby API",
+      "candidate_count": 1
+    },
+    {
+      "query": "Calvis Full Stack Engineer San Francisco canonical posting",
+      "source": "Calvis employer careers and canonical job page",
+      "candidate_count": 1
+    },
+    {
+      "query": "Strella Full Stack Software Engineer exact canonical posting",
+      "source": "Strella careers and Ashby API",
+      "candidate_count": 1
+    },
+    {
+      "query": "Rippling Software Engineer II Frontend AI Fullstack Growth Engineering exact employer posting",
+      "source": "Rippling careers, Rippling ATS search, and targeted web search",
+      "candidate_count": 1
+    }
+  ],
+  "jobs": [
+    {
+      "job_key": "openai-product-engineer-growth-ai-learning-experiences",
+      "title": "Product Engineer, Growth & AI Learning Experiences",
+      "company": "OpenAI",
+      "canonical_url": "https://openai.com/careers/product-engineer-growth-and-ai-learning-experiences-san-francisco/",
+      "discovery_urls": [
+        "https://openai.com/careers/search/?q=growth",
+        "https://openai.com/careers/product-engineer-growth-and-ai-learning-experiences-san-francisco/"
+      ],
+      "location": "San Francisco",
+      "workplace_arrangement": "hybrid",
+      "job_site": {
+        "raw_address": "1455 3rd Street, San Francisco, CA 94158",
+        "formatted_address": "1455 3rd Street, San Francisco, CA 94158, USA",
+        "latitude": 37.7700459,
+        "longitude": -122.3887896,
+        "source_url": "https://openai.com/policies/terms-of-use/",
+        "source_type": "employer_location_page",
+        "source_text": "OpenAI's current official Terms of Use publish OpenAI OpCo, LLC at 1455 3rd Street, San Francisco, CA 94158.",
+        "validation_status": "verified",
+        "map_eligibility": "eligible",
+        "validation_method": "company_office_proxy",
+        "confidence": "medium",
+        "validated_at": "2026-08-03T12:56:00-07:00",
+        "notes": "The official role page independently confirms this is a hybrid San Francisco role. This pin is a documented OpenAI company-address proxy; the exact job site is not confirmed."
+      },
+      "compensation": {
+        "minimum": 230000,
+        "maximum": 385000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$230K-$385K plus equity."
+      },
+      "posted_date": null,
+      "employment_type": "Full-time",
+      "seniority": "Mid-level to senior (4+ years)",
+      "culture_fit": {
+        "summary": "unknown",
+        "credential_alignment": "positive",
+        "background_openness": "unknown",
+        "career_stage_alignment": "positive",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "credential_alignment",
+            "value": "experience-based qualifications",
+            "source_url": "https://openai.com/careers/product-engineer-growth-and-ai-learning-experiences-san-francisco/",
+            "source_text": "The posting asks for 4+ years of relevant experience and does not list a degree requirement.",
+            "verified_at": "2026-08-03T12:09:00-07:00"
+          },
+          {
+            "claim": "career_stage_alignment",
+            "value": "4+ years",
+            "source_url": "https://openai.com/careers/product-engineer-growth-and-ai-learning-experiences-san-francisco/",
+            "source_text": "The role targets software, product, or full-stack engineers with 4+ years building user-facing products.",
+            "verified_at": "2026-08-03T12:09:00-07:00"
+          }
+        ],
+        "concerns": [
+          "The posting provides no attributable evidence about predictable hours, nights, weekends, or on-call expectations, so work-life fit remains unknown."
+        ]
+      },
+      "match_score": 96,
+      "why_it_fits": [
+        "Exceptional product/frontend/full-stack fit: the role owns polished user-facing AI learning experiences from interaction design through APIs, telemetry, and iteration.",
+        "Directly combines AI, growth, activation, retention, experimentation, design/product collaboration, customer-facing work, and the user's teaching background.",
+        "The current employer page is active, compensation clears the target, qualifications are experience-based, and OpenAI's official San Francisco policy is hybrid three days."
+      ],
+      "concerns": [
+        "The authoritative employer posting date is unavailable; the active employer page is included under the profile's unknown-date rule.",
+        "OpenAI is much larger than the preferred mid-size employer.",
+        "Predictable-hours evidence is unavailable."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://openai.com/careers/product-engineer-growth-and-ai-learning-experiences-san-francisco/",
+          "source_text": "The current employer careers page exposes the role and an active Apply action.",
+          "verified_at": "2026-08-03T12:09:00-07:00"
+        },
+        {
+          "claim": "posted_date",
+          "value": null,
+          "source_url": "https://openai.com/careers/product-engineer-growth-and-ai-learning-experiences-san-francisco/",
+          "source_text": "The active employer page does not publish a posting date; it is preserved as unknown.",
+          "verified_at": "2026-08-03T12:09:00-07:00"
+        },
+        {
+          "claim": "workplace",
+          "value": "hybrid, three days per week in San Francisco",
+          "source_url": "https://openai.com/careers/software-engineer-research-developer-productivity-san-francisco/",
+          "source_text": "OpenAI's official policy text says that a San Francisco role uses a hybrid model of three days in the office per week.",
+          "verified_at": "2026-08-03T12:09:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai",
+          "value": "AI learning experiences and agent-human GTM workflows",
+          "source_url": "https://openai.com/careers/product-engineer-growth-and-ai-learning-experiences-san-francisco/",
+          "source_text": "The engineer builds learning experiences directly inside OpenAI products while the team develops workflows where agents and humans identify customer moments and improve outcomes.",
+          "verified_at": "2026-08-03T12:09:00-07:00"
+        },
+        {
+          "claim": "product_and_growth_scope",
+          "value": "user acquisition, activation, retention, and AI literacy",
+          "source_url": "https://openai.com/careers/product-engineer-growth-and-ai-learning-experiences-san-francisco/",
+          "source_text": "The role builds end-to-end experiences that drive acquisition, activation, retention, and more meaningful AI use, partnering with product, design, research, data, content, and customer-facing teams.",
+          "verified_at": "2026-08-03T12:09:00-07:00"
+        },
+        {
+          "claim": "compensation",
+          "value": "$230K-$385K plus equity",
+          "source_url": "https://openai.com/careers/product-engineer-growth-and-ai-learning-experiences-san-francisco/",
+          "source_text": "The canonical employer page publishes $230K-$385K plus equity.",
+          "verified_at": "2026-08-03T12:09:00-07:00"
+        }
+      ]
+    }
+  ],
+  "review_leads": [
+    {
+      "candidate_key": "skiffra-founding-frontend-engineer-ai-native",
+      "title": "Founding Frontend Engineer (AI-Native)",
+      "company": "Skiffra",
+      "url": "https://jobs.ashbyhq.com/skiffra/85d9ed19-b8b3-4090-bf1f-387ca06b4c02",
+      "reason": "The exact current ATS record labels a secondary location 'San Francisco' but its authoritative locality and description say 'San Francisco Bay Area'; city-only eligibility therefore remains materially unresolved."
+    },
+    {
+      "candidate_key": "rippling-software-engineer-ii-frontend-ai-fullstack-growth",
+      "title": "Software Engineer II, Frontend/AI Fullstack - Growth Engineering",
+      "company": "Rippling",
+      "url": "https://www.indeed.com/q-frontend-engineer-l-san-francisco%2C-ca-jobs.html",
+      "reason": "Fresh aggregator evidence still describes the exact SF AI/frontend/growth role, but targeted searches of Rippling's official careers and ATS surfaces did not expose the exact role or a canonical URL; active authoritative status and date remain unresolved."
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "title": "Full Stack Engineer",
+      "company": "Calvis",
+      "url": "https://calvis.com/careers/full-stack-engineer-san-francisco",
+      "reason": "The July 15 current employer posting is otherwise a strong on-site AI-product fit, but it explicitly seeks someone who works hard and is 'wired in,' with the business and problems staying on their mind; that is an attributable always-on culture signal conflicting with the approved predictable-hours constraint."
+    },
+    {
+      "title": "Full Stack Software Engineer",
+      "company": "Strella",
+      "url": "https://jobs.ashbyhq.com/strella/4b3c3e18-956b-4fa8-8c54-8d022bd6475e/",
+      "reason": "The exact active hybrid role has an authoritative October 9, 2025 posting date outside the backfill window and requires a Bachelor's or Master's degree without equivalent-experience language, conflicting with the approved credential preference."
+    }
+  ],
+  "unproductive_sources": [
+    "Rippling's official careers and ATS surfaces did not resolve the exact historical role despite fresh aggregator evidence.",
+    "Skiffra's authoritative ATS evidence remains internally inconsistent between a San Francisco label and a San Francisco Bay Area locality; address validation was intentionally not run."
+  ],
+  "address_validation": {
+    "status": "completed",
+    "started_at": "2026-08-03T12:55:00-07:00",
+    "completed_at": "2026-08-03T12:56:00-07:00",
+    "verified_count": 1,
+    "unresolved_count": 0,
+    "rejected_count": 0
+  }
+}

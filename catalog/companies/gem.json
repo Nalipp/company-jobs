@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "company_id": "gem",
+  "company": {
+    "name": "Gem",
+    "aliases": [],
+    "website_url": null,
+    "primary_domain": null,
+    "description": null,
+    "industries": [],
+    "funding_stage": null,
+    "employee_count_range": null,
+    "evidence": []
+  },
+  "status": "active",
+  "sources": [
+    {
+      "source_id": "primary-careers",
+      "source_type": "custom_careers",
+      "provider": "custom",
+      "url": "https://www.ycombinator.com/companies/gem/jobs",
+      "board_id": null,
+      "status": "active",
+      "discovered_from": [
+        "Google Jobs",
+        "Wellfound",
+        "Y Combinator Jobs"
+      ],
+      "last_checked_at": "2026-08-03T10:58:30-07:00",
+      "last_successful_at": "2026-08-03T10:58:30-07:00"
+    }
+  ],
+  "offices": [
+    {
+      "office_id": "san-francisco",
+      "label": "San Francisco office",
+      "location_text": "San Francisco, CA",
+      "address": "525 Market Street, 6th Floor, San Francisco, CA 94105, USA",
+      "latitude": 37.7905075,
+      "longitude": -122.399158,
+      "address_verified": true,
+      "evidence": [
+        {
+          "source_type": "company_website",
+          "source_name": "employer_location_page",
+          "url": "https://www.gem.com/contact",
+          "text": "The canonical role posting says it is based out of Gem's San Francisco HQ and is not eligible for full-time remote work; Gem's official contact page labels its Headquarters as 525 Market Street, 6th Floor, San Francisco, CA 94105.",
+          "checked_at": "2026-08-03T12:25:00-07:00"
+        }
+      ],
+      "last_checked_at": "2026-08-03T12:25:00-07:00"
+    }
+  ],
+  "jobs": {
+    "gem-ai-product-engineer-san-francisco": {
+      "job_id": "gem-ai-product-engineer-san-francisco",
+      "source_id": "primary-careers",
+      "source_job_id": "4Uathaz-ai-product-engineer-san-francisco",
+      "canonical_url": "https://www.ycombinator.com/companies/gem/jobs/4Uathaz-ai-product-engineer-san-francisco",
+      "activity": {
+        "status": "active",
+        "missing_from_source_count": 0,
+        "inactive_confirmed_at": null
+      },
+      "raw": {
+        "title": "AI Product Engineer (San Francisco)",
+        "location_text": "San Francisco, CA; San Francisco HQ",
+        "workplace_arrangement": "on-site",
+        "employment_type": "full-time",
+        "seniority": "mid-to-senior (3+ years)",
+        "compensation": {
+          "minimum": 150000,
+          "maximum": 260000,
+          "currency": "USD",
+          "basis": "base",
+          "period": "year",
+          "source_text": "$150,000-$260,000 annual salary plus equity and benefits."
+        },
+        "posted_at": null,
+        "description_text": "Fit: Exact AI Product Engineer title\nFit: Owns user-facing AI features end to end\nFit: Python, Node, TypeScript, React, and Elasticsearch\nFit: Collaborates with product and design\nFit: Mentoring can be part of the role\nFit: Approximately 200-person company and substantial funding\nConcern: Base range starts below $200,000\nConcern: The active posting date is unknown\nConcern: San Francisco HQ attendance frequency is not quantified\nEvidence (Active application page): Apply to role\nEvidence (Employment and location): Full-time; based out of our San Francisco HQ; not eligible for full-time remote work\nEvidence (Compensation): $150,000-$260,000 based on level, in addition to equity and benefits\nEvidence (Product and stack): Build products powered by LLMs across the entire stack from backend to frontend",
+        "description_completeness": "evidence_only"
+      },
+      "hashes": {
+        "metadata_hash": "e77d179965b919f012dd66630e25391e60359c702fbba208a4e1be59a911abee",
+        "content_hash": "3a56c9e02d23f9d890fe6fc02e5c08ccc28796e6fa152916f61123f1b9406729",
+        "hash_algorithm": "sha256"
+      },
+      "discovered_from": [
+        "legacy:runs/2026-08-03-2.json",
+        "legacy:runs/2026-08-03-3.json"
+      ],
+      "evaluations": [
+        {
+          "profile_name": "default",
+          "profile_updated_at": "2026-08-05T10:36:12-07:00",
+          "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+          "job_content_hash": "3a56c9e02d23f9d890fe6fc02e5c08ccc28796e6fa152916f61123f1b9406729",
+          "evaluated_at": "2026-08-05T10:36:12-07:00",
+          "outcome": "included",
+          "match_score": 94,
+          "reason_codes": [
+            "active_at_legacy_verification",
+            "san_francisco_posting_text",
+            "on_site",
+            "full_time",
+            "compatible_title_or_role_family",
+            "role_specific_ai_work",
+            "published_base_maximum_at_least_200000",
+            "migrated_evidence_only_description"
+          ],
+          "evidence_snippets": [
+            "Exact AI Product Engineer title",
+            "Owns user-facing AI features end to end",
+            "Python, Node, TypeScript, React, and Elasticsearch",
+            "Collaborates with product and design",
+            "Mentoring can be part of the role",
+            "Approximately 200-person company and substantial funding",
+            "Apply to role",
+            "Full-time; based out of our San Francisco HQ; not eligible for full-time remote work",
+            "$150,000-$260,000 based on level, in addition to equity and benefits",
+            "Build products powered by LLMs across the entire stack from backend to frontend"
+          ]
+        }
+      ],
+      "first_seen_at": "2026-08-03T10:57:10-07:00",
+      "last_seen_at": "2026-08-03T11:35:00-07:00",
+      "last_checked_at": "2026-08-03T11:35:00-07:00"
+    }
+  },
+  "refresh": {
+    "last_attempted_at": "2026-08-05T15:00:00-07:00",
+    "last_successful_at": "2026-08-03T10:58:30-07:00",
+    "last_status": "failed",
+    "consecutive_failures": 1,
+    "last_error": "primary-careers: unsupported structured source"
+  },
+  "created_at": "2026-08-03T10:57:10-07:00",
+  "updated_at": "2026-08-05T15:00:00-07:00"
+}

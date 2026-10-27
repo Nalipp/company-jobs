@@ -1,0 +1,1134 @@
+{
+  "schema_version": 2,
+  "collection_mode": "known_company_refresh",
+  "discovery_id": "2026-08-05-refresh-150000",
+  "profile_name": "default",
+  "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+  "status": "partial",
+  "strategy": "incremental",
+  "previous_discovery_id": "2026-08-05-refresh-133100",
+  "started_at": "2026-08-05T15:00:00-07:00",
+  "completed_at": "2026-08-05T15:00:00-07:00",
+  "date_range": {
+    "start": "2026-08-05",
+    "end": "2026-08-05",
+    "timezone": "America/Los_Angeles"
+  },
+  "query_matrix": [
+    "poll https://jobs.ashbyhq.com/Ampersand",
+    "poll https://www.confident-ai.com/careers",
+    "poll https://jobs.ashbyhq.com/Edison%20Scientific",
+    "poll https://www.ycombinator.com/companies/gem/jobs",
+    "poll https://jobs.ashbyhq.com/klarity-ai",
+    "poll https://jobs.ashbyhq.com/mercor",
+    "poll https://openai.com/careers/search/",
+    "poll https://ats.rippling.com/rippling/jobs",
+    "poll https://jobs.lever.co/sambatv",
+    "poll https://jobs.ashbyhq.com/speak",
+    "poll https://tasklet.ai/careers",
+    "poll https://jobs.ashbyhq.com/thorin",
+    "poll https://careers.town.com/"
+  ],
+  "coverage": {
+    "candidate_limit": 100,
+    "limit_reached": false
+  },
+  "sources": [
+    {
+      "name": "Ampersand ashby source",
+      "kind": "ats",
+      "provider": "ashby",
+      "board_id": "Ampersand",
+      "company_id": "ampersand",
+      "query": "poll https://jobs.ashbyhq.com/Ampersand",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/Ampersand?includeCompensation=true",
+      "status": "completed",
+      "fetched_count": 10,
+      "queued_count": 0,
+      "unchanged_count": 2,
+      "rejected_count": 8,
+      "memory_skipped_count": 0,
+      "notes": null
+    },
+    {
+      "name": "Confident AI custom source",
+      "kind": "employer_careers",
+      "provider": "custom",
+      "board_id": null,
+      "company_id": "confident-ai",
+      "query": "poll https://www.confident-ai.com/careers",
+      "url": "https://www.confident-ai.com/careers",
+      "status": "unsupported",
+      "fetched_count": 0,
+      "queued_count": 0,
+      "unchanged_count": 0,
+      "rejected_count": 0,
+      "memory_skipped_count": 0,
+      "notes": "No structured collector is configured; no missing-job inference was made."
+    },
+    {
+      "name": "Edison Scientific ashby source",
+      "kind": "ats",
+      "provider": "ashby",
+      "board_id": "Edison Scientific",
+      "company_id": "edison-scientific",
+      "query": "poll https://jobs.ashbyhq.com/Edison%20Scientific",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/Edison%20Scientific?includeCompensation=true",
+      "status": "completed",
+      "fetched_count": 27,
+      "queued_count": 5,
+      "unchanged_count": 1,
+      "rejected_count": 21,
+      "memory_skipped_count": 0,
+      "notes": null
+    },
+    {
+      "name": "Gem custom source",
+      "kind": "employer_careers",
+      "provider": "custom",
+      "board_id": null,
+      "company_id": "gem",
+      "query": "poll https://www.ycombinator.com/companies/gem/jobs",
+      "url": "https://www.ycombinator.com/companies/gem/jobs",
+      "status": "unsupported",
+      "fetched_count": 0,
+      "queued_count": 0,
+      "unchanged_count": 0,
+      "rejected_count": 0,
+      "memory_skipped_count": 0,
+      "notes": "No structured collector is configured; no missing-job inference was made."
+    },
+    {
+      "name": "Klarity ashby source",
+      "kind": "ats",
+      "provider": "ashby",
+      "board_id": "klarity-ai",
+      "company_id": "klarity",
+      "query": "poll https://jobs.ashbyhq.com/klarity-ai",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/klarity-ai?includeCompensation=true",
+      "status": "completed",
+      "fetched_count": 13,
+      "queued_count": 3,
+      "unchanged_count": 0,
+      "rejected_count": 10,
+      "memory_skipped_count": 0,
+      "notes": null
+    },
+    {
+      "name": "Mercor ashby source",
+      "kind": "ats",
+      "provider": "ashby",
+      "board_id": "mercor",
+      "company_id": "mercor",
+      "query": "poll https://jobs.ashbyhq.com/mercor",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/mercor?includeCompensation=true",
+      "status": "completed",
+      "fetched_count": 79,
+      "queued_count": 1,
+      "unchanged_count": 0,
+      "rejected_count": 78,
+      "memory_skipped_count": 0,
+      "notes": null
+    },
+    {
+      "name": "OpenAI custom source",
+      "kind": "employer_careers",
+      "provider": "custom",
+      "board_id": null,
+      "company_id": "openai",
+      "query": "poll https://openai.com/careers/search/",
+      "url": "https://openai.com/careers/search/",
+      "status": "unsupported",
+      "fetched_count": 0,
+      "queued_count": 0,
+      "unchanged_count": 0,
+      "rejected_count": 0,
+      "memory_skipped_count": 0,
+      "notes": "No structured collector is configured; no missing-job inference was made."
+    },
+    {
+      "name": "Rippling custom source",
+      "kind": "employer_careers",
+      "provider": "custom",
+      "board_id": null,
+      "company_id": "rippling",
+      "query": "poll https://ats.rippling.com/rippling/jobs",
+      "url": "https://ats.rippling.com/rippling/jobs",
+      "status": "unsupported",
+      "fetched_count": 0,
+      "queued_count": 0,
+      "unchanged_count": 0,
+      "rejected_count": 0,
+      "memory_skipped_count": 0,
+      "notes": "No structured collector is configured; no missing-job inference was made."
+    },
+    {
+      "name": "Samba TV lever source",
+      "kind": "ats",
+      "provider": "lever",
+      "board_id": "sambatv",
+      "company_id": "samba-tv",
+      "query": "poll https://jobs.lever.co/sambatv",
+      "url": "https://api.lever.co/v0/postings/sambatv?mode=json",
+      "status": "completed",
+      "fetched_count": 61,
+      "queued_count": 2,
+      "unchanged_count": 0,
+      "rejected_count": 59,
+      "memory_skipped_count": 0,
+      "notes": null
+    },
+    {
+      "name": "Speak ashby source",
+      "kind": "ats",
+      "provider": "ashby",
+      "board_id": "speak",
+      "company_id": "speak",
+      "query": "poll https://jobs.ashbyhq.com/speak",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/speak?includeCompensation=true",
+      "status": "completed",
+      "fetched_count": 42,
+      "queued_count": 1,
+      "unchanged_count": 0,
+      "rejected_count": 41,
+      "memory_skipped_count": 0,
+      "notes": null
+    },
+    {
+      "name": "Tasklet custom source",
+      "kind": "employer_careers",
+      "provider": "custom",
+      "board_id": null,
+      "company_id": "tasklet",
+      "query": "poll https://tasklet.ai/careers",
+      "url": "https://tasklet.ai/careers",
+      "status": "unsupported",
+      "fetched_count": 0,
+      "queued_count": 0,
+      "unchanged_count": 0,
+      "rejected_count": 0,
+      "memory_skipped_count": 0,
+      "notes": "No structured collector is configured; no missing-job inference was made."
+    },
+    {
+      "name": "Thorin ashby source",
+      "kind": "ats",
+      "provider": "ashby",
+      "board_id": "thorin",
+      "company_id": "thorin",
+      "query": "poll https://jobs.ashbyhq.com/thorin",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/thorin?includeCompensation=true",
+      "status": "completed",
+      "fetched_count": 5,
+      "queued_count": 2,
+      "unchanged_count": 0,
+      "rejected_count": 3,
+      "memory_skipped_count": 0,
+      "notes": null
+    },
+    {
+      "name": "Town.com, Inc. ashby source",
+      "kind": "ats",
+      "provider": "ashby",
+      "board_id": "town",
+      "company_id": "town-com",
+      "query": "poll https://careers.town.com/",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/town?includeCompensation=true",
+      "status": "completed",
+      "fetched_count": 14,
+      "queued_count": 3,
+      "unchanged_count": 0,
+      "rejected_count": 11,
+      "memory_skipped_count": 0,
+      "notes": null
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "job-c51c936d31ac76d9bacebac3",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "Edison Scientific",
+        "source_job_id": "69572d5c-36ff-4a38-a1da-e1130d14b031",
+        "fingerprint": "c51c936d31ac76d9bacebac35c50be914d05cad5d5f5795fc8222b6fd0faf63c"
+      },
+      "title": "Forward Deployed AI Engineer",
+      "company": "Edison Scientific",
+      "discovery_url": "https://jobs.ashbyhq.com/Edison%20Scientific/69572d5c-36ff-4a38-a1da-e1130d14b031/application",
+      "canonical_url": "https://jobs.ashbyhq.com/Edison%20Scientific/69572d5c-36ff-4a38-a1da-e1130d14b031",
+      "source_names": [
+        "edison-scientific:ashby"
+      ],
+      "location_text": "San Francisco | New York | Remote available (U.S. Only) | Boston",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 200000,
+        "maximum": 350000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$200K - $350K"
+      },
+      "posted_date": "2026-07-01",
+      "description_text": "ABOUT US\n\nEdison Scientific builds and deploys AI scientist agents to accelerate science and the development of new medicines. We are an ambitious team run by scientists and engineers from leading institutions across biology, physics, chemistry, and AI.\n\nROLE\n\nAs a Forward Deployed AI Engineer, you'll be embedded directly with leading scientific R&D organizations across pharma and biotech – taking full ownership of how Edison's AI agents create value in their environment. You will deeply understand their science, their workflows, and their pain points, then determine where our platform can have the most impact.\n\nThis isn't remote support or implementation consulting. You'll be on-site and on the front lines, owning integrations, reliability, relationship cadence, and the product feedback loop end to end. You will build relationships with scientists and research leaders, identify the highest-leverage problems, and ship solutions quickly. You'll operate with a high degree of independence and serve as the bridge between what our platform can do and what the customer needs it to do, feeding insights back to our product and engineering teams to shape the roadmap. While we don’t require you to have a scientific background, we expect our engineers to be deeply curious about science and to be excited to build and drive value for our partners.\n\nRESPONSIBILITIES\n\n- Translate complex scientific and operational requirements into a clear delivery roadmap, from initial discovery through scaled production deployment.\n\n- Be embedded with R&D teams, understand their research workflows deeply, and drive & own the value creation that Edison delivers to our partners.\n\n- Map the customer's scientific and operational landscape to identify where AI agents can have the most impact – not just where they ask for help, but where the real leverage is.\n\n- Design, implement, and iterate on production-ready integrations in fast cycles, often owning features end-to-end from architecture to rollout.\n\n- Troubleshoot and debug issues in real time, ensure reliability and adoption, and be the go-to technical contact for AI within the client organization.\n\n- Capture pain points, unmet needs, and product gaps and work with our internal Applied AI and engineering teams to shape future capabilities.\n\n- Partner with GTM and account executives to scope engagements, define success metrics, and support pre-sales technical evaluation.\n\nREQUIREMENTS\n\n- 2+ years of professional software engineering experience, with a track record of shipping production-grade software in fast-paced or ambiguous environments. Strong proficiency in Python and/or TypeScript/JavaScript with deep fundamentals\n\n- Hands-on experience building and deploying LLM-powered or agentic AI systems in production environments, including prompt engineering, RAG pipelines, model evaluation, and orchestration frameworks.\n\n- AI fluency: able to reason through systems architecture, debug at the infrastructure level, and write clean production code independently (without reliance on AI-assisted coding tools).\n\n- Comfortable with 20-40% travel (at peak times), operating independently, making decisions with incomplete information, and driving outcomes without close oversight.\n\n- Proven problem-solving skills, navigating complex systems, debugging issues in real-time, and owning features end-to-end.\n\n- Strong communication and relationship-building skills – able to earn trust with scientists, executives, and engineering teams.\n\n- Deep curiosity and willingness to learn new scientific domains quickly and adapt to rapidly evolving priorities.\n\n- Degree in Computer Science, Software Engineering, Mathematics, Physics, or a related technical field; or equivalent demonstrated depth through professional experience.\n\nBONUS POINTS FOR:\n\n- Experience in life sciences, pharma, biotech, or scientific R&D – either as a researcher, consultant, or engineer working in these environments.\n\n- Familiarity with regulated data environments (GxP, HIPAA, 21 CFR Part 11, or equivalent compliance frameworks)\n\n- Background as a technical founder, forward-deployed engineer, or management consultant.\n\n- A science degree or research experience alongside your engineering skills.\n\nWHY JOIN US?\n\nWe're a fast-moving, mission-driven culture where smart people do their best work and actually enjoy doing it. We also offer full-time employees the following:\n\n- Competitive salary and equity\n\n- Full healthcare coverage; we pay 100% of premiums for you and your dependents\n\n- Support for growing families, including a yearly new parent stipend and fertility coverage through Carrot\n\n- Mental health support through Rula, our in-network therapist and psychiatrist network with fast availability\n\n- 12 weeks of paid parental leave for maternity, paternity, and adoption\n\n- Pet care support with a yearly employer-funded stipend for your animal companions\n\n- Commuter benefits so you can pay for transit and parking with pre-tax dollars\n\n- 401(k) company matching\n\n- $300 health and wellness benefit quarterly\n\n- Lunch is on us every day you're in the office, and dinner is on us when you're working late\n\n- Regular team off-sites and company events\n\nEdison Scientific is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other protected characteristic under applicable law.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "3b8a8393d0057b09121ef470f9bdad4128eb0f9aeb23110c6c62da98cd948bda",
+        "content_hash": "c35e964c0e4caf73d56f3cbd7df4bc0e2ff7df624fe357adb72c583dc9773e13",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "changed",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [],
+      "verification": {
+        "status": "verified",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": null,
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-5594b0b7ba39496f8779cc5c",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "Edison Scientific",
+        "source_job_id": "9e5a7b8d-71bb-4f08-a781-72be4d45a043",
+        "fingerprint": "5594b0b7ba39496f8779cc5cd1bace8cecb2248cfc9fa52bc7e3ac869d6a5f58"
+      },
+      "title": "Member of Technical Staff, Applied AI Engineer, Agents",
+      "company": "Edison Scientific",
+      "discovery_url": "https://jobs.ashbyhq.com/Edison%20Scientific/9e5a7b8d-71bb-4f08-a781-72be4d45a043/application",
+      "canonical_url": "https://jobs.ashbyhq.com/Edison%20Scientific/9e5a7b8d-71bb-4f08-a781-72be4d45a043",
+      "source_names": [
+        "edison-scientific:ashby"
+      ],
+      "location_text": "San Francisco | New York",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 175000,
+        "maximum": 240000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$175K - $240K"
+      },
+      "posted_date": "2026-07-16",
+      "description_text": "ABOUT US\n\nEdison Scientific builds and deploys AI scientist agents to accelerate science and the development of new medicines. We are an ambitious team run by scientists and engineers from leading institutions across biology, physics, chemistry, and AI.\n\nTHE ROLE\n\nWe're looking for an engineer to join the team responsible for building Edison's AI agents. This team owns the development and design of our AI scientist agent, Kosmos.\n\nYou'll own the development and maintenance of production agents, prototype new capabilities with our internal science and engineering teams, and shape how our platform evolves. You'll spend some time with customers to understand real workflows and validate what you're building, but your primary focus is on the agents themselves – making them more capable, more reliable, and more useful across the life sciences.\n\nRESPONSIBILITIES\n\n- Architect, implement, and maintain the AI agents that power Edison's platform, from prototype through production.\n\n- Work with our internal science and engineering teams to explore new agent architectures, prompting strategies, tool integrations, and evaluation frameworks.\n\n- Develop reusable infrastructure – agent skills, tool-use pipelines, benchmarks – that improves every agent on the platform.\n\n- Spend time with R&D partners (~30%) to understand their workflows, test what you've built in real environments, and bring insights back to the team.\n\n- Translate field insights and internal research into product direction – help the team prioritize what to build next.\n\nQUALIFICATIONS\n\n- Typically, 5+ years of professional software engineering experience, with production experience shipping systems that real users depend on.\n\n- Experience building LLM-powered tools or applications: prompting, context engineering, agent architectures, evaluation frameworks.\n\n- Strong engineering foundation in Computer Science, Software Engineering, Mathematics, Physics, Data Science, or a related technical field.\n\n- Proficiency in Python and/or TypeScript, with comfort picking up new tools and frameworks quickly.\n\n- Able to work across engineering, science, and product teams.\n\n- Comfortable building from scratch, driving clarity in ambiguous situations, and wearing multiple hats.\n\nBONUS POINTS FOR\n\n- Experience in life sciences, biomedical research, scientific computing, or technical R&D workflows.\n\n- Experience building agent systems, tool-use pipelines, or evaluation/benchmarking frameworks for AI applications.\n\n- Contributions to open-source scientific or AI tooling.\n\nWHY JOIN US?\n\nWe're a fast-moving, mission-driven culture where smart people do their best work and actually enjoy doing it. We also offer full-time employees the following:\n\n- Competitive salary and equity\n\n- Full healthcare coverage; we pay 100% of premiums for you and your dependents\n\n- Support for growing families, including a yearly new parent stipend and fertility coverage through Carrot\n\n- Mental health support through Rula, our in-network therapist and psychiatrist network with fast availability\n\n- 12 weeks of paid parental leave for maternity, paternity, and adoption\n\n- Pet care support with a yearly employer-funded stipend for your animal companions\n\n- Commuter benefits so you can pay for transit and parking with pre-tax dollars\n\n- 401(k) company matching\n\n- $300 health and wellness benefit quarterly\n\n- Lunch is on us every day you're in the office, and dinner is on us when you're working late\n\n- Regular team off-sites and company events\n\nEdison Scientific is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other protected characteristic under applicable law.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "f4206a422d3fd4a6f0c2b9749ba4f17b3807ca53bb0ed9bd1502bdd32569922f",
+        "content_hash": "0b7626ac45348cc1e777f837247dd4718559fc67ab5cb09178249ab3da054cbc",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "new",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [],
+      "verification": {
+        "status": "verified",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": null,
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-ef67c04533d12057525839f4",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "Edison Scientific",
+        "source_job_id": "a1096b9b-d96b-43f1-907b-daca3ee7e1b4",
+        "fingerprint": "ef67c04533d12057525839f467075f2984b30c9eb31213af4c5a2d04bf987b6f"
+      },
+      "title": "Manager of Technical Staff, Product Engineering",
+      "company": "Edison Scientific",
+      "discovery_url": "https://jobs.ashbyhq.com/Edison%20Scientific/a1096b9b-d96b-43f1-907b-daca3ee7e1b4/application",
+      "canonical_url": "https://jobs.ashbyhq.com/Edison%20Scientific/a1096b9b-d96b-43f1-907b-daca3ee7e1b4",
+      "source_names": [
+        "edison-scientific:ashby"
+      ],
+      "location_text": "San Francisco",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 250000,
+        "maximum": 350000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$250K - $350K"
+      },
+      "posted_date": "2026-08-02",
+      "description_text": "ABOUT US\n\nEdison Scientific builds and deploys AI scientist agents to accelerate science and the development of new medicines. We are an ambitious team run by scientists and engineers from leading institutions across biology, physics, chemistry, and AI.\n\nTHE ROLE\n\nAs an Engineering Manager, you'll play a key role in leading and scaling the people and technology powering our autonomous scientific discovery platform.\n\nYou’ll lead our product engineering team. This team owns the frontend and backend stack powering our user experience with Edison’s platform. You will partner with scientists, product managers, and designers to solve complex UX challenges inherent to scientific agents. These challenges span representing new information hierarchies, supporting multi-user collaboration with agents, persisting agent states across runtimes, managing access to agent and user-created assets, and supporting a growing list of communication modalities. Your team will own both the API experience used by agents and automations as well as the UI that scientists interact with daily. This high-impact leadership role reports to the Head of Engineering.\n\nOur mission is to build an AI scientist to cure human diseases, and you'll lead the implementation and design of the core product that achieves this goal. This role will influence architecture, operations, and growth of our product engineering team. You will help mentor junior engineers and enable senior engineers to build world-class software.\n\nThis role is on-site at our San Francisco office in the Dogpatch neighborhood. Our office is a converted warehouse with high ceilings, open space, and a team that genuinely believes in what they're building.\n\nRESPONSIBILITIES\n\n- Manage and grow our product engineering team, owning mentorship, career development, and the hiring pipeline as we scale from four to ten engineers by end of year.\n\n- Partner with our product and research teams to bring state of the art features into production.\n\n- Set the technical strategy for our AI product platform, focusing on engineering quality and velocity.\n\n- Diagnose and solve challenges that our scientists face in using our platform for discoveries.\n\n- Own technical decision making surrounding our API and UI layers.\n\n- Manage cross-functional communication and planning between engineering teams and stakeholders.\n\nQUALIFICATIONS\n\n- 4+ years of experience managing an engineering team and leading cross-functional initiatives.\n\n- Prior experience working as a product engineer at a high-velocity, engineering-focused organization.\n\n- Hands-on fullstack proficiency: Python, JavaScript/TypeScript, modern frontend frameworks, and infrastructure tooling.\n\n- Deep familiarity with systems and API design, product thinking, and operating applications in production.\n\n- Strong understanding of systems architecture including distributed systems, data modeling, and cloud infrastructure.\n\nBONUS POINTS FOR\n\n- Experience with AI applications or scientific computing solutions.\n\n- Prior experience in startups or small teams with significant architectural ownership and ambiguity.\n\n- Experience scaling systems, teams, or platforms through periods of rapid growth.\n\nSALARY\n\n$250,000 - $350,000 • Offers equity\n\nWHY JOIN US?\n\nWe're a fast-moving, mission-driven culture where smart people do their best work and actually enjoy doing it. We also offer full-time employees the following:\n\n- Competitive salary and equity\n\n- Full healthcare coverage; we pay 100% of premiums for you and your dependents\n\n- Support for growing families, including a yearly new parent stipend and fertility coverage through Carrot\n\n- Mental health support through Rula, our in-network therapist and psychiatrist network with fast availability\n\n- 12 weeks of paid parental leave for maternity, paternity, and adoption\n\n- Pet care support with a yearly employer-funded stipend for your animal companions\n\n- Commuter benefits so you can pay for transit and parking with pre-tax dollars\n\n- 401(k) company matching\n\n- $300 health and wellness benefit quarterly\n\n- Lunch is on us every day you're in the office, and dinner is on us when you're working late\n\n- Regular team off-sites and company events\n\nEdison Scientific is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other protected characteristic under applicable law.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "a3d34c0f6db24888171d73ad0ca3279dd72070727b949b56d2aac5fded114df8",
+        "content_hash": "5b73302ca94bcc175d8d8b7dd80dcaeb8abdbcb9a4c9ac3a2e02cc7c11952ca8",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "new",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [],
+      "verification": {
+        "status": "excluded",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": "Engineering-manager seniority is outside the approved mid-level, senior, or small-company lead scope.",
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-4a602bca4ef79140bc9ab86b",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "Edison Scientific",
+        "source_job_id": "19f9e74a-0bff-4ef4-9e4b-d5a44092e086",
+        "fingerprint": "4a602bca4ef79140bc9ab86b1746fd8bee82a06cc57be77594eaea31fd03ebf3"
+      },
+      "title": "Member of Technical Staff, Full-stack Engineer",
+      "company": "Edison Scientific",
+      "discovery_url": "https://jobs.ashbyhq.com/Edison%20Scientific/19f9e74a-0bff-4ef4-9e4b-d5a44092e086/application",
+      "canonical_url": "https://jobs.ashbyhq.com/Edison%20Scientific/19f9e74a-0bff-4ef4-9e4b-d5a44092e086",
+      "source_names": [
+        "edison-scientific:ashby"
+      ],
+      "location_text": "San Francisco | New York",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 175000,
+        "maximum": 240000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$175K - $240K"
+      },
+      "posted_date": "2026-08-05",
+      "description_text": "ABOUT US\n\nEdison Scientific builds and deploys AI scientist agents to accelerate science and the development of new medicines. We are an ambitious team run by scientists and engineers from leading institutions across biology, physics, chemistry, and AI.\n\nTHE ROLE\n\nAs a MTS (Full-stack, Backend-Focused, Python) you’ll help build and support our core platform that automates scientific discovery. You’ll work across the stack designing and building backend services, APIs, and data pipelines, while also contributing to user-facing features that make those capabilities accessible and intuitive.\n\nOur mission is to build an AI scientist, and you’ll help build the tools, interfaces, and data systems it relies on. While this role leans heavily toward backend engineering, you’ll regularly collaborate with frontend engineers, designers, and researchers to deliver end-to-end functionality.\n\nAt Edison Scientific, full-stack engineering isn’t about doing “a little bit of everything.” It’s about owning features from concept to production, understanding how systems fit together, and building reliable foundations that accelerate humanity’s ability to ask bigger questions- and find answers faster.\n\nThis role is on-site at our San Francisco office in the Dogpatch neighborhood. Our office is a converted warehouse with high ceilings, open space, and a team that genuinely believes in what they're building.\n\nThis position is part of the Platform team. \n\nRESPONSIBILITIES\n\n- Design, implement, and maintain backend services, APIs, and databases that power the scientific discovery platform.\n\n- Contribute to frontend features and workflows, partnering closely with design and frontend teammates to deliver cohesive user experiences.\n\n- Build and extend data pipelines that support AI agents and research workflows.\n\n- Implement monitoring, observability, and automated testing to ensure system reliability and uptime.\n\n- Troubleshoot issues across the stack and proactively improve system quality.\n\n- Collaborate with engineering, design, and research teams to ship new AI-driven features and services.\n\n- Grow as a software engineer within a highly collaborative team working at the frontier of AI for science.\n\nQUALIFICATIONS\n\n- Typically, 5+ years of software engineering experience, with exposure to both backend and frontend development.\n\n- Strong proficiency in at least one backend language (e.g., Python, Node.js), with an interest in deepening backend expertise. (our interview process requires Python)\n\n- Experience designing and consuming APIs (FastAPI, REST; GraphQL a plus).\n\n- Familiarity with frontend frameworks (e.g., React, Next.js, or similar) and modern web development practices.\n\n- Working knowledge of relational or document databases (PostgreSQL, MySQL, MongoDB, or similar).\n\n- Exposure to cloud infrastructure (AWS, GCP, or Azure) and containerized environments (Docker; Kubernetes a plus).\n\n- Experience with version control, CI/CD pipelines, and basic automated testing.\n\n- Strong curiosity, a growth mindset, and eagerness to learn in a fast-moving environment.\n\nBONUS POINTS FOR\n\n- Experience with data-heavy systems, scientific tooling, or ML/AI-adjacent platforms.\n\n- Prior work in startups or small teams with end-to-end ownership.\n\nSALARY\n\n$175,000- $240,000  •  Offers equity\n\nWHY JOIN US?\n\nWe're a fast-moving, mission-driven culture where smart people do their best work and actually enjoy doing it. We also offer full-time employees the following:\n\n- Competitive salary and equity\n\n- Full healthcare coverage; we pay 100% of premiums for you and your dependents\n\n- Support for growing families, including a yearly new parent stipend and fertility coverage through Carrot\n\n- Mental health support through Rula, our in-network therapist and psychiatrist network with fast availability\n\n- 12 weeks of paid parental leave for maternity, paternity, and adoption\n\n- Pet care support with a yearly employer-funded stipend for your animal companions\n\n- Commuter benefits so you can pay for transit and parking with pre-tax dollars\n\n- 401(k) company matching\n\n- $300 health and wellness benefit quarterly\n\n- Lunch is on us every day you're in the office, and dinner is on us when you're working late\n\n- Regular team off-sites and company events\n\nEdison Scientific is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other protected characteristic under applicable law.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "5bfe31555b02256c561f71bdea2679dc738ad0f121730991cfc1f7971dd6fe31",
+        "content_hash": "7bee6cc8ab5642b24048f39eaeba34db244b07d1e27bda6ad2f6a6a2775bf2dc",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "new",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [],
+      "verification": {
+        "status": "verified",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": null,
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-cbbfbcece647fe9e0d9d7d15",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "Edison Scientific",
+        "source_job_id": "b73015be-07bf-49f0-8a1a-f1e80488cb20",
+        "fingerprint": "cbbfbcece647fe9e0d9d7d152de554e2903b4402144c167adc7c71e26d68f91c"
+      },
+      "title": "Principal Member of Technical Staff, Full-stack Engineer",
+      "company": "Edison Scientific",
+      "discovery_url": "https://jobs.ashbyhq.com/Edison%20Scientific/b73015be-07bf-49f0-8a1a-f1e80488cb20/application",
+      "canonical_url": "https://jobs.ashbyhq.com/Edison%20Scientific/b73015be-07bf-49f0-8a1a-f1e80488cb20",
+      "source_names": [
+        "edison-scientific:ashby"
+      ],
+      "location_text": "San Francisco | New York",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 200000,
+        "maximum": 350000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$200K - $350K"
+      },
+      "posted_date": "2026-08-05",
+      "description_text": "ABOUT US\n\nEdison Scientific builds and deploys AI scientist agents to accelerate science and the development of new medicines. We are an ambitious team run by scientists and engineers from leading institutions across biology, physics, chemistry, and AI.\n\nTHE ROLE\n\nAs a Principal MTS (Full-stack, Backend-Focused, Python) you’ll help build and support our core platform that automates scientific discovery. You’ll work across the stack designing and building backend services, APIs, and data pipelines, while also contributing to user-facing features that make those capabilities accessible and intuitive.\n\nOur mission is to build an AI scientist, and you’ll help build the tools, interfaces, and data systems it relies on. While this role leans heavily toward backend engineering, you’ll regularly collaborate with frontend engineers, designers, and researchers to deliver end-to-end functionality.\n\nAt Edison Scientific, full-stack engineering isn’t about doing “a little bit of everything.” It’s about owning features from concept to production, understanding how systems fit together, and building reliable foundations that accelerate humanity’s ability to ask bigger questions- and find answers faster.\n\nThis role is on-site at our San Francisco office in the Dogpatch neighborhood. Our office is a converted warehouse with high ceilings, open space, and a team that genuinely believes in what they're building.\n\nThis position is part of the Platform team. \n\nRESPONSIBILITIES\n\n- Design, implement, and maintain backend services, APIs, and databases that power the scientific discovery platform.\n\n- Contribute to frontend features and workflows, partnering closely with design and frontend teammates to deliver cohesive user experiences.\n\n- Build and extend data pipelines that support AI agents and research workflows.\n\n- Implement monitoring, observability, and automated testing to ensure system reliability and uptime.\n\n- Troubleshoot issues across the stack and proactively improve system quality.\n\n- Collaborate with engineering, design, and research teams to ship new AI-driven features and services.\n\n- Grow as a software engineer within a highly collaborative team working at the frontier of AI for science.\n\nQUALIFICATIONS\n\n- Typically, 10+ years of software engineering experience, with exposure to both backend and frontend development.\n\n- Strong proficiency in at least one backend language (e.g., Python, Node.js), with an interest in deepening backend expertise. (our interview process requires Python)\n\n- Experience designing and consuming APIs (FastAPI, REST; GraphQL a plus).\n\n- Familiarity with frontend frameworks (e.g., React, Next.js, or similar) and modern web development practices.\n\n- Working knowledge of relational or document databases (PostgreSQL, MySQL, MongoDB, or similar).\n\n- Exposure to cloud infrastructure (AWS, GCP, or Azure) and containerized environments (Docker; Kubernetes a plus).\n\n- Experience with version control, CI/CD pipelines, and basic automated testing.\n\n- Strong curiosity, a growth mindset, and eagerness to learn in a fast-moving environment.\n\nBONUS POINTS FOR\n\n- Experience with data-heavy systems, scientific tooling, or ML/AI-adjacent platforms.\n\n- Prior work in startups or small teams with end-to-end ownership.\n\nSALARY\n\n$175,000- $240,000  •  Offers equity\n\nWHY JOIN US?\n\nWe're a fast-moving, mission-driven culture where smart people do their best work and actually enjoy doing it. We also offer full-time employees the following:\n\n- Competitive salary and equity\n\n- Full healthcare coverage; we pay 100% of premiums for you and your dependents\n\n- Support for growing families, including a yearly new parent stipend and fertility coverage through Carrot\n\n- Mental health support through Rula, our in-network therapist and psychiatrist network with fast availability\n\n- 12 weeks of paid parental leave for maternity, paternity, and adoption\n\n- Pet care support with a yearly employer-funded stipend for your animal companions\n\n- Commuter benefits so you can pay for transit and parking with pre-tax dollars\n\n- 401(k) company matching\n\n- $300 health and wellness benefit quarterly\n\n- Lunch is on us every day you're in the office, and dinner is on us when you're working late\n\n- Regular team off-sites and company events\n\nEdison Scientific is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other protected characteristic under applicable law.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "329044f2d8192f982c32a96d7158e2958b020146211047e716b20fb5fba3a536",
+        "content_hash": "cdc593adc80112416a4b8fe5464350f45b577bdc96ac383f840da95c86aec6d3",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "new",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [],
+      "verification": {
+        "status": "excluded",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": "Principal seniority is outside the approved seniority scope.",
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-f96f4a086340cd1a819f2131",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "klarity-ai",
+        "source_job_id": "05377ac4-4c57-4146-a077-4e84f7d6a273",
+        "fingerprint": "f96f4a086340cd1a819f2131bd7c1dd7c32a7ae2334ab6715fdf289c6a8a7e55"
+      },
+      "title": "Senior AI Frontend Engineer",
+      "company": "Klarity",
+      "discovery_url": "https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273/application",
+      "canonical_url": "https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273",
+      "source_names": [
+        "klarity:primary-careers"
+      ],
+      "location_text": "San Francisco (Klarity HQ)",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 175000,
+        "maximum": 275000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$175K - $275K"
+      },
+      "posted_date": "2026-04-08",
+      "description_text": "About Klarity\n\nTldr on us: Series B, $91M raised, 7x growth last year.\n\nDigital Transformation gave rise to a $600B consulting Industry. AI Transformation will be 10x bigger and will be delivered through agents. We built that.\n\nOur AI discovers how work actually happens across every team and application, Structures it into a living Context Graph, and Improves it continuously.\n\nServiceNow mapped 900+ processes in 9 days. DoorDash captured 3,800+ finance operations in 14 weeks. That's not a project. That's compounding intelligence.\n\nOpenAI, Google, DoorDash, and Stripe use Klarity to transform how they transform. We shipped GPT-4 document chat within 12 hours of OpenAI's API launch.\n\nWe move fast, reward agency, and care deeply about our customers, our team, and our mission.\n\nTHE ROLE\n\nWe are looking for an AI Front-end Engineer who sits at the intersection of product design and frontend engineering. You are an engineer first, but with exceptional design sensibility that elevates everything you build. You will be responsible for defining and implementing the \"look and feel\" of AI-native workflows, ensuring that our complex enterprise tools feel as intuitive as the best consumer apps.\n\nNote: We do not require a CS or Engineering degree. We care about your portfolio, your GitHub (or equivalent), and your track record of shipping.\n\nWHO YOU ARE\n\n- Engineer first, designer by instinct - You're a front-end engineer with a natural eye for great design. You can discuss the tradeoffs of Server Components versus Client Components just as fluently as you can critique spacing and visual hierarchy.\n\n- Expert in modern web technologies - React, Next.js, TypeScript, and Tailwind aren't just in your toolkit—you've truly mastered them. You understand the performance consequences of your architectural decisions and ship code that's both elegant and performant.\n\n- AI-native developer with creative problem-solving chops - You wield tools like Cursor, Claude Code, v0.dev http://v0.dev, and Lovable as extensions of your craft. You use AI to prototype 10 variations in the time it used to take to build one, letting you focus on the hard problems: information architecture, user flows, and delightful interactions.\n\n- Ship with velocity and craft - You find the shortest path to get features in front of users while obsessing over the details that create delight. You catch when animations feel off by 50ms or color contrast doesn't meet WCAG standards. You believe speed and quality aren't opposites—they happen together when you're thoughtful about how you build.\n\n- Drive outcomes with product thinking - You move from prototype to user feedback to iteration to production with speed and conviction. You own features end-to-end, challenge designs that compromise user experience, and care deeply about the entire user journey. You shape the product through action, not waiting for permission.\n\n- Bring energy that elevates others - You see \"impossible\" UI challenges as puzzles waiting to be solved. Your optimism, intensity, and passion for craft are contagious and make the team stronger.\n\n- Experience: 4+ years of shipping production-grade products\n\nWHAT YOU'LL DO\n\n- Architect scalable front-end systems - Design reusable component libraries, establish patterns for state management and API integration, optimize bundle sizes, and ensure the platform performs beautifully at scale. You'll work across the full spectrum from responsive layouts to micro-interactions, with bonus points for diving into Python backends when needed.\n\n- Own and ship the primary user-facing features - Build the core interfaces users interact with daily. You'll write the React components, integrate with backend APIs, and polish every detail to production quality.\n\n- Bridge AI capabilities with elegant user experiences - Partner with product and backend engineers to understand what's possible, then create interfaces that expose powerful functionality while hiding technical complexity.\n\n- Multiply your impact across disciplines - You speak designer, engineer, and product fluently. Use AI tools to rapidly prototype design concepts in code and bridge gaps between teams with working demos instead of static mocks, turning ambiguous ideas into tangible experiences that drive better decisions.\n\nBENEFITS:\n\n- Equity in addition to competitive cash compensation\n\n- 100% Employer-Paid Medical, Dental & Vision options! https://app.rippling.com/benefits/preview/4zb9x0k4q4bxr1lm\n\n- Paid Parental Leave\n\n- $500 Annual Learning Fund\n\n- $100 Monthly Wellness Fund\n\n- 401k via Betterment https://www.betterment.com/work/investments\n\n- Relocation support to San Francisco Bay Area (where applicable)\n\n- Office-related Perks:\n\n- BART or Caltrain to the office?: Contribute pre-tax funds to a Parking & Transit account, and you will never be taxed for it!\n\n- Lunchtime, Leveled Up: Enjoy curated local eats delivered to the office daily to enjoy with an entertaining team\n\n- Snack Central: Drinks and snacks for every craving - from healthy bites to Klarity team favorites.\n\n- Onsite Gym Access: A state-of-the-art fitness center right downstairs, and it’s free!\n\n- Safe & Secure Bike Room: Commute in and safely store your bike.\n\nKlarity is an equal opportunity employer. Klarity provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, gender, national origin, sexual orientation, gender identity or expression, age, disability, genetic information, marital status or veteran status.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "5e345a999ff939c9e1f6c145f9b1ca934a946a014fbbbbfe2a942f8ec0db8615",
+        "content_hash": "834e80019e91c0c8a6cf1189af213760717cab5e44fc532073778a909450ffbb",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "description_backfill",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [],
+      "verification": {
+        "status": "verified",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": null,
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-2c1be5b414bc9df27300afe8",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "klarity-ai",
+        "source_job_id": "f260a3d1-f8e3-49d8-9a65-4244d963008c",
+        "fingerprint": "2c1be5b414bc9df27300afe846929887da1c2c3fcb1ecc691058761e393c4e73"
+      },
+      "title": "Staff AI Frontend Engineer",
+      "company": "Klarity",
+      "discovery_url": "https://jobs.ashbyhq.com/klarity-ai/f260a3d1-f8e3-49d8-9a65-4244d963008c/application",
+      "canonical_url": "https://jobs.ashbyhq.com/klarity-ai/f260a3d1-f8e3-49d8-9a65-4244d963008c",
+      "source_names": [
+        "klarity:primary-careers"
+      ],
+      "location_text": "San Francisco (Klarity HQ)",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 235000,
+        "maximum": 315000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$235K - $315K"
+      },
+      "posted_date": "2026-04-08",
+      "description_text": "About Klarity\n\nTldr on us: Series B, $91M raised, 7x growth last year.\n\nDigital Transformation gave rise to a $600B consulting Industry. AI Transformation will be 10x bigger and will be delivered through agents. We built that.\n\nOur AI discovers how work actually happens across every team and application, Structures it into a living Context Graph, and Improves it continuously.\n\nServiceNow mapped 900+ processes in 9 days. DoorDash captured 3,800+ finance operations in 14 weeks. That's not a project. That's compounding intelligence.\n\nOpenAI, Google, DoorDash, and Stripe use Klarity to transform how they transform. We shipped GPT-4 document chat within 12 hours of OpenAI's API launch.\n\nWe move fast, reward agency, and care deeply about our customers, our team, and our mission.\n\nTHE ROLE\n\nWe are looking for an AI Front-end Engineer who sits at the intersection of product design and frontend engineering. You are an engineer first, but with exceptional design sensibility that elevates everything you build. You will be responsible for defining and implementing the \"look and feel\" of AI-native workflows, ensuring that our complex enterprise tools feel as intuitive as the best consumer apps.\n\nNote: We do not require a CS or Engineering degree. We care about your portfolio, your GitHub (or equivalent), and your track record of shipping.\n\nWHO YOU ARE\n\n- Engineer first, designer by instinct - You're a front-end engineer with a natural eye for great design. You can discuss the tradeoffs of Server Components versus Client Components just as fluently as you can critique spacing and visual hierarchy.\n\n- Expert in modern web technologies - React, Next.js, TypeScript, and Tailwind aren't just in your toolkit—you've truly mastered them. You understand the performance consequences of your architectural decisions and ship code that's both elegant and performant.\n\n- AI-native developer with creative problem-solving chops - You wield tools like Cursor, Claude Code, v0.dev http://v0.dev, and Lovable as extensions of your craft. You use AI to prototype 10 variations in the time it used to take to build one, letting you focus on the hard problems: information architecture, user flows, and delightful interactions.\n\n- Ship with velocity and craft - You find the shortest path to get features in front of users while obsessing over the details that create delight. You catch when animations feel off by 50ms or color contrast doesn't meet WCAG standards. You believe speed and quality aren't opposites—they happen together when you're thoughtful about how you build.\n\n- Drive outcomes with product thinking - You move from prototype to user feedback to iteration to production with speed and conviction. You own features end-to-end, challenge designs that compromise user experience, and care deeply about the entire user journey. You shape the product through action, not waiting for permission.\n\n- Bring energy that elevates others - You see \"impossible\" UI challenges as puzzles waiting to be solved. Your optimism, intensity, and passion for craft are contagious and make the team stronger.\n\n- Experience: 6+ years of shipping production-grade products\n\nWHAT YOU'LL DO\n\n- Architect scalable front-end systems - Design reusable component libraries, establish patterns for state management and API integration, optimize bundle sizes, and ensure the platform performs beautifully at scale. You'll work across the full spectrum from responsive layouts to micro-interactions, with bonus points for diving into Python backends when needed.\n\n- Own and ship the primary user-facing features - Build the core interfaces users interact with daily. You'll write the React components, integrate with backend APIs, and polish every detail to production quality.\n\n- Bridge AI capabilities with elegant user experiences - Partner with product and backend engineers to understand what's possible, then create interfaces that expose powerful functionality while hiding technical complexity.\n\n- Multiply your impact across disciplines - You speak designer, engineer, and product fluently. Use AI tools to rapidly prototype design concepts in code and bridge gaps between teams with working demos instead of static mocks, turning ambiguous ideas into tangible experiences that drive better decisions.\n\nBENEFITS:\n\n- Equity in addition to competitive cash compensation\n\n- 100% Employer-Paid Medical, Dental & Vision options! https://app.rippling.com/benefits/preview/4zb9x0k4q4bxr1lm\n\n- Paid Parental Leave\n\n- $500 Annual Learning Fund\n\n- $100 Monthly Wellness Fund\n\n- 401k via Betterment https://www.betterment.com/work/investments\n\n- Relocation support to San Francisco Bay Area (where applicable)\n\n- Office-related Perks:\n\n- BART or Caltrain to the office?: Contribute pre-tax funds to a Parking & Transit account, and you will never be taxed for it!\n\n- Lunchtime, Leveled Up: Enjoy curated local eats delivered to the office daily to enjoy with an entertaining team\n\n- Snack Central: Drinks and snacks for every craving - from healthy bites to Klarity team favorites.\n\n- Onsite Gym Access: A state-of-the-art fitness center right downstairs, and it’s free!\n\n- Safe & Secure Bike Room: Commute in and safely store your bike.\n\nKlarity is an equal opportunity employer. Klarity provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, gender, national origin, sexual orientation, gender identity or expression, age, disability, genetic information, marital status or veteran status.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "01107e18f091946b1f73156bf24176df2a6e2e8b9ac67495455c23a65e867c64",
+        "content_hash": "165ca0c9c157ce438c78976ad35b25ddabe4b8e10fe1d1c140335943ca905d07",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "new",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [],
+      "verification": {
+        "status": "excluded",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": "Staff seniority is outside the approved seniority scope.",
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-8eda0cd867ec15a8d8d018ad",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "klarity-ai",
+        "source_job_id": "fc094114-4d6e-4bf5-977f-c5b37d7e33e1",
+        "fingerprint": "8eda0cd867ec15a8d8d018adab72b28b1a9cf11b8be4a93d1b06ed10901b51d8"
+      },
+      "title": "AI Frontend Engineer",
+      "company": "Klarity",
+      "discovery_url": "https://jobs.ashbyhq.com/klarity-ai/fc094114-4d6e-4bf5-977f-c5b37d7e33e1/application",
+      "canonical_url": "https://jobs.ashbyhq.com/klarity-ai/fc094114-4d6e-4bf5-977f-c5b37d7e33e1",
+      "source_names": [
+        "klarity:primary-careers"
+      ],
+      "location_text": "San Francisco (Klarity HQ)",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 140000,
+        "maximum": 205000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$140K - $205K"
+      },
+      "posted_date": "2026-04-06",
+      "description_text": "About Klarity\n\nTldr on us: Series B, $91M raised, 7x growth last year.\n\nDigital Transformation gave rise to a $600B consulting Industry. AI Transformation will be 10x bigger and will be delivered through agents. We built that.\n\nOur AI discovers how work actually happens across every team and application, Structures it into a living Context Graph, and Improves it continuously.\n\nServiceNow mapped 900+ processes in 9 days. DoorDash captured 3,800+ finance operations in 14 weeks. That's not a project. That's compounding intelligence.\n\nOpenAI, Google, DoorDash, and Stripe use Klarity to transform how they transform. We shipped GPT-4 document chat within 12 hours of OpenAI's API launch.\n\nWe move fast, reward agency, and care deeply about our customers, our team, and our mission.\n\nAI FRONT-END ENGINEER @ KLARITY\n\nExperience: 1-2 years of shipping production code (or exceptional new grads with strong portfolios)\nLocation: San Francisco / Bay Area (Relocation assistance available)\nJob Type: Full-time\n\nTHE ROLE\n\nWe are looking for an AI Front-end Engineer who wants to learn at the intersection of product design and frontend engineering. You care deeply about craft and have strong frontend fundamentals, but you're early in your career and hungry to grow. You'll work directly with senior engineers and designers to build AI-native workflows that make complex enterprise tools feel intuitive.\n\nNote: We do not require a CS or Engineering degree. We care about your portfolio, side projects, and your hunger to learn and ship.\n\nWHO YOU ARE\n\n- Strong frontend fundamentals with design sensibility - You're comfortable with React and have built real projects. You understand the basics of component architecture and care about how things look and feel. You're excited to learn the nuances of performance optimization and advanced patterns.\n\n- Familiar with modern web technologies - You've worked with React, TypeScript, and CSS frameworks like Tailwind. You may not have mastered them yet, but you're eager to learn best practices and write cleaner code every day.\n\n- AI-curious and eager to experiment - You've tried tools like Cursor, Claude Code, or v0.dev http://v0.dev and see their potential to accelerate your work. You're excited to learn how to use AI tools effectively to prototype faster and focus on solving hard problems.\n\n- Hungry to ship quickly and learn from feedback - You care about getting features in front of users and iterating based on what you learn. You're willing to make tradeoffs and understand that done is often better than perfect when you're learning.\n\n- Detail-oriented and quality-conscious - You notice when things feel off—animations that are janky, layouts that shift, or colors that don't quite work. You want to build things that feel good to use, even if you're still learning how to achieve that consistently.\n\n- Collaborative and coachable - You ask good questions, take feedback well, and are excited to learn from people with more experience. You're comfortable saying \"I don't know\" and then figuring it out.\n\n- Energized by hard problems - You see challenging UI problems as opportunities to grow. You bring enthusiasm and a positive attitude even when things are ambiguous or difficult.\n\nWHAT YOU'LL DO\n\n- Ship real features used by Fortune 500 customers - Build production UI components, integrate with backend APIs, and contribute to features that ship to real users. You'll get code reviews and mentorship from senior engineers.\n\n- Learn to build scalable front-end systems - Work within existing component libraries and patterns, contributing new components and learning best practices for state management, API integration, and performance optimization.\n\n- Collaborate across design and engineering - Work with designers to implement their vision and with backend engineers to understand what's possible. You'll learn how to balance technical constraints with user experience goals.\n\n- Grow your craft rapidly - You'll work directly with senior engineers on real problems, getting hands-on experience with AI-powered workflows, enterprise-scale applications, and modern frontend architecture. A small team means your growth happens fast.\n\nWHAT YOU'LL LEARN\n\n- How to build AI-native interfaces at production quality\n\n- Advanced React patterns and performance optimization\n\n- How to collaborate with designers and product managers\n\n- How to use AI tools to multiply your productivity\n\n- What great enterprise UX looks like (and how to build it)\n\nBENEFITS:\n\n- Equity in addition to competitive cash compensation\n\n- 100% Employer-Paid Medical, Dental & Vision options! https://app.rippling.com/benefits/preview/4zb9x0k4q4bxr1lm\n\n- Paid Parental Leave\n\n- $500 Annual Learning Fund\n\n- $100 Monthly Wellness Fund\n\n- 401k via Betterment https://www.betterment.com/work/investments\n\n- Relocation support to San Francisco Bay Area (where applicable)\n\n- Office-related Perks:\n\n- BART or Caltrain to the office?: Contribute pre-tax funds to a Parking & Transit account, and you will never be taxed for it!\n\n- Lunchtime, Leveled Up: Enjoy curated local eats delivered to the office daily to enjoy with an entertaining team\n\n- Snack Central: Drinks and snacks for every craving - from healthy bites to Klarity team favorites.\n\n- Onsite Gym Access: A state-of-the-art fitness center right downstairs, and it’s free!\n\n- Safe & Secure Bike Room: Commute in and safely store your bike.\n\nKlarity is an equal opportunity employer. Klarity provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, gender, national origin, sexual orientation, gender identity or expression, age, disability, genetic information, marital status or veteran status.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "df5f8dd5263aced632d5c1eabd1eeeb5dcc51687fb2583b29c160ec3c1f58e26",
+        "content_hash": "8f25717141d0161a51ba58d4188be4affa2179012a2b7275e51469d99bc41e6f",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "new",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [],
+      "verification": {
+        "status": "excluded",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": "The posting targets 1–2 years of experience or exceptional new graduates, outside the approved seniority scope.",
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-53791b208f10bb823f67cc7e",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "mercor",
+        "source_job_id": "03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+        "fingerprint": "53791b208f10bb823f67cc7e64fd6d37f148bfc4d2c41b10032143e6d44cd1ad"
+      },
+      "title": "Product Engineer, Talent Experience",
+      "company": "Mercor",
+      "discovery_url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7/application",
+      "canonical_url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+      "source_names": [
+        "mercor:primary-careers"
+      ],
+      "location_text": "San Francisco",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 130000,
+        "maximum": 500000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$130K - $500K"
+      },
+      "posted_date": "2026-07-16",
+      "description_text": "ABOUT MERCOR\n\nMercor's mission is to organize human intelligence to power the AI economy. We're a leading AI data company, building the layer between human expertise and frontier models. Millions of domain experts on the platform are paid over $4 million per day to train frontier AI models. Mercor's APEX benchmark family measures AI's real-world impact on professional work. Mercor Enterprise brings this same infrastructure to Fortune 500 companies: helping companies capture how their best people actually work, translating that expertise directly back into agents.\n\n \n\nMercor is creating a new category of work where expertise powers AI advancement. Achieving this requires an ambitious, fast-paced and deeply committed team. You’ll work alongside researchers, operators, and AI companies at the forefront of shaping the systems that are redefining society. Mercor is a profitable Series C company valued at $10 billion. We work in-person five days a week in our San Francisco, NYC, or London offices.\n\nABOUT THE ROLE\n\nAs a Member of Technical Staff on the Talent Experience team, you'll build the systems that evaluate the skills and expertise of the world's top talent at scale.\n\nAssessment is at the core of how Mercor works: every expert in our network is vetted, matched, and continuously evaluated through our assessment platform. You'll own backend-heavy, full-stack work across this platform—designing evaluation pipelines, building the services that power AI-assisted interviews and skill verification, and shipping the product surfaces that tens of thousands of candidates and experts interact with every day.\n\nYou'll work directly with the Assessment product lead on roadmap and execution, with significant ownership from day one. This is a high-leverage role: improvements to assessment quality and throughput compound across everything Mercor does.\n\n \n\nYOU WILL\n\n- Design, build, and ship backend services and APIs that power Mercor's assessment platform at scale.\n\n- Own features end-to-end—from product discussions and technical design to implementation, testing, and release.\n\n- Build evaluation pipelines and data models that combine human judgment with AI-powered scoring.\n\n- Contribute across the stack, including the candidate- and expert-facing product surfaces of assessment flows.\n\n- Partner closely with Product, AI, and Data teams to translate assessment research into production systems.\n\n- Leverage modern AI coding tools to accelerate development while maintaining a high engineering bar.\n\n- Improve the performance, reliability, and observability of assessment infrastructure.\n\n- Solve real customer problems and continuously improve candidate and expert experience.\n\nWHAT WE'RE LOOKING FOR\n\n- 3+ years of professional software engineering experience building production systems.\n\n- Strong backend fundamentals: API design, data modeling, distributed systems, and relational databases.\n\n- Comfortable working across the stack, including modern frontend frameworks (e.g. React/TypeScript) when the product needs it.\n\n- Experience building or integrating LLM-powered features in production is a strong plus.\n\n- Comfortable building products using modern AI development tools (e.g. Cursor, Claude Code, GitHub Copilot, Codex, or similar) to accelerate software development.\n\n- Strong software engineering fundamentals, including testing, debugging, and performance optimization.\n\n- Excellent product intuition—you enjoy building products that people actually use.\n\n- Comfortable working in fast-moving environments with evolving priorities.\n\n- High ownership, curiosity, and a bias toward shipping.\n\n \n\nWHY THIS ROLE MATTERS\n\n- Impact: Build the evaluation systems that decide how tens of thousands of AI experts are matched to the world's most important AI work.\n\n- Ownership: Join a small, high-velocity engineering team where you'll own features end-to-end and shape the assessment roadmap from day one.\n\n- Learning: Work alongside world-class engineers, product leaders, and AI researchers building products at the frontier of AI.\n\n- Growth: Rapid career progression with opportunities to expand ownership as the assessment platform and engineering organization scale.\n\n \n\nBENEFITS\n\n- Bi-annual performance bonus structure\n\n- Generous equity grant vested over 4 years\n\n- Up to $15k Relocation bonus\n\n- $10K proximity bonus (if you live within 0.5 miles of our office)\n\n- $1.5K monthly stipend for meals\n\n- Free Equinox membership\n\n- $200 monthly laundry reimbursement\n\n- $200 monthly personal wellness reimbursement\n\n- Health, Dental, Vision insurance",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "f3705dd372ce8206ebabe5ccc8f026b830f313d8284cd95fc404077bfcb6d225",
+        "content_hash": "d1f25cce173fbf34f7348ed6d38e1ddc8bf9ecdeece607eacca3df0d3d94130a",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "description_backfill",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [],
+      "verification": {
+        "status": "verified",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": null,
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-cf7498449bc8e78f014265c1",
+      "identity": {
+        "provider": "lever",
+        "board_id": "sambatv",
+        "source_job_id": "a0a1f3cc-9b2e-4440-b5c1-45ea050cf0b1",
+        "fingerprint": "cf7498449bc8e78f014265c1123343cbf3eaef3babcd753f5b94084f4b9af203"
+      },
+      "title": "AI Product Engineer",
+      "company": "Samba TV",
+      "discovery_url": "https://jobs.lever.co/sambatv/a0a1f3cc-9b2e-4440-b5c1-45ea050cf0b1/apply",
+      "canonical_url": "https://jobs.lever.co/sambatv/a0a1f3cc-9b2e-4440-b5c1-45ea050cf0b1",
+      "source_names": [
+        "samba-tv:primary-careers"
+      ],
+      "location_text": "San Francisco, California",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 150000,
+        "maximum": 200000,
+        "currency": "USD",
+        "basis": "unknown",
+        "period": "year",
+        "source_text": "150000-200000 USD per-year-salary"
+      },
+      "posted_date": null,
+      "description_text": "Samba is a media intelligence company. We know what the world is watching, reading, and thinking about — in real time, at scale, across every screen. Our data exists with the consent of over a billion people, organized into the most complete picture of consumer attention ever built. The biggest brands in the world use that picture to make smarter decisions. We think it’s the most interesting data asset on the planet, because it’s the most culturally relevant.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "f48181aabe7c23591aa9a1d52455ad2c895d6a47e0d908fe18d52063c4f7abb1",
+        "content_hash": "6d643da78ee159f7a78e97187bbcc166785b5698c5212cb39d4353a97ad7e698",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "description_backfill",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [
+        "compensation_basis_unconfirmed"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": "Published compensation does not identify base salary; the profile requires a published annual USD base maximum of at least $200,000.",
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-26342b289828ff1712f6a8e3",
+      "identity": {
+        "provider": "lever",
+        "board_id": "sambatv",
+        "source_job_id": "b1c9794c-d42c-410f-8038-a4fe44f72dde",
+        "fingerprint": "26342b289828ff1712f6a8e355c5f514339ebbe79419a6799af7d6eb59a553d5"
+      },
+      "title": "Senior Software Engineer, Full Stack",
+      "company": "Samba TV",
+      "discovery_url": "https://jobs.lever.co/sambatv/b1c9794c-d42c-410f-8038-a4fe44f72dde/apply",
+      "canonical_url": "https://jobs.lever.co/sambatv/b1c9794c-d42c-410f-8038-a4fe44f72dde",
+      "source_names": [
+        "samba-tv:primary-careers"
+      ],
+      "location_text": "San Francisco, California",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 160000,
+        "maximum": 200000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "Samba TV expects to offer a base salary between $160,000 - $200,000 per year for roles to be performed in New York or California; actual base salary offered will depend on various factors, including but not limited to, location, experience, and performance. Base salary is just one component of Samba TV’s total compensation package for employees. Other rewards may include bonuses, short-term incentives, and long-term incentives. In addition, Samba provides health insurance, wellness offerings, life and disability insurance, a retirement savings plan, paid holidays and paid time off (PTO), and other employee benefits."
+      },
+      "posted_date": null,
+      "description_text": "Samba is a media intelligence company. We know what the world is watching, reading, and thinking about — in real time, at scale, across every screen. Our data exists with the consent of over a billion people, organized into the most complete picture of consumer attention ever built. The biggest brands in the world use that picture to make smarter decisions. We think it’s the most interesting data asset on the planet, because it’s the most culturally relevant.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "1fe58faf6267cb14eead027e802c9b372265ef5a1ebf1199448dd318f9a08b10",
+        "content_hash": "6d643da78ee159f7a78e97187bbcc166785b5698c5212cb39d4353a97ad7e698",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "new",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "published_compensation_passes"
+      ],
+      "preliminary_concerns": [
+        "ai_responsibility_requires_semantic_review"
+      ],
+      "verification": {
+        "status": "excluded",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": "The canonical description does not establish role-specific AI work; company context alone is not sufficient.",
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-59bad4fff64bda2027586955",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "speak",
+        "source_job_id": "e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+        "fingerprint": "59bad4fff64bda2027586955b17d35b66a47501a4e75f14f3f519cec720ca5f8"
+      },
+      "title": "AI Product Engineer",
+      "company": "Speak",
+      "discovery_url": "https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f/application",
+      "canonical_url": "https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+      "source_names": [
+        "speak:primary-careers"
+      ],
+      "location_text": "San Francisco",
+      "workplace_arrangement": "hybrid",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 150000,
+        "maximum": 280000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$150K - $280K"
+      },
+      "posted_date": "2023-09-19",
+      "description_text": "ABOUT US\n\nOur mission is to reinvent the way people learn, starting with language.\n\nLearning a language can change a life by opening doors to new cultures, careers, and communities. Two billion people around the world are actively trying to learn a language, but the best way to learn (one-on-one tutoring) is hard to access at scale and hasn’t been meaningfully improved in decades. Speak is building a human-level, AI-powered tutor in your pocket: a conversation-first experience that lets learners actually speak, get instant feedback, and progress through carefully designed lessons. The result is a complete path from beginner to confident speaker across multiple languages.\n\nSpeak first launched in South Korea in 2019, where Speak has now become the number one language learning app, and we now serve learners across many markets and 15+ languages. Speak is one of the world’s leading AI companies, with over $150m raised in venture investment from OpenAI, Accel, Founders Fund, Khosla Ventures, and more, with a distributed team across San Francisco, Seoul, Tokyo, Taipei, and Ljubljana.\n\nABOUT THIS ROLE\n\nAs an AI Product Engineer at Speak, you'll play a pivotal role in developing the future of language learning and creating the most effective path to language fluency. Your primary responsibility will be developing innovative product experiences powered by Language Learning Models (LLMs) and deploying them to millions of users.\n\nYour tasks will span the full stack and beyond, from evaluating models and testing prompts to developing and iterating on various product features such as our conversational onboarding and lesson experiences, grammatical assessment and feedback, and personalized lessons.\n\nWe're constantly pushing the boundaries of what LLMs can do to provide an exceptional and unparalleled language learning experience to users in over 30 countries worldwide.\n\nWHAT YOU'LL BE DOING\n\n- Developing and deploying LLM-powered language learning products across the full stack, as well as enhancing the quality and performance of existing AI-powered features within Speak\n\n- Collaborating cross-functionally with other Engineering teams, Applied ML, Product, Design, and Content\n\n- Refining our process for building LLM apps, including best practices for prompting, experimentation/evaluation, LLM Ops, measuring quality and performance, etc.\n\n- Scaling existing product features to many more users and languages\n\nWHAT WE'RE LOOKING FOR\n\n- 3-5+ years of experience in full stack/backend, product-focused software engineering\n\n- Proficiency in React/Node/Typescript and Python\n\n- You have real-world experience developing and deploying LLM apps and a strong understanding, gained through experience, of what works and what doesn't\n\n- A keen intuition for improving performance and output quality of LLM systems\n\n- Experience with LLM Ops and tools (e.g., vector databases, RAG, prompt ops)\n\n- Strong product intuition — the ability to think broadly and cross-functionally about innovative LLM-powered capabilities and product experiences\n\n- Ability to work independently and build at a high velocity\n\nOFFICE\n\n- San Francisco, CA\n\nWHY WORK AT SPEAK\n\n1. Join a fantastic, tight-knit team at the right time: we're growing very quickly, we've most recently raised our Series C from some of the top investors in the valley, and we've achieved product-market fit in our initial markets. You'd join at a magical time when a single person could significantly change the course of the company.\n\n2. Do your life's work with people you’ll love working with: we care strongly about our craft and want every person at Speak to feel like they're growing every day. We believe in the idea that working with people you both enjoy and have respect for makes everything better. We hire thoughtfully and only work with people we admire deeply.\n\n3. Global in nature: We're live in over 40 countries and launching in a number of new markets soon. We have dedicated offices in San Francisco, Ljubljana, Seoul, Tokyo, and Taipei, and you’ll have the opportunity to talk to users in each of these regions on a regular basis as well as travel.\n\n4. Impact people's lives in a major way: Learning a language is one of the single most life-changing skills one can learn, and right now 99% of people never achieve their goal because the process is broken. We’re helping millions of people achieve their goals and improve their lives.\n\nSpeak does not discriminate based upon race, religion, color, national origin, gender (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "ce8dc1505ff28584716ed1a5760d49c8bed7fa44dc6f454d9e068d29908f7cf8",
+        "content_hash": "495236fcedf6154ac0f507abdf7cf10b05850a0c04a61ecfa8af769a545dbc2b",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "description_backfill",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "hybrid",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [],
+      "verification": {
+        "status": "verified",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": null,
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-5da2b745b9649d578208b15b",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "thorin",
+        "source_job_id": "a2044814-4058-4022-b647-5008933ae17f",
+        "fingerprint": "5da2b745b9649d578208b15b4cd63a18f6fa8cd8a222b5128103db76ad20e146"
+      },
+      "title": "Founding Senior AI Product Engineer",
+      "company": "Thorin",
+      "discovery_url": "https://jobs.ashbyhq.com/thorin/a2044814-4058-4022-b647-5008933ae17f/application",
+      "canonical_url": "https://jobs.ashbyhq.com/thorin/a2044814-4058-4022-b647-5008933ae17f",
+      "source_names": [
+        "thorin:primary-careers"
+      ],
+      "location_text": "San Francisco",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": null,
+      "posted_date": "2026-06-25",
+      "description_text": "ABOUT THORIN\n\nToday's enterprise software is better than ever, but most organizations still run on conversations rather than systems.\n\nCritical work lives across Slack, email, meetings, documents, and people's heads. Existing tools depend on humans to manually update records, push projects forward, and make sure important work doesn't fall through the cracks.\n\nWe believe AI should do more.\n\nThorin is building proactive, long-horizon AI agents that continuously understand what is happening across an organization and help teams execute over weeks, months, and years. Rather than waiting for prompts, Thorin develops a living understanding of how a business actually operates.\n\nBorn out of 8VC's Build program and backed by one of Silicon Valley's strongest venture ecosystems, Thorin is building the operating system for the AI-native enterprise.\n\nABOUT THE ROLE\n\nWe are looking for a Founding Senior AI Product Engineer to help build the future of AI-native work.\n\nThis is a player-coach role for someone who wants to help define what AI-native product engineering looks like.\n\nYou will be one of our most hands-on builders, shipping AI products daily while setting the technical bar and raising the level of the engineers around you. You'll work across LLMs, agents, infrastructure, workflows, and product experiences, turning ambiguous problems into systems customers love.\n\nWe are looking for someone who is deeply AI-native — not simply someone who uses AI tools occasionally, but someone who naturally thinks about agents, leverage, and how AI changes the way products are built. You should be excited by the idea that software increasingly acts, reasons, and collaborates rather than simply responds.\n\nThis person will lead primarily through execution, not hierarchy. You'll mentor through code reviews, design discussions, pairing, and example, while remaining deeply hands-on in the code every day.\n\nWHAT YOU'LL DO\n\n- Build AI-native products end-to-end\n\n- Solve ambiguous problems from first principles\n\n- Mentor engineers through code reviews and pairing\n\n- Partner directly with founders and customers\n\n- Use AI aggressively to create leverage\n\nWHAT WE ARE LOOKING FOR\n\n- You have built AI-native products or workflows and are excited about where agents are taking software.\n\n- You use AI aggressively to create leverage for yourself and your team.\n\n- You think in terms of systems, agents, and workflows rather than isolated features.\n\n- You are product-minded and care deeply about customer outcomes.\n\n- You thrive in ambiguity and enjoy building from first principles.\n\nWHO THIS ROLE IS NOT FOR\n\n- Engineers looking to become primarily managers\n\n- People who need detailed requirements\n\n- Architects who design more than they ship\n\n- People who optimize for elegance over outcomes\n\n \n \n\nBENEFITS & PERKS\n\nHealth & Wellness\n\n- 100% employer-paid medical, dental, and vision coverage\n\n- $200/month wellness stipend\n\n- 401k\n\nCommuting & Office Life\n\n- $300/month transportation stipend\n\n- $250 monthly development tool budget\n\n- Prime office location at Market Street & 3rd in San Francisco\n\n- Office setup support for the tools and equipment you need\n\nFood & Community\n\n- $25/day lunch stipend\n\n- $35/day snacks and incidental office expenses\n\n- Weekly team dinners and social events\n\nBuilding Together\n\n- Work side-by-side with founders and an exceptional early team\n\n- High ownership and direct impact from day one\n\n- Backed by 8VC and one of the strongest venture ecosystems in the industry\n\nCOMPENSATION\n\nThe expected base salary range for this role is $200,000–$350,000, plus equity and benefits. Actual compensation will be determined based on experience, skill level, and scope.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "744a50a7c67e120aa51d54939885d303bf61c0fdede3e7613074588adb269172",
+        "content_hash": "429c14adeb7d81771e8aa73db7f3d94b5b7259a6608ea5a23165d7b8dd4d0916",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "description_backfill",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [
+        "compensation_unknown"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": "No published compensation is available; the profile's unknown-salary policy is needs_review.",
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-e2ce0598a3f6f6ef5987d0ce",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "thorin",
+        "source_job_id": "c4a43a75-1a07-4595-bcc5-813c4c13c205",
+        "fingerprint": "e2ce0598a3f6f6ef5987d0cecb1e4894e63b60c5a176158cbb7c51ec0fa47dfc"
+      },
+      "title": "Forward Deployed Engineer",
+      "company": "Thorin",
+      "discovery_url": "https://jobs.ashbyhq.com/thorin/c4a43a75-1a07-4595-bcc5-813c4c13c205/application",
+      "canonical_url": "https://jobs.ashbyhq.com/thorin/c4a43a75-1a07-4595-bcc5-813c4c13c205",
+      "source_names": [
+        "thorin:primary-careers"
+      ],
+      "location_text": "San Francisco",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": null,
+      "posted_date": "2026-07-06",
+      "description_text": "ABOUT THORIN\n\nToday's enterprise software is better than ever, but most organizations still run on conversations rather than systems.\n\nCritical work lives across Slack, email, meetings, documents, and people's heads. Existing tools depend on humans to manually update records, push projects forward, and make sure important work doesn't fall through the cracks.\n\nWe believe AI should do more.\n\nThorin is building proactive, long-horizon AI agents that continuously understand what is happening across an organization and help teams execute over weeks, months, and years. Rather than waiting for prompts, Thorin develops a living understanding of how a business actually operates.\n\nBorn out of 8VC's Build program and backed by one of Silicon Valley's strongest venture ecosystems, Thorin is building the operating system for the AI-native enterprise.\n\nAbout the Role\n\nForward Deployed Engineers own end-to-end customer outcomes. You will work directly with customers, product, and engineering to understand business-critical workflows, get Thorin live in real operating environments, build the last-mile technical pieces that make deployments successful, and turn customer signal into durable product.\n\nThis is not a traditional solutions engineering, implementation, or support role. It is a product-centric engineering role for someone who can sit with executives and frontline users, find the real problem, design an AI-native workflow, prototype or build what is missing, and drive the deployment until the customer would be disappointed to lose Thorin.\n\nWhat You’ll Do\n\n- Run customer discovery with executives, operators, and end users to understand goals, constraints, workflow reality, and adoption blockers.\n\n- Translate ambiguous customer needs into clear deployment plans, technical approaches, product requirements, evaluation criteria, and success metrics.\n\n- Build, prototype, script, integrate, prompt, and configure the last-mile technical work required to make Thorin useful in production.\n\n- Partner with engineering on integrations, permissions, data flows, LLM behavior, agentic task design, reliability, and edge cases.\n\n- Use deployments as product laboratories: identify what should become reusable core platform capability versus customer-specific glue.\n\n- Drive adoption across customer teams by building trust, teaching the product, troubleshooting issues, and creating a clear operating rhythm.\n\n- Represent customer truth inside Thorin with enough technical, product, and commercial clarity that the team can act quickly.\n\nWhat We’re Looking For\n\n- Strong customer empathy and relationship judgment; you can earn trust with executives and users while getting to the real pain underneath the stated ask.\n\n- Business acumen; you understand customer incentives, workflow economics, expansion paths, and where Thorin can create the most leverage.\n\n- Structured problem-solving in ambiguity; you can break messy deployments into clear decisions, risks, milestones, owners, and next steps.\n\n- Hands-on technical ability; you can prototype and debug with APIs, scripts, data flows, integrations, prompts, evals, and modern AI tools.\n\n- AI-native product judgment; you understand how LLMs, agents, workflow automation, and product experience can solve real operating problems.\n\n- Execution velocity; you know when to prototype, escalate, cut scope, push for product investment, or make a pragmatic deployment call.\n\n- Clear communication with founders, customer executives, product, and engineering; you can disagree directly and constructively.\n\n- High ownership; you take ambiguous customer problems and drive them to deployed outcomes without waiting for perfect process.\n\n- Experience building or deploying software in a customer-facing, ambiguous environment; early-stage startup, FDE, product engineering, technical implementation, or founder/operator experience is especially relevant.\n\nThis Role Is Not For You If\n\n- You want a pure sales engineering role focused mainly on demos and answering technical questions.\n\n- You prefer a support or implementation role where product and engineering define the work for you.\n\n- You want a traditional backend role isolated from customers.\n\n- You are primarily interested in research or model work without responsibility for production customer value.\n\n- You need highly defined requirements, mature process, or a stable roadmap before you can operate effectively.\n\nBenefits & Perks\n\n- 100% employer-paid medical, dental, and vision coverage.\n\n- 401(k).\n\n- $200/month wellness stipend.\n\n- $300/month transportation stipend.\n\n- $25/day lunch stipend.\n\n- $35/day coffee and snacks stipend.\n\n- $500/month developer tools budget.\n\n- Meaningful equity ownership in an early-stage company.\n\n- In-person collaboration with a high-ownership team in San Francisco.\n\nA Note to Candidates\n\nWe know great people do not always match every bullet. If this role maps to the kind of work you want to do - building AI-native product in real customer environments, owning outcomes, and operating with urgency - we would like to hear from you.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "302816bafbe83c11313534f88aa8be5d1527cd896243da75e6d52fd0e27df51f",
+        "content_hash": "bcfb737506466e6c764f800d93b4e488a0c913844b74fd8525a3378f7ae8ba12",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "new",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [
+        "compensation_unknown"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": "No published compensation is available; the profile's unknown-salary policy is needs_review.",
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-de8314f867420e23994479b4",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "town",
+        "source_job_id": "0b261662-60c4-49e2-b351-118e57e5714b",
+        "fingerprint": "de8314f867420e23994479b44e7beedd225526e043cc048fc4b4ee678213f0d6"
+      },
+      "title": "AI Product Engineer",
+      "company": "Town.com, Inc.",
+      "discovery_url": "https://jobs.ashbyhq.com/town/0b261662-60c4-49e2-b351-118e57e5714b/application",
+      "canonical_url": "https://jobs.ashbyhq.com/town/0b261662-60c4-49e2-b351-118e57e5714b",
+      "source_names": [
+        "town-com:primary-careers"
+      ],
+      "location_text": "NYC",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 225000,
+        "maximum": 300000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$225K - $300K"
+      },
+      "posted_date": "2026-04-23",
+      "description_text": "ABOUT TOWN\n\nTown is an AI-powered assistant that connects to your tools to do real work on your behalf -- triaging your inbox, drafting in your voice, managing your schedule, and running workflows across everything you use. It knows you deeply and gets sharper over time.\n\nABOUT THE ROLE\n\nThe core technical challenge at Town is: context from everywhere, action anywhere. The assistant pulls from your email, calendar, Slack, docs, and connected tools to build a deep understanding of who you are and what you need -- then executes reliably across all of them.\n\nTown is not a chat wrapper. It's a rethinking of email, calendar, and contacts through an AI-native lens, a workflow builder that lets anyone automate real work, a suggestion engine that discovers what to automate before you think to ask, and a network of assistants that talk to each other across teams and organizations. You'll design and ship the experiences that make all of that legible and loved.\n\nYou'll be a foundational hire, working across the full stack but anchored on the product. You own features end to end -- from making tasteful UI/UX decisions to the backend plumbing that makes them real. Everyone has direct influence over product direction. The bar is high: the product has to feel polished, fast, and obviously better than the alternatives, on every surface.\n\nEXAMPLE PROJECTS INCLUDE...\n\n- Rethinking email, calendar, and contacts as AI-native experiences -- autonomous triage, drafts in your voice, 100% automated scheduling, an auto-built relationship graph\n\n- Building the suggestion engine -- tasks and workflow suggestions to inspire users on what to automate next\n\n- Designing the workflow builder -- making it trivial for anyone to build, share, and install automations\n\n- Building team and shared workflow surfaces -- one person builds, the whole team benefits\n\n- Building across web, desktop, mobile -- meeting users everywhere they work\n\n- Rethinking approvals, notifications, and the home screen -- the everyday surfaces that make or break trust in an agent\n\nYOU MIGHT THRIVE IN THIS ROLE IF YOU...\n\n- Are a generalist by choice -- comfortable moving between frontend, backend, and infrastructure as the problem demands.\n\n- Are excited about owning surface area end to end in an ambiguous, fast-moving environment -- not just executing within a defined spec.\n\n- Have strong product taste and can hold the whole experience in your head -- from the pixel to the prompt to the database schema. You care about how it feels, not just whether it works.\n\n- Have tuned your AI-native coding workflow that makes you dramatically faster and more effective.\n\n- Have experience with LLM-powered products, agentic UX, or any product where non-determinism is a first-class design constraint.\n\n- Have shipped product at a high-growth startup through an inflection point -- you were there when the product was being defined, not maintained. We want to hear your concrete shipping stories.\n\n- Care about trajectory over tenure. We're less interested in years of experience than how fast you got here and what you built along the way.\n\n- Are excited about working in-person, five days a week. We believe it matters at this stage.\n\nLOCATION\n\n5 days per week in person in either SF or NYC.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "094533c915a0c2ed7daf40be56f76dc3f591dc61029f1e3b79d7fe4d99b219ea",
+        "content_hash": "dec6d9842c9afe4e82380578cccaca4a127b4fbe23cfa01bd5495981c7b9a7aa",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "description_backfill",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "on_site",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [
+        "posting_does_not_identify_san_francisco_city"
+      ],
+      "verification": {
+        "status": "excluded",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": "The current canonical posting identifies NYC rather than San Francisco.",
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-9c84354f1a00db9c88f0cba0",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "town",
+        "source_job_id": "24ad1887-7503-4f13-9b0f-dc57a16c1c55",
+        "fingerprint": "9c84354f1a00db9c88f0cba04d44bb6f3fdf600b4cdbb2f769942ffcbb297b75"
+      },
+      "title": "Growth Engineer",
+      "company": "Town.com, Inc.",
+      "discovery_url": "https://jobs.ashbyhq.com/town/24ad1887-7503-4f13-9b0f-dc57a16c1c55/application",
+      "canonical_url": "https://jobs.ashbyhq.com/town/24ad1887-7503-4f13-9b0f-dc57a16c1c55",
+      "source_names": [
+        "town-com:primary-careers"
+      ],
+      "location_text": "San Francisco",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 225000,
+        "maximum": 300000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$225K - $300K"
+      },
+      "posted_date": "2026-07-12",
+      "description_text": "ABOUT TOWN\n\nTown is an AI-powered assistant that connects to your tools to do real work on your behalf — triaging your inbox, drafting in your voice, managing your schedule, and running workflows across everything you use. It knows you deeply and gets sharper over time.\n\n \n\nABOUT THE ROLE\n\nTown is a product-led growth (PLG) company, and the product itself is our best growth channel. We're looking for a Growth Engineer who gets genuine joy out of moving the numbers: pulling people into Town, getting individuals onto teams, getting teams onto paid, and turning teams into enterprise customers.\n\nThe skillset overlaps heavily with our Product Engineers — you'll ship real product, fast. The difference is what makes you tick. As a Growth Engineer at Town, you're energized by things like optimizing the invite flow, the conversion funnel, and the dashboard: invites per user, free-to-paid conversion, whether credits are calibrated right, how to make every loop faster, more delightful, and more discoverable.\n\nThis is a foundational, high-leverage role. You'll own the systems that turn Town's core product into a self-propelling growth engine — and you'll work hand-in-hand with virtually all teams across the business to do it.\n\n \n\nEXAMPLE PROJECTS INCLUDE...\n\n- Virality and the invite flow. Word of mouth is our most powerful growth lever. You'll work on building maximal virality into the product by improving how Town users spread the word. You'll make inviting new users faster, smoother, more delightful, and more discoverable. You'll run experiments around credits and incentives to pull more virality out of the core product.\n\n- Conversion and monetization. Revenue is the best indicator of how valuable of a product we're building. You'll focus on the user path from free to paid and from individual to team. Build and watch the dashboards tracking things like invites per user, conversion to paid, credit economics — and run experiments to move them.\n\n- Personal-to-team expansion. Design the upgrade flows. Solve problems like ensuring every team lands with at least 3 active members, and make team formation feel effortless.\n\n- Enterprise readiness and upsell. Build the foundation that lets us land and expand enterprise accounts: admin controls, admin vs. member-only features, and enterprise SSO integration (a near-term must-have for us).\n\nYOU MIGHT THRIVE IN THIS ROLE IF YOU...\n\n- Are energized by PLG mechanics. You see growth as a positive-sum, product-quality problem and you love digging into the small details that ultimately make big revenue impact.\n\n- Love working cross-functionally. GTM & business teams are some of your key stakeholders, and you're energized by go-to-market fundamentals and understanding how what you're building impacts the revenue growth of the business.\n\n- Get real joy out of running metrics. You instrument, measure, and obsess over a funnel, and you're happiest when a dashboard moves because of something you shipped.\n\n- Are an experiment-driven builder. You ship, measure, and iterate\n\n- Have tuned your AI-native coding workflow so you ship dramatically faster.\n\n- Are comfortable defining technical direction in ambiguous, fast-moving environments.\n\n- Are excited about working in-person in SF, five days a week.\n\n \n \n\nLOCATION\n\nSan Francisco, CA — five days a week in-person at our Financial District office (near Montgomery BART stop).",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "b0f3035ae469438ff3f7f6275a0dfd915df915a464e81d61a621c8101227b99f",
+        "content_hash": "68260572776cd1183dde76c1dd754f5dd4c946c5c926f60bc8b7add16398511a",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "new",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [],
+      "verification": {
+        "status": "excluded",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": "The growth role does not explicitly assign AI-powered feature, LLM, or agent work to this position; AI company context alone is insufficient.",
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-0360284ff777daf65590e1ad",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "town",
+        "source_job_id": "a2e9e0f3-f2dd-4cdf-a21b-d04cb88491ca",
+        "fingerprint": "0360284ff777daf65590e1ade2c44add6a919b48e449176978ff7dfc4cda937a"
+      },
+      "title": "AI Product Engineer",
+      "company": "Town.com, Inc.",
+      "discovery_url": "https://jobs.ashbyhq.com/town/a2e9e0f3-f2dd-4cdf-a21b-d04cb88491ca/application",
+      "canonical_url": "https://jobs.ashbyhq.com/town/a2e9e0f3-f2dd-4cdf-a21b-d04cb88491ca",
+      "source_names": [
+        "town-com:primary-careers"
+      ],
+      "location_text": "San Francisco",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": null,
+      "posted_date": "2026-07-23",
+      "description_text": "ABOUT TOWN\n\nTown is an AI-powered assistant that connects to your tools to do real work on your behalf -- triaging your inbox, drafting in your voice, managing your schedule, and running workflows across everything you use. It knows you deeply and gets sharper over time.\n\nABOUT THE ROLE\n\nThe core technical challenge at Town is: context from everywhere, action anywhere. The assistant pulls from your email, calendar, Slack, docs, and connected tools to build a deep understanding of who you are and what you need -- then executes reliably across all of them.\n\nTown is not a chat wrapper. It's a rethinking of email, calendar, and contacts through an AI-native lens, a workflow builder that lets anyone automate real work, a suggestion engine that discovers what to automate before you think to ask, and a network of assistants that talk to each other across teams and organizations. You'll design and ship the experiences that make all of that legible and loved.\n\nYou'll be a foundational hire, working across the full stack but anchored on the product. You own features end to end -- from making tasteful UI/UX decisions to the backend plumbing that makes them real. Everyone has direct influence over product direction. The bar is high: the product has to feel polished, fast, and obviously better than the alternatives, on every surface.\n\nEXAMPLE PROJECTS INCLUDE...\n\n- Rethinking email, calendar, and contacts as AI-native experiences -- autonomous triage, drafts in your voice, 100% automated scheduling, an auto-built relationship graph\n\n- Building the suggestion engine -- tasks and workflow suggestions to inspire users on what to automate next\n\n- Designing the workflow builder -- making it trivial for anyone to build, share, and install automations\n\n- Building team and shared workflow surfaces -- one person builds, the whole team benefits\n\n- Building across web, desktop, mobile -- meeting users everywhere they work\n\n- Rethinking approvals, notifications, and the home screen -- the everyday surfaces that make or break trust in an agent\n\nYOU MIGHT THRIVE IN THIS ROLE IF YOU...\n\n- Are a generalist by choice -- comfortable moving between frontend, backend, and infrastructure as the problem demands.\n\n- Are excited about owning surface area end to end in an ambiguous, fast-moving environment -- not just executing within a defined spec.\n\n- Have strong product taste and can hold the whole experience in your head -- from the pixel to the prompt to the database schema. You care about how it feels, not just whether it works.\n\n- Have tuned your AI-native coding workflow that makes you dramatically faster and more effective.\n\n- Have experience with LLM-powered products, agentic UX, or any product where non-determinism is a first-class design constraint.\n\n- Have shipped product at a high-growth startup through an inflection point -- you were there when the product was being defined, not maintained. We want to hear your concrete shipping stories.\n\n- Care about trajectory over tenure. We're less interested in years of experience than how fast you got here and what you built along the way.\n\n- Are excited about working in-person, five days a week. We believe it matters at this stage.\n\nLOCATION\n\n5 days per week in person in either SF or NYC.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "242a13920c38691d0c4b91cb92420eb3b51da0eb35a4ac84c0052b4e8633cc7f",
+        "content_hash": "dec6d9842c9afe4e82380578cccaca4a127b4fbe23cfa01bd5495981c7b9a7aa",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "new",
+      "discovered_at": "2026-08-05T15:00:00-07:00",
+      "preliminary_fit": [
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [
+        "compensation_unknown"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "run_id": "2026-08-05-known-company-refresh-verification",
+        "reason": "No published compensation is available; the profile's unknown-salary policy is needs_review.",
+        "verified_at": "2026-08-05T15:15:00-07:00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "schema_version": 2,
+  "collection_mode": "catalog_expansion",
+  "discovery_id": "2026-08-05-catalog-expansion-trial",
+  "profile_name": "default",
+  "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+  "status": "completed",
+  "strategy": "backfill",
+  "previous_discovery_id": "2026-08-05-refresh-133100",
+  "started_at": "2026-08-05T14:30:00-07:00",
+  "completed_at": "2026-08-05T14:36:00-07:00",
+  "date_range": {
+    "start": "2026-06-06",
+    "end": "2026-08-05",
+    "timezone": "America/Los_Angeles"
+  },
+  "query_matrix": [
+    "site:jobs.ashbyhq.com Frontend Engineer San Francisco AI salary",
+    "site:job-boards.greenhouse.io Software Engineer Product San Francisco AI",
+    "Forward Deployed Engineer San Francisco 200000 jobs",
+    "Product Engineer LLM San Francisco hybrid salary"
+  ],
+  "coverage": {
+    "candidate_limit": 100,
+    "limit_reached": false
+  },
+  "sources": [
+    {
+      "name": "catalog expansion web search",
+      "kind": "web_search",
+      "provider": "unknown",
+      "board_id": null,
+      "company_id": null,
+      "query": "approved four-query expansion matrix",
+      "url": "https://www.google.com/search?q=AI+product+engineering+jobs+San+Francisco",
+      "status": "completed",
+      "fetched_count": 4,
+      "queued_count": 4,
+      "unchanged_count": 0,
+      "rejected_count": 0,
+      "memory_skipped_count": 0,
+      "notes": "Limited trial; only four representative leads were normalized."
+    },
+    {
+      "name": "Edison Scientific Ashby feed",
+      "kind": "ats",
+      "provider": "unknown",
+      "board_id": null,
+      "company_id": null,
+      "query": "current public Edison Scientific Ashby feed",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/Edison%20Scientific?includeCompensation=true",
+      "status": "completed",
+      "fetched_count": 2,
+      "queued_count": 2,
+      "unchanged_count": 0,
+      "rejected_count": 0,
+      "memory_skipped_count": 0,
+      "notes": null
+    },
+    {
+      "name": "LiteLLM Ashby feed",
+      "kind": "ats",
+      "provider": "unknown",
+      "board_id": null,
+      "company_id": null,
+      "query": "current public LiteLLM Ashby feed",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/litellm?includeCompensation=true",
+      "status": "completed",
+      "fetched_count": 1,
+      "queued_count": 1,
+      "unchanged_count": 0,
+      "rejected_count": 0,
+      "memory_skipped_count": 0,
+      "notes": null
+    },
+    {
+      "name": "Levelpath Ashby feed",
+      "kind": "ats",
+      "provider": "unknown",
+      "board_id": null,
+      "company_id": null,
+      "query": "current public Levelpath Ashby feed",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/Levelpath?includeCompensation=true",
+      "status": "completed",
+      "fetched_count": 1,
+      "queued_count": 1,
+      "unchanged_count": 0,
+      "rejected_count": 0,
+      "memory_skipped_count": 0,
+      "notes": "The discovered Forward Deployed Engineer posting was absent from the current feed."
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_key": "job-c51c936d31ac76d9bacebac3",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "Edison Scientific",
+        "source_job_id": "69572d5c-36ff-4a38-a1da-e1130d14b031",
+        "fingerprint": "c51c936d31ac76d9bacebac35c50be914d05cad5d5f5795fc8222b6fd0faf63c"
+      },
+      "title": "Forward Deployed AI Engineer",
+      "company": "Edison Scientific",
+      "discovery_url": "https://jobs.ashbyhq.com/Edison%20Scientific/69572d5c-36ff-4a38-a1da-e1130d14b031/application",
+      "canonical_url": "https://jobs.ashbyhq.com/Edison%20Scientific/69572d5c-36ff-4a38-a1da-e1130d14b031",
+      "source_names": [
+        "catalog expansion web search",
+        "Edison Scientific Ashby feed"
+      ],
+      "location_text": "San Francisco",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 200000,
+        "maximum": 350000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$200K - $350K"
+      },
+      "posted_date": "2026-07-01",
+      "description_text": "ABOUT US\n\nEdison Scientific builds and deploys AI scientist agents to accelerate science and the development of new medicines. We are an ambitious team run by scientists and engineers from leading institutions across biology, physics, chemistry, and AI.\n\n\nROLE\n\nAs a Forward Deployed AI Engineer, you'll be embedded directly with leading scientific R&D organizations across pharma and biotech – taking full ownership of how Edison's AI agents create value in their environment. You will deeply understand their science, their workflows, and their pain points, then determine where our platform can have the most impact.\n\nThis isn't remote support or implementation consulting. You'll be on-site and on the front lines, owning integrations, reliability, relationship cadence, and the product feedback loop end to end. You will build relationships with scientists and research leaders, identify the highest-leverage problems, and ship solutions quickly. You'll operate with a high degree of independence and serve as the bridge between what our platform can do and what the customer needs it to do, feeding insights back to our product and engineering teams to shape the roadmap. While we don’t require you to have a scientific background, we expect our engineers to be deeply curious about science and to be excited to build and drive value for our partners.\n\n\n\n\nRESPONSIBILITIES\n\n - Translate complex scientific and operational requirements into a clear delivery roadmap, from initial discovery through scaled production deployment.\n\n - Be embedded with R&D teams, understand their research workflows deeply, and drive & own the value creation that Edison delivers to our partners.\n\n - Map the customer's scientific and operational landscape to identify where AI agents can have the most impact – not just where they ask for help, but where the real leverage is.\n\n - Design, implement, and iterate on production-ready integrations in fast cycles, often owning features end-to-end from architecture to rollout.\n\n - Troubleshoot and debug issues in real time, ensure reliability and adoption, and be the go-to technical contact for AI within the client organization.\n\n - Capture pain points, unmet needs, and product gaps and work with our internal Applied AI and engineering teams to shape future capabilities.\n\n - Partner with GTM and account executives to scope engagements, define success metrics, and support pre-sales technical evaluation.\n\n\nREQUIREMENTS\n\n - 2+ years of professional software engineering experience, with a track record of shipping production-grade software in fast-paced or ambiguous environments. Strong proficiency in Python and/or TypeScript/JavaScript with deep fundamentals\n\n - Hands-on experience building and deploying LLM-powered or agentic AI systems in production environments, including prompt engineering, RAG pipelines, model evaluation, and orchestration frameworks.\n\n - AI fluency: able to reason through systems architecture, debug at the infrastructure level, and write clean production code independently (without reliance on AI-assisted coding tools).\n\n - Comfortable with 20-40% travel (at peak times), operating independently, making decisions with incomplete information, and driving outcomes without close oversight.\n\n - Proven problem-solving skills, navigating complex systems, debugging issues in real-time, and owning features end-to-end.\n\n - Strong communication and relationship-building skills – able to earn trust with scientists, executives, and engineering teams.\n\n - Deep curiosity and willingness to learn new scientific domains quickly and adapt to rapidly evolving priorities.\n\n - Degree in Computer Science, Software Engineering, Mathematics, Physics, or a related technical field; or equivalent demonstrated depth through professional experience.\n\n\nBONUS POINTS FOR:\n\n - Experience in life sciences, pharma, biotech, or scientific R&D – either as a researcher, consultant, or engineer working in these environments.\n\n - Familiarity with regulated data environments (GxP, HIPAA, 21 CFR Part 11, or equivalent compliance frameworks)\n\n - Background as a technical founder, forward-deployed engineer, or management consultant.\n\n - A science degree or research experience alongside your engineering skills.\n\n\nWHY JOIN US?\n\nWe're a fast-moving, mission-driven culture where smart people do their best work and actually enjoy doing it. We also offer full-time employees the following:\n\n - Competitive salary and equity\n\n - Full healthcare coverage; we pay 100% of premiums for you and your dependents\n\n - Support for growing families, including a yearly new parent stipend and fertility coverage through Carrot\n\n - Mental health support through Rula, our in-network therapist and psychiatrist network with fast availability\n\n - 12 weeks of paid parental leave for maternity, paternity, and adoption\n\n - Pet care support with a yearly employer-funded stipend for your animal companions\n\n - Commuter benefits so you can pay for transit and parking with pre-tax dollars\n\n - 401(k) company matching\n\n - $300 health and wellness benefit quarterly\n\n - Lunch is on us every day you're in the office, and dinner is on us when you're working late\n\n - Regular team off-sites and company events\n\nEdison Scientific is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other protected characteristic under applicable law.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "912fb1bf6cf774e55e1c1ff93393d366d86b9338bf10a399f6f668bbd0d9db22",
+        "content_hash": "c35e964c0e4caf73d56f3cbd7df4bc0e2ff7df624fe357adb72c583dc9773e13",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "new",
+      "discovered_at": "2026-08-05T14:36:00-07:00",
+      "preliminary_fit": [
+        "Approved forward-deployed title variant",
+        "Explicit production AI-agent delivery",
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [
+        "20-40% travel and reliability ownership require culture review"
+      ],
+      "verification": {
+        "status": "verified",
+        "run_id": "2026-08-05-catalog-expansion-verification",
+        "reason": "Active official posting passes the approved title, San Francisco, on-site, full-time, seniority, compensation, and role-specific AI gates.",
+        "verified_at": "2026-08-05T14:48:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-d4ffc98eb2629f9cfa2e5b4a",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "Edison Scientific",
+        "source_job_id": "52900167-cbb3-4957-8944-48ab86555bea",
+        "fingerprint": "d4ffc98eb2629f9cfa2e5b4a948202e306fe91c839d54a5a7465637992a08abe"
+      },
+      "title": "Member of Technical Staff, Frontend Engineer",
+      "company": "Edison Scientific",
+      "discovery_url": "https://jobs.ashbyhq.com/Edison%20Scientific/52900167-cbb3-4957-8944-48ab86555bea/application",
+      "canonical_url": "https://jobs.ashbyhq.com/Edison%20Scientific/52900167-cbb3-4957-8944-48ab86555bea",
+      "source_names": [
+        "catalog expansion web search",
+        "Edison Scientific Ashby feed"
+      ],
+      "location_text": "San Francisco",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 175000,
+        "maximum": 240000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$175K - $240K"
+      },
+      "posted_date": "2026-07-20",
+      "description_text": "ABOUT US\n\nEdison Scientific builds and deploys AI scientist agents to accelerate science and the development of new medicines. We are an ambitious team run by scientists and engineers from leading institutions across biology, physics, chemistry, and AI.\n\n\nTHE ROLE\n\nAs a Frontend Engineer, you will help build our “integrated research environment” and design a UX that empowers scientists to integrate AI into their discovery process.\n\nThis role is on-site at our San Francisco office in the Dogpatch neighborhood. Our office is a converted warehouse with high ceilings, open space, and a team that genuinely believes in what they're building.\n\nThis position is part of the App team. \n\n\nRESPONSIBILITIES\n\n - Architect, design, implement, and optimize the front-end for our scientific discovery platform with a focus on performance and scalable UI patterns.\n\n - Translate complex AI-driven scientific workflows into clear, intuitive, and well-signposted user experiences.\n\n - Work closely with product and research teams to anticipate user needs and features.\n\n - Develop and maintain a modular design system.\n\n - Profile and optimize rendering performance, asset loading, and interaction responsiveness across browsers and devices.\n\n - Integrate real-time data visualizations and dynamic interfaces to empower scientists on our platform.\n\n - Conduct code reviews, enforce engineering best practices, and contribute to front-end architecture decisions.\n\n\nQUALIFICATIONS\n\n - Typically, 4-8 years of professional experience in front-end engineering, with a track record of shipping performant, complex, and data visualization-heavy web applications.\n\n - Deep experience in JavaScript - Reactjs, TypeScript.\n\n - Strong understanding of browser rendering pipelines, performance profiling, and optimization techniques.\n\n - Experience with real-time data handling (e.g., WebSockets, GraphQL subscriptions) and interactive visualizations (e.g., D3.js, Deck.gl, Three.js).\n\n - Ability to transform technical and scientific requirements into elegant, usable visualizations & interfaces.\n\n - Experience building design systems and reusable component libraries.\n\n - Knowledge of accessibility standards and responsive design principles.\n\n\nBONUS POINTS FOR\n\n - Experience with scientific data visualization, computational biology, or AI/ML tools.\n\n - Familiarity with back-end integration patterns for high-throughput data pipelines.\n\n\nSALARY\n\n$175,000 - $240,000  •  Offers equity\n\n\nWHY JOIN US?\n\nWe're a fast-moving, mission-driven culture where smart people do their best work and actually enjoy doing it. We also offer full-time employees the following:\n\n - Competitive salary and equity\n\n - Full healthcare coverage; we pay 100% of premiums for you and your dependents\n\n - Support for growing families, including a yearly new parent stipend and fertility coverage through Carrot\n\n - Mental health support through Rula, our in-network therapist and psychiatrist network with fast availability\n\n - 12 weeks of paid parental leave for maternity, paternity, and adoption\n\n - Pet care support with a yearly employer-funded stipend for your animal companions\n\n - Commuter benefits so you can pay for transit and parking with pre-tax dollars\n\n - 401(k) company matching\n\n - $300 health and wellness benefit quarterly\n\n - Lunch is on us every day you're in the office, and dinner is on us when you're working late\n\n - Regular team off-sites and company events\n\nEdison Scientific is an equal opportunity employer. We do not discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, veteran status, or any other protected characteristic under applicable law.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "4aabccbaecd9e7c78d658f6932161f3d3a5e96185ae3954de838ec6a13263bd0",
+        "content_hash": "229f56724d5fe11f231892db75216f83ed5be5c5b89bdeb6dce763dc5ee1267f",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "new",
+      "discovered_at": "2026-08-05T14:36:00-07:00",
+      "preliminary_fit": [
+        "Frontend title",
+        "Explicit AI-driven product UX",
+        "React and TypeScript",
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [
+        "Posting mentions dinner when working late"
+      ],
+      "verification": {
+        "status": "verified",
+        "run_id": "2026-08-05-catalog-expansion-verification",
+        "reason": "Active official posting passes the frontend, San Francisco, on-site, full-time, seniority, compensation, and explicit AI-product UX gates.",
+        "verified_at": "2026-08-05T14:48:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-9ae464dda57b2b6654c718bc",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "litellm",
+        "source_job_id": "8f1fe19b-7f83-4266-a04f-782dedb2c170",
+        "fingerprint": "9ae464dda57b2b6654c718bc8c1a4505f68369387f9130d341274ee6cce52d0c"
+      },
+      "title": "Product Engineer",
+      "company": "LiteLLM",
+      "discovery_url": "https://jobs.ashbyhq.com/litellm/8f1fe19b-7f83-4266-a04f-782dedb2c170/application",
+      "canonical_url": "https://jobs.ashbyhq.com/litellm/8f1fe19b-7f83-4266-a04f-782dedb2c170",
+      "source_names": [
+        "catalog expansion web search",
+        "LiteLLM Ashby feed"
+      ],
+      "location_text": "San Francisco",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 200000,
+        "maximum": 260000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$200K - $260K"
+      },
+      "posted_date": "2026-07-10",
+      "description_text": "PRODUCT ENGINEER\n\nLiteLLM is the world's most popular AI Gateway, trusted by companies like Adobe, Netflix, and NASA. We're building the next generation of infrastructure for AI applications—and now we're building our second product.\n\nWe're looking for a Product Engineer who wants to work directly with the founders to figure out what developers need, ship quickly, and build products that thousands of engineering teams use every day.\n\n\n\nABOUT THE ROLE\n\nThis isn't a traditional product management role, and it isn't a traditional software engineering role.\n\nYou'll spend your time talking to customers, understanding their problems, designing solutions, writing production code, and shipping features. One week you might build a new authentication flow, the next week you're redesigning an onboarding experience, integrating with a new provider, or launching an entirely new product.\n\nIf you enjoy owning a problem end-to-end—from idea to production—you'll thrive here.\n\n\n\nRESPONSIBILITIES\n\n - Build new product features from concept to production.\n\n - Work directly with customers to understand pain points and validate solutions.\n\n - Ship quickly while maintaining a high quality bar.\n\n - Prototype new ideas and iterate based on user feedback.\n\n - Own major product areas and continuously improve them over time.\n\n - Design backend APIs and services using Python and FastAPI.\n\n - Build intuitive developer experiences across our API, dashboard, and CLI.\n\n - Collaborate directly with the founders on product direction and technical decisions.\n\n - Help define and build LiteLLM's second major product.\n\n\n\nWHAT WE'RE LOOKING FOR\n\n - Bachelor's or Master's degree in Computer Science or a related field.\n\n - Strong software engineering fundamentals.\n\n - Experience building production software, preferably with Python.\n\n - Comfortable moving across the stack when needed (backend, frontend, infrastructure, APIs).\n\n - Strong product intuition and curiosity about how customers use software.\n\n - Excellent written and verbal communication.\n\n - High ownership—you naturally identify problems and solve them without waiting to be asked.\n\n - Comfortable operating in ambiguity and making decisions with incomplete information.\n\n - Excited by shipping quickly and learning from real users.\n\n\n\nBONUS POINTS\n\n - Experience at an early-stage startup.\n\n - Experience building developer tools or infrastructure products.\n\n - Open source contributions.\n\n - You've built and launched your own product.\n\n - Familiarity with AI infrastructure, LLMs, or developer platforms.\n\n\n\nWHY JOIN LITELLM?\n\n - Work directly with the founders every day.\n\n - Build products used by thousands of engineering teams around the world.\n\n - Own meaningful product decisions—not just implementation.\n\n - Move incredibly fast and see your work in production immediately.\n\n - Help define the future of AI infrastructure and developer tooling.\n\n - Competitive salary, equity, health, dental, and vision benefits.\n\n\n\nABOUT LITELLM\n\nLiteLLM is the world's most widely adopted AI Gateway. We provide a unified API for 100+ LLM providers along with routing, authentication, budgets, observability, and governance for production AI systems. Thousands of companies rely on LiteLLM to power AI in production.\n\nIf you love talking to users, building products, and shipping software that people actually use, we'd love to meet you.",
+      "description_completeness": "full",
+      "hashes": {
+        "metadata_hash": "b4986f13f394ffc7a0f59d4c3ff31cc716ba4f76ed8db24bf7852bf9b839b93e",
+        "content_hash": "b12072230eb2fb265bcfd4d7bbbe9e665f591f8025c80e59244f261f9ec040ea",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "new",
+      "discovered_at": "2026-08-05T14:36:00-07:00",
+      "preliminary_fit": [
+        "Product Engineer title",
+        "Current official posting within the backfill window",
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [
+        "Role-specific AI responsibility is unclear",
+        "Posting requires a bachelors or masters degree"
+      ],
+      "verification": {
+        "status": "excluded",
+        "run_id": "2026-08-05-catalog-expansion-verification",
+        "reason": "The full posting describes general product work and mentions AI primarily as company context or a bonus qualification, not an explicit responsibility for building AI-powered features.",
+        "verified_at": "2026-08-05T14:48:00-07:00"
+      }
+    },
+    {
+      "candidate_key": "job-589701e1e0670395dcb644bb",
+      "identity": {
+        "provider": "ashby",
+        "board_id": "Levelpath",
+        "source_job_id": "c53c51c1-9ea3-4b8f-88e9-502dea61afbd",
+        "fingerprint": "589701e1e0670395dcb644bb51e32cbc851c7aa24874a40d04f6029153083a21"
+      },
+      "title": "Forward Deployed Engineer",
+      "company": "Levelpath",
+      "discovery_url": "https://jobs.ashbyhq.com/Levelpath/c53c51c1-9ea3-4b8f-88e9-502dea61afbd",
+      "canonical_url": "https://jobs.ashbyhq.com/Levelpath/c53c51c1-9ea3-4b8f-88e9-502dea61afbd",
+      "source_names": [
+        "catalog expansion web search",
+        "Levelpath Ashby feed"
+      ],
+      "location_text": "San Francisco",
+      "workplace_arrangement": "on-site",
+      "employment_type": "full-time",
+      "seniority": null,
+      "compensation": {
+        "minimum": 165000,
+        "maximum": 240000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$165K - $240K"
+      },
+      "posted_date": null,
+      "description_text": "Build and deploy AI-powered procurement workflows for customers. The role includes participation in a US-hours on-call rotation.",
+      "description_completeness": "snippet",
+      "hashes": {
+        "metadata_hash": "ef738386a6ac2039eed815b7a65ee5a6e54b03eccbb25ea77a77a0a9b9c9103e",
+        "content_hash": "33d3f4d32e780868a0a17dba35c5918e0d671fb493e64f1e272f7baca605629c",
+        "hash_algorithm": "sha256"
+      },
+      "change_state": "new",
+      "discovered_at": "2026-08-05T14:36:00-07:00",
+      "preliminary_fit": [
+        "Approved Forward Deployed Engineer title",
+        "Explicit AI workflow delivery",
+        "compatible_title_or_role_family",
+        "posting_identifies_san_francisco",
+        "on_site",
+        "full_time",
+        "published_compensation_passes",
+        "apparent_role_specific_ai_work"
+      ],
+      "preliminary_concerns": [
+        "Absent from current official feed",
+        "Regular on-call language"
+      ],
+      "verification": {
+        "status": "excluded",
+        "run_id": "2026-08-05-catalog-expansion-verification",
+        "reason": "The discovered posting is absent from Levelpath's current official feed and its snippet states a regular on-call rotation.",
+        "verified_at": "2026-08-05T14:48:00-07:00"
+      }
+    }
+  ]
+}

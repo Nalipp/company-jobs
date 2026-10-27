@@ -1,0 +1,332 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://daily-jobs.local/schemas/company-catalog.schema.json",
+  "title": "Daily Jobs Company Catalog Record",
+  "description": "One persistent company record containing canonical source configuration, offices, remembered jobs, and reusable profile evaluations.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "company_id",
+    "company",
+    "status",
+    "sources",
+    "offices",
+    "jobs",
+    "refresh",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "company_id": { "$ref": "#/$defs/slug" },
+    "company": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "aliases",
+        "website_url",
+        "primary_domain",
+        "description",
+        "industries",
+        "funding_stage",
+        "employee_count_range",
+        "evidence"
+      ],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "aliases": { "$ref": "#/$defs/stringList" },
+        "website_url": { "$ref": "#/$defs/nullableUri" },
+        "primary_domain": { "type": ["string", "null"], "minLength": 1 },
+        "description": { "type": ["string", "null"], "minLength": 1 },
+        "industries": { "$ref": "#/$defs/stringList" },
+        "funding_stage": { "type": ["string", "null"], "minLength": 1 },
+        "employee_count_range": { "type": ["string", "null"], "minLength": 1 },
+        "evidence": { "$ref": "#/$defs/evidenceList" }
+      }
+    },
+    "status": { "enum": ["active", "unavailable", "unknown"] },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/companySource" }
+    },
+    "offices": {
+      "description": "Known or unresolved company offices. New records contain at least one placeholder office so map fields are always present.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/office" }
+    },
+    "jobs": {
+      "description": "Jobs that passed the posting-level hard constraints, keyed by a stable local job key. ATS job IDs are preferred; otherwise use a deterministic canonical-URL key.",
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": { "$ref": "#/$defs/slug" },
+      "additionalProperties": { "$ref": "#/$defs/job" }
+    },
+    "refresh": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "last_attempted_at",
+        "last_successful_at",
+        "last_status",
+        "consecutive_failures",
+        "last_error"
+      ],
+      "properties": {
+        "last_attempted_at": { "$ref": "#/$defs/nullableDateTime" },
+        "last_successful_at": { "$ref": "#/$defs/nullableDateTime" },
+        "last_status": { "enum": ["not_attempted", "completed", "partial", "failed"] },
+        "consecutive_failures": { "type": "integer", "minimum": 0 },
+        "last_error": { "type": ["string", "null"], "minLength": 1 }
+      }
+    },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" }
+  },
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "nullableDateTime": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "nullableUri": {
+      "type": ["string", "null"],
+      "format": "uri"
+    },
+    "stringList": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_type", "source_name", "url", "text", "checked_at"],
+      "properties": {
+        "source_type": {
+          "enum": [
+            "ats",
+            "company_careers",
+            "company_website",
+            "job_posting",
+            "map_provider",
+            "business_directory",
+            "web_search",
+            "job_board",
+            "other"
+          ]
+        },
+        "source_name": { "type": "string", "minLength": 1 },
+        "url": { "$ref": "#/$defs/nullableUri" },
+        "text": { "type": ["string", "null"], "minLength": 1 },
+        "checked_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "evidenceList": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/evidence" }
+    },
+    "companySource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "source_type",
+        "provider",
+        "url",
+        "board_id",
+        "status",
+        "discovered_from",
+        "last_checked_at",
+        "last_successful_at"
+      ],
+      "properties": {
+        "source_id": { "$ref": "#/$defs/slug" },
+        "source_type": { "enum": ["ats", "company_careers", "custom_careers"] },
+        "provider": { "enum": ["ashby", "greenhouse", "lever", "workday", "custom", "unknown"] },
+        "url": { "type": "string", "format": "uri" },
+        "board_id": { "type": ["string", "null"], "minLength": 1 },
+        "status": { "enum": ["active", "unavailable", "unknown"] },
+        "discovered_from": { "$ref": "#/$defs/stringList" },
+        "last_checked_at": { "$ref": "#/$defs/nullableDateTime" },
+        "last_successful_at": { "$ref": "#/$defs/nullableDateTime" }
+      }
+    },
+    "office": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "office_id",
+        "label",
+        "location_text",
+        "address",
+        "latitude",
+        "longitude",
+        "address_verified",
+        "evidence",
+        "last_checked_at"
+      ],
+      "properties": {
+        "office_id": { "$ref": "#/$defs/slug" },
+        "label": { "type": ["string", "null"], "minLength": 1 },
+        "location_text": { "type": ["string", "null"], "minLength": 1 },
+        "address": { "type": ["string", "null"], "minLength": 1 },
+        "latitude": { "type": ["number", "null"], "minimum": -90, "maximum": 90 },
+        "longitude": { "type": ["number", "null"], "minimum": -180, "maximum": 180 },
+        "address_verified": {
+          "description": "null means not yet verified, true means the address and coordinates are verified in an approved city, and false means validation confirmed the candidate address is unacceptable.",
+          "type": ["boolean", "null"]
+        },
+        "evidence": { "$ref": "#/$defs/evidenceList" },
+        "last_checked_at": { "$ref": "#/$defs/nullableDateTime" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "address_verified": { "const": true } } },
+          "then": {
+            "properties": {
+              "address": { "type": "string", "minLength": 1 },
+              "latitude": { "type": "number", "minimum": -90, "maximum": 90 },
+              "longitude": { "type": "number", "minimum": -180, "maximum": 180 },
+              "evidence": { "type": "array", "minItems": 1 },
+              "last_checked_at": { "type": "string", "format": "date-time" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "address_verified": { "const": false } } },
+          "then": {
+            "properties": {
+              "evidence": { "type": "array", "minItems": 1 },
+              "last_checked_at": { "type": "string", "format": "date-time" }
+            }
+          }
+        }
+      ]
+    },
+    "job": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "job_id",
+        "source_id",
+        "source_job_id",
+        "canonical_url",
+        "activity",
+        "raw",
+        "hashes",
+        "discovered_from",
+        "evaluations",
+        "first_seen_at",
+        "last_seen_at",
+        "last_checked_at"
+      ],
+      "properties": {
+        "job_id": { "$ref": "#/$defs/slug" },
+        "source_id": { "$ref": "#/$defs/slug" },
+        "source_job_id": { "type": ["string", "null"], "minLength": 1 },
+        "canonical_url": { "type": "string", "format": "uri" },
+        "activity": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "missing_from_source_count", "inactive_confirmed_at"],
+          "properties": {
+            "status": { "enum": ["active", "inactive", "unknown"] },
+            "missing_from_source_count": { "type": "integer", "minimum": 0 },
+            "inactive_confirmed_at": { "$ref": "#/$defs/nullableDateTime" }
+          }
+        },
+        "raw": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "title",
+            "location_text",
+            "workplace_arrangement",
+            "employment_type",
+            "seniority",
+            "compensation",
+            "posted_at",
+            "description_text",
+            "description_completeness"
+          ],
+          "properties": {
+            "title": { "type": "string", "minLength": 1 },
+            "location_text": { "type": ["string", "null"], "minLength": 1 },
+            "workplace_arrangement": { "enum": ["remote", "hybrid", "on-site", "unknown"] },
+            "employment_type": { "type": ["string", "null"], "minLength": 1 },
+            "seniority": { "type": ["string", "null"], "minLength": 1 },
+            "compensation": { "$ref": "#/$defs/jobCompensation" },
+            "posted_at": { "type": ["string", "null"], "format": "date-time" },
+            "description_text": { "type": "string", "minLength": 1 },
+            "description_completeness": { "enum": ["full", "evidence_only"] }
+          }
+        },
+        "hashes": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["metadata_hash", "content_hash", "hash_algorithm"],
+          "properties": {
+            "metadata_hash": { "type": ["string", "null"], "minLength": 1 },
+            "content_hash": { "type": ["string", "null"], "minLength": 1 },
+            "hash_algorithm": { "enum": ["sha256"] }
+          }
+        },
+        "discovered_from": { "$ref": "#/$defs/stringList" },
+        "evaluations": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/evaluation" }
+        },
+        "first_seen_at": { "type": "string", "format": "date-time" },
+        "last_seen_at": { "type": "string", "format": "date-time" },
+        "last_checked_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "jobCompensation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["minimum", "maximum", "currency", "basis", "period", "source_text"],
+      "properties": {
+        "minimum": { "type": ["number", "null"], "minimum": 0 },
+        "maximum": { "type": ["number", "null"], "minimum": 0 },
+        "currency": { "type": ["string", "null"], "minLength": 1 },
+        "basis": { "enum": ["base", "total", "either", "unknown"] },
+        "period": { "enum": ["hour", "month", "year", "unknown"] },
+        "source_text": { "type": ["string", "null"], "minLength": 1 }
+      }
+    },
+    "evaluation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "profile_name",
+        "profile_updated_at",
+        "profile_hash",
+        "job_content_hash",
+        "evaluated_at",
+        "outcome",
+        "match_score",
+        "reason_codes",
+        "evidence_snippets"
+      ],
+      "properties": {
+        "profile_name": { "type": "string", "minLength": 1 },
+        "profile_updated_at": { "type": "string", "format": "date-time" },
+        "profile_hash": { "type": "string", "minLength": 1 },
+        "job_content_hash": { "type": ["string", "null"], "minLength": 1 },
+        "evaluated_at": { "type": "string", "format": "date-time" },
+        "outcome": { "enum": ["included", "excluded", "needs_review"] },
+        "match_score": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+        "reason_codes": { "$ref": "#/$defs/stringList" },
+        "evidence_snippets": { "$ref": "#/$defs/stringList" }
+      }
+    }
+  }
+}

@@ -1,0 +1,541 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-08-05-known-company-refresh-verification",
+  "profile_name": "default",
+  "started_at": "2026-08-05T15:15:00-07:00",
+  "completed_at": "2026-08-05T15:15:00-07:00",
+  "updated_at": "2026-08-05T15:15:00-07:00",
+  "date_range": {
+    "start": "2026-08-05",
+    "end": "2026-08-05",
+    "timezone": "America/Los_Angeles"
+  },
+  "queries": [
+    {
+      "query": "poll https://jobs.ashbyhq.com/Ampersand",
+      "source": "canonical company source",
+      "candidate_count": 17
+    },
+    {
+      "query": "poll https://www.confident-ai.com/careers",
+      "source": "canonical company source",
+      "candidate_count": 17
+    },
+    {
+      "query": "poll https://jobs.ashbyhq.com/Edison%20Scientific",
+      "source": "canonical company source",
+      "candidate_count": 17
+    },
+    {
+      "query": "poll https://www.ycombinator.com/companies/gem/jobs",
+      "source": "canonical company source",
+      "candidate_count": 17
+    },
+    {
+      "query": "poll https://jobs.ashbyhq.com/klarity-ai",
+      "source": "canonical company source",
+      "candidate_count": 17
+    },
+    {
+      "query": "poll https://jobs.ashbyhq.com/mercor",
+      "source": "canonical company source",
+      "candidate_count": 17
+    },
+    {
+      "query": "poll https://openai.com/careers/search/",
+      "source": "canonical company source",
+      "candidate_count": 17
+    },
+    {
+      "query": "poll https://ats.rippling.com/rippling/jobs",
+      "source": "canonical company source",
+      "candidate_count": 17
+    },
+    {
+      "query": "poll https://jobs.lever.co/sambatv",
+      "source": "canonical company source",
+      "candidate_count": 17
+    },
+    {
+      "query": "poll https://jobs.ashbyhq.com/speak",
+      "source": "canonical company source",
+      "candidate_count": 17
+    },
+    {
+      "query": "poll https://tasklet.ai/careers",
+      "source": "canonical company source",
+      "candidate_count": 17
+    },
+    {
+      "query": "poll https://jobs.ashbyhq.com/thorin",
+      "source": "canonical company source",
+      "candidate_count": 17
+    },
+    {
+      "query": "poll https://careers.town.com/",
+      "source": "canonical company source",
+      "candidate_count": 17
+    }
+  ],
+  "jobs": [
+    {
+      "job_key": "edison-scientific-69572d5c-36ff-4a38-a1da-e1130d14b031",
+      "title": "Forward Deployed AI Engineer",
+      "company": "Edison Scientific",
+      "canonical_url": "https://jobs.ashbyhq.com/Edison%20Scientific/69572d5c-36ff-4a38-a1da-e1130d14b031",
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/Edison%20Scientific/69572d5c-36ff-4a38-a1da-e1130d14b031/application"
+      ],
+      "location": "San Francisco | New York | Remote available (U.S. Only) | Boston",
+      "workplace_arrangement": "on-site",
+      "compensation": {
+        "minimum": 200000,
+        "maximum": 350000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$200K - $350K"
+      },
+      "posted_date": "2026-07-01",
+      "employment_type": "full-time",
+      "seniority": "acceptable: 2+ years",
+      "culture_fit": {
+        "summary": "unknown",
+        "credential_alignment": "unknown",
+        "background_openness": "unknown",
+        "career_stage_alignment": "unknown",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [],
+        "concerns": []
+      },
+      "match_score": 76,
+      "why_it_fits": [
+        "Direct customer ownership of production AI-agent integrations and product feedback.",
+        "The canonical posting confirms San Francisco, the required workplace arrangement, full-time employment, and a qualifying published base-salary maximum."
+      ],
+      "concerns": [
+        "20–40% travel and reliability ownership may reduce schedule predictability."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/Edison%20Scientific",
+          "source_text": "Listed in the current canonical employer feed.",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai_work",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/Edison%20Scientific/69572d5c-36ff-4a38-a1da-e1130d14b031",
+          "source_text": "Direct customer ownership of production AI-agent integrations and product feedback.",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        },
+        {
+          "claim": "seniority",
+          "value": "acceptable",
+          "source_url": "https://jobs.ashbyhq.com/Edison%20Scientific/69572d5c-36ff-4a38-a1da-e1130d14b031",
+          "source_text": "acceptable: 2+ years",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "edison-scientific-9e5a7b8d-71bb-4f08-a781-72be4d45a043",
+      "title": "Member of Technical Staff, Applied AI Engineer, Agents",
+      "company": "Edison Scientific",
+      "canonical_url": "https://jobs.ashbyhq.com/Edison%20Scientific/9e5a7b8d-71bb-4f08-a781-72be4d45a043",
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/Edison%20Scientific/9e5a7b8d-71bb-4f08-a781-72be4d45a043/application"
+      ],
+      "location": "San Francisco | New York",
+      "workplace_arrangement": "on-site",
+      "compensation": {
+        "minimum": 175000,
+        "maximum": 240000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$175K - $240K"
+      },
+      "posted_date": "2026-07-16",
+      "employment_type": "full-time",
+      "seniority": "acceptable: typically 5+ years",
+      "culture_fit": {
+        "summary": "unknown",
+        "credential_alignment": "unknown",
+        "background_openness": "unknown",
+        "career_stage_alignment": "unknown",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [],
+        "concerns": []
+      },
+      "match_score": 84,
+      "why_it_fits": [
+        "Builds production AI agents, agent architectures, evaluations, and product direction from customer workflows.",
+        "The canonical posting confirms San Francisco, the required workplace arrangement, full-time employment, and a qualifying published base-salary maximum."
+      ],
+      "concerns": [
+        "More applied-AI/platform-oriented than frontend-focused."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/Edison%20Scientific",
+          "source_text": "Listed in the current canonical employer feed.",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai_work",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/Edison%20Scientific/9e5a7b8d-71bb-4f08-a781-72be4d45a043",
+          "source_text": "Builds production AI agents, agent architectures, evaluations, and product direction from customer workflows.",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        },
+        {
+          "claim": "seniority",
+          "value": "acceptable",
+          "source_url": "https://jobs.ashbyhq.com/Edison%20Scientific/9e5a7b8d-71bb-4f08-a781-72be4d45a043",
+          "source_text": "acceptable: typically 5+ years",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "edison-scientific-19f9e74a-0bff-4ef4-9e4b-d5a44092e086",
+      "title": "Member of Technical Staff, Full-stack Engineer",
+      "company": "Edison Scientific",
+      "canonical_url": "https://jobs.ashbyhq.com/Edison%20Scientific/19f9e74a-0bff-4ef4-9e4b-d5a44092e086",
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/Edison%20Scientific/19f9e74a-0bff-4ef4-9e4b-d5a44092e086/application"
+      ],
+      "location": "San Francisco | New York",
+      "workplace_arrangement": "on-site",
+      "compensation": {
+        "minimum": 175000,
+        "maximum": 240000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$175K - $240K"
+      },
+      "posted_date": "2026-08-05",
+      "employment_type": "full-time",
+      "seniority": "acceptable: mid-level MTS",
+      "culture_fit": {
+        "summary": "unknown",
+        "credential_alignment": "unknown",
+        "background_openness": "unknown",
+        "career_stage_alignment": "unknown",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [],
+        "concerns": []
+      },
+      "match_score": 79,
+      "why_it_fits": [
+        "Full-stack product work building tools, interfaces, and data systems supporting AI agents.",
+        "The canonical posting confirms San Francisco, the required workplace arrangement, full-time employment, and a qualifying published base-salary maximum."
+      ],
+      "concerns": [
+        "The role is explicitly backend-focused."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/Edison%20Scientific",
+          "source_text": "Listed in the current canonical employer feed.",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai_work",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/Edison%20Scientific/19f9e74a-0bff-4ef4-9e4b-d5a44092e086",
+          "source_text": "Full-stack product work building tools, interfaces, and data systems supporting AI agents.",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        },
+        {
+          "claim": "seniority",
+          "value": "acceptable",
+          "source_url": "https://jobs.ashbyhq.com/Edison%20Scientific/19f9e74a-0bff-4ef4-9e4b-d5a44092e086",
+          "source_text": "acceptable: mid-level MTS",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "klarity-05377ac4-4c57-4146-a077-4e84f7d6a273",
+      "title": "Senior AI Frontend Engineer",
+      "company": "Klarity",
+      "canonical_url": "https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273",
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273/application"
+      ],
+      "location": "San Francisco (Klarity HQ)",
+      "workplace_arrangement": "on-site",
+      "compensation": {
+        "minimum": 175000,
+        "maximum": 275000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$175K - $275K"
+      },
+      "posted_date": "2026-04-08",
+      "employment_type": "full-time",
+      "seniority": "acceptable: senior",
+      "culture_fit": {
+        "summary": "unknown",
+        "credential_alignment": "unknown",
+        "background_openness": "unknown",
+        "career_stage_alignment": "unknown",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [],
+        "concerns": []
+      },
+      "match_score": 96,
+      "why_it_fits": [
+        "AI-native frontend workflow design with strong product craft, design sensibility, React, Next.js, and TypeScript.",
+        "The canonical posting confirms San Francisco, the required workplace arrangement, full-time employment, and a qualifying published base-salary maximum."
+      ],
+      "concerns": [
+        "The posting's culture evidence remains limited."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/klarity-ai",
+          "source_text": "Listed in the current canonical employer feed.",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai_work",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273",
+          "source_text": "AI-native frontend workflow design with strong product craft, design sensibility, React, Next.js, and TypeScript.",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        },
+        {
+          "claim": "seniority",
+          "value": "acceptable",
+          "source_url": "https://jobs.ashbyhq.com/klarity-ai/05377ac4-4c57-4146-a077-4e84f7d6a273",
+          "source_text": "acceptable: senior",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "mercor-03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+      "title": "Product Engineer, Talent Experience",
+      "company": "Mercor",
+      "canonical_url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7/application"
+      ],
+      "location": "San Francisco",
+      "workplace_arrangement": "on-site",
+      "compensation": {
+        "minimum": 130000,
+        "maximum": 500000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$130K - $500K"
+      },
+      "posted_date": "2026-07-16",
+      "employment_type": "full-time",
+      "seniority": "acceptable: MTS product engineer",
+      "culture_fit": {
+        "summary": "unknown",
+        "credential_alignment": "unknown",
+        "background_openness": "unknown",
+        "career_stage_alignment": "unknown",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [],
+        "concerns": []
+      },
+      "match_score": 70,
+      "why_it_fits": [
+        "Product surfaces and AI-assisted interview and skill-verification systems with direct product-lead partnership.",
+        "The canonical posting confirms San Francisco, the required workplace arrangement, full-time employment, and a qualifying published base-salary maximum."
+      ],
+      "concerns": [
+        "Backend-heavy scope and fast-paced culture language are weaker alignment signals."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/mercor",
+          "source_text": "Listed in the current canonical employer feed.",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai_work",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+          "source_text": "Product surfaces and AI-assisted interview and skill-verification systems with direct product-lead partnership.",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        },
+        {
+          "claim": "seniority",
+          "value": "acceptable",
+          "source_url": "https://jobs.ashbyhq.com/mercor/03662092-4f6b-4c82-8d6d-5e7e839c31d7",
+          "source_text": "acceptable: MTS product engineer",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "speak-e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+      "title": "AI Product Engineer",
+      "company": "Speak",
+      "canonical_url": "https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f/application"
+      ],
+      "location": "San Francisco",
+      "workplace_arrangement": "hybrid",
+      "compensation": {
+        "minimum": 150000,
+        "maximum": 280000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$150K - $280K"
+      },
+      "posted_date": "2023-09-19",
+      "employment_type": "full-time",
+      "seniority": "acceptable: product engineer",
+      "culture_fit": {
+        "summary": "unknown",
+        "credential_alignment": "unknown",
+        "background_openness": "unknown",
+        "career_stage_alignment": "unknown",
+        "work_life_balance": "unknown",
+        "caregiver_compatibility": "unknown",
+        "evidence": [],
+        "concerns": []
+      },
+      "match_score": 92,
+      "why_it_fits": [
+        "Full-stack LLM product experiences, prompts and models, with unusually strong domain alignment in language learning and Korea.",
+        "The canonical posting confirms San Francisco, the required workplace arrangement, full-time employment, and a qualifying published base-salary maximum."
+      ],
+      "concerns": [
+        "Culture and team-fit evidence is incomplete."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/speak",
+          "source_text": "Listed in the current canonical employer feed.",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai_work",
+          "value": true,
+          "source_url": "https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+          "source_text": "Full-stack LLM product experiences, prompts and models, with unusually strong domain alignment in language learning and Korea.",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        },
+        {
+          "claim": "seniority",
+          "value": "acceptable",
+          "source_url": "https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+          "source_text": "acceptable: product engineer",
+          "verified_at": "2026-08-05T15:15:00-07:00"
+        }
+      ]
+    }
+  ],
+  "review_leads": [
+    {
+      "candidate_key": "job-cf7498449bc8e78f014265c1",
+      "title": "AI Product Engineer",
+      "company": "Samba TV",
+      "url": "https://jobs.lever.co/sambatv/a0a1f3cc-9b2e-4440-b5c1-45ea050cf0b1",
+      "reason": "Published compensation does not identify base salary; the profile requires a published annual USD base maximum of at least $200,000."
+    },
+    {
+      "candidate_key": "job-5da2b745b9649d578208b15b",
+      "title": "Founding Senior AI Product Engineer",
+      "company": "Thorin",
+      "url": "https://jobs.ashbyhq.com/thorin/a2044814-4058-4022-b647-5008933ae17f",
+      "reason": "No published compensation is available; the profile's unknown-salary policy is needs_review."
+    },
+    {
+      "candidate_key": "job-e2ce0598a3f6f6ef5987d0ce",
+      "title": "Forward Deployed Engineer",
+      "company": "Thorin",
+      "url": "https://jobs.ashbyhq.com/thorin/c4a43a75-1a07-4595-bcc5-813c4c13c205",
+      "reason": "No published compensation is available; the profile's unknown-salary policy is needs_review."
+    },
+    {
+      "candidate_key": "job-0360284ff777daf65590e1ad",
+      "title": "AI Product Engineer",
+      "company": "Town.com, Inc.",
+      "url": "https://jobs.ashbyhq.com/town/a2e9e0f3-f2dd-4cdf-a21b-d04cb88491ca",
+      "reason": "No published compensation is available; the profile's unknown-salary policy is needs_review."
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "title": "Manager of Technical Staff, Product Engineering",
+      "company": "Edison Scientific",
+      "url": "https://jobs.ashbyhq.com/Edison%20Scientific/a1096b9b-d96b-43f1-907b-daca3ee7e1b4",
+      "reason": "Engineering-manager seniority is outside the approved mid-level, senior, or small-company lead scope."
+    },
+    {
+      "title": "Principal Member of Technical Staff, Full-stack Engineer",
+      "company": "Edison Scientific",
+      "url": "https://jobs.ashbyhq.com/Edison%20Scientific/b73015be-07bf-49f0-8a1a-f1e80488cb20",
+      "reason": "Principal seniority is outside the approved seniority scope."
+    },
+    {
+      "title": "Staff AI Frontend Engineer",
+      "company": "Klarity",
+      "url": "https://jobs.ashbyhq.com/klarity-ai/f260a3d1-f8e3-49d8-9a65-4244d963008c",
+      "reason": "Staff seniority is outside the approved seniority scope."
+    },
+    {
+      "title": "AI Frontend Engineer",
+      "company": "Klarity",
+      "url": "https://jobs.ashbyhq.com/klarity-ai/fc094114-4d6e-4bf5-977f-c5b37d7e33e1",
+      "reason": "The posting targets 1–2 years of experience or exceptional new graduates, outside the approved seniority scope."
+    },
+    {
+      "title": "Senior Software Engineer, Full Stack",
+      "company": "Samba TV",
+      "url": "https://jobs.lever.co/sambatv/b1c9794c-d42c-410f-8038-a4fe44f72dde",
+      "reason": "The canonical description does not establish role-specific AI work; company context alone is not sufficient."
+    },
+    {
+      "title": "AI Product Engineer",
+      "company": "Town.com, Inc.",
+      "url": "https://jobs.ashbyhq.com/town/0b261662-60c4-49e2-b351-118e57e5714b",
+      "reason": "The current canonical posting identifies NYC rather than San Francisco."
+    },
+    {
+      "title": "Growth Engineer",
+      "company": "Town.com, Inc.",
+      "url": "https://jobs.ashbyhq.com/town/24ad1887-7503-4f13-9b0f-dc57a16c1c55",
+      "reason": "The growth role does not explicitly assign AI-powered feature, LLM, or agent work to this position; AI company context alone is insufficient."
+    }
+  ],
+  "unproductive_sources": [
+    "Confident AI custom source: No structured collector is configured; no missing-job inference was made.",
+    "Gem custom source: No structured collector is configured; no missing-job inference was made.",
+    "OpenAI custom source: No structured collector is configured; no missing-job inference was made.",
+    "Rippling custom source: No structured collector is configured; no missing-job inference was made.",
+    "Tasklet custom source: No structured collector is configured; no missing-job inference was made."
+  ]
+}

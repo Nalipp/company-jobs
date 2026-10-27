@@ -1,0 +1,24 @@
+[
+  {
+    "id": "lever-1",
+    "text": "Forward Deployed Engineer",
+    "categories": {
+      "location": "San Francisco, CA",
+      "allLocations": ["San Francisco, CA"],
+      "commitment": "Full-time",
+      "level": "Senior"
+    },
+    "descriptionPlain": "Build and integrate AI agent workflows for customers.",
+    "hostedUrl": "https://jobs.lever.co/fixture/lever-1",
+    "applyUrl": "https://jobs.lever.co/fixture/lever-1/apply",
+    "workplaceType": "hybrid",
+    "salaryRange": {
+      "currency": "USD",
+      "interval": "per-year-salary",
+      "min": 175000,
+      "max": 225000
+    },
+    "salaryDescriptionPlain": "$175,000-$225,000 annual base salary"
+  }
+]
+

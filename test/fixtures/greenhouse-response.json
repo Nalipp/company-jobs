@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 127817,
+      "title": "AI Product Engineer",
+      "updated_at": "2026-08-02T10:55:28-07:00",
+      "location": { "name": "San Francisco, CA" },
+      "absolute_url": "https://job-boards.greenhouse.io/fixture/jobs/127817",
+      "content": "<p>Build AI-powered product experiences.</p><p>This is a full-time hybrid role.</p>",
+      "offices": [],
+      "pay_input_ranges": [
+        {
+          "min_cents": 18000000,
+          "max_cents": 22000000,
+          "currency_type": "USD",
+          "title": "Base salary range",
+          "blurb": "$180,000-$220,000 annual base salary"
+        }
+      ]
+    }
+  ],
+  "meta": { "total": 1 }
+}
+

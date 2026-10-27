@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "company_id": "speak",
+  "company": {
+    "name": "Speak",
+    "aliases": [],
+    "website_url": null,
+    "primary_domain": null,
+    "description": null,
+    "industries": [],
+    "funding_stage": null,
+    "employee_count_range": null,
+    "evidence": []
+  },
+  "status": "active",
+  "sources": [
+    {
+      "source_id": "primary-careers",
+      "source_type": "ats",
+      "provider": "ashby",
+      "url": "https://jobs.ashbyhq.com/speak",
+      "board_id": "speak",
+      "status": "active",
+      "discovered_from": [
+        "Built In San Francisco",
+        "Ashby",
+        "Y Combinator",
+        "discoveries/2026-08-05-3.json"
+      ],
+      "last_checked_at": "2026-08-05T15:15:00-07:00",
+      "last_successful_at": "2026-08-05T15:15:00-07:00"
+    }
+  ],
+  "offices": [
+    {
+      "office_id": "san-francisco",
+      "label": "San Francisco office",
+      "location_text": "San Francisco, CA",
+      "address": "360 Spear Street, 4th Floor, San Francisco, CA 94105, USA",
+      "latitude": 37.7889917,
+      "longitude": -122.3901367,
+      "address_verified": true,
+      "evidence": [
+        {
+          "source_type": "company_website",
+          "source_name": "employer_location_page",
+          "url": "https://www.speak.com/privacy",
+          "text": "Speak's current official privacy notice publishes Speakeasy Labs, Inc.'s registered address as 360 Spear Street, Floor 4, San Francisco, CA 94105.",
+          "checked_at": "2026-08-03T12:50:00-07:00"
+        }
+      ],
+      "last_checked_at": "2026-08-03T12:50:00-07:00"
+    }
+  ],
+  "jobs": {
+    "speak-ai-product-engineer-san-francisco": {
+      "job_id": "speak-ai-product-engineer-san-francisco",
+      "source_id": "primary-careers",
+      "source_job_id": "e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+      "canonical_url": "https://jobs.ashbyhq.com/speak/e91eb4bc-93bf-4e3a-b7c9-4a2f506df43f",
+      "activity": {
+        "status": "active",
+        "missing_from_source_count": 0,
+        "inactive_confirmed_at": null
+      },
+      "raw": {
+        "title": "AI Product Engineer",
+        "location_text": "San Francisco",
+        "workplace_arrangement": "hybrid",
+        "employment_type": "full-time",
+        "seniority": null,
+        "compensation": {
+          "minimum": 150000,
+          "maximum": 280000,
+          "currency": "USD",
+          "basis": "base",
+          "period": "year",
+          "source_text": "$150K - $280K"
+        },
+        "posted_at": "2023-09-19T00:00:00Z",
+        "description_text": "ABOUT US\n\nOur mission is to reinvent the way people learn, starting with language.\n\nLearning a language can change a life by opening doors to new cultures, careers, and communities. Two billion people around the world are actively trying to learn a language, but the best way to learn (one-on-one tutoring) is hard to access at scale and hasn’t been meaningfully improved in decades. Speak is building a human-level, AI-powered tutor in your pocket: a conversation-first experience that lets learners actually speak, get instant feedback, and progress through carefully designed lessons. The result is a complete path from beginner to confident speaker across multiple languages.\n\nSpeak first launched in South Korea in 2019, where Speak has now become the number one language learning app, and we now serve learners across many markets and 15+ languages. Speak is one of the world’s leading AI companies, with over $150m raised in venture investment from OpenAI, Accel, Founders Fund, Khosla Ventures, and more, with a distributed team across San Francisco, Seoul, Tokyo, Taipei, and Ljubljana.\n\nABOUT THIS ROLE\n\nAs an AI Product Engineer at Speak, you'll play a pivotal role in developing the future of language learning and creating the most effective path to language fluency. Your primary responsibility will be developing innovative product experiences powered by Language Learning Models (LLMs) and deploying them to millions of users.\n\nYour tasks will span the full stack and beyond, from evaluating models and testing prompts to developing and iterating on various product features such as our conversational onboarding and lesson experiences, grammatical assessment and feedback, and personalized lessons.\n\nWe're constantly pushing the boundaries of what LLMs can do to provide an exceptional and unparalleled language learning experience to users in over 30 countries worldwide.\n\nWHAT YOU'LL BE DOING\n\n- Developing and deploying LLM-powered language learning products across the full stack, as well as enhancing the quality and performance of existing AI-powered features within Speak\n\n- Collaborating cross-functionally with other Engineering teams, Applied ML, Product, Design, and Content\n\n- Refining our process for building LLM apps, including best practices for prompting, experimentation/evaluation, LLM Ops, measuring quality and performance, etc.\n\n- Scaling existing product features to many more users and languages\n\nWHAT WE'RE LOOKING FOR\n\n- 3-5+ years of experience in full stack/backend, product-focused software engineering\n\n- Proficiency in React/Node/Typescript and Python\n\n- You have real-world experience developing and deploying LLM apps and a strong understanding, gained through experience, of what works and what doesn't\n\n- A keen intuition for improving performance and output quality of LLM systems\n\n- Experience with LLM Ops and tools (e.g., vector databases, RAG, prompt ops)\n\n- Strong product intuition — the ability to think broadly and cross-functionally about innovative LLM-powered capabilities and product experiences\n\n- Ability to work independently and build at a high velocity\n\nOFFICE\n\n- San Francisco, CA\n\nWHY WORK AT SPEAK\n\n1. Join a fantastic, tight-knit team at the right time: we're growing very quickly, we've most recently raised our Series C from some of the top investors in the valley, and we've achieved product-market fit in our initial markets. You'd join at a magical time when a single person could significantly change the course of the company.\n\n2. Do your life's work with people you’ll love working with: we care strongly about our craft and want every person at Speak to feel like they're growing every day. We believe in the idea that working with people you both enjoy and have respect for makes everything better. We hire thoughtfully and only work with people we admire deeply.\n\n3. Global in nature: We're live in over 40 countries and launching in a number of new markets soon. We have dedicated offices in San Francisco, Ljubljana, Seoul, Tokyo, and Taipei, and you’ll have the opportunity to talk to users in each of these regions on a regular basis as well as travel.\n\n4. Impact people's lives in a major way: Learning a language is one of the single most life-changing skills one can learn, and right now 99% of people never achieve their goal because the process is broken. We’re helping millions of people achieve their goals and improve their lives.\n\nSpeak does not discriminate based upon race, religion, color, national origin, gender (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics.",
+        "description_completeness": "full"
+      },
+      "hashes": {
+        "metadata_hash": "ce8dc1505ff28584716ed1a5760d49c8bed7fa44dc6f454d9e068d29908f7cf8",
+        "content_hash": "495236fcedf6154ac0f507abdf7cf10b05850a0c04a61ecfa8af769a545dbc2b",
+        "hash_algorithm": "sha256"
+      },
+      "discovered_from": [
+        "legacy:runs/2026-08-03-2.json",
+        "legacy:runs/2026-08-03-3.json",
+        "legacy:runs/2026-08-03.json",
+        "discoveries/2026-08-05-3.json"
+      ],
+      "evaluations": [
+        {
+          "profile_name": "default",
+          "profile_updated_at": "2026-08-05T10:36:12-07:00",
+          "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+          "job_content_hash": "5f594d7f67f7a63678d23ff0ef8ef8e6bf8ba31d50fdc941d6ec206a3264169c",
+          "evaluated_at": "2026-08-05T10:36:12-07:00",
+          "outcome": "included",
+          "match_score": 92,
+          "reason_codes": [
+            "active_at_legacy_verification",
+            "san_francisco_posting_text",
+            "hybrid",
+            "full_time",
+            "compatible_title_or_role_family",
+            "role_specific_ai_work",
+            "published_base_maximum_at_least_200000",
+            "migrated_evidence_only_description"
+          ],
+          "evidence_snippets": [
+            "Exact title",
+            "Hybrid San Francisco",
+            "User-facing LLM product development",
+            "React, Node, TypeScript, and Python",
+            "Product and design collaboration",
+            "Series C",
+            "isListed: true; Apply for this Job",
+            "San Francisco; Hybrid; Full time",
+            "$150K-$280K; offers equity",
+            "Reposted 17 Hours Ago"
+          ]
+        },
+        {
+          "profile_name": "default",
+          "profile_updated_at": "2026-08-05T10:36:12-07:00",
+          "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+          "job_content_hash": "495236fcedf6154ac0f507abdf7cf10b05850a0c04a61ecfa8af769a545dbc2b",
+          "evaluated_at": "2026-08-05T15:15:00-07:00",
+          "outcome": "included",
+          "match_score": 92,
+          "reason_codes": [
+            "active",
+            "san_francisco_posting_text",
+            "hybrid",
+            "full_time",
+            "acceptable_seniority",
+            "compatible_title_or_role_family",
+            "role_specific_ai_work",
+            "published_base_maximum_at_least_200000",
+            "all_profile_hard_constraints_passed"
+          ],
+          "evidence_snippets": [
+            "Full-stack LLM product experiences, prompts and models, with unusually strong domain alignment in language learning and Korea."
+          ]
+        }
+      ],
+      "first_seen_at": "2026-08-03T10:31:30-07:00",
+      "last_seen_at": "2026-08-05T15:15:00-07:00",
+      "last_checked_at": "2026-08-05T15:15:00-07:00"
+    }
+  },
+  "refresh": {
+    "last_attempted_at": "2026-08-05T15:00:00-07:00",
+    "last_successful_at": "2026-08-05T15:00:00-07:00",
+    "last_status": "completed",
+    "consecutive_failures": 0,
+    "last_error": null
+  },
+  "created_at": "2026-08-03T10:31:30-07:00",
+  "updated_at": "2026-08-05T15:15:00-07:00"
+}

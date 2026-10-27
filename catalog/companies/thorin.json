@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "company_id": "thorin",
+  "company": {
+    "name": "Thorin",
+    "aliases": [],
+    "website_url": null,
+    "primary_domain": null,
+    "description": null,
+    "industries": [],
+    "funding_stage": null,
+    "employee_count_range": null,
+    "evidence": []
+  },
+  "status": "active",
+  "sources": [
+    {
+      "source_id": "primary-careers",
+      "source_type": "ats",
+      "provider": "ashby",
+      "url": "https://jobs.ashbyhq.com/thorin",
+      "board_id": "thorin",
+      "status": "active",
+      "discovered_from": [
+        "Google web search",
+        "Ashby"
+      ],
+      "last_checked_at": "2026-08-05T15:00:00-07:00",
+      "last_successful_at": "2026-08-05T15:00:00-07:00"
+    }
+  ],
+  "offices": [
+    {
+      "office_id": "san-francisco",
+      "label": "San Francisco office",
+      "location_text": "San Francisco, CA",
+      "address": "Pier 5, Suite 101, San Francisco, CA 94111",
+      "latitude": null,
+      "longitude": null,
+      "address_verified": null,
+      "evidence": [],
+      "last_checked_at": "2026-08-03T12:50:00-07:00"
+    }
+  ],
+  "jobs": {
+    "thorin-founding-senior-ai-product-engineer": {
+      "job_id": "thorin-founding-senior-ai-product-engineer",
+      "source_id": "primary-careers",
+      "source_job_id": "a2044814-4058-4022-b647-5008933ae17f",
+      "canonical_url": "https://jobs.ashbyhq.com/thorin/a2044814-4058-4022-b647-5008933ae17f",
+      "activity": {
+        "status": "active",
+        "missing_from_source_count": 0,
+        "inactive_confirmed_at": null
+      },
+      "raw": {
+        "title": "Founding Senior AI Product Engineer",
+        "location_text": "San Francisco, CA",
+        "workplace_arrangement": "on-site",
+        "employment_type": "full-time",
+        "seniority": "founding senior / player-coach at a small company",
+        "compensation": {
+          "minimum": 200000,
+          "maximum": 350000,
+          "currency": "USD",
+          "basis": "base",
+          "period": "year",
+          "source_text": "$200,000-$350,000 expected base salary plus equity and benefits."
+        },
+        "posted_at": "2026-06-25T00:00:00Z",
+        "description_text": "Fit: Senior AI product title at a small company where lead scope is acceptable\nFit: Hands-on end-to-end AI product building\nFit: Direct founder and customer collaboration\nFit: Mentoring\nFit: Base range begins at $200,000\nFit: Published within the 60-day window\nConcern: Founding-stage role with broad scope\nConcern: Fast delivery language and weekly dinners warrant an hours question\nConcern: Company is earlier than Series B\nEvidence (Active and date): isListed: true; publishedAt 2026-06-25\nEvidence (Location and workplace): San Francisco; On-site\nEvidence (Compensation): $200,000-$350,000 base plus equity and benefits\nEvidence (Responsibilities): Build AI-native products end-to-end; mentor engineers; partner directly with founders and customers",
+        "description_completeness": "evidence_only"
+      },
+      "hashes": {
+        "metadata_hash": "a3c15e78d046f720807e533f9ea3ecf58418c2f624f6efa54fafbaece856f5b9",
+        "content_hash": "62b875e4d10918b7bc3c8201be0a9b258ba1c44fada9c1735ad6f2c4f1aa7d61",
+        "hash_algorithm": "sha256"
+      },
+      "discovered_from": [
+        "legacy:runs/2026-08-03-2.json",
+        "legacy:runs/2026-08-03-3.json"
+      ],
+      "evaluations": [
+        {
+          "profile_name": "default",
+          "profile_updated_at": "2026-08-05T10:36:12-07:00",
+          "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+          "job_content_hash": "62b875e4d10918b7bc3c8201be0a9b258ba1c44fada9c1735ad6f2c4f1aa7d61",
+          "evaluated_at": "2026-08-05T10:36:12-07:00",
+          "outcome": "included",
+          "match_score": 89,
+          "reason_codes": [
+            "active_at_legacy_verification",
+            "san_francisco_posting_text",
+            "on_site",
+            "full_time",
+            "compatible_title_or_role_family",
+            "role_specific_ai_work",
+            "published_base_maximum_at_least_200000",
+            "migrated_evidence_only_description"
+          ],
+          "evidence_snippets": [
+            "Senior AI product title at a small company where lead scope is acceptable",
+            "Hands-on end-to-end AI product building",
+            "Direct founder and customer collaboration",
+            "Mentoring",
+            "Base range begins at $200,000",
+            "Published within the 60-day window",
+            "isListed: true; publishedAt 2026-06-25",
+            "San Francisco; On-site",
+            "$200,000-$350,000 base plus equity and benefits",
+            "Build AI-native products end-to-end; mentor engineers; partner directly with founders and customers"
+          ]
+        }
+      ],
+      "first_seen_at": "2026-08-03T10:57:10-07:00",
+      "last_seen_at": "2026-08-05T15:00:00-07:00",
+      "last_checked_at": "2026-08-05T15:00:00-07:00"
+    }
+  },
+  "refresh": {
+    "last_attempted_at": "2026-08-05T15:00:00-07:00",
+    "last_successful_at": "2026-08-05T15:00:00-07:00",
+    "last_status": "completed",
+    "consecutive_failures": 0,
+    "last_error": null
+  },
+  "created_at": "2026-08-03T10:57:10-07:00",
+  "updated_at": "2026-08-05T15:00:00-07:00"
+}

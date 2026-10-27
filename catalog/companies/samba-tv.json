@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "company_id": "samba-tv",
+  "company": {
+    "name": "Samba TV",
+    "aliases": [],
+    "website_url": null,
+    "primary_domain": null,
+    "description": null,
+    "industries": [],
+    "funding_stage": null,
+    "employee_count_range": null,
+    "evidence": []
+  },
+  "status": "active",
+  "sources": [
+    {
+      "source_id": "primary-careers",
+      "source_type": "ats",
+      "provider": "lever",
+      "url": "https://jobs.lever.co/sambatv",
+      "board_id": "sambatv",
+      "status": "active",
+      "discovered_from": [
+        "Wellfound",
+        "Lever"
+      ],
+      "last_checked_at": "2026-08-05T15:00:00-07:00",
+      "last_successful_at": "2026-08-05T15:00:00-07:00"
+    }
+  ],
+  "offices": [
+    {
+      "office_id": "san-francisco",
+      "label": "San Francisco office",
+      "location_text": "San Francisco, CA",
+      "address": "118 King Street, Suite 110, San Francisco, CA 94107, USA",
+      "latitude": 37.7796126,
+      "longitude": -122.3902323,
+      "address_verified": true,
+      "evidence": [
+        {
+          "source_type": "company_website",
+          "source_name": "employer_location_page",
+          "url": "https://www.samba.tv/users/privacy-policy",
+          "text": "Samba TV's official privacy policy publishes Samba TV, Inc. at 118 King Street, Suite 110, San Francisco, CA 94107.",
+          "checked_at": "2026-08-03T12:50:00-07:00"
+        }
+      ],
+      "last_checked_at": "2026-08-03T12:50:00-07:00"
+    }
+  ],
+  "jobs": {
+    "samba-tv-ai-product-engineer-san-francisco": {
+      "job_id": "samba-tv-ai-product-engineer-san-francisco",
+      "source_id": "primary-careers",
+      "source_job_id": "a0a1f3cc-9b2e-4440-b5c1-45ea050cf0b1",
+      "canonical_url": "https://jobs.lever.co/sambatv/a0a1f3cc-9b2e-4440-b5c1-45ea050cf0b1",
+      "activity": {
+        "status": "active",
+        "missing_from_source_count": 0,
+        "inactive_confirmed_at": null
+      },
+      "raw": {
+        "title": "AI Product Engineer",
+        "location_text": "San Francisco, California",
+        "workplace_arrangement": "on-site",
+        "employment_type": "full-time salaried",
+        "seniority": "mid-to-senior; exact years not stated",
+        "compensation": {
+          "minimum": 150000,
+          "maximum": 200000,
+          "currency": "USD",
+          "basis": "base",
+          "period": "year",
+          "source_text": "$150,000-$200,000 a year."
+        },
+        "posted_at": null,
+        "description_text": "Fit: Exact title\nFit: Full-time and on-site in San Francisco\nFit: Builds AI agents for real users and internal teams\nFit: Strong product-sense emphasis\nFit: Active canonical posting with unknown date\nConcern: Only the top of the range reaches $200,000\nConcern: More agent-tooling, cloud deployment, and monitoring than frontend product UI\nConcern: Posting date and culture signals are unknown\nEvidence (Active canonical posting): apply for this job\nEvidence (Location, workplace, and employment): San Francisco, California; US Full-time Salaried; On-site\nEvidence (Product responsibilities): Partner with internal teams; identify automation opportunities; build agents tailored to their use cases",
+        "description_completeness": "evidence_only"
+      },
+      "hashes": {
+        "metadata_hash": "54c57ae304fe4e854d8e13dd669d7c5199ce1f73241e71538e0aed58578bfde6",
+        "content_hash": "bd785c5ed94cbb236f89f7632b56e552434aac40f9b7f561e5e0e92c5a760f68",
+        "hash_algorithm": "sha256"
+      },
+      "discovered_from": [
+        "legacy:runs/2026-08-03-2.json",
+        "legacy:runs/2026-08-03-3.json"
+      ],
+      "evaluations": [
+        {
+          "profile_name": "default",
+          "profile_updated_at": "2026-08-05T10:36:12-07:00",
+          "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+          "job_content_hash": "bd785c5ed94cbb236f89f7632b56e552434aac40f9b7f561e5e0e92c5a760f68",
+          "evaluated_at": "2026-08-05T10:36:12-07:00",
+          "outcome": "included",
+          "match_score": 74,
+          "reason_codes": [
+            "active_at_legacy_verification",
+            "san_francisco_posting_text",
+            "on_site",
+            "full_time",
+            "compatible_title_or_role_family",
+            "role_specific_ai_work",
+            "published_base_maximum_at_least_200000",
+            "migrated_evidence_only_description"
+          ],
+          "evidence_snippets": [
+            "Exact title",
+            "Full-time and on-site in San Francisco",
+            "Builds AI agents for real users and internal teams",
+            "Strong product-sense emphasis",
+            "Active canonical posting with unknown date",
+            "apply for this job",
+            "San Francisco, California; US Full-time Salaried; On-site",
+            "Partner with internal teams; identify automation opportunities; build agents tailored to their use cases"
+          ]
+        }
+      ],
+      "first_seen_at": "2026-08-03T10:57:10-07:00",
+      "last_seen_at": "2026-08-05T15:00:00-07:00",
+      "last_checked_at": "2026-08-05T15:00:00-07:00"
+    }
+  },
+  "refresh": {
+    "last_attempted_at": "2026-08-05T15:00:00-07:00",
+    "last_successful_at": "2026-08-05T15:00:00-07:00",
+    "last_status": "completed",
+    "consecutive_failures": 0,
+    "last_error": null
+  },
+  "created_at": "2026-08-03T10:57:10-07:00",
+  "updated_at": "2026-08-05T15:00:00-07:00"
+}

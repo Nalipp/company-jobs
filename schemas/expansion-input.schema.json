@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://daily-jobs.local/schemas/expansion-input.schema.json",
+  "title": "Daily Jobs Catalog Expansion Input",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "collection_id", "profile_name", "strategy", "started_at", "completed_at", "date_range", "query_matrix", "sources", "leads"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "collection_id": { "type": "string", "minLength": 1 },
+    "profile_name": { "type": "string", "minLength": 1 },
+    "strategy": { "enum": ["backfill", "incremental"] },
+    "started_at": { "type": "string", "format": "date-time" },
+    "completed_at": { "type": "string", "format": "date-time" },
+    "date_range": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end", "timezone"],
+      "properties": {
+        "start": { "type": "string", "format": "date" },
+        "end": { "type": "string", "format": "date" },
+        "timezone": { "type": "string", "minLength": 1 }
+      }
+    },
+    "query_matrix": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+    "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
+    "leads": { "type": "array", "items": { "$ref": "#/$defs/lead" } }
+  },
+  "$defs": {
+    "compensation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["minimum", "maximum", "currency", "basis", "period", "source_text"],
+      "properties": {
+        "minimum": { "type": ["number", "null"], "minimum": 0 },
+        "maximum": { "type": ["number", "null"], "minimum": 0 },
+        "currency": { "type": ["string", "null"] },
+        "basis": { "enum": ["base", "total", "either", "unknown"] },
+        "period": { "enum": ["hour", "month", "year", "unknown"] },
+        "source_text": { "type": ["string", "null"] }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "kind", "query", "url", "status", "notes"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "kind": { "enum": ["job_board", "web_search", "employer_careers", "ats", "other"] },
+        "query": { "type": "string", "minLength": 1 },
+        "url": { "type": ["string", "null"], "format": "uri" },
+        "status": { "enum": ["completed", "partial", "blocked", "unavailable", "error"] },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "lead": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "company", "discovery_url", "canonical_url", "provider", "board_id", "source_job_id", "source_names", "location_text", "workplace_arrangement", "employment_type", "seniority", "compensation", "posted_date", "description_text", "description_completeness", "preliminary_fit", "preliminary_concerns"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "company": { "type": "string", "minLength": 1 },
+        "discovery_url": { "type": "string", "format": "uri" },
+        "canonical_url": { "type": ["string", "null"], "format": "uri" },
+        "provider": { "enum": ["ashby", "greenhouse", "lever", "workday", "custom", "unknown"] },
+        "board_id": { "type": ["string", "null"], "minLength": 1 },
+        "source_job_id": { "type": ["string", "null"], "minLength": 1 },
+        "source_names": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "location_text": { "type": ["string", "null"] },
+        "workplace_arrangement": { "enum": ["remote", "hybrid", "on-site", "unknown"] },
+        "employment_type": { "type": ["string", "null"] },
+        "seniority": { "type": ["string", "null"] },
+        "compensation": { "oneOf": [{ "$ref": "#/$defs/compensation" }, { "type": "null" }] },
+        "posted_date": { "type": ["string", "null"], "format": "date" },
+        "description_text": { "type": ["string", "null"] },
+        "description_completeness": { "enum": ["full", "snippet", "none"] },
+        "preliminary_fit": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "preliminary_concerns": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true }
+      }
+    }
+  }
+}

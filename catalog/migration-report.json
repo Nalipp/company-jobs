@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "migration_id": "2026-08-05-pre-catalog-to-company-catalog-v1",
+  "status": "completed",
+  "created_at": "2026-08-05T10:36:12-07:00",
+  "profile_name": "default",
+  "profile_updated_at": "2026-08-05T10:36:12-07:00",
+  "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+  "legacy_snapshot": "legacy-old/2026-08-05-pre-catalog",
+  "summary": {
+    "legacy_employer_sources": 33,
+    "legacy_verified_job_records": 24,
+    "unique_verified_jobs": 15,
+    "qualifying_jobs_migrated": 14,
+    "jobs_withheld": 1,
+    "duplicate_job_records_merged": 9,
+    "company_files_created": 12,
+    "source_only_employers_not_admitted": 21,
+    "verified_addresses_imported": 9,
+    "evidence_only_descriptions": 14
+  },
+  "companies": [
+    {
+      "company_id": "ampersand",
+      "company": "Ampersand",
+      "job_count": 1,
+      "address_verified": null
+    },
+    {
+      "company_id": "confident-ai",
+      "company": "Confident AI",
+      "job_count": 1,
+      "address_verified": null
+    },
+    {
+      "company_id": "gem",
+      "company": "Gem",
+      "job_count": 1,
+      "address_verified": true
+    },
+    {
+      "company_id": "klarity",
+      "company": "Klarity",
+      "job_count": 1,
+      "address_verified": true
+    },
+    {
+      "company_id": "mercor",
+      "company": "Mercor",
+      "job_count": 1,
+      "address_verified": true
+    },
+    {
+      "company_id": "openai",
+      "company": "OpenAI",
+      "job_count": 3,
+      "address_verified": true
+    },
+    {
+      "company_id": "rippling",
+      "company": "Rippling",
+      "job_count": 1,
+      "address_verified": true
+    },
+    {
+      "company_id": "samba-tv",
+      "company": "Samba TV",
+      "job_count": 1,
+      "address_verified": true
+    },
+    {
+      "company_id": "speak",
+      "company": "Speak",
+      "job_count": 1,
+      "address_verified": true
+    },
+    {
+      "company_id": "tasklet",
+      "company": "Tasklet",
+      "job_count": 1,
+      "address_verified": true
+    },
+    {
+      "company_id": "thorin",
+      "company": "Thorin",
+      "job_count": 1,
+      "address_verified": null
+    },
+    {
+      "company_id": "town-com",
+      "company": "Town.com, Inc.",
+      "job_count": 1,
+      "address_verified": true
+    }
+  ],
+  "withheld_jobs": [
+    {
+      "canonical_url": "https://jobs.ashbyhq.com/stealthhc/8b203786-b445-4bda-bdbd-8fe3767808df",
+      "company": "Stealth HC",
+      "title": "Software Engineer, Applied AI/Product (San Francisco)",
+      "occurrence_count": 2,
+      "source_runs": [
+        "runs/2026-08-03-2.json",
+        "runs/2026-08-03-3.json"
+      ],
+      "reasons": [
+        "missing_published_compensation"
+      ]
+    }
+  ],
+  "source_only_employers": [
+    {
+      "company": "Retool",
+      "careers_url": "https://retool.com/careers",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "ReadMe",
+      "careers_url": "https://jobs.ashbyhq.com/readme",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Retell AI",
+      "careers_url": "https://jobs.ashbyhq.com/retell-ai",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Stealth HC",
+      "careers_url": "https://jobs.ashbyhq.com/stealthhc",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Drata",
+      "careers_url": "https://jobs.ashbyhq.com/drata",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Skiffra",
+      "careers_url": "https://jobs.ashbyhq.com/skiffra",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "UniversalAGI",
+      "careers_url": "https://jobs.ashbyhq.com/universalagi",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Rhythms",
+      "careers_url": "https://jobs.ashbyhq.com/Rhythms",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Komodo Health",
+      "careers_url": "https://job-boards.greenhouse.io/komodohealth",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Console",
+      "careers_url": "https://jobs.ashbyhq.com/console",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Harper",
+      "careers_url": "https://jobs.ashbyhq.com/harperinsure",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Flux",
+      "careers_url": "https://jobs.ashbyhq.com/flux",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Relace",
+      "careers_url": "https://jobs.ashbyhq.com/Relace",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Hercules",
+      "careers_url": "https://hercules.app/careers",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Applied Compute",
+      "careers_url": "https://jobs.ashbyhq.com/Applied%20Compute",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Fluency",
+      "careers_url": "https://jobs.ashbyhq.com/fluency",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Latent",
+      "careers_url": "https://jobs.ashbyhq.com/latent",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Calvis",
+      "careers_url": "https://calvis.com/careers",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Strella",
+      "careers_url": "https://jobs.ashbyhq.com/strella",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "TruckSmarter",
+      "careers_url": "https://jobs.ashbyhq.com/trucksmarter",
+      "reason": "no_qualifying_historical_job_migrated"
+    },
+    {
+      "company": "Arcade",
+      "careers_url": "https://jobs.ashbyhq.com/arcadeai",
+      "reason": "no_qualifying_historical_job_migrated"
+    }
+  ],
+  "limitations": [
+    "Legacy runs did not persist every complete canonical job description.",
+    "Migrated descriptions are marked evidence_only and must be replaced on the next successful refresh.",
+    "No new web requests or address searches were performed during migration.",
+    "Active status reflects the latest legacy verification and requires refresh."
+  ]
+}

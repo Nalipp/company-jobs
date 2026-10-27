@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "company_id": "confident-ai",
+  "company": {
+    "name": "Confident AI",
+    "aliases": [],
+    "website_url": "https://www.confident-ai.com/",
+    "primary_domain": "confident-ai.com",
+    "description": null,
+    "industries": [],
+    "funding_stage": null,
+    "employee_count_range": null,
+    "evidence": []
+  },
+  "status": "active",
+  "sources": [
+    {
+      "source_id": "primary-careers",
+      "source_type": "custom_careers",
+      "provider": "custom",
+      "url": "https://www.confident-ai.com/careers",
+      "board_id": null,
+      "status": "active",
+      "discovered_from": [
+        "General web search",
+        "Confident AI careers"
+      ],
+      "last_checked_at": "2026-08-03T11:35:00-07:00",
+      "last_successful_at": "2026-08-03T11:35:00-07:00"
+    }
+  ],
+  "offices": [
+    {
+      "office_id": "san-francisco",
+      "label": "San Francisco office",
+      "location_text": "San Francisco, CA",
+      "address": "33rd 8th St, San Francisco, CA 94103, United States",
+      "latitude": null,
+      "longitude": null,
+      "address_verified": null,
+      "evidence": [],
+      "last_checked_at": "2026-08-03T12:50:00-07:00"
+    }
+  ],
+  "jobs": {
+    "confident-ai-founding-product-engineer-frontend": {
+      "job_id": "confident-ai-founding-product-engineer-frontend",
+      "source_id": "primary-careers",
+      "source_job_id": "confident-ai-founding-product-engineer-frontend",
+      "canonical_url": "https://www.confident-ai.com/careers",
+      "activity": {
+        "status": "active",
+        "missing_from_source_count": 0,
+        "inactive_confirmed_at": null
+      },
+      "raw": {
+        "title": "Founding Product Engineer (Frontend)",
+        "location_text": "San Francisco",
+        "workplace_arrangement": "on-site",
+        "employment_type": "Full-time",
+        "seniority": "Mid-level or senior founding IC (3+ years)",
+        "compensation": {
+          "minimum": 175000,
+          "maximum": 250000,
+          "currency": "USD",
+          "basis": "base",
+          "period": "year",
+          "source_text": "$175K-$250K base plus equity."
+        },
+        "posted_at": null,
+        "description_text": "Fit: Deep React, Next.js, TypeScript, CSS, UX, and product-design ownership.\nFit: The role builds the user-facing product for LLM traces, evaluations, testing, and observability.\nFit: Direct user collaboration, full-stack range, and a published maximum above $200K.\nConcern: Seed-stage founding scope and explicit speed culture.\nConcern: Base range starts below target; no education-equivalency or predictable-hours statement.\nEvidence (active): The employer careers page currently lists the role and application.\nEvidence (posted_date): The current employer page does not publish a posting date.\nEvidence (workplace): The open-position header lists San Francisco and the careers page describes joining in person with the founding team.\nEvidence (role_specific_ai): The role builds interfaces for traces, evaluation results, and testing workflows in an AI reliability product.\nEvidence (compensation): Employer page publishes $175K-$250K base plus equity.",
+        "description_completeness": "evidence_only"
+      },
+      "hashes": {
+        "metadata_hash": "2c2bf28cbe62677d3f68d317284946a865fa752dac4c1690f152bf1eaac34775",
+        "content_hash": "9e12d19234b443efc2259694cd08717723c18d6366d24d0569463af722a59c10",
+        "hash_algorithm": "sha256"
+      },
+      "discovered_from": [
+        "legacy:runs/2026-08-03-3.json"
+      ],
+      "evaluations": [
+        {
+          "profile_name": "default",
+          "profile_updated_at": "2026-08-05T10:36:12-07:00",
+          "profile_hash": "5bbc4efe8a78a9a655059dfb5c4a7ace5e8050745cc31db962f4c109b1b00ce2",
+          "job_content_hash": "9e12d19234b443efc2259694cd08717723c18d6366d24d0569463af722a59c10",
+          "evaluated_at": "2026-08-05T10:36:12-07:00",
+          "outcome": "included",
+          "match_score": 82,
+          "reason_codes": [
+            "active_at_legacy_verification",
+            "san_francisco_posting_text",
+            "on_site",
+            "full_time",
+            "compatible_title_or_role_family",
+            "role_specific_ai_work",
+            "published_base_maximum_at_least_200000",
+            "migrated_evidence_only_description"
+          ],
+          "evidence_snippets": [
+            "Deep React, Next.js, TypeScript, CSS, UX, and product-design ownership.",
+            "The role builds the user-facing product for LLM traces, evaluations, testing, and observability.",
+            "Direct user collaboration, full-stack range, and a published maximum above $200K.",
+            "The employer careers page currently lists the role and application.",
+            "The current employer page does not publish a posting date.",
+            "The open-position header lists San Francisco and the careers page describes joining in person with the founding team.",
+            "The role builds interfaces for traces, evaluation results, and testing workflows in an AI reliability product.",
+            "Employer page publishes $175K-$250K base plus equity."
+          ]
+        }
+      ],
+      "first_seen_at": "2026-08-03T11:33:00-07:00",
+      "last_seen_at": "2026-08-03T11:35:00-07:00",
+      "last_checked_at": "2026-08-03T11:35:00-07:00"
+    }
+  },
+  "refresh": {
+    "last_attempted_at": "2026-08-05T15:00:00-07:00",
+    "last_successful_at": "2026-08-03T11:35:00-07:00",
+    "last_status": "failed",
+    "consecutive_failures": 1,
+    "last_error": "primary-careers: unsupported structured source"
+  },
+  "created_at": "2026-08-03T11:33:00-07:00",
+  "updated_at": "2026-08-05T15:00:00-07:00"
+}

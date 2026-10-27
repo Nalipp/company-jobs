@@ -1,0 +1,198 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-08-05-catalog-expansion-verification",
+  "profile_name": "default",
+  "started_at": "2026-08-05T14:38:00-07:00",
+  "completed_at": "2026-08-05T14:48:00-07:00",
+  "updated_at": "2026-08-05T14:48:00-07:00",
+  "date_range": {
+    "start": "2026-06-06",
+    "end": "2026-08-05",
+    "timezone": "America/Los_Angeles"
+  },
+  "queries": [
+    {
+      "query": "approved four-query catalog-expansion matrix",
+      "source": "web search",
+      "candidate_count": 4
+    },
+    {
+      "query": "current public Edison Scientific Ashby feed",
+      "source": "Edison Scientific Ashby",
+      "candidate_count": 2
+    },
+    {
+      "query": "current public LiteLLM and Levelpath Ashby feeds",
+      "source": "official Ashby feeds",
+      "candidate_count": 2
+    }
+  ],
+  "jobs": [
+    {
+      "job_key": "edison-scientific-forward-deployed-ai-engineer",
+      "title": "Forward Deployed AI Engineer",
+      "company": "Edison Scientific",
+      "canonical_url": "https://jobs.ashbyhq.com/Edison%20Scientific/69572d5c-36ff-4a38-a1da-e1130d14b031",
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/Edison%20Scientific/69572d5c-36ff-4a38-a1da-e1130d14b031/application"
+      ],
+      "location": "San Francisco",
+      "workplace_arrangement": "on-site",
+      "compensation": {
+        "minimum": 200000,
+        "maximum": 350000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$200K - $350K"
+      },
+      "posted_date": "2026-07-01",
+      "employment_type": "full-time",
+      "seniority": "2+ years of professional software engineering experience",
+      "culture_fit": {
+        "summary": "moderate",
+        "credential_alignment": "positive",
+        "background_openness": "positive",
+        "career_stage_alignment": "positive",
+        "work_life_balance": "concern",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "credential_requirement",
+            "value": "degree_or_equivalent_professional_depth",
+            "source_url": "https://jobs.ashbyhq.com/Edison%20Scientific/69572d5c-36ff-4a38-a1da-e1130d14b031",
+            "source_text": "The posting explicitly accepts equivalent demonstrated professional depth in place of a technical degree.",
+            "verified_at": "2026-08-05T14:45:00-07:00"
+          }
+        ],
+        "concerns": [
+          "The role expects 20-40% travel, real-time troubleshooting, and reliability ownership.",
+          "The benefits language mentions dinner when employees are working late, without proving how often that occurs."
+        ]
+      },
+      "match_score": 76,
+      "why_it_fits": [
+        "Approved forward-deployed engineering work with direct ownership of production AI-agent deployments.",
+        "The role ships integrations and product capabilities using Python or TypeScript and feeds customer learning into the roadmap.",
+        "The official posting confirms San Francisco, on-site work, full-time employment, and a base maximum above $200,000."
+      ],
+      "concerns": [
+        "Travel and customer reliability work may reduce schedule predictability.",
+        "The role is less frontend-focused than the strongest target roles."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://api.ashbyhq.com/posting-api/job-board/Edison%20Scientific?includeCompensation=true",
+          "source_text": "The job is listed in Edison Scientific's current public Ashby feed.",
+          "verified_at": "2026-08-05T14:42:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai_work",
+          "value": "builds_and_deploys_production_ai_agent_systems",
+          "source_url": "https://jobs.ashbyhq.com/Edison%20Scientific/69572d5c-36ff-4a38-a1da-e1130d14b031",
+          "source_text": "Responsibilities include deploying AI agents, identifying high-impact agent use cases, and building production integrations.",
+          "verified_at": "2026-08-05T14:45:00-07:00"
+        },
+        {
+          "claim": "seniority",
+          "value": "acceptable",
+          "source_url": "https://jobs.ashbyhq.com/Edison%20Scientific/69572d5c-36ff-4a38-a1da-e1130d14b031",
+          "source_text": "The posting requests at least two years of professional software engineering experience.",
+          "verified_at": "2026-08-05T14:45:00-07:00"
+        }
+      ]
+    },
+    {
+      "job_key": "edison-scientific-frontend-engineer",
+      "title": "Member of Technical Staff, Frontend Engineer",
+      "company": "Edison Scientific",
+      "canonical_url": "https://jobs.ashbyhq.com/Edison%20Scientific/52900167-cbb3-4957-8944-48ab86555bea",
+      "discovery_urls": [
+        "https://jobs.ashbyhq.com/Edison%20Scientific/52900167-cbb3-4957-8944-48ab86555bea/application"
+      ],
+      "location": "San Francisco",
+      "workplace_arrangement": "on-site",
+      "compensation": {
+        "minimum": 175000,
+        "maximum": 240000,
+        "currency": "USD",
+        "basis": "base",
+        "period": "year",
+        "source_text": "$175K - $240K"
+      },
+      "posted_date": "2026-07-20",
+      "employment_type": "full-time",
+      "seniority": "typically 4-8 years of professional frontend engineering experience",
+      "culture_fit": {
+        "summary": "moderate",
+        "credential_alignment": "positive",
+        "background_openness": "neutral",
+        "career_stage_alignment": "positive",
+        "work_life_balance": "concern",
+        "caregiver_compatibility": "unknown",
+        "evidence": [
+          {
+            "claim": "credential_requirement",
+            "value": "experience_based",
+            "source_url": "https://jobs.ashbyhq.com/Edison%20Scientific/52900167-cbb3-4957-8944-48ab86555bea",
+            "source_text": "The qualifications are expressed through frontend experience and skills without a degree requirement.",
+            "verified_at": "2026-08-05T14:45:00-07:00"
+          }
+        ],
+        "concerns": [
+          "The benefits language mentions dinner when employees are working late, but frequency is not stated."
+        ]
+      },
+      "match_score": 93,
+      "why_it_fits": [
+        "Strong React and TypeScript frontend ownership for an AI-powered scientific product.",
+        "The role explicitly translates AI-driven scientific workflows into usable interfaces and collaborates with product and research.",
+        "The official posting confirms San Francisco, on-site work, full-time employment, and a base maximum above $200,000."
+      ],
+      "concerns": [
+        "The posting does not establish whether late work is occasional or routine."
+      ],
+      "evidence": [
+        {
+          "claim": "active",
+          "value": true,
+          "source_url": "https://api.ashbyhq.com/posting-api/job-board/Edison%20Scientific?includeCompensation=true",
+          "source_text": "The job is listed in Edison Scientific's current public Ashby feed.",
+          "verified_at": "2026-08-05T14:42:00-07:00"
+        },
+        {
+          "claim": "role_specific_ai_work",
+          "value": "builds_frontend_for_ai_driven_scientific_workflows",
+          "source_url": "https://jobs.ashbyhq.com/Edison%20Scientific/52900167-cbb3-4957-8944-48ab86555bea",
+          "source_text": "The role designs UX for scientists using AI and turns AI-driven scientific workflows into product interfaces.",
+          "verified_at": "2026-08-05T14:45:00-07:00"
+        },
+        {
+          "claim": "seniority",
+          "value": "acceptable",
+          "source_url": "https://jobs.ashbyhq.com/Edison%20Scientific/52900167-cbb3-4957-8944-48ab86555bea",
+          "source_text": "The stated typical range is four to eight years of frontend engineering experience.",
+          "verified_at": "2026-08-05T14:45:00-07:00"
+        }
+      ]
+    }
+  ],
+  "review_leads": [],
+  "excluded_candidates": [
+    {
+      "title": "Product Engineer",
+      "company": "LiteLLM",
+      "url": "https://jobs.ashbyhq.com/litellm/8f1fe19b-7f83-4266-a04f-782dedb2c170",
+      "reason": "Excluded because the full posting does not explicitly assign AI-powered feature, LLM, or agent work to the role; AI appears as company context and a bonus qualification."
+    },
+    {
+      "title": "Forward Deployed Engineer",
+      "company": "Levelpath",
+      "url": "https://jobs.ashbyhq.com/Levelpath/c53c51c1-9ea3-4b8f-88e9-502dea61afbd",
+      "reason": "Excluded because the posting is absent from the current employer feed; the discovered snippet also states a regular on-call rotation."
+    }
+  ],
+  "unproductive_sources": []
+}

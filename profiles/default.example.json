@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "profile_name": "default",
   "status": "draft",
   "timezone": "America/Los_Angeles",
@@ -80,7 +80,6 @@
       "Greenhouse",
       "Lever"
     ],
-    "include_unknown_salary": true,
     "canonical_links_only": true,
     "physical_address_required_for_map": true,
     "address_validation_mode": "optional",
