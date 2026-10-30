@@ -60,6 +60,73 @@ class Feature:
 # Add new questions here.  Keep each feature independent so its cached result
 # can be reused when the active filters change.
 FEATURES: dict[str, Feature] = {
+    "job.work.research_ux_ui": Feature(
+        key="job.work.research_ux_ui",
+        scope="job",
+        version=1,
+        instructions=(
+            "Does this software engineering role include meaningful responsibility "
+            "for exploring user or product problems through research, discovery, "
+            "or experimental software prototypes? Require hands-on software "
+            "development plus concrete work investigating user needs or undefined "
+            "product problems, conducting or collaborating directly in user "
+            "research or usability testing, or building working prototypes to test "
+            "ideas and iterating based on user feedback. Comfort with ambiguity, "
+            "design collaboration, rapid experimentation, and taking prototypes "
+            "toward production support a match when connected to these duties; "
+            "generic customer-focused or ambiguity language alone is insufficient. "
+            "Exclude research mentioned only in degree requirements, academic "
+            "credentials, publications, or scientific/model research without "
+            "user-facing product exploration. Pure design or user-research roles "
+            "without substantial software development do not qualify."
+        ),
+        criteria={
+            "true": (
+                "The role combines hands-on software development with explicit "
+                "user or product discovery, user research, usability testing, or "
+                "working prototypes used to investigate and validate product ideas."
+            ),
+            "false": (
+                "There is insufficient evidence of software development combined "
+                "with research-driven product exploration; the posting describes "
+                "only predefined implementation, generic ambiguity, purely "
+                "non-engineering research/design, or academic/scientific research "
+                "without that product responsibility."
+            ),
+        },
+    ),
+    "job.domain.education": Feature(
+        key="job.domain.education",
+        scope="job",
+        version=1,
+        instructions=(
+            "Is teaching, learning, or skill development a central purpose of "
+            "this role's team, product, or substantial responsibilities? Count "
+            "education-focused labs and products serving students, educators, "
+            "schools, universities, or adult learners, including educational "
+            "software, classroom tools, tutoring, personalized learning, "
+            "assessment, practice, professional education, and skill development. "
+            "Require role-specific evidence, such as an education-focused team "
+            "mission or concrete responsibility for developing or testing "
+            "learning experiences. This is a domain filter and may match any "
+            "job function. Exclude incidental education mentions, degree "
+            "requirements, tuition benefits, employee onboarding, routine internal "
+            "training, or generic educating-customers language. Employment at "
+            "a university or an AI company alone is insufficient."
+        ),
+        criteria={
+            "true": (
+                "The role's team, product, or substantial responsibilities "
+                "explicitly center on teaching, learning, education products, "
+                "or skill development, including an education-focused lab."
+            ),
+            "false": (
+                "There is no role-specific teaching or learning purpose, or "
+                "education appears only in qualifications, benefits, onboarding, "
+                "routine training, employer identity, or incidental wording."
+            ),
+        },
+    ),
     "job.location.san_francisco": Feature(
         key="job.location.san_francisco",
         scope="job",
@@ -725,6 +792,8 @@ ACTIVE_FILTERS: dict[str, float] = {
     # "job.work.web_data_acquisition": 0.80,
     # "job.work.data_filtering_ranking": 0.80,
     # "job.work.product_ui_ux": 0.80,
+    # "job.work.research_ux_ui": 0.80,
+    # "job.domain.education": 0.80,
     # "job.work.geospatial_maps": 0.80,
     # "job.work.applied_ai": 0.80,
     # "job.work.product_ownership": 0.80,

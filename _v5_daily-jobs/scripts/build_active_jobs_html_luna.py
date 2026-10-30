@@ -39,6 +39,8 @@ JEV_FILTERS = (
     {"key": "job.work.applied_ai", "label": "Applied AI", "threshold": 0.80},
     {"key": "job.work.product_ownership", "label": "Product owner", "threshold": 0.80},
     {"key": "job.work.product_ui_ux", "label": "Product UI/UX", "threshold": 0.80},
+    {"key": "job.work.research_ux_ui", "label": "Research UX/UI", "threshold": 0.80},
+    {"key": "job.domain.education", "label": "Education", "threshold": 0.80},
     {"key": "job.work.rapid_prototyping", "label": "Rapid proto", "threshold": 0.80},
     {"key": "job.work.growth_experimentation", "label": "Growth", "threshold": 0.80},
     {"key": "job.work.data_filtering_ranking", "label": "Data filters", "threshold": 0.80},
